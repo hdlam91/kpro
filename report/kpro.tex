@@ -1,0 +1,89 @@
+\documentclass[12pt, a4paper]{article} 
+ 
+\usepackage[utf8]{inputenc}
+ 
+ 
+\usepackage{geometry} % to change the page dimensions
+\geometry{a4paper} % or letterpaper (US) or a5paper or....
+ 
+\usepackage{graphicx} % support the \includegraphics command and options
+ 
+\usepackage{booktabs} % for much better looking tables
+\usepackage{array} % for better arrays (eg matrices) in maths
+\usepackage{paralist} % very flexible & customisable lists (eg. enumerate/itemize, etc.)
+\usepackage{verbatim} % adds environment for commenting out blocks of text & for better verbatim
+\usepackage{subfig} % make it possible to include more than one captioned figure/table in a single float
+% These packages are all incorporated in the memoir class to one degree or another...
+ 
+ 
+ 
+\usepackage{amsmath, amssymb}% for mathematical symbols
+\usepackage[colorlinks=true,linkcolor=black]{hyperref} % for hyperreferences with black color
+%\usepackage[T1]{fontenc} % Uncomment for norwegian document
+%\usepackage[norsk]{babel} %
+ 
+%%% HEADERS & FOOTERS
+\usepackage{fancyhdr} % This should be set AFTER setting up the page geometry
+\pagestyle{fancy} % options: empty , plain , fancy
+\renewcommand{\headrulewidth}{0pt} % customise the layout...
+\lhead{}\chead{}\rhead{}
+\lfoot{}\cfoot{\thepage}\rfoot{}
+ 
+%%% SECTION TITLE APPEARANCE
+\usepackage{sectsty}
+\allsectionsfont{\sffamily\mdseries\upshape} % (See the fntguide.pdf for font help)
+% (This matches ConTeXt defaults)
+ 
+%%% ToC (table of contents) APPEARANCE
+\usepackage[nottoc,notlof,notlot]{tocbibind} % Put the bibliography in the ToC
+\usepackage[titles,subfigure]{tocloft} % Alter the style of the Table of Contents
+\renewcommand{\cftsecfont}{\rmfamily\mdseries\upshape}
+\renewcommand{\cftsecpagefont}{\rmfamily\mdseries\upshape} % No bold!
+ 
+ 
+ 
+%%% END Article customizations
+ 
+%%% The "real" document content comes below...
+ 
+\title{\normalsize Customer driven project, TDT4290 \\ \LARGE \textbf{Automatic Import of Completed Ads} \normalsize \\Adresseavisen AS}
+\author{Erlend Løkken Sigholt \\ Truls Hamborg \\ Hong-Dang Lam}
+%\date{} % Activate to display a given date or no date (if empty),
+         % otherwise the current date is printed 
+ 
+\begin{document}
+\maketitle
+\newpage
+\begin{abstract}
+ 
+Abstract
+ 
+\end{abstract}
+ 
+\newpage
+\hrule
+\subsection*{Preface}
+Insert Preface here
+\newpage
+\tableofcontents
+\newpage
+ 
+\section{Section}
+\subsection{Roles}
+\begin{center}
+  \begin{tabular}{| l  c  b{5cm}|}
+    \hline
+    Role & Name & Responsibility \\ \hline \hline
+    Scrum Master & Truls Hamborg &  <insert scrumstuff here>\\ \hline
+    Documentation Manager & Truls Hamborg &  <insert stuff here>\\ \hline
+    Product Owner (scrum role) & Adressa & <insert stuff here>\\ \hline
+    Lead coder/Implementation manager & Erlend Sigholt & Implements and takes care of the code \\ \hline
+    Secretary & Erlend Sigholt & Takes notes during meeting(s) \\ \hline
+    Customer and Supervisor contact & Hong-Dang Lam & Contact-person for customer and supervisor \\ \hline
+    Administrator \& System Architect & Hong-Dang Lam & Maintain the architect of the system \\
+    \hline
+  \end{tabular}
+\end{center}
+\subsubsection{subsubsection}
+ 
+\end{document}
