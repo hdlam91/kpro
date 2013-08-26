@@ -116,3 +116,7 @@ report/*.log
 report/*.out
 report/*.pdf
 report/*.xml
+report/*.gz
+report/*.toc
+
+
