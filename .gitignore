@@ -12,6 +12,7 @@ TestResults
 *.suo
 *.user
 *.sln.docstates
+report/.DS_Store
 
 # Build results
 [Dd]ebug/
@@ -118,5 +119,3 @@ report/*.pdf
 report/*.xml
 report/*.gz
 report/*.toc
-
-
