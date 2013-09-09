@@ -1,0 +1,136 @@
+\documentclass[12pt, a4paper]{article} 
+ 
+\usepackage[utf8]{inputenc}
+ 
+ 
+\usepackage{geometry} % to change the page dimensions
+\geometry{a4paper} % or letterpaper (US) or a5paper or....
+ 
+\usepackage{graphicx} % support the \includegraphics command and options
+ 
+\usepackage{booktabs} % for much better looking tables
+\usepackage{array} % for better arrays (eg matrices) in maths
+\usepackage{paralist} % very flexible & customisable lists (eg. enumerate/itemize, etc.)
+\usepackage{verbatim} % adds environment for commenting out blocks of text & for better verbatim
+\usepackage{subfig} % make it possible to include more than one captioned figure/table in a single float
+% These packages are all incorporated in the memoir class to one degree or another...
+ 
+ 
+ 
+\usepackage{amsmath, amssymb}% for mathematical symbols
+\usepackage[colorlinks=true,linkcolor=black]{hyperref} % for hyperreferences with black color
+%\usepackage[T1]{fontenc} % Uncomment for norwegian document
+%\usepackage[norsk]{babel} %
+ 
+%%% HEADERS & FOOTERS
+\usepackage{fancyhdr} % This should be set AFTER setting up the page geometry
+\pagestyle{fancy} % options: empty , plain , fancy
+\renewcommand{\headrulewidth}{0pt} % customise the layout...
+\lhead{}\chead{}\rhead{}
+\lfoot{}\cfoot{\thepage}\rfoot{}
+ 
+%%% SECTION TITLE APPEARANCE
+\usepackage{sectsty}
+\allsectionsfont{\sffamily\mdseries\upshape} % (See the fntguide.pdf for font help)
+% (This matches ConTeXt defaults)
+ 
+%%% ToC (table of contents) APPEARANCE
+\usepackage[nottoc,notlof,notlot]{tocbibind} % Put the bibliography in the ToC
+\usepackage[titles,subfigure]{tocloft} % Alter the style of the Table of Contents
+\renewcommand{\cftsecfont}{\rmfamily\mdseries\upshape}
+\renewcommand{\cftsecpagefont}{\rmfamily\mdseries\upshape} % No bold!
+
+\begin{document}
+
+\section{User Stories}
+
+We created the following user stories from the customer-provided project
+description, and meetings with the customer.
+\\\\
+\begin{tabular}{| l | l |}
+	\hline
+	\textbf{Actor} & C1.Customer \\
+	\hline
+	\textbf{Description} & Customer submits a completed ad \\
+	\hline
+	\textbf{Example} & Real estate agent sends a completed ad in pdf-format to the system,\\
+	& with accompanying data. The data is automatically put in the correct\\
+	& databases/tables \\
+	\hline
+	
+\end{tabular}
+\\\\\\
+\begin{tabular}{| l | l |}
+	\hline
+	\textbf{Actor} & C2.Customer \\
+	\hline
+	\textbf{Description} & Customer reviews and selects product options \\
+	\hline
+	\textbf{Example} & A Real estate agent wants to insert an ad in the system.\\
+	& The system displays available products, and when one is selected,\\
+	& will list the next five available booking dates for this product,\\
+	& and its options.\\
+	\hline
+	
+\end{tabular}
+\\\\\\
+\begin{tabular}{| l | l |}
+	\hline
+	\textbf{Actor} & D1.Developer \\
+	\hline
+	\textbf{Description} & Decides to develop a plugin for the system \\
+	\hline
+	\textbf{Example} & Starts IDE of choice, and develops a plugin/extension,\\
+	& using the interfaces and polymorphism provided. \\
+	\hline
+	
+\end{tabular}
+\\\\\\
+\begin{tabular}{| l | l |}
+	\hline
+	\textbf{Actor} & D2.Developer \\
+	\hline
+	\textbf{Description} & Developer wishes to use framework in/with other application \\
+	\hline
+	\textbf{Example} & The developer, being already familiar with Microsoft Web API, quickly \\
+	& integrates the Web API compliant framework with his intended target.\\
+	\hline
+	
+\end{tabular}
+\\\\\\
+\begin{tabular}{| l | l |}
+	\hline
+	\textbf{Actor} & D3.Developer \\
+	\hline
+	\textbf{Description} & Wishes to quickly understand system components for extension \\
+	\hline
+	\textbf{Example} & Reads attached developer documentation in IDE, or as attached html/xml.\\
+	& Quickly sees what each individual method does, and can easily \\
+	& extend the system.\\
+	\hline
+	
+\end{tabular}
+\\\\\\
+\begin{tabular}{| l | l |}
+	\hline
+	\textbf{Actor} & C3.Customer \\
+	\hline
+	\textbf{Description} & Customer tries to submit an ad with insufficient information \\
+	\hline
+	\textbf{Example} & The customet tries to add a pdf-file, but doesn't provide the necessary data;\\
+	& I.e. didn't specify a price or place. The system rejects the ad.\\
+	& The database remains coherent.\\
+	\hline
+	
+\end{tabular}
+
+\subsection{Non-functional Requirements}
+
+From these user stories, the following Non-Functional Requirements can be extracted. 
+
+\itemize
+\item Compliance (with Microsoft Web API)
+\item Extensibility (through polymorphism)
+\item Documentation (for Developers)
+
+\end{document}
