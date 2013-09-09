@@ -13,6 +13,7 @@ TestResults
 *.user
 *.sln.docstates
 report/.DS_Store
+documentation/.DS_Store
 
 # Build results
 [Dd]ebug/
