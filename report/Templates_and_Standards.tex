@@ -17,7 +17,7 @@
 
 \usepackage{amsmath, amssymb}% for mathematical symbols
 \usepackage[colorlinks=true,linkcolor=black]{hyperref} % for hyperreferences with black color
-%\usepackage[T1]{fontenc} % Uncomment for norwegian document
+\usepackage[T1]{fontenc} % Uncomment for norwegian document
 %\usepackage[norsk]{babel} %
  
 %%% HEADERS & FOOTERS
@@ -38,9 +38,29 @@
 \renewcommand{\cftsecfont}{\rmfamily\mdseries\upshape}
 \renewcommand{\cftsecpagefont}{\rmfamily\mdseries\upshape} % No bold!
 
+%%%Code
+\usepackage{color}
+\definecolor{bluekeywords}{rgb}{0.13,0.13,1}
+\definecolor{greencomments}{rgb}{0,0.5,0}
+\definecolor{redstrings}{rgb}{0.9,0,0}
+
+\usepackage{listings}
+\lstset{language=[Sharp]C,
+showspaces=false,
+showtabs=false,
+breaklines=true,
+showstringspaces=false,
+breakatwhitespace=true,
+escapeinside={(*@}{@*)},
+commentstyle=\color{greencomments},
+keywordstyle=\color{bluekeywords}\bfseries,
+stringstyle=\color{redstrings},
+basicstyle=\ttfamily
+}
+
 \begin{document}
 
-\section{Templates}
+\section{Templates}The
 We have created the following templates for documents used in the process:
 
 \begin{itemize}
@@ -54,7 +74,135 @@ We have created the following templates for documents used in the process:
 We have established the following standards for the project:
 
 \subsection{Documents}
+For internal documents we have established the naming standard:
+
+DD\_MM\_<Description>\_<Version if applicable>
+\\
+This is to ensure documents are properly sorted, and that they are easily identifiable.
+
+
 
 \subsection{Coding}
+We will be using C\# as a programming language, and will consequently be following the C\# coding standards, as outlined by Microsoft <cite http://msdn.microsoft.com/en-us/library/vstudio/ff926074.aspx here>.
+\\\\
+The guidelines are summarized in the following section.\\
+
+\subsubsection{Naming and variables}
+Use CamelCase for method names and classes.
+Example:\\
+\begin{lstlisting}
+public class ExampleClass
+{
+	public abstract void ExampleMethod(int intName, String stringName);
+}
+\end{lstlisting}
+
+Variables shall be named after the lowerUpper scheme, where the first word is in lowercase, and any others starts with an uppercase letter.
+Example:\\
+\begin{lstlisting}
+int exampleVariable = 1;
+int stringExample = "This is an example";
+\end{lstlisting}
+
+\subsubsection{Comments and layout}
+Blocks shall start and end with curly brackets on their own line.
+
+Comments shall have a space before the comment follows the slashes. Continuation lines shall be indented. All comments shall start with a capital letter, and end with a period.
+
+There shall be only one statement per line. The same goes for declarations. Parantheses shall be used to separate clauses in expressions, to ease understanding.
+
+\begin{lstlisting}
+// This is a single line comment
+void Foo()
+{
+	// The following is correct:
+	int x;
+	int y;
+	
+	// The following is incorrect:
+	int x,y;
+	
+	// This is a multi line comment, 
+	// This is line two of a multi line comment
+
+	
+	if(true)
+	{
+		StatementOne();
+		StatementTwo();
+		
+		if ((var1 && var2) || (var3 && var4))
+		{
+			Bar();
+		}
+	}
+}
+\end{lstlisting}
+
+\subsubsection{Variables, types, and declaration}
+Implicitly typed local variables can be used when the right hand side clearly indicates type, or it's not important.
+
+Use in-line instantiation with constructors when possible, instead of instantiation and assignment.
+
+Short strings shall be appended with the use of the + operator. Longer ones in loops shall use StringBuilder.\\
+
+Example:
+\begin{lstlisting}
+// Apparent use of string. Use of var ok:
+var name = "SampleString";
+
+// Type inconsequential:
+foreach(var v in collection)
+{
+	//Type-independent method:
+	handleVar(v);
+}
+
+// Array instantiation with constructor:
+int[] numbers = { 1, 2, 3, 4 };
+
+//Use of var requires explicit instantiation
+var numbers2 = new int[] { 1, 2, 3, 4 };
+
+//Avoid this if you could have used the above:
+int[] numbers3 = new int[4];
+int[0] = 1;
+int[1] = 2;
+// Etc.
+
+//Short string example
+string simpleString = "This is " + var + "test-string." + var2 + "something."
+
+//String builder example
+string longString = "LongLongLong";
+var longBuilder = new StringBuilder();
+for(int i = 0; i < 1000; i++)
+{
+	longBuilder.Append(longString);
+}
+
+\end{lstlisting}
+
+
+\subsubsection{Exceptions and scope}
+<Using statem. and exceptions here>
+
+\subsubsection{Clean Coding}
+We have also endeavoured to follow the ten Clean Coding principles, as outlined by <insert ref to http://www.onextrapixel.com/2011/01/20/10-principles-for-keeping-your-programming-code-clean/ here>.
+The ten principles are as following:
+\begin{enumerate}
+
+\item Revise your logic before coding
+\item Clearly expose the structure of the page
+\item Use the correct indentation
+\item Write explanatory comments
+\item Avoid abusing comments
+\item Avoid extremely large functions
+\item Use naming standards of functions and variables
+\item Treat changes with caution
+\item Avoid indiscriminate mixing of coding languages
+\item Summarize your imports
+
+\end{enumerate}
 
 \end{document}
