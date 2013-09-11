@@ -110,13 +110,18 @@ Backup*/
 UpgradeLog*.XML
 
 #pdflatex creates files that shouldn't be pushed
-report/*.aux
-report/*.bbl
-report/*.bcf
-report/*.blg
+*.aux
+*.bbl
+*.bcf
+*.blg
 report/*.log
-report/*.out
+*.out
 report/*.pdf
 report/*.xml
-report/*.gz
-report/*.toc
+*.gz
+*.toc
+
+documentation/weekly_report/*.log
+documentation/weekly_report/*.pdf
+documentation/weekly_report/*.xml
+
