@@ -184,8 +184,32 @@ for(int i = 0; i < 1000; i++)
 \end{lstlisting}
 
 
-\subsubsection{Exceptions and scope}
-<Using statem. and exceptions here>
+\subsubsection{Try-catch, exceptions and using}
+Exception handling shall be done by try-catch statements.
+Code shall not unexpectedly throw exceptions; only when something unrecoverable has happened.
+
+In the case of a try-finally statement, a using statement shall be used instead, if the only function of
+the finally-block is disposing/closing of the used object.
+\\
+\begin{lstlisting}
+Socket socket = new Socket();
+try
+{
+	socket.SomeMethod();
+}
+finally
+{
+	socket.Close();
+}
+// Can be replaced by:
+using (Socket socket = new Socket();)
+{
+	socket.SomeMethod();
+}
+\end{lstlisting}
+
+\subsection{Static Members}
+Static members shall always be called by class name, and never accessed in a derived class when defined in a base class.
 
 \subsubsection{Clean Coding}
 We have also endeavoured to follow the ten Clean Coding principles, as outlined by <insert ref to http://www.onextrapixel.com/2011/01/20/10-principles-for-keeping-your-programming-code-clean/ here>.
