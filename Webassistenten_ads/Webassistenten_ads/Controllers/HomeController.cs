@@ -8,6 +8,8 @@ namespace Webassistenten_ads.Controllers
 {
     public class HomeController : Controller
     {
+        // Added a dev branch
+
         public ActionResult Index()
         {
             ViewBag.Message = "Modify this template to jump-start your ASP.NET MVC application.";
