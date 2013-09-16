@@ -7,5 +7,6 @@ namespace Webassistenten_ads.Repository
 {
     public class GetDatesQuery
     {
+
     }
 }
