@@ -180,12 +180,15 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\AdHandlerLogic.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\RealEstateAdHandlerLogic.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Address.cs" />
-    <Compile Include="Models\DataObject.cs" />
+    <Compile Include="Models\AdInfo.cs" />
+    <Compile Include="Models\RealEstateAdInfo.cs" />
     <Compile Include="Models\HomeViewModel.cs" />
     <Compile Include="Models\Realtor.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
