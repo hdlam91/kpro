@@ -8,9 +8,9 @@ namespace Webassistenten_ads.Models
 {
     public class RealEstateAdInfo : AdInfo
     {
-        private int RealtorId { get; set; }
+        private int RealtorId { get; set; } //This should possibly be a class/connected to one, since the ID is connected to where to save the ad.
 
-        private int ProductId { get; set; }
+        private int ProductId { get; set; } //Same as RealtorId
 
         private Realtor ResponsibleRealtor { get; set; }
 
