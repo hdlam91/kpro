@@ -87,9 +87,30 @@ We will be using C\# as a programming language, and will consequently be followi
 \\\\
 The guidelines are summarized in the following section.\\
 
+\subsubsection{Documentation}
+All public classes, methods, and preferably properties/fields shall be documented with comments which will enable generation of documentation. Example:
+\begin{lstlisting}
+/// <summary>
+/// This is a summary of what the class contains and its intended function
+/// </summary>
+/// <author>Author Name</author>
+public class ExampleClass
+{
+	/// <summary>
+	/// This summary tells what the method does, any side-effects, and how/why to use it.
+	/// It should NOT say how the method does what it does, unless this is absolutely neccessary.
+	/// </summary>
+	/// <param name="intName">int</praram>
+	/// <param name="stringName">String</praram>
+	/// <returns>String</returns>
+	/// <author>Author Name</author>
+	public abstract String ExampleMethod(int intName, String stringName);
+}
+\end{lstlisting}
+
 \subsubsection{Naming and variables}
 Use CamelCase for method names and classes.
-Example:\\
+Example:
 \begin{lstlisting}
 public class ExampleClass
 {
