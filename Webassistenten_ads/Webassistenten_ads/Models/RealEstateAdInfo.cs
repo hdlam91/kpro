@@ -6,7 +6,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace Webassistenten_ads.Models
 {
-    public class DataObject
+    public class RealEstateAdInfo : AdInfo
     {
         private int RealtorId { get; set; }
 
