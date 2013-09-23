@@ -60,7 +60,7 @@ basicstyle=\ttfamily
 
 \begin{document}
 
-\section{Templates}The
+\section{Templates}
 We have created the following templates for documents used in the process:
 
 \begin{itemize}
@@ -76,7 +76,7 @@ We have established the following standards for the project:
 \subsection{Documents}
 For internal documents we have established the naming standard:
 
-DD\_MM\_<Description>\_<Version if applicable>
+MM\_DD\_<Description>\_<Version if applicable>
 \\
 This is to ensure documents are properly sorted, and that they are easily identifiable.
 
@@ -109,12 +109,14 @@ public class ExampleClass
 \end{lstlisting}
 
 \subsubsection{Naming and variables}
-Use CamelCase for method names and classes.
+Use CamelCase for classes, method names and properties.
 Example:
 \begin{lstlisting}
 public class ExampleClass
 {
 	public abstract void ExampleMethod(int intName, String stringName);
+	
+	private int ExampleProperty { get; set; }
 }
 \end{lstlisting}
 
@@ -128,7 +130,7 @@ int stringExample = "This is an example";
 \subsubsection{Comments and layout}
 Blocks shall start and end with curly brackets on their own line.
 
-Comments shall have a space before the comment follows the slashes. Continuation lines shall be indented. All comments shall start with a capital letter, and end with a period.
+Comments shall have a space between the double slashes and the actual comment. Continuation lines shall be indented. All comments shall start with a capital letter, and end with a period.
 
 There shall be only one statement per line. The same goes for declarations. Parantheses shall be used to separate clauses in expressions, to ease understanding.
 
@@ -143,7 +145,7 @@ void Foo()
 	// The following is incorrect:
 	int x,y;
 	
-	// This is a multi line comment, some more text this is line two of a multi line comment
+	// This is a multi line comment, with more text this is line two of a multi line comment
 
 	
 	if(true)
@@ -186,12 +188,12 @@ var numbers2 = new int[] { 1, 2, 3, 4 };
 
 //Avoid this if you could have used the above:
 int[] numbers3 = new int[4];
-int[0] = 1;
-int[1] = 2;
+numbers3[0] = 1;
+numbers3[1] = 2;
 // Etc.
 
 //Short string example
-string simpleString = "This is " + var + "test-string." + var2 + "something."
+string simpleString = "This is our " + var1 + "test-string." + var2 + "something."
 
 //String builder example
 string longString = "LongLongLong";
