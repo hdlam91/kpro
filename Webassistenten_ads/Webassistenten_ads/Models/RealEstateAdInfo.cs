@@ -8,6 +8,33 @@ namespace Webassistenten_ads.Models
 {
     public class RealEstateAdInfo : AdInfo
     {
+		public RealEstateAdInfo()
+		{
+			// Setting ints to -1 to indicate they're not set 
+			RealtorId = -1;
+			ProductId = -1;
+			Type = -1;
+			Price = -1;
+			ZipCode = -1;
+			FinnCode = -1;
+			ContractNr = -1;
+			P_rom = -1.0;
+			Boa = -1.0;
+			Bta = -1.0;
+			Bra = -1.0;
+			Costs = -1;
+			PurchaseCosts = -1;
+			CommonCosts = -1;
+			AmountSharedDebt = -1;
+			CommonExpenses = -1;
+			PropertyArea = -1;
+			Floor = -1;
+			Bedrooms = -1;
+			Rooms = -1;
+			RealEstAgentMobile = -1;
+			RealEstAgentPhone = -1;
+		}
+
 		// Mandatory fields:
 
         private int RealtorId { get; set; } // This should possibly be a class/connected to one, since the ID is connected to where to save the ad.
@@ -34,13 +61,13 @@ namespace Webassistenten_ads.Models
 
         private DateTime BookingDate { get; set; }
 
-        private int FinnCode { get; set; }	// Move to AdInfo?
-
 		// Non-mandatory fields below:
+
+        private int FinnCode { get; set; }	// Move to AdInfo?
 
 		private int ContractNr { get; set;}
 
-		private float P_rom { get; set; }
+		private float P_rom { get; set; }	// TODO: Translate acronyms to English 
 
 		private float Boa { get; set; }
 
