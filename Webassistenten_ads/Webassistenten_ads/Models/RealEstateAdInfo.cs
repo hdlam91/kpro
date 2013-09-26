@@ -8,9 +8,11 @@ namespace Webassistenten_ads.Models
 {
     public class RealEstateAdInfo : AdInfo
     {
-        private int RealtorId { get; set; } //This should possibly be a class/connected to one, since the ID is connected to where to save the ad.
+		// Mandatory fields:
 
-        private int ProductId { get; set; } //Same as RealtorId
+        private int RealtorId { get; set; } // This should possibly be a class/connected to one, since the ID is connected to where to save the ad.
+
+        private int ProductId { get; set; } // Same as RealtorId
 
         private Realtor ResponsibleRealtor { get; set; }
 
@@ -32,8 +34,56 @@ namespace Webassistenten_ads.Models
 
         private DateTime BookingDate { get; set; }
 
-        private int FinnCode { get; set; }
+        private int FinnCode { get; set; }	// Move to AdInfo?
 
+		// Non-mandatory fields below:
 
+		private int ContractNr { get; set;}
+
+		private float P_rom { get; set; }
+
+		private float Boa { get; set; }
+
+		private float Bta { get; set; }
+
+		private float Bra { get; set; }
+
+		private int Costs { get; set; }
+
+		private int PurchaseCosts { get; set; }
+
+		private int CommonCosts { get; set; }
+
+		private int AmountSharedDebt { get; set; }
+
+		private int CommonExpenses { get; set; }
+
+		private int PropertyArea { get; set; }
+
+		private PropertyType PropertyType { get; set; }
+
+		private DateTime ConstructionYear { get; set; }
+
+		private int Floor { get; set; }
+
+		private int Bedrooms { get; set; }
+
+		private int Rooms { get; set; }
+
+		private DateTime OpenHouseDate { get; set; }	// Visningdato
+
+		private String OpenHouseText { get; set; }	// TODO: Consider better representation than String
+
+		private String RealEstAgentName { get; set; }
+
+		private String RealEstAgentTitle { get; set; }
+
+		private int RealEstAgentMobile { get; set; }
+
+		private int RealEstAgentPhone { get; set; }
+
+		private System.Net.Mail.MailAddress RealEstAgentEmail { get; set; }
+
+		private String AdText { get; set; }	// Is this the best representation for the text?
     }
 }

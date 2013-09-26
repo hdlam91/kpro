@@ -173,6 +173,7 @@
     <Compile Include="Repository\GetDatesQuery.cs" />
     <Compile Include="Controllers\DatabaseLogic.cs" />
     <Compile Include="Controllers\MethodsToImplement.cs" />
+    <Compile Include="Models\PropertyType.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
