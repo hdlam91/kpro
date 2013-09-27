@@ -1,0 +1,168 @@
+\documentclass[12pt, a4paper]{article} 
+ 
+\usepackage[utf8]{inputenc}
+ 
+ 
+\usepackage{geometry} % to change the page dimensions
+\geometry{a4paper} % or letterpaper (US) or a5paper or....
+ 
+\usepackage{graphicx} % support the \includegraphics command and options
+ 
+\usepackage{booktabs} % for much better looking tables
+\usepackage{array} % for better arrays (eg matrices) in maths
+\usepackage{paralist} % very flexible & customisable lists (eg. enumerate/itemize, etc.)
+\usepackage{verbatim} % adds environment for commenting out blocks of text & for better verbatim
+\usepackage{subfig} % make it possible to include more than one captioned figure/table in a single float
+% These packages are all incorporated in the memoir class to one degree or another...
+ 
+ 
+ 
+\usepackage{amsmath, amssymb}% for mathematical symbols
+\usepackage[colorlinks=true,linkcolor=black]{hyperref} % for hyperreferences with black color
+\usepackage[T1]{fontenc} % Uncomment for norwegian document
+%\usepackage[norsk]{babel} %
+ 
+%%% HEADERS & FOOTERS
+\usepackage{fancyhdr} % This should be set AFTER setting up the page geometry
+\pagestyle{fancy} % options: empty , plain , fancy
+\renewcommand{\headrulewidth}{0pt} % customise the layout...
+\lhead{}\chead{}\rhead{}
+\lfoot{}\cfoot{\thepage}\rfoot{}
+ 
+%%% SECTION TITLE APPEARANCE
+\usepackage{sectsty}
+\allsectionsfont{\sffamily\mdseries\upshape} % (See the fntguide.pdf for font help)
+% (This matches ConTeXt defaults)
+ 
+%%% ToC (table of contents) APPEARANCE
+\usepackage[nottoc,notlof,notlot]{tocbibind} % Put the bibliography in the ToC
+\usepackage[titles,subfigure]{tocloft} % Alter the style of the Table of Contents
+\renewcommand{\cftsecfont}{\rmfamily\mdseries\upshape}
+\renewcommand{\cftsecpagefont}{\rmfamily\mdseries\upshape} % No bold!
+ 
+ 
+ 
+%%% END Article customizations
+ 
+%%% The "real" document content comes below...
+ 
+\title{Weekly Status Report}
+\author{Audun Skjervold \\ Erlend Løkken Sigholt \\ Truls Hamborg \\ Hong-Dang Lam}
+%\date{} % Activate to display a given date or no date (if empty),
+         % otherwise the current date is printed 
+ 
+\begin{document}
+\maketitle
+\newpage
+%\begin{abstract}
+
+%\end{abstract}
+ 
+\newpage
+\hrule
+%\subsection*{Preface}
+%Insert Preface here
+\newpage
+%\tableofcontents
+%\newpage
+
+\begin{center}
+Weekly status report, week 38 and 39.
+  \begin{tabular}{| l  c |}
+    \hline
+    Project & \\ \hline
+    \textbf{Project name:} & Customer Driven Project - Group 15 \\
+    \textbf{Customer:} & Adresseavisen. \\ \hline
+     & \\
+     \textbf{Participants} & \\ \hline
+     Audun Skjervold & Truls Hamborg \\
+     Erlend Løkken Sigholt & Hong-Dang Lam \\
+    \hline
+  \end{tabular}
+  \end{center}
+
+
+
+
+\section{Summary}
+In these weeks we have worked with sprint 1. We have learned a considerable amount about the project, and run into quite a few problems which will be outlined below. Teh coding project is now underway, but not as far as we would like it to be.
+\section{Work done this period}
+Sprint 1 - More detail on Trello\\
+Some highlights:\\
+- Set up database for testing\\
+- Created data object(s), and elementary logic\\
+\\
+Also outlined complete report, and fleshed out existing parts.
+\subsection{Status of documents}
+- Report outline draft complete.\\
+- Architecture not far from complete.
+\\\\
+Attached are the outline, and the minutes from the customer meeting, as well as those from the last status report meeting.
+\subsection{Meetings}
+These are the meetings we have had:
+\begin{itemize}
+\item Customer meeting, Fri. 20
+\end{itemize}
+\section{Time used}
+  \begin{tabular}{| l | l | r | r |}
+    \hline
+    \textbf{Week} & \textbf{Activity} & \textbf{Estimated} & \textbf{Actual}\\ \hline
+    \textbf{38 and 39} & Coding & 175 & 15 \\ \hline
+     & Project management & 20 & 25 \\ \hline
+     & Documentation & 10 & 30 \\ \hline
+     & Tool-setup & 0 & 20 \\ \hline
+     & Requirements refinement & 5 & 2 \\ \hline
+     \textbf{Total }&  & 200 & 93 \\
+    \hline
+  \end{tabular}
+\\Comment: Several days lost to unaviodable illness and other unaviodable absence
+
+\section{Problems and issues}
+Setting up a Microsoft SQL server for viewing the database dump we got from the customer,
+and for testing against later, proved to be extremely challenging. We ran into serious problems
+with installation and dependencies, which were not improved by the need for three separate software
+packages, which needed separate download and installation.
+
+Before the sprint we did not anticipate the need for this set-up, because the customer said they would do
+it for us. We should probably have pushed them more to do it.
+
+We also lost some work-hours due to group illness, and subsequent catch-up in other subjects with shorter deadlines. Some work-hours were also lost to family-problems. 
+
+\section{Planning for the following period}
+Sprint 2, some brief points:\\
+\begin{itemize}
+\item Database submission
+\item Database model for interaction
+\item Database retrieval
+\item Databaseentry rollback support
+\end{itemize}
+\subsection{Meetings}
+- Sprint 2 planning, 30th sept.\\
+- Sprint 2 review, 11th Oct.
+\newpage
+\section{Meeting agenda }
+\begin{itemize}
+\item \textbf{Time:} 12:00-13:00 (or 12pm to 13pm).
+\item \textbf{Place:} ITV\\
+\item \textbf{Attendees:} Group 15 - \\Audun Skjervold \\ Truls Hamborg \\
+     Erlend Løkken Sigholt \\ Hong-Dang Lam \\ \\ \textbf{Advisor:} Meng Zhu
+\item \textbf{Agenda:} 
+	\begin{itemize}
+	\item Approval of agenda
+	\item Approval of minutes from previous advisor meeting
+	\item Comments to the minutes from customer meeting.
+	\item Approval of the status report
+		\begin{itemize}
+		\item Summary
+		\item Work done this period
+		\item Problems
+		\item Planning of work for the next period
+		\item Eventual other items
+	\end{itemize}
+	\item Sprint 1 evaluation
+	\item Eventual other items
+	\end{itemize}
+\end{itemize}
+
+
+\end{document}
