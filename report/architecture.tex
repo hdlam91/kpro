@@ -55,6 +55,7 @@ The course evaluator needs to be satisfied if we want a good grade, that means t
 \subsubsection{Supervisor}
 The supervisor said in the first meeting that he would fight for our grade given that he was satisfied. This means that we should complete the project deliver a well documented report. \\ We should also take advices from him, especially when there's issues among us in which we need to tell the supervisor so he can help solve the issue.
 \subsubsection{Implementers}
+The architecture should be easy to implement and make sense to the coders.
 
 \subsection{Quality Attributes}
 The customer was very specific when it came to what they wanted.
@@ -70,16 +71,55 @@ Needs to inter-operate with already-existing order system, this will be done by 
 \subsection{Views}
 
 \subsubsection{Logical view}
-
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.8\textwidth]{images/architecture00.png}
+\caption{Logical view}
+\label{fig:logical_view}
+\end{figure}
 \subsubsection{Process view}
-
+\newpage
 \subsubsection{Scenario view}
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.8\textwidth]{images/architecture01.png}
+\caption{Scenario view}
+\label{fig:scenario_view}
+\end{figure}
+
+
 
 \subsubsection{Physical view}
-
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.8\textwidth]{images/architecture02.png}
+\caption{Physical view, we implement the red arrows}
+\label{fig:physical_view}
+\end{figure}
 
 \subsection{Patterns}
-MVC due to the technology and pipe \& \ filter to filter the data.
+MVC due to the technology and pipe \&  filter to filter the data and due to the modifiability requirement.
 \subsection{Tactics}
+\subsubsection{Modifiability}
+\begin{itemize}
+\item Increase semantic cohesion
+\item Decrease coupling
+\item Split modules
+\end{itemize}
+
+\subsubsection{Performance}
+\begin{itemize}
+\item Write optimal code
+\end{itemize}
+
+\subsubsection{Availability}
+\begin{itemize}
+\item Our code should not crash the customer's system, but it's their responsibility that the system is available.
+\end{itemize}
+
+\subsubsection{Interoperability}
+\begin{itemize}
+\item The technology and tools we're using should be sufficient to ensure interoperability
+\end{itemize}
 
 \end{document}
