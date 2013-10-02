@@ -2,7 +2,7 @@ using System;
 
 namespace Webassistenten_ads
 {
-	public class MethodsToImplement
+	public abstract class MethodsToImplement
 	{
 		public MethodsToImplement ()
 		{
@@ -11,11 +11,16 @@ namespace Webassistenten_ads
 		public abstract void CancelOrder()
 		{
 			RollBackQuery ();
+			ResetFields();
 		}
+
+		public abstract void ResetFields();
 
 		public abstract void RollBackQuery();
 
 		public abstract void StoreQuery();
+
+		public abstract void ExecuteQuery();
 	}
 }
 

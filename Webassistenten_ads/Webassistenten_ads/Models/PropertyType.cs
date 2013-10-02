@@ -7,6 +7,8 @@ namespace Webassistenten_ads
 		public PropertyType ()
 		{
 		}
+
+		private int Id { get; set; }
 	}
 }
 
