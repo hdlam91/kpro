@@ -4,6 +4,11 @@ namespace Webassistenten_ads
 {
 	public class PropertyType
 	{
+
+		/// <summary>
+		/// Initializes a new instance of the <see cref="Webassistenten_ads.PropertyType"/> class.
+		/// </summary>
+		/// <param name="id">Identifier.</param>
 		public PropertyType (int id)
 		{
 			Id = id;

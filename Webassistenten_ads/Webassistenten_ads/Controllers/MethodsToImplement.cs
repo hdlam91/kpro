@@ -8,6 +8,9 @@ namespace Webassistenten_ads
 		{
 		}
 
+		/// <summary>
+		/// Will cancel the current order, and rollback any changes made to the database
+		/// </summary>
 		public abstract void CancelOrder()
 		{
 			RollBackQuery();

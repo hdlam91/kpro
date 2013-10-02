@@ -8,6 +8,10 @@ namespace Webassistenten_ads.Models
 {
     public class RealEstateAdInfo : AdInfo
     {
+		/// <summary>
+		/// Initializes a new instance of the <see cref="Webassistenten_ads.Models.RealEstateAdInfo"/> class, with all non-nullable mumbers set to -1
+		/// to mark them as not set to a proper value.
+		/// </summary>
 		public RealEstateAdInfo()
 		{
 			// Setting ints to -1 to indicate they're not set 
