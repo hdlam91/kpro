@@ -1,0 +1,258 @@
+\documentclass[12pt, a4paper]{article} 
+ 
+\usepackage[utf8]{inputenc}
+ 
+ 
+\usepackage{geometry} % to change the page dimensions
+\geometry{a4paper} % or letterpaper (US) or a5paper or....
+ 
+\usepackage{graphicx} % support the \includegraphics command and options
+ 
+\usepackage{booktabs} % for much better looking tables
+\usepackage{array} % for better arrays (eg matrices) in maths
+\usepackage{paralist} % very flexible & customisable lists (eg. enumerate/itemize, etc.)
+\usepackage{verbatim} % adds environment for commenting out blocks of text & for better verbatim
+\usepackage{subfig} % make it possible to include more than one captioned figure/table in a single float
+% These packages are all incorporated in the memoir class to one degree or another...
+
+\usepackage{amsmath, amssymb}% for mathematical symbols
+\usepackage[colorlinks=true,linkcolor=black]{hyperref} % for hyperreferences with black color
+\usepackage[T1]{fontenc} % Uncomment for norwegian document
+%\usepackage[norsk]{babel} %
+ 
+%%% HEADERS & FOOTERS
+\usepackage{fancyhdr} % This should be set AFTER setting up the page geometry
+\pagestyle{fancy} % options: empty , plain , fancy
+\renewcommand{\headrulewidth}{0pt} % customise the layout...
+\lhead{}\chead{}\rhead{}
+\lfoot{}\cfoot{\thepage}\rfoot{}
+ 
+%%% SECTION TITLE APPEARANCE
+\usepackage{sectsty}
+\allsectionsfont{\sffamily\mdseries\upshape} % (See the fntguide.pdf for font help)
+% (This matches ConTeXt defaults)
+ 
+%%% ToC (table of contents) APPEARANCE
+\usepackage[nottoc,notlof,notlot]{tocbibind} % Put the bibliography in the ToC
+\usepackage[titles,subfigure]{tocloft} % Alter the style of the Table of Contents
+\renewcommand{\cftsecfont}{\rmfamily\mdseries\upshape}
+\renewcommand{\cftsecpagefont}{\rmfamily\mdseries\upshape} % No bold!
+
+%%%Code
+\usepackage{color}
+\definecolor{bluekeywords}{rgb}{0.13,0.13,1}
+\definecolor{greencomments}{rgb}{0,0.5,0}
+\definecolor{redstrings}{rgb}{0.9,0,0}
+
+\usepackage{listings}
+\lstset{language=[Sharp]C,
+showspaces=false,
+showtabs=false,
+breaklines=true,
+showstringspaces=false,
+breakatwhitespace=true,
+escapeinside={(*@}{@*)},
+commentstyle=\color{greencomments},
+keywordstyle=\color{bluekeywords}\bfseries,
+stringstyle=\color{redstrings},
+basicstyle=\ttfamily
+}
+
+\begin{document}
+
+\section{Templates}
+We have created the following templates for documents used in the process:
+
+\begin{itemize}
+
+\item Foo
+\item Bar
+
+\end{itemize}
+
+\section{Standards}
+We have established the following standards for the project:
+
+\subsection{Documents}
+For internal documents we have established the naming standard:
+
+MM\_DD\_<Description>\_<Version if applicable>
+\\
+This is to ensure documents are properly sorted, and that they are easily identifiable.
+
+
+
+\subsection{Coding}
+We will be using C\# as a programming language, and will consequently be following the C\# coding standards, as outlined by Microsoft <cite http://msdn.microsoft.com/en-us/library/vstudio/ff926074.aspx here>.
+\\\\
+The guidelines are summarized in the following section.\\
+
+\subsubsection{Documentation}
+All public classes, methods, and preferably properties/fields shall be documented with comments which will enable generation of documentation. Example:
+\begin{lstlisting}
+/// <summary>
+/// This is a summary of what the class contains and its intended function
+/// </summary>
+/// <author>Author Name</author>
+public class ExampleClass
+{
+	/// <summary>
+	/// This summary tells what the method does, any side-effects, and how/why to use it.
+	/// It should NOT say how the method does what it does, unless this is absolutely neccessary.
+	/// </summary>
+	/// <param name="intName">int</praram>
+	/// <param name="stringName">String</praram>
+	/// <returns>String</returns>
+	/// <author>Author Name</author>
+	public abstract String ExampleMethod(int intName, String stringName);
+}
+\end{lstlisting}
+
+\subsubsection{Naming and variables}
+Use CamelCase for classes, method names and properties.
+Example:
+\begin{lstlisting}
+public class ExampleClass
+{
+	public abstract void ExampleMethod(int intName, String stringName);
+	
+	private int ExampleProperty { get; set; }
+}
+\end{lstlisting}
+
+Variables shall be named after the lowerUpper scheme, where the first word is in lowercase, and any others starts with an uppercase letter.
+Example:\\
+\begin{lstlisting}
+int exampleVariable = 1;
+int stringExample = "This is an example";
+\end{lstlisting}
+
+\subsubsection{Comments and layout}
+Blocks shall start and end with curly brackets on their own line.
+
+Comments shall have a space between the double slashes and the actual comment. Continuation lines shall be indented. All comments shall start with a capital letter, and end with a period.
+
+There shall be only one statement per line. The same goes for declarations. Parantheses shall be used to separate clauses in expressions, to ease understanding.
+
+\begin{lstlisting}
+// This is a single line comment
+void Foo()
+{
+	// The following is correct:
+	int x;
+	int y;
+	
+	// The following is incorrect:
+	int x,y;
+	
+	// This is a multi line comment, with more text this is line two of a multi line comment
+
+	
+	if(true)
+	{
+		StatementOne();
+		StatementTwo();
+		
+		if ((var1 && var2) || (var3 && var4))
+		{
+			Bar();
+		}
+	}
+}
+\end{lstlisting}
+
+\subsubsection{Variables, types, and declaration}
+Implicitly typed local variables can be used when the right hand side clearly indicates type, or it's not important.
+
+Use in-line instantiation with constructors when possible, instead of instantiation and assignment.
+
+Short strings shall be appended with the use of the + operator. Longer ones in loops shall use StringBuilder.\\
+
+Example:
+\begin{lstlisting}
+// Apparent use of string. Use of var ok:
+var name = "SampleString";
+
+// Type inconsequential:
+foreach(var v in collection)
+{
+	//Type-independent method:
+	handleVar(v);
+}
+
+// Array instantiation with constructor:
+int[] numbers = { 1, 2, 3, 4 };
+
+//Use of var requires explicit instantiation
+var numbers2 = new int[] { 1, 2, 3, 4 };
+
+//Avoid this if you could have used the above:
+int[] numbers3 = new int[4];
+numbers3[0] = 1;
+numbers3[1] = 2;
+// Etc.
+
+//Short string example
+string simpleString = "This is our " + var1 + "test-string." + var2 + "something."
+
+//String builder example
+string longString = "LongLongLong";
+var longBuilder = new StringBuilder();
+for(int i = 0; i < 1000; i++)
+{
+	longBuilder.Append(longString);
+}
+
+\end{lstlisting}
+
+
+\subsubsection{Try-catch, exceptions and using}
+Exception handling shall be done by try-catch statements.
+Code shall not unexpectedly throw exceptions; only when something unrecoverable has happened.
+
+In the case of a try-finally statement, a using statement shall be used instead, if the only function of
+the finally-block is disposing/closing of the used object.
+\\
+\begin{lstlisting}
+Socket socket = new Socket();
+try
+{
+	socket.SomeMethod();
+}
+finally
+{
+	socket.Close();
+}
+// Can be replaced by:
+using (Socket socket = new Socket();)
+{
+	socket.SomeMethod();
+}
+\end{lstlisting}
+
+\subsection{Static Members}
+Static members shall always be called by class name, and never accessed in a derived class when defined in a base class.
+
+\subsubsection{Clean Coding}
+We have also endeavoured to follow the ten Clean Coding principles, as outlined by <insert ref to http://www.onextrapixel.com/2011/01/20/10-principles-for-keeping-your-programming-code-clean/ here>.
+The ten principles are as following:
+\begin{enumerate}
+
+\item Revise your logic before coding
+\item Clearly expose the structure of the page
+\item Use the correct indentation
+\item Write explanatory comments
+\item Avoid abusing comments
+\item Avoid extremely large functions
+\item Use naming standards of functions and variables
+\item Treat changes with caution
+\item Avoid indiscriminate mixing of coding languages
+\item Summarize your imports
+
+\end{enumerate}
+
+\subsection{APIs}
+\subsubsection{ASP .NET Web API}
+One of the agreed upon requirements for the project was that we conform to ASP .NET Web API. This to make it easier to interact with our framework from other systems (both existing and future ones). An introduction to using this API can be found at <link: http://www.asp.net/web-api or http://msdn.microsoft.com/en-us/library/hh833994(v=vs.108).aspx>.
+
+\end{document}
