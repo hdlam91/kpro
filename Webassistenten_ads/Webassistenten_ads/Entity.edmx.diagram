@@ -69,8 +69,8 @@
         <EntityTypeShape EntityType="BoligModel.ProduktHarModul" Width="1.5" PointX="13.5" PointY="13.5" IsExpanded="true" />
         <EntityTypeShape EntityType="BoligModel.ProduktStandard" Width="1.5" PointX="18.75" PointY="24.875" IsExpanded="true" />
         <EntityTypeShape EntityType="BoligModel.ProduktUtgivelse" Width="1.5" PointX="24.75" PointY="1.875" IsExpanded="true" />
-        <EntityTypeShape EntityType="BoligModel.Prospekt" Width="1.5" PointX="24.75" PointY="12.875" IsExpanded="true" />
-        <EntityTypeShape EntityType="BoligModel.ProspektHarBestilling" Width="1.5" PointX="13.5" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="BoligModel.Prospekt" Width="1.5" PointX="24.75" PointY="12.875" IsExpanded="true" FillColor="Green" />
+        <EntityTypeShape EntityType="BoligModel.ProspektHarBestilling" Width="1.5" PointX="13.5" PointY="7.25" IsExpanded="true" FillColor="Green" />
         <EntityTypeShape EntityType="BoligModel.ProspektHarUtgivelse" Width="1.5" PointX="24.75" PointY="5.875" IsExpanded="true" />
         <EntityTypeShape EntityType="BoligModel.Rolle" Width="1.5" PointX="12.75" PointY="25.875" IsExpanded="true" />
         <EntityTypeShape EntityType="BoligModel.StatiskTekst" Width="1.5" PointX="3" PointY="2" IsExpanded="true" />
@@ -128,9 +128,9 @@
         <EntityTypeShape EntityType="BoligModel.vwProduktMedEpostKundeansvarlig" Width="1.5" PointX="32.75" PointY="32.875" IsExpanded="true" />
         <EntityTypeShape EntityType="BoligModel.vwProduktUtgivelse" Width="1.5" PointX="33.75" PointY="4.875" IsExpanded="true" />
         <EntityTypeShape EntityType="BoligModel.vwProduktVi" Width="1.5" PointX="4.75" PointY="34.875" IsExpanded="true" />
-        <EntityTypeShape EntityType="BoligModel.vwProspekterHarBestilling" Width="1.5" PointX="34.75" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="BoligModel.vwProspekterHarBestilling" Width="1.5" PointX="34.75" PointY="1.875" IsExpanded="true" FillColor="Olive" />
         <EntityTypeShape EntityType="BoligModel.vwProspektHarBestilling" Width="1.5" PointX="0.75" PointY="35.875" IsExpanded="true" />
-        <EntityTypeShape EntityType="BoligModel.vwProspektVi" Width="1.5" PointX="6.75" PointY="35.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="BoligModel.vwProspektVi" Width="1.5" PointX="6.75" PointY="35.875" IsExpanded="true" FillColor="192, 192, 0" />
         <EntityTypeShape EntityType="BoligModel.vwSted" Width="1.5" PointX="34.75" PointY="8.875" IsExpanded="true" />
         <AssociationConnector Association="BoligModel.FK_Avdeling_Partner" ManuallyRouted="false" />
         <AssociationConnector Association="BoligModel.Bilde_BestillingHarBilde_FK1" ManuallyRouted="false" />
