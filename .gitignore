@@ -116,7 +116,7 @@ UpgradeLog*.XML
 *.blg
 report/*.log
 *.out
-report/*.pdf
+*.pdf
 report/*.xml
 *.gz
 *.toc
