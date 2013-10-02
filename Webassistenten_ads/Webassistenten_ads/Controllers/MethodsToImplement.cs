@@ -10,7 +10,7 @@ namespace Webassistenten_ads
 
 		public abstract void CancelOrder()
 		{
-			RollBackQuery ();
+			RollBackQuery();
 			ResetFields();
 		}
 

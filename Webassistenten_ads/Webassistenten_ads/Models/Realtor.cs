@@ -7,5 +7,11 @@ namespace Webassistenten_ads.Models
 {
     public class Realtor
     {
+		public Realtor(int id)
+		{
+			Id = id;
+		}
+
+		private int Id { get; set; }
     }
 }

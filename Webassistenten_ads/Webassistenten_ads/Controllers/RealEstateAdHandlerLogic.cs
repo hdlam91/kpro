@@ -11,7 +11,7 @@ namespace Webassistenten_ads.Controllers
 
 		private bool RequiredInfoSet(RealEstateAdInfo info)
 		{
-			if (info.RealtorId == -1 || info.RealtorId == -1 || info.ProductId == -1 || info.Type == -1 || Price == -1 || ValidZipCode(info.ZipCode)) {	
+			if (info.RealtorId == -1 || info.ProductId == -1 || info.Type == -1 || Price == -1 || ValidZipCode(info.ZipCode)) {	
 				return false;
 			} else if (info.ResponsibleRealtor == NULL || info.Area == NULL ||
 				info.Location == NULL || info.Headline == NULL || info.Adress == NULL ||

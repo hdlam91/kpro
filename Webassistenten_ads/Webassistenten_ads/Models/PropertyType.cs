@@ -4,8 +4,9 @@ namespace Webassistenten_ads
 {
 	public class PropertyType
 	{
-		public PropertyType ()
+		public PropertyType (int id)
 		{
+			Id = id;
 		}
 
 		private int Id { get; set; }
