@@ -22,10 +22,10 @@ namespace Webassistenten_ads_api.Models
 			ZipCode = -1;
 			FinnCode = -1;
 			ContractNr = -1;
-			P_rom = -1.0;
-			Boa = -1.0;
-			Bta = -1.0;
-			Bra = -1.0;
+            P_rom = (float)-1.0;
+            Boa = (float)-1.0;
+            Bta = (float)-1.0;
+			Bra = (float)-1.0;
 			Costs = -1;
 			PurchaseCosts = -1;
 			CommonCosts = -1;
@@ -41,80 +41,80 @@ namespace Webassistenten_ads_api.Models
 
 		// Mandatory fields:
 
-        private int RealtorId { get; set; } // This should possibly be a class/connected to one, since the ID is connected to where to save the ad.
+        public int RealtorId {get; private set; } // This should possibly be a class/connected to one, since the ID is connected to where to save the ad.
 
-        private int ProductId { get; set; } // Same as RealtorId
+        public int ProductId { get; private set; } // Same as RealtorId
 
-        private Realtor ResponsibleRealtor { get; set; }
+        public Realtor ResponsibleRealtor { get; private set; }
 
-        private string Area { get; set; } // Should Area be a class?
+        public string Area { get; private set; } // Should Area be a class?
 
-        private int Type { get; set; } // Should this be a class? Don't know the data type of this
+        public int Type { get; private set; } // Should this be a class? Don't know the data type of this
 
-        private int Price { get; set; }
+        public int Price { get; private set; }
 
-        private string Location { get; set; } // Should Location be a class?
+        public string Location { get; private set; } // Should Location be a class?
 
-        private string Headline { get; set; }
+        public string Headline { get; private set; }
 
-        private Address Address { get; set; }
+        public Address Address { get; private set; }
 
-        private int ZipCode { get; set; }
+        public int ZipCode { get; private set; }
 
-        private string ZipArea { get; set; }
+        public string ZipArea { get; private set; }
 
-        private DateTime BookingDate { get; set; }
+        public DateTime BookingDate { get; private set; }
 
 		// Non-mandatory fields below:
 
-        private int FinnCode { get; set; }	// Move to AdInfo?
+        public int FinnCode { get; private set; }	// Move to AdInfo?
 
-		private int ContractNr { get; set;}
+		public int ContractNr { get; private set;}
 
-		private float P_rom { get; set; }	// TODO: Translate acronyms to English 
+		public float P_rom { get; private set; }	// TODO: Translate acronyms to English 
 
-		private float Boa { get; set; }
+		public float Boa { get; private set; }
 
-		private float Bta { get; set; }
+		public float Bta { get; private set; }
 
-		private float Bra { get; set; }
+		public float Bra { get; private set; }
 
-		private int Costs { get; set; }
+		public int Costs { get; private set; }
 
-		private int PurchaseCosts { get; set; }
+		public int PurchaseCosts { get; private set; }
 
-		private int CommonCosts { get; set; }
+		public int CommonCosts { get; private set; }
 
-		private int AmountSharedDebt { get; set; }
+		public int AmountSharedDebt { get; private set; }
 
-		private int CommonExpenses { get; set; }
+		public int CommonExpenses { get; private set; }
 
-		private int PropertyArea { get; set; }
+		public int PropertyArea { get; private set; }
 
-		private PropertyType PropertyType { get; set; }
+		public PropertyType PropertyType { get; private set; }
 
-		private DateTime ConstructionYear { get; set; }
+		public DateTime ConstructionYear { get; private set; }
 
-		private int Floor { get; set; }
+		public int Floor { get; private set; }
 
-		private int Bedrooms { get; set; }
+		public int Bedrooms { get; private set; }
 
-		private int Rooms { get; set; }
+		public int Rooms { get; private set; }
 
-		private DateTime OpenHouseDate { get; set; }	// Visningdato
+		public DateTime OpenHouseDate { get; private set; }	// Visningdato
 
-		private String OpenHouseText { get; set; }	// TODO: Consider better representation than String
+		public String OpenHouseText { get; private set; }	// TODO: Consider better representation than String
 
-		private String RealEstAgentName { get; set; }
+		public String RealEstAgentName { get; private set; }
 
-		private String RealEstAgentTitle { get; set; }
+		public String RealEstAgentTitle { get; private set; }
 
-		private int RealEstAgentMobile { get; set; }
+		public int RealEstAgentMobile { get; private set; }
 
-		private int RealEstAgentPhone { get; set; }
+		public int RealEstAgentPhone { get; private set; }
 
-		private System.Net.Mail.MailAddress RealEstAgentEmail { get; set; }
+		public System.Net.Mail.MailAddress RealEstAgentEmail { get; private set; }
 
-		private String AdText { get; set; }	// Is this the best representation for the text?
+		public String AdText { get; private set; }	// Is this the best representation for the text?
     }
 }

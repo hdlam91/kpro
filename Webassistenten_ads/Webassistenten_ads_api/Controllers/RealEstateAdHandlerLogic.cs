@@ -11,11 +11,11 @@ namespace Webassistenten_ads_api.Controllers
 
 		private bool RequiredInfoSet(RealEstateAdInfo info)
 		{
-			if (info.RealtorId == -1 || info.ProductId == -1 || info.Type == -1 || Price == -1 || ValidZipCode(info.ZipCode)) {	
+			if (info.RealtorId == -1 || info.ProductId == -1 || info.Type == -1 || info.Price == -1 || ValidZipCode(info.ZipCode)) {	
 				return false;
-			} else if (info.ResponsibleRealtor == NULL || info.Area == NULL ||
-				info.Location == NULL || info.Headline == NULL || info.Adress == NULL ||
-				info.ZipArea == NULL || info.BookingDate == NULL) {	// TODO: Convert to reflection if possible.
+			} else if (info.ResponsibleRealtor == null || info.Area == null ||
+				info.Location == null || info.Headline == null || info.Address == null ||
+				info.ZipArea == null || info.BookingDate == null) {	// TODO: Convert to reflection if possible.
 				return false;
 			} else {
 				return true;
