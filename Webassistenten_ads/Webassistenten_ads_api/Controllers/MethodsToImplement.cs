@@ -11,11 +11,7 @@ namespace Webassistenten_ads_api
 		/// <summary>
 		/// Will cancel the current order, and rollback any changes made to the database
 		/// </summary>
-		public abstract void CancelOrder()
-		{
-			RollBackQuery();
-			ResetFields();
-		}
+        public abstract void CancelOrder();
 
 		public abstract void ResetFields();
 

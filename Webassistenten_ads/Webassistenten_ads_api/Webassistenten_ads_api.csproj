@@ -145,19 +145,19 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Annonse.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="AnnonseHarBestilling.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="AnnonseHarUtgivelse.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="AnnonseModul.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="AnnonseModulStandard.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
@@ -178,37 +178,37 @@
     <Compile Include="Areas\HelpPage\SampleGeneration\TextSample.cs" />
     <Compile Include="Areas\HelpPage\XmlDocumentationProvider.cs" />
     <Compile Include="Avdeling.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="BestillingHarBilde.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="Bilde.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="BildeLogg.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="Bildetype.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="BoligNyheter.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="Boligtype.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="BoligtypeMap.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="BoligtypeSok.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="Bruker.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="Brukerlogg.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="Controllers\AdHandlerLogic.cs" />
     <Compile Include="Controllers\DatabaseLogic.cs" />
@@ -217,109 +217,109 @@
     <Compile Include="Controllers\RealEstateAdHandlerLogic.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="dtproperty.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="dt_getpropertiesbyid_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="dt_getpropertiesbyid_u_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="Ekstrasider.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="Endringslogg.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
-    <Compile Include="entity.Context.cs">
+    <Compile Include="Entity2.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>entity.Context.tt</DependentUpon>
+      <DependentUpon>Entity2.Context.tt</DependentUpon>
     </Compile>
-    <Compile Include="entity.cs">
+    <Compile Include="Entity2.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
-    <Compile Include="entity.Designer.cs">
+    <Compile Include="Entity2.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>entity.edmx</DependentUpon>
+      <DependentUpon>Entity2.edmx</DependentUpon>
     </Compile>
     <Compile Include="Firma.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="FirmaBruker.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="FirmaBrukerHarProduktOppdater.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="FirmaBrukerProduksjon.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="FirmaHarProdukt.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="Foto.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="Fotograf.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="Fotooppdrag.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="FotooppdragHarTjenestetype.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="FotoOppdragType.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="FotoSone.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="FotoStatu.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="FotoType.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="Gjestebok.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="ImportEpost.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="InHouse_Bruker.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="Inndeling.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="Kommune.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="Lang.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="langBoligtype.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="Leverandor.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="LeverandorHarPartner.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="Lock.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="Meglersystem.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Address.cs" />
     <Compile Include="Models\AdInfo.cs" />
@@ -327,657 +327,654 @@
     <Compile Include="Models\RealEstateAdInfo.cs" />
     <Compile Include="Models\Realtor.cs" />
     <Compile Include="Modul.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="ModulRessur.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="ModulStandard.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="Oppdrag.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="OppdragHarTjenestetype.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="OppdragStatu.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="OppdragType.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="Pano.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="Panorama.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="Partner.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="PartnerHarBoligtype.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="PartnerHarFotoOppdragType.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="PartnerHarInndeling.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="PartnerHarOppdragType.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="PartnerHarProdukt.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="PartnerHarTjenesteType.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="Postnr.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="Produkt.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="ProduktHarAnnonse.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="ProduktHarModul.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="ProduktStandard.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="ProduktUtgivelse.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Prospekt.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="ProspektHarBestilling.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="ProspektHarUtgivelse.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="Repository\GetDatesQuery.cs" />
     <Compile Include="Rolle.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_DIPHentBrukerFraEpost_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_FINNTRANS_HentFotooppdragPartner_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_helpdiagramdefinition_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_helpdiagrams_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentAnnonseHarUtgivelse_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentAnnonseModulInfo_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentAnnonse_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentAntallFotooppdragFakturaListe_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentAntallFotooppdragStatusListe_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentAvdelinger_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentBildeBeggeID_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentBildeBildeID_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentBildeProspektID_OLD_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentBilderCopy_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentBilderVis_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentBilder_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentBoligNyheter_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentBoligtyper_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentBoligtypeSok_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentBrukereFraMegler_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentBrukerFraEpost_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentBrukerlisteBytt_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentBruker_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentEndringslogg_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentFirmaBrukerHarProdukt_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentFirmaHarProdukt_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentFotoEldre_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentFotoFotoID_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentFotograferAktive_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentFotograferHosLeverandor_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentFotografer_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentFotograf_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentFotoListe_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentFotooppdragDetaljer_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentFotooppdragFakturaListeVC_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentFotooppdragFakturaListe_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentFotooppdragHarTjenesteType_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentFotooppdragPartner_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentFotooppdragRapport_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentFotoOppdragTypeAlle_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentFotoOppdragType_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentFotooppdragVis_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentFotooppdrag_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentFotoSone_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentFotoStatus_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentFotoType_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentFoto_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentGjestebokListeAlle_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentGjestebokListe_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentInndelingSok_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentInndelingSpes_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentInndeling_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentKommuner_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentLanguage_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentLeverandorAlle_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentLeverandorHarPartnere_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentLeverandor_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentListeOversiktAlle_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentListeOversikt_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentLockAlle_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentLock_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentMeglerSystemInfo_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentMeglersystem_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentModulerAlle_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentModulerForFirma_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentModuler_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentOppdragHarTjenesteType_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentOppdragStatus_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentOppdragTypeAlle_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentOppdragType_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentOppdragVis_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentOppdrag_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentPanoramaer_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentPanoramaPanoramaID_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentPano_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentPartnereProdukt_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentPartnere_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentPartnerProdukterOmbrekking_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentPartnerProdukter_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentPartner_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentProdukter_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentProduktHarAnnonse_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentProduktLockDato_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentProduktPartnere_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentProduktUtgivelseListe_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentProduktUtgivelseLockDato_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentProdukt_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentProspektBestillingLayout_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentProspektBestillingListeNyhet_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentProspektBestillingListeOrdre_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentProspektDetaljerOrdre_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentProspekterListe_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentProspektHarBestillingDatoListe_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentProspektHarBestillingDetaljer_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentProspektHarBestillingLockBF_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentProspektHarBestillingLock_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentProspektHarBestilling_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentProspektHarUtgivelse_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentProspektIkkeBestillingListe_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentProspektModulInfo_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentProspektVis_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentProspekt_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentRolle_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentStatus_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentSystemverdier_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentTegninger_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentTjenesteType_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentUtgivelserListe_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_HentUtgivelser_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_INH_FirmaBrukerLogin_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_INH_GetTagsInModule_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_INH_HentBilderLokal_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_INH_HentBilder_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_INH_HentFirmaBrukerHarProduktOppdater_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_INH_HentFirmaBrukerHarProdukt_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_INH_HentFirmaBrukerModulRessurs_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_INH_HentModuler_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_INH_HentModulRessurs_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_INH_HentPartnerHarInndeling_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_INH_HentProdukterForBruker_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_INH_HentProdukter_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_INH_HentProduktHarPartnere_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_INH_HentProduktUtgivelseDagMaaned_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_INH_HentProspektModulInfo_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_INH_HentProspekt_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_INH_Login_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_MAHentFotooppdragListe_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_WAServ_HentProspektBestillingListeOrdre_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_WS_HentBilderLokal_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_WS_HentBilder_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_WS_HentModulRessurs_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_WS_HentProspektModulInfo_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sp_WS_HentProspekt_Result.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="StatiskTekst.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="Statistikk.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="Statkart.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="Status.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="Sted.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="sysdiagram.cs">
-      <DependentUpon>entity.tt</DependentUpon>
-    </Compile>
-    <Compile Include="System.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="Tegning.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="Tilleggstjeneste.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="Utgivelse.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="vwAvdeling.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="vwBestillingHarBilde_Test.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="vwBildeLogg.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="vwBrukerBildefil.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="vwBrukere.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="vwBrukere2_PartnerID.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="vwBrukere_Bildefil.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="vwBrukere_i_Gruppe.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="vwFirmaBruker.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="vwFirmaBrukerHarProdukt.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="vwFirmaHarProdukt.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="vwFoto.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="vwFotooppdrag.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="vwFotooppdragDetaljer.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="vwFotoSone.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="vwImportEpost.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="vwLaasDebug.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="vwListe_ProduktModuler.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="vwModulerVisKomb.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="vwModulRessur.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="vwModulStandard.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="vwNotarFoto.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="vwNotarFoto2.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="vwPartnerHarBoligtype.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="vwPartnerHarFotooppdragType.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="vwPartnerHarInndeling.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="vwPartnerHarOppdragType.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="vwPartnerHarProdukt.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="vwPartnerHarProduktProduktID.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="vwPartnerHarProdukt_Org.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="vwPartnerHarProdukt_Org2.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="vwPartnerHarProdukt_SorteringTrykk.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="vwPartnerHarTjenesteType.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="vwPartner_EditParam.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="vwProdukt.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="vwProduktHarModul.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="vwProduktHarModul_Org.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="vwProduktMedEpostKundeansvarlig.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="vwProduktUtgivelse.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="vwProduktVi.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="vwProspekterHarBestilling.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="vwProspektHarBestilling.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="vwProspektVi.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="vwSted.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="vw_MeglersystemID.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="vw_PartnerHarLeverandor_Settings.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="XmlRule.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="XmlTag.cs">
-      <DependentUpon>entity.tt</DependentUpon>
+      <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -1049,22 +1046,22 @@
     <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\HelpPageApiModel.cshtml" />
     <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\ApiGroup.cshtml" />
     <Content Include="Areas\HelpPage\Views\Help\Api.cshtml" />
-    <EntityDeploy Include="entity.edmx">
+    <EntityDeploy Include="Entity2.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>entity.Designer.cs</LastGenOutput>
+      <LastGenOutput>Entity2.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <Content Include="entity.Context.tt">
+    <Content Include="Entity2.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>entity.edmx</DependentUpon>
-      <LastGenOutput>entity.Context.cs</LastGenOutput>
+      <DependentUpon>Entity2.edmx</DependentUpon>
+      <LastGenOutput>Entity2.Context.cs</LastGenOutput>
     </Content>
-    <Content Include="entity.edmx.diagram">
-      <DependentUpon>entity.edmx</DependentUpon>
+    <Content Include="Entity2.edmx.diagram">
+      <DependentUpon>Entity2.edmx</DependentUpon>
     </Content>
-    <Content Include="entity.tt">
+    <Content Include="Entity2.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>entity.edmx</DependentUpon>
-      <LastGenOutput>entity.cs</LastGenOutput>
+      <DependentUpon>Entity2.edmx</DependentUpon>
+      <LastGenOutput>Entity2.cs</LastGenOutput>
     </Content>
     <None Include="Scripts\jquery-1.8.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.8.2.js" />

@@ -16,10 +16,10 @@ namespace Webassistenten_ads_api
     using System.Data.Objects.DataClasses;
     using System.Linq;
     
-    public partial class BoligEntities : DbContext
+    public partial class BoligEntities1 : DbContext
     {
-        public BoligEntities()
-            : base("name=BoligEntities")
+        public BoligEntities1()
+            : base("name=BoligEntities1")
         {
         }
     
@@ -102,7 +102,6 @@ namespace Webassistenten_ads_api
         public DbSet<Status> Status { get; set; }
         public DbSet<Sted> Steds { get; set; }
         public DbSet<sysdiagram> sysdiagrams { get; set; }
-        public DbSet<System> Systems { get; set; }
         public DbSet<Tegning> Tegnings { get; set; }
         public DbSet<Tilleggstjeneste> Tilleggstjenestes { get; set; }
         public DbSet<Utgivelse> Utgivelses { get; set; }

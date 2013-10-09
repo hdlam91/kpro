@@ -95,7 +95,6 @@
           <EntitySet Name="Status" EntityType="BoligModel.Store.Status" store:Type="Tables" Schema="dbo" />
           <EntitySet Name="Sted" EntityType="BoligModel.Store.Sted" store:Type="Tables" Schema="dbo" />
           <EntitySet Name="sysdiagrams" EntityType="BoligModel.Store.sysdiagrams" store:Type="Tables" Schema="dbo" />
-          <EntitySet Name="System" EntityType="BoligModel.Store.System" store:Type="Tables" Schema="dbo" />
           <EntitySet Name="TagsInModule" EntityType="BoligModel.Store.TagsInModule" store:Type="Tables" Schema="dbo" />
           <EntitySet Name="Tegning" EntityType="BoligModel.Store.Tegning" store:Type="Tables" Schema="dbo" />
           <EntitySet Name="Tilleggstjeneste" EntityType="BoligModel.Store.Tilleggstjeneste" store:Type="Tables" Schema="dbo" />
@@ -1988,16 +1987,6 @@
           <Property Name="diagram_id" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
           <Property Name="version" Type="int" />
           <Property Name="definition" Type="varbinary(max)" />
-        </EntityType>
-        <EntityType Name="System">
-          <Key>
-            <PropertyRef Name="SystemID" />
-          </Key>
-          <Property Name="SystemID" Type="tinyint" Nullable="false" />
-          <Property Name="EpostLayout" Type="nvarchar" MaxLength="255" />
-          <Property Name="EpostMelding" Type="nvarchar" MaxLength="255" />
-          <Property Name="EpostFotooppdrag" Type="nvarchar" MaxLength="255" />
-          <Property Name="EpostFotooppdragAvsender" Type="nvarchar" MaxLength="255" />
         </EntityType>
         <EntityType Name="TagsInModule">
           <Key>
@@ -5379,7 +5368,7 @@
     <!-- CSDL content -->
     <edmx:ConceptualModels>
       <Schema Namespace="BoligModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
-        <EntityContainer Name="BoligEntities" p1:LazyLoadingEnabled="true">
+        <EntityContainer Name="BoligEntities1" p1:LazyLoadingEnabled="true">
           <EntitySet Name="Annonses" EntityType="BoligModel.Annonse" />
           <EntitySet Name="AnnonseHarBestillings" EntityType="BoligModel.AnnonseHarBestilling" />
           <EntitySet Name="AnnonseHarUtgivelses" EntityType="BoligModel.AnnonseHarUtgivelse" />
@@ -5454,7 +5443,6 @@
           <EntitySet Name="Status" EntityType="BoligModel.Status" />
           <EntitySet Name="Steds" EntityType="BoligModel.Sted" />
           <EntitySet Name="sysdiagrams" EntityType="BoligModel.sysdiagram" />
-          <EntitySet Name="Systems" EntityType="BoligModel.System" />
           <EntitySet Name="Tegnings" EntityType="BoligModel.Tegning" />
           <EntitySet Name="Tilleggstjenestes" EntityType="BoligModel.Tilleggstjeneste" />
           <EntitySet Name="Utgivelses" EntityType="BoligModel.Utgivelse" />
@@ -8604,16 +8592,6 @@
           <Property Name="diagram_id" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
           <Property Name="version" Type="Int32" />
           <Property Name="definition" Type="Binary" MaxLength="Max" FixedLength="false" />
-        </EntityType>
-        <EntityType Name="System">
-          <Key>
-            <PropertyRef Name="SystemID" />
-          </Key>
-          <Property Name="SystemID" Type="Byte" Nullable="false" />
-          <Property Name="EpostLayout" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
-          <Property Name="EpostMelding" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
-          <Property Name="EpostFotooppdrag" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
-          <Property Name="EpostFotooppdragAvsender" Type="String" MaxLength="255" Unicode="true" FixedLength="false" />
         </EntityType>
         <EntityType Name="Tegning">
           <Key>
@@ -13040,7 +13018,7 @@
     <!-- C-S mapping content -->
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-        <EntityContainerMapping StorageEntityContainer="BoligModelStoreContainer" CdmEntityContainer="BoligEntities">
+        <EntityContainerMapping StorageEntityContainer="BoligModelStoreContainer" CdmEntityContainer="BoligEntities1">
           <EntitySetMapping Name="Annonses">
             <EntityTypeMapping TypeName="BoligModel.Annonse">
               <MappingFragment StoreEntitySet="Annonse">
@@ -14096,17 +14074,6 @@
                 <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
                 <ScalarProperty Name="version" ColumnName="version" />
                 <ScalarProperty Name="definition" ColumnName="definition" />
-              </MappingFragment>
-            </EntityTypeMapping>
-          </EntitySetMapping>
-          <EntitySetMapping Name="Systems">
-            <EntityTypeMapping TypeName="BoligModel.System">
-              <MappingFragment StoreEntitySet="System">
-                <ScalarProperty Name="SystemID" ColumnName="SystemID" />
-                <ScalarProperty Name="EpostLayout" ColumnName="EpostLayout" />
-                <ScalarProperty Name="EpostMelding" ColumnName="EpostMelding" />
-                <ScalarProperty Name="EpostFotooppdrag" ColumnName="EpostFotooppdrag" />
-                <ScalarProperty Name="EpostFotooppdragAvsender" ColumnName="EpostFotooppdragAvsender" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
