@@ -11,42 +11,42 @@ using System.Web.Http;
 
 namespace Webassistenten_ads_api.Controllers
 {
-    public class Prospect : ApiController
+    public class Module : ApiController
     {
         private BoligEntities1 db = new BoligEntities1();
 
-        // GET api/Prospect
-        public IEnumerable<Prospekt> GetProspekts()
+        // GET api/Module
+        public IEnumerable<Modul> GetModuls()
         {
-            return db.Prospekts.AsEnumerable();
+            return db.Moduls.AsEnumerable();
         }
 
-        // GET api/Prospect/5
-        public Prospekt GetProspekt(long id)
+        // GET api/Module/5
+        public Modul GetModul(int id)
         {
-            Prospekt prospekt = db.Prospekts.Find(id);
-            if (prospekt == null)
+            Modul modul = db.Moduls.Find(id);
+            if (modul == null)
             {
                 throw new HttpResponseException(Request.CreateResponse(HttpStatusCode.NotFound));
             }
 
-            return prospekt;
+            return modul;
         }
 
-        // PUT api/Prospect/5
-        public HttpResponseMessage PutProspekt(long id, Prospekt prospekt)
+        // PUT api/Module/5
+        public HttpResponseMessage PutModul(int id, Modul modul)
         {
             if (!ModelState.IsValid)
             {
                 return Request.CreateErrorResponse(HttpStatusCode.BadRequest, ModelState);
             }
 
-            if (id != prospekt.ProspektID)
+            if (id != modul.ModulID)
             {
                 return Request.CreateResponse(HttpStatusCode.BadRequest);
             }
 
-            db.Entry(prospekt).State = EntityState.Modified;
+            db.Entry(modul).State = EntityState.Modified;
 
             try
             {
@@ -60,21 +60,16 @@ namespace Webassistenten_ads_api.Controllers
             return Request.CreateResponse(HttpStatusCode.OK);
         }
 
-        // POST api/Prospect
-        /// <summary>
-        /// POST method for "prospekt"
-        /// </summary>
-        /// <param name="prospekt"></param>
-        /// <returns></returns>
-        public HttpResponseMessage PostProspekt(Prospekt prospekt)
+        // POST api/Module
+        public HttpResponseMessage PostModul(Modul modul)
         {
             if (ModelState.IsValid)
             {
-                db.Prospekts.Add(prospekt);
+                db.Moduls.Add(modul);
                 db.SaveChanges();
 
-                HttpResponseMessage response = Request.CreateResponse(HttpStatusCode.Created, prospekt);
-                response.Headers.Location = new Uri(Url.Link("DefaultApi", new { id = prospekt.ProspektID }));
+                HttpResponseMessage response = Request.CreateResponse(HttpStatusCode.Created, modul);
+                response.Headers.Location = new Uri(Url.Link("DefaultApi", new { id = modul.ModulID }));
                 return response;
             }
             else
@@ -83,16 +78,16 @@ namespace Webassistenten_ads_api.Controllers
             }
         }
 
-        // DELETE api/Prospect/5
-        public HttpResponseMessage DeleteProspekt(long id)
+        // DELETE api/Module/5
+        public HttpResponseMessage DeleteModul(int id)
         {
-            Prospekt prospekt = db.Prospekts.Find(id);
-            if (prospekt == null)
+            Modul modul = db.Moduls.Find(id);
+            if (modul == null)
             {
                 return Request.CreateResponse(HttpStatusCode.NotFound);
             }
 
-            db.Prospekts.Remove(prospekt);
+            db.Moduls.Remove(modul);
 
             try
             {
@@ -103,7 +98,7 @@ namespace Webassistenten_ads_api.Controllers
                 return Request.CreateErrorResponse(HttpStatusCode.NotFound, ex);
             }
 
-            return Request.CreateResponse(HttpStatusCode.OK, prospekt);
+            return Request.CreateResponse(HttpStatusCode.OK, modul);
         }
 
         protected override void Dispose(bool disposing)

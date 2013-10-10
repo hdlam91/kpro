@@ -215,6 +215,8 @@
     <Compile Include="Controllers\DatabaseLogic.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\MethodsToImplement.cs" />
+    <Compile Include="Controllers\Module.cs" />
+    <Compile Include="Controllers\ProductHasModule.cs" />
     <Compile Include="Controllers\Prospect.cs" />
     <Compile Include="Controllers\ProspectHasOrder.cs" />
     <Compile Include="Controllers\RealEstateAdHandlerLogic.cs" />

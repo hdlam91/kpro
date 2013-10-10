@@ -11,42 +11,42 @@ using System.Web.Http;
 
 namespace Webassistenten_ads_api.Controllers
 {
-    public class Prospect : ApiController
+    public class ProductHasModule : ApiController
     {
         private BoligEntities1 db = new BoligEntities1();
 
-        // GET api/Prospect
-        public IEnumerable<Prospekt> GetProspekts()
+        // GET api/ProductHasModule
+        public IEnumerable<ProduktHarModul> GetProduktHarModuls()
         {
-            return db.Prospekts.AsEnumerable();
+            return db.ProduktHarModuls.AsEnumerable();
         }
 
-        // GET api/Prospect/5
-        public Prospekt GetProspekt(long id)
+        // GET api/ProductHasModule/5
+        public ProduktHarModul GetProduktHarModul(byte id)
         {
-            Prospekt prospekt = db.Prospekts.Find(id);
-            if (prospekt == null)
+            ProduktHarModul produktharmodul = db.ProduktHarModuls.Find(id);
+            if (produktharmodul == null)
             {
                 throw new HttpResponseException(Request.CreateResponse(HttpStatusCode.NotFound));
             }
 
-            return prospekt;
+            return produktharmodul;
         }
 
-        // PUT api/Prospect/5
-        public HttpResponseMessage PutProspekt(long id, Prospekt prospekt)
+        // PUT api/ProductHasModule/5
+        public HttpResponseMessage PutProduktHarModul(byte id, ProduktHarModul produktharmodul)
         {
             if (!ModelState.IsValid)
             {
                 return Request.CreateErrorResponse(HttpStatusCode.BadRequest, ModelState);
             }
 
-            if (id != prospekt.ProspektID)
+            if (id != produktharmodul.PartnerID)
             {
                 return Request.CreateResponse(HttpStatusCode.BadRequest);
             }
 
-            db.Entry(prospekt).State = EntityState.Modified;
+            db.Entry(produktharmodul).State = EntityState.Modified;
 
             try
             {
@@ -60,21 +60,16 @@ namespace Webassistenten_ads_api.Controllers
             return Request.CreateResponse(HttpStatusCode.OK);
         }
 
-        // POST api/Prospect
-        /// <summary>
-        /// POST method for "prospekt"
-        /// </summary>
-        /// <param name="prospekt"></param>
-        /// <returns></returns>
-        public HttpResponseMessage PostProspekt(Prospekt prospekt)
+        // POST api/ProductHasModule
+        public HttpResponseMessage PostProduktHarModul(ProduktHarModul produktharmodul)
         {
             if (ModelState.IsValid)
             {
-                db.Prospekts.Add(prospekt);
+                db.ProduktHarModuls.Add(produktharmodul);
                 db.SaveChanges();
 
-                HttpResponseMessage response = Request.CreateResponse(HttpStatusCode.Created, prospekt);
-                response.Headers.Location = new Uri(Url.Link("DefaultApi", new { id = prospekt.ProspektID }));
+                HttpResponseMessage response = Request.CreateResponse(HttpStatusCode.Created, produktharmodul);
+                response.Headers.Location = new Uri(Url.Link("DefaultApi", new { id = produktharmodul.PartnerID }));
                 return response;
             }
             else
@@ -83,16 +78,16 @@ namespace Webassistenten_ads_api.Controllers
             }
         }
 
-        // DELETE api/Prospect/5
-        public HttpResponseMessage DeleteProspekt(long id)
+        // DELETE api/ProductHasModule/5
+        public HttpResponseMessage DeleteProduktHarModul(byte id)
         {
-            Prospekt prospekt = db.Prospekts.Find(id);
-            if (prospekt == null)
+            ProduktHarModul produktharmodul = db.ProduktHarModuls.Find(id);
+            if (produktharmodul == null)
             {
                 return Request.CreateResponse(HttpStatusCode.NotFound);
             }
 
-            db.Prospekts.Remove(prospekt);
+            db.ProduktHarModuls.Remove(produktharmodul);
 
             try
             {
@@ -103,7 +98,7 @@ namespace Webassistenten_ads_api.Controllers
                 return Request.CreateErrorResponse(HttpStatusCode.NotFound, ex);
             }
 
-            return Request.CreateResponse(HttpStatusCode.OK, prospekt);
+            return Request.CreateResponse(HttpStatusCode.OK, produktharmodul);
         }
 
         protected override void Dispose(bool disposing)
