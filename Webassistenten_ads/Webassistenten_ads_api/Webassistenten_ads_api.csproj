@@ -211,9 +211,12 @@
       <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
     <Compile Include="Controllers\AdHandlerLogic.cs" />
+    <Compile Include="Controllers\AdHasOrder.cs" />
     <Compile Include="Controllers\DatabaseLogic.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\MethodsToImplement.cs" />
+    <Compile Include="Controllers\Prospect.cs" />
+    <Compile Include="Controllers\ProspectHasOrder.cs" />
     <Compile Include="Controllers\RealEstateAdHandlerLogic.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
     <Compile Include="dtproperty.cs">
