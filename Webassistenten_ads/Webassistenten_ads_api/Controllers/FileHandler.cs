@@ -24,11 +24,14 @@ namespace Webassistenten_ads_api.Controllers
         // POST api/filehandler
         public void Post([FromBody]string value)
         {
+
         }
 
         // PUT api/filehandler/5
         public void Put(int id, [FromBody]string value)
         {
+            //System.IO.File.WriteAllLines(@"C:\Users\Public\TestFolder\WriteLines.txt", lines);
+
         }
 
         // DELETE api/filehandler/5
