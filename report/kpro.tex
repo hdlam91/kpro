@@ -68,7 +68,7 @@ basicstyle=\ttfamily
  
 %stuff to refer/cite
 
-\usepackage{natbib}
+\usepackage[sort]{natbib}
 
  
 %%% END Article customizations
@@ -101,13 +101,14 @@ basicstyle=\ttfamily
 \subsection{Risk Analysis}
 \include{chapters/issues/issues}
 The project didn't go as smooth as we had hoped for. The group agreed on pretty much everything, but the issues we had was mostly related to the software and tools not cooperating.
-\subsubsection{Internal Risks}
-\subsubsection{External Risks}
+%Risks
+\include{chapters/project_management/risk_factors}
 \subsection{Procedures for Quality Assurance}
 
 \input{chapters/preliminary_studies/prestudy}
 
 \section{Requirements Specification}
+\include{chapters/requirements/user_stories}
 
 
 %Architecture
