@@ -16,9 +16,11 @@
 % These packages are all incorporated in the memoir class to one degree or another...
  \usepackage{import} % for importing other .tex files
  
- 
+\usepackage{color} 
 \usepackage{amsmath, amssymb}% for mathematical symbols
-\usepackage[colorlinks=true,linkcolor=black]{hyperref} % for hyperreferences with black color
+
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\usepackage[colorlinks=true,linkcolor=black, citecolor=gray, urlcolor = blue]{hyperref} % for hyperreferences with black color
 \usepackage[T1]{fontenc} % Uncomment for norwegian document
 %\usepackage[norsk]{babel} %
 
@@ -45,7 +47,7 @@
 \renewcommand{\cftsecpagefont}{\rmfamily\mdseries\upshape} % No bold!
 
 %%%Code
-\usepackage{color}
+
 \definecolor{bluekeywords}{rgb}{0.13,0.13,1}
 \definecolor{greencomments}{rgb}{0,0.5,0}
 \definecolor{redstrings}{rgb}{0.9,0,0}
@@ -65,9 +67,9 @@ basicstyle=\ttfamily
 }
  
 %stuff to refer/cite
-%\bibliographystyle{plain}
-%\nocite{*}
-%\bibliography{urlbib} 
+
+\usepackage{natbib}
+
  
 %%% END Article customizations
  
@@ -142,7 +144,9 @@ The project didn't go as smooth as we had hoped for. The group agreed on pretty 
   \end{tabular}
 \end{center}
 
+\bibliographystyle{plain}
 
+\bibliography{chapters/references/references.bib} 
  
  
 %%%Technology
