@@ -1,8 +1,10 @@
 \subsection{Issues}
-C\# compiler was not found due to uninstall of RC, this lead to the "add new" window not opening, and therefore not possible to add the entity framework.
+C\# compiler was not found due to uninstallìng of RC, this lead to the "add new" window not opening, and therefore not possible to add the entity framework.\\
+This command in cmd fixed it:
 \begin{verbatim}
 gacutil /u Microsoft.VisualStudio.CSharp.Services.Language.Interop 
-\end{verbatim} this command in cmd fixed it.
+\end{verbatim}
+
 
 Mac is not a windows.
 
