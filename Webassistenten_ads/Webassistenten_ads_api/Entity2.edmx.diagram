@@ -4,7 +4,7 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="ad019eab3ffe4737b9c8d0a5b8a64c4c" Name="Diagram1" ZoomLevel="82">
+      <Diagram DiagramId="ad019eab3ffe4737b9c8d0a5b8a64c4c" Name="Diagram1" ZoomLevel="36">
         <EntityTypeShape EntityType="BoligModel.Annonse" Width="1.5" PointX="5.75" PointY="1.875" IsExpanded="true" />
         <EntityTypeShape EntityType="BoligModel.AnnonseHarBestilling" Width="1.5" PointX="5.75" PointY="5.875" IsExpanded="true" />
         <EntityTypeShape EntityType="BoligModel.AnnonseHarUtgivelse" Width="1.5" PointX="15.75" PointY="13.875" IsExpanded="true" />
