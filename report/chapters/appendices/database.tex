@@ -1,0 +1,9 @@
+\section{Database setup}
+The customer gave us a database dump in the .bak format, this backup file was a database dump of an existing database in MSSQL format. We had to install MSSQL on our machine locally to be able to restore this backup file before we could integrate it into our project. We had to use sql management studio to manage and restore the database, so we installed SQL Management studio.
+http://www.microsoft.com/en-us/download/details.aspx?id=8961
+This tool let us install 2012 version of the management studio, or choose to update from an existing 2008 mssql management studio version (which it claimed was installed) however the SQL server was not installed with this package.
+It was therefore impossible to connect to a MSSQL server instance because none existed, which made it impossible to restore the .bak file (database backup dump), because there were no server instances to restore to.
+We tried to install \"SQL server with tools express\" which did install a server instance and we were allowed to connect to it via the management studio, and we were able to click \"restore database\". We then navigated to the appropiate folder and chose the .bak file to restore. When we clicked \"OK\", it started to restore the database, but after a few minutes we got an error message saying that the database was too big to be restored, the express version can only restore a database up to 10.2GiB while the .bak file we got was 10.8GiB.
+The last tool we installed was Microsoft SQL Server 2012 Developer 32/64-bit, it had a MSSQL server instance.
+We could now restore the .bak file! http://www.katieandemil.com/sql-server-2012-restore-database-backup-file BAM!
+By using the entity framework we could add a ADO.NET Entity data model of the database. http://www.entityframeworktutorial.net/EntityFramework5/entity-framework5-introduction.aspx
