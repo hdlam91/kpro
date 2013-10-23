@@ -215,6 +215,7 @@
     <Compile Include="Controllers\DatabaseLogic.cs" />
     <Compile Include="Controllers\FileHandler.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\MasterController.cs" />
     <Compile Include="Controllers\MethodsToImplement.cs" />
     <Compile Include="Controllers\Module.cs" />
     <Compile Include="Controllers\Product.cs" />
