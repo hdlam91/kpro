@@ -332,6 +332,7 @@
     </Compile>
     <Compile Include="Models\Address.cs" />
     <Compile Include="Models\AdInfo.cs" />
+    <Compile Include="Models\HD.cs" />
     <Compile Include="Models\PropertyType.cs" />
     <Compile Include="Models\RealEstateAdInfo.cs" />
     <Compile Include="Models\Realtor.cs" />
@@ -1117,6 +1118,7 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\Admin.cshtml" />
     <Content Include="Views\Master\Index.cshtml" />
+    <Content Include="Views\Master\Test.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
