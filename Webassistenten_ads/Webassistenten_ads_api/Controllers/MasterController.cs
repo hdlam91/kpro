@@ -42,7 +42,7 @@ namespace Webassistenten_ads_api.Controllers
             prospekt.BrukerID = 137;
             prospekt.DatoReg = new DateTime(2013, 10,23);
             prospekt.StatusID = 3;
-            prospekt.Oppdragsnr = "HDTEST";
+            prospekt.Oppdragsnr = "No entity add";
             prospekt.TEMP_ModulID = 3;
             prospekt.BBOverskrift = "HDTEST";
             prospekt.Overskrift1 = "HDTEST";
@@ -71,7 +71,7 @@ namespace Webassistenten_ads_api.Controllers
 
             //db.Entry(prospekt).State = EntityState.Modified;
             //DO this for everything.
-            db.Entry(prospekt).State = EntityState.Added;
+            //db.Entry(prospekt).State = EntityState.Added;
             //then call for all the tables:
             db.Prospekts.Add(prospekt);
             
