@@ -12,6 +12,7 @@ using System.Net.Http;
 using System.Web;
 using System.Web.Http;
 
+
 namespace Webassistenten_ads_api.Controllers
 {
     public class MasterController : Controller
@@ -34,18 +35,43 @@ namespace Webassistenten_ads_api.Controllers
 
         public ActionResult Index()
         {
-            return PutToDb();
-            //return View();
+            //return PutToDb();
+            
+            
+            
+            
+            return View();
+            
+        }
+        public ActionResult Test()
+        {
+            System.Diagnostics.Debug.WriteLine("get MODIFY");
+            return View();
         }
 
-
-        public ActionResult Test()
+        public ActionResult PostTest(long id, String str)
         {
             //return PutToDb();
             string apiUri = Url.HttpRouteUrl("DefaultApi", new { controller = "test", });
             ViewBag.ApiUrl = new Uri(Request.Url, apiUri).AbsoluteUri.ToString();
-
+            prospekt = db.Prospekts.Find(id);
+            prospekt.Overskrift1 = str;
+            db.Entry(prospekt).State = EntityState.Modified;
+            db.SaveChanges();
+            System.Diagnostics.Debug.WriteLine("post MODIFY");
             return View();
+        }
+
+
+        public IEnumerable<Produkt> GetProducts(byte partnerId)
+        {
+            BoligEntities1 db = new BoligEntities1();
+
+            var result = from partnerProd in db.PartnerHarProdukts
+                         where partnerProd.PartnerID == partnerId
+                         select partnerProd.Produkt;
+
+            return result;
         }
 
         public HttpResponseMessage DeleteProspekt(long id)
@@ -62,15 +88,16 @@ namespace Webassistenten_ads_api.Controllers
             
         }
 
-
-        public HttpResponseMessage PutProspekt(long id, Prospekt prospekt)
+      //  [HttpPost]
+        public HttpResponseMessage PostProspekt(long id)
         {
             prospekt = db.Prospekts.Find(id);
             prospekt.BBOverskrift = "Modified";
             db.Entry(prospekt).State = EntityState.Modified;
             db.SaveChanges();
+
             HttpResponseMessage hrm = new HttpResponseMessage();
-            
+            System.Diagnostics.Debug.WriteLine("post MODIFY");
             return hrm;
         }
 
