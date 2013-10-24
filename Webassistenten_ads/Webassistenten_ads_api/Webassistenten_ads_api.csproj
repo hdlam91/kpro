@@ -225,6 +225,7 @@
     <Compile Include="Controllers\ProspectHasOrder.cs" />
     <Compile Include="Controllers\RealEstateAdHandlerLogic.cs" />
     <Compile Include="Controllers\ValuesController.cs" />
+    <Compile Include="Controllers\ViewController.cs" />
     <Compile Include="dtproperty.cs">
       <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
