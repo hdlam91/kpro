@@ -62,9 +62,9 @@ namespace Webassistenten_ads_api
 		{
 			BoligEntities1 db = new BoligEntities1 ();
 
-			var result = from prodUtgivelse in db.ProduktUtgivelses
+			var result = (from prodUtgivelse in db.ProduktUtgivelses
 						 where prodUtgivelse.ProduktID == prodId
-						 select prodUtgivelse;
+						 select prodUtgivelse).Take(5);
 
 			return result;
 		}
