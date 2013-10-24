@@ -57,6 +57,17 @@ namespace Webassistenten_ads_api
 
             return result;
         }
+
+		public IEnumerable<ProduktUtgivelse> GetNextFivePublishables(byte prodId)
+		{
+			BoligEntities1 db = new BoligEntities1 ();
+
+			var result = from prodUtgivelse in db.ProduktUtgivelses
+						 where prodUtgivelse.ProduktID == prodId
+						 select prodUtgivelse;
+
+			return result;
+		}
 	}
 }
 
