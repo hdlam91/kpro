@@ -22,10 +22,47 @@ namespace Webassistenten_ads_api.Controllers
         }
 
         // POST api/filehandler
-        public void Post([FromBody]string value)
-        {
+		/// <summary>
+		/// Will post one, and exactly one 
+		/// </summary>
+		public HttpResponseMessage Post()
+		{
 
-        }
+			HttpResponseMessage result = null;
+			var httpRequest = HttpContext.Current.Request;
+
+			// Verify that this is an HTML Form file upload request
+			if (!Request.Content.IsMimeMultipartContent ("form-data")) {
+				result = Request.CreateResponse (HttpStatusCode.UnsupportedMediaType);
+			} else {
+				if (httpRequest.Files.Count == 1) {
+					var docfiles = new List<string> ();
+					foreach (string file in httpRequest.Files) {
+						var postedFile = httpRequest.Files [file];
+						var filePath = HttpContext.Current.Server.MapPath ("~/" + postedFile.FileName);
+					
+						postedFile.SaveAs (filePath);
+						docfiles.Add (filePath);
+					
+					}
+					FileInfo fileInfo = new FileInfo(docfiles.First);
+
+					if (fileInfo.Extension != ".pdf")
+					{
+						result = result = Request.CreateResponse ("Unsupported file-type",  HttpStatusCode.BadRequest);
+					}
+					else
+					{
+					result = Request.CreateResponse (HttpStatusCode.Created, docfiles);
+					}
+				} else {
+					result = Request.CreateResponse (HttpStatusCode.BadRequest);
+				}
+			}
+			
+			return result;
+			
+		}
 
         // PUT api/filehandler/5
         public void Put(int id, [FromBody]string value)
