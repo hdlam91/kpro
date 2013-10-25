@@ -11,6 +11,7 @@ using System.Net;
 using System.Net.Http;
 using System.Web;
 using System.Web.Http;
+using System.ComponentModel.DataAnnotations;
 
 
 namespace Webassistenten_ads_api.Controllers
@@ -33,16 +34,35 @@ namespace Webassistenten_ads_api.Controllers
         //
         // GET: /Master/
 
-        public ActionResult Index()
-        {
-            //return PutToDb();
-            
-            
-            
-            
+        
+
+        [System.Web.Mvc.HttpGet]
+	    public ActionResult Index()
+	    {
+            MethodsToImplement mti = new MethodsToImplement();
+            IEnumerable<ProduktUtgivelse> pd = mti.GetNextFivePublishables(2);
+            foreach (ProduktUtgivelse p in pd)
+            {
+                System.Diagnostics.Debug.WriteLine(p.DatoUtgivelse);
+            }
+
+            System.Diagnostics.Debug.WriteLine("get meth");
+
+	        //putToDb();        
             return View();
-            
+	    }
+
+        [System.Web.Mvc.HttpPost]
+        public ActionResult Index(int id, string str)
+        {
+            System.Diagnostics.Debug.WriteLine("post"+str+id);
+            return View();
+
         }
+	
+	    
+
+
         public ActionResult Test()
         {
             System.Diagnostics.Debug.WriteLine("get MODIFY");

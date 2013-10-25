@@ -39,6 +39,32 @@ namespace Webassistenten_ads_api.Models
 			RealEstAgentPhone = -1;
 		}
 
+        public RealEstateAdInfo(int prodId, int type, int price, int zipCode, int finnCode, int cont)
+        {
+            ProductId = prodId;
+            Type = type;
+            Price = -1;
+            ZipCode = -1;
+            FinnCode = -1;
+            ContractNr = -1;
+            P_rom = (float)-1.0;
+            Boa = (float)-1.0;
+            Bta = (float)-1.0;
+            Bra = (float)-1.0;
+            Costs = -1;
+            PurchaseCosts = -1;
+            CommonCosts = -1;
+            AmountSharedDebt = -1;
+            CommonExpenses = -1;
+            PropertyArea = -1;
+            Floor = -1;
+            Bedrooms = -1;
+            Rooms = -1;
+            RealEstAgentMobile = -1;
+            RealEstAgentPhone = -1;
+        }
+
+
 		// Mandatory fields:
 
         public int RealtorId {get; private set; } // This should possibly be a class/connected to one, since the ID is connected to where to save the ad.
@@ -116,5 +142,10 @@ namespace Webassistenten_ads_api.Models
 		public System.Net.Mail.MailAddress RealEstAgentEmail { get; private set; }
 
 		public String AdText { get; private set; }	// Is this the best representation for the text?
+
+
+
+        
+
     }
 }
