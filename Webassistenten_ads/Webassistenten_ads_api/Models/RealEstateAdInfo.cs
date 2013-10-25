@@ -39,29 +39,37 @@ namespace Webassistenten_ads_api.Models
 			RealEstAgentPhone = -1;
 		}
 
-        public RealEstateAdInfo(int prodId, int type, int price, int zipCode, int finnCode, int cont)
+        public RealEstateAdInfo(int prodId, int type, int price, int zipCode, string zipArea, string location, string headLine, 
+            int finnCode, int contractNr, float prom, float boa, float bta, float bra, int cost,
+            int purchaseCost, int commonCost, int amountSharedDebt, int commonExpenses, int propertyArea,
+            int floor, int bedrooms, int rooms, int mobile, int phone
+            )
         {
             ProductId = prodId;
             Type = type;
-            Price = -1;
-            ZipCode = -1;
-            FinnCode = -1;
-            ContractNr = -1;
-            P_rom = (float)-1.0;
-            Boa = (float)-1.0;
-            Bta = (float)-1.0;
-            Bra = (float)-1.0;
-            Costs = -1;
-            PurchaseCosts = -1;
-            CommonCosts = -1;
-            AmountSharedDebt = -1;
-            CommonExpenses = -1;
-            PropertyArea = -1;
-            Floor = -1;
-            Bedrooms = -1;
-            Rooms = -1;
-            RealEstAgentMobile = -1;
-            RealEstAgentPhone = -1;
+            Price = price;
+            ZipCode = zipCode;
+            ZipArea = zipArea;
+            Location = location;
+            Headline = headLine;
+            FinnCode = finnCode;
+            ContractNr = contractNr;
+            P_rom = (float)prom;
+            Boa = (float)boa;
+            Bta = (float)bta;
+            Bra = (float)bra;
+            Costs = cost;
+            PurchaseCosts = purchaseCost;
+            CommonCosts = commonCost;
+            AmountSharedDebt = amountSharedDebt;
+            CommonExpenses = commonExpenses;
+            PropertyArea = propertyArea;
+            Floor = floor;
+            Bedrooms = bedrooms;
+            Rooms = rooms;
+            RealEstAgentMobile = mobile;
+            RealEstAgentPhone = phone;
+            
         }
 
 

@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.IO;
+
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
@@ -29,7 +31,7 @@ namespace Webassistenten_ads_api.Controllers
 		{
 
 			HttpResponseMessage result = null;
-			var httpRequest = HttpContext.Current.Request;
+            var httpRequest = System.Web.HttpContext.Current.Request;
 
 			// Verify that this is an HTML Form file upload request
 			if (!Request.Content.IsMimeMultipartContent ("form-data")) {
@@ -37,26 +39,26 @@ namespace Webassistenten_ads_api.Controllers
 			} else {
 				if (httpRequest.Files.Count == 1) {
 					var docfiles = new List<string> ();
-					foreach (string file in httpRequest.Files) {
+                    string file = httpRequest.Files[0].ToString();
+					//foreach (string file in httpRequest.Files) {
 						var postedFile = httpRequest.Files [file];
-						var filePath = HttpContext.Current.Server.MapPath ("~/" + postedFile.FileName);
+                        var filePath = System.Web.HttpContext.Current.Server.MapPath("~/" + postedFile.FileName);
 					
 						postedFile.SaveAs (filePath);
 						docfiles.Add (filePath);
 					
-					}
-					FileInfo fileInfo = new FileInfo(docfiles.First);
+                    FileInfo fileInfo = new FileInfo(filePath);
 
 					if (fileInfo.Extension != ".pdf")
 					{
-						result = result = Request.CreateResponse ("Unsupported file-type",  HttpStatusCode.BadRequest);
+						result = Request.CreateResponse(HttpStatusCode.BadRequest);
 					}
 					else
 					{
-					result = Request.CreateResponse (HttpStatusCode.Created, docfiles);
+					result = Request.CreateResponse(HttpStatusCode.Created, docfiles);
 					}
 				} else {
-					result = Request.CreateResponse (HttpStatusCode.BadRequest);
+					result = Request.CreateResponse(HttpStatusCode.BadRequest);
 				}
 			}
 			
