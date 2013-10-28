@@ -12,13 +12,12 @@ using System.Net.Http;
 using System.Web.Http;
 using System.ComponentModel.DataAnnotations;
 
-using System.Collections.Generic;
 using System.IO;
 
 
 namespace Webassistenten_ads_api.Controllers
 {
-    public class MasterController : ApiController
+    public class MasterController : Controller
     {
 
         private BoligEntities1 db = new BoligEntities1();
@@ -36,213 +35,87 @@ namespace Webassistenten_ads_api.Controllers
         //
         // GET: /Master/
 
-        
 
-        //[System.Web.Mvc.HttpGet]
-        //public ActionResult Index()
-        //{
-        //    MethodsToImplement mti = new MethodsToImplement();
-        //    IEnumerable<ProduktUtgivelse> pd = mti.GetNextFivePublishables(2);
-        //    foreach (ProduktUtgivelse p in pd)
-        //    {
-        //        System.Diagnostics.Debug.WriteLine(p.DatoUtgivelse);
-        //    }
-
-        //    System.Diagnostics.Debug.WriteLine("get meth");
-
-        //    //putToDb();        
-        //    return View();
-        //}
-
-        [System.Web.Mvc.HttpPost]
-        public HttpResponseMessage Index()
+        [System.Web.Mvc.HttpGet]
+        public ActionResult Index()
         {
-            System.Diagnostics.Debug.WriteLine("file post");
-            HttpResponseMessage result = null;
-            var httpRequest = System.Web.HttpContext.Current.Request;
 
-            // Verify that this is an HTML Form file upload request
-            if (!Request.Content.IsMimeMultipartContent("form-data"))
-            {
-                result = Request.CreateResponse(HttpStatusCode.UnsupportedMediaType);
-            }
-            else
-            {
-                if (httpRequest.Files.Count == 1)
-                {
-                    var docfiles = new List<string>();
-                    string file = httpRequest.Files[0].ToString();
-                    //foreach (string file in httpRequest.Files) {
-                    var postedFile = httpRequest.Files[0];
-                    var filePath = System.Web.HttpContext.Current.Server.MapPath("~/" + postedFile.FileName);
-
-                    postedFile.SaveAs(filePath);
-                    docfiles.Add(filePath);
-
-                    FileInfo fileInfo = new FileInfo(filePath);
-
-                    if (fileInfo.Extension != ".pdf")
-                    {
-                        result = Request.CreateResponse(HttpStatusCode.BadRequest);
-                    }
-                    else
-                    {
-                        result = Request.CreateResponse(HttpStatusCode.Created, docfiles);
-                    }
-                }
-                else
-                {
-                    result = Request.CreateResponse(HttpStatusCode.BadRequest);
-                }
-            }
-
-            return result;
+            return View();
 
         }
 
 
+        [System.Web.Mvc.HttpPost]
+        public ActionResult Upload(string t)
+        {
+            var file = Request.Files[0];
 
-        //public ActionResult Index(int prodId, int type, int price, int zipCode, string zipArea, string location, string headLine,
-        //    int finnCode, int contractNr, float prom, float boa, float bta, float bra, int cost,
-        //    int purchaseCost, int commonCost, int amountSharedDebt, int commonExpenses, int propertyArea,
-        //    int floor, int bedrooms, int rooms, int mobile, int phone)
-        //{
-        //    RealEstateAdInfo reai = new RealEstateAdInfo(prodId, type,  price,  zipCode,  zipArea,  location,  headLine, 
-        //     finnCode,  contractNr,  prom,  boa,  bta,  bra, cost,
-        //    purchaseCost, commonCost, amountSharedDebt,  commonExpenses, propertyArea,
-        //    floor, bedrooms, rooms, mobile, phone);
 
-        //    prospekt = new Prospekt();
-        //    prospekt.PartnerID = 3;
-        //    prospekt.BrukerID = 137;
-        //    prospekt.DatoReg = DateTime.Now;
-        //    prospekt.StatusID = 3;
-        //    prospekt.KommAvgifter = reai.Costs;
-        //    prospekt.Fellesgjeld = reai.CommonCosts;
-        //    prospekt.Etasje = (byte)reai.Floor;
-        //    prospekt.Rom = (byte)reai.Rooms;
-
-        //    prospekt.TEMP_ModulID = 3;
-
-        //    prospekt.BOA = (long)reai.Boa;
-        //    prospekt.BTA = (long)reai.Bta;
-        //    prospekt.BBOverskrift = reai.Headline;
-        //    prospekt.Overskrift1 = reai.Headline;
             
-        //    prospekt.Annonsetekst = reai.AdText;
+
+            if (file != null && file.ContentLength > 0)
+            {
+                var fileName = Path.GetFileName(file.FileName);
+                
+
+                var path = Path.Combine(Server.MapPath("~/hdTest/"), "");
+                if (!Directory.Exists(path))
+                {
+                    System.IO.Directory.CreateDirectory(path);
+                }
+                path = Path.Combine(Server.MapPath("~/hdTest/"), fileName);
+                FileInfo fileInfo = new FileInfo(path);
+
+                if (fileInfo.Extension != ".pdf")
+                    return RedirectToAction("Fail");
+                System.Diagnostics.Debug.WriteLine(path);
+                file.SaveAs(path);
+                System.Diagnostics.Debug.WriteLine(t);
+                return RedirectToAction("Success");
+
+            }
+            else
+                return RedirectToAction("Fail");
             
-        //    prospekt.Pris = reai.Price;
-        //    prospekt.Postnr = reai.ZipCode.ToString();
-        //    prospekt.Poststed = reai.ZipArea;
-            
-        //    prospekt.MeglerAdresse = "Hjemme hos HD";
-        //    prospekt.KontorTlf = reai.RealEstAgentPhone.ToString();
-        //    prospekt.MeglerTlfMobil = reai.RealEstAgentMobile.ToString();
-            
-        //    prospekt.Kommune = reai.Area;
-        //    prospekt.Selger = reai.RealEstAgentName;
 
-        //    System.Diagnostics.Debug.WriteLine("post meth");
+        }
 
+        public ActionResult Test() {
+            string apiUri = Url.HttpRouteUrl("DefaultApi", new { controller = "Test", });
+            ViewBag.ApiUrl = new Uri(Request.Url, apiUri).AbsoluteUri.ToString();
 
-        //    db.Prospekts.Add(prospekt);
-        //    db.SaveChanges();
+            return View();
+        }
 
-        //    return View();
+        public ActionResult Fail()
+        {
 
-        //}
+            return View();
+        }
+        public ActionResult Success()
+        {
+
+            return View();
+        }
+
+        
 	
 	    
 
 
-        //public ActionResult Test()
-        //{
-        //    System.Diagnostics.Debug.WriteLine("get MODIFY");
-        //    return View();
-        //}
+        
 
 
-
-        public IEnumerable<Produkt> GetProducts(byte partnerId)
-        {
-            BoligEntities1 db = new BoligEntities1();
-
-            var result = from partnerProd in db.PartnerHarProdukts
-                         where partnerProd.PartnerID == partnerId
-                         select partnerProd.Produkt;
-
-            return result;
-        }
+        
 
        
 
 
 
 
-        public void PutToDb()
-        {
-            prospekt = new Prospekt();
-            prospekt.PartnerID = 3;
-            prospekt.BrukerID = 137;
-            prospekt.DatoReg = new DateTime(2013, 10,23);
-            prospekt.StatusID = 3;
-            prospekt.Oppdragsnr = "No entity add";
-            prospekt.TEMP_ModulID = 3;
-            prospekt.BBOverskrift = "HDTEST";
-            prospekt.Overskrift1 = "TestModell";
-            prospekt.InndelingID = 3;
-            prospekt.BoligtypeID = 3;
-            prospekt.Annonsetekst = "HD sin annonse";
-            prospekt.Adresse = "HD hjem";
-            prospekt.Pris = 133713371337;
-            prospekt.Postnr = "1337";
-            prospekt.Poststed = "HD poststed";
-            prospekt.Megler = "Erlend";
-            prospekt.MeglerEmail = "HD@HD.com";
-            prospekt.MeglerTittel = "Master of the meggler";
-            prospekt.MeglerAdresse = "Hjemme hos HD";
-            prospekt.KontorTlf = "13371337";
-            prospekt.Tomtetype = "Eier tomt";
-            prospekt.Kommune = "Trondheim";
-            prospekt.Selger = "Kpro 15";
-            prospekt.Meglerfirma = "Kpro AS";
-            prospekt.Orgnr = "1337";
+       
 
-
-
-           
-
-
-            //db.Entry(prospekt).State = EntityState.Modified;
-            //DO this for everything.
-            //then call for all the tables:
-            //db.Entry(prospekt).State = EntityState.Added;
-            //db.Prospekts.Add(prospekt);
-            System.Diagnostics.Debug.WriteLine(db.Entry(prospekt).Entity.Megler);
-            //var result = (db.Prospekts.Where(p => (p.Overskrift1 == "TestModell")).Select(p => p));
-            //var resultProcessed = (DbQuery<Prospekt>)result;
-            //Prospekt prospekt1 = resultProcessed.First();
-            System.Diagnostics.Debug.WriteLine("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA!");
-            //System.Diagnostics.Debug.WriteLine(prospekt1.Megler);
-            
-            //finally:
-            //db.SaveChanges();
-            //method
-            
-
-        }
-
-        //Getters for db
-        //public Prospekt GetProspekt(long id)
-        //{
-        //    prospekt = db.Prospekts.Find(id);
-        //    //if (prospekt == null)
-        //    //{
-        //    //    throw new HttpResponseException(Request.CreateResponse(HttpStatusCode.NotFound));
-        //    //}
-
-        //    return prospekt;
-        //}
+        
 
 
 

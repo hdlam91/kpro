@@ -3,8 +3,11 @@
 }
 
 <h2>Test</h2>
+<font color="#FF0000">Dude, you just failed so hard!</font>
+Let's try again shall we? Make sure the file uploaded is actually a pdf file.
 @using (Html.BeginForm("Upload", "Master", FormMethod.Post, new { enctype = "multipart/form-data" }))
 { 
+    
     <label for="t">Just a string</label>
     <input type="text" name="t" id ="t"><br />
     <input type="file" name="FileUpload" /><br />
