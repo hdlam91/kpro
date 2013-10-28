@@ -1,0 +1,25 @@
+﻿@model Webassistenten_ads_api.Models.HD
+
+@{
+    ViewBag.Title = "Test";
+}
+<h2>Test</h2>
+<form name="myform" action="http://www.mydomain.com/myformhandler.cgi" method="POST">
+<div align="center">
+<select name="mydropdown">
+
+
+@{
+    IEnumerable <Webassistenten_ads_api.ProduktUtgivelse> pd = Model.GetDate();
+ 
+
+}
+@foreach (Webassistenten_ads_api.ProduktUtgivelse a in pd)
+{
+    <option value=\"@a.DatoUtgivelse\">@a.DatoUtgivelse</option>
+}
+
+
+</select>
+</div>
+</form>

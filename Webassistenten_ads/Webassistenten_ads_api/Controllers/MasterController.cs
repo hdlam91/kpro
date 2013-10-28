@@ -98,6 +98,12 @@ namespace Webassistenten_ads_api.Controllers
             return View();
         }
 
+        public ActionResult ModelStuff()
+        {
+            HD ad = new HD();
+            return View(ad);
+        }
+
         
 	
 	    
