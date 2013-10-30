@@ -1119,7 +1119,7 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\Admin.cshtml" />
     <Content Include="Views\Master\Index.cshtml" />
-    <Content Include="Views\Master\Test.cshtml" />
+    <Content Include="Views\Master\AddNewAd.cshtml" />
     <Content Include="Views\Master\Fail.cshtml" />
     <Content Include="Views\Master\Success.cshtml" />
     <Content Include="Views\Master\ModelStuff.cshtml" />

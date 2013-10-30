@@ -18,11 +18,5 @@ namespace Webassistenten_ads_api.Controllers
             return View();
         }
 
-        [HttpPost]
-        public ActionResult Index()
-        {
-            return View();
-        }
-
     }
 }

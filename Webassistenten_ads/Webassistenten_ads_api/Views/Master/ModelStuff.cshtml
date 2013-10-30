@@ -1,4 +1,5 @@
-﻿@model Webassistenten_ads_api.Models.HD
+﻿
+@model Webassistenten_ads_api.Models.HD
 
 @{
     ViewBag.Title = "Test";
@@ -23,3 +24,11 @@
 </select>
 </div>
 </form>
+@{
+    
+    System.DateTime dt = new DateTime(2013,9,23);
+    @dt.Date;
+    <br />
+    @dt.ToString();
+    
+}
