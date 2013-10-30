@@ -9,13 +9,28 @@ namespace Webassistenten_ads_api.Models
 {
     public class HD
     {
-		/// <summary>
-		/// Initializes a new instance of the <see cref="Webassistenten_ads.Models.RealEstateAdInfo"/> class, with all non-nullable mumbers set to -1
-		/// to mark them as not set to a proper value.
-		/// </summary>
-	
+        public HD()
+        {
 
-        public double number {get; set;}
+        }
+
+        public IEnumerable<ProduktUtgivelse> GetDate()
+        {
+            MethodsToImplement mti = new MethodsToImplement();
+            return mti.GetNextFivePublishables(2);
+            //    foreach (ProduktUtgivelse p in pd)
+            //    {
+            //        System.Diagnostics.Debug.WriteLine(p.DatoUtgivelse);
+            //    }
+
+        }
+
+        
+
+        //    System.Diagnostics.Debug.WriteLine("get meth");
+
+        //    //putToDb();        
+        //    return View();
     }
     
 }

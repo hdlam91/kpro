@@ -1120,6 +1120,9 @@
     <Content Include="Views\Home\Admin.cshtml" />
     <Content Include="Views\Master\Index.cshtml" />
     <Content Include="Views\Master\Test.cshtml" />
+    <Content Include="Views\Master\Fail.cshtml" />
+    <Content Include="Views\Master\Success.cshtml" />
+    <Content Include="Views\Master\ModelStuff.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

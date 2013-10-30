@@ -4,22 +4,25 @@ using System.Linq;
 
 namespace Webassistenten_ads_api
 {
-	public abstract class MethodsToImplement
+	public class MethodsToImplement
 	{
-		public MethodsToImplement ()
-		{
-		}
+		
+
+        public MethodsToImplement()
+        {
+            // TODO: Complete member initialization
+        }
 
 		/// <summary>
 		/// Will cancel the current order, and rollback any changes made to the database
 		/// </summary>
-        public abstract void CancelOrder();
+        //public abstract void CancelOrder();
 
-		public abstract void ResetFields();
+        //public abstract void ResetFields();
 
-		public abstract void RollBackQuery();
+        //public abstract void RollBackQuery();
 
-		public abstract void StoreQuery();
+        //public abstract void StoreQuery();
 
         //Template for databaseTest
         public void InitDB()
@@ -58,18 +61,19 @@ namespace Webassistenten_ads_api
             return result;
         }
 
-		public IEnumerable<ProduktUtgivelse> GetNextFivePublishables(byte prodId)
-		{
-			BoligEntities1 db = new BoligEntities1 ();
+        public IEnumerable<ProduktUtgivelse> GetNextFivePublishables(byte prodId)
+        {
+            BoligEntities1 db = new BoligEntities1();
 
-			var result = (from prodUtgivelse in db.ProduktUtgivelses
-						 where prodUtgivelse.ProduktID == prodId && prodUtgivelse.BookingFristSlutt > 0 && prodUtgivelse.DatoUtgivelse > System.DateTime.Today
-						 select prodUtgivelse);
+            var result = (from prodUtgivelse in db.ProduktUtgivelses
+                          where prodUtgivelse.ProduktID == prodId && prodUtgivelse.BookingFristSlutt > 0 && prodUtgivelse.DatoUtgivelse > System.DateTime.Today
+                          select prodUtgivelse);
 
-			result = IEnumerable.OrderByAscending<ProduktUtgivelse, System.DateTime> ( result, utgivelse => utgivelse.DatoUtgivelse ).Take(5);
+            result.OrderBy<ProduktUtgivelse, DateTime>(utgivelse => utgivelse.DatoUtgivelse);
+            result = result.Take(5);
 
-			return result;
-		}
+            return result;
+        }
 	}
 }
 
