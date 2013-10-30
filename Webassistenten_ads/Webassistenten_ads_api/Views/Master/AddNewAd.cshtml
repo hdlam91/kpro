@@ -1,0 +1,125 @@
+﻿@{
+    ViewBag.Title = "Add a new ad";
+}
+
+<h2>Test</h2>
+@using (Html.BeginForm("Upload", "Master", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{ 
+    <label for="file">Upload file: (type pdf)</label>
+    <input type="file" name="FileUpload" /><br />
+    <label for="ProductId">ProductID</label>
+    
+    <input class="text-box single-line" data-val="true" data-val-number="The field ProductID must be a number." id="ProductID" name="ProductID" type="number" value="" /><br>
+    <label for="ResponsibleRealtor">ResponsibleRealtor</label>
+    
+    
+    <input type="text" name="ResponsibleRealtor"/><br />
+    
+    <label for="Area">Area</label>
+    <input type="text" name="Area"/><br />
+    <label for="Type">Type</label>
+    
+    <input class="text-box single-line" data-val="true" data-val-number="The field Type must be a number." id="Type" name="Type" type="number" value="" /><br>
+    <label for="Price">Price</label>
+    
+    <input class="text-box single-line" data-val="true" data-val-number="The field Price must be a number." id="Price" name="Price" type="number" value="" /><br>
+    <label for="Location">Location</label>
+    <input type="text" name="Location"/><br />
+    <label for="Headline">Headline</label>
+    <input type="text" name="Headline"/><br />
+        <label for="Address">Address</label>
+    <input type="text" name="Address"/><br />
+    <label for="ZipCode">ZipCode</label>
+    <input class="text-box single-line" data-val="true" data-val-number="The field Price must be a valid zipcode." id="ZipCode" name="ZipCode" type="number" value="" /><br>
+    
+    <label for="ZipArea">ZipArea</label>
+    <input type="text" name="ZipArea"/><br />
+    <label for="BookingDate">BookingDate</label>
+    <input class="text-box single-line" data-val="true" data-val-date="The field DatoReg must be a date." id="BookingDate" name="BookingDate" type="datetime" value="" />
+            <span class="field-validation-valid" data-valmsg-for="BookingDate" data-valmsg-replace="true"></span>
+<br /><hr />
+    /*Non-mandatory fields below:*/
+    <p>Non mandatory fields below:</p>
+        <label for="FinnCode">FinnCode</label>
+
+    <input type="text" name="FinnCode"/><br />
+        <label for="ContractNr">ContractNr</label>
+
+    <input type="text" name="ContractNr"/><br />
+        <label for="P_rom">P_rom</label>
+
+    <input type="text" name="P_rom"/><br />
+            <label for="Boa">Boa</label>
+
+    <input type="text" name="Boa"/><br />
+        <label for="Bta">Bta</label>
+
+    <input type="text" name="Bta"/><br />
+        <label for="Bra">Bra</label>
+
+    <input type="text" name="Bra"/><br />    
+    <label for="Costs">Costs</label>
+
+    <input type="text" name="Costs"/><br />
+        <label for="PurchaseCosts">PurchaseCosts</label>
+
+    <input type="text" name="PurchaseCosts"/><br />
+        <label for="CommonCosts">CommonCosts</label>
+
+    <input type="text" name="CommonCosts"/><br />
+        <label for="AmountSharedDebt">AmountShared</label>
+
+    <input type="text" name="AmountSharedDebt"/><br />
+       <label for="CommonExpenses">CommonExpenses</label>
+
+    <input type="text" name="CommonExpenses"/><br />
+        <label for="PropertyArea">PropertyArea</label>
+
+    <input type="text" name="PropertyArea"/><br />
+        <label for="PropertyType">--Type</label>
+
+    <input type="text" name="PropertyType PropertyType"/><br />
+    <label for="ConstructionYear">Constr. Year</label>
+    <input class="text-box single-line" data-val="true" data-val-date="The field OpenHouseDate must be a date." id="ConstructionYear" name="ConstructionYear" type="datetime" value="" />
+            <span class="field-validation-valid" data-valmsg-for="ConstructionYear" data-valmsg-replace="true"></span><br />
+        
+
+   
+        <label for="Floor">Floors</label>
+
+    <input type="text" name="Floor"/><br />
+        <label for="Bedrooms">Bedrooms</label>
+
+    <input type="text" name="Bedrooms"/><br />
+       <label for="Rooms">Rooms</label>
+
+    <input type="text" name="Rooms"/><br />
+        <label for="OpenHouseDate">Open House Date</label>
+
+    <input class="text-box single-line" data-val="true" data-val-date="The field OpenHouseDate must be a date." id="OpenHouseDate" name="OpenHouseDate" type="datetime" value="" />
+            <span class="field-validation-valid" data-valmsg-for="OpenHouseDate" data-valmsg-replace="true"></span><br />
+        <label for="OpenHouseText">--- Text</label>
+
+    <input type="text" name="OpenHouseText"/><br />
+        <label for="RealEstAgentName">RealEstAgentName</label>
+
+    <input type="text" name="RealEstAgentName"/><br />
+        <label for="RealEstAgentTitle">-Title</label>
+
+    <input type="text" name="RealEstAgentTitle"/><br />
+        <label for="RealEstAgentMobile">Mobile</label>
+
+    <input type="text" name="RealEstAgentMobile"/><br />
+       <label for="RealEstAgentPhone">Phone</label>
+
+    <input type="text" name="RealEstAgentPhone"/><br />
+       <label for="RealEstAgentEmail">Mail</label>
+
+    <input type="text" name="RealEstAgentEmail"/><br />
+        <label for="AdText">AdText</label>
+
+    <input type="text" name="AdText" /><br />
+    
+
+    <input type="submit" name="Submit" id="Submit" value="Upload" />
+}
