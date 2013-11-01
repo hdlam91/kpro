@@ -53,9 +53,13 @@ namespace Webassistenten_ads_api.Controllers
             int CommonExpenses = 0, int PropertyArea = 0, string PropertyType = "",
             int Floor = 0, int Bedrooms = 0, int Rooms = 0, string OpenHouseText = "",
             string RealEstAgentName ="", string RealEstAgentTitle = "", int RealEstAgentMobile = 0, int RealEstAgentPhone = 0,
-            System.Net.Mail.MailAddress RealEstAgentEmail = null, string AdText = "")
+            string RealEstAgentEmail = "", string AdText = "")
         {
-            System.Diagnostics.Debug.WriteLine(BookingDate.ToString() );
+            System.Net.Mail.MailAddress mail = null;
+            if (IsValidMail(RealEstAgentEmail))
+            {
+                mail = new System.Net.Mail.MailAddress(RealEstAgentEmail);
+            }
             var file = Request.Files[0];
 
 
@@ -79,10 +83,16 @@ namespace Webassistenten_ads_api.Controllers
                 System.Diagnostics.Debug.WriteLine(path);
                 file.SaveAs(path);
                 //the file uploaded was in fact a pdf and everything is ok! Now let's do some db stuff
-                //ProspektHarBestilling prospektHarBestilling = new ProspektHarBestilling();
-                //prospektHarBestilling.Filnavn = "HDTEST";
-                //db.ProspektHarBestillings.Add(prospektHarBestilling);
-                //db.SaveChanges();
+                ProspektHarBestilling prospektHarBestilling = new ProspektHarBestilling();
+                Prospekt prospekt = new Prospekt();
+                prospektHarBestilling.Filnavn = path;
+                prospektHarBestilling.DatoBest = BookingDate;
+                prospekt.DatoReg = DateTime.Now;
+
+                
+                db.ProspektHarBestillings.Add(prospektHarBestilling);
+                db.Prospekts.Add(prospekt);
+                db.SaveChanges();
 
                 return RedirectToAction("Success");
 
@@ -97,7 +107,7 @@ namespace Webassistenten_ads_api.Controllers
             string apiUri = Url.HttpRouteUrl("DefaultApi", new { controller = "AddNewAd", });
             ViewBag.ApiUrl = new Uri(Request.Url, apiUri).AbsoluteUri.ToString();
 
-            return View();
+            return View(new HD());
         }
 
         public ActionResult Fail()
@@ -129,10 +139,21 @@ namespace Webassistenten_ads_api.Controllers
 
             return result;
         }
-        
-	
-	    
 
+
+
+        private bool IsValidMail(string emailaddress)
+        {
+            try
+            {
+                System.Net.Mail.MailAddress m = new System.Net.Mail.MailAddress(emailaddress);
+                return true;
+            }
+            catch (FormatException)
+            {
+                return false;
+            }
+        }
 
         
 

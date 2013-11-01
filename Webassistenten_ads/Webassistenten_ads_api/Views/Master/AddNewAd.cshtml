@@ -1,6 +1,17 @@
-﻿@{
+﻿@model Webassistenten_ads_api.Models.HD
+
+@{
     ViewBag.Title = "Add a new ad";
 }
+
+@{
+    IEnumerable <Webassistenten_ads_api.ProduktUtgivelse> pd = Model.GetDate();
+ 
+
+}
+
+
+
 
 <h2>Test</h2>
 @using (Html.BeginForm("Upload", "Master", FormMethod.Post, new { enctype = "multipart/form-data" }))
@@ -35,9 +46,19 @@
     <label for="ZipArea">ZipArea</label>
     <input type="text" name="ZipArea"/><br />
     <label for="BookingDate">BookingDate</label>
-    <input class="text-box single-line" data-val="true" data-val-date="The field DatoReg must be a date." id="BookingDate" name="BookingDate" type="datetime" value="" />
-            <span class="field-validation-valid" data-valmsg-for="BookingDate" data-valmsg-replace="true"></span>
-<br /><hr />
+    <select name="BookingDate">
+    @foreach (Webassistenten_ads_api.ProduktUtgivelse a in pd)
+    {
+        string correctFormat = @a.DatoUtgivelse.Year+"-"
+            +@a.DatoUtgivelse.Month+"-"
+            +@a.DatoUtgivelse.Day;
+    <option name="@correctFormat">@correctFormat</option>
+    }
+        </select>
+    
+    
+    
+    <hr />
     /*Non-mandatory fields below:*/
     <p>Non mandatory fields below:</p>
         <label for="FinnCode">FinnCode</label>
