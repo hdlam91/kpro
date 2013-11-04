@@ -1,0 +1,39 @@
+﻿@{
+    ViewBag.Title = "ChooseModule";
+}
+
+<h2>ChooseModule</h2>
+
+@model Webassistenten_ads_api.Models.HD
+
+@{
+    ViewBag.Title = "Add a new ad";
+}
+
+@{
+    byte partnerID = 2;
+    IEnumerable<Webassistenten_ads_api.Produkt> prod = Model.GetProducts(partnerID);//TODO fix so we get partnerID instead of 2
+
+}
+
+
+
+
+<h2>Test</h2>
+@using (Html.BeginForm("AddNewAd", "Master", FormMethod.Post))
+{ 
+   <p> velg produkt:</p>
+    <label for="ProductId">ProductID</label>
+    <select name="ProductId" id="ProductId">
+    @foreach (Webassistenten_ads_api.Produkt prodIterator in prod)
+    {
+        string correctFormat = prodIterator.Produktnavn;
+    <option name="@prodIterator.ProduktID" value="@prodIterator.ProduktID">@correctFormat</option>
+    }
+    </select>
+    
+    
+
+    <input type="submit" name="Submit" id="Submit" value="Upload" />
+}
+
