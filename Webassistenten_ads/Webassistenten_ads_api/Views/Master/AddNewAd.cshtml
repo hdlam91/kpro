@@ -5,8 +5,9 @@
 }
 
 @{
-    IEnumerable <Webassistenten_ads_api.ProduktUtgivelse> pd = Model.GetDate();
- 
+    byte productID = 2;
+    IEnumerable <Webassistenten_ads_api.ProduktUtgivelse> pu = Model.GetDate(productID);
+    IEnumerable<Webassistenten_ads_api.Modul> mod = Model.GetProductModules();
 
 }
 
@@ -18,9 +19,21 @@
 { 
     <label for="file">Upload file: (type pdf)</label>
     <input type="file" name="FileUpload" /><br />
-    <label for="ProductId">ProductID</label>
     
-    <input class="text-box single-line" data-val="true" data-val-number="The field ProductID must be a number." id="ProductID" name="ProductID" type="number" value="" /><br>
+    
+    <label for="ProductId">ProductID: @Model.productId</label>
+    <input type="hidden" name="ProductId" value="@Model.productId">
+     <select name="Modul">
+    @foreach (Webassistenten_ads_api.Modul modIterator in mod)
+    {
+        string @correctFormat = @modIterator.Modulnavn + "-" + @modIterator.Bredde + "x" + @modIterator.Høyde;
+    <option name="@modIterator.Modulnavn" value="@modIterator.ModulID">@correctFormat</option>
+    }
+        </select>
+    
+    
+    
+    //<input class="text-box single-line" data-val="true" data-val-number="The field ProductID must be a number." id="ProductID" name="ProductID" type="number" value="" /><br>
     <label for="ResponsibleRealtor">ResponsibleRealtor</label>
     
     
@@ -47,11 +60,11 @@
     <input type="text" name="ZipArea"/><br />
     <label for="BookingDate">BookingDate</label>
     <select name="BookingDate">
-    @foreach (Webassistenten_ads_api.ProduktUtgivelse a in pd)
+    @foreach (Webassistenten_ads_api.ProduktUtgivelse puIterator in pu)
     {
-        string correctFormat = @a.DatoUtgivelse.Year+"-"
-            +@a.DatoUtgivelse.Month+"-"
-            +@a.DatoUtgivelse.Day;
+        string correctFormat = @puIterator.DatoUtgivelse.Year+"-"
+            +@puIterator.DatoUtgivelse.Month+"-"
+            +@puIterator.DatoUtgivelse.Day;
     <option name="@correctFormat">@correctFormat</option>
     }
         </select>

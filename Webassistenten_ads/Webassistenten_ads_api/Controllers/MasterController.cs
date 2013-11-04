@@ -55,6 +55,7 @@ namespace Webassistenten_ads_api.Controllers
             string RealEstAgentName ="", string RealEstAgentTitle = "", int RealEstAgentMobile = 0, int RealEstAgentPhone = 0,
             string RealEstAgentEmail = "", string AdText = "")
         {
+            System.Diagnostics.Debug.WriteLine(ProductId);
             System.Net.Mail.MailAddress mail = null;
             if (IsValidMail(RealEstAgentEmail))
             {
@@ -103,11 +104,14 @@ namespace Webassistenten_ads_api.Controllers
 
         }
 
-        public ActionResult AddNewAd() {
+        [System.Web.Mvc.HttpPost]
+        public ActionResult AddNewAd(int ProductId)
+        {
+            
             string apiUri = Url.HttpRouteUrl("DefaultApi", new { controller = "AddNewAd", });
             ViewBag.ApiUrl = new Uri(Request.Url, apiUri).AbsoluteUri.ToString();
 
-            return View(new HD());
+            return View(new HD(ProductId));
         }
 
         public ActionResult Fail()
@@ -119,10 +123,9 @@ namespace Webassistenten_ads_api.Controllers
             return View();
         }
 
-        public ActionResult ModelStuff()
+        public ActionResult ChooseModule()
         {
-            HD ad = new HD();
-            return View(ad);
+            return View(new HD());
         }
 
 
@@ -144,6 +147,8 @@ namespace Webassistenten_ads_api.Controllers
 
         private bool IsValidMail(string emailaddress)
         {
+            if (emailaddress == "")
+                return false;
             try
             {
                 System.Net.Mail.MailAddress m = new System.Net.Mail.MailAddress(emailaddress);

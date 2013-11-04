@@ -1123,6 +1123,7 @@
     <Content Include="Views\Master\Fail.cshtml" />
     <Content Include="Views\Master\Success.cshtml" />
     <Content Include="Views\Master\ModelStuff.cshtml" />
+    <Content Include="Views\Master\ChooseModule.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

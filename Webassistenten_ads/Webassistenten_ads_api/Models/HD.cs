@@ -9,21 +9,41 @@ namespace Webassistenten_ads_api.Models
 {
     public class HD
     {
-        public HD()
+        public int productId { get; private set; }
+        public HD(int productId)
         {
-
+            this.productId = productId;
         }
 
-        public IEnumerable<ProduktUtgivelse> GetDate()
+        public HD()
+        {
+            
+        }
+
+        public IEnumerable<ProduktUtgivelse> GetDate(byte productID)
         {
             MethodsToImplement mti = new MethodsToImplement();
-            return mti.GetNextFivePublishables(2);
+            return mti.GetNextFivePublishables(productID);
             //    foreach (ProduktUtgivelse p in pd)
             //    {
             //        System.Diagnostics.Debug.WriteLine(p.DatoUtgivelse);
             //    }
 
         }
+
+        public IEnumerable<Produkt> GetProducts(byte partnerID)
+        {
+            MethodsToImplement mti = new MethodsToImplement();
+            return mti.GetProducts(partnerID);
+        }
+
+
+        public IEnumerable<Modul> GetProductModules()
+        {
+            return new MethodsToImplement().GetProductModules((byte)productId);
+
+        }
+
 
         
 
