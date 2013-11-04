@@ -5,8 +5,8 @@
 }
 
 @{
-    byte productID = 2;
-    IEnumerable <Webassistenten_ads_api.ProduktUtgivelse> pu = Model.GetDate(productID);
+    
+    IEnumerable <Webassistenten_ads_api.ProduktUtgivelse> pu = Model.GetDate();
     IEnumerable<Webassistenten_ads_api.Modul> mod = Model.GetProductModules();
 
 }

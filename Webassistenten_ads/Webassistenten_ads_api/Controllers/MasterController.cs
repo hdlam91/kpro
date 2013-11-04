@@ -34,7 +34,7 @@ namespace Webassistenten_ads_api.Controllers
 
         //
         // GET: /Master/
-
+        public static string folder = "~/hdTest/"; // this has to be changed to something according 
 
         [System.Web.Mvc.HttpGet]
         public ActionResult Index()
@@ -70,7 +70,7 @@ namespace Webassistenten_ads_api.Controllers
             {
                 var fileName = Path.GetFileName(file.FileName);
 
-                string folder = "~/hdTest/"; // this has to be changed to something according 
+                
                 var path = Path.Combine(Server.MapPath(folder), "");
                 if (!Directory.Exists(path))
                 {
@@ -89,6 +89,7 @@ namespace Webassistenten_ads_api.Controllers
                 prospektHarBestilling.Filnavn = path;
                 prospektHarBestilling.DatoBest = BookingDate;
                 prospekt.DatoReg = DateTime.Now;
+                
 
                 
                 db.ProspektHarBestillings.Add(prospektHarBestilling);
@@ -113,6 +114,15 @@ namespace Webassistenten_ads_api.Controllers
 
             return View(new HD(ProductId));
         }
+        public ActionResult ChooseModule(string email, int id)
+        {
+            HD hd = new HD();
+            //hd.checkMail(email);
+            hd.checkId(id);
+            return View(hd);
+        }
+
+
 
         public ActionResult Fail()
         {
@@ -123,11 +133,7 @@ namespace Webassistenten_ads_api.Controllers
             return View();
         }
 
-        public ActionResult ChooseModule()
-        {
-            return View(new HD());
-        }
-
+        
 
         public IEnumerable<ProduktUtgivelse> GetNextFivePublishables(byte prodId)
         {

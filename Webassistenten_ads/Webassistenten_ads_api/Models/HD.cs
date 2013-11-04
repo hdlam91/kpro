@@ -10,6 +10,7 @@ namespace Webassistenten_ads_api.Models
     public class HD
     {
         public int productId { get; private set; }
+        WebAssistentAuth auth;
         public HD(int productId)
         {
             this.productId = productId;
@@ -17,13 +18,27 @@ namespace Webassistenten_ads_api.Models
 
         public HD()
         {
-            
+            auth = new WebAssistentAuth();
         }
 
-        public IEnumerable<ProduktUtgivelse> GetDate(byte productID)
+        public void checkMail(string email)
+        {
+            auth.EmailAuthenticate(email);
+        }
+
+        public void checkId(int id)
+        {
+            auth.IdAuthenticate(id);
+        }
+
+        public byte getId()
+        {
+            return (byte)auth.authId;
+        }
+        public IEnumerable<ProduktUtgivelse> GetDate()
         {
             MethodsToImplement mti = new MethodsToImplement();
-            return mti.GetNextFivePublishables(productID);
+            return mti.GetNextFivePublishables((byte)productId);
             //    foreach (ProduktUtgivelse p in pd)
             //    {
             //        System.Diagnostics.Debug.WriteLine(p.DatoUtgivelse);

@@ -11,7 +11,7 @@
 }
 
 @{
-    byte partnerID = 2;
+    byte partnerID = Model.getId();
     IEnumerable<Webassistenten_ads_api.Produkt> prod = Model.GetProducts(partnerID);//TODO fix so we get partnerID instead of 2
 
 }

@@ -4,6 +4,20 @@
 
 <h2>Index</h2>
 <center>
-Use this thing to upload shizzle:
-    @Html.ActionLink("Uploading stuff button!", "ChooseModule", new { area = "" })
+Use this thing to upload shizzle, log in:
+
+    @using (Html.BeginForm("ChooseModule", "Master", FormMethod.Post))
+{ 
+  <label for="email">Le mail:</label>
+       <label for="id">id</label>
+        <input class="text-box single-line" data-val="true" data-val-number="The field Type must be a number." id="id" name="id" type="number" value="" /><br>
+    
+    
+    <input type="text" name="mail"/><br />      
+  <label for="email">Le pass:</label>
+    
+    
+    <input type="password" name="password"/><br />
+        <input type="submit" name="Submit" id="Submit" value="Log in" />
+}
 </center>

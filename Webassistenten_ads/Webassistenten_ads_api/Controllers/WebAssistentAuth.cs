@@ -18,11 +18,16 @@ namespace Webassistenten_ads_api
 		public Authentication EmailAuthenticate(string email) 
 		{
 			BoligEntities1 db = new BoligEntities1 ();
-
-			Bruker bruker = from b in db.Brukers
-							where b.Epost == email
-							select b.First();
-
+            Bruker bruker = null;
+            try
+            {
+                bruker = (from b in db.Brukers
+                          where b.Epost == email
+                          select b).First();
+            }
+            catch (Exception e)
+            {
+            }
 			if (bruker != null)
 			{
 				authId = bruker.PartnerID;
@@ -38,11 +43,16 @@ namespace Webassistenten_ads_api
 		public Authentication IdAuthenticate(int userId)
 		{
 			BoligEntities1 db = new BoligEntities1 ();
-
-			Bruker bruker = from b in db.Brukers
+            Bruker bruker = null;
+            try
+            {
+			bruker = (from b in db.Brukers
 							where b.BrukerID == userId
-							select b.First();
-
+							select b).First();
+            }
+            catch (Exception e)
+            {
+            }
 			if (bruker != null)
 			{
 				authId = bruker.PartnerID;
