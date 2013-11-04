@@ -36,13 +36,56 @@ namespace Webassistenten_ads_api.Controllers
         // GET: /Master/
         public static string folder = "~/hdTest/"; // this has to be changed to something according 
 
+        /// <summary>
+        /// Index method for login/identifying
+        /// </summary>
+        /// <returns>IndexView</returns>
         [System.Web.Mvc.HttpGet]
         public ActionResult Index()
         {
             return View();
         }
 
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="ProductId"></param>
+        /// <param name="ResponsibleRealtor"></param>
+        /// <param name="Area"></param>
+        /// <param name="Type"></param>
+        /// <param name="Price"></param>
+        /// <param name="Location"></param>
+        /// <param name="Headline"></param>
+        /// <param name="Address"></param>
+        /// <param name="ZipCode"></param>
+        /// <param name="ZipArea"></param>
+        /// <param name="BookingDate"></param>
+        /// <param name="OpenHouseDate"></param>
+        /// <param name="ConstructionYear"></param>
+        /// <param name="FinnCode"></param>
+        /// <param name="ContractNr"></param>
+        /// <param name="P_rom"></param>
+        /// <param name="Boa"></param>
+        /// <param name="Bta"></param>
+        /// <param name="Bra"></param>
+        /// <param name="Costs"></param>
+        /// <param name="PurchaseCosts"></param>
+        /// <param name="CommonCosts"></param>
+        /// <param name="AmountSharedDebt"></param>
+        /// <param name="CommonExpenses"></param>
+        /// <param name="PropertyArea"></param>
+        /// <param name="PropertyType"></param>
+        /// <param name="Floor"></param>
+        /// <param name="Bedrooms"></param>
+        /// <param name="Rooms"></param>
+        /// <param name="OpenHouseText"></param>
+        /// <param name="RealEstAgentName"></param>
+        /// <param name="RealEstAgentTitle"></param>
+        /// <param name="RealEstAgentMobile"></param>
+        /// <param name="RealEstAgentPhone"></param>
+        /// <param name="RealEstAgentEmail"></param>
+        /// <param name="AdText"></param>
+        /// <returns>Redirects</returns>
         [System.Web.Mvc.HttpPost]
         public ActionResult Upload(int ProductId, Realtor ResponsibleRealtor, string Area,int Type, 
             int Price, string Location,string Headline, Address Address, int ZipCode, 
@@ -104,7 +147,11 @@ namespace Webassistenten_ads_api.Controllers
             
 
         }
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="ProductId"></param>
+        /// <returns>View</returns>
         [System.Web.Mvc.HttpPost]
         public ActionResult AddNewAd(int ProductId)
         {
@@ -112,45 +159,43 @@ namespace Webassistenten_ads_api.Controllers
             string apiUri = Url.HttpRouteUrl("DefaultApi", new { controller = "AddNewAd", });
             ViewBag.ApiUrl = new Uri(Request.Url, apiUri).AbsoluteUri.ToString();
 
-            return View(new HD(ProductId));
+            return View(new DataModel(ProductId));
         }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="email"></param>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        [System.Web.Mvc.HttpPost]
         public ActionResult ChooseModule(string email, int id)
         {
-            HD hd = new HD();
+            DataModel dm = new DataModel();
             //hd.checkMail(email);
-            hd.checkId(id);
-            return View(hd);
+            dm.checkId(id);
+            return View(dm);
         }
 
 
-
+        /// <summary>
+        /// something missing or wrong with the datainput
+        /// </summary>
+        /// <returns>view</returns>
         public ActionResult Fail()
         {
             return View();
         }
+        /// <summary>
+        /// everything went right with inserting data/file
+        /// </summary>
+        /// <returns></returns>
         public ActionResult Success()
         {
             return View();
         }
 
-        
-
-        public IEnumerable<ProduktUtgivelse> GetNextFivePublishables(byte prodId)
-        {
-            BoligEntities1 db = new BoligEntities1();
-
-            var result = (from prodUtgivelse in db.ProduktUtgivelses
-                          where prodUtgivelse.ProduktID == prodId && prodUtgivelse.BookingFristSlutt > 0 && prodUtgivelse.DatoUtgivelse > System.DateTime.Today
-                          select prodUtgivelse);
-
-            result.OrderBy<ProduktUtgivelse, DateTime>(utgivelse => utgivelse.DatoUtgivelse);
-            result = result.Take(5);
-
-            return result;
-        }
-
-
-
+        //checks the that a mail is legal
         private bool IsValidMail(string emailaddress)
         {
             if (emailaddress == "")

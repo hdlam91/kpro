@@ -335,7 +335,7 @@
     </Compile>
     <Compile Include="Models\Address.cs" />
     <Compile Include="Models\AdInfo.cs" />
-    <Compile Include="Models\HD.cs" />
+    <Compile Include="Models\DataModel.cs" />
     <Compile Include="Models\PropertyType.cs" />
     <Compile Include="Models\RealEstateAdInfo.cs" />
     <Compile Include="Models\Realtor.cs" />
