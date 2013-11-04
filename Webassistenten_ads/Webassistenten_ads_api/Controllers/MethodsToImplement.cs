@@ -10,34 +10,13 @@ namespace Webassistenten_ads_api
 
         public MethodsToImplement()
         {
-            // TODO: Complete member initialization
         }
 
 		/// <summary>
-		/// Will cancel the current order, and rollback any changes made to the database
+		/// Gets the available products for the given Partner ID
 		/// </summary>
-        //public abstract void CancelOrder();
-
-        //public abstract void ResetFields();
-
-        //public abstract void RollBackQuery();
-
-        //public abstract void StoreQuery();
-
-        //Template for databaseTest
-        public void InitDB()
-        {
-            BoligEntities1 db = new BoligEntities1();
-
-            IEnumerable<Prospekt> prospects = new List<Prospekt>();
-            {
-                //TODO: Define Add for Prospekt?
-                new Prospekt() { Adresse = "TestAdresse", Annonsetekst = "TestText", Oppdragsnr = "HvorforString?!" };
-            };
-
-            db.SaveChanges();
-        }
-
+		/// <returns>The products.</returns>
+		/// <param name="partnerId">Partner identifier.</param>
         public IEnumerable<Produkt> GetProducts(byte partnerId)
         {
                 BoligEntities1 db = new BoligEntities1();
@@ -49,6 +28,11 @@ namespace Webassistenten_ads_api
                 return result;
         }
 
+		/// <summary>
+		/// Gets the available product modules for the given product.
+		/// </summary>
+		/// <returns>The product modules.</returns>
+		/// <param name="prodId">Product identifier.</param>
         public IEnumerable<Modul> GetProductModules(byte prodId)
         {
             BoligEntities1 db = new BoligEntities1();
@@ -61,6 +45,11 @@ namespace Webassistenten_ads_api
             return result;
         }
 
+		/// <summary>
+		/// Gets the next five publishable dates for the given product id.
+		/// </summary>
+		/// <returns>The next five publishables.</returns>
+		/// <param name="prodId">Product identifier.</param>
         public IEnumerable<ProduktUtgivelse> GetNextFivePublishables(byte prodId)
         {
             BoligEntities1 db = new BoligEntities1();
