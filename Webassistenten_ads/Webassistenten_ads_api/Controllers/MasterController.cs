@@ -148,10 +148,10 @@ namespace Webassistenten_ads_api.Controllers
 
         }
         /// <summary>
-        /// 
+        /// Passes the datamodel to the view.
         /// </summary>
         /// <param name="ProductId"></param>
-        /// <returns>View</returns>
+        /// <returns>AddNewAdView</returns>
         [System.Web.Mvc.HttpPost]
         public ActionResult AddNewAd(int ProductId)
         {
@@ -163,25 +163,31 @@ namespace Webassistenten_ads_api.Controllers
         }
 
         /// <summary>
-        /// 
+        /// Shows the correct modules for this given partnerID
         /// </summary>
         /// <param name="email"></param>
         /// <param name="id"></param>
-        /// <returns></returns>
+        /// <returns>ChooseModuleView</returns>
         [System.Web.Mvc.HttpPost]
         public ActionResult ChooseModule(string email, int id)
         {
             DataModel dm = new DataModel();
-            //hd.checkMail(email);
-            dm.checkId(id);
+            if (IsValidMail(email))
+            {
+                dm.checkMail(email);
+            }
+            else
+            {
+                dm.checkId(id);
+            }
             return View(dm);
         }
 
 
         /// <summary>
-        /// something missing or wrong with the datainput
+        /// Something missing or wrong with the datainput
         /// </summary>
-        /// <returns>view</returns>
+        /// <returns>FailView</returns>
         public ActionResult Fail()
         {
             return View();
@@ -189,7 +195,7 @@ namespace Webassistenten_ads_api.Controllers
         /// <summary>
         /// everything went right with inserting data/file
         /// </summary>
-        /// <returns></returns>
+        /// <returns>SuccessView</returns>
         public ActionResult Success()
         {
             return View();
