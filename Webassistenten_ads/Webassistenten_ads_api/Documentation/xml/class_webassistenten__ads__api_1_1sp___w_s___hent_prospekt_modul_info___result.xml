@@ -1,0 +1,2255 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result" kind="class" prot="public">
+    <compoundname>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a61ff3ea87721d00a9dd6510401448634" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>long</type>
+        <definition>long Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.ProspektID</definition>
+        <argsstring></argsstring>
+        <name>ProspektID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="16" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1aed0cb3eee126461847cd5cba42609f71" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>byte</type>
+        <definition>byte Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.PartnerID</definition>
+        <argsstring></argsstring>
+        <name>PartnerID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="17" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a5d78beb4756e0c7a93c957ecdd703247" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; int &gt;</type>
+        <definition>Nullable&lt;int&gt; Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.BrukerID</definition>
+        <argsstring></argsstring>
+        <name>BrukerID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="18" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a15b8b447af6c3dec5bf9ab185ac2c785" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; System.DateTime &gt;</type>
+        <definition>Nullable&lt;System.DateTime&gt; Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.DatoReg</definition>
+        <argsstring></argsstring>
+        <name>DatoReg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="19" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1ad621adeb4cfe0caaf739912b32bf826e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; byte &gt;</type>
+        <definition>Nullable&lt;byte&gt; Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.StatusID</definition>
+        <argsstring></argsstring>
+        <name>StatusID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="20" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1ad77e50d0fa1fb0f39fb38c4f5233654d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.Oppdragsnr</definition>
+        <argsstring></argsstring>
+        <name>Oppdragsnr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="21" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a6bfb9e8245715f7794c392963ce66ae6" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; byte &gt;</type>
+        <definition>Nullable&lt;byte&gt; Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.TEMP_ModulID</definition>
+        <argsstring></argsstring>
+        <name>TEMP_ModulID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="22" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a893b213770a07bc442928543562fc898" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.BBOverskrift</definition>
+        <argsstring></argsstring>
+        <name>BBOverskrift</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="23" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1ac76b79a65b32f6f1dfd1521d2b36304c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.Overskrift1</definition>
+        <argsstring></argsstring>
+        <name>Overskrift1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="24" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a8bdcd0277b8df0e491dd311c259110c8" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.Overskrift2</definition>
+        <argsstring></argsstring>
+        <name>Overskrift2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="25" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a015b5f6b969f805c144cdfb3c6503063" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; byte &gt;</type>
+        <definition>Nullable&lt;byte&gt; Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.InndelingID</definition>
+        <argsstring></argsstring>
+        <name>InndelingID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="26" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a6cec3addda4cedfbfe40ec54fc1d30c0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; byte &gt;</type>
+        <definition>Nullable&lt;byte&gt; Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.BoligtypeID</definition>
+        <argsstring></argsstring>
+        <name>BoligtypeID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="27" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a6f017f845e3f4e01e7dfaa8266f4a09b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; System.DateTime &gt;</type>
+        <definition>Nullable&lt;System.DateTime&gt; Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.VisningFra</definition>
+        <argsstring></argsstring>
+        <name>VisningFra</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="28" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1ae76a0fb9ef863ac7e8443d5e9ec9074c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; System.DateTime &gt;</type>
+        <definition>Nullable&lt;System.DateTime&gt; Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.VisningTil</definition>
+        <argsstring></argsstring>
+        <name>VisningTil</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="29" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a5064ea7b5909b9bd9353b84f934b10ae" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.BBVisning</definition>
+        <argsstring></argsstring>
+        <name>BBVisning</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="30" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a19c3b2c62c05e9c4ff66f7d8062b42e9" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.Visning</definition>
+        <argsstring></argsstring>
+        <name>Visning</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="31" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1ab35dfe233c4e3b1e135e18e332edb01c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.Annonsetekst</definition>
+        <argsstring></argsstring>
+        <name>Annonsetekst</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="32" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1ab5bb223d82c1b7b5b784da11b70616e3" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.Vurdering</definition>
+        <argsstring></argsstring>
+        <name>Vurdering</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="33" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1ac3b46461b0fd8f0782ef3d844648e96a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.Adresse</definition>
+        <argsstring></argsstring>
+        <name>Adresse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="34" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1acbe8a709b415909f8aebe405ce0644d8" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.FinnURL</definition>
+        <argsstring></argsstring>
+        <name>FinnURL</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="35" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1adcb81e51aa04ae3f4ba1a9d97df03562" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.FinnKode</definition>
+        <argsstring></argsstring>
+        <name>FinnKode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="36" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1abbc4bdab9e69c35dba1b36a19d329517" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.EM1BoligID</definition>
+        <argsstring></argsstring>
+        <name>EM1BoligID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="37" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a09d8f72a13db16020ce6fe3f1a473970" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.Oppdragstype</definition>
+        <argsstring></argsstring>
+        <name>Oppdragstype</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="38" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1ae28f1ab6b6e91c7652693c08591b5e18" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.Omraade</definition>
+        <argsstring></argsstring>
+        <name>Omraade</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="39" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a867772a77b64b0dfe345420c614fd086" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; long &gt;</type>
+        <definition>Nullable&lt;long&gt; Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.Pris</definition>
+        <argsstring></argsstring>
+        <name>Pris</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="40" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a6cb27cdc1adaa135cbd7cb89bf7a6e68" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; long &gt;</type>
+        <definition>Nullable&lt;long&gt; Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.PrisTil</definition>
+        <argsstring></argsstring>
+        <name>PrisTil</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="41" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a65eb28c965c177017adbdc952d14213c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; byte &gt;</type>
+        <definition>Nullable&lt;byte&gt; Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.PrisType</definition>
+        <argsstring></argsstring>
+        <name>PrisType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="42" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1ae9e9acd37bb536eac88c7efc88c6dec5" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; decimal &gt;</type>
+        <definition>Nullable&lt;decimal&gt; Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.Omkostninger</definition>
+        <argsstring></argsstring>
+        <name>Omkostninger</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="43" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1ae07abec3355c0d91b0ab47d9021669e7" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; int &gt;</type>
+        <definition>Nullable&lt;int&gt; Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.Kjopsomkostninger</definition>
+        <argsstring></argsstring>
+        <name>Kjopsomkostninger</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="44" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1aa5b86bcb737115e0c3953319b9de3c14" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; long &gt;</type>
+        <definition>Nullable&lt;long&gt; Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.PROM</definition>
+        <argsstring></argsstring>
+        <name>PROM</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="45" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1ad73b8b934262a3c6121f9de9d7203555" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; long &gt;</type>
+        <definition>Nullable&lt;long&gt; Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.BTA</definition>
+        <argsstring></argsstring>
+        <name>BTA</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="46" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a138bb49347f891940b62ddb5d4c6118e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; long &gt;</type>
+        <definition>Nullable&lt;long&gt; Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.BOA</definition>
+        <argsstring></argsstring>
+        <name>BOA</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="47" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1acb1cc165c1eadf64fdbc3b1492048977" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; long &gt;</type>
+        <definition>Nullable&lt;long&gt; Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.BRUA</definition>
+        <argsstring></argsstring>
+        <name>BRUA</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="48" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a0d59bab30ce7dc916990ae3b994093c2" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; short &gt;</type>
+        <definition>Nullable&lt;short&gt; Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.Soverom</definition>
+        <argsstring></argsstring>
+        <name>Soverom</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="49" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a5da7e0f223c071387df62391ec663a02" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; short &gt;</type>
+        <definition>Nullable&lt;short&gt; Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.Rom</definition>
+        <argsstring></argsstring>
+        <name>Rom</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="50" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1aee7a0cb1b1ad74dbfe53389955b77708" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.Romtekst</definition>
+        <argsstring></argsstring>
+        <name>Romtekst</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="51" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1abcfe9e4149c4a565dbfb3bdaab0af2c3" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.Byggeaar</definition>
+        <argsstring></argsstring>
+        <name>Byggeaar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="52" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a4a3ef22117c48021dd77b5d0fe417760" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; int &gt;</type>
+        <definition>Nullable&lt;int&gt; Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.Fellesutgifter</definition>
+        <argsstring></argsstring>
+        <name>Fellesutgifter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="53" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a633d6c100071651d8db25581d7a0e821" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; int &gt;</type>
+        <definition>Nullable&lt;int&gt; Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.Husleie</definition>
+        <argsstring></argsstring>
+        <name>Husleie</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="54" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1ad59d5f3f329e1bb82bfbb1862c641045" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; int &gt;</type>
+        <definition>Nullable&lt;int&gt; Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.Fellesgjeld</definition>
+        <argsstring></argsstring>
+        <name>Fellesgjeld</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="55" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a0da349f59c32cd74d10a27fc2ad7d93e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; int &gt;</type>
+        <definition>Nullable&lt;int&gt; Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.FellesInnskudd</definition>
+        <argsstring></argsstring>
+        <name>FellesInnskudd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="56" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a8e3592b1225ee3bef71636be508fd41f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; int &gt;</type>
+        <definition>Nullable&lt;int&gt; Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.Eierskiftegebyr</definition>
+        <argsstring></argsstring>
+        <name>Eierskiftegebyr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="57" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a5f5dc0f6664c3e93d81b37847a1f89b1" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; int &gt;</type>
+        <definition>Nullable&lt;int&gt; Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.GebyrForrForer</definition>
+        <argsstring></argsstring>
+        <name>GebyrForrForer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="58" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a299b9c524d1a16da1d1f4b3b6be5402e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; int &gt;</type>
+        <definition>Nullable&lt;int&gt; Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.OpprinneligBelop</definition>
+        <argsstring></argsstring>
+        <name>OpprinneligBelop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="59" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1aa660fea91e3618e48d78d5f5c0a9e967" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; int &gt;</type>
+        <definition>Nullable&lt;int&gt; Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.Partialobligasjon</definition>
+        <argsstring></argsstring>
+        <name>Partialobligasjon</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="60" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a1df295bce799358238fe6bc63a97ea1b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; int &gt;</type>
+        <definition>Nullable&lt;int&gt; Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.Restbelop</definition>
+        <argsstring></argsstring>
+        <name>Restbelop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="61" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a7e891f314952716fadcd730f389d61fd" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.Borettslag</definition>
+        <argsstring></argsstring>
+        <name>Borettslag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="62" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1ab0f9e6be2fff4fc60a938c8b20aba5f6" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.ForrForerNavn</definition>
+        <argsstring></argsstring>
+        <name>ForrForerNavn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="63" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1aaac4d4641a30f7f40add9176e10b4364" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.ForrForerAdr1</definition>
+        <argsstring></argsstring>
+        <name>ForrForerAdr1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="64" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1aceb1bfa4267a0e7909710f654d31bb48" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.ForrForerAdr2</definition>
+        <argsstring></argsstring>
+        <name>ForrForerAdr2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="65" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a56f3ccc7bb9826e24462d897019558f1" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; byte &gt;</type>
+        <definition>Nullable&lt;byte&gt; Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.Etasje</definition>
+        <argsstring></argsstring>
+        <name>Etasje</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="66" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a278fe0825589fd36e001c2734a06dedb" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.PostnrPoststed</definition>
+        <argsstring></argsstring>
+        <name>PostnrPoststed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="67" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a6e279641a5dbd377eb6c909105c2df39" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.Skolekrets</definition>
+        <argsstring></argsstring>
+        <name>Skolekrets</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="68" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1ab15a6d460aa38d9351a28cb321eb162f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.Megler</definition>
+        <argsstring></argsstring>
+        <name>Megler</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="69" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1abc263f55d0a28b2a0401b9a4a80c398b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.MeglerTittel</definition>
+        <argsstring></argsstring>
+        <name>MeglerTittel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="70" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="70" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a5cf6c5e1b35c39170e64a8140067d91a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.MeglerEmail</definition>
+        <argsstring></argsstring>
+        <name>MeglerEmail</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="71" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="71" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a3be34fe064a1b7b6a4ff64165c288df4" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.MeglerTlfMobil</definition>
+        <argsstring></argsstring>
+        <name>MeglerTlfMobil</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="72" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="72" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1ab19a86ac5b741b26867943d7462f0d84" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.MeglerTlf</definition>
+        <argsstring></argsstring>
+        <name>MeglerTlf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="73" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1aeda3c599d08763601d4d8ad8e2ff87d3" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.MeglerAdresse</definition>
+        <argsstring></argsstring>
+        <name>MeglerAdresse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="74" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1ac0b99385d47e715f3b54e9d76216a71c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.Megler2</definition>
+        <argsstring></argsstring>
+        <name>Megler2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="75" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a10da870536a236288c1e868f3adc46fb" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.MeglerTittel2</definition>
+        <argsstring></argsstring>
+        <name>MeglerTittel2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="76" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a0598e13f4a6ce84b229fba418c6acf76" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.MeglerEmail2</definition>
+        <argsstring></argsstring>
+        <name>MeglerEmail2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="77" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1ab54440391a3082b40c729cc316ed6346" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.MeglerTlfMobil2</definition>
+        <argsstring></argsstring>
+        <name>MeglerTlfMobil2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="78" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a928d6175f5e153195b09b4eb1c7d530f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.MeglerTlf2</definition>
+        <argsstring></argsstring>
+        <name>MeglerTlf2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="79" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a02940eeaa66c7a9c85003a605ddc73ab" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.KontorTlf</definition>
+        <argsstring></argsstring>
+        <name>KontorTlf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="80" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a06ed00fc77912155f55f5062f14cea0e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.KontorFax</definition>
+        <argsstring></argsstring>
+        <name>KontorFax</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="81" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a864198bea174c108eba581394047fb60" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.Beliggenhet1</definition>
+        <argsstring></argsstring>
+        <name>Beliggenhet1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="82" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a9acc254e3846524ad232ea3f997cf10e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.Beliggenhet2</definition>
+        <argsstring></argsstring>
+        <name>Beliggenhet2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="83" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a404ebc038105ca014afe6f45fa27b3b0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.Beliggenhet3</definition>
+        <argsstring></argsstring>
+        <name>Beliggenhet3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="84" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1ac834e6ae95a6b13805c07b6d50f54bd0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.Beliggenhet4</definition>
+        <argsstring></argsstring>
+        <name>Beliggenhet4</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="85" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a06f9c4bc4e671a62fb08b3e0ef3f47c7" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.Bebyggelse</definition>
+        <argsstring></argsstring>
+        <name>Bebyggelse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="86" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1adcd8cbe3d843afaf19261a520d572cbd" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.Adkomst</definition>
+        <argsstring></argsstring>
+        <name>Adkomst</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="87" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="87" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a7298969c9229aadc3f80cf8d600f4f65" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.Byggemaate</definition>
+        <argsstring></argsstring>
+        <name>Byggemaate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="88" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a7cc20a3b123c74e18c18410b9158516e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.Innhold</definition>
+        <argsstring></argsstring>
+        <name>Innhold</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="89" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1ab21298f2a41ecae5eb4372f2f8978907" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.Standard</definition>
+        <argsstring></argsstring>
+        <name>Standard</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="90" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1ab0961287a1c88c7b6b752e1d6204687c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.Utstyr</definition>
+        <argsstring></argsstring>
+        <name>Utstyr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="91" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a6b052aaade5ba3a7500acb9a52d07203" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.Oppvarming</definition>
+        <argsstring></argsstring>
+        <name>Oppvarming</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="92" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a98fa626f637f1aa12a6ce46d9b3cf902" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.Tomtetype</definition>
+        <argsstring></argsstring>
+        <name>Tomtetype</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="93" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1aa2edb8f0c3e407e325f6f4b371e93406" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; int &gt;</type>
+        <definition>Nullable&lt;int&gt; Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.Tomteareal</definition>
+        <argsstring></argsstring>
+        <name>Tomteareal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="94" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1ad53722fddc42fb96a5911628bf8f4eb8" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.Tomteinfo</definition>
+        <argsstring></argsstring>
+        <name>Tomteinfo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="95" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="95" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a85a6cdb21032d0fb8ff25f74761044ec" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.Parkering</definition>
+        <argsstring></argsstring>
+        <name>Parkering</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="96" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1aa9b7b6fa15f242e1feb342c30c8ccac0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; int &gt;</type>
+        <definition>Nullable&lt;int&gt; Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.GebyrTinglysningSkjote</definition>
+        <argsstring></argsstring>
+        <name>GebyrTinglysningSkjote</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="97" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="97" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a0b874fd542c520a181f5a6b67914eae3" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; int &gt;</type>
+        <definition>Nullable&lt;int&gt; Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.GebyrHeftelser</definition>
+        <argsstring></argsstring>
+        <name>GebyrHeftelser</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="98" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a8ebf85642b5e2dd9c388e6c57ed34fcd" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; int &gt;</type>
+        <definition>Nullable&lt;int&gt; Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.GebyrTinglysningPanteobl</definition>
+        <argsstring></argsstring>
+        <name>GebyrTinglysningPanteobl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="99" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a2ce2fcd5cf2e5a0c46f5f00807877af5" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.Takstmann</definition>
+        <argsstring></argsstring>
+        <name>Takstmann</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="100" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a2f29545c9a7401f670c258502107ee4f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.Takstdato</definition>
+        <argsstring></argsstring>
+        <name>Takstdato</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="101" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a85646ee2407ea5016764df8c928186a2" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; int &gt;</type>
+        <definition>Nullable&lt;int&gt; Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.Takstverdi</definition>
+        <argsstring></argsstring>
+        <name>Takstverdi</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="102" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1ac5bb93cd47c1004b46009ac413e2c2e1" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; int &gt;</type>
+        <definition>Nullable&lt;int&gt; Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.Laaneverdi</definition>
+        <argsstring></argsstring>
+        <name>Laaneverdi</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="103" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1ab34db8b3c6742c2d860692cf459f19be" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; int &gt;</type>
+        <definition>Nullable&lt;int&gt; Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.Ligningsverdi</definition>
+        <argsstring></argsstring>
+        <name>Ligningsverdi</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="104" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a93a5b155115738d7795b7bce826a5ecf" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; int &gt;</type>
+        <definition>Nullable&lt;int&gt; Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.KommAvgifter</definition>
+        <argsstring></argsstring>
+        <name>KommAvgifter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="105" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a1a1c2395daa9b8f3702da3ddf5695598" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.AndreAvgifter</definition>
+        <argsstring></argsstring>
+        <name>AndreAvgifter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="106" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a2a7df71aef3de6e278ed7588ddd970e0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.Forsikring</definition>
+        <argsstring></argsstring>
+        <name>Forsikring</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="107" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="107" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a91d8d780685d24d2fc326d53cecf2bb0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.Gnr</definition>
+        <argsstring></argsstring>
+        <name>Gnr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="108" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1ae0bbc1d544ebc1aa2cc825d778da3bc1" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.Bnr</definition>
+        <argsstring></argsstring>
+        <name>Bnr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="109" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1aef82aa492d4bd0d7af4210f9ac377f4a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.Snr</definition>
+        <argsstring></argsstring>
+        <name>Snr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="110" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1ab42844359002297cc460fc7d349c5ec0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.Fnr</definition>
+        <argsstring></argsstring>
+        <name>Fnr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="111" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a44e024355a2e2e0650577cd9afc068e1" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.Lnr</definition>
+        <argsstring></argsstring>
+        <name>Lnr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="112" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="112" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a0b6a00aab9d819cef242ee4ef7f0330a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.Kommune</definition>
+        <argsstring></argsstring>
+        <name>Kommune</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="113" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a6ad33442c06359c001f8bde5aa1ef4e6" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.VeiVannAvlop</definition>
+        <argsstring></argsstring>
+        <name>VeiVannAvlop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="114" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a6f52376f73d926eeb7247f178238c908" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.Servitutter</definition>
+        <argsstring></argsstring>
+        <name>Servitutter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="115" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="115" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1adb08a261811b51deba8553cd28632b61" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.Reguleringsplan</definition>
+        <argsstring></argsstring>
+        <name>Reguleringsplan</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="116" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="116" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a104cb91810b9bf793a55493a1424710a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.Selger</definition>
+        <argsstring></argsstring>
+        <name>Selger</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="117" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1af6cc3447eca8b095422424c552fc5727" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.Overtagelse</definition>
+        <argsstring></argsstring>
+        <name>Overtagelse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="118" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="118" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1aac2c79ad319aff8990a4ef90182fcba4" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.LedigFra</definition>
+        <argsstring></argsstring>
+        <name>LedigFra</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="119" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="119" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a0f50d8ce74ea9c2d090c6b3ed73a90d7" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.Meglerfirma</definition>
+        <argsstring></argsstring>
+        <name>Meglerfirma</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="120" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="120" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a64db0a0d6302a516512815c2f2c8d4dd" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.Orgnr</definition>
+        <argsstring></argsstring>
+        <name>Orgnr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="121" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="121" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1abbd7f1abb2c3ebc5ebd0a8139b137ef6" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.Mangler</definition>
+        <argsstring></argsstring>
+        <name>Mangler</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="122" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="122" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1ad6a6ea33753d5c07fb97f5346e5b6d38" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.Eierskifteforsikring</definition>
+        <argsstring></argsstring>
+        <name>Eierskifteforsikring</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="123" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="123" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1aa19c77e2414df1503ae9c0e4f7300925" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.Notat</definition>
+        <argsstring></argsstring>
+        <name>Notat</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="124" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="124" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a0e859b995b96ef151bfcbf682a4b2ed6" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; bool &gt;</type>
+        <definition>Nullable&lt;bool&gt; Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.Ukens</definition>
+        <argsstring></argsstring>
+        <name>Ukens</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="125" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="125" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1ab90675302802c74923ea575b2e181b12" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.PilURL</definition>
+        <argsstring></argsstring>
+        <name>PilURL</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="126" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="126" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1abd12a168f155e11a18305d120164ba8e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; int &gt;</type>
+        <definition>Nullable&lt;int&gt; Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.PilX</definition>
+        <argsstring></argsstring>
+        <name>PilX</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="127" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="127" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1ad5485f2dea5ce22adc49e20b0645bd64" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; int &gt;</type>
+        <definition>Nullable&lt;int&gt; Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.PilY</definition>
+        <argsstring></argsstring>
+        <name>PilY</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="128" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="128" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a65a51d69bc30505a948bd7a4a5d805c4" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; int &gt;</type>
+        <definition>Nullable&lt;int&gt; Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.PilRefB</definition>
+        <argsstring></argsstring>
+        <name>PilRefB</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="129" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="129" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1aeabcae97f000c5413ad6efa0b70587b4" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; int &gt;</type>
+        <definition>Nullable&lt;int&gt; Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.PilRefH</definition>
+        <argsstring></argsstring>
+        <name>PilRefH</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="130" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="130" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a1e6a5835c815aee69cd759e1576c10a1" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.NyKode</definition>
+        <argsstring></argsstring>
+        <name>NyKode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="131" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="131" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1ada4bce9d659b413a92b6651a79e7b10c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.Kommentar</definition>
+        <argsstring></argsstring>
+        <name>Kommentar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="132" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="132" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a881103fb2f9dde74a6b956c8aa9af467" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.SpesialOverskrift1</definition>
+        <argsstring></argsstring>
+        <name>SpesialOverskrift1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="133" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="133" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a1cadd07239bd25faa91e428d2b8e2610" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.SpesialOverskrift2</definition>
+        <argsstring></argsstring>
+        <name>SpesialOverskrift2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="134" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="134" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a64358b496429039af9ba33ff0cb69df8" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.SpesialTekst1</definition>
+        <argsstring></argsstring>
+        <name>SpesialTekst1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="135" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a0b1c932de369109a7265abbc58c813fb" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.SpesialTekst2</definition>
+        <argsstring></argsstring>
+        <name>SpesialTekst2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="136" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="136" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1ab416b4fc17ebe41d711bdf83af5e2705" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.Postnr</definition>
+        <argsstring></argsstring>
+        <name>Postnr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="137" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="137" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a2e0b1ae0b5278f24e476468e4260b537" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.Poststed</definition>
+        <argsstring></argsstring>
+        <name>Poststed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="138" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="138" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a00444212555ba86c3b4cebdaeda9a3db" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>byte</type>
+        <definition>byte Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.PartnerID1</definition>
+        <argsstring></argsstring>
+        <name>PartnerID1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="139" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="139" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1ac7ef07c3c3a8cc824f2cac167997658b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.Partnernavn</definition>
+        <argsstring></argsstring>
+        <name>Partnernavn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="140" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="140" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1af0fc1422444560da0876f21a1284ca55" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.Kortnavn</definition>
+        <argsstring></argsstring>
+        <name>Kortnavn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="141" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="141" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1af328480ba27c378bdecbfaed8d44b9f3" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; byte &gt;</type>
+        <definition>Nullable&lt;byte&gt; Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.StedID</definition>
+        <argsstring></argsstring>
+        <name>StedID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="142" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="142" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1ab60bed8fcebb6dfc990461fffd1b7e8d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.Katalog</definition>
+        <argsstring></argsstring>
+        <name>Katalog</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="143" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="143" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1ad19dc00f12a3abac9b6900e56991e318" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.KundeID</definition>
+        <argsstring></argsstring>
+        <name>KundeID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="144" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="144" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1aefa83151d8b3f3606304d9046539f167" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; bool &gt;</type>
+        <definition>Nullable&lt;bool&gt; Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.PDFGodkjenning</definition>
+        <argsstring></argsstring>
+        <name>PDFGodkjenning</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="145" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="145" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1ac782a11db5032c3201964f9b6b7f6580" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.OrdrenrSuffix</definition>
+        <argsstring></argsstring>
+        <name>OrdrenrSuffix</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="146" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="146" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a355c3fe79e04185998666d90d9fe33e0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.EpostKundeansvarlig</definition>
+        <argsstring></argsstring>
+        <name>EpostKundeansvarlig</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="147" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="147" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1af2e998b645b7f888bf77be4a5d677b67" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.Logonavn</definition>
+        <argsstring></argsstring>
+        <name>Logonavn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="148" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="148" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1ac145c2ae0e79ee95656d9a5ff39863b8" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.Logo</definition>
+        <argsstring></argsstring>
+        <name>Logo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="149" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="149" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1ace1ce4af7da8a9d9d59131f04561adf3" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.PanoramaIkon</definition>
+        <argsstring></argsstring>
+        <name>PanoramaIkon</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="150" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="150" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1aa12f76e56156065f877efbc0a434e996" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; byte &gt;</type>
+        <definition>Nullable&lt;byte&gt; Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.MeglersystemID</definition>
+        <argsstring></argsstring>
+        <name>MeglersystemID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="151" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="151" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1aa716f5a820142366929abdbce50b4912" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.MeglersystemBrukernavn</definition>
+        <argsstring></argsstring>
+        <name>MeglersystemBrukernavn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="152" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="152" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a05846478383fae7328345b489480af49" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.MeglersystemPassord</definition>
+        <argsstring></argsstring>
+        <name>MeglersystemPassord</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="153" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="153" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1adf343eecb36c416688e3afbad677ff8a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; bool &gt;</type>
+        <definition>Nullable&lt;bool&gt; Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.Bildepakke</definition>
+        <argsstring></argsstring>
+        <name>Bildepakke</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="154" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="154" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a8274fe047dee54889a00940c52238d95" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; bool &gt;</type>
+        <definition>Nullable&lt;bool&gt; Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.Bildevedlegg</definition>
+        <argsstring></argsstring>
+        <name>Bildevedlegg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="155" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="155" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a50ecbba55903212fae72faa4a5cb1101" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; bool &gt;</type>
+        <definition>Nullable&lt;bool&gt; Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.Bilderedusert</definition>
+        <argsstring></argsstring>
+        <name>Bilderedusert</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="156" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="156" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a240c96e3b4fd79ca915a01ab5ee78796" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.FinnPartnerID</definition>
+        <argsstring></argsstring>
+        <name>FinnPartnerID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="157" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="157" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a6fa00539458772aa199be815730113d2" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; bool &gt;</type>
+        <definition>Nullable&lt;bool&gt; Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.FotoKunde</definition>
+        <argsstring></argsstring>
+        <name>FotoKunde</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="158" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="158" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a58a575baeb6ba9c455958fc05d15cc21" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; bool &gt;</type>
+        <definition>Nullable&lt;bool&gt; Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.UseEditor</definition>
+        <argsstring></argsstring>
+        <name>UseEditor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="159" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="159" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a4c43a38672f413bab2bb0e3269ee6fd6" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.UseTextEdit</definition>
+        <argsstring></argsstring>
+        <name>UseTextEdit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="160" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="160" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a840aff19e563e5729add357e7fc64f7a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.MeglersystemKontorID</definition>
+        <argsstring></argsstring>
+        <name>MeglersystemKontorID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="161" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="161" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a56d425aac6809dc2f57c9b174c258d5f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.ModulID</definition>
+        <argsstring></argsstring>
+        <name>ModulID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="162" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="162" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a98b2d2062864ce43dc0e773db608ee2c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.Modulnavn</definition>
+        <argsstring></argsstring>
+        <name>Modulnavn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="163" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="163" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a1469909afe08636201047d09f95ba925" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.Modulkode</definition>
+        <argsstring></argsstring>
+        <name>Modulkode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="164" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="164" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a71daf4ed04043b318b5c8819d5ef83ac" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.Modulfilnavn</definition>
+        <argsstring></argsstring>
+        <name>Modulfilnavn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="165" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="165" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a58437842b791cf589fc5b07eb63c99b3" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>decimal</type>
+        <definition>decimal Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.Modulstørrelse</definition>
+        <argsstring></argsstring>
+        <name>Modulstørrelse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="166" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="166" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1ad9b4d99db5e82a4a5e84bad7fe99237d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; int &gt;</type>
+        <definition>Nullable&lt;int&gt; Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.Bredde</definition>
+        <argsstring></argsstring>
+        <name>Bredde</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="167" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="167" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a2fa10fe22ea6eed518f5ecde9785aa6e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; int &gt;</type>
+        <definition>Nullable&lt;int&gt; Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.Høyde</definition>
+        <argsstring></argsstring>
+        <name>Høyde</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="168" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="168" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a8f5dfafb46f3fce8943b8399b42d7c67" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.Mål</definition>
+        <argsstring></argsstring>
+        <name>Mål</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="169" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="169" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1ab996f753d71d1530a963842d3333b257" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>byte</type>
+        <definition>byte Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.Antallbilder</definition>
+        <argsstring></argsstring>
+        <name>Antallbilder</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="170" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="170" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a1f5c95067d04060e1fcfb461ee016a05" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>byte</type>
+        <definition>byte Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.InndelingID1</definition>
+        <argsstring></argsstring>
+        <name>InndelingID1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="171" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="171" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a6a02025157406dcf2f74ec26ba5e2785" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.Inndelingnavn</definition>
+        <argsstring></argsstring>
+        <name>Inndelingnavn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="172" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="172" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a5047cfd65b6361406fa3e8983a7376ef" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.AnnonseInndelingnavn</definition>
+        <argsstring></argsstring>
+        <name>AnnonseInndelingnavn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="173" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="173" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1aeaf2b7ebabf8e3cb435b37d14a99944f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; int &gt;</type>
+        <definition>Nullable&lt;int&gt; Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.BildeAntall</definition>
+        <argsstring></argsstring>
+        <name>BildeAntall</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="174" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="174" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1aa4f0ed49449058cb20d5b64d82d00fe5" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; int &gt;</type>
+        <definition>Nullable&lt;int&gt; Webassistenten_ads_api.sp_WS_HentProspektModulInfo_Result.PanoramaAntall</definition>
+        <argsstring></argsstring>
+        <name>PanoramaAntall</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="175" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="175" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" line="15" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_WS_HentProspektModulInfo_Result.cs" bodystart="14" bodyend="176"/>
+    <listofallmembers>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1adcd8cbe3d843afaf19261a520d572cbd" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>Adkomst</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1ac3b46461b0fd8f0782ef3d844648e96a" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>Adresse</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a1a1c2395daa9b8f3702da3ddf5695598" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>AndreAvgifter</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a5047cfd65b6361406fa3e8983a7376ef" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>AnnonseInndelingnavn</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1ab35dfe233c4e3b1e135e18e332edb01c" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>Annonsetekst</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1ab996f753d71d1530a963842d3333b257" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>Antallbilder</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a893b213770a07bc442928543562fc898" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>BBOverskrift</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a5064ea7b5909b9bd9353b84f934b10ae" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>BBVisning</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a06f9c4bc4e671a62fb08b3e0ef3f47c7" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>Bebyggelse</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a864198bea174c108eba581394047fb60" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>Beliggenhet1</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a9acc254e3846524ad232ea3f997cf10e" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>Beliggenhet2</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a404ebc038105ca014afe6f45fa27b3b0" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>Beliggenhet3</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1ac834e6ae95a6b13805c07b6d50f54bd0" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>Beliggenhet4</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1aeaf2b7ebabf8e3cb435b37d14a99944f" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>BildeAntall</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1adf343eecb36c416688e3afbad677ff8a" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>Bildepakke</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a50ecbba55903212fae72faa4a5cb1101" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>Bilderedusert</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a8274fe047dee54889a00940c52238d95" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>Bildevedlegg</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1ae0bbc1d544ebc1aa2cc825d778da3bc1" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>Bnr</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a138bb49347f891940b62ddb5d4c6118e" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>BOA</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a6cec3addda4cedfbfe40ec54fc1d30c0" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>BoligtypeID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a7e891f314952716fadcd730f389d61fd" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>Borettslag</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1ad9b4d99db5e82a4a5e84bad7fe99237d" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>Bredde</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1acb1cc165c1eadf64fdbc3b1492048977" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>BRUA</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a5d78beb4756e0c7a93c957ecdd703247" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>BrukerID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1ad73b8b934262a3c6121f9de9d7203555" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>BTA</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1abcfe9e4149c4a565dbfb3bdaab0af2c3" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>Byggeaar</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a7298969c9229aadc3f80cf8d600f4f65" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>Byggemaate</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a15b8b447af6c3dec5bf9ab185ac2c785" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>DatoReg</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1ad6a6ea33753d5c07fb97f5346e5b6d38" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>Eierskifteforsikring</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a8e3592b1225ee3bef71636be508fd41f" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>Eierskiftegebyr</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1abbc4bdab9e69c35dba1b36a19d329517" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>EM1BoligID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a355c3fe79e04185998666d90d9fe33e0" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>EpostKundeansvarlig</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a56f3ccc7bb9826e24462d897019558f1" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>Etasje</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1ad59d5f3f329e1bb82bfbb1862c641045" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>Fellesgjeld</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a0da349f59c32cd74d10a27fc2ad7d93e" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>FellesInnskudd</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a4a3ef22117c48021dd77b5d0fe417760" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>Fellesutgifter</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1adcb81e51aa04ae3f4ba1a9d97df03562" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>FinnKode</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a240c96e3b4fd79ca915a01ab5ee78796" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>FinnPartnerID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1acbe8a709b415909f8aebe405ce0644d8" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>FinnURL</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1ab42844359002297cc460fc7d349c5ec0" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>Fnr</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1aaac4d4641a30f7f40add9176e10b4364" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>ForrForerAdr1</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1aceb1bfa4267a0e7909710f654d31bb48" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>ForrForerAdr2</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1ab0f9e6be2fff4fc60a938c8b20aba5f6" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>ForrForerNavn</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a2a7df71aef3de6e278ed7588ddd970e0" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>Forsikring</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a6fa00539458772aa199be815730113d2" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>FotoKunde</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a5f5dc0f6664c3e93d81b37847a1f89b1" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>GebyrForrForer</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a0b874fd542c520a181f5a6b67914eae3" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>GebyrHeftelser</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a8ebf85642b5e2dd9c388e6c57ed34fcd" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>GebyrTinglysningPanteobl</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1aa9b7b6fa15f242e1feb342c30c8ccac0" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>GebyrTinglysningSkjote</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a91d8d780685d24d2fc326d53cecf2bb0" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>Gnr</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a633d6c100071651d8db25581d7a0e821" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>Husleie</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a2fa10fe22ea6eed518f5ecde9785aa6e" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>Høyde</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a015b5f6b969f805c144cdfb3c6503063" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>InndelingID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a1f5c95067d04060e1fcfb461ee016a05" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>InndelingID1</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a6a02025157406dcf2f74ec26ba5e2785" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>Inndelingnavn</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a7cc20a3b123c74e18c18410b9158516e" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>Innhold</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1ab60bed8fcebb6dfc990461fffd1b7e8d" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>Katalog</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1ae07abec3355c0d91b0ab47d9021669e7" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>Kjopsomkostninger</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a93a5b155115738d7795b7bce826a5ecf" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>KommAvgifter</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1ada4bce9d659b413a92b6651a79e7b10c" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>Kommentar</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a0b6a00aab9d819cef242ee4ef7f0330a" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>Kommune</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a06ed00fc77912155f55f5062f14cea0e" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>KontorFax</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a02940eeaa66c7a9c85003a605ddc73ab" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>KontorTlf</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1af0fc1422444560da0876f21a1284ca55" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>Kortnavn</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1ad19dc00f12a3abac9b6900e56991e318" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>KundeID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1ac5bb93cd47c1004b46009ac413e2c2e1" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>Laaneverdi</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1aac2c79ad319aff8990a4ef90182fcba4" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>LedigFra</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1ab34db8b3c6742c2d860692cf459f19be" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>Ligningsverdi</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a44e024355a2e2e0650577cd9afc068e1" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>Lnr</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1ac145c2ae0e79ee95656d9a5ff39863b8" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>Logo</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1af2e998b645b7f888bf77be4a5d677b67" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>Logonavn</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1abbd7f1abb2c3ebc5ebd0a8139b137ef6" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>Mangler</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1ab15a6d460aa38d9351a28cb321eb162f" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>Megler</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1ac0b99385d47e715f3b54e9d76216a71c" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>Megler2</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1aeda3c599d08763601d4d8ad8e2ff87d3" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>MeglerAdresse</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a5cf6c5e1b35c39170e64a8140067d91a" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>MeglerEmail</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a0598e13f4a6ce84b229fba418c6acf76" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>MeglerEmail2</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a0f50d8ce74ea9c2d090c6b3ed73a90d7" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>Meglerfirma</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1aa716f5a820142366929abdbce50b4912" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>MeglersystemBrukernavn</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1aa12f76e56156065f877efbc0a434e996" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>MeglersystemID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a840aff19e563e5729add357e7fc64f7a" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>MeglersystemKontorID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a05846478383fae7328345b489480af49" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>MeglersystemPassord</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1abc263f55d0a28b2a0401b9a4a80c398b" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>MeglerTittel</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a10da870536a236288c1e868f3adc46fb" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>MeglerTittel2</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1ab19a86ac5b741b26867943d7462f0d84" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>MeglerTlf</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a928d6175f5e153195b09b4eb1c7d530f" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>MeglerTlf2</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a3be34fe064a1b7b6a4ff64165c288df4" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>MeglerTlfMobil</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1ab54440391a3082b40c729cc316ed6346" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>MeglerTlfMobil2</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a71daf4ed04043b318b5c8819d5ef83ac" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>Modulfilnavn</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a56d425aac6809dc2f57c9b174c258d5f" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>ModulID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a1469909afe08636201047d09f95ba925" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>Modulkode</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a98b2d2062864ce43dc0e773db608ee2c" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>Modulnavn</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a58437842b791cf589fc5b07eb63c99b3" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>Modulstørrelse</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a8f5dfafb46f3fce8943b8399b42d7c67" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>Mål</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1aa19c77e2414df1503ae9c0e4f7300925" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>Notat</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a1e6a5835c815aee69cd759e1576c10a1" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>NyKode</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1ae9e9acd37bb536eac88c7efc88c6dec5" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>Omkostninger</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1ae28f1ab6b6e91c7652693c08591b5e18" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>Omraade</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1ad77e50d0fa1fb0f39fb38c4f5233654d" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>Oppdragsnr</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a09d8f72a13db16020ce6fe3f1a473970" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>Oppdragstype</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a299b9c524d1a16da1d1f4b3b6be5402e" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>OpprinneligBelop</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a6b052aaade5ba3a7500acb9a52d07203" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>Oppvarming</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1ac782a11db5032c3201964f9b6b7f6580" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>OrdrenrSuffix</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a64db0a0d6302a516512815c2f2c8d4dd" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>Orgnr</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1ac76b79a65b32f6f1dfd1521d2b36304c" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>Overskrift1</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a8bdcd0277b8df0e491dd311c259110c8" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>Overskrift2</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1af6cc3447eca8b095422424c552fc5727" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>Overtagelse</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1aa4f0ed49449058cb20d5b64d82d00fe5" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>PanoramaAntall</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1ace1ce4af7da8a9d9d59131f04561adf3" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>PanoramaIkon</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a85a6cdb21032d0fb8ff25f74761044ec" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>Parkering</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1aa660fea91e3618e48d78d5f5c0a9e967" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>Partialobligasjon</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1aed0cb3eee126461847cd5cba42609f71" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>PartnerID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a00444212555ba86c3b4cebdaeda9a3db" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>PartnerID1</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1ac7ef07c3c3a8cc824f2cac167997658b" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>Partnernavn</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1aefa83151d8b3f3606304d9046539f167" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>PDFGodkjenning</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a65a51d69bc30505a948bd7a4a5d805c4" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>PilRefB</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1aeabcae97f000c5413ad6efa0b70587b4" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>PilRefH</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1ab90675302802c74923ea575b2e181b12" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>PilURL</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1abd12a168f155e11a18305d120164ba8e" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>PilX</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1ad5485f2dea5ce22adc49e20b0645bd64" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>PilY</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1ab416b4fc17ebe41d711bdf83af5e2705" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>Postnr</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a278fe0825589fd36e001c2734a06dedb" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>PostnrPoststed</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a2e0b1ae0b5278f24e476468e4260b537" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>Poststed</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a867772a77b64b0dfe345420c614fd086" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>Pris</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a6cb27cdc1adaa135cbd7cb89bf7a6e68" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>PrisTil</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a65eb28c965c177017adbdc952d14213c" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>PrisType</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1aa5b86bcb737115e0c3953319b9de3c14" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>PROM</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a61ff3ea87721d00a9dd6510401448634" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>ProspektID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1adb08a261811b51deba8553cd28632b61" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>Reguleringsplan</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a1df295bce799358238fe6bc63a97ea1b" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>Restbelop</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a5da7e0f223c071387df62391ec663a02" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>Rom</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1aee7a0cb1b1ad74dbfe53389955b77708" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>Romtekst</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a104cb91810b9bf793a55493a1424710a" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>Selger</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a6f52376f73d926eeb7247f178238c908" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>Servitutter</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a6e279641a5dbd377eb6c909105c2df39" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>Skolekrets</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1aef82aa492d4bd0d7af4210f9ac377f4a" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>Snr</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a0d59bab30ce7dc916990ae3b994093c2" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>Soverom</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a881103fb2f9dde74a6b956c8aa9af467" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>SpesialOverskrift1</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a1cadd07239bd25faa91e428d2b8e2610" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>SpesialOverskrift2</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a64358b496429039af9ba33ff0cb69df8" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>SpesialTekst1</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a0b1c932de369109a7265abbc58c813fb" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>SpesialTekst2</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1ab21298f2a41ecae5eb4372f2f8978907" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>Standard</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1ad621adeb4cfe0caaf739912b32bf826e" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>StatusID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1af328480ba27c378bdecbfaed8d44b9f3" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>StedID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a2f29545c9a7401f670c258502107ee4f" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>Takstdato</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a2ce2fcd5cf2e5a0c46f5f00807877af5" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>Takstmann</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a85646ee2407ea5016764df8c928186a2" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>Takstverdi</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a6bfb9e8245715f7794c392963ce66ae6" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>TEMP_ModulID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1aa2edb8f0c3e407e325f6f4b371e93406" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>Tomteareal</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1ad53722fddc42fb96a5911628bf8f4eb8" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>Tomteinfo</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a98fa626f637f1aa12a6ce46d9b3cf902" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>Tomtetype</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a0e859b995b96ef151bfcbf682a4b2ed6" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>Ukens</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a58a575baeb6ba9c455958fc05d15cc21" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>UseEditor</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a4c43a38672f413bab2bb0e3269ee6fd6" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>UseTextEdit</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1ab0961287a1c88c7b6b752e1d6204687c" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>Utstyr</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a6ad33442c06359c001f8bde5aa1ef4e6" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>VeiVannAvlop</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a19c3b2c62c05e9c4ff66f7d8062b42e9" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>Visning</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1a6f017f845e3f4e01e7dfaa8266f4a09b" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>VisningFra</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1ae76a0fb9ef863ac7e8443d5e9ec9074c" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>VisningTil</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt_modul_info___result_1ab5bb223d82c1b7b5b784da11b70616e3" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_WS_HentProspektModulInfo_Result</scope><name>Vurdering</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

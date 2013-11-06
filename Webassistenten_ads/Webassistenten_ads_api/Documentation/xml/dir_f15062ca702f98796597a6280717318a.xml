@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="dir_f15062ca702f98796597a6280717318a" kind="dir">
+    <compoundname>Models/</compoundname>
+    <innerfile refid="_address_8cs">Address.cs</innerfile>
+    <innerfile refid="_ad_info_8cs">AdInfo.cs</innerfile>
+    <innerfile refid="_data_model_8cs">DataModel.cs</innerfile>
+    <innerfile refid="_property_type_8cs">PropertyType.cs</innerfile>
+    <innerfile refid="_real_estate_ad_info_8cs">RealEstateAdInfo.cs</innerfile>
+    <innerfile refid="_realtor_8cs">Realtor.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/"/>
+  </compounddef>
+</doxygen>

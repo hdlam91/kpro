@@ -1,0 +1,299 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_sample_key" kind="class" prot="public">
+    <compoundname>Webassistenten_ads_api::Areas::HelpPage::HelpPageSampleKey</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_sample_key_1ae4a6af523ee57805937ab67570030e8b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.Areas.HelpPage.HelpPageSampleKey.ControllerName</definition>
+        <argsstring></argsstring>
+        <name>ControllerName</name>
+        <briefdescription>
+<para>Gets the name of the controller. </para>        </briefdescription>
+        <detaileddescription>
+<para>The name of the controller. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/HelpPageSampleKey.cs" line="109" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/HelpPageSampleKey.cs" bodystart="109" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_sample_key_1aada222698c19c688f84f5507c6970b98" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.Areas.HelpPage.HelpPageSampleKey.ActionName</definition>
+        <argsstring></argsstring>
+        <name>ActionName</name>
+        <briefdescription>
+<para>Gets the name of the action. </para>        </briefdescription>
+        <detaileddescription>
+<para>The name of the action. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/HelpPageSampleKey.cs" line="117" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/HelpPageSampleKey.cs" bodystart="117" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_sample_key_1a0918f92d683a7a0c7dab4ce63729575d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>MediaTypeHeaderValue</type>
+        <definition>MediaTypeHeaderValue Webassistenten_ads_api.Areas.HelpPage.HelpPageSampleKey.MediaType</definition>
+        <argsstring></argsstring>
+        <name>MediaType</name>
+        <briefdescription>
+<para>Gets the media type. </para>        </briefdescription>
+        <detaileddescription>
+<para>The media type. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/HelpPageSampleKey.cs" line="125" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/HelpPageSampleKey.cs" bodystart="125" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_sample_key_1ab9d9fb46c9560c46be7b30f2b59301d3" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>HashSet&lt; string &gt;</type>
+        <definition>HashSet&lt;string&gt; Webassistenten_ads_api.Areas.HelpPage.HelpPageSampleKey.ParameterNames</definition>
+        <argsstring></argsstring>
+        <name>ParameterNames</name>
+        <briefdescription>
+<para>Gets the parameter names. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/HelpPageSampleKey.cs" line="130" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/HelpPageSampleKey.cs" bodystart="130" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_sample_key_1aede2edbc6f24825a928353832ad543d0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Type</type>
+        <definition>Type Webassistenten_ads_api.Areas.HelpPage.HelpPageSampleKey.ParameterType</definition>
+        <argsstring></argsstring>
+        <name>ParameterType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/HelpPageSampleKey.cs" line="132" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/HelpPageSampleKey.cs" bodystart="132" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_sample_key_1af92ea830eb5f0a49bda13e15cff5b1be" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="namespace_webassistenten__ads__api_1_1_areas_1_1_help_page_1a38d5fcf81e5babdbb8b937bdb9b71641" kindref="member">SampleDirection</ref></type>
+        <definition>SampleDirection Webassistenten_ads_api.Areas.HelpPage.HelpPageSampleKey.SampleDirection</definition>
+        <argsstring></argsstring>
+        <name>SampleDirection</name>
+        <briefdescription>
+<para>Gets the <ref refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_sample_key_1af92ea830eb5f0a49bda13e15cff5b1be" kindref="member">SampleDirection</ref>. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/HelpPageSampleKey.cs" line="137" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/HelpPageSampleKey.cs" bodystart="137" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_sample_key_1a673d132ff3c31b581110cd3b02c95249" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Webassistenten_ads_api.Areas.HelpPage.HelpPageSampleKey.HelpPageSampleKey</definition>
+        <argsstring>(MediaTypeHeaderValue mediaType, Type type)</argsstring>
+        <name>HelpPageSampleKey</name>
+        <param>
+          <type>MediaTypeHeaderValue</type>
+          <declname>mediaType</declname>
+        </param>
+        <param>
+          <type>Type</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+<para>Creates a new <ref refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_sample_key" kindref="compound">HelpPageSampleKey</ref> based on media type and CLR type. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>mediaType</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The media type.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The CLR type.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/HelpPageSampleKey.cs" line="19" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/HelpPageSampleKey.cs" bodystart="18" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_sample_key_1a7d438a182920af23f560afb6ac4170b3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Webassistenten_ads_api.Areas.HelpPage.HelpPageSampleKey.HelpPageSampleKey</definition>
+        <argsstring>(SampleDirection sampleDirection, string controllerName, string actionName, IEnumerable&lt; string &gt; parameterNames)</argsstring>
+        <name>HelpPageSampleKey</name>
+        <param>
+          <type><ref refid="namespace_webassistenten__ads__api_1_1_areas_1_1_help_page_1a38d5fcf81e5babdbb8b937bdb9b71641" kindref="member">SampleDirection</ref></type>
+          <declname>sampleDirection</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>controllerName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>actionName</declname>
+        </param>
+        <param>
+          <type>IEnumerable&lt; string &gt;</type>
+          <declname>parameterNames</declname>
+        </param>
+        <briefdescription>
+<para>Creates a new <ref refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_sample_key" kindref="compound">HelpPageSampleKey</ref> based on <ref refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_sample_key_1af92ea830eb5f0a49bda13e15cff5b1be" kindref="member">SampleDirection</ref>, controller name, action name and parameter names. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>sampleDirection</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_sample_key_1af92ea830eb5f0a49bda13e15cff5b1be" kindref="member">SampleDirection</ref>.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>controllerName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Name of the controller.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>actionName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Name of the action.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>parameterNames</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The parameter names.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/HelpPageSampleKey.cs" line="43" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/HelpPageSampleKey.cs" bodystart="42" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_sample_key_1ab0ac5b060e8da4da6f361f10cb51c2e8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Webassistenten_ads_api.Areas.HelpPage.HelpPageSampleKey.HelpPageSampleKey</definition>
+        <argsstring>(MediaTypeHeaderValue mediaType, SampleDirection sampleDirection, string controllerName, string actionName, IEnumerable&lt; string &gt; parameterNames)</argsstring>
+        <name>HelpPageSampleKey</name>
+        <param>
+          <type>MediaTypeHeaderValue</type>
+          <declname>mediaType</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_webassistenten__ads__api_1_1_areas_1_1_help_page_1a38d5fcf81e5babdbb8b937bdb9b71641" kindref="member">SampleDirection</ref></type>
+          <declname>sampleDirection</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>controllerName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>actionName</declname>
+        </param>
+        <param>
+          <type>IEnumerable&lt; string &gt;</type>
+          <declname>parameterNames</declname>
+        </param>
+        <briefdescription>
+<para>Creates a new <ref refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_sample_key" kindref="compound">HelpPageSampleKey</ref> based on media type, <ref refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_sample_key_1af92ea830eb5f0a49bda13e15cff5b1be" kindref="member">SampleDirection</ref>, controller name, action name and parameter names. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>mediaType</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The media type.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>sampleDirection</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The <ref refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_sample_key_1af92ea830eb5f0a49bda13e15cff5b1be" kindref="member">SampleDirection</ref>.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>controllerName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Name of the controller.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>actionName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Name of the action.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>parameterNames</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The parameter names.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/HelpPageSampleKey.cs" line="75" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/HelpPageSampleKey.cs" bodystart="74" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_sample_key_1ae77f6bd304901a1fbe32374487bb0337" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool Webassistenten_ads_api.Areas.HelpPage.HelpPageSampleKey.Equals</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>Equals</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/HelpPageSampleKey.cs" line="140" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/HelpPageSampleKey.cs" bodystart="139" bodyend="153"/>
+      </memberdef>
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_sample_key_1a06a672227f6bc36c9ce7476814b5a0cb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override int</type>
+        <definition>override int Webassistenten_ads_api.Areas.HelpPage.HelpPageSampleKey.GetHashCode</definition>
+        <argsstring>()</argsstring>
+        <name>GetHashCode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/HelpPageSampleKey.cs" line="156" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/HelpPageSampleKey.cs" bodystart="155" bodyend="176"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This is used to identify the place where the sample should be applied. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/HelpPageSampleKey.cs" line="12" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/HelpPageSampleKey.cs" bodystart="11" bodyend="177"/>
+    <listofallmembers>
+      <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_sample_key_1aada222698c19c688f84f5507c6970b98" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Areas::HelpPage::HelpPageSampleKey</scope><name>ActionName</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_sample_key_1ae4a6af523ee57805937ab67570030e8b" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Areas::HelpPage::HelpPageSampleKey</scope><name>ControllerName</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_sample_key_1ae77f6bd304901a1fbe32374487bb0337" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Areas::HelpPage::HelpPageSampleKey</scope><name>Equals</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_sample_key_1a06a672227f6bc36c9ce7476814b5a0cb" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Areas::HelpPage::HelpPageSampleKey</scope><name>GetHashCode</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_sample_key_1a673d132ff3c31b581110cd3b02c95249" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Areas::HelpPage::HelpPageSampleKey</scope><name>HelpPageSampleKey</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_sample_key_1a7d438a182920af23f560afb6ac4170b3" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Areas::HelpPage::HelpPageSampleKey</scope><name>HelpPageSampleKey</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_sample_key_1ab0ac5b060e8da4da6f361f10cb51c2e8" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Areas::HelpPage::HelpPageSampleKey</scope><name>HelpPageSampleKey</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_sample_key_1a0918f92d683a7a0c7dab4ce63729575d" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Areas::HelpPage::HelpPageSampleKey</scope><name>MediaType</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_sample_key_1ab9d9fb46c9560c46be7b30f2b59301d3" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Areas::HelpPage::HelpPageSampleKey</scope><name>ParameterNames</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_sample_key_1aede2edbc6f24825a928353832ad543d0" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Areas::HelpPage::HelpPageSampleKey</scope><name>ParameterType</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_sample_key_1af92ea830eb5f0a49bda13e15cff5b1be" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Areas::HelpPage::HelpPageSampleKey</scope><name>SampleDirection</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

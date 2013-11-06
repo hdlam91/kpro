@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="class_webassistenten__ads__api_1_1sp___hent_antall_fotooppdrag_faktura_liste___result" kind="class" prot="public">
+    <compoundname>Webassistenten_ads_api::sp_HentAntallFotooppdragFakturaListe_Result</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_antall_fotooppdrag_faktura_liste___result_1a46fa44be1ca8fc348c1a30fa804abe33" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_HentAntallFotooppdragFakturaListe_Result.Partnernavn</definition>
+        <argsstring></argsstring>
+        <name>Partnernavn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentAntallFotooppdragFakturaListe_Result.cs" line="16" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentAntallFotooppdragFakturaListe_Result.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_antall_fotooppdrag_faktura_liste___result_1ab9316d06e65b932e3f05e008e33c6e71" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>byte</type>
+        <definition>byte Webassistenten_ads_api.sp_HentAntallFotooppdragFakturaListe_Result.PartnerID</definition>
+        <argsstring></argsstring>
+        <name>PartnerID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentAntallFotooppdragFakturaListe_Result.cs" line="17" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentAntallFotooppdragFakturaListe_Result.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_antall_fotooppdrag_faktura_liste___result_1a6352ef4c92febe29d818d38b808ce8d0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; int &gt;</type>
+        <definition>Nullable&lt;int&gt; Webassistenten_ads_api.sp_HentAntallFotooppdragFakturaListe_Result.Total</definition>
+        <argsstring></argsstring>
+        <name>Total</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentAntallFotooppdragFakturaListe_Result.cs" line="18" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentAntallFotooppdragFakturaListe_Result.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentAntallFotooppdragFakturaListe_Result.cs" line="15" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentAntallFotooppdragFakturaListe_Result.cs" bodystart="14" bodyend="19"/>
+    <listofallmembers>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_antall_fotooppdrag_faktura_liste___result_1ab9316d06e65b932e3f05e008e33c6e71" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentAntallFotooppdragFakturaListe_Result</scope><name>PartnerID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_antall_fotooppdrag_faktura_liste___result_1a46fa44be1ca8fc348c1a30fa804abe33" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentAntallFotooppdragFakturaListe_Result</scope><name>Partnernavn</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_antall_fotooppdrag_faktura_liste___result_1a6352ef4c92febe29d818d38b808ce8d0" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentAntallFotooppdragFakturaListe_Result</scope><name>Total</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

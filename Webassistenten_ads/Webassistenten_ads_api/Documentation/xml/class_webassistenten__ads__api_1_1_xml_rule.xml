@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="class_webassistenten__ads__api_1_1_xml_rule" kind="class" prot="public">
+    <compoundname>Webassistenten_ads_api::XmlRule</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_xml_rule_1ad77325f8a7dae7d495471afd031482f4" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.XmlRule.RuleName</definition>
+        <argsstring></argsstring>
+        <name>RuleName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/XmlRule.cs" line="17" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/XmlRule.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_xml_rule_1a08a8a7c7d70794edc41b1069cccb6e68" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Webassistenten_ads_api.XmlRule.RuleOrder</definition>
+        <argsstring></argsstring>
+        <name>RuleOrder</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/XmlRule.cs" line="18" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/XmlRule.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_xml_rule_1ac6a7757c08a0e87e1f935242d01e71b3" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.XmlRule.RuleText</definition>
+        <argsstring></argsstring>
+        <name>RuleText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/XmlRule.cs" line="19" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/XmlRule.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_xml_rule_1a2650d5fd740a9187d1e3aa6b5e615b53" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.XmlRule.Tag</definition>
+        <argsstring></argsstring>
+        <name>Tag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/XmlRule.cs" line="20" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/XmlRule.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_xml_rule_1aea168d8995dbea6dd23ac4cdff1552ca" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>byte</type>
+        <definition>byte Webassistenten_ads_api.XmlRule.PartnerID</definition>
+        <argsstring></argsstring>
+        <name>PartnerID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/XmlRule.cs" line="21" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/XmlRule.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_xml_rule_1a80ec065dbc556ac7426e4ab870c2cdb8" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_webassistenten__ads__api_1_1_partner" kindref="compound">Partner</ref></type>
+        <definition>virtual Partner Webassistenten_ads_api.XmlRule.Partner</definition>
+        <argsstring></argsstring>
+        <name>Partner</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/XmlRule.cs" line="23" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/XmlRule.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_xml_rule_1aa67488a326c62baab5271b028714b57e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_webassistenten__ads__api_1_1_xml_tag" kindref="compound">XmlTag</ref></type>
+        <definition>virtual XmlTag Webassistenten_ads_api.XmlRule.XmlTag</definition>
+        <argsstring></argsstring>
+        <name>XmlTag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/XmlRule.cs" line="24" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/XmlRule.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/XmlRule.cs" line="16" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/XmlRule.cs" bodystart="15" bodyend="25"/>
+    <listofallmembers>
+      <member refid="class_webassistenten__ads__api_1_1_xml_rule_1a80ec065dbc556ac7426e4ab870c2cdb8" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::XmlRule</scope><name>Partner</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_xml_rule_1aea168d8995dbea6dd23ac4cdff1552ca" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::XmlRule</scope><name>PartnerID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_xml_rule_1ad77325f8a7dae7d495471afd031482f4" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::XmlRule</scope><name>RuleName</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_xml_rule_1a08a8a7c7d70794edc41b1069cccb6e68" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::XmlRule</scope><name>RuleOrder</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_xml_rule_1ac6a7757c08a0e87e1f935242d01e71b3" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::XmlRule</scope><name>RuleText</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_xml_rule_1a2650d5fd740a9187d1e3aa6b5e615b53" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::XmlRule</scope><name>Tag</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_xml_rule_1aa67488a326c62baab5271b028714b57e" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::XmlRule</scope><name>XmlTag</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

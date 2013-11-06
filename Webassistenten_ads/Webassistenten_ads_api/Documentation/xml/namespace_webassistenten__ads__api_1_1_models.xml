@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="namespace_webassistenten__ads__api_1_1_models" kind="namespace">
+    <compoundname>Webassistenten_ads_api::Models</compoundname>
+    <innerclass refid="class_webassistenten__ads__api_1_1_models_1_1_address" prot="public">Webassistenten_ads_api::Models::Address</innerclass>
+    <innerclass refid="interface_webassistenten__ads__api_1_1_models_1_1_ad_info" prot="public">Webassistenten_ads_api::Models::AdInfo</innerclass>
+    <innerclass refid="class_webassistenten__ads__api_1_1_models_1_1_data_model" prot="public">Webassistenten_ads_api::Models::DataModel</innerclass>
+    <innerclass refid="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info" prot="public">Webassistenten_ads_api::Models::RealEstateAdInfo</innerclass>
+    <innerclass refid="class_webassistenten__ads__api_1_1_models_1_1_realtor" prot="public">Webassistenten_ads_api::Models::Realtor</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/Address.cs" line="7"/>
+  </compounddef>
+</doxygen>

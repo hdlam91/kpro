@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="class_webassistenten__ads__api_1_1vw_sted" kind="class" prot="public">
+    <compoundname>Webassistenten_ads_api::vwSted</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_sted_1af8030ddffa110288ee268408b4ad3d5e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>byte</type>
+        <definition>byte Webassistenten_ads_api.vwSted.StedID</definition>
+        <argsstring></argsstring>
+        <name>StedID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwSted.cs" line="17" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwSted.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_sted_1a850c7f85efd9718f54afc7592183ee65" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.vwSted.Stednavn</definition>
+        <argsstring></argsstring>
+        <name>Stednavn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwSted.cs" line="18" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwSted.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwSted.cs" line="16" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwSted.cs" bodystart="15" bodyend="19"/>
+    <listofallmembers>
+      <member refid="class_webassistenten__ads__api_1_1vw_sted_1af8030ddffa110288ee268408b4ad3d5e" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwSted</scope><name>StedID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_sted_1a850c7f85efd9718f54afc7592183ee65" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwSted</scope><name>Stednavn</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

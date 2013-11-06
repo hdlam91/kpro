@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="class_webassistenten__ads__api_1_1_web_api_application" kind="class" prot="public">
+    <compoundname>Webassistenten_ads_api::WebApiApplication</compoundname>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_web_api_application_1a4aa89e4294c7df58dfdeabe3e8278ee0" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Webassistenten_ads_api.WebApiApplication.Application_Start</definition>
+        <argsstring>()</argsstring>
+        <name>Application_Start</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Global.asax.cs" line="18" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Global.asax.cs" bodystart="17" bodyend="25"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Global.asax.cs" line="16" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Global.asax.cs" bodystart="15" bodyend="26"/>
+    <listofallmembers>
+      <member refid="class_webassistenten__ads__api_1_1_web_api_application_1a4aa89e4294c7df58dfdeabe3e8278ee0" prot="protected" virt="non-virtual"><scope>Webassistenten_ads_api::WebApiApplication</scope><name>Application_Start</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

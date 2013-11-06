@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="class_webassistenten__ads__api_1_1_boligtype" kind="class" prot="public">
+    <compoundname>Webassistenten_ads_api::Boligtype</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_boligtype_1a754b2014b724c289f1aab27938d1d9e1" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>byte</type>
+        <definition>byte Webassistenten_ads_api.Boligtype.BoligtypeID</definition>
+        <argsstring></argsstring>
+        <name>BoligtypeID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Boligtype.cs" line="17" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Boligtype.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_boligtype_1a7cec984cc90fe3d3ab27a43c56cf6f92" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; long &gt;</type>
+        <definition>Nullable&lt;long&gt; Webassistenten_ads_api.Boligtype.StatiskTekstID</definition>
+        <argsstring></argsstring>
+        <name>StatiskTekstID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Boligtype.cs" line="18" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Boligtype.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_boligtype_1ae16e0bf223f90287db0566ec25cbde83" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.Boligtype.Boligtypenavn</definition>
+        <argsstring></argsstring>
+        <name>Boligtypenavn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Boligtype.cs" line="19" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Boligtype.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_boligtype_1a7bc1a6d344ef97cdcd79863ccb120c3a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.Boligtype.Boligtypenavn_nn_NO</definition>
+        <argsstring></argsstring>
+        <name>Boligtypenavn_nn_NO</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Boligtype.cs" line="20" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Boligtype.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_boligtype_1af344c508a23b201b24f932b6523f9ee8" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; byte &gt;</type>
+        <definition>Nullable&lt;byte&gt; Webassistenten_ads_api.Boligtype.BoligtypeSokID</definition>
+        <argsstring></argsstring>
+        <name>BoligtypeSokID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Boligtype.cs" line="21" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Boligtype.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_boligtype_1a36515ecfbf8fc20811281b56d19552d0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; int &gt;</type>
+        <definition>Nullable&lt;int&gt; Webassistenten_ads_api.Boligtype.Sortering</definition>
+        <argsstring></argsstring>
+        <name>Sortering</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Boligtype.cs" line="22" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Boligtype.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_boligtype_1a74f5fe867a76ea333b411b840333c14c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; int &gt;</type>
+        <definition>Nullable&lt;int&gt; Webassistenten_ads_api.Boligtype.SorteringListe</definition>
+        <argsstring></argsstring>
+        <name>SorteringListe</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Boligtype.cs" line="23" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Boligtype.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Boligtype.cs" line="16" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Boligtype.cs" bodystart="15" bodyend="24"/>
+    <listofallmembers>
+      <member refid="class_webassistenten__ads__api_1_1_boligtype_1a754b2014b724c289f1aab27938d1d9e1" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Boligtype</scope><name>BoligtypeID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_boligtype_1ae16e0bf223f90287db0566ec25cbde83" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Boligtype</scope><name>Boligtypenavn</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_boligtype_1a7bc1a6d344ef97cdcd79863ccb120c3a" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Boligtype</scope><name>Boligtypenavn_nn_NO</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_boligtype_1af344c508a23b201b24f932b6523f9ee8" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Boligtype</scope><name>BoligtypeSokID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_boligtype_1a36515ecfbf8fc20811281b56d19552d0" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Boligtype</scope><name>Sortering</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_boligtype_1a74f5fe867a76ea333b411b840333c14c" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Boligtype</scope><name>SorteringListe</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_boligtype_1a7cec984cc90fe3d3ab27a43c56cf6f92" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Boligtype</scope><name>StatiskTekstID</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

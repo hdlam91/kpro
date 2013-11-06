@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="namespace_webassistenten__ads__api_1_1_repository" kind="namespace">
+    <compoundname>Webassistenten_ads_api::Repository</compoundname>
+    <innerclass refid="class_webassistenten__ads__api_1_1_repository_1_1_get_dates_query" prot="public">Webassistenten_ads_api::Repository::GetDatesQuery</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Repository/GetDatesQuery.cs" line="7"/>
+  </compounddef>
+</doxygen>

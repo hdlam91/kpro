@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="class_webassistenten__ads__api_1_1_rolle" kind="class" prot="public">
+    <compoundname>Webassistenten_ads_api::Rolle</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_rolle_1a719e2673aeb24c265bd5cddfb7b98cd9" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>byte</type>
+        <definition>byte Webassistenten_ads_api.Rolle.RolleID</definition>
+        <argsstring></argsstring>
+        <name>RolleID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Rolle.cs" line="17" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Rolle.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_rolle_1af89a31ff5074dee4e0ef718475a80b82" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.Rolle.Rollenavn</definition>
+        <argsstring></argsstring>
+        <name>Rollenavn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Rolle.cs" line="18" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Rolle.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Rolle.cs" line="16" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Rolle.cs" bodystart="15" bodyend="19"/>
+    <listofallmembers>
+      <member refid="class_webassistenten__ads__api_1_1_rolle_1a719e2673aeb24c265bd5cddfb7b98cd9" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Rolle</scope><name>RolleID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_rolle_1af89a31ff5074dee4e0ef718475a80b82" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Rolle</scope><name>Rollenavn</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

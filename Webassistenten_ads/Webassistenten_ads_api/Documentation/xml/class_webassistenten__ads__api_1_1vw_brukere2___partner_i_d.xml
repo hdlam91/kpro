@@ -1,0 +1,281 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="class_webassistenten__ads__api_1_1vw_brukere2___partner_i_d" kind="class" prot="public">
+    <compoundname>Webassistenten_ads_api::vwBrukere2_PartnerID</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_brukere2___partner_i_d_1a8ce42f132c369914dc2cb8ce091895cb" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Webassistenten_ads_api.vwBrukere2_PartnerID.BrukerID</definition>
+        <argsstring></argsstring>
+        <name>BrukerID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBrukere2_PartnerID.cs" line="17" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBrukere2_PartnerID.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_brukere2___partner_i_d_1ac56bc19066338b1d8adcf4e43071b982" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>byte</type>
+        <definition>byte Webassistenten_ads_api.vwBrukere2_PartnerID.RolleID</definition>
+        <argsstring></argsstring>
+        <name>RolleID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBrukere2_PartnerID.cs" line="18" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBrukere2_PartnerID.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_brukere2___partner_i_d_1acb2f040886c03010bf3c6d72e9912649" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>byte</type>
+        <definition>byte Webassistenten_ads_api.vwBrukere2_PartnerID.PartnerID</definition>
+        <argsstring></argsstring>
+        <name>PartnerID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBrukere2_PartnerID.cs" line="19" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBrukere2_PartnerID.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_brukere2___partner_i_d_1a7e1a20b5582e78c7fa7976fa6a68ae85" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>byte</type>
+        <definition>byte Webassistenten_ads_api.vwBrukere2_PartnerID.AvdelingID</definition>
+        <argsstring></argsstring>
+        <name>AvdelingID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBrukere2_PartnerID.cs" line="20" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBrukere2_PartnerID.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_brukere2___partner_i_d_1ae9d431c74355921e155f6756930f4df8" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.vwBrukere2_PartnerID.LangID</definition>
+        <argsstring></argsstring>
+        <name>LangID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBrukere2_PartnerID.cs" line="21" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBrukere2_PartnerID.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_brukere2___partner_i_d_1abb9ce2806c373b9a23b324ba93911654" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.vwBrukere2_PartnerID.Fornavn</definition>
+        <argsstring></argsstring>
+        <name>Fornavn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBrukere2_PartnerID.cs" line="22" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBrukere2_PartnerID.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_brukere2___partner_i_d_1a00fb5fa9f38cdc3f6502ba849a64f475" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.vwBrukere2_PartnerID.Etternavn</definition>
+        <argsstring></argsstring>
+        <name>Etternavn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBrukere2_PartnerID.cs" line="23" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBrukere2_PartnerID.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_brukere2___partner_i_d_1a71f60019c1195d7b955595216a4a5ece" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.vwBrukere2_PartnerID.Initialer</definition>
+        <argsstring></argsstring>
+        <name>Initialer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBrukere2_PartnerID.cs" line="24" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBrukere2_PartnerID.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_brukere2___partner_i_d_1afa74745cfe33bed5cae5f163de48e9f9" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.vwBrukere2_PartnerID.Tittel</definition>
+        <argsstring></argsstring>
+        <name>Tittel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBrukere2_PartnerID.cs" line="25" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBrukere2_PartnerID.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_brukere2___partner_i_d_1af22d22b4446a947a010773aa4ae1eab9" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.vwBrukere2_PartnerID.Epost</definition>
+        <argsstring></argsstring>
+        <name>Epost</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBrukere2_PartnerID.cs" line="26" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBrukere2_PartnerID.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_brukere2___partner_i_d_1a4897b6ac335e9dc1d421baf2a085353e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.vwBrukere2_PartnerID.Passord</definition>
+        <argsstring></argsstring>
+        <name>Passord</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBrukere2_PartnerID.cs" line="27" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBrukere2_PartnerID.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_brukere2___partner_i_d_1a16a5b74578bf8630ef4f65dfed4e9d28" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.vwBrukere2_PartnerID.Telefon</definition>
+        <argsstring></argsstring>
+        <name>Telefon</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBrukere2_PartnerID.cs" line="28" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBrukere2_PartnerID.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_brukere2___partner_i_d_1adacaa7bcd0bd0ec0e47ad7b797a85d7b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.vwBrukere2_PartnerID.Bildefil</definition>
+        <argsstring></argsstring>
+        <name>Bildefil</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBrukere2_PartnerID.cs" line="29" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBrukere2_PartnerID.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_brukere2___partner_i_d_1a03adf6658dcadeda83f7f63b01905b8f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.vwBrukere2_PartnerID.Mobil</definition>
+        <argsstring></argsstring>
+        <name>Mobil</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBrukere2_PartnerID.cs" line="30" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBrukere2_PartnerID.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_brukere2___partner_i_d_1a29a42ecfe9094d375a264dddb16e7cdf" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; byte &gt;</type>
+        <definition>Nullable&lt;byte&gt; Webassistenten_ads_api.vwBrukere2_PartnerID.Sortering</definition>
+        <argsstring></argsstring>
+        <name>Sortering</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBrukere2_PartnerID.cs" line="31" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBrukere2_PartnerID.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_brukere2___partner_i_d_1a9f6f0d401647875e70c532beaec6973f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; bool &gt;</type>
+        <definition>Nullable&lt;bool&gt; Webassistenten_ads_api.vwBrukere2_PartnerID.Aktiv</definition>
+        <argsstring></argsstring>
+        <name>Aktiv</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBrukere2_PartnerID.cs" line="32" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBrukere2_PartnerID.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_brukere2___partner_i_d_1acd00fef48e3443d520065c8494ba2189" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; bool &gt;</type>
+        <definition>Nullable&lt;bool&gt; Webassistenten_ads_api.vwBrukere2_PartnerID.Leverandør</definition>
+        <argsstring></argsstring>
+        <name>Leverandør</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBrukere2_PartnerID.cs" line="33" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBrukere2_PartnerID.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_brukere2___partner_i_d_1a79ad1fb6f3d8e27402e669863bd7d5a1" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; bool &gt;</type>
+        <definition>Nullable&lt;bool&gt; Webassistenten_ads_api.vwBrukere2_PartnerID.Nyhetsskriv</definition>
+        <argsstring></argsstring>
+        <name>Nyhetsskriv</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBrukere2_PartnerID.cs" line="34" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBrukere2_PartnerID.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_brukere2___partner_i_d_1ad195413f5c35a2fec1ec589cd5803993" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; int &gt;</type>
+        <definition>Nullable&lt;int&gt; Webassistenten_ads_api.vwBrukere2_PartnerID.Gruppe</definition>
+        <argsstring></argsstring>
+        <name>Gruppe</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBrukere2_PartnerID.cs" line="35" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBrukere2_PartnerID.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBrukere2_PartnerID.cs" line="16" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBrukere2_PartnerID.cs" bodystart="15" bodyend="36"/>
+    <listofallmembers>
+      <member refid="class_webassistenten__ads__api_1_1vw_brukere2___partner_i_d_1a9f6f0d401647875e70c532beaec6973f" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwBrukere2_PartnerID</scope><name>Aktiv</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_brukere2___partner_i_d_1a7e1a20b5582e78c7fa7976fa6a68ae85" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwBrukere2_PartnerID</scope><name>AvdelingID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_brukere2___partner_i_d_1adacaa7bcd0bd0ec0e47ad7b797a85d7b" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwBrukere2_PartnerID</scope><name>Bildefil</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_brukere2___partner_i_d_1a8ce42f132c369914dc2cb8ce091895cb" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwBrukere2_PartnerID</scope><name>BrukerID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_brukere2___partner_i_d_1af22d22b4446a947a010773aa4ae1eab9" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwBrukere2_PartnerID</scope><name>Epost</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_brukere2___partner_i_d_1a00fb5fa9f38cdc3f6502ba849a64f475" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwBrukere2_PartnerID</scope><name>Etternavn</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_brukere2___partner_i_d_1abb9ce2806c373b9a23b324ba93911654" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwBrukere2_PartnerID</scope><name>Fornavn</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_brukere2___partner_i_d_1ad195413f5c35a2fec1ec589cd5803993" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwBrukere2_PartnerID</scope><name>Gruppe</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_brukere2___partner_i_d_1a71f60019c1195d7b955595216a4a5ece" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwBrukere2_PartnerID</scope><name>Initialer</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_brukere2___partner_i_d_1ae9d431c74355921e155f6756930f4df8" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwBrukere2_PartnerID</scope><name>LangID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_brukere2___partner_i_d_1acd00fef48e3443d520065c8494ba2189" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwBrukere2_PartnerID</scope><name>Leverandør</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_brukere2___partner_i_d_1a03adf6658dcadeda83f7f63b01905b8f" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwBrukere2_PartnerID</scope><name>Mobil</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_brukere2___partner_i_d_1a79ad1fb6f3d8e27402e669863bd7d5a1" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwBrukere2_PartnerID</scope><name>Nyhetsskriv</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_brukere2___partner_i_d_1acb2f040886c03010bf3c6d72e9912649" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwBrukere2_PartnerID</scope><name>PartnerID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_brukere2___partner_i_d_1a4897b6ac335e9dc1d421baf2a085353e" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwBrukere2_PartnerID</scope><name>Passord</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_brukere2___partner_i_d_1ac56bc19066338b1d8adcf4e43071b982" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwBrukere2_PartnerID</scope><name>RolleID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_brukere2___partner_i_d_1a29a42ecfe9094d375a264dddb16e7cdf" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwBrukere2_PartnerID</scope><name>Sortering</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_brukere2___partner_i_d_1a16a5b74578bf8630ef4f65dfed4e9d28" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwBrukere2_PartnerID</scope><name>Telefon</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_brukere2___partner_i_d_1afa74745cfe33bed5cae5f163de48e9f9" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwBrukere2_PartnerID</scope><name>Tittel</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

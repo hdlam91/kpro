@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="class_webassistenten__ads__api_1_1sp___hent_inndeling_sok___result" kind="class" prot="public">
+    <compoundname>Webassistenten_ads_api::sp_HentInndelingSok_Result</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_inndeling_sok___result_1a2e6f7f7c0ce7cae24e9165b09b1d1ab0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>byte</type>
+        <definition>byte Webassistenten_ads_api.sp_HentInndelingSok_Result.InndelingID</definition>
+        <argsstring></argsstring>
+        <name>InndelingID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentInndelingSok_Result.cs" line="16" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentInndelingSok_Result.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_inndeling_sok___result_1ada6013c74e695d3692c8ce2896b68262" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_HentInndelingSok_Result.Inndelingnavn</definition>
+        <argsstring></argsstring>
+        <name>Inndelingnavn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentInndelingSok_Result.cs" line="17" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentInndelingSok_Result.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_inndeling_sok___result_1ae07c557cd94734538cc131856bcb66be" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_HentInndelingSok_Result.AnnonseInndelingnavn</definition>
+        <argsstring></argsstring>
+        <name>AnnonseInndelingnavn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentInndelingSok_Result.cs" line="18" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentInndelingSok_Result.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentInndelingSok_Result.cs" line="15" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentInndelingSok_Result.cs" bodystart="14" bodyend="19"/>
+    <listofallmembers>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_inndeling_sok___result_1ae07c557cd94734538cc131856bcb66be" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentInndelingSok_Result</scope><name>AnnonseInndelingnavn</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_inndeling_sok___result_1a2e6f7f7c0ce7cae24e9165b09b1d1ab0" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentInndelingSok_Result</scope><name>InndelingID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_inndeling_sok___result_1ada6013c74e695d3692c8ce2896b68262" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentInndelingSok_Result</scope><name>Inndelingnavn</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

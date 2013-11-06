@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="class_webassistenten__ads__api_1_1sp___hent_annonse___result" kind="class" prot="public">
+    <compoundname>Webassistenten_ads_api::sp_HentAnnonse_Result</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_annonse___result_1ad2a9da2b84dd257ede58ca44616ca4bd" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>long</type>
+        <definition>long Webassistenten_ads_api.sp_HentAnnonse_Result.AnnonseID</definition>
+        <argsstring></argsstring>
+        <name>AnnonseID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentAnnonse_Result.cs" line="16" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentAnnonse_Result.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_annonse___result_1a9aac1532a88e5e4e4417b51f6475d511" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>byte</type>
+        <definition>byte Webassistenten_ads_api.sp_HentAnnonse_Result.PartnerID</definition>
+        <argsstring></argsstring>
+        <name>PartnerID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentAnnonse_Result.cs" line="17" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentAnnonse_Result.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_annonse___result_1aa33b21434245d610a6a570438991e1cd" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; byte &gt;</type>
+        <definition>Nullable&lt;byte&gt; Webassistenten_ads_api.sp_HentAnnonse_Result.BrukerID</definition>
+        <argsstring></argsstring>
+        <name>BrukerID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentAnnonse_Result.cs" line="18" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentAnnonse_Result.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_annonse___result_1a234a619c97c1e11bd1c5f17cc1d91afc" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; System.DateTime &gt;</type>
+        <definition>Nullable&lt;System.DateTime&gt; Webassistenten_ads_api.sp_HentAnnonse_Result.DatoReg</definition>
+        <argsstring></argsstring>
+        <name>DatoReg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentAnnonse_Result.cs" line="19" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentAnnonse_Result.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_annonse___result_1a263d2361bb5705a4ab61ec5dd356e00a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; byte &gt;</type>
+        <definition>Nullable&lt;byte&gt; Webassistenten_ads_api.sp_HentAnnonse_Result.InndelingID</definition>
+        <argsstring></argsstring>
+        <name>InndelingID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentAnnonse_Result.cs" line="20" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentAnnonse_Result.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_annonse___result_1a3ac2794db8704cbb80af3dc62a67cb89" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_HentAnnonse_Result.Beskrivelse</definition>
+        <argsstring></argsstring>
+        <name>Beskrivelse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentAnnonse_Result.cs" line="21" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentAnnonse_Result.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_annonse___result_1a939970e8f46d85fb3bf77682ddefdf19" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_HentAnnonse_Result.Kommentar</definition>
+        <argsstring></argsstring>
+        <name>Kommentar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentAnnonse_Result.cs" line="22" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentAnnonse_Result.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_annonse___result_1a9cc50b2f6d30a2d49f169f2573b38807" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; byte &gt;</type>
+        <definition>Nullable&lt;byte&gt; Webassistenten_ads_api.sp_HentAnnonse_Result.ModulID</definition>
+        <argsstring></argsstring>
+        <name>ModulID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentAnnonse_Result.cs" line="23" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentAnnonse_Result.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentAnnonse_Result.cs" line="15" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentAnnonse_Result.cs" bodystart="14" bodyend="24"/>
+    <listofallmembers>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_annonse___result_1ad2a9da2b84dd257ede58ca44616ca4bd" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentAnnonse_Result</scope><name>AnnonseID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_annonse___result_1a3ac2794db8704cbb80af3dc62a67cb89" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentAnnonse_Result</scope><name>Beskrivelse</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_annonse___result_1aa33b21434245d610a6a570438991e1cd" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentAnnonse_Result</scope><name>BrukerID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_annonse___result_1a234a619c97c1e11bd1c5f17cc1d91afc" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentAnnonse_Result</scope><name>DatoReg</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_annonse___result_1a263d2361bb5705a4ab61ec5dd356e00a" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentAnnonse_Result</scope><name>InndelingID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_annonse___result_1a939970e8f46d85fb3bf77682ddefdf19" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentAnnonse_Result</scope><name>Kommentar</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_annonse___result_1a9cc50b2f6d30a2d49f169f2573b38807" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentAnnonse_Result</scope><name>ModulID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_annonse___result_1a9aac1532a88e5e4e4417b51f6475d511" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentAnnonse_Result</scope><name>PartnerID</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

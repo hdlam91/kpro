@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="class_webassistenten__ads__api_1_1sp___hent_language___result" kind="class" prot="public">
+    <compoundname>Webassistenten_ads_api::sp_HentLanguage_Result</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_language___result_1a3ab56727e96470069d30b176153934b2" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_HentLanguage_Result.LangID</definition>
+        <argsstring></argsstring>
+        <name>LangID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentLanguage_Result.cs" line="16" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentLanguage_Result.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_language___result_1a6ecf88c69a6e303fbefdd18c63689ea2" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_HentLanguage_Result.LanguageName</definition>
+        <argsstring></argsstring>
+        <name>LanguageName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentLanguage_Result.cs" line="17" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentLanguage_Result.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentLanguage_Result.cs" line="15" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentLanguage_Result.cs" bodystart="14" bodyend="18"/>
+    <listofallmembers>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_language___result_1a3ab56727e96470069d30b176153934b2" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentLanguage_Result</scope><name>LangID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_language___result_1a6ecf88c69a6e303fbefdd18c63689ea2" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentLanguage_Result</scope><name>LanguageName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

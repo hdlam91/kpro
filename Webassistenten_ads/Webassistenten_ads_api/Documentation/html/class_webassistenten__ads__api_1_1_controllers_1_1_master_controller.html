@@ -28,8 +28,9 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Webassistenten WebAPI
+   &#160;<span id="projectnumber">1.0</span>
    </div>
-   <div id="projectbrief">API for Real-Estate Ad orders</div>
+   <div id="projectbrief">Automatic ad import system for Adresseavisen</div>
   </td>
  </tr>
  </tbody>
@@ -45,6 +46,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="namespaces.html"><span>Packages</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+      <li><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -91,7 +93,7 @@ $(document).ready(function(){initNavTree('class_webassistenten__ads__api_1_1_con
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Properties</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -103,6 +105,7 @@ $(document).ready(function(){initNavTree('class_webassistenten__ads__api_1_1_con
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="class_webassistenten__ads__api_1_1_controllers_1_1_master_controller-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">Webassistenten_ads_api.Controllers.MasterController Class Reference</div>  </div>
@@ -111,21 +114,431 @@ $(document).ready(function(){initNavTree('class_webassistenten__ads__api_1_1_con
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:af561920a5d908b6c42b20d68a375698c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af561920a5d908b6c42b20d68a375698c"></a>
-ActionResult&#160;</td><td class="memItemRight" valign="bottom"><b>Index</b> ()</td></tr>
-<tr class="memitem:ae1ef5afe5d0ccd0f86717b78a7ed108f"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae1ef5afe5d0ccd0f86717b78a7ed108f"></a>
-ActionResult&#160;</td><td class="memItemRight" valign="bottom"><b>Upload</b> (string t)</td></tr>
-<tr class="memitem:aaac04deedb4574bf5bb7255d4b2306a9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aaac04deedb4574bf5bb7255d4b2306a9"></a>
-ActionResult&#160;</td><td class="memItemRight" valign="bottom"><b>Test</b> ()</td></tr>
-<tr class="memitem:a668432ac872507b4a7ffe36c38bc806e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a668432ac872507b4a7ffe36c38bc806e"></a>
-ActionResult&#160;</td><td class="memItemRight" valign="bottom"><b>Fail</b> ()</td></tr>
-<tr class="memitem:affcc79060a652c756b0ac103ee919d80"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="affcc79060a652c756b0ac103ee919d80"></a>
-ActionResult&#160;</td><td class="memItemRight" valign="bottom"><b>Success</b> ()</td></tr>
-<tr class="memitem:a4bcfce4c2db92d049a8fd782b6bd1890"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a4bcfce4c2db92d049a8fd782b6bd1890"></a>
-ActionResult&#160;</td><td class="memItemRight" valign="bottom"><b>ModelStuff</b> ()</td></tr>
+<tr class="memitem:af561920a5d908b6c42b20d68a375698c"><td class="memItemLeft" align="right" valign="top">ActionResult&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_webassistenten__ads__api_1_1_controllers_1_1_master_controller.html#af561920a5d908b6c42b20d68a375698c">Index</a> ()</td></tr>
+<tr class="memdesc:af561920a5d908b6c42b20d68a375698c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Index method for login/identifying  <a href="#af561920a5d908b6c42b20d68a375698c"></a><br/></td></tr>
+<tr class="memitem:ad7e32dcf28242b966b3eff8fe4efcee6"><td class="memItemLeft" align="right" valign="top">ActionResult&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_webassistenten__ads__api_1_1_controllers_1_1_master_controller.html#ad7e32dcf28242b966b3eff8fe4efcee6">Upload</a> (int ProductId, <a class="el" href="class_webassistenten__ads__api_1_1_models_1_1_realtor.html">Realtor</a> ResponsibleRealtor, string Area, int Type, int Price, string Location, string Headline, <a class="el" href="class_webassistenten__ads__api_1_1_models_1_1_address.html">Address</a> <a class="el" href="class_webassistenten__ads__api_1_1_models_1_1_address.html">Address</a>, int ZipCode, string ZipArea, DateTime BookingDate, DateTime?OpenHouseDate, DateTime?ConstructionYear, int FinnCode=0, int ContractNr=0, float P_rom=0, float Boa=0, float Bta=0, float Bra=0, int Costs=0, int PurchaseCosts=0, int CommonCosts=0, int AmountSharedDebt=0, int CommonExpenses=0, int PropertyArea=0, string <a class="el" href="class_webassistenten__ads__api_1_1_property_type.html">PropertyType</a>=&quot;&quot;, int Floor=0, int Bedrooms=0, int Rooms=0, string OpenHouseText=&quot;&quot;, string RealEstAgentName=&quot;&quot;, string RealEstAgentTitle=&quot;&quot;, int RealEstAgentMobile=0, int RealEstAgentPhone=0, string RealEstAgentEmail=&quot;&quot;, string AdText=&quot;&quot;)</td></tr>
+<tr class="memdesc:ad7e32dcf28242b966b3eff8fe4efcee6"><td class="mdescLeft">&#160;</td><td class="mdescRight"> <a href="#ad7e32dcf28242b966b3eff8fe4efcee6"></a><br/></td></tr>
+<tr class="memitem:a9b09d23e1af5283e9aaaf9c0ff9e7fc2"><td class="memItemLeft" align="right" valign="top">ActionResult&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_webassistenten__ads__api_1_1_controllers_1_1_master_controller.html#a9b09d23e1af5283e9aaaf9c0ff9e7fc2">AddNewAd</a> (int ProductId)</td></tr>
+<tr class="memdesc:a9b09d23e1af5283e9aaaf9c0ff9e7fc2"><td class="mdescLeft">&#160;</td><td class="mdescRight"> <a href="#a9b09d23e1af5283e9aaaf9c0ff9e7fc2"></a><br/></td></tr>
+<tr class="memitem:ae26170e0fdffc817eb7d9950dec70589"><td class="memItemLeft" align="right" valign="top">ActionResult&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_webassistenten__ads__api_1_1_controllers_1_1_master_controller.html#ae26170e0fdffc817eb7d9950dec70589">ChooseModule</a> (string email, int id)</td></tr>
+<tr class="memdesc:ae26170e0fdffc817eb7d9950dec70589"><td class="mdescLeft">&#160;</td><td class="mdescRight"> <a href="#ae26170e0fdffc817eb7d9950dec70589"></a><br/></td></tr>
+<tr class="memitem:a668432ac872507b4a7ffe36c38bc806e"><td class="memItemLeft" align="right" valign="top">ActionResult&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_webassistenten__ads__api_1_1_controllers_1_1_master_controller.html#a668432ac872507b4a7ffe36c38bc806e">Fail</a> ()</td></tr>
+<tr class="memdesc:a668432ac872507b4a7ffe36c38bc806e"><td class="mdescLeft">&#160;</td><td class="mdescRight">something missing or wrong with the datainput  <a href="#a668432ac872507b4a7ffe36c38bc806e"></a><br/></td></tr>
+<tr class="memitem:affcc79060a652c756b0ac103ee919d80"><td class="memItemLeft" align="right" valign="top">ActionResult&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_webassistenten__ads__api_1_1_controllers_1_1_master_controller.html#affcc79060a652c756b0ac103ee919d80">Success</a> ()</td></tr>
+<tr class="memdesc:affcc79060a652c756b0ac103ee919d80"><td class="mdescLeft">&#160;</td><td class="mdescRight">everything went right with inserting data/file  <a href="#affcc79060a652c756b0ac103ee919d80"></a><br/></td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a6725b9bb4f2be16c460fd6107496a720"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6725b9bb4f2be16c460fd6107496a720"></a>
+static string&#160;</td><td class="memItemRight" valign="bottom"><b>folder</b> = &quot;~/hdTest/&quot;</td></tr>
 </table>
+<a name="details" id="details"></a><h2>Detailed Description</h2>
+<div class="textblock">
+<p>Definition at line <a class="el" href="_master_controller_8cs_source.html#l00020">20</a> of file <a class="el" href="_master_controller_8cs_source.html">MasterController.cs</a>.</p>
+</div><h2>Member Function Documentation</h2>
+<a class="anchor" id="a9b09d23e1af5283e9aaaf9c0ff9e7fc2"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ActionResult Webassistenten_ads_api.Controllers.MasterController.AddNewAd </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>ProductId</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p></p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ProductId</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>View</dd></dl>
+
+<p>Definition at line <a class="el" href="_master_controller_8cs_source.html#l00156">156</a> of file <a class="el" href="_master_controller_8cs_source.html">MasterController.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ae26170e0fdffc817eb7d9950dec70589"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ActionResult Webassistenten_ads_api.Controllers.MasterController.ChooseModule </td>
+          <td>(</td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>email</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>id</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p></p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">email</td><td></td></tr>
+    <tr><td class="paramname">id</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+
+<p>Definition at line <a class="el" href="_master_controller_8cs_source.html#l00172">172</a> of file <a class="el" href="_master_controller_8cs_source.html">MasterController.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a668432ac872507b4a7ffe36c38bc806e"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ActionResult Webassistenten_ads_api.Controllers.MasterController.Fail </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>something missing or wrong with the datainput </p>
+<dl class="section return"><dt>Returns</dt><dd>view</dd></dl>
+
+<p>Definition at line <a class="el" href="_master_controller_8cs_source.html#l00185">185</a> of file <a class="el" href="_master_controller_8cs_source.html">MasterController.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="af561920a5d908b6c42b20d68a375698c"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ActionResult Webassistenten_ads_api.Controllers.MasterController.Index </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Index method for login/identifying </p>
+<dl class="section return"><dt>Returns</dt><dd>IndexView</dd></dl>
+
+<p>Definition at line <a class="el" href="_master_controller_8cs_source.html#l00044">44</a> of file <a class="el" href="_master_controller_8cs_source.html">MasterController.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="affcc79060a652c756b0ac103ee919d80"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ActionResult Webassistenten_ads_api.Controllers.MasterController.Success </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>everything went right with inserting data/file </p>
+<dl class="section return"><dt>Returns</dt><dd></dd></dl>
+
+<p>Definition at line <a class="el" href="_master_controller_8cs_source.html#l00193">193</a> of file <a class="el" href="_master_controller_8cs_source.html">MasterController.cs</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="ad7e32dcf28242b966b3eff8fe4efcee6"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">ActionResult Webassistenten_ads_api.Controllers.MasterController.Upload </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>ProductId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_webassistenten__ads__api_1_1_models_1_1_realtor.html">Realtor</a>&#160;</td>
+          <td class="paramname"><em>ResponsibleRealtor</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>Area</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>Type</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>Price</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>Location</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>Headline</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="class_webassistenten__ads__api_1_1_models_1_1_address.html">Address</a>&#160;</td>
+          <td class="paramname"><em>Address</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>ZipCode</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>ZipArea</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">DateTime&#160;</td>
+          <td class="paramname"><em>BookingDate</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">DateTime?&#160;</td>
+          <td class="paramname"><em>OpenHouseDate</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">DateTime?&#160;</td>
+          <td class="paramname"><em>ConstructionYear</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>FinnCode</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>ContractNr</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>P_rom</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>Boa</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>Bta</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">float&#160;</td>
+          <td class="paramname"><em>Bra</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>Costs</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>PurchaseCosts</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>CommonCosts</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>AmountSharedDebt</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>CommonExpenses</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>PropertyArea</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>PropertyType</em> = <code>&quot;&quot;</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>Floor</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>Bedrooms</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>Rooms</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>OpenHouseText</em> = <code>&quot;&quot;</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>RealEstAgentName</em> = <code>&quot;&quot;</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>RealEstAgentTitle</em> = <code>&quot;&quot;</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>RealEstAgentMobile</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>RealEstAgentPhone</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>RealEstAgentEmail</em> = <code>&quot;&quot;</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>AdText</em> = <code>&quot;&quot;</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p></p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">ProductId</td><td></td></tr>
+    <tr><td class="paramname">ResponsibleRealtor</td><td></td></tr>
+    <tr><td class="paramname">Area</td><td></td></tr>
+    <tr><td class="paramname">Type</td><td></td></tr>
+    <tr><td class="paramname">Price</td><td></td></tr>
+    <tr><td class="paramname">Location</td><td></td></tr>
+    <tr><td class="paramname">Headline</td><td></td></tr>
+    <tr><td class="paramname">Address</td><td></td></tr>
+    <tr><td class="paramname">ZipCode</td><td></td></tr>
+    <tr><td class="paramname">ZipArea</td><td></td></tr>
+    <tr><td class="paramname">BookingDate</td><td></td></tr>
+    <tr><td class="paramname">OpenHouseDate</td><td></td></tr>
+    <tr><td class="paramname">ConstructionYear</td><td></td></tr>
+    <tr><td class="paramname">FinnCode</td><td></td></tr>
+    <tr><td class="paramname">ContractNr</td><td></td></tr>
+    <tr><td class="paramname">P_rom</td><td></td></tr>
+    <tr><td class="paramname">Boa</td><td></td></tr>
+    <tr><td class="paramname">Bta</td><td></td></tr>
+    <tr><td class="paramname">Bra</td><td></td></tr>
+    <tr><td class="paramname">Costs</td><td></td></tr>
+    <tr><td class="paramname">PurchaseCosts</td><td></td></tr>
+    <tr><td class="paramname">CommonCosts</td><td></td></tr>
+    <tr><td class="paramname">AmountSharedDebt</td><td></td></tr>
+    <tr><td class="paramname">CommonExpenses</td><td></td></tr>
+    <tr><td class="paramname">PropertyArea</td><td></td></tr>
+    <tr><td class="paramname"><a class="el" href="class_webassistenten__ads__api_1_1_property_type.html">PropertyType</a></td><td></td></tr>
+    <tr><td class="paramname">Floor</td><td></td></tr>
+    <tr><td class="paramname">Bedrooms</td><td></td></tr>
+    <tr><td class="paramname">Rooms</td><td></td></tr>
+    <tr><td class="paramname">OpenHouseText</td><td></td></tr>
+    <tr><td class="paramname">RealEstAgentName</td><td></td></tr>
+    <tr><td class="paramname">RealEstAgentTitle</td><td></td></tr>
+    <tr><td class="paramname">RealEstAgentMobile</td><td></td></tr>
+    <tr><td class="paramname">RealEstAgentPhone</td><td></td></tr>
+    <tr><td class="paramname">RealEstAgentEmail</td><td></td></tr>
+    <tr><td class="paramname">AdText</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Redirects</dd></dl>
+
+<p>Definition at line <a class="el" href="_master_controller_8cs_source.html#l00090">90</a> of file <a class="el" href="_master_controller_8cs_source.html">MasterController.cs</a>.</p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>Controllers/MasterController.cs</li>
+<li>Controllers/<a class="el" href="_master_controller_8cs_source.html">MasterController.cs</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -133,7 +546,7 @@ ActionResult&#160;</td><td class="memItemRight" valign="bottom"><b>ModelStuff</b
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_webassistenten__ads__api.html">Webassistenten_ads_api</a></li><li class="navelem"><a class="el" href="namespace_webassistenten__ads__api_1_1_controllers.html">Controllers</a></li><li class="navelem"><a class="el" href="class_webassistenten__ads__api_1_1_controllers_1_1_master_controller.html">MasterController</a></li>
-    <li class="footer">Generated on Wed Oct 30 2013 12:25:11 for Webassistenten WebAPI by
+    <li class="footer">Generated on Wed Nov 6 2013 11:16:15 for Webassistenten WebAPI by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

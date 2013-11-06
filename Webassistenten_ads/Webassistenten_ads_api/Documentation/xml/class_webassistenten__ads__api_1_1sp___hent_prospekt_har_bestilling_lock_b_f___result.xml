@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="class_webassistenten__ads__api_1_1sp___hent_prospekt_har_bestilling_lock_b_f___result" kind="class" prot="public">
+    <compoundname>Webassistenten_ads_api::sp_HentProspektHarBestillingLockBF_Result</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_prospekt_har_bestilling_lock_b_f___result_1a47a9b5e4ded7fb1657f20fc9f2b3d619" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_HentProspektHarBestillingLockBF_Result.Produktnavn</definition>
+        <argsstring></argsstring>
+        <name>Produktnavn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProspektHarBestillingLockBF_Result.cs" line="16" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProspektHarBestillingLockBF_Result.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_prospekt_har_bestilling_lock_b_f___result_1af33f9a14b4d6076136821b40075f25ea" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_HentProspektHarBestillingLockBF_Result.DagerUtgivelse</definition>
+        <argsstring></argsstring>
+        <name>DagerUtgivelse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProspektHarBestillingLockBF_Result.cs" line="17" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProspektHarBestillingLockBF_Result.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_prospekt_har_bestilling_lock_b_f___result_1aaa58de462587d732d96f81a001f3a2ce" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>System.DateTime</type>
+        <definition>System.DateTime Webassistenten_ads_api.sp_HentProspektHarBestillingLockBF_Result.DatoBest</definition>
+        <argsstring></argsstring>
+        <name>DatoBest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProspektHarBestillingLockBF_Result.cs" line="18" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProspektHarBestillingLockBF_Result.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_prospekt_har_bestilling_lock_b_f___result_1a7ff80daff29cabb4e4447df8d532b0ca" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>byte</type>
+        <definition>byte Webassistenten_ads_api.sp_HentProspektHarBestillingLockBF_Result.ProduktID</definition>
+        <argsstring></argsstring>
+        <name>ProduktID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProspektHarBestillingLockBF_Result.cs" line="19" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProspektHarBestillingLockBF_Result.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_prospekt_har_bestilling_lock_b_f___result_1a5bf9cd2d8b36bbd4e24a1f1ba91f015f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; bool &gt;</type>
+        <definition>Nullable&lt;bool&gt; Webassistenten_ads_api.sp_HentProspektHarBestillingLockBF_Result.ErGodkjentAvMegler</definition>
+        <argsstring></argsstring>
+        <name>ErGodkjentAvMegler</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProspektHarBestillingLockBF_Result.cs" line="20" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProspektHarBestillingLockBF_Result.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_prospekt_har_bestilling_lock_b_f___result_1a110ad0737c2bef3a8ed87a28bd82f88d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; short &gt;</type>
+        <definition>Nullable&lt;short&gt; Webassistenten_ads_api.sp_HentProspektHarBestillingLockBF_Result.BookingFristStart</definition>
+        <argsstring></argsstring>
+        <name>BookingFristStart</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProspektHarBestillingLockBF_Result.cs" line="21" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProspektHarBestillingLockBF_Result.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_prospekt_har_bestilling_lock_b_f___result_1a167a9ab67176d6c74be4c345ae593cf8" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; short &gt;</type>
+        <definition>Nullable&lt;short&gt; Webassistenten_ads_api.sp_HentProspektHarBestillingLockBF_Result.BookingFristSlutt</definition>
+        <argsstring></argsstring>
+        <name>BookingFristSlutt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProspektHarBestillingLockBF_Result.cs" line="22" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProspektHarBestillingLockBF_Result.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_prospekt_har_bestilling_lock_b_f___result_1a5e2bec23535d5bcbca16b16506dfdcac" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; System.DateTime &gt;</type>
+        <definition>Nullable&lt;System.DateTime&gt; Webassistenten_ads_api.sp_HentProspektHarBestillingLockBF_Result.Aapner</definition>
+        <argsstring></argsstring>
+        <name>Aapner</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProspektHarBestillingLockBF_Result.cs" line="23" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProspektHarBestillingLockBF_Result.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProspektHarBestillingLockBF_Result.cs" line="15" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProspektHarBestillingLockBF_Result.cs" bodystart="14" bodyend="24"/>
+    <listofallmembers>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_prospekt_har_bestilling_lock_b_f___result_1a5e2bec23535d5bcbca16b16506dfdcac" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentProspektHarBestillingLockBF_Result</scope><name>Aapner</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_prospekt_har_bestilling_lock_b_f___result_1a167a9ab67176d6c74be4c345ae593cf8" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentProspektHarBestillingLockBF_Result</scope><name>BookingFristSlutt</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_prospekt_har_bestilling_lock_b_f___result_1a110ad0737c2bef3a8ed87a28bd82f88d" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentProspektHarBestillingLockBF_Result</scope><name>BookingFristStart</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_prospekt_har_bestilling_lock_b_f___result_1af33f9a14b4d6076136821b40075f25ea" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentProspektHarBestillingLockBF_Result</scope><name>DagerUtgivelse</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_prospekt_har_bestilling_lock_b_f___result_1aaa58de462587d732d96f81a001f3a2ce" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentProspektHarBestillingLockBF_Result</scope><name>DatoBest</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_prospekt_har_bestilling_lock_b_f___result_1a5bf9cd2d8b36bbd4e24a1f1ba91f015f" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentProspektHarBestillingLockBF_Result</scope><name>ErGodkjentAvMegler</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_prospekt_har_bestilling_lock_b_f___result_1a7ff80daff29cabb4e4447df8d532b0ca" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentProspektHarBestillingLockBF_Result</scope><name>ProduktID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_prospekt_har_bestilling_lock_b_f___result_1a47a9b5e4ded7fb1657f20fc9f2b3d619" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentProspektHarBestillingLockBF_Result</scope><name>Produktnavn</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,115 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="class_webassistenten__ads__api_1_1_foto_oppdrag_type" kind="class" prot="public">
+    <compoundname>Webassistenten_ads_api::FotoOppdragType</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_foto_oppdrag_type_1a9ad2afafc4c71fffbd5079fb8ce77a46" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>byte</type>
+        <definition>byte Webassistenten_ads_api.FotoOppdragType.OppdragTypeID</definition>
+        <argsstring></argsstring>
+        <name>OppdragTypeID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/FotoOppdragType.cs" line="22" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/FotoOppdragType.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_foto_oppdrag_type_1a6210731872d10ec960ffa74777937a38" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.FotoOppdragType.OppdragTypenavn</definition>
+        <argsstring></argsstring>
+        <name>OppdragTypenavn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/FotoOppdragType.cs" line="23" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/FotoOppdragType.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_foto_oppdrag_type_1a943e635f08af54dd65c519451f4f8aea" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.FotoOppdragType.OppdragTypenavnFork</definition>
+        <argsstring></argsstring>
+        <name>OppdragTypenavnFork</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/FotoOppdragType.cs" line="24" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/FotoOppdragType.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_foto_oppdrag_type_1aa1e63e54436e4745beab49930f5c48ae" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; int &gt;</type>
+        <definition>Nullable&lt;int&gt; Webassistenten_ads_api.FotoOppdragType.Pris</definition>
+        <argsstring></argsstring>
+        <name>Pris</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/FotoOppdragType.cs" line="25" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/FotoOppdragType.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_foto_oppdrag_type_1a46a67fd6a5df5a9b0b6c89238d4ffdee" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; int &gt;</type>
+        <definition>Nullable&lt;int&gt; Webassistenten_ads_api.FotoOppdragType.PrisFoto</definition>
+        <argsstring></argsstring>
+        <name>PrisFoto</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/FotoOppdragType.cs" line="26" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/FotoOppdragType.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_foto_oppdrag_type_1a54be64dc9f091b72704eaabbc8c89cb6" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>ICollection&lt; <ref refid="class_webassistenten__ads__api_1_1_fotooppdrag" kindref="compound">Fotooppdrag</ref> &gt;</type>
+        <definition>virtual ICollection&lt;Fotooppdrag&gt; Webassistenten_ads_api.FotoOppdragType.Fotooppdrags</definition>
+        <argsstring></argsstring>
+        <name>Fotooppdrags</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/FotoOppdragType.cs" line="28" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/FotoOppdragType.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_foto_oppdrag_type_1a2239adfebbdf4ddfcd94f320385961ac" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Webassistenten_ads_api.FotoOppdragType.FotoOppdragType</definition>
+        <argsstring>()</argsstring>
+        <name>FotoOppdragType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/FotoOppdragType.cs" line="18" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/FotoOppdragType.cs" bodystart="17" bodyend="20"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/FotoOppdragType.cs" line="16" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/FotoOppdragType.cs" bodystart="15" bodyend="29"/>
+    <listofallmembers>
+      <member refid="class_webassistenten__ads__api_1_1_foto_oppdrag_type_1a54be64dc9f091b72704eaabbc8c89cb6" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::FotoOppdragType</scope><name>Fotooppdrags</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_foto_oppdrag_type_1a2239adfebbdf4ddfcd94f320385961ac" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::FotoOppdragType</scope><name>FotoOppdragType</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_foto_oppdrag_type_1a9ad2afafc4c71fffbd5079fb8ce77a46" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::FotoOppdragType</scope><name>OppdragTypeID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_foto_oppdrag_type_1a6210731872d10ec960ffa74777937a38" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::FotoOppdragType</scope><name>OppdragTypenavn</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_foto_oppdrag_type_1a943e635f08af54dd65c519451f4f8aea" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::FotoOppdragType</scope><name>OppdragTypenavnFork</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_foto_oppdrag_type_1aa1e63e54436e4745beab49930f5c48ae" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::FotoOppdragType</scope><name>Pris</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_foto_oppdrag_type_1a46a67fd6a5df5a9b0b6c89238d4ffdee" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::FotoOppdragType</scope><name>PrisFoto</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

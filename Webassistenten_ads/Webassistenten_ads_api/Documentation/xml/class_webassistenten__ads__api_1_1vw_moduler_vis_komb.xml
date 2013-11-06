@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="class_webassistenten__ads__api_1_1vw_moduler_vis_komb" kind="class" prot="public">
+    <compoundname>Webassistenten_ads_api::vwModulerVisKomb</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_moduler_vis_komb_1a98c6a5817d2b8d63aef86135e1a0bee0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>byte</type>
+        <definition>byte Webassistenten_ads_api.vwModulerVisKomb.ProduktID</definition>
+        <argsstring></argsstring>
+        <name>ProduktID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwModulerVisKomb.cs" line="17" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwModulerVisKomb.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_moduler_vis_komb_1a145f42ac7cc71ab0b441cca40651373a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>byte</type>
+        <definition>byte Webassistenten_ads_api.vwModulerVisKomb.ModulID</definition>
+        <argsstring></argsstring>
+        <name>ModulID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwModulerVisKomb.cs" line="18" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwModulerVisKomb.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_moduler_vis_komb_1ac67d60c610ec2c1fa422b15b117a7a10" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.vwModulerVisKomb.Mål</definition>
+        <argsstring></argsstring>
+        <name>Mål</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwModulerVisKomb.cs" line="19" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwModulerVisKomb.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_moduler_vis_komb_1af15277307fa885e23eeff2d01dca4b1f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.vwModulerVisKomb.Expr1</definition>
+        <argsstring></argsstring>
+        <name>Expr1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwModulerVisKomb.cs" line="20" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwModulerVisKomb.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwModulerVisKomb.cs" line="16" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwModulerVisKomb.cs" bodystart="15" bodyend="21"/>
+    <listofallmembers>
+      <member refid="class_webassistenten__ads__api_1_1vw_moduler_vis_komb_1af15277307fa885e23eeff2d01dca4b1f" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwModulerVisKomb</scope><name>Expr1</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_moduler_vis_komb_1a145f42ac7cc71ab0b441cca40651373a" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwModulerVisKomb</scope><name>ModulID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_moduler_vis_komb_1ac67d60c610ec2c1fa422b15b117a7a10" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwModulerVisKomb</scope><name>Mål</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_moduler_vis_komb_1a98c6a5817d2b8d63aef86135e1a0bee0" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwModulerVisKomb</scope><name>ProduktID</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

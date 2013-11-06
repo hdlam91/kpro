@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="class_webassistenten__ads__api_1_1_controllers_1_1_real_estate_ad_handler_logic" kind="class" prot="public">
+    <compoundname>Webassistenten_ads_api::Controllers::RealEstateAdHandlerLogic</compoundname>
+    <basecompoundref refid="interface_webassistenten__ads__api_1_1_controllers_1_1_ad_handler_logic" prot="public" virt="non-virtual">Webassistenten_ads_api.Controllers.AdHandlerLogic</basecompoundref>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_controllers_1_1_real_estate_ad_handler_logic_1a57f6118360fd58ede0dc74b90422eac9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Webassistenten_ads_api.Controllers.RealEstateAdHandlerLogic.RequiredInfoSet</definition>
+        <argsstring>(RealEstateAdInfo info)</argsstring>
+        <name>RequiredInfoSet</name>
+        <param>
+          <type><ref refid="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info" kindref="compound">RealEstateAdInfo</ref></type>
+          <declname>info</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/RealEstateAdHandlerLogic.cs" line="14" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/RealEstateAdHandlerLogic.cs" bodystart="13" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_controllers_1_1_real_estate_ad_handler_logic_1a7cfb2d4b365e385fe2466718740a5a43" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Webassistenten_ads_api.Controllers.RealEstateAdHandlerLogic.ValidZipCode</definition>
+        <argsstring>(int zip)</argsstring>
+        <name>ValidZipCode</name>
+        <param>
+          <type>int</type>
+          <declname>zip</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/RealEstateAdHandlerLogic.cs" line="27" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/RealEstateAdHandlerLogic.cs" bodystart="26" bodyend="33"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_controllers_1_1_real_estate_ad_handler_logic_1a4b6f5fee884113bf128d622ff3a820fc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Webassistenten_ads_api.Controllers.RealEstateAdHandlerLogic.RequiredProspektInfoSet</definition>
+        <argsstring>(ProspektHarBestilling prospektBest, Prospekt prospekt)</argsstring>
+        <name>RequiredProspektInfoSet</name>
+        <param>
+          <type><ref refid="class_webassistenten__ads__api_1_1_prospekt_har_bestilling" kindref="compound">ProspektHarBestilling</ref></type>
+          <declname>prospektBest</declname>
+        </param>
+        <param>
+          <type><ref refid="class_webassistenten__ads__api_1_1_prospekt" kindref="compound">Prospekt</ref></type>
+          <declname>prospekt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/RealEstateAdHandlerLogic.cs" line="36" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/RealEstateAdHandlerLogic.cs" bodystart="35" bodyend="48"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="211">
+        <label>Webassistenten_ads_api.Controllers.RealEstateAdHandlerLogic</label>
+        <link refid="class_webassistenten__ads__api_1_1_controllers_1_1_real_estate_ad_handler_logic"/>
+        <childnode refid="212" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="212">
+        <label>AdHandlerLogic</label>
+        <link refid="interface_webassistenten__ads__api_1_1_controllers_1_1_ad_handler_logic"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="213">
+        <label>Webassistenten_ads_api.Controllers.RealEstateAdHandlerLogic</label>
+        <link refid="class_webassistenten__ads__api_1_1_controllers_1_1_real_estate_ad_handler_logic"/>
+        <childnode refid="214" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="214">
+        <label>AdHandlerLogic</label>
+        <link refid="interface_webassistenten__ads__api_1_1_controllers_1_1_ad_handler_logic"/>
+      </node>
+    </collaborationgraph>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/RealEstateAdHandlerLogic.cs" line="10" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/RealEstateAdHandlerLogic.cs" bodystart="9" bodyend="50"/>
+    <listofallmembers>
+      <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_real_estate_ad_handler_logic_1a57f6118360fd58ede0dc74b90422eac9" prot="private" virt="non-virtual"><scope>Webassistenten_ads_api::Controllers::RealEstateAdHandlerLogic</scope><name>RequiredInfoSet</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_real_estate_ad_handler_logic_1a4b6f5fee884113bf128d622ff3a820fc" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Controllers::RealEstateAdHandlerLogic</scope><name>RequiredProspektInfoSet</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_real_estate_ad_handler_logic_1a7cfb2d4b365e385fe2466718740a5a43" prot="private" virt="non-virtual"><scope>Webassistenten_ads_api::Controllers::RealEstateAdHandlerLogic</scope><name>ValidZipCode</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

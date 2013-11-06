@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="class_webassistenten__ads__api_1_1_firma_har_produkt" kind="class" prot="public">
+    <compoundname>Webassistenten_ads_api::FirmaHarProdukt</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_firma_har_produkt_1a89f2b85bbf01543cd0ec57303ee7e892" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Webassistenten_ads_api.FirmaHarProdukt.FirmaID</definition>
+        <argsstring></argsstring>
+        <name>FirmaID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/FirmaHarProdukt.cs" line="17" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/FirmaHarProdukt.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_firma_har_produkt_1a47ab78c9797c621e460b908ca1742df8" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>byte</type>
+        <definition>byte Webassistenten_ads_api.FirmaHarProdukt.ProduktID</definition>
+        <argsstring></argsstring>
+        <name>ProduktID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/FirmaHarProdukt.cs" line="18" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/FirmaHarProdukt.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_firma_har_produkt_1a20e1376452da7a340595d2e1e47972f5" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; bool &gt;</type>
+        <definition>Nullable&lt;bool&gt; Webassistenten_ads_api.FirmaHarProdukt.Aktiv</definition>
+        <argsstring></argsstring>
+        <name>Aktiv</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/FirmaHarProdukt.cs" line="19" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/FirmaHarProdukt.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_firma_har_produkt_1a036ef13822baf984c0aa9a8c2325775a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_webassistenten__ads__api_1_1_firma" kindref="compound">Firma</ref></type>
+        <definition>virtual Firma Webassistenten_ads_api.FirmaHarProdukt.Firma</definition>
+        <argsstring></argsstring>
+        <name>Firma</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/FirmaHarProdukt.cs" line="21" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/FirmaHarProdukt.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_firma_har_produkt_1aba2835acc58d054a600d21069bcdecbf" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_webassistenten__ads__api_1_1_produkt" kindref="compound">Produkt</ref></type>
+        <definition>virtual Produkt Webassistenten_ads_api.FirmaHarProdukt.Produkt</definition>
+        <argsstring></argsstring>
+        <name>Produkt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/FirmaHarProdukt.cs" line="22" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/FirmaHarProdukt.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/FirmaHarProdukt.cs" line="16" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/FirmaHarProdukt.cs" bodystart="15" bodyend="23"/>
+    <listofallmembers>
+      <member refid="class_webassistenten__ads__api_1_1_firma_har_produkt_1a20e1376452da7a340595d2e1e47972f5" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::FirmaHarProdukt</scope><name>Aktiv</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_firma_har_produkt_1a036ef13822baf984c0aa9a8c2325775a" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::FirmaHarProdukt</scope><name>Firma</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_firma_har_produkt_1a89f2b85bbf01543cd0ec57303ee7e892" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::FirmaHarProdukt</scope><name>FirmaID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_firma_har_produkt_1aba2835acc58d054a600d21069bcdecbf" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::FirmaHarProdukt</scope><name>Produkt</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_firma_har_produkt_1a47ab78c9797c621e460b908ca1742df8" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::FirmaHarProdukt</scope><name>ProduktID</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

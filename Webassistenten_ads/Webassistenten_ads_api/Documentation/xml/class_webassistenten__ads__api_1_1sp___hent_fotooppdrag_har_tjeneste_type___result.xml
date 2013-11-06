@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="class_webassistenten__ads__api_1_1sp___hent_fotooppdrag_har_tjeneste_type___result" kind="class" prot="public">
+    <compoundname>Webassistenten_ads_api::sp_HentFotooppdragHarTjenesteType_Result</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_fotooppdrag_har_tjeneste_type___result_1ad800cd107cd7bd3abd3ccfdf06554d01" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>long</type>
+        <definition>long Webassistenten_ads_api.sp_HentFotooppdragHarTjenesteType_Result.FotooppdragID</definition>
+        <argsstring></argsstring>
+        <name>FotooppdragID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentFotooppdragHarTjenesteType_Result.cs" line="16" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentFotooppdragHarTjenesteType_Result.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_fotooppdrag_har_tjeneste_type___result_1a5aa4f90de4a23082e80dac12234d8f85" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Webassistenten_ads_api.sp_HentFotooppdragHarTjenesteType_Result.TjenesteTypeID</definition>
+        <argsstring></argsstring>
+        <name>TjenesteTypeID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentFotooppdragHarTjenesteType_Result.cs" line="17" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentFotooppdragHarTjenesteType_Result.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_fotooppdrag_har_tjeneste_type___result_1ac92eb355b36602b0403097a7b80aef33" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_HentFotooppdragHarTjenesteType_Result.TjenesteTypenavn</definition>
+        <argsstring></argsstring>
+        <name>TjenesteTypenavn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentFotooppdragHarTjenesteType_Result.cs" line="18" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentFotooppdragHarTjenesteType_Result.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentFotooppdragHarTjenesteType_Result.cs" line="15" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentFotooppdragHarTjenesteType_Result.cs" bodystart="14" bodyend="19"/>
+    <listofallmembers>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_fotooppdrag_har_tjeneste_type___result_1ad800cd107cd7bd3abd3ccfdf06554d01" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentFotooppdragHarTjenesteType_Result</scope><name>FotooppdragID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_fotooppdrag_har_tjeneste_type___result_1a5aa4f90de4a23082e80dac12234d8f85" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentFotooppdragHarTjenesteType_Result</scope><name>TjenesteTypeID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_fotooppdrag_har_tjeneste_type___result_1ac92eb355b36602b0403097a7b80aef33" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentFotooppdragHarTjenesteType_Result</scope><name>TjenesteTypenavn</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

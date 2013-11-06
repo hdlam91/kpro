@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_models_1_1_help_page_api_model" kind="class" prot="public">
+    <compoundname>Webassistenten_ads_api::Areas::HelpPage::Models::HelpPageApiModel</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_models_1_1_help_page_api_model_1aec68374468a78a24cb969cdc81386146" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>ApiDescription</type>
+        <definition>ApiDescription Webassistenten_ads_api.Areas.HelpPage.Models.HelpPageApiModel.ApiDescription</definition>
+        <argsstring></argsstring>
+        <name>ApiDescription</name>
+        <briefdescription>
+<para>Gets or sets the <ref refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_models_1_1_help_page_api_model_1aec68374468a78a24cb969cdc81386146" kindref="member">ApiDescription</ref> that describes the API. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/Models/HelpPageApiModel.cs" line="26" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/Models/HelpPageApiModel.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_models_1_1_help_page_api_model_1adcef8975742dd9fc0295b15ceafc07b6" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>IDictionary&lt; MediaTypeHeaderValue, object &gt;</type>
+        <definition>IDictionary&lt;MediaTypeHeaderValue, object&gt; Webassistenten_ads_api.Areas.HelpPage.Models.HelpPageApiModel.SampleRequests</definition>
+        <argsstring></argsstring>
+        <name>SampleRequests</name>
+        <briefdescription>
+<para>Gets the sample requests associated with the API. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/Models/HelpPageApiModel.cs" line="31" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/Models/HelpPageApiModel.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_models_1_1_help_page_api_model_1aec57544a15f361533b9b2ee96754e2b3" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>IDictionary&lt; MediaTypeHeaderValue, object &gt;</type>
+        <definition>IDictionary&lt;MediaTypeHeaderValue, object&gt; Webassistenten_ads_api.Areas.HelpPage.Models.HelpPageApiModel.SampleResponses</definition>
+        <argsstring></argsstring>
+        <name>SampleResponses</name>
+        <briefdescription>
+<para>Gets the sample responses associated with the API. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/Models/HelpPageApiModel.cs" line="36" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/Models/HelpPageApiModel.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_models_1_1_help_page_api_model_1ad9680fea32acf0072b3d3a49515f680d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Collection&lt; string &gt;</type>
+        <definition>Collection&lt;string&gt; Webassistenten_ads_api.Areas.HelpPage.Models.HelpPageApiModel.ErrorMessages</definition>
+        <argsstring></argsstring>
+        <name>ErrorMessages</name>
+        <briefdescription>
+<para>Gets the error messages associated with this model. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/Models/HelpPageApiModel.cs" line="41" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/Models/HelpPageApiModel.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_models_1_1_help_page_api_model_1a70b0f351f2c89a16319748bb4fb26a2f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Webassistenten_ads_api.Areas.HelpPage.Models.HelpPageApiModel.HelpPageApiModel</definition>
+        <argsstring>()</argsstring>
+        <name>HelpPageApiModel</name>
+        <briefdescription>
+<para>Initializes a new instance of the <ref refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_models_1_1_help_page_api_model" kindref="compound">HelpPageApiModel</ref> class. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/Models/HelpPageApiModel.cs" line="17" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/Models/HelpPageApiModel.cs" bodystart="16" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The model that represents an API displayed on the help page. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/Models/HelpPageApiModel.cs" line="12" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/Models/HelpPageApiModel.cs" bodystart="11" bodyend="42"/>
+    <listofallmembers>
+      <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_models_1_1_help_page_api_model_1aec68374468a78a24cb969cdc81386146" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Areas::HelpPage::Models::HelpPageApiModel</scope><name>ApiDescription</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_models_1_1_help_page_api_model_1ad9680fea32acf0072b3d3a49515f680d" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Areas::HelpPage::Models::HelpPageApiModel</scope><name>ErrorMessages</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_models_1_1_help_page_api_model_1a70b0f351f2c89a16319748bb4fb26a2f" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Areas::HelpPage::Models::HelpPageApiModel</scope><name>HelpPageApiModel</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_models_1_1_help_page_api_model_1adcef8975742dd9fc0295b15ceafc07b6" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Areas::HelpPage::Models::HelpPageApiModel</scope><name>SampleRequests</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_models_1_1_help_page_api_model_1aec57544a15f361533b9b2ee96754e2b3" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Areas::HelpPage::Models::HelpPageApiModel</scope><name>SampleResponses</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_area_registration" kind="class" prot="public">
+    <compoundname>Webassistenten_ads_api::Areas::HelpPage::HelpPageAreaRegistration</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_area_registration_1a24ad1f137e9a95a84984558bb282e093" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>override string</type>
+        <definition>override string Webassistenten_ads_api.Areas.HelpPage.HelpPageAreaRegistration.AreaName</definition>
+        <argsstring></argsstring>
+        <name>AreaName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/HelpPageAreaRegistration.cs" line="14" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/HelpPageAreaRegistration.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_area_registration_1a33d16d3aeb9e45b871d94c5ccc166093" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Webassistenten_ads_api.Areas.HelpPage.HelpPageAreaRegistration.RegisterArea</definition>
+        <argsstring>(AreaRegistrationContext context)</argsstring>
+        <name>RegisterArea</name>
+        <param>
+          <type>AreaRegistrationContext</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/HelpPageAreaRegistration.cs" line="17" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/HelpPageAreaRegistration.cs" bodystart="16" bodyend="24"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/HelpPageAreaRegistration.cs" line="7" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/HelpPageAreaRegistration.cs" bodystart="6" bodyend="25"/>
+    <listofallmembers>
+      <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_area_registration_1a24ad1f137e9a95a84984558bb282e093" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Areas::HelpPage::HelpPageAreaRegistration</scope><name>AreaName</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_area_registration_1a33d16d3aeb9e45b871d94c5ccc166093" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Areas::HelpPage::HelpPageAreaRegistration</scope><name>RegisterArea</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

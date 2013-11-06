@@ -1,0 +1,684 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info" kind="class" prot="public">
+    <compoundname>Webassistenten_ads_api::Models::RealEstateAdInfo</compoundname>
+    <basecompoundref refid="interface_webassistenten__ads__api_1_1_models_1_1_ad_info" prot="public" virt="non-virtual">Webassistenten_ads_api.Models.AdInfo</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1a54f3fcc168ae7bdd7990db928ec27df2" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Webassistenten_ads_api.Models.RealEstateAdInfo.RealtorId</definition>
+        <argsstring></argsstring>
+        <name>RealtorId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/RealEstateAdInfo.cs" line="78" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/RealEstateAdInfo.cs" bodystart="78" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1a428562efb3f126d76682459e7cabd0fb" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Webassistenten_ads_api.Models.RealEstateAdInfo.ProductId</definition>
+        <argsstring></argsstring>
+        <name>ProductId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/RealEstateAdInfo.cs" line="80" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/RealEstateAdInfo.cs" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1ac96f741ced56634356dccb49bdfb67f7" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_webassistenten__ads__api_1_1_models_1_1_realtor" kindref="compound">Realtor</ref></type>
+        <definition>Realtor Webassistenten_ads_api.Models.RealEstateAdInfo.ResponsibleRealtor</definition>
+        <argsstring></argsstring>
+        <name>ResponsibleRealtor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/RealEstateAdInfo.cs" line="82" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/RealEstateAdInfo.cs" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1a5edddf6c42af8b9ab209d8b1856fe882" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.Models.RealEstateAdInfo.Area</definition>
+        <argsstring></argsstring>
+        <name>Area</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/RealEstateAdInfo.cs" line="84" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/RealEstateAdInfo.cs" bodystart="84" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1aa1c3b4918cdc01ee402e34e0a1ef5f7e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Webassistenten_ads_api.Models.RealEstateAdInfo.Type</definition>
+        <argsstring></argsstring>
+        <name>Type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/RealEstateAdInfo.cs" line="86" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/RealEstateAdInfo.cs" bodystart="86" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1aa172f3eed7c93003bf2db0a07e6e4b94" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Webassistenten_ads_api.Models.RealEstateAdInfo.Price</definition>
+        <argsstring></argsstring>
+        <name>Price</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/RealEstateAdInfo.cs" line="88" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/RealEstateAdInfo.cs" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1ae05117a713b725050f19aa54cc941652" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.Models.RealEstateAdInfo.Location</definition>
+        <argsstring></argsstring>
+        <name>Location</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/RealEstateAdInfo.cs" line="90" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/RealEstateAdInfo.cs" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1aeee7370ba6f1756ed5bf1d22ee11a052" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.Models.RealEstateAdInfo.Headline</definition>
+        <argsstring></argsstring>
+        <name>Headline</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/RealEstateAdInfo.cs" line="92" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/RealEstateAdInfo.cs" bodystart="92" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1a3c6d78ea51e63460c4bd4d051bbe8aaa" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_webassistenten__ads__api_1_1_models_1_1_address" kindref="compound">Address</ref></type>
+        <definition>Address Webassistenten_ads_api.Models.RealEstateAdInfo.Address</definition>
+        <argsstring></argsstring>
+        <name>Address</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/RealEstateAdInfo.cs" line="94" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/RealEstateAdInfo.cs" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1adcedad71793b51b2e9e16a0b2698d7fb" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Webassistenten_ads_api.Models.RealEstateAdInfo.ZipCode</definition>
+        <argsstring></argsstring>
+        <name>ZipCode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/RealEstateAdInfo.cs" line="96" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/RealEstateAdInfo.cs" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1a5166cfe22e346184570cf25e790ec7b2" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.Models.RealEstateAdInfo.ZipArea</definition>
+        <argsstring></argsstring>
+        <name>ZipArea</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/RealEstateAdInfo.cs" line="98" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/RealEstateAdInfo.cs" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1acc5d16669d9cd1606f7cf93d9d1ad820" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>DateTime</type>
+        <definition>DateTime Webassistenten_ads_api.Models.RealEstateAdInfo.BookingDate</definition>
+        <argsstring></argsstring>
+        <name>BookingDate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/RealEstateAdInfo.cs" line="100" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/RealEstateAdInfo.cs" bodystart="100" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1a4d53b4e307d39954daa698dc5d7f1023" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Webassistenten_ads_api.Models.RealEstateAdInfo.FinnCode</definition>
+        <argsstring></argsstring>
+        <name>FinnCode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/RealEstateAdInfo.cs" line="104" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/RealEstateAdInfo.cs" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1ab70075f5b9d6839865492939a5692230" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Webassistenten_ads_api.Models.RealEstateAdInfo.ContractNr</definition>
+        <argsstring></argsstring>
+        <name>ContractNr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/RealEstateAdInfo.cs" line="106" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/RealEstateAdInfo.cs" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1a7e636161da5c6a08d72b38c486671e32" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>float</type>
+        <definition>float Webassistenten_ads_api.Models.RealEstateAdInfo.P_rom</definition>
+        <argsstring></argsstring>
+        <name>P_rom</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/RealEstateAdInfo.cs" line="108" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/RealEstateAdInfo.cs" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1a42404fa002a54dbe4c7a9c9c7ca5187b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>float</type>
+        <definition>float Webassistenten_ads_api.Models.RealEstateAdInfo.Boa</definition>
+        <argsstring></argsstring>
+        <name>Boa</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/RealEstateAdInfo.cs" line="110" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/RealEstateAdInfo.cs" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1a90d82511ded1a80f65fb0728e38ee162" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>float</type>
+        <definition>float Webassistenten_ads_api.Models.RealEstateAdInfo.Bta</definition>
+        <argsstring></argsstring>
+        <name>Bta</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/RealEstateAdInfo.cs" line="112" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/RealEstateAdInfo.cs" bodystart="112" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1aeb5f7aa1ee02bb009d248e721714a137" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>float</type>
+        <definition>float Webassistenten_ads_api.Models.RealEstateAdInfo.Bra</definition>
+        <argsstring></argsstring>
+        <name>Bra</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/RealEstateAdInfo.cs" line="114" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/RealEstateAdInfo.cs" bodystart="114" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1a8b09e34bf3e2d1cfcd31c9afa3cc9706" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Webassistenten_ads_api.Models.RealEstateAdInfo.Costs</definition>
+        <argsstring></argsstring>
+        <name>Costs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/RealEstateAdInfo.cs" line="116" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/RealEstateAdInfo.cs" bodystart="116" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1aaeccebf38394a417f715ecedc5ee6469" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Webassistenten_ads_api.Models.RealEstateAdInfo.PurchaseCosts</definition>
+        <argsstring></argsstring>
+        <name>PurchaseCosts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/RealEstateAdInfo.cs" line="118" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/RealEstateAdInfo.cs" bodystart="118" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1a28ac5d69b7f1570513976e7ed34638b4" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Webassistenten_ads_api.Models.RealEstateAdInfo.CommonCosts</definition>
+        <argsstring></argsstring>
+        <name>CommonCosts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/RealEstateAdInfo.cs" line="120" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/RealEstateAdInfo.cs" bodystart="120" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1a35d098f3fc7e702cfd9e9c3c75f9f124" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Webassistenten_ads_api.Models.RealEstateAdInfo.AmountSharedDebt</definition>
+        <argsstring></argsstring>
+        <name>AmountSharedDebt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/RealEstateAdInfo.cs" line="122" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/RealEstateAdInfo.cs" bodystart="122" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1a5f6eb27743949fc0798d9b6a28298deb" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Webassistenten_ads_api.Models.RealEstateAdInfo.CommonExpenses</definition>
+        <argsstring></argsstring>
+        <name>CommonExpenses</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/RealEstateAdInfo.cs" line="124" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/RealEstateAdInfo.cs" bodystart="124" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1a4f67685646d90cf3d95556ce57bd101d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Webassistenten_ads_api.Models.RealEstateAdInfo.PropertyArea</definition>
+        <argsstring></argsstring>
+        <name>PropertyArea</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/RealEstateAdInfo.cs" line="126" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/RealEstateAdInfo.cs" bodystart="126" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1a7f4b7cd98cf08fb50f6c249197d7683f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_webassistenten__ads__api_1_1_property_type" kindref="compound">PropertyType</ref></type>
+        <definition>PropertyType Webassistenten_ads_api.Models.RealEstateAdInfo.PropertyType</definition>
+        <argsstring></argsstring>
+        <name>PropertyType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/RealEstateAdInfo.cs" line="128" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/RealEstateAdInfo.cs" bodystart="128" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1aa5efaf2ef6417a031a257cc8c30946e4" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>DateTime</type>
+        <definition>DateTime Webassistenten_ads_api.Models.RealEstateAdInfo.ConstructionYear</definition>
+        <argsstring></argsstring>
+        <name>ConstructionYear</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/RealEstateAdInfo.cs" line="130" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/RealEstateAdInfo.cs" bodystart="130" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1a0c21b78be11817cdf72c463ad9ab1644" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Webassistenten_ads_api.Models.RealEstateAdInfo.Floor</definition>
+        <argsstring></argsstring>
+        <name>Floor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/RealEstateAdInfo.cs" line="132" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/RealEstateAdInfo.cs" bodystart="132" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1acdabbf5fbd90b14d8f037928374be1cf" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Webassistenten_ads_api.Models.RealEstateAdInfo.Bedrooms</definition>
+        <argsstring></argsstring>
+        <name>Bedrooms</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/RealEstateAdInfo.cs" line="134" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/RealEstateAdInfo.cs" bodystart="134" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1acdc547ffdea1dc914306286a8fe3784a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Webassistenten_ads_api.Models.RealEstateAdInfo.Rooms</definition>
+        <argsstring></argsstring>
+        <name>Rooms</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/RealEstateAdInfo.cs" line="136" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/RealEstateAdInfo.cs" bodystart="136" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1abc66e6d5091c1e938db35ade01dd46d4" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>DateTime</type>
+        <definition>DateTime Webassistenten_ads_api.Models.RealEstateAdInfo.OpenHouseDate</definition>
+        <argsstring></argsstring>
+        <name>OpenHouseDate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/RealEstateAdInfo.cs" line="138" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/RealEstateAdInfo.cs" bodystart="138" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1a3d21ac982e6e160dad2f18e2f536b677" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>String</type>
+        <definition>String Webassistenten_ads_api.Models.RealEstateAdInfo.OpenHouseText</definition>
+        <argsstring></argsstring>
+        <name>OpenHouseText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/RealEstateAdInfo.cs" line="140" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/RealEstateAdInfo.cs" bodystart="140" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1ae0449333c0318e6d8bed1972b41d3360" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>String</type>
+        <definition>String Webassistenten_ads_api.Models.RealEstateAdInfo.RealEstAgentName</definition>
+        <argsstring></argsstring>
+        <name>RealEstAgentName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/RealEstateAdInfo.cs" line="142" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/RealEstateAdInfo.cs" bodystart="142" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1a27a9141ee8e73243715ae4f3306dd536" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>String</type>
+        <definition>String Webassistenten_ads_api.Models.RealEstateAdInfo.RealEstAgentTitle</definition>
+        <argsstring></argsstring>
+        <name>RealEstAgentTitle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/RealEstateAdInfo.cs" line="144" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/RealEstateAdInfo.cs" bodystart="144" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1a95b4a29c37d0662f1531e4d0765bbdc1" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Webassistenten_ads_api.Models.RealEstateAdInfo.RealEstAgentMobile</definition>
+        <argsstring></argsstring>
+        <name>RealEstAgentMobile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/RealEstateAdInfo.cs" line="146" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/RealEstateAdInfo.cs" bodystart="146" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1a5c8f7f0d3e99fdc36b107e5d33cf56ac" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Webassistenten_ads_api.Models.RealEstateAdInfo.RealEstAgentPhone</definition>
+        <argsstring></argsstring>
+        <name>RealEstAgentPhone</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/RealEstateAdInfo.cs" line="148" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/RealEstateAdInfo.cs" bodystart="148" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1a01d5e3f9ea7bfe35fecdf68a44998f14" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>System.Net.Mail.MailAddress</type>
+        <definition>System.Net.Mail.MailAddress Webassistenten_ads_api.Models.RealEstateAdInfo.RealEstAgentEmail</definition>
+        <argsstring></argsstring>
+        <name>RealEstAgentEmail</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/RealEstateAdInfo.cs" line="150" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/RealEstateAdInfo.cs" bodystart="150" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1a46f48fcc496e5aca035877829321d699" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>String</type>
+        <definition>String Webassistenten_ads_api.Models.RealEstateAdInfo.AdText</definition>
+        <argsstring></argsstring>
+        <name>AdText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/RealEstateAdInfo.cs" line="152" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/RealEstateAdInfo.cs" bodystart="152" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1a93c72a6ea0c5c6c21184d4c448476b45" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Webassistenten_ads_api.Models.RealEstateAdInfo.RealEstateAdInfo</definition>
+        <argsstring>()</argsstring>
+        <name>RealEstateAdInfo</name>
+        <briefdescription>
+<para>Initializes a new instance of the Webassistenten_ads.Models.RealEstateAdInfo class, with all non-nullable mumbers set to -1 to mark them as not set to a proper value. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/RealEstateAdInfo.cs" line="16" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/RealEstateAdInfo.cs" bodystart="15" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1a4cefd142978bfd5ff7cc1a91a02ea38b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Webassistenten_ads_api.Models.RealEstateAdInfo.RealEstateAdInfo</definition>
+        <argsstring>(int prodId, int type, int price, int zipCode, string zipArea, string location, string headLine, int finnCode, int contractNr, float prom, float boa, float bta, float bra, int cost, int purchaseCost, int commonCost, int amountSharedDebt, int commonExpenses, int propertyArea, int floor, int bedrooms, int rooms, int mobile, int phone)</argsstring>
+        <name>RealEstateAdInfo</name>
+        <param>
+          <type>int</type>
+          <declname>prodId</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>price</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>zipCode</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>zipArea</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>location</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>headLine</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>finnCode</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>contractNr</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>prom</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>boa</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>bta</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>bra</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>cost</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>purchaseCost</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>commonCost</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>amountSharedDebt</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>commonExpenses</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>propertyArea</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>floor</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>bedrooms</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>rooms</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>mobile</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>phone</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/RealEstateAdInfo.cs" line="47" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/RealEstateAdInfo.cs" bodystart="42" bodyend="73"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="216">
+        <label>AdInfo</label>
+        <link refid="interface_webassistenten__ads__api_1_1_models_1_1_ad_info"/>
+      </node>
+      <node id="215">
+        <label>Webassistenten_ads_api.Models.RealEstateAdInfo</label>
+        <link refid="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info"/>
+        <childnode refid="216" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="218">
+        <label>AdInfo</label>
+        <link refid="interface_webassistenten__ads__api_1_1_models_1_1_ad_info"/>
+      </node>
+      <node id="217">
+        <label>Webassistenten_ads_api.Models.RealEstateAdInfo</label>
+        <link refid="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info"/>
+        <childnode refid="218" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/RealEstateAdInfo.cs" line="10" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/RealEstateAdInfo.cs" bodystart="9" bodyend="158"/>
+    <listofallmembers>
+      <member refid="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1a3c6d78ea51e63460c4bd4d051bbe8aaa" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Models::RealEstateAdInfo</scope><name>Address</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1a46f48fcc496e5aca035877829321d699" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Models::RealEstateAdInfo</scope><name>AdText</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1a35d098f3fc7e702cfd9e9c3c75f9f124" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Models::RealEstateAdInfo</scope><name>AmountSharedDebt</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1a5edddf6c42af8b9ab209d8b1856fe882" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Models::RealEstateAdInfo</scope><name>Area</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1acdabbf5fbd90b14d8f037928374be1cf" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Models::RealEstateAdInfo</scope><name>Bedrooms</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1a42404fa002a54dbe4c7a9c9c7ca5187b" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Models::RealEstateAdInfo</scope><name>Boa</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1acc5d16669d9cd1606f7cf93d9d1ad820" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Models::RealEstateAdInfo</scope><name>BookingDate</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1aeb5f7aa1ee02bb009d248e721714a137" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Models::RealEstateAdInfo</scope><name>Bra</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1a90d82511ded1a80f65fb0728e38ee162" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Models::RealEstateAdInfo</scope><name>Bta</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1a28ac5d69b7f1570513976e7ed34638b4" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Models::RealEstateAdInfo</scope><name>CommonCosts</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1a5f6eb27743949fc0798d9b6a28298deb" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Models::RealEstateAdInfo</scope><name>CommonExpenses</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1aa5efaf2ef6417a031a257cc8c30946e4" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Models::RealEstateAdInfo</scope><name>ConstructionYear</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1ab70075f5b9d6839865492939a5692230" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Models::RealEstateAdInfo</scope><name>ContractNr</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1a8b09e34bf3e2d1cfcd31c9afa3cc9706" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Models::RealEstateAdInfo</scope><name>Costs</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1a4d53b4e307d39954daa698dc5d7f1023" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Models::RealEstateAdInfo</scope><name>FinnCode</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1a0c21b78be11817cdf72c463ad9ab1644" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Models::RealEstateAdInfo</scope><name>Floor</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1aeee7370ba6f1756ed5bf1d22ee11a052" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Models::RealEstateAdInfo</scope><name>Headline</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1ae05117a713b725050f19aa54cc941652" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Models::RealEstateAdInfo</scope><name>Location</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1abc66e6d5091c1e938db35ade01dd46d4" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Models::RealEstateAdInfo</scope><name>OpenHouseDate</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1a3d21ac982e6e160dad2f18e2f536b677" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Models::RealEstateAdInfo</scope><name>OpenHouseText</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1a7e636161da5c6a08d72b38c486671e32" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Models::RealEstateAdInfo</scope><name>P_rom</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1aa172f3eed7c93003bf2db0a07e6e4b94" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Models::RealEstateAdInfo</scope><name>Price</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1a428562efb3f126d76682459e7cabd0fb" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Models::RealEstateAdInfo</scope><name>ProductId</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1a4f67685646d90cf3d95556ce57bd101d" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Models::RealEstateAdInfo</scope><name>PropertyArea</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1a7f4b7cd98cf08fb50f6c249197d7683f" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Models::RealEstateAdInfo</scope><name>PropertyType</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1aaeccebf38394a417f715ecedc5ee6469" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Models::RealEstateAdInfo</scope><name>PurchaseCosts</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1a01d5e3f9ea7bfe35fecdf68a44998f14" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Models::RealEstateAdInfo</scope><name>RealEstAgentEmail</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1a95b4a29c37d0662f1531e4d0765bbdc1" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Models::RealEstateAdInfo</scope><name>RealEstAgentMobile</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1ae0449333c0318e6d8bed1972b41d3360" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Models::RealEstateAdInfo</scope><name>RealEstAgentName</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1a5c8f7f0d3e99fdc36b107e5d33cf56ac" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Models::RealEstateAdInfo</scope><name>RealEstAgentPhone</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1a27a9141ee8e73243715ae4f3306dd536" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Models::RealEstateAdInfo</scope><name>RealEstAgentTitle</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1a93c72a6ea0c5c6c21184d4c448476b45" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Models::RealEstateAdInfo</scope><name>RealEstateAdInfo</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1a4cefd142978bfd5ff7cc1a91a02ea38b" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Models::RealEstateAdInfo</scope><name>RealEstateAdInfo</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1a54f3fcc168ae7bdd7990db928ec27df2" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Models::RealEstateAdInfo</scope><name>RealtorId</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1ac96f741ced56634356dccb49bdfb67f7" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Models::RealEstateAdInfo</scope><name>ResponsibleRealtor</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1acdc547ffdea1dc914306286a8fe3784a" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Models::RealEstateAdInfo</scope><name>Rooms</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1aa1c3b4918cdc01ee402e34e0a1ef5f7e" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Models::RealEstateAdInfo</scope><name>Type</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1a5166cfe22e346184570cf25e790ec7b2" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Models::RealEstateAdInfo</scope><name>ZipArea</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1adcedad71793b51b2e9e16a0b2698d7fb" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Models::RealEstateAdInfo</scope><name>ZipCode</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

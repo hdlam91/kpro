@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="class_webassistenten__ads__api_1_1vw___meglersystem_i_d" kind="class" prot="public">
+    <compoundname>Webassistenten_ads_api::vw_MeglersystemID</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw___meglersystem_i_d_1aba42a140116ad24334dcee92465bc8c0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.vw_MeglersystemID.Partnernavn</definition>
+        <argsstring></argsstring>
+        <name>Partnernavn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vw_MeglersystemID.cs" line="17" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vw_MeglersystemID.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw___meglersystem_i_d_1ad72288b73e39fe528c3384f2c729d5ff" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; byte &gt;</type>
+        <definition>Nullable&lt;byte&gt; Webassistenten_ads_api.vw_MeglersystemID.MeglersystemID</definition>
+        <argsstring></argsstring>
+        <name>MeglersystemID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vw_MeglersystemID.cs" line="18" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vw_MeglersystemID.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vw_MeglersystemID.cs" line="16" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vw_MeglersystemID.cs" bodystart="15" bodyend="19"/>
+    <listofallmembers>
+      <member refid="class_webassistenten__ads__api_1_1vw___meglersystem_i_d_1ad72288b73e39fe528c3384f2c729d5ff" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vw_MeglersystemID</scope><name>MeglersystemID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw___meglersystem_i_d_1aba42a140116ad24334dcee92465bc8c0" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vw_MeglersystemID</scope><name>Partnernavn</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

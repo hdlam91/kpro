@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="dir_7bea60cf5b3994f365c66ac2a69e3013" kind="dir">
+    <compoundname>Areas/HelpPage/Models/</compoundname>
+    <innerfile refid="_help_page_api_model_8cs">HelpPageApiModel.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/Models/"/>
+  </compounddef>
+</doxygen>

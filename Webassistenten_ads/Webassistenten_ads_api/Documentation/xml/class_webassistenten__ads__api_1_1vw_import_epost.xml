@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="class_webassistenten__ads__api_1_1vw_import_epost" kind="class" prot="public">
+    <compoundname>Webassistenten_ads_api::vwImportEpost</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_import_epost_1a42cc4dbad1c146087238947abdc7d721" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.vwImportEpost.Filnavn</definition>
+        <argsstring></argsstring>
+        <name>Filnavn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwImportEpost.cs" line="17" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwImportEpost.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_import_epost_1a13d8f03e4c19f331f33c215abad26081" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>byte</type>
+        <definition>byte Webassistenten_ads_api.vwImportEpost.Status</definition>
+        <argsstring></argsstring>
+        <name>Status</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwImportEpost.cs" line="18" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwImportEpost.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_import_epost_1a9bdfd7edc4576565c2e6eafa883fa181" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>System.DateTime</type>
+        <definition>System.DateTime Webassistenten_ads_api.vwImportEpost.DatoReg</definition>
+        <argsstring></argsstring>
+        <name>DatoReg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwImportEpost.cs" line="19" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwImportEpost.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwImportEpost.cs" line="16" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwImportEpost.cs" bodystart="15" bodyend="20"/>
+    <listofallmembers>
+      <member refid="class_webassistenten__ads__api_1_1vw_import_epost_1a9bdfd7edc4576565c2e6eafa883fa181" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwImportEpost</scope><name>DatoReg</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_import_epost_1a42cc4dbad1c146087238947abdc7d721" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwImportEpost</scope><name>Filnavn</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_import_epost_1a13d8f03e4c19f331f33c215abad26081" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwImportEpost</scope><name>Status</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="class_webassistenten__ads__api_1_1_statistikk" kind="class" prot="public">
+    <compoundname>Webassistenten_ads_api::Statistikk</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_statistikk_1a839a4c974db9f21797a5a1ae54e8736f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>decimal</type>
+        <definition>decimal Webassistenten_ads_api.Statistikk.StatID</definition>
+        <argsstring></argsstring>
+        <name>StatID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Statistikk.cs" line="17" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Statistikk.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_statistikk_1adaf4dc433709e2f3425da9bc5bc6c84f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.Statistikk.BrukerID</definition>
+        <argsstring></argsstring>
+        <name>BrukerID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Statistikk.cs" line="18" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Statistikk.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_statistikk_1ad30e0657d1924204fec692a1e9aa9a31" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; System.DateTime &gt;</type>
+        <definition>Nullable&lt;System.DateTime&gt; Webassistenten_ads_api.Statistikk.RegDato</definition>
+        <argsstring></argsstring>
+        <name>RegDato</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Statistikk.cs" line="19" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Statistikk.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_statistikk_1a73361472cd2c8991acaa2c74294a5c70" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; byte &gt;</type>
+        <definition>Nullable&lt;byte&gt; Webassistenten_ads_api.Statistikk.Type</definition>
+        <argsstring></argsstring>
+        <name>Type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Statistikk.cs" line="20" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Statistikk.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_statistikk_1a9e9dcbb30bc4087519a841c3ac0060df" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; long &gt;</type>
+        <definition>Nullable&lt;long&gt; Webassistenten_ads_api.Statistikk.ProspektID</definition>
+        <argsstring></argsstring>
+        <name>ProspektID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Statistikk.cs" line="21" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Statistikk.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_statistikk_1a00477c0603fcee249af7ec7b1bea69a8" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.Statistikk.Program</definition>
+        <argsstring></argsstring>
+        <name>Program</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Statistikk.cs" line="22" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Statistikk.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Statistikk.cs" line="16" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Statistikk.cs" bodystart="15" bodyend="23"/>
+    <listofallmembers>
+      <member refid="class_webassistenten__ads__api_1_1_statistikk_1adaf4dc433709e2f3425da9bc5bc6c84f" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Statistikk</scope><name>BrukerID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_statistikk_1a00477c0603fcee249af7ec7b1bea69a8" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Statistikk</scope><name>Program</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_statistikk_1a9e9dcbb30bc4087519a841c3ac0060df" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Statistikk</scope><name>ProspektID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_statistikk_1ad30e0657d1924204fec692a1e9aa9a31" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Statistikk</scope><name>RegDato</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_statistikk_1a839a4c974db9f21797a5a1ae54e8736f" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Statistikk</scope><name>StatID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_statistikk_1a73361472cd2c8991acaa2c74294a5c70" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Statistikk</scope><name>Type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

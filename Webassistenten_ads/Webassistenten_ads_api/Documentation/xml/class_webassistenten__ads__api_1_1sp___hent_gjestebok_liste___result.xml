@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="class_webassistenten__ads__api_1_1sp___hent_gjestebok_liste___result" kind="class" prot="public">
+    <compoundname>Webassistenten_ads_api::sp_HentGjestebokListe_Result</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_gjestebok_liste___result_1a72432bc6f5cfefaa2d47c7ef1d1d6691" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Webassistenten_ads_api.sp_HentGjestebokListe_Result.ID</definition>
+        <argsstring></argsstring>
+        <name>ID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentGjestebokListe_Result.cs" line="16" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentGjestebokListe_Result.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_gjestebok_liste___result_1a21200bb93fc384610842d09573dca6de" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; System.DateTime &gt;</type>
+        <definition>Nullable&lt;System.DateTime&gt; Webassistenten_ads_api.sp_HentGjestebokListe_Result.Dato</definition>
+        <argsstring></argsstring>
+        <name>Dato</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentGjestebokListe_Result.cs" line="17" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentGjestebokListe_Result.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_gjestebok_liste___result_1afce0c1a747a6dd43bfafcbbcce8fec6b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_HentGjestebokListe_Result.Navn</definition>
+        <argsstring></argsstring>
+        <name>Navn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentGjestebokListe_Result.cs" line="18" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentGjestebokListe_Result.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_gjestebok_liste___result_1a71d53d89f20127ade604e73b01d7c1de" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_HentGjestebokListe_Result.Epost</definition>
+        <argsstring></argsstring>
+        <name>Epost</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentGjestebokListe_Result.cs" line="19" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentGjestebokListe_Result.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_gjestebok_liste___result_1a6bcfd2f154b7621636dfb819df36967a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_HentGjestebokListe_Result.Melding</definition>
+        <argsstring></argsstring>
+        <name>Melding</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentGjestebokListe_Result.cs" line="20" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentGjestebokListe_Result.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_gjestebok_liste___result_1aff32b788c5c633cd4593e2890843fd11" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; bool &gt;</type>
+        <definition>Nullable&lt;bool&gt; Webassistenten_ads_api.sp_HentGjestebokListe_Result.Aktiv</definition>
+        <argsstring></argsstring>
+        <name>Aktiv</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentGjestebokListe_Result.cs" line="21" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentGjestebokListe_Result.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentGjestebokListe_Result.cs" line="15" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentGjestebokListe_Result.cs" bodystart="14" bodyend="22"/>
+    <listofallmembers>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_gjestebok_liste___result_1aff32b788c5c633cd4593e2890843fd11" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentGjestebokListe_Result</scope><name>Aktiv</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_gjestebok_liste___result_1a21200bb93fc384610842d09573dca6de" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentGjestebokListe_Result</scope><name>Dato</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_gjestebok_liste___result_1a71d53d89f20127ade604e73b01d7c1de" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentGjestebokListe_Result</scope><name>Epost</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_gjestebok_liste___result_1a72432bc6f5cfefaa2d47c7ef1d1d6691" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentGjestebokListe_Result</scope><name>ID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_gjestebok_liste___result_1a6bcfd2f154b7621636dfb819df36967a" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentGjestebokListe_Result</scope><name>Melding</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_gjestebok_liste___result_1afce0c1a747a6dd43bfafcbbcce8fec6b" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentGjestebokListe_Result</scope><name>Navn</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

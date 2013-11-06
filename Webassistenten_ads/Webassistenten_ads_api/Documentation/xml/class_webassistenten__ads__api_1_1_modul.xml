@@ -1,0 +1,213 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="class_webassistenten__ads__api_1_1_modul" kind="class" prot="public">
+    <compoundname>Webassistenten_ads_api::Modul</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_modul_1a66dd2ee29867043071a01b13d3f574b0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Webassistenten_ads_api.Modul.ModulID</definition>
+        <argsstring></argsstring>
+        <name>ModulID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Modul.cs" line="25" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Modul.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_modul_1ac5fc0c4b9e92ccae7c1da028d3929d99" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.Modul.Modulnavn</definition>
+        <argsstring></argsstring>
+        <name>Modulnavn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Modul.cs" line="26" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Modul.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_modul_1ab7df2181c338d6e11a5cf777c42e4f94" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.Modul.Modulkode</definition>
+        <argsstring></argsstring>
+        <name>Modulkode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Modul.cs" line="27" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Modul.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_modul_1a3882b0e1ddf1cd09cd449e68a45a92b1" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.Modul.Modulfilnavn</definition>
+        <argsstring></argsstring>
+        <name>Modulfilnavn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Modul.cs" line="28" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Modul.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_modul_1adc9c5e40aea70a9679d1a4f0cb0bf551" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>decimal</type>
+        <definition>decimal Webassistenten_ads_api.Modul.Modulstørrelse</definition>
+        <argsstring></argsstring>
+        <name>Modulstørrelse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Modul.cs" line="29" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Modul.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_modul_1a979c096f043febc51175ee9c86721a28" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; int &gt;</type>
+        <definition>Nullable&lt;int&gt; Webassistenten_ads_api.Modul.Bredde</definition>
+        <argsstring></argsstring>
+        <name>Bredde</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Modul.cs" line="30" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Modul.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_modul_1a43fa8dc314cce6e9794b8b31dfaea565" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; int &gt;</type>
+        <definition>Nullable&lt;int&gt; Webassistenten_ads_api.Modul.Høyde</definition>
+        <argsstring></argsstring>
+        <name>Høyde</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Modul.cs" line="31" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Modul.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_modul_1a89abb99ff0e6ae067d7841006ff8e669" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.Modul.Mål</definition>
+        <argsstring></argsstring>
+        <name>Mål</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Modul.cs" line="32" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Modul.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_modul_1a411d498849169505a4ab39ce8f7183c5" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>byte</type>
+        <definition>byte Webassistenten_ads_api.Modul.Antallbilder</definition>
+        <argsstring></argsstring>
+        <name>Antallbilder</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Modul.cs" line="33" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Modul.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_modul_1ade515a59b7d9fc59bda8c2fab09e756b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>ICollection&lt; <ref refid="class_webassistenten__ads__api_1_1_modul_ressur" kindref="compound">ModulRessur</ref> &gt;</type>
+        <definition>virtual ICollection&lt;ModulRessur&gt; Webassistenten_ads_api.Modul.ModulRessurs</definition>
+        <argsstring></argsstring>
+        <name>ModulRessurs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Modul.cs" line="35" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Modul.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_modul_1a739050a96f72070080d61a63bd34fc7c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>ICollection&lt; <ref refid="class_webassistenten__ads__api_1_1_modul_standard" kindref="compound">ModulStandard</ref> &gt;</type>
+        <definition>virtual ICollection&lt;ModulStandard&gt; Webassistenten_ads_api.Modul.ModulStandards</definition>
+        <argsstring></argsstring>
+        <name>ModulStandards</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Modul.cs" line="36" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Modul.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_modul_1a9d29ebe81bbada997b99a7c2e210abee" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>ICollection&lt; <ref refid="class_webassistenten__ads__api_1_1_produkt_har_modul" kindref="compound">ProduktHarModul</ref> &gt;</type>
+        <definition>virtual ICollection&lt;ProduktHarModul&gt; Webassistenten_ads_api.Modul.ProduktHarModuls</definition>
+        <argsstring></argsstring>
+        <name>ProduktHarModuls</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Modul.cs" line="37" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Modul.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_modul_1ad85916132ec51d74519e97b10fc06d6b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>ICollection&lt; <ref refid="class_webassistenten__ads__api_1_1_xml_tag" kindref="compound">XmlTag</ref> &gt;</type>
+        <definition>virtual ICollection&lt;XmlTag&gt; Webassistenten_ads_api.Modul.XmlTags</definition>
+        <argsstring></argsstring>
+        <name>XmlTags</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Modul.cs" line="38" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Modul.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_modul_1a2151d290a09ce214b9fc12d668a7b9ef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Webassistenten_ads_api.Modul.Modul</definition>
+        <argsstring>()</argsstring>
+        <name>Modul</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Modul.cs" line="18" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Modul.cs" bodystart="17" bodyend="23"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Modul.cs" line="16" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Modul.cs" bodystart="15" bodyend="39"/>
+    <listofallmembers>
+      <member refid="class_webassistenten__ads__api_1_1_modul_1a411d498849169505a4ab39ce8f7183c5" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Modul</scope><name>Antallbilder</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_modul_1a979c096f043febc51175ee9c86721a28" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Modul</scope><name>Bredde</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_modul_1a43fa8dc314cce6e9794b8b31dfaea565" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Modul</scope><name>Høyde</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_modul_1a2151d290a09ce214b9fc12d668a7b9ef" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Modul</scope><name>Modul</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_modul_1a3882b0e1ddf1cd09cd449e68a45a92b1" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Modul</scope><name>Modulfilnavn</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_modul_1a66dd2ee29867043071a01b13d3f574b0" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Modul</scope><name>ModulID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_modul_1ab7df2181c338d6e11a5cf777c42e4f94" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Modul</scope><name>Modulkode</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_modul_1ac5fc0c4b9e92ccae7c1da028d3929d99" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Modul</scope><name>Modulnavn</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_modul_1ade515a59b7d9fc59bda8c2fab09e756b" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Modul</scope><name>ModulRessurs</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_modul_1a739050a96f72070080d61a63bd34fc7c" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Modul</scope><name>ModulStandards</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_modul_1adc9c5e40aea70a9679d1a4f0cb0bf551" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Modul</scope><name>Modulstørrelse</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_modul_1a89abb99ff0e6ae067d7841006ff8e669" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Modul</scope><name>Mål</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_modul_1a9d29ebe81bbada997b99a7c2e210abee" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Modul</scope><name>ProduktHarModuls</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_modul_1ad85916132ec51d74519e97b10fc06d6b" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Modul</scope><name>XmlTags</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

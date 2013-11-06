@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="class_webassistenten__ads__api_1_1_models_1_1_address" kind="class" prot="public">
+    <compoundname>Webassistenten_ads_api::Models::Address</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_models_1_1_address_1a758766a57e6b44bb744014732d1ea487" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.Models.Address.Streetname</definition>
+        <argsstring></argsstring>
+        <name>Streetname</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/Address.cs" line="10" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/Address.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_models_1_1_address_1a05de2f8d1a25db9654352214754d2cdb" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Webassistenten_ads_api.Models.Address.HouseNumber</definition>
+        <argsstring></argsstring>
+        <name>HouseNumber</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/Address.cs" line="12" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/Address.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/Address.cs" line="9" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/Address.cs" bodystart="8" bodyend="14"/>
+    <listofallmembers>
+      <member refid="class_webassistenten__ads__api_1_1_models_1_1_address_1a05de2f8d1a25db9654352214754d2cdb" prot="private" virt="non-virtual"><scope>Webassistenten_ads_api::Models::Address</scope><name>HouseNumber</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_models_1_1_address_1a758766a57e6b44bb744014732d1ea487" prot="private" virt="non-virtual"><scope>Webassistenten_ads_api::Models::Address</scope><name>Streetname</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="class_webassistenten__ads__api_1_1_prospekt_har_utgivelse" kind="class" prot="public">
+    <compoundname>Webassistenten_ads_api::ProspektHarUtgivelse</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_prospekt_har_utgivelse_1a6be74bd6db216e05a890730bcb26c511" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>long</type>
+        <definition>long Webassistenten_ads_api.ProspektHarUtgivelse.ProspektID</definition>
+        <argsstring></argsstring>
+        <name>ProspektID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/ProspektHarUtgivelse.cs" line="17" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/ProspektHarUtgivelse.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_prospekt_har_utgivelse_1a01029bcf2b1ea9c28a2ce7836738bf6e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>byte</type>
+        <definition>byte Webassistenten_ads_api.ProspektHarUtgivelse.Ukenr</definition>
+        <argsstring></argsstring>
+        <name>Ukenr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/ProspektHarUtgivelse.cs" line="18" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/ProspektHarUtgivelse.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_prospekt_har_utgivelse_1a7245c397339bc9f8dc5cd9abb70ef6d1" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>short</type>
+        <definition>short Webassistenten_ads_api.ProspektHarUtgivelse.År</definition>
+        <argsstring></argsstring>
+        <name>År</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/ProspektHarUtgivelse.cs" line="19" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/ProspektHarUtgivelse.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_prospekt_har_utgivelse_1a34ff0bcbcb8f245571b77297acf89b47" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.ProspektHarUtgivelse.Ordrenr</definition>
+        <argsstring></argsstring>
+        <name>Ordrenr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/ProspektHarUtgivelse.cs" line="20" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/ProspektHarUtgivelse.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_prospekt_har_utgivelse_1ad2cddecfc577bd11ea3fadc58cf07382" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; byte &gt;</type>
+        <definition>Nullable&lt;byte&gt; Webassistenten_ads_api.ProspektHarUtgivelse.Ordrestatus</definition>
+        <argsstring></argsstring>
+        <name>Ordrestatus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/ProspektHarUtgivelse.cs" line="21" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/ProspektHarUtgivelse.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/ProspektHarUtgivelse.cs" line="16" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/ProspektHarUtgivelse.cs" bodystart="15" bodyend="22"/>
+    <listofallmembers>
+      <member refid="class_webassistenten__ads__api_1_1_prospekt_har_utgivelse_1a34ff0bcbcb8f245571b77297acf89b47" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::ProspektHarUtgivelse</scope><name>Ordrenr</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_prospekt_har_utgivelse_1ad2cddecfc577bd11ea3fadc58cf07382" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::ProspektHarUtgivelse</scope><name>Ordrestatus</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_prospekt_har_utgivelse_1a6be74bd6db216e05a890730bcb26c511" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::ProspektHarUtgivelse</scope><name>ProspektID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_prospekt_har_utgivelse_1a01029bcf2b1ea9c28a2ce7836738bf6e" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::ProspektHarUtgivelse</scope><name>Ukenr</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_prospekt_har_utgivelse_1a7245c397339bc9f8dc5cd9abb70ef6d1" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::ProspektHarUtgivelse</scope><name>År</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

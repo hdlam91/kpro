@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="class_webassistenten__ads__api_1_1_import_epost" kind="class" prot="public">
+    <compoundname>Webassistenten_ads_api::ImportEpost</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_import_epost_1a5bbed93b40f6a4736711d456a51fa871" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.ImportEpost.Filnavn</definition>
+        <argsstring></argsstring>
+        <name>Filnavn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/ImportEpost.cs" line="17" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/ImportEpost.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_import_epost_1afa490e4540e3d14f86bcda8b49f19bc4" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>byte</type>
+        <definition>byte Webassistenten_ads_api.ImportEpost.Status</definition>
+        <argsstring></argsstring>
+        <name>Status</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/ImportEpost.cs" line="18" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/ImportEpost.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_import_epost_1a81c7e07223d7ec7319984b9f7657c3af" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>System.DateTime</type>
+        <definition>System.DateTime Webassistenten_ads_api.ImportEpost.DatoReg</definition>
+        <argsstring></argsstring>
+        <name>DatoReg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/ImportEpost.cs" line="19" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/ImportEpost.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/ImportEpost.cs" line="16" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/ImportEpost.cs" bodystart="15" bodyend="20"/>
+    <listofallmembers>
+      <member refid="class_webassistenten__ads__api_1_1_import_epost_1a81c7e07223d7ec7319984b9f7657c3af" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::ImportEpost</scope><name>DatoReg</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_import_epost_1a5bbed93b40f6a4736711d456a51fa871" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::ImportEpost</scope><name>Filnavn</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_import_epost_1afa490e4540e3d14f86bcda8b49f19bc4" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::ImportEpost</scope><name>Status</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

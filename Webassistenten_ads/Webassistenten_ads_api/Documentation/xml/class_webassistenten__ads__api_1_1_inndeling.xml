@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="class_webassistenten__ads__api_1_1_inndeling" kind="class" prot="public">
+    <compoundname>Webassistenten_ads_api::Inndeling</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_inndeling_1ae69cf1c661440fbf621521953dd6fcf0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>byte</type>
+        <definition>byte Webassistenten_ads_api.Inndeling.InndelingID</definition>
+        <argsstring></argsstring>
+        <name>InndelingID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Inndeling.cs" line="17" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Inndeling.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_inndeling_1ace86a80ed9d763521af9612054ae05f6" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.Inndeling.Inndelingnavn</definition>
+        <argsstring></argsstring>
+        <name>Inndelingnavn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Inndeling.cs" line="18" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Inndeling.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_inndeling_1ae24f7def6892449c50204cb907e7a085" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.Inndeling.AnnonseInndelingnavn</definition>
+        <argsstring></argsstring>
+        <name>AnnonseInndelingnavn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Inndeling.cs" line="19" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Inndeling.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Inndeling.cs" line="16" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Inndeling.cs" bodystart="15" bodyend="20"/>
+    <listofallmembers>
+      <member refid="class_webassistenten__ads__api_1_1_inndeling_1ae24f7def6892449c50204cb907e7a085" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Inndeling</scope><name>AnnonseInndelingnavn</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_inndeling_1ae69cf1c661440fbf621521953dd6fcf0" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Inndeling</scope><name>InndelingID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_inndeling_1ace86a80ed9d763521af9612054ae05f6" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Inndeling</scope><name>Inndelingnavn</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

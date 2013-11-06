@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="class_webassistenten__ads__api_1_1_produkt_har_modul" kind="class" prot="public">
+    <compoundname>Webassistenten_ads_api::ProduktHarModul</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_produkt_har_modul_1a19d2aed6bfda5fabffc83e953f6b6ce1" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>byte</type>
+        <definition>byte Webassistenten_ads_api.ProduktHarModul.PartnerID</definition>
+        <argsstring></argsstring>
+        <name>PartnerID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/ProduktHarModul.cs" line="17" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/ProduktHarModul.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_produkt_har_modul_1ad3e7f22a57bf98be5dfde53f5561ac0e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>byte</type>
+        <definition>byte Webassistenten_ads_api.ProduktHarModul.ProduktID</definition>
+        <argsstring></argsstring>
+        <name>ProduktID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/ProduktHarModul.cs" line="18" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/ProduktHarModul.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_produkt_har_modul_1ad8334414c6eea455af97e5103c76619e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Webassistenten_ads_api.ProduktHarModul.ModulID</definition>
+        <argsstring></argsstring>
+        <name>ModulID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/ProduktHarModul.cs" line="19" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/ProduktHarModul.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_produkt_har_modul_1aebef1eebb0a57f8b4f761c59d3e3b53f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; bool &gt;</type>
+        <definition>Nullable&lt;bool&gt; Webassistenten_ads_api.ProduktHarModul.Aktiv</definition>
+        <argsstring></argsstring>
+        <name>Aktiv</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/ProduktHarModul.cs" line="20" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/ProduktHarModul.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_produkt_har_modul_1a26253e6e7a2a24f1d3c82d204fefe326" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_webassistenten__ads__api_1_1_modul" kindref="compound">Modul</ref></type>
+        <definition>virtual Modul Webassistenten_ads_api.ProduktHarModul.Modul</definition>
+        <argsstring></argsstring>
+        <name>Modul</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/ProduktHarModul.cs" line="22" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/ProduktHarModul.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_produkt_har_modul_1af1691f91d427c13a1d25e78ad5d4c6ef" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_webassistenten__ads__api_1_1_partner" kindref="compound">Partner</ref></type>
+        <definition>virtual Partner Webassistenten_ads_api.ProduktHarModul.Partner</definition>
+        <argsstring></argsstring>
+        <name>Partner</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/ProduktHarModul.cs" line="23" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/ProduktHarModul.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_produkt_har_modul_1aa73c56a44b2ad1fa13e21769227bc3dc" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_webassistenten__ads__api_1_1_produkt" kindref="compound">Produkt</ref></type>
+        <definition>virtual Produkt Webassistenten_ads_api.ProduktHarModul.Produkt</definition>
+        <argsstring></argsstring>
+        <name>Produkt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/ProduktHarModul.cs" line="24" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/ProduktHarModul.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/ProduktHarModul.cs" line="16" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/ProduktHarModul.cs" bodystart="15" bodyend="25"/>
+    <listofallmembers>
+      <member refid="class_webassistenten__ads__api_1_1_produkt_har_modul_1aebef1eebb0a57f8b4f761c59d3e3b53f" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::ProduktHarModul</scope><name>Aktiv</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_produkt_har_modul_1a26253e6e7a2a24f1d3c82d204fefe326" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::ProduktHarModul</scope><name>Modul</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_produkt_har_modul_1ad8334414c6eea455af97e5103c76619e" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::ProduktHarModul</scope><name>ModulID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_produkt_har_modul_1af1691f91d427c13a1d25e78ad5d4c6ef" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::ProduktHarModul</scope><name>Partner</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_produkt_har_modul_1a19d2aed6bfda5fabffc83e953f6b6ce1" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::ProduktHarModul</scope><name>PartnerID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_produkt_har_modul_1aa73c56a44b2ad1fa13e21769227bc3dc" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::ProduktHarModul</scope><name>Produkt</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_produkt_har_modul_1ad3e7f22a57bf98be5dfde53f5561ac0e" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::ProduktHarModul</scope><name>ProduktID</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

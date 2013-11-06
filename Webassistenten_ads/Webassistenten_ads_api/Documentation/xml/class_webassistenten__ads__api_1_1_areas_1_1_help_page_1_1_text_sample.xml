@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_text_sample" kind="class" prot="public">
+    <compoundname>Webassistenten_ads_api::Areas::HelpPage::TextSample</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_text_sample_1aa04541ae733d50454470bb82a8255434" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.Areas.HelpPage.TextSample.Text</definition>
+        <argsstring></argsstring>
+        <name>Text</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/TextSample.cs" line="19" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/TextSample.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_text_sample_1a700e44b384078c4bcb2658964271b59e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Webassistenten_ads_api.Areas.HelpPage.TextSample.TextSample</definition>
+        <argsstring>(string text)</argsstring>
+        <name>TextSample</name>
+        <param>
+          <type>string</type>
+          <declname>text</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/TextSample.cs" line="11" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/TextSample.cs" bodystart="10" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_text_sample_1a577b46b35736d5204a744ecc032f40b8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool Webassistenten_ads_api.Areas.HelpPage.TextSample.Equals</definition>
+        <argsstring>(object obj)</argsstring>
+        <name>Equals</name>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/TextSample.cs" line="22" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/TextSample.cs" bodystart="21" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_text_sample_1a7c32022e2f8d4a8fd42c69d7ad7925f2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override int</type>
+        <definition>override int Webassistenten_ads_api.Areas.HelpPage.TextSample.GetHashCode</definition>
+        <argsstring>()</argsstring>
+        <name>GetHashCode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/TextSample.cs" line="28" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/TextSample.cs" bodystart="27" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_text_sample_1adaaf799aea65836d88d83282634465fb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string Webassistenten_ads_api.Areas.HelpPage.TextSample.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/TextSample.cs" line="33" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/TextSample.cs" bodystart="32" bodyend="35"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This represents a preformatted text sample on the help page. There&apos;s a display template named <ref refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_text_sample" kindref="compound">TextSample</ref> associated with this class. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/TextSample.cs" line="9" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/TextSample.cs" bodystart="8" bodyend="36"/>
+    <listofallmembers>
+      <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_text_sample_1a577b46b35736d5204a744ecc032f40b8" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Areas::HelpPage::TextSample</scope><name>Equals</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_text_sample_1a7c32022e2f8d4a8fd42c69d7ad7925f2" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Areas::HelpPage::TextSample</scope><name>GetHashCode</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_text_sample_1aa04541ae733d50454470bb82a8255434" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Areas::HelpPage::TextSample</scope><name>Text</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_text_sample_1a700e44b384078c4bcb2658964271b59e" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Areas::HelpPage::TextSample</scope><name>TextSample</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_text_sample_1adaaf799aea65836d88d83282634465fb" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Areas::HelpPage::TextSample</scope><name>ToString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

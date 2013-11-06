@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="class_webassistenten__ads__api_1_1vw_brukere___bildefil" kind="class" prot="public">
+    <compoundname>Webassistenten_ads_api::vwBrukere_Bildefil</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_brukere___bildefil_1a9449484faaaa2c24ef7741146fd8b49d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Webassistenten_ads_api.vwBrukere_Bildefil.BrukerID</definition>
+        <argsstring></argsstring>
+        <name>BrukerID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBrukere_Bildefil.cs" line="17" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBrukere_Bildefil.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_brukere___bildefil_1aa7ea5e98a98255c372d12dcda56eb811" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.vwBrukere_Bildefil.Navn</definition>
+        <argsstring></argsstring>
+        <name>Navn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBrukere_Bildefil.cs" line="18" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBrukere_Bildefil.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_brukere___bildefil_1a9568cddba1ead5f17b96843ef6170acc" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.vwBrukere_Bildefil.Bildefil</definition>
+        <argsstring></argsstring>
+        <name>Bildefil</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBrukere_Bildefil.cs" line="19" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBrukere_Bildefil.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBrukere_Bildefil.cs" line="16" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBrukere_Bildefil.cs" bodystart="15" bodyend="20"/>
+    <listofallmembers>
+      <member refid="class_webassistenten__ads__api_1_1vw_brukere___bildefil_1a9568cddba1ead5f17b96843ef6170acc" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwBrukere_Bildefil</scope><name>Bildefil</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_brukere___bildefil_1a9449484faaaa2c24ef7741146fd8b49d" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwBrukere_Bildefil</scope><name>BrukerID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_brukere___bildefil_1aa7ea5e98a98255c372d12dcda56eb811" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwBrukere_Bildefil</scope><name>Navn</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,4 @@
+var namespace_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_models =
+[
+    [ "HelpPageApiModel", "class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_models_1_1_help_page_api_model.html", "class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_models_1_1_help_page_api_model" ]
+];

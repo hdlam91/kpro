@@ -1,0 +1,197 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="class_webassistenten__ads__api_1_1_produkt_har_annonse" kind="class" prot="public">
+    <compoundname>Webassistenten_ads_api::ProduktHarAnnonse</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_produkt_har_annonse_1a96eaa8bccc8025ea646adb84e5a826e6" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Webassistenten_ads_api.ProduktHarAnnonse.AnnonseID</definition>
+        <argsstring></argsstring>
+        <name>AnnonseID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/ProduktHarAnnonse.cs" line="17" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/ProduktHarAnnonse.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_produkt_har_annonse_1a7028c8e82a07f51b005a350c2ad8d4f9" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>byte</type>
+        <definition>byte Webassistenten_ads_api.ProduktHarAnnonse.ProduktID</definition>
+        <argsstring></argsstring>
+        <name>ProduktID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/ProduktHarAnnonse.cs" line="18" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/ProduktHarAnnonse.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_produkt_har_annonse_1a922a9d3b3f3f71f49cd44dddb800b34c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; System.DateTime &gt;</type>
+        <definition>Nullable&lt;System.DateTime&gt; Webassistenten_ads_api.ProduktHarAnnonse.DatoUtgivelse</definition>
+        <argsstring></argsstring>
+        <name>DatoUtgivelse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/ProduktHarAnnonse.cs" line="19" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/ProduktHarAnnonse.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_produkt_har_annonse_1a2d85374c74269eaab44728c4ff3d67f3" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Webassistenten_ads_api.ProduktHarAnnonse.Kategori</definition>
+        <argsstring></argsstring>
+        <name>Kategori</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/ProduktHarAnnonse.cs" line="20" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/ProduktHarAnnonse.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_produkt_har_annonse_1a997846592d1fe6e8e29ad2c36e7f5e10" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Webassistenten_ads_api.ProduktHarAnnonse.Bredde</definition>
+        <argsstring></argsstring>
+        <name>Bredde</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/ProduktHarAnnonse.cs" line="21" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/ProduktHarAnnonse.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_produkt_har_annonse_1ac02f20f9a2c8787eb3ff2fd32238168c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Webassistenten_ads_api.ProduktHarAnnonse.Høyde</definition>
+        <argsstring></argsstring>
+        <name>Høyde</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/ProduktHarAnnonse.cs" line="22" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/ProduktHarAnnonse.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_produkt_har_annonse_1ade81b1a0ac1a299b937a2be7cc8def0d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.ProduktHarAnnonse.Filnavn</definition>
+        <argsstring></argsstring>
+        <name>Filnavn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/ProduktHarAnnonse.cs" line="23" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/ProduktHarAnnonse.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_produkt_har_annonse_1a7835ba80d2c781bcf03522f95249d97f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.ProduktHarAnnonse.Beskrivelse</definition>
+        <argsstring></argsstring>
+        <name>Beskrivelse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/ProduktHarAnnonse.cs" line="24" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/ProduktHarAnnonse.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_produkt_har_annonse_1a4d10e7a88cc9cbca229faa72244fb91f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Webassistenten_ads_api.ProduktHarAnnonse.Aktiv</definition>
+        <argsstring></argsstring>
+        <name>Aktiv</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/ProduktHarAnnonse.cs" line="25" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/ProduktHarAnnonse.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_produkt_har_annonse_1ab72eb1e4c508a71c7473e7d635a59623" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Webassistenten_ads_api.ProduktHarAnnonse.Dirty</definition>
+        <argsstring></argsstring>
+        <name>Dirty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/ProduktHarAnnonse.cs" line="26" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/ProduktHarAnnonse.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_produkt_har_annonse_1a4fc29b3c8f366cd427dfd67fa1463af5" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Webassistenten_ads_api.ProduktHarAnnonse.HasErrors</definition>
+        <argsstring></argsstring>
+        <name>HasErrors</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/ProduktHarAnnonse.cs" line="27" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/ProduktHarAnnonse.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_produkt_har_annonse_1a2d611a3c0ac6712d51d010f041a0dc9b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>System.DateTime</type>
+        <definition>System.DateTime Webassistenten_ads_api.ProduktHarAnnonse.DateModified</definition>
+        <argsstring></argsstring>
+        <name>DateModified</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/ProduktHarAnnonse.cs" line="28" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/ProduktHarAnnonse.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_produkt_har_annonse_1af5373f527d8fc446a83eadf1d8094575" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_webassistenten__ads__api_1_1_produkt" kindref="compound">Produkt</ref></type>
+        <definition>virtual Produkt Webassistenten_ads_api.ProduktHarAnnonse.Produkt</definition>
+        <argsstring></argsstring>
+        <name>Produkt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/ProduktHarAnnonse.cs" line="30" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/ProduktHarAnnonse.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/ProduktHarAnnonse.cs" line="16" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/ProduktHarAnnonse.cs" bodystart="15" bodyend="31"/>
+    <listofallmembers>
+      <member refid="class_webassistenten__ads__api_1_1_produkt_har_annonse_1a4d10e7a88cc9cbca229faa72244fb91f" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::ProduktHarAnnonse</scope><name>Aktiv</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_produkt_har_annonse_1a96eaa8bccc8025ea646adb84e5a826e6" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::ProduktHarAnnonse</scope><name>AnnonseID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_produkt_har_annonse_1a7835ba80d2c781bcf03522f95249d97f" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::ProduktHarAnnonse</scope><name>Beskrivelse</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_produkt_har_annonse_1a997846592d1fe6e8e29ad2c36e7f5e10" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::ProduktHarAnnonse</scope><name>Bredde</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_produkt_har_annonse_1a2d611a3c0ac6712d51d010f041a0dc9b" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::ProduktHarAnnonse</scope><name>DateModified</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_produkt_har_annonse_1a922a9d3b3f3f71f49cd44dddb800b34c" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::ProduktHarAnnonse</scope><name>DatoUtgivelse</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_produkt_har_annonse_1ab72eb1e4c508a71c7473e7d635a59623" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::ProduktHarAnnonse</scope><name>Dirty</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_produkt_har_annonse_1ade81b1a0ac1a299b937a2be7cc8def0d" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::ProduktHarAnnonse</scope><name>Filnavn</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_produkt_har_annonse_1a4fc29b3c8f366cd427dfd67fa1463af5" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::ProduktHarAnnonse</scope><name>HasErrors</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_produkt_har_annonse_1ac02f20f9a2c8787eb3ff2fd32238168c" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::ProduktHarAnnonse</scope><name>Høyde</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_produkt_har_annonse_1a2d85374c74269eaab44728c4ff3d67f3" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::ProduktHarAnnonse</scope><name>Kategori</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_produkt_har_annonse_1af5373f527d8fc446a83eadf1d8094575" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::ProduktHarAnnonse</scope><name>Produkt</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_produkt_har_annonse_1a7028c8e82a07f51b005a350c2ad8d4f9" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::ProduktHarAnnonse</scope><name>ProduktID</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

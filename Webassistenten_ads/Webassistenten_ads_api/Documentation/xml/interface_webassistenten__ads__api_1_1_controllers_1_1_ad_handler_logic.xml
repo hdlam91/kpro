@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="interface_webassistenten__ads__api_1_1_controllers_1_1_ad_handler_logic" kind="interface" prot="public">
+    <compoundname>Webassistenten_ads_api::Controllers::AdHandlerLogic</compoundname>
+    <derivedcompoundref refid="class_webassistenten__ads__api_1_1_controllers_1_1_real_estate_ad_handler_logic" prot="public" virt="non-virtual">Webassistenten_ads_api.Controllers.RealEstateAdHandlerLogic</derivedcompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="3">
+        <label>Webassistenten_ads_api.Controllers.RealEstateAdHandlerLogic</label>
+        <link refid="class_webassistenten__ads__api_1_1_controllers_1_1_real_estate_ad_handler_logic"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Webassistenten_ads_api.Controllers.AdHandlerLogic</label>
+        <link refid="interface_webassistenten__ads__api_1_1_controllers_1_1_ad_handler_logic"/>
+      </node>
+    </inheritancegraph>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/AdHandlerLogic.cs" line="10" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/AdHandlerLogic.cs" bodystart="9" bodyend="11"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

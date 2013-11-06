@@ -1,0 +1,337 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="class_webassistenten__ads__api_1_1sp___hent_megler_system_info___result" kind="class" prot="public">
+    <compoundname>Webassistenten_ads_api::sp_HentMeglerSystemInfo_Result</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_megler_system_info___result_1a45cd17520c3f7a4e4c72228af6af65a7" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>byte</type>
+        <definition>byte Webassistenten_ads_api.sp_HentMeglerSystemInfo_Result.PartnerID</definition>
+        <argsstring></argsstring>
+        <name>PartnerID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentMeglerSystemInfo_Result.cs" line="16" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentMeglerSystemInfo_Result.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_megler_system_info___result_1a01b1ea26187b3311b6c2d92c0fed5cf8" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_HentMeglerSystemInfo_Result.Partnernavn</definition>
+        <argsstring></argsstring>
+        <name>Partnernavn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentMeglerSystemInfo_Result.cs" line="17" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentMeglerSystemInfo_Result.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_megler_system_info___result_1aff59e4d886de113fa6e7de405a152518" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_HentMeglerSystemInfo_Result.Kortnavn</definition>
+        <argsstring></argsstring>
+        <name>Kortnavn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentMeglerSystemInfo_Result.cs" line="18" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentMeglerSystemInfo_Result.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_megler_system_info___result_1a54cb44f3dceed93f325a0a19c491463c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; byte &gt;</type>
+        <definition>Nullable&lt;byte&gt; Webassistenten_ads_api.sp_HentMeglerSystemInfo_Result.StedID</definition>
+        <argsstring></argsstring>
+        <name>StedID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentMeglerSystemInfo_Result.cs" line="19" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentMeglerSystemInfo_Result.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_megler_system_info___result_1a3f8a260dd3b5a9ac176efafc523dbd6f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_HentMeglerSystemInfo_Result.Katalog</definition>
+        <argsstring></argsstring>
+        <name>Katalog</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentMeglerSystemInfo_Result.cs" line="20" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentMeglerSystemInfo_Result.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_megler_system_info___result_1a71b6c99ce006c376d95fe6724c54726b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_HentMeglerSystemInfo_Result.KundeID</definition>
+        <argsstring></argsstring>
+        <name>KundeID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentMeglerSystemInfo_Result.cs" line="21" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentMeglerSystemInfo_Result.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_megler_system_info___result_1a05f1838b33f6d2b3f1c26f901afcd56f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; bool &gt;</type>
+        <definition>Nullable&lt;bool&gt; Webassistenten_ads_api.sp_HentMeglerSystemInfo_Result.PDFGodkjenning</definition>
+        <argsstring></argsstring>
+        <name>PDFGodkjenning</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentMeglerSystemInfo_Result.cs" line="22" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentMeglerSystemInfo_Result.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_megler_system_info___result_1a289548e5239afbb9bfe5a9b6372a0e21" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_HentMeglerSystemInfo_Result.OrdrenrSuffix</definition>
+        <argsstring></argsstring>
+        <name>OrdrenrSuffix</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentMeglerSystemInfo_Result.cs" line="23" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentMeglerSystemInfo_Result.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_megler_system_info___result_1a3cd04431d781b17f713456c317f0a75b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_HentMeglerSystemInfo_Result.EpostKundeansvarlig</definition>
+        <argsstring></argsstring>
+        <name>EpostKundeansvarlig</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentMeglerSystemInfo_Result.cs" line="24" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentMeglerSystemInfo_Result.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_megler_system_info___result_1a67b9364abf58726dc0c04f0510de1564" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_HentMeglerSystemInfo_Result.Logonavn</definition>
+        <argsstring></argsstring>
+        <name>Logonavn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentMeglerSystemInfo_Result.cs" line="25" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentMeglerSystemInfo_Result.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_megler_system_info___result_1a938f50cda9e5189527dcdd604b6a6f35" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_HentMeglerSystemInfo_Result.Logo</definition>
+        <argsstring></argsstring>
+        <name>Logo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentMeglerSystemInfo_Result.cs" line="26" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentMeglerSystemInfo_Result.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_megler_system_info___result_1a2164808e7c73efef2d49adf5c144d030" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_HentMeglerSystemInfo_Result.PanoramaIkon</definition>
+        <argsstring></argsstring>
+        <name>PanoramaIkon</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentMeglerSystemInfo_Result.cs" line="27" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentMeglerSystemInfo_Result.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_megler_system_info___result_1af0dd15a0e128ffd150045f44cc4ec868" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; byte &gt;</type>
+        <definition>Nullable&lt;byte&gt; Webassistenten_ads_api.sp_HentMeglerSystemInfo_Result.MeglersystemID</definition>
+        <argsstring></argsstring>
+        <name>MeglersystemID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentMeglerSystemInfo_Result.cs" line="28" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentMeglerSystemInfo_Result.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_megler_system_info___result_1a6b77ea7709673437d5ec602b2a6144ac" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_HentMeglerSystemInfo_Result.MeglersystemBrukernavn</definition>
+        <argsstring></argsstring>
+        <name>MeglersystemBrukernavn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentMeglerSystemInfo_Result.cs" line="29" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentMeglerSystemInfo_Result.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_megler_system_info___result_1a1a9f7b6e77461be126267f62af62369e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_HentMeglerSystemInfo_Result.MeglersystemPassord</definition>
+        <argsstring></argsstring>
+        <name>MeglersystemPassord</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentMeglerSystemInfo_Result.cs" line="30" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentMeglerSystemInfo_Result.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_megler_system_info___result_1a56942319891e9caf4f2cecacd9cc56bf" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; bool &gt;</type>
+        <definition>Nullable&lt;bool&gt; Webassistenten_ads_api.sp_HentMeglerSystemInfo_Result.Bildepakke</definition>
+        <argsstring></argsstring>
+        <name>Bildepakke</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentMeglerSystemInfo_Result.cs" line="31" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentMeglerSystemInfo_Result.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_megler_system_info___result_1a9ec569e53d8b0bf9d058df1ecd05635b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; bool &gt;</type>
+        <definition>Nullable&lt;bool&gt; Webassistenten_ads_api.sp_HentMeglerSystemInfo_Result.Bildevedlegg</definition>
+        <argsstring></argsstring>
+        <name>Bildevedlegg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentMeglerSystemInfo_Result.cs" line="32" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentMeglerSystemInfo_Result.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_megler_system_info___result_1a85dc0b9fcc6bc99d0c09e61d8107d5b2" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; bool &gt;</type>
+        <definition>Nullable&lt;bool&gt; Webassistenten_ads_api.sp_HentMeglerSystemInfo_Result.Bilderedusert</definition>
+        <argsstring></argsstring>
+        <name>Bilderedusert</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentMeglerSystemInfo_Result.cs" line="33" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentMeglerSystemInfo_Result.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_megler_system_info___result_1a22fbc98c53423e2808afb6da0157c343" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_HentMeglerSystemInfo_Result.FinnPartnerID</definition>
+        <argsstring></argsstring>
+        <name>FinnPartnerID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentMeglerSystemInfo_Result.cs" line="34" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentMeglerSystemInfo_Result.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_megler_system_info___result_1ab10762ecb5117b81978027488abcdc35" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; bool &gt;</type>
+        <definition>Nullable&lt;bool&gt; Webassistenten_ads_api.sp_HentMeglerSystemInfo_Result.FotoKunde</definition>
+        <argsstring></argsstring>
+        <name>FotoKunde</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentMeglerSystemInfo_Result.cs" line="35" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentMeglerSystemInfo_Result.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_megler_system_info___result_1aa0c25a31b1ccdb284e0ecee21411505a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; bool &gt;</type>
+        <definition>Nullable&lt;bool&gt; Webassistenten_ads_api.sp_HentMeglerSystemInfo_Result.UseEditor</definition>
+        <argsstring></argsstring>
+        <name>UseEditor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentMeglerSystemInfo_Result.cs" line="36" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentMeglerSystemInfo_Result.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_megler_system_info___result_1a57eafbd8d9e2a5f6c9d2c1b6a477cd7c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Webassistenten_ads_api.sp_HentMeglerSystemInfo_Result.UseTextEdit</definition>
+        <argsstring></argsstring>
+        <name>UseTextEdit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentMeglerSystemInfo_Result.cs" line="37" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentMeglerSystemInfo_Result.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_megler_system_info___result_1aa3f792051167ea8f4d831cde9287a5dd" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_HentMeglerSystemInfo_Result.MeglersystemKontorID</definition>
+        <argsstring></argsstring>
+        <name>MeglersystemKontorID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentMeglerSystemInfo_Result.cs" line="38" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentMeglerSystemInfo_Result.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentMeglerSystemInfo_Result.cs" line="15" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentMeglerSystemInfo_Result.cs" bodystart="14" bodyend="39"/>
+    <listofallmembers>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_megler_system_info___result_1a56942319891e9caf4f2cecacd9cc56bf" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentMeglerSystemInfo_Result</scope><name>Bildepakke</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_megler_system_info___result_1a85dc0b9fcc6bc99d0c09e61d8107d5b2" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentMeglerSystemInfo_Result</scope><name>Bilderedusert</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_megler_system_info___result_1a9ec569e53d8b0bf9d058df1ecd05635b" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentMeglerSystemInfo_Result</scope><name>Bildevedlegg</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_megler_system_info___result_1a3cd04431d781b17f713456c317f0a75b" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentMeglerSystemInfo_Result</scope><name>EpostKundeansvarlig</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_megler_system_info___result_1a22fbc98c53423e2808afb6da0157c343" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentMeglerSystemInfo_Result</scope><name>FinnPartnerID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_megler_system_info___result_1ab10762ecb5117b81978027488abcdc35" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentMeglerSystemInfo_Result</scope><name>FotoKunde</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_megler_system_info___result_1a3f8a260dd3b5a9ac176efafc523dbd6f" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentMeglerSystemInfo_Result</scope><name>Katalog</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_megler_system_info___result_1aff59e4d886de113fa6e7de405a152518" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentMeglerSystemInfo_Result</scope><name>Kortnavn</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_megler_system_info___result_1a71b6c99ce006c376d95fe6724c54726b" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentMeglerSystemInfo_Result</scope><name>KundeID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_megler_system_info___result_1a938f50cda9e5189527dcdd604b6a6f35" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentMeglerSystemInfo_Result</scope><name>Logo</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_megler_system_info___result_1a67b9364abf58726dc0c04f0510de1564" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentMeglerSystemInfo_Result</scope><name>Logonavn</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_megler_system_info___result_1a6b77ea7709673437d5ec602b2a6144ac" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentMeglerSystemInfo_Result</scope><name>MeglersystemBrukernavn</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_megler_system_info___result_1af0dd15a0e128ffd150045f44cc4ec868" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentMeglerSystemInfo_Result</scope><name>MeglersystemID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_megler_system_info___result_1aa3f792051167ea8f4d831cde9287a5dd" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentMeglerSystemInfo_Result</scope><name>MeglersystemKontorID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_megler_system_info___result_1a1a9f7b6e77461be126267f62af62369e" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentMeglerSystemInfo_Result</scope><name>MeglersystemPassord</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_megler_system_info___result_1a289548e5239afbb9bfe5a9b6372a0e21" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentMeglerSystemInfo_Result</scope><name>OrdrenrSuffix</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_megler_system_info___result_1a2164808e7c73efef2d49adf5c144d030" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentMeglerSystemInfo_Result</scope><name>PanoramaIkon</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_megler_system_info___result_1a45cd17520c3f7a4e4c72228af6af65a7" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentMeglerSystemInfo_Result</scope><name>PartnerID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_megler_system_info___result_1a01b1ea26187b3311b6c2d92c0fed5cf8" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentMeglerSystemInfo_Result</scope><name>Partnernavn</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_megler_system_info___result_1a05f1838b33f6d2b3f1c26f901afcd56f" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentMeglerSystemInfo_Result</scope><name>PDFGodkjenning</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_megler_system_info___result_1a54cb44f3dceed93f325a0a19c491463c" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentMeglerSystemInfo_Result</scope><name>StedID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_megler_system_info___result_1aa0c25a31b1ccdb284e0ecee21411505a" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentMeglerSystemInfo_Result</scope><name>UseEditor</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_megler_system_info___result_1a57eafbd8d9e2a5f6c9d2c1b6a477cd7c" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentMeglerSystemInfo_Result</scope><name>UseTextEdit</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="class_webassistenten__ads__api_1_1_oppdrag_har_tjenestetype" kind="class" prot="public">
+    <compoundname>Webassistenten_ads_api::OppdragHarTjenestetype</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_oppdrag_har_tjenestetype_1a79532730c67810010f04f1e23afaf432" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>long</type>
+        <definition>long Webassistenten_ads_api.OppdragHarTjenestetype.OppdragID</definition>
+        <argsstring></argsstring>
+        <name>OppdragID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/OppdragHarTjenestetype.cs" line="17" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/OppdragHarTjenestetype.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_oppdrag_har_tjenestetype_1add293dbafaa7dbb1ad8f06f8f29425db" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Webassistenten_ads_api.OppdragHarTjenestetype.TjenesteTypeID</definition>
+        <argsstring></argsstring>
+        <name>TjenesteTypeID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/OppdragHarTjenestetype.cs" line="18" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/OppdragHarTjenestetype.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/OppdragHarTjenestetype.cs" line="16" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/OppdragHarTjenestetype.cs" bodystart="15" bodyend="19"/>
+    <listofallmembers>
+      <member refid="class_webassistenten__ads__api_1_1_oppdrag_har_tjenestetype_1a79532730c67810010f04f1e23afaf432" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::OppdragHarTjenestetype</scope><name>OppdragID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_oppdrag_har_tjenestetype_1add293dbafaa7dbb1ad8f06f8f29425db" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::OppdragHarTjenestetype</scope><name>TjenesteTypeID</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

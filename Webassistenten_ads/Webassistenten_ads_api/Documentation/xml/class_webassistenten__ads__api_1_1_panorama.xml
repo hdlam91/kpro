@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="class_webassistenten__ads__api_1_1_panorama" kind="class" prot="public">
+    <compoundname>Webassistenten_ads_api::Panorama</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_panorama_1a9c883d9633324f5b3f73c9e6a8fe7e77" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>long</type>
+        <definition>long Webassistenten_ads_api.Panorama.PanoramaID</definition>
+        <argsstring></argsstring>
+        <name>PanoramaID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Panorama.cs" line="17" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Panorama.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_panorama_1adb737120dac87d2976ec459819ffb86f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; long &gt;</type>
+        <definition>Nullable&lt;long&gt; Webassistenten_ads_api.Panorama.ProspektID</definition>
+        <argsstring></argsstring>
+        <name>ProspektID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Panorama.cs" line="18" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Panorama.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_panorama_1ae44490dd7dfd734d3619af645529476d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.Panorama.Panoramanavn</definition>
+        <argsstring></argsstring>
+        <name>Panoramanavn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Panorama.cs" line="19" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Panorama.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_panorama_1aea4ae98cdf50c53ffec2f1cc5ed9165f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.Panorama.Panoramatekst</definition>
+        <argsstring></argsstring>
+        <name>Panoramatekst</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Panorama.cs" line="20" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Panorama.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_panorama_1ab74a7322b1e05b3f786233194d6f0830" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; byte &gt;</type>
+        <definition>Nullable&lt;byte&gt; Webassistenten_ads_api.Panorama.Sortering</definition>
+        <argsstring></argsstring>
+        <name>Sortering</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Panorama.cs" line="21" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Panorama.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_panorama_1a4782470e3ef0c7cc89f553e212c267f1" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; System.DateTime &gt;</type>
+        <definition>Nullable&lt;System.DateTime&gt; Webassistenten_ads_api.Panorama.DatoReg</definition>
+        <argsstring></argsstring>
+        <name>DatoReg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Panorama.cs" line="22" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Panorama.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Panorama.cs" line="16" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Panorama.cs" bodystart="15" bodyend="23"/>
+    <listofallmembers>
+      <member refid="class_webassistenten__ads__api_1_1_panorama_1a4782470e3ef0c7cc89f553e212c267f1" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Panorama</scope><name>DatoReg</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_panorama_1a9c883d9633324f5b3f73c9e6a8fe7e77" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Panorama</scope><name>PanoramaID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_panorama_1ae44490dd7dfd734d3619af645529476d" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Panorama</scope><name>Panoramanavn</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_panorama_1aea4ae98cdf50c53ffec2f1cc5ed9165f" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Panorama</scope><name>Panoramatekst</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_panorama_1adb737120dac87d2976ec459819ffb86f" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Panorama</scope><name>ProspektID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_panorama_1ab74a7322b1e05b3f786233194d6f0830" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Panorama</scope><name>Sortering</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

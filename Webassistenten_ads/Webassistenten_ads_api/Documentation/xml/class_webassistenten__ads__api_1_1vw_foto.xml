@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="class_webassistenten__ads__api_1_1vw_foto" kind="class" prot="public">
+    <compoundname>Webassistenten_ads_api::vwFoto</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_foto_1a86d8a459dfa5d54f5ab0486622f724d9" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>long</type>
+        <definition>long Webassistenten_ads_api.vwFoto.FotoID</definition>
+        <argsstring></argsstring>
+        <name>FotoID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwFoto.cs" line="17" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwFoto.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_foto_1a97eea51b949531178569f5df492ac659" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>long</type>
+        <definition>long Webassistenten_ads_api.vwFoto.FotooppdragID</definition>
+        <argsstring></argsstring>
+        <name>FotooppdragID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwFoto.cs" line="18" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwFoto.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_foto_1a4cb19ec61163938d3e34f1b7dbfb79e2" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.vwFoto.Bildenavn</definition>
+        <argsstring></argsstring>
+        <name>Bildenavn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwFoto.cs" line="19" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwFoto.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_foto_1ac0b780862127c11dd0ce081ef7fe1e15" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.vwFoto.Bildetekst</definition>
+        <argsstring></argsstring>
+        <name>Bildetekst</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwFoto.cs" line="20" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwFoto.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_foto_1a5e0320bd3dd1481efe6633a1b8ac96a1" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.vwFoto.Bildetype</definition>
+        <argsstring></argsstring>
+        <name>Bildetype</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwFoto.cs" line="21" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwFoto.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_foto_1a788f6668c2c870c4c7e7df02f7e36d21" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; byte &gt;</type>
+        <definition>Nullable&lt;byte&gt; Webassistenten_ads_api.vwFoto.Sortering</definition>
+        <argsstring></argsstring>
+        <name>Sortering</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwFoto.cs" line="22" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwFoto.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_foto_1a61df7cc95170709a04dfa150f0e0b1e3" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; bool &gt;</type>
+        <definition>Nullable&lt;bool&gt; Webassistenten_ads_api.vwFoto.AktivLeveranse</definition>
+        <argsstring></argsstring>
+        <name>AktivLeveranse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwFoto.cs" line="23" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwFoto.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_foto_1a2345b3299c3b38821df3634f7115f703" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; bool &gt;</type>
+        <definition>Nullable&lt;bool&gt; Webassistenten_ads_api.vwFoto.AktivImport</definition>
+        <argsstring></argsstring>
+        <name>AktivImport</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwFoto.cs" line="24" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwFoto.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_foto_1a447896ce84ad15e0c4252f0d27eff221" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>System.DateTime</type>
+        <definition>System.DateTime Webassistenten_ads_api.vwFoto.DatoReg</definition>
+        <argsstring></argsstring>
+        <name>DatoReg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwFoto.cs" line="25" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwFoto.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwFoto.cs" line="16" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwFoto.cs" bodystart="15" bodyend="26"/>
+    <listofallmembers>
+      <member refid="class_webassistenten__ads__api_1_1vw_foto_1a2345b3299c3b38821df3634f7115f703" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwFoto</scope><name>AktivImport</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_foto_1a61df7cc95170709a04dfa150f0e0b1e3" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwFoto</scope><name>AktivLeveranse</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_foto_1a4cb19ec61163938d3e34f1b7dbfb79e2" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwFoto</scope><name>Bildenavn</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_foto_1ac0b780862127c11dd0ce081ef7fe1e15" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwFoto</scope><name>Bildetekst</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_foto_1a5e0320bd3dd1481efe6633a1b8ac96a1" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwFoto</scope><name>Bildetype</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_foto_1a447896ce84ad15e0c4252f0d27eff221" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwFoto</scope><name>DatoReg</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_foto_1a86d8a459dfa5d54f5ab0486622f724d9" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwFoto</scope><name>FotoID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_foto_1a97eea51b949531178569f5df492ac659" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwFoto</scope><name>FotooppdragID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_foto_1a788f6668c2c870c4c7e7df02f7e36d21" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwFoto</scope><name>Sortering</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

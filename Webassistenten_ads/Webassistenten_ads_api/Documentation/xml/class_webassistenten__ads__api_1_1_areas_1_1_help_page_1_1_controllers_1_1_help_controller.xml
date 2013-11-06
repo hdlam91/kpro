@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_controllers_1_1_help_controller" kind="class" prot="public">
+    <compoundname>Webassistenten_ads_api::Areas::HelpPage::Controllers::HelpController</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_controllers_1_1_help_controller_1a96b3a6aadbd75b57003220cd4fe8a0a7" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>HttpConfiguration</type>
+        <definition>HttpConfiguration Webassistenten_ads_api.Areas.HelpPage.Controllers.HelpController.Configuration</definition>
+        <argsstring></argsstring>
+        <name>Configuration</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/Controllers/HelpController.cs" line="23" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/Controllers/HelpController.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_controllers_1_1_help_controller_1a3025c48978409857413a0a34a3a391fd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Webassistenten_ads_api.Areas.HelpPage.Controllers.HelpController.HelpController</definition>
+        <argsstring>()</argsstring>
+        <name>HelpController</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/Controllers/HelpController.cs" line="15" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/Controllers/HelpController.cs" bodystart="13" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_controllers_1_1_help_controller_1a7b5fb1a292f6d4dd024b530226a68a97" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Webassistenten_ads_api.Areas.HelpPage.Controllers.HelpController.HelpController</definition>
+        <argsstring>(HttpConfiguration config)</argsstring>
+        <name>HelpController</name>
+        <param>
+          <type>HttpConfiguration</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/Controllers/HelpController.cs" line="19" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/Controllers/HelpController.cs" bodystart="18" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_controllers_1_1_help_controller_1a447fc73d8c1ab2e2866817da070651b6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult Webassistenten_ads_api.Areas.HelpPage.Controllers.HelpController.Index</definition>
+        <argsstring>()</argsstring>
+        <name>Index</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/Controllers/HelpController.cs" line="26" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/Controllers/HelpController.cs" bodystart="25" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_controllers_1_1_help_controller_1acd5303088ecadcea568434e8de4b9d52" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult Webassistenten_ads_api.Areas.HelpPage.Controllers.HelpController.Api</definition>
+        <argsstring>(string apiId)</argsstring>
+        <name>Api</name>
+        <param>
+          <type>string</type>
+          <declname>apiId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/Controllers/HelpController.cs" line="31" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/Controllers/HelpController.cs" bodystart="30" bodyend="42"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>The controller that will handle requests for the help page. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/Controllers/HelpController.cs" line="12" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/Controllers/HelpController.cs" bodystart="11" bodyend="43"/>
+    <listofallmembers>
+      <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_controllers_1_1_help_controller_1acd5303088ecadcea568434e8de4b9d52" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Areas::HelpPage::Controllers::HelpController</scope><name>Api</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_controllers_1_1_help_controller_1a96b3a6aadbd75b57003220cd4fe8a0a7" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Areas::HelpPage::Controllers::HelpController</scope><name>Configuration</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_controllers_1_1_help_controller_1a3025c48978409857413a0a34a3a391fd" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Areas::HelpPage::Controllers::HelpController</scope><name>HelpController</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_controllers_1_1_help_controller_1a7b5fb1a292f6d4dd024b530226a68a97" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Areas::HelpPage::Controllers::HelpController</scope><name>HelpController</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_controllers_1_1_help_controller_1a447fc73d8c1ab2e2866817da070651b6" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Areas::HelpPage::Controllers::HelpController</scope><name>Index</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

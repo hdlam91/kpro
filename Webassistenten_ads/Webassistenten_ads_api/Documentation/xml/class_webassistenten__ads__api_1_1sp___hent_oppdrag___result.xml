@@ -1,0 +1,239 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="class_webassistenten__ads__api_1_1sp___hent_oppdrag___result" kind="class" prot="public">
+    <compoundname>Webassistenten_ads_api::sp_HentOppdrag_Result</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_oppdrag___result_1aa6e6694d7232ff31fa9842ad9c7feb6f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>long</type>
+        <definition>long Webassistenten_ads_api.sp_HentOppdrag_Result.OppdragID</definition>
+        <argsstring></argsstring>
+        <name>OppdragID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentOppdrag_Result.cs" line="16" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentOppdrag_Result.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_oppdrag___result_1a1e7044f392e4aaafef159f4757be432f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>System.DateTime</type>
+        <definition>System.DateTime Webassistenten_ads_api.sp_HentOppdrag_Result.DatoReg</definition>
+        <argsstring></argsstring>
+        <name>DatoReg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentOppdrag_Result.cs" line="17" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentOppdrag_Result.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_oppdrag___result_1ab81ef031c44c9d7eb9a6c18a3a31cd08" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>byte</type>
+        <definition>byte Webassistenten_ads_api.sp_HentOppdrag_Result.PartnerID</definition>
+        <argsstring></argsstring>
+        <name>PartnerID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentOppdrag_Result.cs" line="18" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentOppdrag_Result.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_oppdrag___result_1a64c57f7584c449e20037d6949940c791" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Webassistenten_ads_api.sp_HentOppdrag_Result.BrukerID</definition>
+        <argsstring></argsstring>
+        <name>BrukerID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentOppdrag_Result.cs" line="19" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentOppdrag_Result.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_oppdrag___result_1aa6e54fffbff0e8718886bd3683d2916d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; int &gt;</type>
+        <definition>Nullable&lt;int&gt; Webassistenten_ads_api.sp_HentOppdrag_Result.FotografID</definition>
+        <argsstring></argsstring>
+        <name>FotografID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentOppdrag_Result.cs" line="20" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentOppdrag_Result.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_oppdrag___result_1ad739f5a468c38bb5329c9e9f762a4711" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>byte</type>
+        <definition>byte Webassistenten_ads_api.sp_HentOppdrag_Result.StatusID</definition>
+        <argsstring></argsstring>
+        <name>StatusID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentOppdrag_Result.cs" line="21" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentOppdrag_Result.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_oppdrag___result_1a1d0bdfbba9f17c76c5c23b605cfb8e01" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>byte</type>
+        <definition>byte Webassistenten_ads_api.sp_HentOppdrag_Result.OppdragTypeID</definition>
+        <argsstring></argsstring>
+        <name>OppdragTypeID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentOppdrag_Result.cs" line="22" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentOppdrag_Result.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_oppdrag___result_1af6db9a929dcce0de1cb5699b1f0e90a0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_HentOppdrag_Result.Oppdragsnr</definition>
+        <argsstring></argsstring>
+        <name>Oppdragsnr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentOppdrag_Result.cs" line="23" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentOppdrag_Result.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_oppdrag___result_1a3e5e06472405a68a248cee7606d48942" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_HentOppdrag_Result.Adresse</definition>
+        <argsstring></argsstring>
+        <name>Adresse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentOppdrag_Result.cs" line="24" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentOppdrag_Result.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_oppdrag___result_1afdae09169640da52e846948895bc9a27" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_HentOppdrag_Result.Postnr</definition>
+        <argsstring></argsstring>
+        <name>Postnr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentOppdrag_Result.cs" line="25" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentOppdrag_Result.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_oppdrag___result_1a84badd7e3c3c277b8684d59b83304248" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_HentOppdrag_Result.Poststed</definition>
+        <argsstring></argsstring>
+        <name>Poststed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentOppdrag_Result.cs" line="26" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentOppdrag_Result.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_oppdrag___result_1ad0b5ccc0026f091c16122cad52191142" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_HentOppdrag_Result.TilleggsInformasjon</definition>
+        <argsstring></argsstring>
+        <name>TilleggsInformasjon</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentOppdrag_Result.cs" line="27" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentOppdrag_Result.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_oppdrag___result_1a15ade0a151ace85566fbbb5f10f4fa75" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_HentOppdrag_Result.Kommentar</definition>
+        <argsstring></argsstring>
+        <name>Kommentar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentOppdrag_Result.cs" line="28" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentOppdrag_Result.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_oppdrag___result_1aef27c7166b2c5392be6fec6624732626" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; System.DateTime &gt;</type>
+        <definition>Nullable&lt;System.DateTime&gt; Webassistenten_ads_api.sp_HentOppdrag_Result.DatoBooking</definition>
+        <argsstring></argsstring>
+        <name>DatoBooking</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentOppdrag_Result.cs" line="29" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentOppdrag_Result.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_oppdrag___result_1a61e16b5f07e2b5378bbb06b704abdd4e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; byte &gt;</type>
+        <definition>Nullable&lt;byte&gt; Webassistenten_ads_api.sp_HentOppdrag_Result.FakturaOK</definition>
+        <argsstring></argsstring>
+        <name>FakturaOK</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentOppdrag_Result.cs" line="30" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentOppdrag_Result.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_oppdrag___result_1ab67db617fc259c9b7c656ea7c48f0af0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_HentOppdrag_Result.Katalog</definition>
+        <argsstring></argsstring>
+        <name>Katalog</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentOppdrag_Result.cs" line="31" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentOppdrag_Result.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentOppdrag_Result.cs" line="15" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentOppdrag_Result.cs" bodystart="14" bodyend="32"/>
+    <listofallmembers>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_oppdrag___result_1a3e5e06472405a68a248cee7606d48942" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentOppdrag_Result</scope><name>Adresse</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_oppdrag___result_1a64c57f7584c449e20037d6949940c791" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentOppdrag_Result</scope><name>BrukerID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_oppdrag___result_1aef27c7166b2c5392be6fec6624732626" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentOppdrag_Result</scope><name>DatoBooking</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_oppdrag___result_1a1e7044f392e4aaafef159f4757be432f" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentOppdrag_Result</scope><name>DatoReg</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_oppdrag___result_1a61e16b5f07e2b5378bbb06b704abdd4e" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentOppdrag_Result</scope><name>FakturaOK</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_oppdrag___result_1aa6e54fffbff0e8718886bd3683d2916d" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentOppdrag_Result</scope><name>FotografID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_oppdrag___result_1ab67db617fc259c9b7c656ea7c48f0af0" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentOppdrag_Result</scope><name>Katalog</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_oppdrag___result_1a15ade0a151ace85566fbbb5f10f4fa75" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentOppdrag_Result</scope><name>Kommentar</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_oppdrag___result_1aa6e6694d7232ff31fa9842ad9c7feb6f" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentOppdrag_Result</scope><name>OppdragID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_oppdrag___result_1af6db9a929dcce0de1cb5699b1f0e90a0" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentOppdrag_Result</scope><name>Oppdragsnr</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_oppdrag___result_1a1d0bdfbba9f17c76c5c23b605cfb8e01" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentOppdrag_Result</scope><name>OppdragTypeID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_oppdrag___result_1ab81ef031c44c9d7eb9a6c18a3a31cd08" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentOppdrag_Result</scope><name>PartnerID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_oppdrag___result_1afdae09169640da52e846948895bc9a27" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentOppdrag_Result</scope><name>Postnr</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_oppdrag___result_1a84badd7e3c3c277b8684d59b83304248" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentOppdrag_Result</scope><name>Poststed</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_oppdrag___result_1ad739f5a468c38bb5329c9e9f762a4711" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentOppdrag_Result</scope><name>StatusID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_oppdrag___result_1ad0b5ccc0026f091c16122cad52191142" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentOppdrag_Result</scope><name>TilleggsInformasjon</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

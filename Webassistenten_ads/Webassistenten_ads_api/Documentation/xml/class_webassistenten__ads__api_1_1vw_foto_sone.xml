@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="class_webassistenten__ads__api_1_1vw_foto_sone" kind="class" prot="public">
+    <compoundname>Webassistenten_ads_api::vwFotoSone</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_foto_sone_1a36428b7963b94ba0e04b46a8ae4d76de" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>byte</type>
+        <definition>byte Webassistenten_ads_api.vwFotoSone.FotoSoneID</definition>
+        <argsstring></argsstring>
+        <name>FotoSoneID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwFotoSone.cs" line="17" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwFotoSone.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_foto_sone_1aaeeaf0e468ba01bdb0071ec7e1b4fd60" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>byte</type>
+        <definition>byte Webassistenten_ads_api.vwFotoSone.StedID</definition>
+        <argsstring></argsstring>
+        <name>StedID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwFotoSone.cs" line="18" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwFotoSone.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_foto_sone_1aedbfb7f7701d9ebf49f2c2d125d6ab85" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.vwFotoSone.FotoSonenavn</definition>
+        <argsstring></argsstring>
+        <name>FotoSonenavn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwFotoSone.cs" line="19" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwFotoSone.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_foto_sone_1a5dc26fa84215f2eaa4828592dda9811a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.vwFotoSone.FotoSonenavnFork</definition>
+        <argsstring></argsstring>
+        <name>FotoSonenavnFork</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwFotoSone.cs" line="20" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwFotoSone.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_foto_sone_1adbc2cd1b12e2d83ec1880be44d0e9c17" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Webassistenten_ads_api.vwFotoSone.Pris</definition>
+        <argsstring></argsstring>
+        <name>Pris</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwFotoSone.cs" line="21" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwFotoSone.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwFotoSone.cs" line="16" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwFotoSone.cs" bodystart="15" bodyend="22"/>
+    <listofallmembers>
+      <member refid="class_webassistenten__ads__api_1_1vw_foto_sone_1a36428b7963b94ba0e04b46a8ae4d76de" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwFotoSone</scope><name>FotoSoneID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_foto_sone_1aedbfb7f7701d9ebf49f2c2d125d6ab85" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwFotoSone</scope><name>FotoSonenavn</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_foto_sone_1a5dc26fa84215f2eaa4828592dda9811a" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwFotoSone</scope><name>FotoSonenavnFork</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_foto_sone_1adbc2cd1b12e2d83ec1880be44d0e9c17" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwFotoSone</scope><name>Pris</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_foto_sone_1aaeeaf0e468ba01bdb0071ec7e1b4fd60" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwFotoSone</scope><name>StedID</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

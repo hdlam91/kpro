@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="interface_webassistenten__ads__api_1_1_authentication" kind="interface" prot="public">
+    <compoundname>Webassistenten_ads_api::Authentication</compoundname>
+    <derivedcompoundref refid="class_webassistenten__ads__api_1_1_web_assistent_auth" prot="public" virt="non-virtual">Webassistenten_ads_api.WebAssistentAuth</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_webassistenten__ads__api_1_1_authentication_1afc3433077bb1f666f160efcbc3c5dc60" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="interface_webassistenten__ads__api_1_1_authentication" kindref="compound">Authentication</ref></type>
+        <definition>Authentication Webassistenten_ads_api.Authentication.EmailAuthenticate</definition>
+        <argsstring>(string email)</argsstring>
+        <name>EmailAuthenticate</name>
+        <reimplementedby refid="class_webassistenten__ads__api_1_1_web_assistent_auth_1af2ec90cd6c7217168f0d16e402328147">EmailAuthenticate</reimplementedby>
+        <param>
+          <type>string</type>
+          <declname>email</declname>
+        </param>
+        <briefdescription>
+<para>Method for authenticating via an email adress. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="interface_webassistenten__ads__api_1_1_authentication" kindref="compound">Authentication</ref>.</para></simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>email</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Email.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Interfaces/Authentication.cs" line="13"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_webassistenten__ads__api_1_1_authentication_1a8074b5551cdcf2db6c7e96f317f654f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="interface_webassistenten__ads__api_1_1_authentication" kindref="compound">Authentication</ref></type>
+        <definition>Authentication Webassistenten_ads_api.Authentication.IdAuthenticate</definition>
+        <argsstring>(int userId)</argsstring>
+        <name>IdAuthenticate</name>
+        <reimplementedby refid="class_webassistenten__ads__api_1_1_web_assistent_auth_1a1adc13e53fb821628765c7c5654e9cf3">IdAuthenticate</reimplementedby>
+        <param>
+          <type>int</type>
+          <declname>userId</declname>
+        </param>
+        <briefdescription>
+<para>Method for authenticating via User ID. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para><ref refid="interface_webassistenten__ads__api_1_1_authentication" kindref="compound">Authentication</ref>.</para></simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>userId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>User identifier.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Interfaces/Authentication.cs" line="20"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="22">
+        <label>Webassistenten_ads_api.Authentication</label>
+        <link refid="interface_webassistenten__ads__api_1_1_authentication"/>
+      </node>
+      <node id="23">
+        <label>Webassistenten_ads_api.WebAssistentAuth</label>
+        <link refid="class_webassistenten__ads__api_1_1_web_assistent_auth"/>
+        <childnode refid="22" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Interfaces/Authentication.cs" line="6" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Interfaces/Authentication.cs" bodystart="5" bodyend="22"/>
+    <listofallmembers>
+      <member refid="interface_webassistenten__ads__api_1_1_authentication_1afc3433077bb1f666f160efcbc3c5dc60" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Authentication</scope><name>EmailAuthenticate</name></member>
+      <member refid="interface_webassistenten__ads__api_1_1_authentication_1a8074b5551cdcf2db6c7e96f317f654f9" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Authentication</scope><name>IdAuthenticate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

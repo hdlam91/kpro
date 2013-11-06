@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="dir_d20d637125a4419fc121e879ef71649a" kind="dir">
+    <compoundname>Areas/HelpPage/SampleGeneration/</compoundname>
+    <innerfile refid="_help_page_sample_generator_8cs">HelpPageSampleGenerator.cs</innerfile>
+    <innerfile refid="_help_page_sample_key_8cs">HelpPageSampleKey.cs</innerfile>
+    <innerfile refid="_image_sample_8cs">ImageSample.cs</innerfile>
+    <innerfile refid="_invalid_sample_8cs">InvalidSample.cs</innerfile>
+    <innerfile refid="_object_generator_8cs">ObjectGenerator.cs</innerfile>
+    <innerfile refid="_sample_direction_8cs">SampleDirection.cs</innerfile>
+    <innerfile refid="_text_sample_8cs">TextSample.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/"/>
+  </compounddef>
+</doxygen>

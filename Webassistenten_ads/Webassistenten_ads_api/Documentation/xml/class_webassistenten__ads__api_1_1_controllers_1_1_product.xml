@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="class_webassistenten__ads__api_1_1_controllers_1_1_product" kind="class" prot="public">
+    <compoundname>Webassistenten_ads_api::Controllers::Product</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_webassistenten__ads__api_1_1_controllers_1_1_product_1a333f5aa88553deaa35d7a56cb12efcfe" prot="private" static="no" mutable="no">
+        <type><ref refid="class_webassistenten__ads__api_1_1_bolig_entities1" kindref="compound">BoligEntities1</ref></type>
+        <definition>BoligEntities1 Webassistenten_ads_api.Controllers.Product.db</definition>
+        <argsstring></argsstring>
+        <name>db</name>
+        <initializer> new <ref refid="class_webassistenten__ads__api_1_1_bolig_entities1" kindref="compound">BoligEntities1</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/Product.cs" line="16" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/Product.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_controllers_1_1_product_1a4a3d0a4c9bf3c277241b77d8e143e00c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerable&lt; <ref refid="class_webassistenten__ads__api_1_1_produkt" kindref="compound">Produkt</ref> &gt;</type>
+        <definition>IEnumerable&lt;Produkt&gt; Webassistenten_ads_api.Controllers.Product.GetProdukts</definition>
+        <argsstring>()</argsstring>
+        <name>GetProdukts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/Product.cs" line="20" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/Product.cs" bodystart="19" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_controllers_1_1_product_1a418e69b1fe1320972a40230103ca9823" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_webassistenten__ads__api_1_1_produkt" kindref="compound">Produkt</ref></type>
+        <definition>Produkt Webassistenten_ads_api.Controllers.Product.GetProdukt</definition>
+        <argsstring>(byte id)</argsstring>
+        <name>GetProdukt</name>
+        <param>
+          <type>byte</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/Product.cs" line="26" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/Product.cs" bodystart="25" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_controllers_1_1_product_1a2586f7e28aeecc941b918aca26822590" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>HttpResponseMessage</type>
+        <definition>HttpResponseMessage Webassistenten_ads_api.Controllers.Product.PutProdukt</definition>
+        <argsstring>(byte id, Produkt produkt)</argsstring>
+        <name>PutProdukt</name>
+        <param>
+          <type>byte</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type><ref refid="class_webassistenten__ads__api_1_1_produkt" kindref="compound">Produkt</ref></type>
+          <declname>produkt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/Product.cs" line="38" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/Product.cs" bodystart="37" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_controllers_1_1_product_1a6dabbd18ba576d1fe36da2a806d0aba7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>HttpResponseMessage</type>
+        <definition>HttpResponseMessage Webassistenten_ads_api.Controllers.Product.PostProdukt</definition>
+        <argsstring>(Produkt produkt)</argsstring>
+        <name>PostProdukt</name>
+        <param>
+          <type><ref refid="class_webassistenten__ads__api_1_1_produkt" kindref="compound">Produkt</ref></type>
+          <declname>produkt</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/Product.cs" line="65" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/Product.cs" bodystart="64" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_controllers_1_1_product_1a785d305567f6dec961ee09ea18d40d43" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>HttpResponseMessage</type>
+        <definition>HttpResponseMessage Webassistenten_ads_api.Controllers.Product.DeleteProdukt</definition>
+        <argsstring>(byte id)</argsstring>
+        <name>DeleteProdukt</name>
+        <param>
+          <type>byte</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/Product.cs" line="83" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/Product.cs" bodystart="82" bodyend="102"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_controllers_1_1_product_1a601aded2b7fde1e36c8a1ff92234172e" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Webassistenten_ads_api.Controllers.Product.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/Product.cs" line="105" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/Product.cs" bodystart="104" bodyend="108"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/Product.cs" line="15" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/Product.cs" bodystart="14" bodyend="109"/>
+    <listofallmembers>
+      <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_product_1a333f5aa88553deaa35d7a56cb12efcfe" prot="private" virt="non-virtual"><scope>Webassistenten_ads_api::Controllers::Product</scope><name>db</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_product_1a785d305567f6dec961ee09ea18d40d43" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Controllers::Product</scope><name>DeleteProdukt</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_product_1a601aded2b7fde1e36c8a1ff92234172e" prot="protected" virt="non-virtual"><scope>Webassistenten_ads_api::Controllers::Product</scope><name>Dispose</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_product_1a418e69b1fe1320972a40230103ca9823" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Controllers::Product</scope><name>GetProdukt</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_product_1a4a3d0a4c9bf3c277241b77d8e143e00c" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Controllers::Product</scope><name>GetProdukts</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_product_1a6dabbd18ba576d1fe36da2a806d0aba7" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Controllers::Product</scope><name>PostProdukt</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_product_1a2586f7e28aeecc941b918aca26822590" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Controllers::Product</scope><name>PutProdukt</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

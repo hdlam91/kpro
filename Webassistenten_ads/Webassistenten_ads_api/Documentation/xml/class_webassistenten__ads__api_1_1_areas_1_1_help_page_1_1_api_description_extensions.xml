@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_api_description_extensions" kind="class" prot="public">
+    <compoundname>Webassistenten_ads_api::Areas::HelpPage::ApiDescriptionExtensions</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_api_description_extensions_1aab0567a045cc5fd4a90e050426611bcf" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string Webassistenten_ads_api.Areas.HelpPage.ApiDescriptionExtensions.GetFriendlyId</definition>
+        <argsstring>(this ApiDescription description)</argsstring>
+        <name>GetFriendlyId</name>
+        <param>
+          <type>this ApiDescription</type>
+          <declname>description</declname>
+        </param>
+        <briefdescription>
+<para>Generates an URI-friendly ID for the ApiDescription. E.g. &quot;Get-Values-id_name&quot; instead of &quot;GetValues/{id}?name={name}&quot; </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>description</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The ApiDescription.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The ID as a string.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/ApiDescriptionExtensions.cs" line="16" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/ApiDescriptionExtensions.cs" bodystart="15" bodyend="37"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/ApiDescriptionExtensions.cs" line="9" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/ApiDescriptionExtensions.cs" bodystart="8" bodyend="38"/>
+    <listofallmembers>
+      <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_api_description_extensions_1aab0567a045cc5fd4a90e050426611bcf" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Areas::HelpPage::ApiDescriptionExtensions</scope><name>GetFriendlyId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

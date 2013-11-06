@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="class_webassistenten__ads__api_1_1_controllers_1_1_home_controller" kind="class" prot="public">
+    <compoundname>Webassistenten_ads_api::Controllers::HomeController</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_controllers_1_1_home_controller_1aab64f4a23b8dbd14dec4b7d61106563f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult Webassistenten_ads_api.Controllers.HomeController.Index</definition>
+        <argsstring>()</argsstring>
+        <name>Index</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/HomeController.cs" line="12" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/HomeController.cs" bodystart="11" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_controllers_1_1_home_controller_1a4073f8d344039c5f2e62638d1f89fb53" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult Webassistenten_ads_api.Controllers.HomeController.Admin</definition>
+        <argsstring>()</argsstring>
+        <name>Admin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/HomeController.cs" line="17" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/HomeController.cs" bodystart="16" bodyend="22"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/HomeController.cs" line="10" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/HomeController.cs" bodystart="9" bodyend="23"/>
+    <listofallmembers>
+      <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_home_controller_1a4073f8d344039c5f2e62638d1f89fb53" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Controllers::HomeController</scope><name>Admin</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_home_controller_1aab64f4a23b8dbd14dec4b7d61106563f" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Controllers::HomeController</scope><name>Index</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

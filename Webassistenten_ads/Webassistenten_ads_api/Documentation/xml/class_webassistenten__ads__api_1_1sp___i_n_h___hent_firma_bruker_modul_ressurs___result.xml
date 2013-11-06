@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="class_webassistenten__ads__api_1_1sp___i_n_h___hent_firma_bruker_modul_ressurs___result" kind="class" prot="public">
+    <compoundname>Webassistenten_ads_api::sp_INH_HentFirmaBrukerModulRessurs_Result</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___i_n_h___hent_firma_bruker_modul_ressurs___result_1a590d66737277b6243dcdb61346b5f910" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>byte</type>
+        <definition>byte Webassistenten_ads_api.sp_INH_HentFirmaBrukerModulRessurs_Result.ProduktID</definition>
+        <argsstring></argsstring>
+        <name>ProduktID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_INH_HentFirmaBrukerModulRessurs_Result.cs" line="16" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_INH_HentFirmaBrukerModulRessurs_Result.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___i_n_h___hent_firma_bruker_modul_ressurs___result_1ac18b8311d2718f59f85d4941294ffc41" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Webassistenten_ads_api.sp_INH_HentFirmaBrukerModulRessurs_Result.RessursID</definition>
+        <argsstring></argsstring>
+        <name>RessursID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_INH_HentFirmaBrukerModulRessurs_Result.cs" line="17" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_INH_HentFirmaBrukerModulRessurs_Result.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___i_n_h___hent_firma_bruker_modul_ressurs___result_1ac07d97599e1ac260c2225d243f4400a3" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Webassistenten_ads_api.sp_INH_HentFirmaBrukerModulRessurs_Result.ModulID</definition>
+        <argsstring></argsstring>
+        <name>ModulID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_INH_HentFirmaBrukerModulRessurs_Result.cs" line="18" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_INH_HentFirmaBrukerModulRessurs_Result.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___i_n_h___hent_firma_bruker_modul_ressurs___result_1aeb2eecbbce37d6a84d5562aa97114cfb" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_INH_HentFirmaBrukerModulRessurs_Result.RessursFilnavn1</definition>
+        <argsstring></argsstring>
+        <name>RessursFilnavn1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_INH_HentFirmaBrukerModulRessurs_Result.cs" line="19" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_INH_HentFirmaBrukerModulRessurs_Result.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___i_n_h___hent_firma_bruker_modul_ressurs___result_1a75d4f6428160ecafe8e086372fe4dd73" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_INH_HentFirmaBrukerModulRessurs_Result.RessursFilnavn2</definition>
+        <argsstring></argsstring>
+        <name>RessursFilnavn2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_INH_HentFirmaBrukerModulRessurs_Result.cs" line="20" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_INH_HentFirmaBrukerModulRessurs_Result.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___i_n_h___hent_firma_bruker_modul_ressurs___result_1a86826f87d6e19a4dec60eb3b73a6f6ea" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>byte</type>
+        <definition>byte Webassistenten_ads_api.sp_INH_HentFirmaBrukerModulRessurs_Result.RessursType</definition>
+        <argsstring></argsstring>
+        <name>RessursType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_INH_HentFirmaBrukerModulRessurs_Result.cs" line="21" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_INH_HentFirmaBrukerModulRessurs_Result.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_INH_HentFirmaBrukerModulRessurs_Result.cs" line="15" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_INH_HentFirmaBrukerModulRessurs_Result.cs" bodystart="14" bodyend="22"/>
+    <listofallmembers>
+      <member refid="class_webassistenten__ads__api_1_1sp___i_n_h___hent_firma_bruker_modul_ressurs___result_1ac07d97599e1ac260c2225d243f4400a3" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_INH_HentFirmaBrukerModulRessurs_Result</scope><name>ModulID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___i_n_h___hent_firma_bruker_modul_ressurs___result_1a590d66737277b6243dcdb61346b5f910" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_INH_HentFirmaBrukerModulRessurs_Result</scope><name>ProduktID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___i_n_h___hent_firma_bruker_modul_ressurs___result_1aeb2eecbbce37d6a84d5562aa97114cfb" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_INH_HentFirmaBrukerModulRessurs_Result</scope><name>RessursFilnavn1</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___i_n_h___hent_firma_bruker_modul_ressurs___result_1a75d4f6428160ecafe8e086372fe4dd73" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_INH_HentFirmaBrukerModulRessurs_Result</scope><name>RessursFilnavn2</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___i_n_h___hent_firma_bruker_modul_ressurs___result_1ac18b8311d2718f59f85d4941294ffc41" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_INH_HentFirmaBrukerModulRessurs_Result</scope><name>RessursID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___i_n_h___hent_firma_bruker_modul_ressurs___result_1a86826f87d6e19a4dec60eb3b73a6f6ea" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_INH_HentFirmaBrukerModulRessurs_Result</scope><name>RessursType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

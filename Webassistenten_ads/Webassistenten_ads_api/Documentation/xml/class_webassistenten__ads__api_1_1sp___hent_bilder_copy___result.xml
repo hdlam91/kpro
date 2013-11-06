@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="class_webassistenten__ads__api_1_1sp___hent_bilder_copy___result" kind="class" prot="public">
+    <compoundname>Webassistenten_ads_api::sp_HentBilderCopy_Result</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_bilder_copy___result_1a3662ced26ff36c52569ae494923f6344" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>long</type>
+        <definition>long Webassistenten_ads_api.sp_HentBilderCopy_Result.BildeID</definition>
+        <argsstring></argsstring>
+        <name>BildeID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBilderCopy_Result.cs" line="16" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBilderCopy_Result.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_bilder_copy___result_1a5f40a32d4535f0c677cf007ded98c2be" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>long</type>
+        <definition>long Webassistenten_ads_api.sp_HentBilderCopy_Result.ProspektID</definition>
+        <argsstring></argsstring>
+        <name>ProspektID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBilderCopy_Result.cs" line="17" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBilderCopy_Result.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_bilder_copy___result_1a598a7237047e9f2c3630fe99c6f83030" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_HentBilderCopy_Result.Bildenavn</definition>
+        <argsstring></argsstring>
+        <name>Bildenavn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBilderCopy_Result.cs" line="18" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBilderCopy_Result.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_bilder_copy___result_1ad8e19acec7d63282768c3381dcbc51f5" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_HentBilderCopy_Result.Bildetekst</definition>
+        <argsstring></argsstring>
+        <name>Bildetekst</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBilderCopy_Result.cs" line="19" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBilderCopy_Result.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_bilder_copy___result_1a448176e3a3f3d20ec14082176472b287" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; byte &gt;</type>
+        <definition>Nullable&lt;byte&gt; Webassistenten_ads_api.sp_HentBilderCopy_Result.Sortering</definition>
+        <argsstring></argsstring>
+        <name>Sortering</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBilderCopy_Result.cs" line="20" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBilderCopy_Result.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_bilder_copy___result_1a44fec6a9850fad6272fadb6e12785171" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>System.DateTime</type>
+        <definition>System.DateTime Webassistenten_ads_api.sp_HentBilderCopy_Result.DatoReg</definition>
+        <argsstring></argsstring>
+        <name>DatoReg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBilderCopy_Result.cs" line="21" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBilderCopy_Result.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_bilder_copy___result_1a3ee2786ea50fbbd9bc956e0b51236aaf" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; int &gt;</type>
+        <definition>Nullable&lt;int&gt; Webassistenten_ads_api.sp_HentBilderCopy_Result.H</definition>
+        <argsstring></argsstring>
+        <name>H</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBilderCopy_Result.cs" line="22" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBilderCopy_Result.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_bilder_copy___result_1a3568ba241786c85a4eadb14f8f4d206c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; int &gt;</type>
+        <definition>Nullable&lt;int&gt; Webassistenten_ads_api.sp_HentBilderCopy_Result.W</definition>
+        <argsstring></argsstring>
+        <name>W</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBilderCopy_Result.cs" line="23" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBilderCopy_Result.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_bilder_copy___result_1a75e9f6f777593f9e6b207da7307e652e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; bool &gt;</type>
+        <definition>Nullable&lt;bool&gt; Webassistenten_ads_api.sp_HentBilderCopy_Result.Resized</definition>
+        <argsstring></argsstring>
+        <name>Resized</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBilderCopy_Result.cs" line="24" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBilderCopy_Result.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_bilder_copy___result_1a41b6be3f0bd5fca7da592af28f8dfdf0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; int &gt;</type>
+        <definition>Nullable&lt;int&gt; Webassistenten_ads_api.sp_HentBilderCopy_Result.H_Resized</definition>
+        <argsstring></argsstring>
+        <name>H_Resized</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBilderCopy_Result.cs" line="25" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBilderCopy_Result.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_bilder_copy___result_1a37d620a0b72fd585fe4a5cce0822d8ce" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; int &gt;</type>
+        <definition>Nullable&lt;int&gt; Webassistenten_ads_api.sp_HentBilderCopy_Result.W_Resized</definition>
+        <argsstring></argsstring>
+        <name>W_Resized</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBilderCopy_Result.cs" line="26" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBilderCopy_Result.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_bilder_copy___result_1a141f7eef6b7a609ccc1b64aafc4424f6" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_HentBilderCopy_Result.Katalog</definition>
+        <argsstring></argsstring>
+        <name>Katalog</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBilderCopy_Result.cs" line="27" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBilderCopy_Result.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBilderCopy_Result.cs" line="15" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBilderCopy_Result.cs" bodystart="14" bodyend="28"/>
+    <listofallmembers>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_bilder_copy___result_1a3662ced26ff36c52569ae494923f6344" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentBilderCopy_Result</scope><name>BildeID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_bilder_copy___result_1a598a7237047e9f2c3630fe99c6f83030" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentBilderCopy_Result</scope><name>Bildenavn</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_bilder_copy___result_1ad8e19acec7d63282768c3381dcbc51f5" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentBilderCopy_Result</scope><name>Bildetekst</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_bilder_copy___result_1a44fec6a9850fad6272fadb6e12785171" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentBilderCopy_Result</scope><name>DatoReg</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_bilder_copy___result_1a3ee2786ea50fbbd9bc956e0b51236aaf" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentBilderCopy_Result</scope><name>H</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_bilder_copy___result_1a41b6be3f0bd5fca7da592af28f8dfdf0" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentBilderCopy_Result</scope><name>H_Resized</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_bilder_copy___result_1a141f7eef6b7a609ccc1b64aafc4424f6" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentBilderCopy_Result</scope><name>Katalog</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_bilder_copy___result_1a5f40a32d4535f0c677cf007ded98c2be" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentBilderCopy_Result</scope><name>ProspektID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_bilder_copy___result_1a75e9f6f777593f9e6b207da7307e652e" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentBilderCopy_Result</scope><name>Resized</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_bilder_copy___result_1a448176e3a3f3d20ec14082176472b287" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentBilderCopy_Result</scope><name>Sortering</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_bilder_copy___result_1a3568ba241786c85a4eadb14f8f4d206c" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentBilderCopy_Result</scope><name>W</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_bilder_copy___result_1a37d620a0b72fd585fe4a5cce0822d8ce" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentBilderCopy_Result</scope><name>W_Resized</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

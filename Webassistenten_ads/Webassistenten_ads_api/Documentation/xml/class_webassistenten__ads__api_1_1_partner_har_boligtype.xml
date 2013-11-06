@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="class_webassistenten__ads__api_1_1_partner_har_boligtype" kind="class" prot="public">
+    <compoundname>Webassistenten_ads_api::PartnerHarBoligtype</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_partner_har_boligtype_1ac8e35ac52df6008a3a5c3ec3f2bba4ff" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>byte</type>
+        <definition>byte Webassistenten_ads_api.PartnerHarBoligtype.PartnerID</definition>
+        <argsstring></argsstring>
+        <name>PartnerID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/PartnerHarBoligtype.cs" line="17" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/PartnerHarBoligtype.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_partner_har_boligtype_1ae2be7ca3db300af0784ba079e072d4f0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Webassistenten_ads_api.PartnerHarBoligtype.BoligtypeID</definition>
+        <argsstring></argsstring>
+        <name>BoligtypeID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/PartnerHarBoligtype.cs" line="18" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/PartnerHarBoligtype.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_partner_har_boligtype_1abd49a302eccf3bc3986b40f99f212dad" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; int &gt;</type>
+        <definition>Nullable&lt;int&gt; Webassistenten_ads_api.PartnerHarBoligtype.Sortering</definition>
+        <argsstring></argsstring>
+        <name>Sortering</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/PartnerHarBoligtype.cs" line="19" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/PartnerHarBoligtype.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/PartnerHarBoligtype.cs" line="16" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/PartnerHarBoligtype.cs" bodystart="15" bodyend="20"/>
+    <listofallmembers>
+      <member refid="class_webassistenten__ads__api_1_1_partner_har_boligtype_1ae2be7ca3db300af0784ba079e072d4f0" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::PartnerHarBoligtype</scope><name>BoligtypeID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_partner_har_boligtype_1ac8e35ac52df6008a3a5c3ec3f2bba4ff" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::PartnerHarBoligtype</scope><name>PartnerID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_partner_har_boligtype_1abd49a302eccf3bc3986b40f99f212dad" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::PartnerHarBoligtype</scope><name>Sortering</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="class_webassistenten__ads__api_1_1_tegning" kind="class" prot="public">
+    <compoundname>Webassistenten_ads_api::Tegning</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_tegning_1ab061edfeacdd817126f3b65ce7913db0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>long</type>
+        <definition>long Webassistenten_ads_api.Tegning.TegningID</definition>
+        <argsstring></argsstring>
+        <name>TegningID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Tegning.cs" line="17" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Tegning.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_tegning_1ab0cf0229773d64c8be81703043b669b2" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>long</type>
+        <definition>long Webassistenten_ads_api.Tegning.OppdragID</definition>
+        <argsstring></argsstring>
+        <name>OppdragID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Tegning.cs" line="18" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Tegning.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_tegning_1ad34f729b57e6384483ca359e284aae0e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.Tegning.Tegningnavn</definition>
+        <argsstring></argsstring>
+        <name>Tegningnavn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Tegning.cs" line="19" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Tegning.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_tegning_1a84512ccc0a57a60832712de7161ebeb3" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.Tegning.Tegningtekst</definition>
+        <argsstring></argsstring>
+        <name>Tegningtekst</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Tegning.cs" line="20" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Tegning.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_tegning_1a7b2f5657b4da956e52986c62cd094a45" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; byte &gt;</type>
+        <definition>Nullable&lt;byte&gt; Webassistenten_ads_api.Tegning.Sortering</definition>
+        <argsstring></argsstring>
+        <name>Sortering</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Tegning.cs" line="21" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Tegning.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_tegning_1af05d7c63ab6cff083adea33f8b498915" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>System.DateTime</type>
+        <definition>System.DateTime Webassistenten_ads_api.Tegning.DatoReg</definition>
+        <argsstring></argsstring>
+        <name>DatoReg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Tegning.cs" line="22" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Tegning.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Tegning.cs" line="16" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Tegning.cs" bodystart="15" bodyend="23"/>
+    <listofallmembers>
+      <member refid="class_webassistenten__ads__api_1_1_tegning_1af05d7c63ab6cff083adea33f8b498915" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Tegning</scope><name>DatoReg</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_tegning_1ab0cf0229773d64c8be81703043b669b2" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Tegning</scope><name>OppdragID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_tegning_1a7b2f5657b4da956e52986c62cd094a45" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Tegning</scope><name>Sortering</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_tegning_1ab061edfeacdd817126f3b65ce7913db0" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Tegning</scope><name>TegningID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_tegning_1ad34f729b57e6384483ca359e284aae0e" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Tegning</scope><name>Tegningnavn</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_tegning_1a84512ccc0a57a60832712de7161ebeb3" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Tegning</scope><name>Tegningtekst</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

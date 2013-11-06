@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="class_webassistenten__ads__api_1_1_bolig_nyheter" kind="class" prot="public">
+    <compoundname>Webassistenten_ads_api::BoligNyheter</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_bolig_nyheter_1a8ed1e60850bd733df39de27c87a86493" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>byte</type>
+        <definition>byte Webassistenten_ads_api.BoligNyheter.ID</definition>
+        <argsstring></argsstring>
+        <name>ID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/BoligNyheter.cs" line="17" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/BoligNyheter.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_bolig_nyheter_1ad60b39ee782502f769f87655cb6e12e2" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.BoligNyheter.HTML</definition>
+        <argsstring></argsstring>
+        <name>HTML</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/BoligNyheter.cs" line="18" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/BoligNyheter.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_bolig_nyheter_1ae57c96e55de7ae2006f12b497fbb206a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; System.DateTime &gt;</type>
+        <definition>Nullable&lt;System.DateTime&gt; Webassistenten_ads_api.BoligNyheter.DatoReg</definition>
+        <argsstring></argsstring>
+        <name>DatoReg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/BoligNyheter.cs" line="19" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/BoligNyheter.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/BoligNyheter.cs" line="16" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/BoligNyheter.cs" bodystart="15" bodyend="20"/>
+    <listofallmembers>
+      <member refid="class_webassistenten__ads__api_1_1_bolig_nyheter_1ae57c96e55de7ae2006f12b497fbb206a" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::BoligNyheter</scope><name>DatoReg</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_bolig_nyheter_1ad60b39ee782502f769f87655cb6e12e2" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::BoligNyheter</scope><name>HTML</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_bolig_nyheter_1a8ed1e60850bd733df39de27c87a86493" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::BoligNyheter</scope><name>ID</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

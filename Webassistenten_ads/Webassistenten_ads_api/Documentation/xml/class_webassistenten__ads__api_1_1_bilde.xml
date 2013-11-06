@@ -1,0 +1,199 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="class_webassistenten__ads__api_1_1_bilde" kind="class" prot="public">
+    <compoundname>Webassistenten_ads_api::Bilde</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_bilde_1a648bb8c390a220a3f1da4101f753fec8" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>long</type>
+        <definition>long Webassistenten_ads_api.Bilde.BildeID</definition>
+        <argsstring></argsstring>
+        <name>BildeID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Bilde.cs" line="22" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Bilde.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_bilde_1af21df5e415b59beb1b1369ca78458499" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>long</type>
+        <definition>long Webassistenten_ads_api.Bilde.ProspektID</definition>
+        <argsstring></argsstring>
+        <name>ProspektID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Bilde.cs" line="23" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Bilde.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_bilde_1ad1018700b80f2c76ca80ff39c5560c81" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.Bilde.Bildenavn</definition>
+        <argsstring></argsstring>
+        <name>Bildenavn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Bilde.cs" line="24" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Bilde.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_bilde_1af8d7a5c943747257b901f50dc1491726" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.Bilde.Bildetekst</definition>
+        <argsstring></argsstring>
+        <name>Bildetekst</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Bilde.cs" line="25" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Bilde.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_bilde_1aceb1a5ee195d60e074c7444f626419e0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; byte &gt;</type>
+        <definition>Nullable&lt;byte&gt; Webassistenten_ads_api.Bilde.Sortering</definition>
+        <argsstring></argsstring>
+        <name>Sortering</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Bilde.cs" line="26" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Bilde.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_bilde_1a3b5961edec9c9b3fe7632af322f4a2ee" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>System.DateTime</type>
+        <definition>System.DateTime Webassistenten_ads_api.Bilde.DatoReg</definition>
+        <argsstring></argsstring>
+        <name>DatoReg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Bilde.cs" line="27" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Bilde.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_bilde_1a88faa39932548c03ecc5bf68d5bab8fc" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; int &gt;</type>
+        <definition>Nullable&lt;int&gt; Webassistenten_ads_api.Bilde.H</definition>
+        <argsstring></argsstring>
+        <name>H</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Bilde.cs" line="28" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Bilde.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_bilde_1a0943d4f637cf62e3e4c74dd954e5b0a4" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; int &gt;</type>
+        <definition>Nullable&lt;int&gt; Webassistenten_ads_api.Bilde.W</definition>
+        <argsstring></argsstring>
+        <name>W</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Bilde.cs" line="29" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Bilde.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_bilde_1ad96dc31c36e93f3d6fad2553167aa089" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; bool &gt;</type>
+        <definition>Nullable&lt;bool&gt; Webassistenten_ads_api.Bilde.Resized</definition>
+        <argsstring></argsstring>
+        <name>Resized</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Bilde.cs" line="30" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Bilde.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_bilde_1af11856e5abd40965b8a009fc7f803664" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; int &gt;</type>
+        <definition>Nullable&lt;int&gt; Webassistenten_ads_api.Bilde.H_Resized</definition>
+        <argsstring></argsstring>
+        <name>H_Resized</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Bilde.cs" line="31" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Bilde.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_bilde_1a26c20e4b0f684e31be18d3807c7310ac" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; int &gt;</type>
+        <definition>Nullable&lt;int&gt; Webassistenten_ads_api.Bilde.W_Resized</definition>
+        <argsstring></argsstring>
+        <name>W_Resized</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Bilde.cs" line="32" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Bilde.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_bilde_1a454f10b586b515e86fa896f0767fd218" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>ICollection&lt; <ref refid="class_webassistenten__ads__api_1_1_bestilling_har_bilde" kindref="compound">BestillingHarBilde</ref> &gt;</type>
+        <definition>virtual ICollection&lt;BestillingHarBilde&gt; Webassistenten_ads_api.Bilde.BestillingHarBildes</definition>
+        <argsstring></argsstring>
+        <name>BestillingHarBildes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Bilde.cs" line="34" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Bilde.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_bilde_1ae5d78bcab6852db3900a0dc5dcfecdc4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Webassistenten_ads_api.Bilde.Bilde</definition>
+        <argsstring>()</argsstring>
+        <name>Bilde</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Bilde.cs" line="18" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Bilde.cs" bodystart="17" bodyend="20"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Bilde.cs" line="16" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Bilde.cs" bodystart="15" bodyend="35"/>
+    <listofallmembers>
+      <member refid="class_webassistenten__ads__api_1_1_bilde_1a454f10b586b515e86fa896f0767fd218" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Bilde</scope><name>BestillingHarBildes</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_bilde_1ae5d78bcab6852db3900a0dc5dcfecdc4" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Bilde</scope><name>Bilde</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_bilde_1a648bb8c390a220a3f1da4101f753fec8" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Bilde</scope><name>BildeID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_bilde_1ad1018700b80f2c76ca80ff39c5560c81" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Bilde</scope><name>Bildenavn</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_bilde_1af8d7a5c943747257b901f50dc1491726" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Bilde</scope><name>Bildetekst</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_bilde_1a3b5961edec9c9b3fe7632af322f4a2ee" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Bilde</scope><name>DatoReg</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_bilde_1a88faa39932548c03ecc5bf68d5bab8fc" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Bilde</scope><name>H</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_bilde_1af11856e5abd40965b8a009fc7f803664" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Bilde</scope><name>H_Resized</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_bilde_1af21df5e415b59beb1b1369ca78458499" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Bilde</scope><name>ProspektID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_bilde_1ad96dc31c36e93f3d6fad2553167aa089" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Bilde</scope><name>Resized</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_bilde_1aceb1a5ee195d60e074c7444f626419e0" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Bilde</scope><name>Sortering</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_bilde_1a0943d4f637cf62e3e4c74dd954e5b0a4" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Bilde</scope><name>W</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_bilde_1a26c20e4b0f684e31be18d3807c7310ac" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Bilde</scope><name>W_Resized</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

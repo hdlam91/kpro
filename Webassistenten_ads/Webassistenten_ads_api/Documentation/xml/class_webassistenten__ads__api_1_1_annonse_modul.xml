@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="class_webassistenten__ads__api_1_1_annonse_modul" kind="class" prot="public">
+    <compoundname>Webassistenten_ads_api::AnnonseModul</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_annonse_modul_1a0652aa45e8d33242a52c83059afe381a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>byte</type>
+        <definition>byte Webassistenten_ads_api.AnnonseModul.ModulID</definition>
+        <argsstring></argsstring>
+        <name>ModulID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/AnnonseModul.cs" line="17" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/AnnonseModul.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_annonse_modul_1ae85b58b525a60bc61697715b0057a638" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>byte</type>
+        <definition>byte Webassistenten_ads_api.AnnonseModul.ProduktID</definition>
+        <argsstring></argsstring>
+        <name>ProduktID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/AnnonseModul.cs" line="18" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/AnnonseModul.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_annonse_modul_1aefb4416792121be9232bbf42ebd840b2" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.AnnonseModul.Modulnavn</definition>
+        <argsstring></argsstring>
+        <name>Modulnavn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/AnnonseModul.cs" line="19" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/AnnonseModul.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_annonse_modul_1a3bd04bafc9abed03895b6bc3480274b8" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.AnnonseModul.Modulkode</definition>
+        <argsstring></argsstring>
+        <name>Modulkode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/AnnonseModul.cs" line="20" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/AnnonseModul.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_annonse_modul_1afb2997d7111d31c674f7b00d5bbef8a6" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>decimal</type>
+        <definition>decimal Webassistenten_ads_api.AnnonseModul.Modulstørrelse</definition>
+        <argsstring></argsstring>
+        <name>Modulstørrelse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/AnnonseModul.cs" line="21" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/AnnonseModul.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_annonse_modul_1a85328d3ecfc02b281d195c37f93e22ea" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.AnnonseModul.Mål</definition>
+        <argsstring></argsstring>
+        <name>Mål</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/AnnonseModul.cs" line="22" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/AnnonseModul.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/AnnonseModul.cs" line="16" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/AnnonseModul.cs" bodystart="15" bodyend="23"/>
+    <listofallmembers>
+      <member refid="class_webassistenten__ads__api_1_1_annonse_modul_1a0652aa45e8d33242a52c83059afe381a" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::AnnonseModul</scope><name>ModulID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_annonse_modul_1a3bd04bafc9abed03895b6bc3480274b8" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::AnnonseModul</scope><name>Modulkode</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_annonse_modul_1aefb4416792121be9232bbf42ebd840b2" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::AnnonseModul</scope><name>Modulnavn</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_annonse_modul_1afb2997d7111d31c674f7b00d5bbef8a6" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::AnnonseModul</scope><name>Modulstørrelse</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_annonse_modul_1a85328d3ecfc02b281d195c37f93e22ea" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::AnnonseModul</scope><name>Mål</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_annonse_modul_1ae85b58b525a60bc61697715b0057a638" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::AnnonseModul</scope><name>ProduktID</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

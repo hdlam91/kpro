@@ -1,0 +1,281 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="class_webassistenten__ads__api_1_1vw_brukere" kind="class" prot="public">
+    <compoundname>Webassistenten_ads_api::vwBrukere</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_brukere_1ad50e880bf10bfb6a50bfc61c8d94cfd3" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Webassistenten_ads_api.vwBrukere.BrukerID</definition>
+        <argsstring></argsstring>
+        <name>BrukerID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBrukere.cs" line="17" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBrukere.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_brukere_1a592fda11222fc5c89e7dd24c99a63ade" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>byte</type>
+        <definition>byte Webassistenten_ads_api.vwBrukere.RolleID</definition>
+        <argsstring></argsstring>
+        <name>RolleID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBrukere.cs" line="18" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBrukere.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_brukere_1a3129bf5a577aa757efe66d2a0acecf58" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>byte</type>
+        <definition>byte Webassistenten_ads_api.vwBrukere.PartnerID</definition>
+        <argsstring></argsstring>
+        <name>PartnerID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBrukere.cs" line="19" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBrukere.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_brukere_1a09aa5d66a2bc4332ff52f6f1629bf113" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>byte</type>
+        <definition>byte Webassistenten_ads_api.vwBrukere.AvdelingID</definition>
+        <argsstring></argsstring>
+        <name>AvdelingID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBrukere.cs" line="20" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBrukere.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_brukere_1a8b81492fdca916f70dcecc72bfa236a4" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.vwBrukere.LangID</definition>
+        <argsstring></argsstring>
+        <name>LangID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBrukere.cs" line="21" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBrukere.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_brukere_1ac7071d41003c52df7e00fd15ee7e878c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.vwBrukere.Fornavn</definition>
+        <argsstring></argsstring>
+        <name>Fornavn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBrukere.cs" line="22" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBrukere.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_brukere_1a99615b0b3071cde9a4a4a0afd418a02f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.vwBrukere.Etternavn</definition>
+        <argsstring></argsstring>
+        <name>Etternavn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBrukere.cs" line="23" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBrukere.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_brukere_1ad590ebfb57ac599915ab7323f823632e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.vwBrukere.Initialer</definition>
+        <argsstring></argsstring>
+        <name>Initialer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBrukere.cs" line="24" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBrukere.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_brukere_1a50f9c668f952fa4b1703bc76993ccdd2" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.vwBrukere.Tittel</definition>
+        <argsstring></argsstring>
+        <name>Tittel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBrukere.cs" line="25" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBrukere.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_brukere_1a4c3784bf49319adfce4676aaab3a0e07" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.vwBrukere.Epost</definition>
+        <argsstring></argsstring>
+        <name>Epost</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBrukere.cs" line="26" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBrukere.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_brukere_1a285fd86c61f65e8e76ed226999a53619" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.vwBrukere.Passord</definition>
+        <argsstring></argsstring>
+        <name>Passord</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBrukere.cs" line="27" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBrukere.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_brukere_1af64ccc9caf0e059c337a5242f633e7e1" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.vwBrukere.Telefon</definition>
+        <argsstring></argsstring>
+        <name>Telefon</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBrukere.cs" line="28" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBrukere.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_brukere_1a53a37c63476f94113bc56ebfbc4e6f31" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.vwBrukere.Bildefil</definition>
+        <argsstring></argsstring>
+        <name>Bildefil</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBrukere.cs" line="29" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBrukere.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_brukere_1a687231da3cdb33e038efc7988de024f1" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.vwBrukere.Mobil</definition>
+        <argsstring></argsstring>
+        <name>Mobil</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBrukere.cs" line="30" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBrukere.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_brukere_1a445364318907cca4445836c672290905" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; byte &gt;</type>
+        <definition>Nullable&lt;byte&gt; Webassistenten_ads_api.vwBrukere.Sortering</definition>
+        <argsstring></argsstring>
+        <name>Sortering</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBrukere.cs" line="31" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBrukere.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_brukere_1ac6af2c274123f94cdaceaedf901ae286" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; bool &gt;</type>
+        <definition>Nullable&lt;bool&gt; Webassistenten_ads_api.vwBrukere.Aktiv</definition>
+        <argsstring></argsstring>
+        <name>Aktiv</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBrukere.cs" line="32" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBrukere.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_brukere_1a4f9c32eb560d4b6a929e0d2b12e96a6d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; bool &gt;</type>
+        <definition>Nullable&lt;bool&gt; Webassistenten_ads_api.vwBrukere.Leverandør</definition>
+        <argsstring></argsstring>
+        <name>Leverandør</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBrukere.cs" line="33" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBrukere.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_brukere_1a89f37ec37c8f6636cda515590ffa0023" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; bool &gt;</type>
+        <definition>Nullable&lt;bool&gt; Webassistenten_ads_api.vwBrukere.Nyhetsskriv</definition>
+        <argsstring></argsstring>
+        <name>Nyhetsskriv</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBrukere.cs" line="34" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBrukere.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_brukere_1a8c1900ac04212b8945c73cf2467c58a4" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; int &gt;</type>
+        <definition>Nullable&lt;int&gt; Webassistenten_ads_api.vwBrukere.Gruppe</definition>
+        <argsstring></argsstring>
+        <name>Gruppe</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBrukere.cs" line="35" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBrukere.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBrukere.cs" line="16" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBrukere.cs" bodystart="15" bodyend="36"/>
+    <listofallmembers>
+      <member refid="class_webassistenten__ads__api_1_1vw_brukere_1ac6af2c274123f94cdaceaedf901ae286" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwBrukere</scope><name>Aktiv</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_brukere_1a09aa5d66a2bc4332ff52f6f1629bf113" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwBrukere</scope><name>AvdelingID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_brukere_1a53a37c63476f94113bc56ebfbc4e6f31" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwBrukere</scope><name>Bildefil</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_brukere_1ad50e880bf10bfb6a50bfc61c8d94cfd3" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwBrukere</scope><name>BrukerID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_brukere_1a4c3784bf49319adfce4676aaab3a0e07" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwBrukere</scope><name>Epost</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_brukere_1a99615b0b3071cde9a4a4a0afd418a02f" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwBrukere</scope><name>Etternavn</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_brukere_1ac7071d41003c52df7e00fd15ee7e878c" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwBrukere</scope><name>Fornavn</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_brukere_1a8c1900ac04212b8945c73cf2467c58a4" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwBrukere</scope><name>Gruppe</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_brukere_1ad590ebfb57ac599915ab7323f823632e" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwBrukere</scope><name>Initialer</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_brukere_1a8b81492fdca916f70dcecc72bfa236a4" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwBrukere</scope><name>LangID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_brukere_1a4f9c32eb560d4b6a929e0d2b12e96a6d" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwBrukere</scope><name>Leverandør</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_brukere_1a687231da3cdb33e038efc7988de024f1" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwBrukere</scope><name>Mobil</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_brukere_1a89f37ec37c8f6636cda515590ffa0023" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwBrukere</scope><name>Nyhetsskriv</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_brukere_1a3129bf5a577aa757efe66d2a0acecf58" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwBrukere</scope><name>PartnerID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_brukere_1a285fd86c61f65e8e76ed226999a53619" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwBrukere</scope><name>Passord</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_brukere_1a592fda11222fc5c89e7dd24c99a63ade" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwBrukere</scope><name>RolleID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_brukere_1a445364318907cca4445836c672290905" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwBrukere</scope><name>Sortering</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_brukere_1af64ccc9caf0e059c337a5242f633e7e1" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwBrukere</scope><name>Telefon</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_brukere_1a50f9c668f952fa4b1703bc76993ccdd2" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwBrukere</scope><name>Tittel</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

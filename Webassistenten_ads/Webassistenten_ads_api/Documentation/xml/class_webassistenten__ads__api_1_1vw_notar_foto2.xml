@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="class_webassistenten__ads__api_1_1vw_notar_foto2" kind="class" prot="public">
+    <compoundname>Webassistenten_ads_api::vwNotarFoto2</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_notar_foto2_1aa0600d5a4d898cae7295a13afba2347d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; System.DateTime &gt;</type>
+        <definition>Nullable&lt;System.DateTime&gt; Webassistenten_ads_api.vwNotarFoto2.DatoBooking</definition>
+        <argsstring></argsstring>
+        <name>DatoBooking</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwNotarFoto2.cs" line="17" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwNotarFoto2.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_notar_foto2_1a1464d2df072536beaf778cd1a4371e4a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.vwNotarFoto2.Adresse</definition>
+        <argsstring></argsstring>
+        <name>Adresse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwNotarFoto2.cs" line="18" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwNotarFoto2.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_notar_foto2_1aecd15e7eec594ef7a02ced336b28a299" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.vwNotarFoto2.FotoSonenavn</definition>
+        <argsstring></argsstring>
+        <name>FotoSonenavn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwNotarFoto2.cs" line="19" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwNotarFoto2.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_notar_foto2_1aa6b8ff43f4093ca2735103eda7b493da" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.vwNotarFoto2.FotoSonenavnFork</definition>
+        <argsstring></argsstring>
+        <name>FotoSonenavnFork</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwNotarFoto2.cs" line="20" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwNotarFoto2.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_notar_foto2_1a99da8933ea51d71423c081fd1462898d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; byte &gt;</type>
+        <definition>Nullable&lt;byte&gt; Webassistenten_ads_api.vwNotarFoto2.FakturaOK</definition>
+        <argsstring></argsstring>
+        <name>FakturaOK</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwNotarFoto2.cs" line="21" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwNotarFoto2.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_notar_foto2_1ad7097a67d5dfd345f178706a1e649af4" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>long</type>
+        <definition>long Webassistenten_ads_api.vwNotarFoto2.FotooppdragID</definition>
+        <argsstring></argsstring>
+        <name>FotooppdragID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwNotarFoto2.cs" line="22" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwNotarFoto2.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_notar_foto2_1a61aed9b3764edcfe022583d34c499e69" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.vwNotarFoto2.Etternavn</definition>
+        <argsstring></argsstring>
+        <name>Etternavn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwNotarFoto2.cs" line="23" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwNotarFoto2.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwNotarFoto2.cs" line="16" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwNotarFoto2.cs" bodystart="15" bodyend="24"/>
+    <listofallmembers>
+      <member refid="class_webassistenten__ads__api_1_1vw_notar_foto2_1a1464d2df072536beaf778cd1a4371e4a" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwNotarFoto2</scope><name>Adresse</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_notar_foto2_1aa0600d5a4d898cae7295a13afba2347d" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwNotarFoto2</scope><name>DatoBooking</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_notar_foto2_1a61aed9b3764edcfe022583d34c499e69" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwNotarFoto2</scope><name>Etternavn</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_notar_foto2_1a99da8933ea51d71423c081fd1462898d" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwNotarFoto2</scope><name>FakturaOK</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_notar_foto2_1ad7097a67d5dfd345f178706a1e649af4" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwNotarFoto2</scope><name>FotooppdragID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_notar_foto2_1aecd15e7eec594ef7a02ced336b28a299" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwNotarFoto2</scope><name>FotoSonenavn</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_notar_foto2_1aa6b8ff43f4093ca2735103eda7b493da" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwNotarFoto2</scope><name>FotoSonenavnFork</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

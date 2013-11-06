@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="namespace_webassistenten__ads__api_1_1_areas_1_1_help_page" kind="namespace">
+    <compoundname>Webassistenten_ads_api::Areas::HelpPage</compoundname>
+    <innerclass refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_api_description_extensions" prot="public">Webassistenten_ads_api::Areas::HelpPage::ApiDescriptionExtensions</innerclass>
+    <innerclass refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_config" prot="public">Webassistenten_ads_api::Areas::HelpPage::HelpPageConfig</innerclass>
+    <innerclass refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_area_registration" prot="public">Webassistenten_ads_api::Areas::HelpPage::HelpPageAreaRegistration</innerclass>
+    <innerclass refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_configuration_extensions" prot="public">Webassistenten_ads_api::Areas::HelpPage::HelpPageConfigurationExtensions</innerclass>
+    <innerclass refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_sample_generator" prot="public">Webassistenten_ads_api::Areas::HelpPage::HelpPageSampleGenerator</innerclass>
+    <innerclass refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_sample_key" prot="public">Webassistenten_ads_api::Areas::HelpPage::HelpPageSampleKey</innerclass>
+    <innerclass refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_image_sample" prot="public">Webassistenten_ads_api::Areas::HelpPage::ImageSample</innerclass>
+    <innerclass refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_invalid_sample" prot="public">Webassistenten_ads_api::Areas::HelpPage::InvalidSample</innerclass>
+    <innerclass refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_object_generator" prot="public">Webassistenten_ads_api::Areas::HelpPage::ObjectGenerator</innerclass>
+    <innerclass refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_text_sample" prot="public">Webassistenten_ads_api::Areas::HelpPage::TextSample</innerclass>
+    <innerclass refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_xml_documentation_provider" prot="public">Webassistenten_ads_api::Areas::HelpPage::XmlDocumentationProvider</innerclass>
+    <innernamespace refid="namespace_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_controllers">Webassistenten_ads_api::Areas::HelpPage::Controllers</innernamespace>
+    <innernamespace refid="namespace_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_models">Webassistenten_ads_api::Areas::HelpPage::Models</innernamespace>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespace_webassistenten__ads__api_1_1_areas_1_1_help_page_1a38d5fcf81e5babdbb8b937bdb9b71641" prot="public" static="no">
+        <name>SampleDirection</name>
+        <enumvalue id="namespace_webassistenten__ads__api_1_1_areas_1_1_help_page_1a38d5fcf81e5babdbb8b937bdb9b71641" prot="public">
+          <name>Request</name>
+          <initializer> 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_webassistenten__ads__api_1_1_areas_1_1_help_page_1a38d5fcf81e5babdbb8b937bdb9b71641" prot="public">
+          <name>Response</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Indicates whether the sample is used for request or response </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/SampleDirection.cs" line="7" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/SampleDirection.cs" bodystart="6" bodyend="10"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/ApiDescriptionExtensions.cs" line="7"/>
+  </compounddef>
+</doxygen>

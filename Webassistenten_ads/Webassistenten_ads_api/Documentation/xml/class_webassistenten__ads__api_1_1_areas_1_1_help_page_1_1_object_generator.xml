@@ -1,0 +1,407 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_object_generator" kind="class" prot="public">
+    <compoundname>Webassistenten_ads_api::Areas::HelpPage::ObjectGenerator</compoundname>
+    <innerclass refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_object_generator_1_1_simple_type_object_generator" prot="private">Webassistenten_ads_api::Areas::HelpPage::ObjectGenerator::SimpleTypeObjectGenerator</innerclass>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_object_generator_1af29321f69c6dd0b2b483afa74b45de1a" prot="private" static="no" mutable="no">
+        <type>const int</type>
+        <definition>const int Webassistenten_ads_api.Areas.HelpPage.ObjectGenerator.DefaultCollectionSize</definition>
+        <argsstring></argsstring>
+        <name>DefaultCollectionSize</name>
+        <initializer> 3</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/ObjectGenerator.cs" line="16" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/ObjectGenerator.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_object_generator_1a28a997699a48d9c4f51c9e1adee94f49" prot="private" static="no" mutable="no">
+        <type>readonly SimpleTypeObjectGenerator</type>
+        <definition>readonly SimpleTypeObjectGenerator Webassistenten_ads_api.Areas.HelpPage.ObjectGenerator.SimpleObjectGenerator</definition>
+        <argsstring></argsstring>
+        <name>SimpleObjectGenerator</name>
+        <initializer> new SimpleTypeObjectGenerator()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/ObjectGenerator.cs" line="17" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/ObjectGenerator.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_object_generator_1a8239ed3643c20540204b15492d70920d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>object</type>
+        <definition>object Webassistenten_ads_api.Areas.HelpPage.ObjectGenerator.GenerateObject</definition>
+        <argsstring>(Type type)</argsstring>
+        <name>GenerateObject</name>
+        <param>
+          <type>Type</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+<para>Generates an object for a given type. The type needs to be public, have a public default constructor and settable public properties/fields. Currently it supports the following types: Simple types: int, string, Enum, DateTime, Uri, etc. Complex types: POCO types. Nullables: Nullable{T}. Arrays: arrays of simple types or complex types. Key value pairs: KeyValuePair{TKey,TValue} Tuples: Tuple{T1}, Tuple{T1,T2}, etc Dictionaries: IDictionary{TKey,TValue} or anything deriving from IDictionary{TKey,TValue}. Collections: IList{T}, IEnumerable{T}, ICollection{T}, IList, IEnumerable, ICollection or anything deriving from ICollection{T} or IList. Queryables: IQueryable, IQueryable{T}. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The type.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>An object of the given type.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/ObjectGenerator.cs" line="34" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/ObjectGenerator.cs" bodystart="33" bodyend="36"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_object_generator_1a139fe643d6db7a62e23479d570bacd58" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>object</type>
+        <definition>object Webassistenten_ads_api.Areas.HelpPage.ObjectGenerator.GenerateObject</definition>
+        <argsstring>(Type type, Dictionary&lt; Type, object &gt; createdObjectReferences)</argsstring>
+        <name>GenerateObject</name>
+        <param>
+          <type>Type</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>Dictionary&lt; Type, object &gt;</type>
+          <declname>createdObjectReferences</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/ObjectGenerator.cs" line="40" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/ObjectGenerator.cs" bodystart="39" bodyend="102"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_object_generator_1adde5d0040cc137529cbdd642804a2bc0" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>object</type>
+        <definition>static object Webassistenten_ads_api.Areas.HelpPage.ObjectGenerator.GenerateGenericType</definition>
+        <argsstring>(Type type, int collectionSize, Dictionary&lt; Type, object &gt; createdObjectReferences)</argsstring>
+        <name>GenerateGenericType</name>
+        <param>
+          <type>Type</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>collectionSize</declname>
+        </param>
+        <param>
+          <type>Dictionary&lt; Type, object &gt;</type>
+          <declname>createdObjectReferences</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/ObjectGenerator.cs" line="105" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/ObjectGenerator.cs" bodystart="104" bodyend="166"/>
+      </memberdef>
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_object_generator_1af387e911c71f73f0c94c6d999df98da5" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>object</type>
+        <definition>static object Webassistenten_ads_api.Areas.HelpPage.ObjectGenerator.GenerateTuple</definition>
+        <argsstring>(Type type, Dictionary&lt; Type, object &gt; createdObjectReferences)</argsstring>
+        <name>GenerateTuple</name>
+        <param>
+          <type>Type</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>Dictionary&lt; Type, object &gt;</type>
+          <declname>createdObjectReferences</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/ObjectGenerator.cs" line="169" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/ObjectGenerator.cs" bodystart="168" bodyend="185"/>
+      </memberdef>
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_object_generator_1af873042da4acdfdee343800883da255b" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Webassistenten_ads_api.Areas.HelpPage.ObjectGenerator.IsTuple</definition>
+        <argsstring>(Type genericTypeDefinition)</argsstring>
+        <name>IsTuple</name>
+        <param>
+          <type>Type</type>
+          <declname>genericTypeDefinition</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/ObjectGenerator.cs" line="188" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/ObjectGenerator.cs" bodystart="187" bodyend="197"/>
+      </memberdef>
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_object_generator_1afbbb18f8ae09db00d83e8616695f8215" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>object</type>
+        <definition>static object Webassistenten_ads_api.Areas.HelpPage.ObjectGenerator.GenerateKeyValuePair</definition>
+        <argsstring>(Type keyValuePairType, Dictionary&lt; Type, object &gt; createdObjectReferences)</argsstring>
+        <name>GenerateKeyValuePair</name>
+        <param>
+          <type>Type</type>
+          <declname>keyValuePairType</declname>
+        </param>
+        <param>
+          <type>Dictionary&lt; Type, object &gt;</type>
+          <declname>createdObjectReferences</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/ObjectGenerator.cs" line="200" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/ObjectGenerator.cs" bodystart="199" bodyend="214"/>
+      </memberdef>
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_object_generator_1ac29a1657fd22066e38f5857efc6c50fb" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>object</type>
+        <definition>static object Webassistenten_ads_api.Areas.HelpPage.ObjectGenerator.GenerateArray</definition>
+        <argsstring>(Type arrayType, int size, Dictionary&lt; Type, object &gt; createdObjectReferences)</argsstring>
+        <name>GenerateArray</name>
+        <param>
+          <type>Type</type>
+          <declname>arrayType</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>Dictionary&lt; Type, object &gt;</type>
+          <declname>createdObjectReferences</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/ObjectGenerator.cs" line="217" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/ObjectGenerator.cs" bodystart="216" bodyend="235"/>
+      </memberdef>
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_object_generator_1a3a120f28c8ade11c15e3405f2d2a79d8" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>object</type>
+        <definition>static object Webassistenten_ads_api.Areas.HelpPage.ObjectGenerator.GenerateDictionary</definition>
+        <argsstring>(Type dictionaryType, int size, Dictionary&lt; Type, object &gt; createdObjectReferences)</argsstring>
+        <name>GenerateDictionary</name>
+        <param>
+          <type>Type</type>
+          <declname>dictionaryType</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>Dictionary&lt; Type, object &gt;</type>
+          <declname>createdObjectReferences</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/ObjectGenerator.cs" line="238" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/ObjectGenerator.cs" bodystart="237" bodyend="270"/>
+      </memberdef>
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_object_generator_1a801f000c59e7f3ac6dbe994427fd1f9c" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>object</type>
+        <definition>static object Webassistenten_ads_api.Areas.HelpPage.ObjectGenerator.GenerateEnum</definition>
+        <argsstring>(Type enumType)</argsstring>
+        <name>GenerateEnum</name>
+        <param>
+          <type>Type</type>
+          <declname>enumType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/ObjectGenerator.cs" line="273" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/ObjectGenerator.cs" bodystart="272" bodyend="280"/>
+      </memberdef>
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_object_generator_1aa4d18e11d87b52eb2d28ac180b2c324d" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>object</type>
+        <definition>static object Webassistenten_ads_api.Areas.HelpPage.ObjectGenerator.GenerateQueryable</definition>
+        <argsstring>(Type queryableType, int size, Dictionary&lt; Type, object &gt; createdObjectReferences)</argsstring>
+        <name>GenerateQueryable</name>
+        <param>
+          <type>Type</type>
+          <declname>queryableType</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>Dictionary&lt; Type, object &gt;</type>
+          <declname>createdObjectReferences</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/ObjectGenerator.cs" line="283" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/ObjectGenerator.cs" bodystart="282" bodyend="307"/>
+      </memberdef>
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_object_generator_1a18966522b4a428c68e0e929bffcdc31a" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>object</type>
+        <definition>static object Webassistenten_ads_api.Areas.HelpPage.ObjectGenerator.GenerateCollection</definition>
+        <argsstring>(Type collectionType, int size, Dictionary&lt; Type, object &gt; createdObjectReferences)</argsstring>
+        <name>GenerateCollection</name>
+        <param>
+          <type>Type</type>
+          <declname>collectionType</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>Dictionary&lt; Type, object &gt;</type>
+          <declname>createdObjectReferences</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/ObjectGenerator.cs" line="310" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/ObjectGenerator.cs" bodystart="309" bodyend="331"/>
+      </memberdef>
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_object_generator_1a351abec983a28846f6cd96c258fab3a2" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>object</type>
+        <definition>static object Webassistenten_ads_api.Areas.HelpPage.ObjectGenerator.GenerateNullable</definition>
+        <argsstring>(Type nullableType, Dictionary&lt; Type, object &gt; createdObjectReferences)</argsstring>
+        <name>GenerateNullable</name>
+        <param>
+          <type>Type</type>
+          <declname>nullableType</declname>
+        </param>
+        <param>
+          <type>Dictionary&lt; Type, object &gt;</type>
+          <declname>createdObjectReferences</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/ObjectGenerator.cs" line="334" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/ObjectGenerator.cs" bodystart="333" bodyend="338"/>
+      </memberdef>
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_object_generator_1aedb57f90b39f0a2ed6c79fdf4cb3875d" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>object</type>
+        <definition>static object Webassistenten_ads_api.Areas.HelpPage.ObjectGenerator.GenerateComplexObject</definition>
+        <argsstring>(Type type, Dictionary&lt; Type, object &gt; createdObjectReferences)</argsstring>
+        <name>GenerateComplexObject</name>
+        <param>
+          <type>Type</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>Dictionary&lt; Type, object &gt;</type>
+          <declname>createdObjectReferences</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/ObjectGenerator.cs" line="341" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/ObjectGenerator.cs" bodystart="340" bodyend="369"/>
+      </memberdef>
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_object_generator_1a112d098937a895d53205d6a88f9d0813" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Webassistenten_ads_api.Areas.HelpPage.ObjectGenerator.SetPublicProperties</definition>
+        <argsstring>(Type type, object obj, Dictionary&lt; Type, object &gt; createdObjectReferences)</argsstring>
+        <name>SetPublicProperties</name>
+        <param>
+          <type>Type</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type>Dictionary&lt; Type, object &gt;</type>
+          <declname>createdObjectReferences</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/ObjectGenerator.cs" line="372" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/ObjectGenerator.cs" bodystart="371" bodyend="383"/>
+      </memberdef>
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_object_generator_1ab77b80412090c288ab97184a0b02bc00" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Webassistenten_ads_api.Areas.HelpPage.ObjectGenerator.SetPublicFields</definition>
+        <argsstring>(Type type, object obj, Dictionary&lt; Type, object &gt; createdObjectReferences)</argsstring>
+        <name>SetPublicFields</name>
+        <param>
+          <type>Type</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>obj</declname>
+        </param>
+        <param>
+          <type>Dictionary&lt; Type, object &gt;</type>
+          <declname>createdObjectReferences</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/ObjectGenerator.cs" line="386" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/ObjectGenerator.cs" bodystart="385" bodyend="394"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class will create an object of a given type and populate it with sample data. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/ObjectGenerator.cs" line="15" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/ObjectGenerator.cs" bodystart="14" bodyend="455"/>
+    <listofallmembers>
+      <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_object_generator_1af29321f69c6dd0b2b483afa74b45de1a" prot="private" virt="non-virtual"><scope>Webassistenten_ads_api::Areas::HelpPage::ObjectGenerator</scope><name>DefaultCollectionSize</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_object_generator_1ac29a1657fd22066e38f5857efc6c50fb" prot="private" virt="non-virtual"><scope>Webassistenten_ads_api::Areas::HelpPage::ObjectGenerator</scope><name>GenerateArray</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_object_generator_1a18966522b4a428c68e0e929bffcdc31a" prot="private" virt="non-virtual"><scope>Webassistenten_ads_api::Areas::HelpPage::ObjectGenerator</scope><name>GenerateCollection</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_object_generator_1aedb57f90b39f0a2ed6c79fdf4cb3875d" prot="private" virt="non-virtual"><scope>Webassistenten_ads_api::Areas::HelpPage::ObjectGenerator</scope><name>GenerateComplexObject</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_object_generator_1a3a120f28c8ade11c15e3405f2d2a79d8" prot="private" virt="non-virtual"><scope>Webassistenten_ads_api::Areas::HelpPage::ObjectGenerator</scope><name>GenerateDictionary</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_object_generator_1a801f000c59e7f3ac6dbe994427fd1f9c" prot="private" virt="non-virtual"><scope>Webassistenten_ads_api::Areas::HelpPage::ObjectGenerator</scope><name>GenerateEnum</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_object_generator_1adde5d0040cc137529cbdd642804a2bc0" prot="private" virt="non-virtual"><scope>Webassistenten_ads_api::Areas::HelpPage::ObjectGenerator</scope><name>GenerateGenericType</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_object_generator_1afbbb18f8ae09db00d83e8616695f8215" prot="private" virt="non-virtual"><scope>Webassistenten_ads_api::Areas::HelpPage::ObjectGenerator</scope><name>GenerateKeyValuePair</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_object_generator_1a351abec983a28846f6cd96c258fab3a2" prot="private" virt="non-virtual"><scope>Webassistenten_ads_api::Areas::HelpPage::ObjectGenerator</scope><name>GenerateNullable</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_object_generator_1a8239ed3643c20540204b15492d70920d" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Areas::HelpPage::ObjectGenerator</scope><name>GenerateObject</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_object_generator_1a139fe643d6db7a62e23479d570bacd58" prot="private" virt="non-virtual"><scope>Webassistenten_ads_api::Areas::HelpPage::ObjectGenerator</scope><name>GenerateObject</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_object_generator_1aa4d18e11d87b52eb2d28ac180b2c324d" prot="private" virt="non-virtual"><scope>Webassistenten_ads_api::Areas::HelpPage::ObjectGenerator</scope><name>GenerateQueryable</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_object_generator_1af387e911c71f73f0c94c6d999df98da5" prot="private" virt="non-virtual"><scope>Webassistenten_ads_api::Areas::HelpPage::ObjectGenerator</scope><name>GenerateTuple</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_object_generator_1af873042da4acdfdee343800883da255b" prot="private" virt="non-virtual"><scope>Webassistenten_ads_api::Areas::HelpPage::ObjectGenerator</scope><name>IsTuple</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_object_generator_1ab77b80412090c288ab97184a0b02bc00" prot="private" virt="non-virtual"><scope>Webassistenten_ads_api::Areas::HelpPage::ObjectGenerator</scope><name>SetPublicFields</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_object_generator_1a112d098937a895d53205d6a88f9d0813" prot="private" virt="non-virtual"><scope>Webassistenten_ads_api::Areas::HelpPage::ObjectGenerator</scope><name>SetPublicProperties</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_object_generator_1a28a997699a48d9c4f51c9e1adee94f49" prot="private" virt="non-virtual"><scope>Webassistenten_ads_api::Areas::HelpPage::ObjectGenerator</scope><name>SimpleObjectGenerator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

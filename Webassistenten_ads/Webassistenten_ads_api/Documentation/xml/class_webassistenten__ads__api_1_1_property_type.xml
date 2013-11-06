@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="class_webassistenten__ads__api_1_1_property_type" kind="class" prot="public">
+    <compoundname>Webassistenten_ads_api::PropertyType</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_property_type_1a5d4c479dd308f92703ed21f443f13467" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Webassistenten_ads_api.PropertyType.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/PropertyType.cs" line="17" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/PropertyType.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_property_type_1a9eb8b17abb118af3b8f206160690ac21" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Webassistenten_ads_api.PropertyType.PropertyType</definition>
+        <argsstring>(int id)</argsstring>
+        <name>PropertyType</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>Initializes a new instance of the Webassistenten_ads.PropertyType class. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Identifier.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/PropertyType.cs" line="13" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/PropertyType.cs" bodystart="12" bodyend="15"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/PropertyType.cs" line="6" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/PropertyType.cs" bodystart="5" bodyend="18"/>
+    <listofallmembers>
+      <member refid="class_webassistenten__ads__api_1_1_property_type_1a5d4c479dd308f92703ed21f443f13467" prot="private" virt="non-virtual"><scope>Webassistenten_ads_api::PropertyType</scope><name>Id</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_property_type_1a9eb8b17abb118af3b8f206160690ac21" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::PropertyType</scope><name>PropertyType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

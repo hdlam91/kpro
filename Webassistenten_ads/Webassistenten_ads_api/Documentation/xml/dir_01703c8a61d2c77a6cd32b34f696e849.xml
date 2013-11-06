@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="dir_01703c8a61d2c77a6cd32b34f696e849" kind="dir">
+    <compoundname>App_Start/</compoundname>
+    <innerfile refid="_bundle_config_8cs">BundleConfig.cs</innerfile>
+    <innerfile refid="_filter_config_8cs">FilterConfig.cs</innerfile>
+    <innerfile refid="_route_config_8cs">RouteConfig.cs</innerfile>
+    <innerfile refid="_web_api_config_8cs">WebApiConfig.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/App_Start/"/>
+  </compounddef>
+</doxygen>

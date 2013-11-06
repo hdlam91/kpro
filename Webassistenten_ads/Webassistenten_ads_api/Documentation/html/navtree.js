@@ -2,7 +2,11 @@ var NAVTREE =
 [
   [ "Webassistenten WebAPI", "index.html", [
     [ "Packages", null, [
-      [ "Packages", "namespaces.html", "namespaces" ]
+      [ "Packages", "namespaces.html", "namespaces" ],
+      [ "Package Functions", "namespacemembers.html", [
+        [ "All", "namespacemembers.html", null ],
+        [ "Enumerations", "namespacemembers_enum.html", null ]
+      ] ]
     ] ],
     [ "Classes", null, [
       [ "Class List", "annotated.html", "annotated" ],
@@ -10,15 +14,40 @@ var NAVTREE =
       [ "Class Hierarchy", "hierarchy.html", "hierarchy" ],
       [ "Class Members", "functions.html", [
         [ "All", "functions.html", null ],
-        [ "Functions", "functions_func.html", null ]
+        [ "Functions", "functions_func.html", null ],
+        [ "Properties", "functions_prop.html", null ]
       ] ]
+    ] ],
+    [ "Files", null, [
+      [ "File List", "files.html", "files" ]
     ] ]
   ] ]
 ];
 
 var NAVTREEINDEX =
 [
-"annotated.html"
+"_ad_handler_logic_8cs_source.html",
+"class_webassistenten__ads__api_1_1_bilde.html#a648bb8c390a220a3f1da4101f753fec8",
+"class_webassistenten__ads__api_1_1_bolig_entities1.html#a7808d62626520101fef82113a0eff090",
+"class_webassistenten__ads__api_1_1_bolig_entities1.html#af783c02aa72b3dcbafa3c69ae0f99850",
+"class_webassistenten__ads__api_1_1_foto_statu.html#af8db089f347ba3354e582356e7a332ca",
+"class_webassistenten__ads__api_1_1_partner.html#a11b989fc71a14217313584d4b7d115db",
+"class_webassistenten__ads__api_1_1_prospekt.html#af4496f1e4d4bef5cd2c7cf0bf1a1a57f",
+"class_webassistenten__ads__api_1_1sp___f_i_n_n_t_r_a_n_s___hent_fotooppdrag_partner___result.html#aa12e057c783c53469b6c6e720c2e5017",
+"class_webassistenten__ads__api_1_1sp___hent_firma_bruker_har_produkt___result.html#a31ad9d2fa3756586051a870f6392a702",
+"class_webassistenten__ads__api_1_1sp___hent_fotooppdrag_partner___result.html",
+"class_webassistenten__ads__api_1_1sp___hent_lock_alle___result.html#afde816ccb0e358a1c9c8fc294d769440",
+"class_webassistenten__ads__api_1_1sp___hent_produkter___result.html#a4200e89e6a552dc923c0d8cb9fbc651c",
+"class_webassistenten__ads__api_1_1sp___hent_prospekt_bestilling_liste_ordre___result.html#a6409829eb920d9ba406ce313aff7ff6c",
+"class_webassistenten__ads__api_1_1sp___hent_prospekt_ikke_bestilling_liste___result.html#a4fe4607324a6089bdfe8bfd3cbdae838",
+"class_webassistenten__ads__api_1_1sp___hent_prospekt_modul_info___result.html#af62a2d5ab311cc2ff6caa6151f6e9223",
+"class_webassistenten__ads__api_1_1sp___i_n_h___hent_firma_bruker_har_produkt___result.html#abd130a28f23f341167f1548d05b662a5",
+"class_webassistenten__ads__api_1_1sp___i_n_h___hent_prospekt_modul_info___result.html#a70d3071af95039b4b0da90437c86e51a",
+"class_webassistenten__ads__api_1_1sp___w_a_serv___hent_prospekt_bestilling_liste_ordre___result.html#a93d9a2a3377fe06482055d117bf30f30",
+"class_webassistenten__ads__api_1_1sp___w_s___hent_prospekt___result.html#afac5bc106b0a29508ff4ed68c4be8ed7",
+"class_webassistenten__ads__api_1_1vw_brukere.html#a8c1900ac04212b8945c73cf2467c58a4",
+"class_webassistenten__ads__api_1_1vw_partner_har_oppdrag_type.html#a197acbc457b8fb398ae7f4bcc667b653",
+"class_webassistenten__ads__api_1_1vw_sted.html#af8030ddffa110288ee268408b4ad3d5e"
 ];
 
 var navTreeSubIndices = new Array();

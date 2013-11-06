@@ -1,0 +1,540 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_sample_generator" kind="class" prot="public">
+    <compoundname>Webassistenten_ads_api::Areas::HelpPage::HelpPageSampleGenerator</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_sample_generator_1ac9567c26e59dec35c98b5631bb290ad0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>IDictionary&lt; <ref refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_sample_key" kindref="compound">HelpPageSampleKey</ref>, Type &gt;</type>
+        <definition>IDictionary&lt;HelpPageSampleKey, Type&gt; Webassistenten_ads_api.Areas.HelpPage.HelpPageSampleGenerator.ActualHttpMessageTypes</definition>
+        <argsstring></argsstring>
+        <name>ActualHttpMessageTypes</name>
+        <briefdescription>
+<para>Gets CLR types that are used as the content of HttpRequestMessage or HttpResponseMessage. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/HelpPageSampleGenerator.cs" line="36" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/HelpPageSampleGenerator.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_sample_generator_1aadf574f99adcc3c7fff99548b568efba" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>IDictionary&lt; <ref refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_sample_key" kindref="compound">HelpPageSampleKey</ref>, object &gt;</type>
+        <definition>IDictionary&lt;HelpPageSampleKey, object&gt; Webassistenten_ads_api.Areas.HelpPage.HelpPageSampleGenerator.ActionSamples</definition>
+        <argsstring></argsstring>
+        <name>ActionSamples</name>
+        <briefdescription>
+<para>Gets the objects that are used directly as samples for certain actions. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/HelpPageSampleGenerator.cs" line="41" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/HelpPageSampleGenerator.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_sample_generator_1a61e85083e6224b5b5a0ba9e0dcea1c06" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>IDictionary&lt; Type, object &gt;</type>
+        <definition>IDictionary&lt;Type, object&gt; Webassistenten_ads_api.Areas.HelpPage.HelpPageSampleGenerator.SampleObjects</definition>
+        <argsstring></argsstring>
+        <name>SampleObjects</name>
+        <briefdescription>
+<para>Gets the objects that are serialized as samples by the supported formatters. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/HelpPageSampleGenerator.cs" line="46" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/HelpPageSampleGenerator.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_sample_generator_1acc7deb4035658b3be2e425fe5b350829" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Webassistenten_ads_api.Areas.HelpPage.HelpPageSampleGenerator.HelpPageSampleGenerator</definition>
+        <argsstring>()</argsstring>
+        <name>HelpPageSampleGenerator</name>
+        <briefdescription>
+<para>Initializes a new instance of the <ref refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_sample_generator" kindref="compound">HelpPageSampleGenerator</ref> class. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/HelpPageSampleGenerator.cs" line="27" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/HelpPageSampleGenerator.cs" bodystart="26" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_sample_generator_1ab50b55a64c2bc2da5fa5f0c2fc4f13ec" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IDictionary&lt; MediaTypeHeaderValue, object &gt;</type>
+        <definition>IDictionary&lt;MediaTypeHeaderValue, object&gt; Webassistenten_ads_api.Areas.HelpPage.HelpPageSampleGenerator.GetSampleRequests</definition>
+        <argsstring>(ApiDescription api)</argsstring>
+        <name>GetSampleRequests</name>
+        <param>
+          <type>ApiDescription</type>
+          <declname>api</declname>
+        </param>
+        <briefdescription>
+<para>Gets the request body samples for a given ApiDescription. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>api</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The ApiDescription.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The samples keyed by media type.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/HelpPageSampleGenerator.cs" line="54" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/HelpPageSampleGenerator.cs" bodystart="53" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_sample_generator_1a931b10f5f19539f3eed4f7a8ffdeda39" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IDictionary&lt; MediaTypeHeaderValue, object &gt;</type>
+        <definition>IDictionary&lt;MediaTypeHeaderValue, object&gt; Webassistenten_ads_api.Areas.HelpPage.HelpPageSampleGenerator.GetSampleResponses</definition>
+        <argsstring>(ApiDescription api)</argsstring>
+        <name>GetSampleResponses</name>
+        <param>
+          <type>ApiDescription</type>
+          <declname>api</declname>
+        </param>
+        <briefdescription>
+<para>Gets the response body samples for a given ApiDescription. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>api</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The ApiDescription.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The samples keyed by media type.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/HelpPageSampleGenerator.cs" line="64" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/HelpPageSampleGenerator.cs" bodystart="63" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_sample_generator_1a4635a24806b30ac4d34aa1422f82f441" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>IDictionary&lt; MediaTypeHeaderValue, object &gt;</type>
+        <definition>virtual IDictionary&lt;MediaTypeHeaderValue, object&gt; Webassistenten_ads_api.Areas.HelpPage.HelpPageSampleGenerator.GetSample</definition>
+        <argsstring>(ApiDescription api, SampleDirection sampleDirection)</argsstring>
+        <name>GetSample</name>
+        <param>
+          <type>ApiDescription</type>
+          <declname>api</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_webassistenten__ads__api_1_1_areas_1_1_help_page_1a38d5fcf81e5babdbb8b937bdb9b71641" kindref="member">SampleDirection</ref></type>
+          <declname>sampleDirection</declname>
+        </param>
+        <briefdescription>
+<para>Gets the request or response body samples. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>api</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The ApiDescription.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>sampleDirection</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The value indicating whether the sample is for a request or for a response.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The samples keyed by media type.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/HelpPageSampleGenerator.cs" line="75" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/HelpPageSampleGenerator.cs" bodystart="74" bodyend="120"/>
+      </memberdef>
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_sample_generator_1a6ef1ad48d9ccc7620c304c497b279169" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>object</type>
+        <definition>virtual object Webassistenten_ads_api.Areas.HelpPage.HelpPageSampleGenerator.GetActionSample</definition>
+        <argsstring>(string controllerName, string actionName, IEnumerable&lt; string &gt; parameterNames, Type type, MediaTypeFormatter formatter, MediaTypeHeaderValue mediaType, SampleDirection sampleDirection)</argsstring>
+        <name>GetActionSample</name>
+        <param>
+          <type>string</type>
+          <declname>controllerName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>actionName</declname>
+        </param>
+        <param>
+          <type>IEnumerable&lt; string &gt;</type>
+          <declname>parameterNames</declname>
+        </param>
+        <param>
+          <type>Type</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>MediaTypeFormatter</type>
+          <declname>formatter</declname>
+        </param>
+        <param>
+          <type>MediaTypeHeaderValue</type>
+          <declname>mediaType</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_webassistenten__ads__api_1_1_areas_1_1_help_page_1a38d5fcf81e5babdbb8b937bdb9b71641" kindref="member">SampleDirection</ref></type>
+          <declname>sampleDirection</declname>
+        </param>
+        <briefdescription>
+<para>Search for samples that are provided directly through <ref refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_sample_generator_1aadf574f99adcc3c7fff99548b568efba" kindref="member">ActionSamples</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>controllerName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Name of the controller.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>actionName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Name of the action.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>parameterNames</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The parameter names.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The CLR type.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>formatter</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The formatter.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>mediaType</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The media type.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>sampleDirection</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The value indicating whether the sample is for a request or for a response.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The sample that matches the parameters.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/HelpPageSampleGenerator.cs" line="134" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/HelpPageSampleGenerator.cs" bodystart="133" bodyend="148"/>
+      </memberdef>
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_sample_generator_1a21abdec2533c23080caf2f1545b5b1c1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>object</type>
+        <definition>virtual object Webassistenten_ads_api.Areas.HelpPage.HelpPageSampleGenerator.GetSampleObject</definition>
+        <argsstring>(Type type)</argsstring>
+        <name>GetSampleObject</name>
+        <param>
+          <type>Type</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+<para>Gets the sample object that will be serialized by the formatters. First, it will look at the <ref refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_sample_generator_1a61e85083e6224b5b5a0ba9e0dcea1c06" kindref="member">SampleObjects</ref>. If no sample object is found, it will try to create one using <ref refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_object_generator" kindref="compound">ObjectGenerator</ref>. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The type.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>The sample object.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/HelpPageSampleGenerator.cs" line="157" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/HelpPageSampleGenerator.cs" bodystart="156" bodyend="168"/>
+      </memberdef>
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_sample_generator_1af684af28a356d264bc33d57e52d8dc7e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>Type</type>
+        <definition>virtual Type Webassistenten_ads_api.Areas.HelpPage.HelpPageSampleGenerator.ResolveType</definition>
+        <argsstring>(ApiDescription api, string controllerName, string actionName, IEnumerable&lt; string &gt; parameterNames, SampleDirection sampleDirection, out Collection&lt; MediaTypeFormatter &gt; formatters)</argsstring>
+        <name>ResolveType</name>
+        <param>
+          <type>ApiDescription</type>
+          <declname>api</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>controllerName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>actionName</declname>
+        </param>
+        <param>
+          <type>IEnumerable&lt; string &gt;</type>
+          <declname>parameterNames</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_webassistenten__ads__api_1_1_areas_1_1_help_page_1a38d5fcf81e5babdbb8b937bdb9b71641" kindref="member">SampleDirection</ref></type>
+          <declname>sampleDirection</declname>
+        </param>
+        <param>
+          <type>out Collection&lt; MediaTypeFormatter &gt;</type>
+          <declname>formatters</declname>
+        </param>
+        <briefdescription>
+<para>Resolves the type of the action parameter or return value when HttpRequestMessage or HttpResponseMessage is used. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>api</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The ApiDescription.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>controllerName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Name of the controller.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>actionName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Name of the action.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>parameterNames</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The parameter names.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>sampleDirection</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The value indicating whether the sample is for a request or a response.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>formatters</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The formatters.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/HelpPageSampleGenerator.cs" line="181" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/HelpPageSampleGenerator.cs" bodystart="180" bodyend="223"/>
+      </memberdef>
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_sample_generator_1a07bbb4d7cf931bc3018f24a6dc8bda2f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>object</type>
+        <definition>virtual object Webassistenten_ads_api.Areas.HelpPage.HelpPageSampleGenerator.WriteSampleObjectUsingFormatter</definition>
+        <argsstring>(MediaTypeFormatter formatter, object value, Type type, MediaTypeHeaderValue mediaType)</argsstring>
+        <name>WriteSampleObjectUsingFormatter</name>
+        <param>
+          <type>MediaTypeFormatter</type>
+          <declname>formatter</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>Type</type>
+          <declname>type</declname>
+        </param>
+        <param>
+          <type>MediaTypeHeaderValue</type>
+          <declname>mediaType</declname>
+        </param>
+        <briefdescription>
+<para>Writes the sample object using formatter. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>formatter</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The formatter.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>value</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The value.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>type</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The type.</para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>mediaType</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Type of the media.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/HelpPageSampleGenerator.cs" line="235" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/HelpPageSampleGenerator.cs" bodystart="234" bodyend="301"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_sample_generator_1accb985950ff130c001c0c5c447156de5" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string Webassistenten_ads_api.Areas.HelpPage.HelpPageSampleGenerator.TryFormatJson</definition>
+        <argsstring>(string str)</argsstring>
+        <name>TryFormatJson</name>
+        <param>
+          <type>string</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/HelpPageSampleGenerator.cs" line="305" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/HelpPageSampleGenerator.cs" bodystart="304" bodyend="316"/>
+      </memberdef>
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_sample_generator_1a550be937b04c1a4daa321abe0da1d0a6" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string Webassistenten_ads_api.Areas.HelpPage.HelpPageSampleGenerator.TryFormatXml</definition>
+        <argsstring>(string str)</argsstring>
+        <name>TryFormatXml</name>
+        <param>
+          <type>string</type>
+          <declname>str</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/HelpPageSampleGenerator.cs" line="320" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/HelpPageSampleGenerator.cs" bodystart="319" bodyend="331"/>
+      </memberdef>
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_sample_generator_1aecff8cb0105aa52ae55675f9dddc51fd" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool Webassistenten_ads_api.Areas.HelpPage.HelpPageSampleGenerator.IsFormatSupported</definition>
+        <argsstring>(SampleDirection sampleDirection, MediaTypeFormatter formatter, Type type)</argsstring>
+        <name>IsFormatSupported</name>
+        <param>
+          <type><ref refid="namespace_webassistenten__ads__api_1_1_areas_1_1_help_page_1a38d5fcf81e5babdbb8b937bdb9b71641" kindref="member">SampleDirection</ref></type>
+          <declname>sampleDirection</declname>
+        </param>
+        <param>
+          <type>MediaTypeFormatter</type>
+          <declname>formatter</declname>
+        </param>
+        <param>
+          <type>Type</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/HelpPageSampleGenerator.cs" line="334" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/HelpPageSampleGenerator.cs" bodystart="333" bodyend="343"/>
+      </memberdef>
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_sample_generator_1af0cde1488717ccb77301614674cb0419" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>object</type>
+        <definition>static object Webassistenten_ads_api.Areas.HelpPage.HelpPageSampleGenerator.WrapSampleIfString</definition>
+        <argsstring>(object sample)</argsstring>
+        <name>WrapSampleIfString</name>
+        <param>
+          <type>object</type>
+          <declname>sample</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/HelpPageSampleGenerator.cs" line="362" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/HelpPageSampleGenerator.cs" bodystart="361" bodyend="370"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_sample_generator_1a8113d713e631d7caa56fc9e866256d56" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerable&lt; KeyValuePair&lt; <ref refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_sample_key" kindref="compound">HelpPageSampleKey</ref>, object &gt; &gt;</type>
+        <definition>IEnumerable&lt;KeyValuePair&lt;HelpPageSampleKey, object&gt; &gt; Webassistenten_ads_api.Areas.HelpPage.HelpPageSampleGenerator.GetAllActionSamples</definition>
+        <argsstring>(string controllerName, string actionName, IEnumerable&lt; string &gt; parameterNames, SampleDirection sampleDirection)</argsstring>
+        <name>GetAllActionSamples</name>
+        <param>
+          <type>string</type>
+          <declname>controllerName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>actionName</declname>
+        </param>
+        <param>
+          <type>IEnumerable&lt; string &gt;</type>
+          <declname>parameterNames</declname>
+        </param>
+        <param>
+          <type><ref refid="namespace_webassistenten__ads__api_1_1_areas_1_1_help_page_1a38d5fcf81e5babdbb8b937bdb9b71641" kindref="member">SampleDirection</ref></type>
+          <declname>sampleDirection</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/HelpPageSampleGenerator.cs" line="346" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/HelpPageSampleGenerator.cs" bodystart="345" bodyend="359"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class will generate the samples for the help page. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/HelpPageSampleGenerator.cs" line="22" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/HelpPageSampleGenerator.cs" bodystart="21" bodyend="371"/>
+    <listofallmembers>
+      <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_sample_generator_1aadf574f99adcc3c7fff99548b568efba" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Areas::HelpPage::HelpPageSampleGenerator</scope><name>ActionSamples</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_sample_generator_1ac9567c26e59dec35c98b5631bb290ad0" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Areas::HelpPage::HelpPageSampleGenerator</scope><name>ActualHttpMessageTypes</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_sample_generator_1a6ef1ad48d9ccc7620c304c497b279169" prot="public" virt="virtual"><scope>Webassistenten_ads_api::Areas::HelpPage::HelpPageSampleGenerator</scope><name>GetActionSample</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_sample_generator_1a8113d713e631d7caa56fc9e866256d56" prot="private" virt="non-virtual"><scope>Webassistenten_ads_api::Areas::HelpPage::HelpPageSampleGenerator</scope><name>GetAllActionSamples</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_sample_generator_1a4635a24806b30ac4d34aa1422f82f441" prot="public" virt="virtual"><scope>Webassistenten_ads_api::Areas::HelpPage::HelpPageSampleGenerator</scope><name>GetSample</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_sample_generator_1a21abdec2533c23080caf2f1545b5b1c1" prot="public" virt="virtual"><scope>Webassistenten_ads_api::Areas::HelpPage::HelpPageSampleGenerator</scope><name>GetSampleObject</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_sample_generator_1ab50b55a64c2bc2da5fa5f0c2fc4f13ec" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Areas::HelpPage::HelpPageSampleGenerator</scope><name>GetSampleRequests</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_sample_generator_1a931b10f5f19539f3eed4f7a8ffdeda39" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Areas::HelpPage::HelpPageSampleGenerator</scope><name>GetSampleResponses</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_sample_generator_1acc7deb4035658b3be2e425fe5b350829" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Areas::HelpPage::HelpPageSampleGenerator</scope><name>HelpPageSampleGenerator</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_sample_generator_1aecff8cb0105aa52ae55675f9dddc51fd" prot="private" virt="non-virtual"><scope>Webassistenten_ads_api::Areas::HelpPage::HelpPageSampleGenerator</scope><name>IsFormatSupported</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_sample_generator_1af684af28a356d264bc33d57e52d8dc7e" prot="public" virt="virtual"><scope>Webassistenten_ads_api::Areas::HelpPage::HelpPageSampleGenerator</scope><name>ResolveType</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_sample_generator_1a61e85083e6224b5b5a0ba9e0dcea1c06" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Areas::HelpPage::HelpPageSampleGenerator</scope><name>SampleObjects</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_sample_generator_1accb985950ff130c001c0c5c447156de5" prot="private" virt="non-virtual"><scope>Webassistenten_ads_api::Areas::HelpPage::HelpPageSampleGenerator</scope><name>TryFormatJson</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_sample_generator_1a550be937b04c1a4daa321abe0da1d0a6" prot="private" virt="non-virtual"><scope>Webassistenten_ads_api::Areas::HelpPage::HelpPageSampleGenerator</scope><name>TryFormatXml</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_sample_generator_1af0cde1488717ccb77301614674cb0419" prot="private" virt="non-virtual"><scope>Webassistenten_ads_api::Areas::HelpPage::HelpPageSampleGenerator</scope><name>WrapSampleIfString</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_sample_generator_1a07bbb4d7cf931bc3018f24a6dc8bda2f" prot="public" virt="virtual"><scope>Webassistenten_ads_api::Areas::HelpPage::HelpPageSampleGenerator</scope><name>WriteSampleObjectUsingFormatter</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

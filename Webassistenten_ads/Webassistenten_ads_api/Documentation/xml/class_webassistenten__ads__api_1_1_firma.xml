@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="class_webassistenten__ads__api_1_1_firma" kind="class" prot="public">
+    <compoundname>Webassistenten_ads_api::Firma</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_firma_1a45902e36236abc8da15b980d49b6ed65" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Webassistenten_ads_api.Firma.FirmaID</definition>
+        <argsstring></argsstring>
+        <name>FirmaID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Firma.cs" line="23" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Firma.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_firma_1a665c1ff041f8d3b5aec9d6003c35907c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.Firma.Firmanavn</definition>
+        <argsstring></argsstring>
+        <name>Firmanavn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Firma.cs" line="24" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Firma.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_firma_1a6cfd919a009d377ee7e388b87765cdc8" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.Firma.Adresse</definition>
+        <argsstring></argsstring>
+        <name>Adresse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Firma.cs" line="25" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Firma.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_firma_1acf680e15226b610cc9b920ac4077dda4" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.Firma.Postadresse</definition>
+        <argsstring></argsstring>
+        <name>Postadresse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Firma.cs" line="26" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Firma.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_firma_1a19849cc60fd3eddcb52549dabebb0514" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.Firma.Postnr</definition>
+        <argsstring></argsstring>
+        <name>Postnr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Firma.cs" line="27" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Firma.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_firma_1a539ea608e2a7ca56bb1673805d2b8973" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.Firma.Poststed</definition>
+        <argsstring></argsstring>
+        <name>Poststed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Firma.cs" line="28" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Firma.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_firma_1aba2322b948ec91b5532737ea7640c49a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>ICollection&lt; <ref refid="class_webassistenten__ads__api_1_1_firma_bruker" kindref="compound">FirmaBruker</ref> &gt;</type>
+        <definition>virtual ICollection&lt;FirmaBruker&gt; Webassistenten_ads_api.Firma.FirmaBrukers</definition>
+        <argsstring></argsstring>
+        <name>FirmaBrukers</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Firma.cs" line="30" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Firma.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_firma_1a63bd7790f4fc0ea7395271f20fefae10" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>ICollection&lt; <ref refid="class_webassistenten__ads__api_1_1_firma_har_produkt" kindref="compound">FirmaHarProdukt</ref> &gt;</type>
+        <definition>virtual ICollection&lt;FirmaHarProdukt&gt; Webassistenten_ads_api.Firma.FirmaHarProdukts</definition>
+        <argsstring></argsstring>
+        <name>FirmaHarProdukts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Firma.cs" line="31" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Firma.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_firma_1a1841309a29212be91ebf78a90c1ecb76" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Webassistenten_ads_api.Firma.Firma</definition>
+        <argsstring>()</argsstring>
+        <name>Firma</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Firma.cs" line="18" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Firma.cs" bodystart="17" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Firma.cs" line="16" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Firma.cs" bodystart="15" bodyend="32"/>
+    <listofallmembers>
+      <member refid="class_webassistenten__ads__api_1_1_firma_1a6cfd919a009d377ee7e388b87765cdc8" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Firma</scope><name>Adresse</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_firma_1a1841309a29212be91ebf78a90c1ecb76" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Firma</scope><name>Firma</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_firma_1aba2322b948ec91b5532737ea7640c49a" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Firma</scope><name>FirmaBrukers</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_firma_1a63bd7790f4fc0ea7395271f20fefae10" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Firma</scope><name>FirmaHarProdukts</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_firma_1a45902e36236abc8da15b980d49b6ed65" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Firma</scope><name>FirmaID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_firma_1a665c1ff041f8d3b5aec9d6003c35907c" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Firma</scope><name>Firmanavn</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_firma_1acf680e15226b610cc9b920ac4077dda4" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Firma</scope><name>Postadresse</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_firma_1a19849cc60fd3eddcb52549dabebb0514" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Firma</scope><name>Postnr</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_firma_1a539ea608e2a7ca56bb1673805d2b8973" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Firma</scope><name>Poststed</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

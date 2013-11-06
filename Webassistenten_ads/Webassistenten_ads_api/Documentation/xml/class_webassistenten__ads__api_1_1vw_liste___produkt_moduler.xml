@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="class_webassistenten__ads__api_1_1vw_liste___produkt_moduler" kind="class" prot="public">
+    <compoundname>Webassistenten_ads_api::vwListe_ProduktModuler</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_liste___produkt_moduler_1a7e2309b8bed2307730d9844cd4035621" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.vwListe_ProduktModuler.Expr2</definition>
+        <argsstring></argsstring>
+        <name>Expr2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwListe_ProduktModuler.cs" line="17" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwListe_ProduktModuler.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_liste___produkt_moduler_1afb1965e54a5b6d1051802cfbb81aa8eb" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.vwListe_ProduktModuler.Expr1</definition>
+        <argsstring></argsstring>
+        <name>Expr1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwListe_ProduktModuler.cs" line="18" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwListe_ProduktModuler.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_liste___produkt_moduler_1aa2212c500eac4cf1ecd8d2f2a731c84d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Webassistenten_ads_api.vwListe_ProduktModuler.Expr3</definition>
+        <argsstring></argsstring>
+        <name>Expr3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwListe_ProduktModuler.cs" line="19" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwListe_ProduktModuler.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_liste___produkt_moduler_1a8bf2f081b4df3345d2104bb10b973625" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.vwListe_ProduktModuler.Modulfilnavn</definition>
+        <argsstring></argsstring>
+        <name>Modulfilnavn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwListe_ProduktModuler.cs" line="20" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwListe_ProduktModuler.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_liste___produkt_moduler_1a8aa5c4a3b8b9b09cfeb92705af4a0232" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.vwListe_ProduktModuler.Modulnavn</definition>
+        <argsstring></argsstring>
+        <name>Modulnavn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwListe_ProduktModuler.cs" line="21" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwListe_ProduktModuler.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_liste___produkt_moduler_1a80c4d68757e97fb9b26e681794e293d4" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.vwListe_ProduktModuler.Modulkode</definition>
+        <argsstring></argsstring>
+        <name>Modulkode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwListe_ProduktModuler.cs" line="22" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwListe_ProduktModuler.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_liste___produkt_moduler_1aa75339034235afcc0129aae6aade2a64" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.vwListe_ProduktModuler.Mål</definition>
+        <argsstring></argsstring>
+        <name>Mål</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwListe_ProduktModuler.cs" line="23" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwListe_ProduktModuler.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_liste___produkt_moduler_1a9427d01900cc166ca7491e40ca16fa74" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>byte</type>
+        <definition>byte Webassistenten_ads_api.vwListe_ProduktModuler.Antallbilder</definition>
+        <argsstring></argsstring>
+        <name>Antallbilder</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwListe_ProduktModuler.cs" line="24" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwListe_ProduktModuler.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwListe_ProduktModuler.cs" line="16" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwListe_ProduktModuler.cs" bodystart="15" bodyend="25"/>
+    <listofallmembers>
+      <member refid="class_webassistenten__ads__api_1_1vw_liste___produkt_moduler_1a9427d01900cc166ca7491e40ca16fa74" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwListe_ProduktModuler</scope><name>Antallbilder</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_liste___produkt_moduler_1afb1965e54a5b6d1051802cfbb81aa8eb" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwListe_ProduktModuler</scope><name>Expr1</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_liste___produkt_moduler_1a7e2309b8bed2307730d9844cd4035621" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwListe_ProduktModuler</scope><name>Expr2</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_liste___produkt_moduler_1aa2212c500eac4cf1ecd8d2f2a731c84d" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwListe_ProduktModuler</scope><name>Expr3</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_liste___produkt_moduler_1a8bf2f081b4df3345d2104bb10b973625" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwListe_ProduktModuler</scope><name>Modulfilnavn</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_liste___produkt_moduler_1a80c4d68757e97fb9b26e681794e293d4" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwListe_ProduktModuler</scope><name>Modulkode</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_liste___produkt_moduler_1a8aa5c4a3b8b9b09cfeb92705af4a0232" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwListe_ProduktModuler</scope><name>Modulnavn</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_liste___produkt_moduler_1aa75339034235afcc0129aae6aade2a64" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwListe_ProduktModuler</scope><name>Mål</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

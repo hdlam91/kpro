@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="class_webassistenten__ads__api_1_1_methods_to_implement" kind="class" prot="public">
+    <compoundname>Webassistenten_ads_api::MethodsToImplement</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_methods_to_implement_1a4753d16ff9d0a20e977879c9eba037a4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Webassistenten_ads_api.MethodsToImplement.MethodsToImplement</definition>
+        <argsstring>()</argsstring>
+        <name>MethodsToImplement</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/MethodsToImplement.cs" line="12" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/MethodsToImplement.cs" bodystart="11" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_methods_to_implement_1a1586674e233f25f3a789d3cc4b997b4b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerable&lt; <ref refid="class_webassistenten__ads__api_1_1_produkt" kindref="compound">Produkt</ref> &gt;</type>
+        <definition>IEnumerable&lt;Produkt&gt; Webassistenten_ads_api.MethodsToImplement.GetProducts</definition>
+        <argsstring>(byte partnerId)</argsstring>
+        <name>GetProducts</name>
+        <param>
+          <type>byte</type>
+          <declname>partnerId</declname>
+        </param>
+        <briefdescription>
+<para>Gets the available products for the given <ref refid="class_webassistenten__ads__api_1_1_partner" kindref="compound">Partner</ref> ID </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The products.</para></simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>partnerId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para><ref refid="class_webassistenten__ads__api_1_1_partner" kindref="compound">Partner</ref> identifier.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/MethodsToImplement.cs" line="21" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/MethodsToImplement.cs" bodystart="20" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_methods_to_implement_1a6e5b4370ba505204dad0403d094b6b41" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerable&lt; <ref refid="class_webassistenten__ads__api_1_1_modul" kindref="compound">Modul</ref> &gt;</type>
+        <definition>IEnumerable&lt;Modul&gt; Webassistenten_ads_api.MethodsToImplement.GetProductModules</definition>
+        <argsstring>(byte prodId)</argsstring>
+        <name>GetProductModules</name>
+        <param>
+          <type>byte</type>
+          <declname>prodId</declname>
+        </param>
+        <briefdescription>
+<para>Gets the available product modules for the given product. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The product modules.</para></simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>prodId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Product identifier.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/MethodsToImplement.cs" line="37" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/MethodsToImplement.cs" bodystart="36" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_methods_to_implement_1ad04aaeb011a8f13544c43a54b1c95655" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerable&lt; <ref refid="class_webassistenten__ads__api_1_1_produkt_utgivelse" kindref="compound">ProduktUtgivelse</ref> &gt;</type>
+        <definition>IEnumerable&lt;ProduktUtgivelse&gt; Webassistenten_ads_api.MethodsToImplement.GetNextFivePublishables</definition>
+        <argsstring>(byte prodId)</argsstring>
+        <name>GetNextFivePublishables</name>
+        <param>
+          <type>byte</type>
+          <declname>prodId</declname>
+        </param>
+        <briefdescription>
+<para>Gets the next five publishable dates for the given product id. </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>The next five publishables.</para></simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>prodId</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Product identifier.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/MethodsToImplement.cs" line="54" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/MethodsToImplement.cs" bodystart="53" bodyend="65"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/MethodsToImplement.cs" line="8" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/MethodsToImplement.cs" bodystart="7" bodyend="66"/>
+    <listofallmembers>
+      <member refid="class_webassistenten__ads__api_1_1_methods_to_implement_1ad04aaeb011a8f13544c43a54b1c95655" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::MethodsToImplement</scope><name>GetNextFivePublishables</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_methods_to_implement_1a6e5b4370ba505204dad0403d094b6b41" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::MethodsToImplement</scope><name>GetProductModules</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_methods_to_implement_1a1586674e233f25f3a789d3cc4b997b4b" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::MethodsToImplement</scope><name>GetProducts</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_methods_to_implement_1a4753d16ff9d0a20e977879c9eba037a4" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::MethodsToImplement</scope><name>MethodsToImplement</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

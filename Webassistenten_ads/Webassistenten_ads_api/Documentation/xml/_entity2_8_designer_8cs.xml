@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="_entity2_8_designer_8cs" kind="file">
+    <compoundname>Entity2.Designer.cs</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">﻿</highlight><highlight class="comment">//<sp/>Default<sp/>code<sp/>generation<sp/>is<sp/>disabled<sp/>for<sp/>model<sp/>&apos;D:\Documents\github\kpro\Webassistenten_ads\Webassistenten_ads_api\Entity2.edmx&apos;.<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>To<sp/>enable<sp/>default<sp/>code<sp/>generation,<sp/>change<sp/>the<sp/>value<sp/>of<sp/>the<sp/>&apos;Code<sp/>Generation<sp/>Strategy&apos;<sp/>designer</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/>property<sp/>to<sp/>an<sp/>alternate<sp/>value.<sp/>This<sp/>property<sp/>is<sp/>available<sp/>in<sp/>the<sp/>Properties<sp/>Window<sp/>when<sp/>the<sp/>model<sp/>is</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/>open<sp/>in<sp/>the<sp/>designer.</highlight><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Entity2.Designer.cs"/>
+  </compounddef>
+</doxygen>

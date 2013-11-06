@@ -1,0 +1,323 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="class_webassistenten__ads__api_1_1sp___hent_prospekt_har_bestilling_detaljer___result" kind="class" prot="public">
+    <compoundname>Webassistenten_ads_api::sp_HentProspektHarBestillingDetaljer_Result</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_prospekt_har_bestilling_detaljer___result_1ab9f3788a45a3bd749e45e7ef3714c6b5" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>long</type>
+        <definition>long Webassistenten_ads_api.sp_HentProspektHarBestillingDetaljer_Result.ProspektID</definition>
+        <argsstring></argsstring>
+        <name>ProspektID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProspektHarBestillingDetaljer_Result.cs" line="16" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProspektHarBestillingDetaljer_Result.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_prospekt_har_bestilling_detaljer___result_1a9cd79c2c8b14b62995585a960d81dffb" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>System.DateTime</type>
+        <definition>System.DateTime Webassistenten_ads_api.sp_HentProspektHarBestillingDetaljer_Result.DatoBest</definition>
+        <argsstring></argsstring>
+        <name>DatoBest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProspektHarBestillingDetaljer_Result.cs" line="17" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProspektHarBestillingDetaljer_Result.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_prospekt_har_bestilling_detaljer___result_1a4f7357bab99cffeb97eed1f7db9b48e6" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>byte</type>
+        <definition>byte Webassistenten_ads_api.sp_HentProspektHarBestillingDetaljer_Result.ProduktID</definition>
+        <argsstring></argsstring>
+        <name>ProduktID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProspektHarBestillingDetaljer_Result.cs" line="18" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProspektHarBestillingDetaljer_Result.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_prospekt_har_bestilling_detaljer___result_1aa56f21dcf94a1a272885c4b15606c231" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_HentProspektHarBestillingDetaljer_Result.Ordrenr</definition>
+        <argsstring></argsstring>
+        <name>Ordrenr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProspektHarBestillingDetaljer_Result.cs" line="19" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProspektHarBestillingDetaljer_Result.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_prospekt_har_bestilling_detaljer___result_1aa903bab604893832d5e50d018de75047" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; byte &gt;</type>
+        <definition>Nullable&lt;byte&gt; Webassistenten_ads_api.sp_HentProspektHarBestillingDetaljer_Result.Ordrestatus</definition>
+        <argsstring></argsstring>
+        <name>Ordrestatus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProspektHarBestillingDetaljer_Result.cs" line="20" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProspektHarBestillingDetaljer_Result.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_prospekt_har_bestilling_detaljer___result_1a88fc36740f5ea22bbc0a26617944a96b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Webassistenten_ads_api.sp_HentProspektHarBestillingDetaljer_Result.ModulID</definition>
+        <argsstring></argsstring>
+        <name>ModulID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProspektHarBestillingDetaljer_Result.cs" line="21" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProspektHarBestillingDetaljer_Result.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_prospekt_har_bestilling_detaljer___result_1aa3bd25a325e4eac4ce18a30e3935c7d6" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_HentProspektHarBestillingDetaljer_Result.Filnavn</definition>
+        <argsstring></argsstring>
+        <name>Filnavn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProspektHarBestillingDetaljer_Result.cs" line="22" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProspektHarBestillingDetaljer_Result.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_prospekt_har_bestilling_detaljer___result_1aadfb427805173d3cf6c39ac1d5bb85db" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_HentProspektHarBestillingDetaljer_Result.FilnavnProd</definition>
+        <argsstring></argsstring>
+        <name>FilnavnProd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProspektHarBestillingDetaljer_Result.cs" line="23" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProspektHarBestillingDetaljer_Result.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_prospekt_har_bestilling_detaljer___result_1a7ad5efd04d1afbc2783dc8e2083acd3f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; bool &gt;</type>
+        <definition>Nullable&lt;bool&gt; Webassistenten_ads_api.sp_HentProspektHarBestillingDetaljer_Result.Nyhet</definition>
+        <argsstring></argsstring>
+        <name>Nyhet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProspektHarBestillingDetaljer_Result.cs" line="24" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProspektHarBestillingDetaljer_Result.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_prospekt_har_bestilling_detaljer___result_1aa36f91a4acdc3a962fd1c6adbe5bb091" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; byte &gt;</type>
+        <definition>Nullable&lt;byte&gt; Webassistenten_ads_api.sp_HentProspektHarBestillingDetaljer_Result.Prisfaktor</definition>
+        <argsstring></argsstring>
+        <name>Prisfaktor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProspektHarBestillingDetaljer_Result.cs" line="25" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProspektHarBestillingDetaljer_Result.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_prospekt_har_bestilling_detaljer___result_1a7a4c9bb9a55ef69ac0a0510c8db3d4fe" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; System.DateTime &gt;</type>
+        <definition>Nullable&lt;System.DateTime&gt; Webassistenten_ads_api.sp_HentProspektHarBestillingDetaljer_Result.DatoReg</definition>
+        <argsstring></argsstring>
+        <name>DatoReg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProspektHarBestillingDetaljer_Result.cs" line="26" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProspektHarBestillingDetaljer_Result.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_prospekt_har_bestilling_detaljer___result_1aa4edbe8a16d3d1ef1317aa1c0821e6e6" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; System.DateTime &gt;</type>
+        <definition>Nullable&lt;System.DateTime&gt; Webassistenten_ads_api.sp_HentProspektHarBestillingDetaljer_Result.DatoEndret</definition>
+        <argsstring></argsstring>
+        <name>DatoEndret</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProspektHarBestillingDetaljer_Result.cs" line="27" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProspektHarBestillingDetaljer_Result.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_prospekt_har_bestilling_detaljer___result_1ae74de599b08811add5b0011116ceb40e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; System.DateTime &gt;</type>
+        <definition>Nullable&lt;System.DateTime&gt; Webassistenten_ads_api.sp_HentProspektHarBestillingDetaljer_Result.DatoGenPdf</definition>
+        <argsstring></argsstring>
+        <name>DatoGenPdf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProspektHarBestillingDetaljer_Result.cs" line="28" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProspektHarBestillingDetaljer_Result.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_prospekt_har_bestilling_detaljer___result_1a82d9c3e1f5ee13b19dc6c4f58df1f140" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; bool &gt;</type>
+        <definition>Nullable&lt;bool&gt; Webassistenten_ads_api.sp_HentProspektHarBestillingDetaljer_Result.ErGodkjentAvMegler</definition>
+        <argsstring></argsstring>
+        <name>ErGodkjentAvMegler</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProspektHarBestillingDetaljer_Result.cs" line="29" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProspektHarBestillingDetaljer_Result.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_prospekt_har_bestilling_detaljer___result_1a46827774b8f0873ef0aa44af4b84cd8b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; bool &gt;</type>
+        <definition>Nullable&lt;bool&gt; Webassistenten_ads_api.sp_HentProspektHarBestillingDetaljer_Result.GenTilProd</definition>
+        <argsstring></argsstring>
+        <name>GenTilProd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProspektHarBestillingDetaljer_Result.cs" line="30" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProspektHarBestillingDetaljer_Result.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_prospekt_har_bestilling_detaljer___result_1a910cf561563fc1985b123753533294a6" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; bool &gt;</type>
+        <definition>Nullable&lt;bool&gt; Webassistenten_ads_api.sp_HentProspektHarBestillingDetaljer_Result.PaaminnelseSendt</definition>
+        <argsstring></argsstring>
+        <name>PaaminnelseSendt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProspektHarBestillingDetaljer_Result.cs" line="31" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProspektHarBestillingDetaljer_Result.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_prospekt_har_bestilling_detaljer___result_1a520072205af5738cc7bc2ccf96a3bebb" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; int &gt;</type>
+        <definition>Nullable&lt;int&gt; Webassistenten_ads_api.sp_HentProspektHarBestillingDetaljer_Result.GodkjentAvBrukerID</definition>
+        <argsstring></argsstring>
+        <name>GodkjentAvBrukerID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProspektHarBestillingDetaljer_Result.cs" line="32" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProspektHarBestillingDetaljer_Result.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_prospekt_har_bestilling_detaljer___result_1a07509a5aa1fec6bc8157596f1406f309" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; bool &gt;</type>
+        <definition>Nullable&lt;bool&gt; Webassistenten_ads_api.sp_HentProspektHarBestillingDetaljer_Result.PDFEksportert</definition>
+        <argsstring></argsstring>
+        <name>PDFEksportert</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProspektHarBestillingDetaljer_Result.cs" line="33" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProspektHarBestillingDetaljer_Result.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_prospekt_har_bestilling_detaljer___result_1ad212d56d69d6092dc52e291a5ebe9b9c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_HentProspektHarBestillingDetaljer_Result.Dokument</definition>
+        <argsstring></argsstring>
+        <name>Dokument</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProspektHarBestillingDetaljer_Result.cs" line="34" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProspektHarBestillingDetaljer_Result.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_prospekt_har_bestilling_detaljer___result_1a7fbf6e4d127f1906f99429b17598beef" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_HentProspektHarBestillingDetaljer_Result.Katalog</definition>
+        <argsstring></argsstring>
+        <name>Katalog</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProspektHarBestillingDetaljer_Result.cs" line="35" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProspektHarBestillingDetaljer_Result.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_prospekt_har_bestilling_detaljer___result_1a3c1786a148076d3c85365ae7b2d2db18" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_HentProspektHarBestillingDetaljer_Result.Fornavn</definition>
+        <argsstring></argsstring>
+        <name>Fornavn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProspektHarBestillingDetaljer_Result.cs" line="36" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProspektHarBestillingDetaljer_Result.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_prospekt_har_bestilling_detaljer___result_1ac91270e6bb19fcc270380db13fe9eddb" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_HentProspektHarBestillingDetaljer_Result.Etternavn</definition>
+        <argsstring></argsstring>
+        <name>Etternavn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProspektHarBestillingDetaljer_Result.cs" line="37" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProspektHarBestillingDetaljer_Result.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProspektHarBestillingDetaljer_Result.cs" line="15" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProspektHarBestillingDetaljer_Result.cs" bodystart="14" bodyend="38"/>
+    <listofallmembers>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_prospekt_har_bestilling_detaljer___result_1a9cd79c2c8b14b62995585a960d81dffb" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentProspektHarBestillingDetaljer_Result</scope><name>DatoBest</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_prospekt_har_bestilling_detaljer___result_1aa4edbe8a16d3d1ef1317aa1c0821e6e6" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentProspektHarBestillingDetaljer_Result</scope><name>DatoEndret</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_prospekt_har_bestilling_detaljer___result_1ae74de599b08811add5b0011116ceb40e" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentProspektHarBestillingDetaljer_Result</scope><name>DatoGenPdf</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_prospekt_har_bestilling_detaljer___result_1a7a4c9bb9a55ef69ac0a0510c8db3d4fe" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentProspektHarBestillingDetaljer_Result</scope><name>DatoReg</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_prospekt_har_bestilling_detaljer___result_1ad212d56d69d6092dc52e291a5ebe9b9c" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentProspektHarBestillingDetaljer_Result</scope><name>Dokument</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_prospekt_har_bestilling_detaljer___result_1a82d9c3e1f5ee13b19dc6c4f58df1f140" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentProspektHarBestillingDetaljer_Result</scope><name>ErGodkjentAvMegler</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_prospekt_har_bestilling_detaljer___result_1ac91270e6bb19fcc270380db13fe9eddb" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentProspektHarBestillingDetaljer_Result</scope><name>Etternavn</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_prospekt_har_bestilling_detaljer___result_1aa3bd25a325e4eac4ce18a30e3935c7d6" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentProspektHarBestillingDetaljer_Result</scope><name>Filnavn</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_prospekt_har_bestilling_detaljer___result_1aadfb427805173d3cf6c39ac1d5bb85db" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentProspektHarBestillingDetaljer_Result</scope><name>FilnavnProd</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_prospekt_har_bestilling_detaljer___result_1a3c1786a148076d3c85365ae7b2d2db18" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentProspektHarBestillingDetaljer_Result</scope><name>Fornavn</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_prospekt_har_bestilling_detaljer___result_1a46827774b8f0873ef0aa44af4b84cd8b" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentProspektHarBestillingDetaljer_Result</scope><name>GenTilProd</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_prospekt_har_bestilling_detaljer___result_1a520072205af5738cc7bc2ccf96a3bebb" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentProspektHarBestillingDetaljer_Result</scope><name>GodkjentAvBrukerID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_prospekt_har_bestilling_detaljer___result_1a7fbf6e4d127f1906f99429b17598beef" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentProspektHarBestillingDetaljer_Result</scope><name>Katalog</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_prospekt_har_bestilling_detaljer___result_1a88fc36740f5ea22bbc0a26617944a96b" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentProspektHarBestillingDetaljer_Result</scope><name>ModulID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_prospekt_har_bestilling_detaljer___result_1a7ad5efd04d1afbc2783dc8e2083acd3f" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentProspektHarBestillingDetaljer_Result</scope><name>Nyhet</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_prospekt_har_bestilling_detaljer___result_1aa56f21dcf94a1a272885c4b15606c231" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentProspektHarBestillingDetaljer_Result</scope><name>Ordrenr</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_prospekt_har_bestilling_detaljer___result_1aa903bab604893832d5e50d018de75047" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentProspektHarBestillingDetaljer_Result</scope><name>Ordrestatus</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_prospekt_har_bestilling_detaljer___result_1a910cf561563fc1985b123753533294a6" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentProspektHarBestillingDetaljer_Result</scope><name>PaaminnelseSendt</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_prospekt_har_bestilling_detaljer___result_1a07509a5aa1fec6bc8157596f1406f309" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentProspektHarBestillingDetaljer_Result</scope><name>PDFEksportert</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_prospekt_har_bestilling_detaljer___result_1aa36f91a4acdc3a962fd1c6adbe5bb091" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentProspektHarBestillingDetaljer_Result</scope><name>Prisfaktor</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_prospekt_har_bestilling_detaljer___result_1a4f7357bab99cffeb97eed1f7db9b48e6" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentProspektHarBestillingDetaljer_Result</scope><name>ProduktID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_prospekt_har_bestilling_detaljer___result_1ab9f3788a45a3bd749e45e7ef3714c6b5" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentProspektHarBestillingDetaljer_Result</scope><name>ProspektID</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

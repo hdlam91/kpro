@@ -1,0 +1,421 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="class_webassistenten__ads__api_1_1_statkart" kind="class" prot="public">
+    <compoundname>Webassistenten_ads_api::Statkart</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_statkart_1addf0e9fad036b9f22313f81e7bc0029d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>long</type>
+        <definition>long Webassistenten_ads_api.Statkart.ID</definition>
+        <argsstring></argsstring>
+        <name>ID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Statkart.cs" line="17" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Statkart.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_statkart_1a4ac940dac7c23868215a8b2e89dc67df" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>System.DateTime</type>
+        <definition>System.DateTime Webassistenten_ads_api.Statkart.DatoReg</definition>
+        <argsstring></argsstring>
+        <name>DatoReg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Statkart.cs" line="18" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Statkart.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_statkart_1a78b6ff6ba4fe853f9a959c85e37e8884" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.Statkart.Recordtype</definition>
+        <argsstring></argsstring>
+        <name>Recordtype</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Statkart.cs" line="19" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Statkart.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_statkart_1a6311afede5e690c8b27d973cf2ba18ea" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; byte &gt;</type>
+        <definition>Nullable&lt;byte&gt; Webassistenten_ads_api.Statkart.Nummer</definition>
+        <argsstring></argsstring>
+        <name>Nummer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Statkart.cs" line="20" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Statkart.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_statkart_1ad60c23a53b43f8a028599a2f4464ee9a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; short &gt;</type>
+        <definition>Nullable&lt;short&gt; Webassistenten_ads_api.Statkart.Postnr</definition>
+        <argsstring></argsstring>
+        <name>Postnr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Statkart.cs" line="21" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Statkart.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_statkart_1a07b37b1f4452d62f089ffd80565d2e7c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.Statkart.Adressetype</definition>
+        <argsstring></argsstring>
+        <name>Adressetype</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Statkart.cs" line="22" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Statkart.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_statkart_1a3d1b5676548d9f789603604322bfe81a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; short &gt;</type>
+        <definition>Nullable&lt;short&gt; Webassistenten_ads_api.Statkart.Kommunenr</definition>
+        <argsstring></argsstring>
+        <name>Kommunenr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Statkart.cs" line="23" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Statkart.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_statkart_1a2be211b73cff1bc98e1cd8e3333a4fd9" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; int &gt;</type>
+        <definition>Nullable&lt;int&gt; Webassistenten_ads_api.Statkart.Gatekode</definition>
+        <argsstring></argsstring>
+        <name>Gatekode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Statkart.cs" line="24" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Statkart.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_statkart_1ab6396b6dda91ee6f9e7ad01d03bb12c8" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; short &gt;</type>
+        <definition>Nullable&lt;short&gt; Webassistenten_ads_api.Statkart.Husnummer</definition>
+        <argsstring></argsstring>
+        <name>Husnummer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Statkart.cs" line="25" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Statkart.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_statkart_1af8e5cee25988cacec53f5985dbfe803c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.Statkart.Bokstav</definition>
+        <argsstring></argsstring>
+        <name>Bokstav</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Statkart.cs" line="26" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Statkart.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_statkart_1a4eca39154230a00086c4982a546c6727" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; short &gt;</type>
+        <definition>Nullable&lt;short&gt; Webassistenten_ads_api.Statkart.Undernummer</definition>
+        <argsstring></argsstring>
+        <name>Undernummer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Statkart.cs" line="27" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Statkart.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_statkart_1a8d07d56a2e77de9e264b768bbaefb080" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; short &gt;</type>
+        <definition>Nullable&lt;short&gt; Webassistenten_ads_api.Statkart.KommunenrEiendom</definition>
+        <argsstring></argsstring>
+        <name>KommunenrEiendom</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Statkart.cs" line="28" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Statkart.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_statkart_1a346f08f977f54ea006909182af29aed3" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; short &gt;</type>
+        <definition>Nullable&lt;short&gt; Webassistenten_ads_api.Statkart.Gaardsnummer</definition>
+        <argsstring></argsstring>
+        <name>Gaardsnummer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Statkart.cs" line="29" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Statkart.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_statkart_1abdda868c9a932ab22722b194bb64b4dd" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; short &gt;</type>
+        <definition>Nullable&lt;short&gt; Webassistenten_ads_api.Statkart.Bruksnummer</definition>
+        <argsstring></argsstring>
+        <name>Bruksnummer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Statkart.cs" line="30" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Statkart.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_statkart_1ab3a5da4dde721c08be18a5c47a671dce" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; short &gt;</type>
+        <definition>Nullable&lt;short&gt; Webassistenten_ads_api.Statkart.Festenummer</definition>
+        <argsstring></argsstring>
+        <name>Festenummer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Statkart.cs" line="31" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Statkart.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_statkart_1ab97fbd425e72013ad1994d262a3c299a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; short &gt;</type>
+        <definition>Nullable&lt;short&gt; Webassistenten_ads_api.Statkart.Seksjonsnummer</definition>
+        <argsstring></argsstring>
+        <name>Seksjonsnummer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Statkart.cs" line="32" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Statkart.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_statkart_1a07f13792ac4568d2f14785fc4b1d98c8" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; short &gt;</type>
+        <definition>Nullable&lt;short&gt; Webassistenten_ads_api.Statkart.Tinglysingsembetenummer</definition>
+        <argsstring></argsstring>
+        <name>Tinglysingsembetenummer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Statkart.cs" line="33" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Statkart.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_statkart_1ac4a96ccec74c18ff21622519dc78e741" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; short &gt;</type>
+        <definition>Nullable&lt;short&gt; Webassistenten_ads_api.Statkart.Dagbokaar</definition>
+        <argsstring></argsstring>
+        <name>Dagbokaar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Statkart.cs" line="34" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Statkart.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_statkart_1a982e32538ba6c8ad3a5d5e22b54ade00" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; int &gt;</type>
+        <definition>Nullable&lt;int&gt; Webassistenten_ads_api.Statkart.Dagboknummer</definition>
+        <argsstring></argsstring>
+        <name>Dagboknummer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Statkart.cs" line="35" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Statkart.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_statkart_1aca81d584e10a71a55d930eeeb79f999f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; System.DateTime &gt;</type>
+        <definition>Nullable&lt;System.DateTime&gt; Webassistenten_ads_api.Statkart.Dagbokdato</definition>
+        <argsstring></argsstring>
+        <name>Dagbokdato</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Statkart.cs" line="36" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Statkart.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_statkart_1a69879faf5b18eb8ed42f3a3f4950ac12" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; byte &gt;</type>
+        <definition>Nullable&lt;byte&gt; Webassistenten_ads_api.Statkart.Omsetningstype</definition>
+        <argsstring></argsstring>
+        <name>Omsetningstype</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Statkart.cs" line="37" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Statkart.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_statkart_1ac56fcee32b15d23475a0bd89bbecce76" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.Statkart.AnvendelseGrunn</definition>
+        <argsstring></argsstring>
+        <name>AnvendelseGrunn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Statkart.cs" line="38" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Statkart.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_statkart_1a1553329d423bf93bd5547f1cf94e3059" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.Statkart.BoligtypeMed</definition>
+        <argsstring></argsstring>
+        <name>BoligtypeMed</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Statkart.cs" line="39" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Statkart.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_statkart_1aae0389a6bf175f1715dbea09475c04fe" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.Statkart.Utlyst</definition>
+        <argsstring></argsstring>
+        <name>Utlyst</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Statkart.cs" line="40" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Statkart.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_statkart_1a27cfaba565b07fea96e00f0ecacb5d88" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; long &gt;</type>
+        <definition>Nullable&lt;long&gt; Webassistenten_ads_api.Statkart.Engangsbelop</definition>
+        <argsstring></argsstring>
+        <name>Engangsbelop</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Statkart.cs" line="41" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Statkart.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_statkart_1a2eb75917d5b28666263d54ec84df63c6" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.Statkart.Beskrivelse</definition>
+        <argsstring></argsstring>
+        <name>Beskrivelse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Statkart.cs" line="42" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Statkart.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_statkart_1a54cc385c24168f588060cd3f924f48af" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.Statkart.Adresse</definition>
+        <argsstring></argsstring>
+        <name>Adresse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Statkart.cs" line="43" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Statkart.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_statkart_1ab579a9d126bfd1a461bea021ea263de9" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.Statkart.Selger</definition>
+        <argsstring></argsstring>
+        <name>Selger</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Statkart.cs" line="44" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Statkart.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_statkart_1ac670a95777de6eb3d1ed2dd52cb743ee" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.Statkart.Kjoper</definition>
+        <argsstring></argsstring>
+        <name>Kjoper</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Statkart.cs" line="45" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Statkart.cs" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Statkart.cs" line="16" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Statkart.cs" bodystart="15" bodyend="46"/>
+    <listofallmembers>
+      <member refid="class_webassistenten__ads__api_1_1_statkart_1a54cc385c24168f588060cd3f924f48af" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Statkart</scope><name>Adresse</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_statkart_1a07b37b1f4452d62f089ffd80565d2e7c" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Statkart</scope><name>Adressetype</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_statkart_1ac56fcee32b15d23475a0bd89bbecce76" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Statkart</scope><name>AnvendelseGrunn</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_statkart_1a2eb75917d5b28666263d54ec84df63c6" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Statkart</scope><name>Beskrivelse</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_statkart_1af8e5cee25988cacec53f5985dbfe803c" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Statkart</scope><name>Bokstav</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_statkart_1a1553329d423bf93bd5547f1cf94e3059" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Statkart</scope><name>BoligtypeMed</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_statkart_1abdda868c9a932ab22722b194bb64b4dd" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Statkart</scope><name>Bruksnummer</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_statkart_1ac4a96ccec74c18ff21622519dc78e741" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Statkart</scope><name>Dagbokaar</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_statkart_1aca81d584e10a71a55d930eeeb79f999f" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Statkart</scope><name>Dagbokdato</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_statkart_1a982e32538ba6c8ad3a5d5e22b54ade00" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Statkart</scope><name>Dagboknummer</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_statkart_1a4ac940dac7c23868215a8b2e89dc67df" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Statkart</scope><name>DatoReg</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_statkart_1a27cfaba565b07fea96e00f0ecacb5d88" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Statkart</scope><name>Engangsbelop</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_statkart_1ab3a5da4dde721c08be18a5c47a671dce" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Statkart</scope><name>Festenummer</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_statkart_1a346f08f977f54ea006909182af29aed3" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Statkart</scope><name>Gaardsnummer</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_statkart_1a2be211b73cff1bc98e1cd8e3333a4fd9" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Statkart</scope><name>Gatekode</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_statkart_1ab6396b6dda91ee6f9e7ad01d03bb12c8" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Statkart</scope><name>Husnummer</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_statkart_1addf0e9fad036b9f22313f81e7bc0029d" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Statkart</scope><name>ID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_statkart_1ac670a95777de6eb3d1ed2dd52cb743ee" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Statkart</scope><name>Kjoper</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_statkart_1a3d1b5676548d9f789603604322bfe81a" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Statkart</scope><name>Kommunenr</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_statkart_1a8d07d56a2e77de9e264b768bbaefb080" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Statkart</scope><name>KommunenrEiendom</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_statkart_1a6311afede5e690c8b27d973cf2ba18ea" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Statkart</scope><name>Nummer</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_statkart_1a69879faf5b18eb8ed42f3a3f4950ac12" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Statkart</scope><name>Omsetningstype</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_statkart_1ad60c23a53b43f8a028599a2f4464ee9a" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Statkart</scope><name>Postnr</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_statkart_1a78b6ff6ba4fe853f9a959c85e37e8884" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Statkart</scope><name>Recordtype</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_statkart_1ab97fbd425e72013ad1994d262a3c299a" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Statkart</scope><name>Seksjonsnummer</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_statkart_1ab579a9d126bfd1a461bea021ea263de9" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Statkart</scope><name>Selger</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_statkart_1a07f13792ac4568d2f14785fc4b1d98c8" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Statkart</scope><name>Tinglysingsembetenummer</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_statkart_1a4eca39154230a00086c4982a546c6727" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Statkart</scope><name>Undernummer</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_statkart_1aae0389a6bf175f1715dbea09475c04fe" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Statkart</scope><name>Utlyst</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

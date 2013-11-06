@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="class_webassistenten__ads__api_1_1_annonse_har_bestilling" kind="class" prot="public">
+    <compoundname>Webassistenten_ads_api::AnnonseHarBestilling</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_annonse_har_bestilling_1af4b692cbd5d907903842ccaa772f2f18" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>long</type>
+        <definition>long Webassistenten_ads_api.AnnonseHarBestilling.AnnonseID</definition>
+        <argsstring></argsstring>
+        <name>AnnonseID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/AnnonseHarBestilling.cs" line="17" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/AnnonseHarBestilling.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_annonse_har_bestilling_1ac8cb68e12578048c9781c92ea96a6299" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>System.DateTime</type>
+        <definition>System.DateTime Webassistenten_ads_api.AnnonseHarBestilling.DatoBest</definition>
+        <argsstring></argsstring>
+        <name>DatoBest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/AnnonseHarBestilling.cs" line="18" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/AnnonseHarBestilling.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_annonse_har_bestilling_1a4133b1126c0c3c440deea4d100c32f67" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>byte</type>
+        <definition>byte Webassistenten_ads_api.AnnonseHarBestilling.ProduktID</definition>
+        <argsstring></argsstring>
+        <name>ProduktID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/AnnonseHarBestilling.cs" line="19" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/AnnonseHarBestilling.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_annonse_har_bestilling_1a4ae1b2102bbe0017bdc3667e1a5d0bd3" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.AnnonseHarBestilling.Ordrenr</definition>
+        <argsstring></argsstring>
+        <name>Ordrenr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/AnnonseHarBestilling.cs" line="20" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/AnnonseHarBestilling.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_annonse_har_bestilling_1a276223977363ecdc20610d8fc9e76a22" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; byte &gt;</type>
+        <definition>Nullable&lt;byte&gt; Webassistenten_ads_api.AnnonseHarBestilling.Ordrestatus</definition>
+        <argsstring></argsstring>
+        <name>Ordrestatus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/AnnonseHarBestilling.cs" line="21" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/AnnonseHarBestilling.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_annonse_har_bestilling_1a36b73b988666c87b0a14fa77ff998818" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; byte &gt;</type>
+        <definition>Nullable&lt;byte&gt; Webassistenten_ads_api.AnnonseHarBestilling.ModulID</definition>
+        <argsstring></argsstring>
+        <name>ModulID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/AnnonseHarBestilling.cs" line="22" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/AnnonseHarBestilling.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/AnnonseHarBestilling.cs" line="16" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/AnnonseHarBestilling.cs" bodystart="15" bodyend="23"/>
+    <listofallmembers>
+      <member refid="class_webassistenten__ads__api_1_1_annonse_har_bestilling_1af4b692cbd5d907903842ccaa772f2f18" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::AnnonseHarBestilling</scope><name>AnnonseID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_annonse_har_bestilling_1ac8cb68e12578048c9781c92ea96a6299" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::AnnonseHarBestilling</scope><name>DatoBest</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_annonse_har_bestilling_1a36b73b988666c87b0a14fa77ff998818" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::AnnonseHarBestilling</scope><name>ModulID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_annonse_har_bestilling_1a4ae1b2102bbe0017bdc3667e1a5d0bd3" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::AnnonseHarBestilling</scope><name>Ordrenr</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_annonse_har_bestilling_1a276223977363ecdc20610d8fc9e76a22" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::AnnonseHarBestilling</scope><name>Ordrestatus</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_annonse_har_bestilling_1a4133b1126c0c3c440deea4d100c32f67" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::AnnonseHarBestilling</scope><name>ProduktID</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

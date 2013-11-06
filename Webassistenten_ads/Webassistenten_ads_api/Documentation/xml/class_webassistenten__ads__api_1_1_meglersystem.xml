@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="class_webassistenten__ads__api_1_1_meglersystem" kind="class" prot="public">
+    <compoundname>Webassistenten_ads_api::Meglersystem</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_meglersystem_1a23652cb9da47b759cab4c3ea008bc3a0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>byte</type>
+        <definition>byte Webassistenten_ads_api.Meglersystem.MeglersystemID</definition>
+        <argsstring></argsstring>
+        <name>MeglersystemID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Meglersystem.cs" line="17" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Meglersystem.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_meglersystem_1ab2ece935616acf212967733e162ce634" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.Meglersystem.MeglersystemNavn</definition>
+        <argsstring></argsstring>
+        <name>MeglersystemNavn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Meglersystem.cs" line="18" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Meglersystem.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_meglersystem_1a8b14a2a664ce79868c7f41550ff8b5f6" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.Meglersystem.Firmanavn</definition>
+        <argsstring></argsstring>
+        <name>Firmanavn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Meglersystem.cs" line="19" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Meglersystem.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Meglersystem.cs" line="16" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Meglersystem.cs" bodystart="15" bodyend="20"/>
+    <listofallmembers>
+      <member refid="class_webassistenten__ads__api_1_1_meglersystem_1a8b14a2a664ce79868c7f41550ff8b5f6" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Meglersystem</scope><name>Firmanavn</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_meglersystem_1a23652cb9da47b759cab4c3ea008bc3a0" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Meglersystem</scope><name>MeglersystemID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_meglersystem_1ab2ece935616acf212967733e162ce634" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Meglersystem</scope><name>MeglersystemNavn</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

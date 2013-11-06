@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="class_webassistenten__ads__api_1_1_web_api_config" kind="class" prot="public">
+    <compoundname>Webassistenten_ads_api::WebApiConfig</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_web_api_config_1aa62df7fe35228c3b086866821e669eb3" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Webassistenten_ads_api.WebApiConfig.Register</definition>
+        <argsstring>(HttpConfiguration config)</argsstring>
+        <name>Register</name>
+        <param>
+          <type>HttpConfiguration</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/App_Start/WebApiConfig.cs" line="11" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/App_Start/WebApiConfig.cs" bodystart="10" bodyend="26"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/App_Start/WebApiConfig.cs" line="9" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/App_Start/WebApiConfig.cs" bodystart="8" bodyend="27"/>
+    <listofallmembers>
+      <member refid="class_webassistenten__ads__api_1_1_web_api_config_1aa62df7fe35228c3b086866821e669eb3" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::WebApiConfig</scope><name>Register</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

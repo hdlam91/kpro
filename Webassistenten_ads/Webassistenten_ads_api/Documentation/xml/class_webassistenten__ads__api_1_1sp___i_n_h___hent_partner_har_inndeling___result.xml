@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="class_webassistenten__ads__api_1_1sp___i_n_h___hent_partner_har_inndeling___result" kind="class" prot="public">
+    <compoundname>Webassistenten_ads_api::sp_INH_HentPartnerHarInndeling_Result</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___i_n_h___hent_partner_har_inndeling___result_1aaec6150fc1b01082c8645782e6ddb5d0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>byte</type>
+        <definition>byte Webassistenten_ads_api.sp_INH_HentPartnerHarInndeling_Result.InndelingID</definition>
+        <argsstring></argsstring>
+        <name>InndelingID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_INH_HentPartnerHarInndeling_Result.cs" line="16" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_INH_HentPartnerHarInndeling_Result.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___i_n_h___hent_partner_har_inndeling___result_1a1413032bf2a3cc750b8756a11d97f947" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_INH_HentPartnerHarInndeling_Result.Inndelingnavn</definition>
+        <argsstring></argsstring>
+        <name>Inndelingnavn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_INH_HentPartnerHarInndeling_Result.cs" line="17" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_INH_HentPartnerHarInndeling_Result.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___i_n_h___hent_partner_har_inndeling___result_1a736cfec8c5365142ce39c0a514828d8d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_INH_HentPartnerHarInndeling_Result.AnnonseInndelingnavn</definition>
+        <argsstring></argsstring>
+        <name>AnnonseInndelingnavn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_INH_HentPartnerHarInndeling_Result.cs" line="18" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_INH_HentPartnerHarInndeling_Result.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_INH_HentPartnerHarInndeling_Result.cs" line="15" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_INH_HentPartnerHarInndeling_Result.cs" bodystart="14" bodyend="19"/>
+    <listofallmembers>
+      <member refid="class_webassistenten__ads__api_1_1sp___i_n_h___hent_partner_har_inndeling___result_1a736cfec8c5365142ce39c0a514828d8d" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_INH_HentPartnerHarInndeling_Result</scope><name>AnnonseInndelingnavn</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___i_n_h___hent_partner_har_inndeling___result_1aaec6150fc1b01082c8645782e6ddb5d0" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_INH_HentPartnerHarInndeling_Result</scope><name>InndelingID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___i_n_h___hent_partner_har_inndeling___result_1a1413032bf2a3cc750b8756a11d97f947" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_INH_HentPartnerHarInndeling_Result</scope><name>Inndelingnavn</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

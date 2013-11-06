@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="class_webassistenten__ads__api_1_1_annonse" kind="class" prot="public">
+    <compoundname>Webassistenten_ads_api::Annonse</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_annonse_1a8dd4b011d7efc156e3728df4cba1aab9" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>long</type>
+        <definition>long Webassistenten_ads_api.Annonse.AnnonseID</definition>
+        <argsstring></argsstring>
+        <name>AnnonseID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Annonse.cs" line="17" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Annonse.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_annonse_1a750e734148a7757ebc193d02b6bb06f4" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>byte</type>
+        <definition>byte Webassistenten_ads_api.Annonse.PartnerID</definition>
+        <argsstring></argsstring>
+        <name>PartnerID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Annonse.cs" line="18" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Annonse.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_annonse_1a7666e3f2b7e130df7682a5b68d186f9c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; byte &gt;</type>
+        <definition>Nullable&lt;byte&gt; Webassistenten_ads_api.Annonse.BrukerID</definition>
+        <argsstring></argsstring>
+        <name>BrukerID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Annonse.cs" line="19" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Annonse.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_annonse_1a4778c68d03a49aa8fe9c98e342ab05f3" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; System.DateTime &gt;</type>
+        <definition>Nullable&lt;System.DateTime&gt; Webassistenten_ads_api.Annonse.DatoReg</definition>
+        <argsstring></argsstring>
+        <name>DatoReg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Annonse.cs" line="20" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Annonse.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_annonse_1ab4d1eb3188d12925faff0a0d445f6c4b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; byte &gt;</type>
+        <definition>Nullable&lt;byte&gt; Webassistenten_ads_api.Annonse.InndelingID</definition>
+        <argsstring></argsstring>
+        <name>InndelingID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Annonse.cs" line="21" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Annonse.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_annonse_1afe1ba1bc5b4b63fdb1415bac3c5c0cbe" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.Annonse.Beskrivelse</definition>
+        <argsstring></argsstring>
+        <name>Beskrivelse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Annonse.cs" line="22" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Annonse.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_annonse_1a5dfc66dec5d26cca1f96685910e7424f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.Annonse.Kommentar</definition>
+        <argsstring></argsstring>
+        <name>Kommentar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Annonse.cs" line="23" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Annonse.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_annonse_1a24ddb1aef594b90a429a97b46fc8667d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; byte &gt;</type>
+        <definition>Nullable&lt;byte&gt; Webassistenten_ads_api.Annonse.ModulID</definition>
+        <argsstring></argsstring>
+        <name>ModulID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Annonse.cs" line="24" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Annonse.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Annonse.cs" line="16" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Annonse.cs" bodystart="15" bodyend="25"/>
+    <listofallmembers>
+      <member refid="class_webassistenten__ads__api_1_1_annonse_1a8dd4b011d7efc156e3728df4cba1aab9" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Annonse</scope><name>AnnonseID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_annonse_1afe1ba1bc5b4b63fdb1415bac3c5c0cbe" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Annonse</scope><name>Beskrivelse</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_annonse_1a7666e3f2b7e130df7682a5b68d186f9c" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Annonse</scope><name>BrukerID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_annonse_1a4778c68d03a49aa8fe9c98e342ab05f3" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Annonse</scope><name>DatoReg</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_annonse_1ab4d1eb3188d12925faff0a0d445f6c4b" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Annonse</scope><name>InndelingID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_annonse_1a5dfc66dec5d26cca1f96685910e7424f" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Annonse</scope><name>Kommentar</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_annonse_1a24ddb1aef594b90a429a97b46fc8667d" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Annonse</scope><name>ModulID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_annonse_1a750e734148a7757ebc193d02b6bb06f4" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Annonse</scope><name>PartnerID</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

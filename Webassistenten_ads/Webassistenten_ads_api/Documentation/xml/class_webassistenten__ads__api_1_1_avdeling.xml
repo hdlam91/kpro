@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="class_webassistenten__ads__api_1_1_avdeling" kind="class" prot="public">
+    <compoundname>Webassistenten_ads_api::Avdeling</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_avdeling_1aa9eac2dced0cb8327b2f2f57507fda89" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>byte</type>
+        <definition>byte Webassistenten_ads_api.Avdeling.AvdelingID</definition>
+        <argsstring></argsstring>
+        <name>AvdelingID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Avdeling.cs" line="17" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Avdeling.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_avdeling_1a5659c8bbd5152ad726d4ec8e775d9575" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>byte</type>
+        <definition>byte Webassistenten_ads_api.Avdeling.PartnerID</definition>
+        <argsstring></argsstring>
+        <name>PartnerID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Avdeling.cs" line="18" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Avdeling.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_avdeling_1a6a0f4319aadcc36eca390bcc7238ea21" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.Avdeling.Avdelingnavn</definition>
+        <argsstring></argsstring>
+        <name>Avdelingnavn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Avdeling.cs" line="19" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Avdeling.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_avdeling_1a28a804b8412811f004d7343c146c91c6" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; byte &gt;</type>
+        <definition>Nullable&lt;byte&gt; Webassistenten_ads_api.Avdeling.SorteringListe</definition>
+        <argsstring></argsstring>
+        <name>SorteringListe</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Avdeling.cs" line="20" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Avdeling.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_avdeling_1a7273568b6770bdcd74cba5d04bfc0cf6" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_webassistenten__ads__api_1_1_partner" kindref="compound">Partner</ref></type>
+        <definition>virtual Partner Webassistenten_ads_api.Avdeling.Partner</definition>
+        <argsstring></argsstring>
+        <name>Partner</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Avdeling.cs" line="22" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Avdeling.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Avdeling.cs" line="16" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Avdeling.cs" bodystart="15" bodyend="23"/>
+    <listofallmembers>
+      <member refid="class_webassistenten__ads__api_1_1_avdeling_1aa9eac2dced0cb8327b2f2f57507fda89" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Avdeling</scope><name>AvdelingID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_avdeling_1a6a0f4319aadcc36eca390bcc7238ea21" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Avdeling</scope><name>Avdelingnavn</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_avdeling_1a7273568b6770bdcd74cba5d04bfc0cf6" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Avdeling</scope><name>Partner</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_avdeling_1a5659c8bbd5152ad726d4ec8e775d9575" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Avdeling</scope><name>PartnerID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_avdeling_1a28a804b8412811f004d7343c146c91c6" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Avdeling</scope><name>SorteringListe</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,281 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="class_webassistenten__ads__api_1_1sp___hent_produkter___result" kind="class" prot="public">
+    <compoundname>Webassistenten_ads_api::sp_HentProdukter_Result</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_produkter___result_1a00d8bb32e50901f6bdf72c2721a7bd04" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>byte</type>
+        <definition>byte Webassistenten_ads_api.sp_HentProdukter_Result.ProduktID</definition>
+        <argsstring></argsstring>
+        <name>ProduktID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProdukter_Result.cs" line="16" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProdukter_Result.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_produkter___result_1a103ff20c2ea4aa03fff1180292c83ae1" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_HentProdukter_Result.Produktnavn</definition>
+        <argsstring></argsstring>
+        <name>Produktnavn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProdukter_Result.cs" line="17" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProdukter_Result.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_produkter___result_1a92140f801f3e425cf20eb3af51ffaac1" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_HentProdukter_Result.ProduktnavnAdmin</definition>
+        <argsstring></argsstring>
+        <name>ProduktnavnAdmin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProdukter_Result.cs" line="18" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProdukter_Result.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_produkter___result_1a5ee6ddc87cf3dd8eb87d3488ff29d45e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_HentProdukter_Result.Kommentar</definition>
+        <argsstring></argsstring>
+        <name>Kommentar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProdukter_Result.cs" line="19" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProdukter_Result.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_produkter___result_1a23ef8399a7d7ddd8d4a66a607a65498b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_HentProdukter_Result.DagerUtgivelse</definition>
+        <argsstring></argsstring>
+        <name>DagerUtgivelse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProdukter_Result.cs" line="20" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProdukter_Result.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_produkter___result_1afcb2604dce8b8dde6a2181923492b7f9" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>byte</type>
+        <definition>byte Webassistenten_ads_api.sp_HentProdukter_Result.ModulerPrSide</definition>
+        <argsstring></argsstring>
+        <name>ModulerPrSide</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProdukter_Result.cs" line="21" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProdukter_Result.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_produkter___result_1aee66a8e5ddd842e9e80d0704c2b2f35c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Webassistenten_ads_api.sp_HentProdukter_Result.Aktiv</definition>
+        <argsstring></argsstring>
+        <name>Aktiv</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProdukter_Result.cs" line="22" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProdukter_Result.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_produkter___result_1a8e97ab1bb912f402e0713ed737018390" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Webassistenten_ads_api.sp_HentProdukter_Result.AktivInDesign</definition>
+        <argsstring></argsstring>
+        <name>AktivInDesign</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProdukter_Result.cs" line="23" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProdukter_Result.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_produkter___result_1a35a36e408e8260cb8dfe3bd31798e20f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Webassistenten_ads_api.sp_HentProdukter_Result.Paraplyannonse</definition>
+        <argsstring></argsstring>
+        <name>Paraplyannonse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProdukter_Result.cs" line="24" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProdukter_Result.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_produkter___result_1a4200e89e6a552dc923c0d8cb9fbc651c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; byte &gt;</type>
+        <definition>Nullable&lt;byte&gt; Webassistenten_ads_api.sp_HentProdukter_Result.ModulStr</definition>
+        <argsstring></argsstring>
+        <name>ModulStr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProdukter_Result.cs" line="25" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProdukter_Result.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_produkter___result_1a3a573350a17d1cf1e80e261a11674b3b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_HentProdukter_Result.ALDAanntype</definition>
+        <argsstring></argsstring>
+        <name>ALDAanntype</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProdukter_Result.cs" line="26" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProdukter_Result.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_produkter___result_1a89ce7ad95160139c03e7b7b808498f46" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; short &gt;</type>
+        <definition>Nullable&lt;short&gt; Webassistenten_ads_api.sp_HentProdukter_Result.LåsStart</definition>
+        <argsstring></argsstring>
+        <name>LåsStart</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProdukter_Result.cs" line="27" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProdukter_Result.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_produkter___result_1a87ef41a5f92ba1b9a0566989c4b563bd" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; short &gt;</type>
+        <definition>Nullable&lt;short&gt; Webassistenten_ads_api.sp_HentProdukter_Result.LåsSlutt</definition>
+        <argsstring></argsstring>
+        <name>LåsSlutt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProdukter_Result.cs" line="28" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProdukter_Result.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_produkter___result_1aa61bc71f69862d7ac5eb4935487b41d8" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; short &gt;</type>
+        <definition>Nullable&lt;short&gt; Webassistenten_ads_api.sp_HentProdukter_Result.BookingFristStart</definition>
+        <argsstring></argsstring>
+        <name>BookingFristStart</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProdukter_Result.cs" line="29" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProdukter_Result.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_produkter___result_1aaad6832b21f23e5d6240ef7ba5bd2a4d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; short &gt;</type>
+        <definition>Nullable&lt;short&gt; Webassistenten_ads_api.sp_HentProdukter_Result.BookingFristSlutt</definition>
+        <argsstring></argsstring>
+        <name>BookingFristSlutt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProdukter_Result.cs" line="30" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProdukter_Result.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_produkter___result_1a759add6bb149b553b684f844d98a0752" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_HentProdukter_Result.EpostKundeansvarlig</definition>
+        <argsstring></argsstring>
+        <name>EpostKundeansvarlig</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProdukter_Result.cs" line="31" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProdukter_Result.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_produkter___result_1a01a9d3f5db68fa459b125623aea7ca98" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_HentProdukter_Result.ImageActionSet</definition>
+        <argsstring></argsstring>
+        <name>ImageActionSet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProdukter_Result.cs" line="32" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProdukter_Result.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_produkter___result_1ac50cdf6d6c953daa99b50e009ab69e73" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; int &gt;</type>
+        <definition>Nullable&lt;int&gt; Webassistenten_ads_api.sp_HentProdukter_Result.PrintDPI</definition>
+        <argsstring></argsstring>
+        <name>PrintDPI</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProdukter_Result.cs" line="33" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProdukter_Result.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_produkter___result_1a4f2cb2c2b22d925af08e44c8e1c293b1" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; bool &gt;</type>
+        <definition>Nullable&lt;bool&gt; Webassistenten_ads_api.sp_HentProdukter_Result.AktivSideombrekking</definition>
+        <argsstring></argsstring>
+        <name>AktivSideombrekking</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProdukter_Result.cs" line="34" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProdukter_Result.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProdukter_Result.cs" line="15" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentProdukter_Result.cs" bodystart="14" bodyend="35"/>
+    <listofallmembers>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_produkter___result_1aee66a8e5ddd842e9e80d0704c2b2f35c" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentProdukter_Result</scope><name>Aktiv</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_produkter___result_1a8e97ab1bb912f402e0713ed737018390" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentProdukter_Result</scope><name>AktivInDesign</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_produkter___result_1a4f2cb2c2b22d925af08e44c8e1c293b1" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentProdukter_Result</scope><name>AktivSideombrekking</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_produkter___result_1a3a573350a17d1cf1e80e261a11674b3b" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentProdukter_Result</scope><name>ALDAanntype</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_produkter___result_1aaad6832b21f23e5d6240ef7ba5bd2a4d" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentProdukter_Result</scope><name>BookingFristSlutt</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_produkter___result_1aa61bc71f69862d7ac5eb4935487b41d8" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentProdukter_Result</scope><name>BookingFristStart</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_produkter___result_1a23ef8399a7d7ddd8d4a66a607a65498b" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentProdukter_Result</scope><name>DagerUtgivelse</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_produkter___result_1a759add6bb149b553b684f844d98a0752" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentProdukter_Result</scope><name>EpostKundeansvarlig</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_produkter___result_1a01a9d3f5db68fa459b125623aea7ca98" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentProdukter_Result</scope><name>ImageActionSet</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_produkter___result_1a5ee6ddc87cf3dd8eb87d3488ff29d45e" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentProdukter_Result</scope><name>Kommentar</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_produkter___result_1a87ef41a5f92ba1b9a0566989c4b563bd" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentProdukter_Result</scope><name>LåsSlutt</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_produkter___result_1a89ce7ad95160139c03e7b7b808498f46" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentProdukter_Result</scope><name>LåsStart</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_produkter___result_1afcb2604dce8b8dde6a2181923492b7f9" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentProdukter_Result</scope><name>ModulerPrSide</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_produkter___result_1a4200e89e6a552dc923c0d8cb9fbc651c" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentProdukter_Result</scope><name>ModulStr</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_produkter___result_1a35a36e408e8260cb8dfe3bd31798e20f" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentProdukter_Result</scope><name>Paraplyannonse</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_produkter___result_1ac50cdf6d6c953daa99b50e009ab69e73" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentProdukter_Result</scope><name>PrintDPI</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_produkter___result_1a00d8bb32e50901f6bdf72c2721a7bd04" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentProdukter_Result</scope><name>ProduktID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_produkter___result_1a103ff20c2ea4aa03fff1180292c83ae1" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentProdukter_Result</scope><name>Produktnavn</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_produkter___result_1a92140f801f3e425cf20eb3af51ffaac1" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentProdukter_Result</scope><name>ProduktnavnAdmin</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

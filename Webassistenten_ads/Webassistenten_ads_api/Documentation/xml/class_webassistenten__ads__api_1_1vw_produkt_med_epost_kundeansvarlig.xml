@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="class_webassistenten__ads__api_1_1vw_produkt_med_epost_kundeansvarlig" kind="class" prot="public">
+    <compoundname>Webassistenten_ads_api::vwProduktMedEpostKundeansvarlig</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_produkt_med_epost_kundeansvarlig_1a2e3cad93b52f83373755f4ffd2aa97d6" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>byte</type>
+        <definition>byte Webassistenten_ads_api.vwProduktMedEpostKundeansvarlig.ProduktID</definition>
+        <argsstring></argsstring>
+        <name>ProduktID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwProduktMedEpostKundeansvarlig.cs" line="17" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwProduktMedEpostKundeansvarlig.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_produkt_med_epost_kundeansvarlig_1a0b1c84704f1af6ea828a6a0b53ac0867" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.vwProduktMedEpostKundeansvarlig.ProduktnavnAdmin</definition>
+        <argsstring></argsstring>
+        <name>ProduktnavnAdmin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwProduktMedEpostKundeansvarlig.cs" line="18" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwProduktMedEpostKundeansvarlig.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_produkt_med_epost_kundeansvarlig_1ae8feb79d9772c6b16c692c47585125be" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.vwProduktMedEpostKundeansvarlig.Firmanavn</definition>
+        <argsstring></argsstring>
+        <name>Firmanavn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwProduktMedEpostKundeansvarlig.cs" line="19" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwProduktMedEpostKundeansvarlig.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_produkt_med_epost_kundeansvarlig_1a1d6abc55c760aefeaee6c56f81997c5b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.vwProduktMedEpostKundeansvarlig.EpostKundeansvarlig</definition>
+        <argsstring></argsstring>
+        <name>EpostKundeansvarlig</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwProduktMedEpostKundeansvarlig.cs" line="20" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwProduktMedEpostKundeansvarlig.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwProduktMedEpostKundeansvarlig.cs" line="16" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwProduktMedEpostKundeansvarlig.cs" bodystart="15" bodyend="21"/>
+    <listofallmembers>
+      <member refid="class_webassistenten__ads__api_1_1vw_produkt_med_epost_kundeansvarlig_1a1d6abc55c760aefeaee6c56f81997c5b" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwProduktMedEpostKundeansvarlig</scope><name>EpostKundeansvarlig</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_produkt_med_epost_kundeansvarlig_1ae8feb79d9772c6b16c692c47585125be" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwProduktMedEpostKundeansvarlig</scope><name>Firmanavn</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_produkt_med_epost_kundeansvarlig_1a2e3cad93b52f83373755f4ffd2aa97d6" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwProduktMedEpostKundeansvarlig</scope><name>ProduktID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_produkt_med_epost_kundeansvarlig_1a0b1c84704f1af6ea828a6a0b53ac0867" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwProduktMedEpostKundeansvarlig</scope><name>ProduktnavnAdmin</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

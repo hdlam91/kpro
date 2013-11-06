@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="class_webassistenten__ads__api_1_1vw_partner_har_boligtype" kind="class" prot="public">
+    <compoundname>Webassistenten_ads_api::vwPartnerHarBoligtype</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_partner_har_boligtype_1afd2fb645404ca4085066e02895444854" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>byte</type>
+        <definition>byte Webassistenten_ads_api.vwPartnerHarBoligtype.PartnerID</definition>
+        <argsstring></argsstring>
+        <name>PartnerID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwPartnerHarBoligtype.cs" line="17" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwPartnerHarBoligtype.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_partner_har_boligtype_1a13157c49f6c53ddbf741b1fce67db587" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>byte</type>
+        <definition>byte Webassistenten_ads_api.vwPartnerHarBoligtype.BoligtypeID</definition>
+        <argsstring></argsstring>
+        <name>BoligtypeID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwPartnerHarBoligtype.cs" line="18" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwPartnerHarBoligtype.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_partner_har_boligtype_1a3d29988d962fc8b6d7e09a66a1fcb546" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; byte &gt;</type>
+        <definition>Nullable&lt;byte&gt; Webassistenten_ads_api.vwPartnerHarBoligtype.Sortering</definition>
+        <argsstring></argsstring>
+        <name>Sortering</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwPartnerHarBoligtype.cs" line="19" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwPartnerHarBoligtype.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_partner_har_boligtype_1ab819381ba7817a689515b3459cf9a7b1" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.vwPartnerHarBoligtype.Expr1</definition>
+        <argsstring></argsstring>
+        <name>Expr1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwPartnerHarBoligtype.cs" line="20" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwPartnerHarBoligtype.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwPartnerHarBoligtype.cs" line="16" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwPartnerHarBoligtype.cs" bodystart="15" bodyend="21"/>
+    <listofallmembers>
+      <member refid="class_webassistenten__ads__api_1_1vw_partner_har_boligtype_1a13157c49f6c53ddbf741b1fce67db587" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwPartnerHarBoligtype</scope><name>BoligtypeID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_partner_har_boligtype_1ab819381ba7817a689515b3459cf9a7b1" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwPartnerHarBoligtype</scope><name>Expr1</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_partner_har_boligtype_1afd2fb645404ca4085066e02895444854" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwPartnerHarBoligtype</scope><name>PartnerID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_partner_har_boligtype_1a3d29988d962fc8b6d7e09a66a1fcb546" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwPartnerHarBoligtype</scope><name>Sortering</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

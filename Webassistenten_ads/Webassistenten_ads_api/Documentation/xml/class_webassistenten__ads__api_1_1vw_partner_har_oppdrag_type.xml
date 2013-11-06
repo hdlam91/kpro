@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="class_webassistenten__ads__api_1_1vw_partner_har_oppdrag_type" kind="class" prot="public">
+    <compoundname>Webassistenten_ads_api::vwPartnerHarOppdragType</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_partner_har_oppdrag_type_1ad5b4a275b5f36ec58a763a3eb82b2144" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>byte</type>
+        <definition>byte Webassistenten_ads_api.vwPartnerHarOppdragType.PartnerID</definition>
+        <argsstring></argsstring>
+        <name>PartnerID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwPartnerHarOppdragType.cs" line="17" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwPartnerHarOppdragType.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_partner_har_oppdrag_type_1a4629d0255f16ab5ab65aeed3ac9bc87b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>byte</type>
+        <definition>byte Webassistenten_ads_api.vwPartnerHarOppdragType.OppdragTypeID</definition>
+        <argsstring></argsstring>
+        <name>OppdragTypeID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwPartnerHarOppdragType.cs" line="18" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwPartnerHarOppdragType.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_partner_har_oppdrag_type_1a197acbc457b8fb398ae7f4bcc667b653" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; bool &gt;</type>
+        <definition>Nullable&lt;bool&gt; Webassistenten_ads_api.vwPartnerHarOppdragType.Aktiv</definition>
+        <argsstring></argsstring>
+        <name>Aktiv</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwPartnerHarOppdragType.cs" line="19" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwPartnerHarOppdragType.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_partner_har_oppdrag_type_1a51169fba7013bb52f59aad1babb563f0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; byte &gt;</type>
+        <definition>Nullable&lt;byte&gt; Webassistenten_ads_api.vwPartnerHarOppdragType.Sortering</definition>
+        <argsstring></argsstring>
+        <name>Sortering</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwPartnerHarOppdragType.cs" line="20" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwPartnerHarOppdragType.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwPartnerHarOppdragType.cs" line="16" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwPartnerHarOppdragType.cs" bodystart="15" bodyend="21"/>
+    <listofallmembers>
+      <member refid="class_webassistenten__ads__api_1_1vw_partner_har_oppdrag_type_1a197acbc457b8fb398ae7f4bcc667b653" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwPartnerHarOppdragType</scope><name>Aktiv</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_partner_har_oppdrag_type_1a4629d0255f16ab5ab65aeed3ac9bc87b" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwPartnerHarOppdragType</scope><name>OppdragTypeID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_partner_har_oppdrag_type_1ad5b4a275b5f36ec58a763a3eb82b2144" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwPartnerHarOppdragType</scope><name>PartnerID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_partner_har_oppdrag_type_1a51169fba7013bb52f59aad1babb563f0" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwPartnerHarOppdragType</scope><name>Sortering</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

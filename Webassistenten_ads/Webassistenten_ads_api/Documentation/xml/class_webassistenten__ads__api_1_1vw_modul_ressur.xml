@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="class_webassistenten__ads__api_1_1vw_modul_ressur" kind="class" prot="public">
+    <compoundname>Webassistenten_ads_api::vwModulRessur</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_modul_ressur_1a57e3a99fcc4b8e0caaf129e99ae2a19c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Webassistenten_ads_api.vwModulRessur.RessursID</definition>
+        <argsstring></argsstring>
+        <name>RessursID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwModulRessur.cs" line="17" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwModulRessur.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_modul_ressur_1ab1908a9060d3fd99ca29f96b67c96e13" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Webassistenten_ads_api.vwModulRessur.ModulID</definition>
+        <argsstring></argsstring>
+        <name>ModulID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwModulRessur.cs" line="18" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwModulRessur.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_modul_ressur_1ae86fcd2a53577d18cc907fb5530aed59" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.vwModulRessur.RessursFilnavn1</definition>
+        <argsstring></argsstring>
+        <name>RessursFilnavn1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwModulRessur.cs" line="19" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwModulRessur.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_modul_ressur_1a2c3923465919946076efc02a87d64eab" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.vwModulRessur.RessursFilnavn2</definition>
+        <argsstring></argsstring>
+        <name>RessursFilnavn2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwModulRessur.cs" line="20" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwModulRessur.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_modul_ressur_1aa6c5d199563ca6db22b5f7132b732f5d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>byte</type>
+        <definition>byte Webassistenten_ads_api.vwModulRessur.RessursType</definition>
+        <argsstring></argsstring>
+        <name>RessursType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwModulRessur.cs" line="21" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwModulRessur.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwModulRessur.cs" line="16" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwModulRessur.cs" bodystart="15" bodyend="22"/>
+    <listofallmembers>
+      <member refid="class_webassistenten__ads__api_1_1vw_modul_ressur_1ab1908a9060d3fd99ca29f96b67c96e13" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwModulRessur</scope><name>ModulID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_modul_ressur_1ae86fcd2a53577d18cc907fb5530aed59" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwModulRessur</scope><name>RessursFilnavn1</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_modul_ressur_1a2c3923465919946076efc02a87d64eab" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwModulRessur</scope><name>RessursFilnavn2</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_modul_ressur_1a57e3a99fcc4b8e0caaf129e99ae2a19c" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwModulRessur</scope><name>RessursID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_modul_ressur_1aa6c5d199563ca6db22b5f7132b732f5d" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwModulRessur</scope><name>RessursType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

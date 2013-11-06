@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="class_webassistenten__ads__api_1_1dt__getpropertiesbyid___result" kind="class" prot="public">
+    <compoundname>Webassistenten_ads_api::dt_getpropertiesbyid_Result</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1dt__getpropertiesbyid___result_1a617cbda316824035acd35b70cf64cf84" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.dt_getpropertiesbyid_Result.property</definition>
+        <argsstring></argsstring>
+        <name>property</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/dt_getpropertiesbyid_Result.cs" line="16" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/dt_getpropertiesbyid_Result.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1dt__getpropertiesbyid___result_1a7fd88bae2fb68116190a461ac7e55a88" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Webassistenten_ads_api.dt_getpropertiesbyid_Result.version</definition>
+        <argsstring></argsstring>
+        <name>version</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/dt_getpropertiesbyid_Result.cs" line="17" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/dt_getpropertiesbyid_Result.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1dt__getpropertiesbyid___result_1a8fc9c02a10ff052b8fca79d29bc4c677" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.dt_getpropertiesbyid_Result.value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/dt_getpropertiesbyid_Result.cs" line="18" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/dt_getpropertiesbyid_Result.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1dt__getpropertiesbyid___result_1a64a9f66dc33a0fc0326be67ec3e652bd" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>byte[]</type>
+        <definition>byte [] Webassistenten_ads_api.dt_getpropertiesbyid_Result.lvalue</definition>
+        <argsstring></argsstring>
+        <name>lvalue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/dt_getpropertiesbyid_Result.cs" line="19" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/dt_getpropertiesbyid_Result.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/dt_getpropertiesbyid_Result.cs" line="15" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/dt_getpropertiesbyid_Result.cs" bodystart="14" bodyend="20"/>
+    <listofallmembers>
+      <member refid="class_webassistenten__ads__api_1_1dt__getpropertiesbyid___result_1a64a9f66dc33a0fc0326be67ec3e652bd" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::dt_getpropertiesbyid_Result</scope><name>lvalue</name></member>
+      <member refid="class_webassistenten__ads__api_1_1dt__getpropertiesbyid___result_1a617cbda316824035acd35b70cf64cf84" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::dt_getpropertiesbyid_Result</scope><name>property</name></member>
+      <member refid="class_webassistenten__ads__api_1_1dt__getpropertiesbyid___result_1a8fc9c02a10ff052b8fca79d29bc4c677" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::dt_getpropertiesbyid_Result</scope><name>value</name></member>
+      <member refid="class_webassistenten__ads__api_1_1dt__getpropertiesbyid___result_1a7fd88bae2fb68116190a461ac7e55a88" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::dt_getpropertiesbyid_Result</scope><name>version</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

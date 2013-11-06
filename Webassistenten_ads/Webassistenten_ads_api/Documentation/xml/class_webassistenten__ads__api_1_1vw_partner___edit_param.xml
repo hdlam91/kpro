@@ -1,0 +1,421 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="class_webassistenten__ads__api_1_1vw_partner___edit_param" kind="class" prot="public">
+    <compoundname>Webassistenten_ads_api::vwPartner_EditParam</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_partner___edit_param_1a4f91328d3907be744d54147b81409089" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>byte</type>
+        <definition>byte Webassistenten_ads_api.vwPartner_EditParam.PartnerID</definition>
+        <argsstring></argsstring>
+        <name>PartnerID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwPartner_EditParam.cs" line="17" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwPartner_EditParam.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_partner___edit_param_1ab40a2b3c0bbf0e3fcf532d267d5cfe6e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.vwPartner_EditParam.Partnernavn</definition>
+        <argsstring></argsstring>
+        <name>Partnernavn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwPartner_EditParam.cs" line="18" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwPartner_EditParam.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_partner___edit_param_1a1e0f7d9bc7131bdf2b0db21e37305a5e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.vwPartner_EditParam.Kortnavn</definition>
+        <argsstring></argsstring>
+        <name>Kortnavn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwPartner_EditParam.cs" line="19" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwPartner_EditParam.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_partner___edit_param_1ab225b984eada64d825816e5dcb944fd7" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; byte &gt;</type>
+        <definition>Nullable&lt;byte&gt; Webassistenten_ads_api.vwPartner_EditParam.StedID</definition>
+        <argsstring></argsstring>
+        <name>StedID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwPartner_EditParam.cs" line="20" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwPartner_EditParam.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_partner___edit_param_1ac5c759a84e1953de34f44c101ba068d2" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.vwPartner_EditParam.Katalog</definition>
+        <argsstring></argsstring>
+        <name>Katalog</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwPartner_EditParam.cs" line="21" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwPartner_EditParam.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_partner___edit_param_1ad9baed4873794a36ba9712009ce9cf24" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.vwPartner_EditParam.KundeID</definition>
+        <argsstring></argsstring>
+        <name>KundeID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwPartner_EditParam.cs" line="22" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwPartner_EditParam.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_partner___edit_param_1a80ae5bddc097462108a7293e54e142ea" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; bool &gt;</type>
+        <definition>Nullable&lt;bool&gt; Webassistenten_ads_api.vwPartner_EditParam.PDFGodkjenning</definition>
+        <argsstring></argsstring>
+        <name>PDFGodkjenning</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwPartner_EditParam.cs" line="23" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwPartner_EditParam.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_partner___edit_param_1a07dc54ae2f6bf14484fa7f0437f5188c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.vwPartner_EditParam.OrdrenrSuffix</definition>
+        <argsstring></argsstring>
+        <name>OrdrenrSuffix</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwPartner_EditParam.cs" line="24" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwPartner_EditParam.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_partner___edit_param_1a0b6cde7548a9d48593c0c4576536af8a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.vwPartner_EditParam.EpostKundeansvarlig</definition>
+        <argsstring></argsstring>
+        <name>EpostKundeansvarlig</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwPartner_EditParam.cs" line="25" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwPartner_EditParam.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_partner___edit_param_1a684af794210dca3d015bba0bc03d7155" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.vwPartner_EditParam.Logonavn</definition>
+        <argsstring></argsstring>
+        <name>Logonavn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwPartner_EditParam.cs" line="26" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwPartner_EditParam.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_partner___edit_param_1a96d1eea673483e18766b2b21c6d8aabb" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.vwPartner_EditParam.Logo</definition>
+        <argsstring></argsstring>
+        <name>Logo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwPartner_EditParam.cs" line="27" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwPartner_EditParam.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_partner___edit_param_1ae6e5f6a507bd407614b15aa11c5f28d5" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.vwPartner_EditParam.PanoramaIkon</definition>
+        <argsstring></argsstring>
+        <name>PanoramaIkon</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwPartner_EditParam.cs" line="28" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwPartner_EditParam.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_partner___edit_param_1ac2fdfae9f6cc49b3640c76e01334853f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; byte &gt;</type>
+        <definition>Nullable&lt;byte&gt; Webassistenten_ads_api.vwPartner_EditParam.MeglersystemID</definition>
+        <argsstring></argsstring>
+        <name>MeglersystemID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwPartner_EditParam.cs" line="29" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwPartner_EditParam.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_partner___edit_param_1af69201f2667c033e08767ef3f6364ca9" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.vwPartner_EditParam.MeglersystemBrukernavn</definition>
+        <argsstring></argsstring>
+        <name>MeglersystemBrukernavn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwPartner_EditParam.cs" line="30" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwPartner_EditParam.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_partner___edit_param_1a8a8fe65eb3dfe00cd52864123ebefa28" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.vwPartner_EditParam.MeglersystemPassord</definition>
+        <argsstring></argsstring>
+        <name>MeglersystemPassord</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwPartner_EditParam.cs" line="31" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwPartner_EditParam.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_partner___edit_param_1aca2d1801cc81a8000891c0ffef0cdea0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; bool &gt;</type>
+        <definition>Nullable&lt;bool&gt; Webassistenten_ads_api.vwPartner_EditParam.Bildepakke</definition>
+        <argsstring></argsstring>
+        <name>Bildepakke</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwPartner_EditParam.cs" line="32" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwPartner_EditParam.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_partner___edit_param_1a54a1da56c850539dd58bc2268d1bfe99" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; bool &gt;</type>
+        <definition>Nullable&lt;bool&gt; Webassistenten_ads_api.vwPartner_EditParam.Bildevedlegg</definition>
+        <argsstring></argsstring>
+        <name>Bildevedlegg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwPartner_EditParam.cs" line="33" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwPartner_EditParam.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_partner___edit_param_1a028613a7a8ee50a9433e9b7b4c61d37d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; bool &gt;</type>
+        <definition>Nullable&lt;bool&gt; Webassistenten_ads_api.vwPartner_EditParam.Bilderedusert</definition>
+        <argsstring></argsstring>
+        <name>Bilderedusert</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwPartner_EditParam.cs" line="34" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwPartner_EditParam.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_partner___edit_param_1aa39f2c3d161052eea6e185076f827a9c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.vwPartner_EditParam.FinnPartnerID</definition>
+        <argsstring></argsstring>
+        <name>FinnPartnerID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwPartner_EditParam.cs" line="35" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwPartner_EditParam.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_partner___edit_param_1a79d5a91dd7d2dbb8c5c5f7ee5d44d73d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; bool &gt;</type>
+        <definition>Nullable&lt;bool&gt; Webassistenten_ads_api.vwPartner_EditParam.FotoKunde</definition>
+        <argsstring></argsstring>
+        <name>FotoKunde</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwPartner_EditParam.cs" line="36" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwPartner_EditParam.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_partner___edit_param_1aa34acf36be4bb4fef204d15639bb35b2" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; bool &gt;</type>
+        <definition>Nullable&lt;bool&gt; Webassistenten_ads_api.vwPartner_EditParam.UseEditor</definition>
+        <argsstring></argsstring>
+        <name>UseEditor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwPartner_EditParam.cs" line="37" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwPartner_EditParam.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_partner___edit_param_1a5bb372e8b3eab7b07e16a39f746c13c1" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Webassistenten_ads_api.vwPartner_EditParam.UseTextEdit</definition>
+        <argsstring></argsstring>
+        <name>UseTextEdit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwPartner_EditParam.cs" line="38" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwPartner_EditParam.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_partner___edit_param_1aaec3f572adde36cf4487fde00fe6f035" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>byte</type>
+        <definition>byte Webassistenten_ads_api.vwPartner_EditParam.Expr1</definition>
+        <argsstring></argsstring>
+        <name>Expr1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwPartner_EditParam.cs" line="39" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwPartner_EditParam.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_partner___edit_param_1a71b47b3ba983fb2ce73f4102bbd71612" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.vwPartner_EditParam.Stednavn</definition>
+        <argsstring></argsstring>
+        <name>Stednavn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwPartner_EditParam.cs" line="40" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwPartner_EditParam.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_partner___edit_param_1a42c39b207a67393b53520d013441612d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>byte</type>
+        <definition>byte Webassistenten_ads_api.vwPartner_EditParam.Expr2</definition>
+        <argsstring></argsstring>
+        <name>Expr2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwPartner_EditParam.cs" line="41" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwPartner_EditParam.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_partner___edit_param_1a1cf1b59b47802ba33ee62d85b06ca733" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.vwPartner_EditParam.MeglersystemNavn</definition>
+        <argsstring></argsstring>
+        <name>MeglersystemNavn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwPartner_EditParam.cs" line="42" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwPartner_EditParam.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_partner___edit_param_1afab1588ff7f9ae32063d20a66c068720" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.vwPartner_EditParam.Firmanavn</definition>
+        <argsstring></argsstring>
+        <name>Firmanavn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwPartner_EditParam.cs" line="43" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwPartner_EditParam.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_partner___edit_param_1a9ce200ae9c20aa8f4138b2394c6b56b7" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>byte</type>
+        <definition>byte Webassistenten_ads_api.vwPartner_EditParam.LeverandorID</definition>
+        <argsstring></argsstring>
+        <name>LeverandorID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwPartner_EditParam.cs" line="44" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwPartner_EditParam.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_partner___edit_param_1ad6019e4de8ec65443b153da38072dbbe" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>byte</type>
+        <definition>byte Webassistenten_ads_api.vwPartner_EditParam.Expr3</definition>
+        <argsstring></argsstring>
+        <name>Expr3</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwPartner_EditParam.cs" line="45" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwPartner_EditParam.cs" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwPartner_EditParam.cs" line="16" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwPartner_EditParam.cs" bodystart="15" bodyend="46"/>
+    <listofallmembers>
+      <member refid="class_webassistenten__ads__api_1_1vw_partner___edit_param_1aca2d1801cc81a8000891c0ffef0cdea0" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwPartner_EditParam</scope><name>Bildepakke</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_partner___edit_param_1a028613a7a8ee50a9433e9b7b4c61d37d" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwPartner_EditParam</scope><name>Bilderedusert</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_partner___edit_param_1a54a1da56c850539dd58bc2268d1bfe99" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwPartner_EditParam</scope><name>Bildevedlegg</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_partner___edit_param_1a0b6cde7548a9d48593c0c4576536af8a" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwPartner_EditParam</scope><name>EpostKundeansvarlig</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_partner___edit_param_1aaec3f572adde36cf4487fde00fe6f035" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwPartner_EditParam</scope><name>Expr1</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_partner___edit_param_1a42c39b207a67393b53520d013441612d" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwPartner_EditParam</scope><name>Expr2</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_partner___edit_param_1ad6019e4de8ec65443b153da38072dbbe" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwPartner_EditParam</scope><name>Expr3</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_partner___edit_param_1aa39f2c3d161052eea6e185076f827a9c" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwPartner_EditParam</scope><name>FinnPartnerID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_partner___edit_param_1afab1588ff7f9ae32063d20a66c068720" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwPartner_EditParam</scope><name>Firmanavn</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_partner___edit_param_1a79d5a91dd7d2dbb8c5c5f7ee5d44d73d" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwPartner_EditParam</scope><name>FotoKunde</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_partner___edit_param_1ac5c759a84e1953de34f44c101ba068d2" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwPartner_EditParam</scope><name>Katalog</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_partner___edit_param_1a1e0f7d9bc7131bdf2b0db21e37305a5e" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwPartner_EditParam</scope><name>Kortnavn</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_partner___edit_param_1ad9baed4873794a36ba9712009ce9cf24" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwPartner_EditParam</scope><name>KundeID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_partner___edit_param_1a9ce200ae9c20aa8f4138b2394c6b56b7" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwPartner_EditParam</scope><name>LeverandorID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_partner___edit_param_1a96d1eea673483e18766b2b21c6d8aabb" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwPartner_EditParam</scope><name>Logo</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_partner___edit_param_1a684af794210dca3d015bba0bc03d7155" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwPartner_EditParam</scope><name>Logonavn</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_partner___edit_param_1af69201f2667c033e08767ef3f6364ca9" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwPartner_EditParam</scope><name>MeglersystemBrukernavn</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_partner___edit_param_1ac2fdfae9f6cc49b3640c76e01334853f" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwPartner_EditParam</scope><name>MeglersystemID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_partner___edit_param_1a1cf1b59b47802ba33ee62d85b06ca733" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwPartner_EditParam</scope><name>MeglersystemNavn</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_partner___edit_param_1a8a8fe65eb3dfe00cd52864123ebefa28" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwPartner_EditParam</scope><name>MeglersystemPassord</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_partner___edit_param_1a07dc54ae2f6bf14484fa7f0437f5188c" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwPartner_EditParam</scope><name>OrdrenrSuffix</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_partner___edit_param_1ae6e5f6a507bd407614b15aa11c5f28d5" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwPartner_EditParam</scope><name>PanoramaIkon</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_partner___edit_param_1a4f91328d3907be744d54147b81409089" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwPartner_EditParam</scope><name>PartnerID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_partner___edit_param_1ab40a2b3c0bbf0e3fcf532d267d5cfe6e" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwPartner_EditParam</scope><name>Partnernavn</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_partner___edit_param_1a80ae5bddc097462108a7293e54e142ea" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwPartner_EditParam</scope><name>PDFGodkjenning</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_partner___edit_param_1ab225b984eada64d825816e5dcb944fd7" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwPartner_EditParam</scope><name>StedID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_partner___edit_param_1a71b47b3ba983fb2ce73f4102bbd71612" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwPartner_EditParam</scope><name>Stednavn</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_partner___edit_param_1aa34acf36be4bb4fef204d15639bb35b2" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwPartner_EditParam</scope><name>UseEditor</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_partner___edit_param_1a5bb372e8b3eab7b07e16a39f746c13c1" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwPartner_EditParam</scope><name>UseTextEdit</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

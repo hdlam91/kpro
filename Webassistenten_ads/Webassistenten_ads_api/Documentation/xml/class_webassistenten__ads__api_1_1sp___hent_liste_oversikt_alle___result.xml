@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="class_webassistenten__ads__api_1_1sp___hent_liste_oversikt_alle___result" kind="class" prot="public">
+    <compoundname>Webassistenten_ads_api::sp_HentListeOversiktAlle_Result</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_liste_oversikt_alle___result_1a603cd73f713dbf1d022d6114e94289d3" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; int &gt;</type>
+        <definition>Nullable&lt;int&gt; Webassistenten_ads_api.sp_HentListeOversiktAlle_Result.ANTALL</definition>
+        <argsstring></argsstring>
+        <name>ANTALL</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentListeOversiktAlle_Result.cs" line="16" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentListeOversiktAlle_Result.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_liste_oversikt_alle___result_1a0e0bc77ffb738437bef584ebfa6e8fbc" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Webassistenten_ads_api.sp_HentListeOversiktAlle_Result.BrukerID</definition>
+        <argsstring></argsstring>
+        <name>BrukerID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentListeOversiktAlle_Result.cs" line="17" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentListeOversiktAlle_Result.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_liste_oversikt_alle___result_1a8af91284770f166660424ec8f75924c8" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_HentListeOversiktAlle_Result.Epost</definition>
+        <argsstring></argsstring>
+        <name>Epost</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentListeOversiktAlle_Result.cs" line="18" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentListeOversiktAlle_Result.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_liste_oversikt_alle___result_1a7a03b78daa0ed752b450df413090fd94" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_HentListeOversiktAlle_Result.Etternavn</definition>
+        <argsstring></argsstring>
+        <name>Etternavn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentListeOversiktAlle_Result.cs" line="19" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentListeOversiktAlle_Result.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_liste_oversikt_alle___result_1ab0c5fbef2a4be8844d0ca4747b21ce78" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_HentListeOversiktAlle_Result.Fornavn</definition>
+        <argsstring></argsstring>
+        <name>Fornavn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentListeOversiktAlle_Result.cs" line="20" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentListeOversiktAlle_Result.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_liste_oversikt_alle___result_1a250d4515c31f1407f60163d6e434036c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_HentListeOversiktAlle_Result.Tittel</definition>
+        <argsstring></argsstring>
+        <name>Tittel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentListeOversiktAlle_Result.cs" line="21" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentListeOversiktAlle_Result.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_liste_oversikt_alle___result_1a24af966dea071e4d68aaebae7558cacb" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_HentListeOversiktAlle_Result.Avdelingnavn</definition>
+        <argsstring></argsstring>
+        <name>Avdelingnavn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentListeOversiktAlle_Result.cs" line="22" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentListeOversiktAlle_Result.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentListeOversiktAlle_Result.cs" line="15" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentListeOversiktAlle_Result.cs" bodystart="14" bodyend="23"/>
+    <listofallmembers>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_liste_oversikt_alle___result_1a603cd73f713dbf1d022d6114e94289d3" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentListeOversiktAlle_Result</scope><name>ANTALL</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_liste_oversikt_alle___result_1a24af966dea071e4d68aaebae7558cacb" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentListeOversiktAlle_Result</scope><name>Avdelingnavn</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_liste_oversikt_alle___result_1a0e0bc77ffb738437bef584ebfa6e8fbc" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentListeOversiktAlle_Result</scope><name>BrukerID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_liste_oversikt_alle___result_1a8af91284770f166660424ec8f75924c8" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentListeOversiktAlle_Result</scope><name>Epost</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_liste_oversikt_alle___result_1a7a03b78daa0ed752b450df413090fd94" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentListeOversiktAlle_Result</scope><name>Etternavn</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_liste_oversikt_alle___result_1ab0c5fbef2a4be8844d0ca4747b21ce78" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentListeOversiktAlle_Result</scope><name>Fornavn</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_liste_oversikt_alle___result_1a250d4515c31f1407f60163d6e434036c" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentListeOversiktAlle_Result</scope><name>Tittel</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

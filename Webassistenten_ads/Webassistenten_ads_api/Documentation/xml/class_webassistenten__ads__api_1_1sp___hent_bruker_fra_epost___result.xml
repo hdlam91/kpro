@@ -1,0 +1,617 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="class_webassistenten__ads__api_1_1sp___hent_bruker_fra_epost___result" kind="class" prot="public">
+    <compoundname>Webassistenten_ads_api::sp_HentBrukerFraEpost_Result</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_bruker_fra_epost___result_1a73a7db3c5b299de493f41e4c68fe9b6e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Webassistenten_ads_api.sp_HentBrukerFraEpost_Result.BrukerID</definition>
+        <argsstring></argsstring>
+        <name>BrukerID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBrukerFraEpost_Result.cs" line="16" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBrukerFraEpost_Result.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_bruker_fra_epost___result_1af302b3aaaef15ca08f7d50b1785ae4e2" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>byte</type>
+        <definition>byte Webassistenten_ads_api.sp_HentBrukerFraEpost_Result.RolleID</definition>
+        <argsstring></argsstring>
+        <name>RolleID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBrukerFraEpost_Result.cs" line="17" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBrukerFraEpost_Result.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_bruker_fra_epost___result_1a36b9c425713146471323561b775f8fd1" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>byte</type>
+        <definition>byte Webassistenten_ads_api.sp_HentBrukerFraEpost_Result.PartnerID</definition>
+        <argsstring></argsstring>
+        <name>PartnerID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBrukerFraEpost_Result.cs" line="18" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBrukerFraEpost_Result.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_bruker_fra_epost___result_1a64dd46557e73539128b83ada85622d08" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>byte</type>
+        <definition>byte Webassistenten_ads_api.sp_HentBrukerFraEpost_Result.AvdelingID</definition>
+        <argsstring></argsstring>
+        <name>AvdelingID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBrukerFraEpost_Result.cs" line="19" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBrukerFraEpost_Result.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_bruker_fra_epost___result_1a63db55fb392a7b46f20be1b74bb91d17" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_HentBrukerFraEpost_Result.LangID</definition>
+        <argsstring></argsstring>
+        <name>LangID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBrukerFraEpost_Result.cs" line="20" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBrukerFraEpost_Result.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_bruker_fra_epost___result_1a25226bbfedecf2551a6b071a3eb12c43" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_HentBrukerFraEpost_Result.Fornavn</definition>
+        <argsstring></argsstring>
+        <name>Fornavn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBrukerFraEpost_Result.cs" line="21" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBrukerFraEpost_Result.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_bruker_fra_epost___result_1a07ba7e9f4b4d7bdad3a1ad151cb58bcf" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_HentBrukerFraEpost_Result.Etternavn</definition>
+        <argsstring></argsstring>
+        <name>Etternavn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBrukerFraEpost_Result.cs" line="22" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBrukerFraEpost_Result.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_bruker_fra_epost___result_1a505eaa482c70858eca4d326809e0d750" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_HentBrukerFraEpost_Result.Initialer</definition>
+        <argsstring></argsstring>
+        <name>Initialer</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBrukerFraEpost_Result.cs" line="23" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBrukerFraEpost_Result.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_bruker_fra_epost___result_1a677ee284ffc3fc8991c122aeb0498de8" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_HentBrukerFraEpost_Result.Tittel</definition>
+        <argsstring></argsstring>
+        <name>Tittel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBrukerFraEpost_Result.cs" line="24" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBrukerFraEpost_Result.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_bruker_fra_epost___result_1aff1257a4db4e5bdb10bfd21ad95349c9" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_HentBrukerFraEpost_Result.Epost</definition>
+        <argsstring></argsstring>
+        <name>Epost</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBrukerFraEpost_Result.cs" line="25" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBrukerFraEpost_Result.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_bruker_fra_epost___result_1a71617747ca6d27bd1f4dbdde331378a2" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_HentBrukerFraEpost_Result.Passord</definition>
+        <argsstring></argsstring>
+        <name>Passord</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBrukerFraEpost_Result.cs" line="26" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBrukerFraEpost_Result.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_bruker_fra_epost___result_1a04290e5efff3c54d6def289a83c0cf78" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_HentBrukerFraEpost_Result.Telefon</definition>
+        <argsstring></argsstring>
+        <name>Telefon</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBrukerFraEpost_Result.cs" line="27" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBrukerFraEpost_Result.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_bruker_fra_epost___result_1a37084cbeb7ed58a0e8401a13e84ad6e7" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_HentBrukerFraEpost_Result.Bildefil</definition>
+        <argsstring></argsstring>
+        <name>Bildefil</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBrukerFraEpost_Result.cs" line="28" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBrukerFraEpost_Result.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_bruker_fra_epost___result_1a9ecb98493d0a6e3377c3fe2023589e69" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_HentBrukerFraEpost_Result.Mobil</definition>
+        <argsstring></argsstring>
+        <name>Mobil</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBrukerFraEpost_Result.cs" line="29" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBrukerFraEpost_Result.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_bruker_fra_epost___result_1ab6dbf82701b778bea777834ccd8990ea" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; byte &gt;</type>
+        <definition>Nullable&lt;byte&gt; Webassistenten_ads_api.sp_HentBrukerFraEpost_Result.Sortering</definition>
+        <argsstring></argsstring>
+        <name>Sortering</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBrukerFraEpost_Result.cs" line="30" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBrukerFraEpost_Result.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_bruker_fra_epost___result_1a6cad2014965d14d96f8ab284c5f2cd42" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; bool &gt;</type>
+        <definition>Nullable&lt;bool&gt; Webassistenten_ads_api.sp_HentBrukerFraEpost_Result.Aktiv</definition>
+        <argsstring></argsstring>
+        <name>Aktiv</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBrukerFraEpost_Result.cs" line="31" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBrukerFraEpost_Result.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_bruker_fra_epost___result_1a519119d81771f9c4f8d931421b2cefe7" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; bool &gt;</type>
+        <definition>Nullable&lt;bool&gt; Webassistenten_ads_api.sp_HentBrukerFraEpost_Result.Leverandør</definition>
+        <argsstring></argsstring>
+        <name>Leverandør</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBrukerFraEpost_Result.cs" line="32" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBrukerFraEpost_Result.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_bruker_fra_epost___result_1ae7c156a4232cef2a1790126be3cbf238" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; bool &gt;</type>
+        <definition>Nullable&lt;bool&gt; Webassistenten_ads_api.sp_HentBrukerFraEpost_Result.Nyhetsskriv</definition>
+        <argsstring></argsstring>
+        <name>Nyhetsskriv</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBrukerFraEpost_Result.cs" line="33" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBrukerFraEpost_Result.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_bruker_fra_epost___result_1a5e38a68892b78d5f1c43b3d32cc63436" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; int &gt;</type>
+        <definition>Nullable&lt;int&gt; Webassistenten_ads_api.sp_HentBrukerFraEpost_Result.Gruppe</definition>
+        <argsstring></argsstring>
+        <name>Gruppe</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBrukerFraEpost_Result.cs" line="34" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBrukerFraEpost_Result.cs" bodystart="34" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_bruker_fra_epost___result_1a6fa24fd6d5f72b438a78045f5b003db8" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>byte</type>
+        <definition>byte Webassistenten_ads_api.sp_HentBrukerFraEpost_Result.PartnerID1</definition>
+        <argsstring></argsstring>
+        <name>PartnerID1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBrukerFraEpost_Result.cs" line="35" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBrukerFraEpost_Result.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_bruker_fra_epost___result_1aa2dfac0d03c03ddddaf156f0914de2de" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_HentBrukerFraEpost_Result.Partnernavn</definition>
+        <argsstring></argsstring>
+        <name>Partnernavn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBrukerFraEpost_Result.cs" line="36" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBrukerFraEpost_Result.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_bruker_fra_epost___result_1a1af52cb8b9998dad310b2e0fb062c302" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_HentBrukerFraEpost_Result.Kortnavn</definition>
+        <argsstring></argsstring>
+        <name>Kortnavn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBrukerFraEpost_Result.cs" line="37" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBrukerFraEpost_Result.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_bruker_fra_epost___result_1ae78709f7a930b2225d57b9fbe97e9c47" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; byte &gt;</type>
+        <definition>Nullable&lt;byte&gt; Webassistenten_ads_api.sp_HentBrukerFraEpost_Result.StedID</definition>
+        <argsstring></argsstring>
+        <name>StedID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBrukerFraEpost_Result.cs" line="38" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBrukerFraEpost_Result.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_bruker_fra_epost___result_1a3288a09e2e2791a5d983fb7822b90134" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_HentBrukerFraEpost_Result.Katalog</definition>
+        <argsstring></argsstring>
+        <name>Katalog</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBrukerFraEpost_Result.cs" line="39" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBrukerFraEpost_Result.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_bruker_fra_epost___result_1a5b5bb4870d05bffa156ad1cd25d7b4f8" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_HentBrukerFraEpost_Result.KundeID</definition>
+        <argsstring></argsstring>
+        <name>KundeID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBrukerFraEpost_Result.cs" line="40" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBrukerFraEpost_Result.cs" bodystart="40" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_bruker_fra_epost___result_1a28814d00f4766dc3d6154d0ec84fefde" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; bool &gt;</type>
+        <definition>Nullable&lt;bool&gt; Webassistenten_ads_api.sp_HentBrukerFraEpost_Result.PDFGodkjenning</definition>
+        <argsstring></argsstring>
+        <name>PDFGodkjenning</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBrukerFraEpost_Result.cs" line="41" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBrukerFraEpost_Result.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_bruker_fra_epost___result_1a4db37772714476d3c7a6dd8947320bd6" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_HentBrukerFraEpost_Result.OrdrenrSuffix</definition>
+        <argsstring></argsstring>
+        <name>OrdrenrSuffix</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBrukerFraEpost_Result.cs" line="42" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBrukerFraEpost_Result.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_bruker_fra_epost___result_1a6e2399d822fc30ff26ca7c6541bd9b5c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_HentBrukerFraEpost_Result.EpostKundeansvarlig</definition>
+        <argsstring></argsstring>
+        <name>EpostKundeansvarlig</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBrukerFraEpost_Result.cs" line="43" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBrukerFraEpost_Result.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_bruker_fra_epost___result_1a140f5c184a9c37e2542dc70cc8532904" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_HentBrukerFraEpost_Result.Logonavn</definition>
+        <argsstring></argsstring>
+        <name>Logonavn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBrukerFraEpost_Result.cs" line="44" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBrukerFraEpost_Result.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_bruker_fra_epost___result_1ab5b59220d21ea3b95f49de660d69c057" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_HentBrukerFraEpost_Result.Logo</definition>
+        <argsstring></argsstring>
+        <name>Logo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBrukerFraEpost_Result.cs" line="45" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBrukerFraEpost_Result.cs" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_bruker_fra_epost___result_1a3237caa029f7d97d408aade5f57a00fd" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_HentBrukerFraEpost_Result.PanoramaIkon</definition>
+        <argsstring></argsstring>
+        <name>PanoramaIkon</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBrukerFraEpost_Result.cs" line="46" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBrukerFraEpost_Result.cs" bodystart="46" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_bruker_fra_epost___result_1a5aceb9dc62a9cbe8c2ffddc54b9183b9" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; byte &gt;</type>
+        <definition>Nullable&lt;byte&gt; Webassistenten_ads_api.sp_HentBrukerFraEpost_Result.MeglersystemID</definition>
+        <argsstring></argsstring>
+        <name>MeglersystemID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBrukerFraEpost_Result.cs" line="47" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBrukerFraEpost_Result.cs" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_bruker_fra_epost___result_1ac9fd727069d8947fbc795871c0683f4e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_HentBrukerFraEpost_Result.MeglersystemBrukernavn</definition>
+        <argsstring></argsstring>
+        <name>MeglersystemBrukernavn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBrukerFraEpost_Result.cs" line="48" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBrukerFraEpost_Result.cs" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_bruker_fra_epost___result_1abbe72c30028df0caf6f58b1819dc4988" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_HentBrukerFraEpost_Result.MeglersystemPassord</definition>
+        <argsstring></argsstring>
+        <name>MeglersystemPassord</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBrukerFraEpost_Result.cs" line="49" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBrukerFraEpost_Result.cs" bodystart="49" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_bruker_fra_epost___result_1a31f268437685aaa93997b40a17ab6e73" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; bool &gt;</type>
+        <definition>Nullable&lt;bool&gt; Webassistenten_ads_api.sp_HentBrukerFraEpost_Result.Bildepakke</definition>
+        <argsstring></argsstring>
+        <name>Bildepakke</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBrukerFraEpost_Result.cs" line="50" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBrukerFraEpost_Result.cs" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_bruker_fra_epost___result_1a5adfc20eb8f5775e1f74db19db407bef" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; bool &gt;</type>
+        <definition>Nullable&lt;bool&gt; Webassistenten_ads_api.sp_HentBrukerFraEpost_Result.Bildevedlegg</definition>
+        <argsstring></argsstring>
+        <name>Bildevedlegg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBrukerFraEpost_Result.cs" line="51" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBrukerFraEpost_Result.cs" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_bruker_fra_epost___result_1aef3e8fb9d0ebd10cdfef2fb487356579" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; bool &gt;</type>
+        <definition>Nullable&lt;bool&gt; Webassistenten_ads_api.sp_HentBrukerFraEpost_Result.Bilderedusert</definition>
+        <argsstring></argsstring>
+        <name>Bilderedusert</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBrukerFraEpost_Result.cs" line="52" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBrukerFraEpost_Result.cs" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_bruker_fra_epost___result_1a164baa5c8e60c733eaa2eb281f84d9ac" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_HentBrukerFraEpost_Result.FinnPartnerID</definition>
+        <argsstring></argsstring>
+        <name>FinnPartnerID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBrukerFraEpost_Result.cs" line="53" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBrukerFraEpost_Result.cs" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_bruker_fra_epost___result_1a8d8b2b0ce3c0b63e794dbde3923d9dc7" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; bool &gt;</type>
+        <definition>Nullable&lt;bool&gt; Webassistenten_ads_api.sp_HentBrukerFraEpost_Result.FotoKunde</definition>
+        <argsstring></argsstring>
+        <name>FotoKunde</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBrukerFraEpost_Result.cs" line="54" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBrukerFraEpost_Result.cs" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_bruker_fra_epost___result_1ad37b6e2b671d27b01de29286ae5dab28" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; bool &gt;</type>
+        <definition>Nullable&lt;bool&gt; Webassistenten_ads_api.sp_HentBrukerFraEpost_Result.UseEditor</definition>
+        <argsstring></argsstring>
+        <name>UseEditor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBrukerFraEpost_Result.cs" line="55" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBrukerFraEpost_Result.cs" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_bruker_fra_epost___result_1a706958c3847486a71437e71cfc620e58" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Webassistenten_ads_api.sp_HentBrukerFraEpost_Result.UseTextEdit</definition>
+        <argsstring></argsstring>
+        <name>UseTextEdit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBrukerFraEpost_Result.cs" line="56" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBrukerFraEpost_Result.cs" bodystart="56" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_bruker_fra_epost___result_1af5fb375aeb9ad88f549491eebae33f3a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_HentBrukerFraEpost_Result.MeglersystemKontorID</definition>
+        <argsstring></argsstring>
+        <name>MeglersystemKontorID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBrukerFraEpost_Result.cs" line="57" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBrukerFraEpost_Result.cs" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_bruker_fra_epost___result_1a90ad951bfa0796e80a92898940aac251" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; int &gt;</type>
+        <definition>Nullable&lt;int&gt; Webassistenten_ads_api.sp_HentBrukerFraEpost_Result.PartnerAntall</definition>
+        <argsstring></argsstring>
+        <name>PartnerAntall</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBrukerFraEpost_Result.cs" line="58" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBrukerFraEpost_Result.cs" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBrukerFraEpost_Result.cs" line="15" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentBrukerFraEpost_Result.cs" bodystart="14" bodyend="59"/>
+    <listofallmembers>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_bruker_fra_epost___result_1a6cad2014965d14d96f8ab284c5f2cd42" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentBrukerFraEpost_Result</scope><name>Aktiv</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_bruker_fra_epost___result_1a64dd46557e73539128b83ada85622d08" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentBrukerFraEpost_Result</scope><name>AvdelingID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_bruker_fra_epost___result_1a37084cbeb7ed58a0e8401a13e84ad6e7" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentBrukerFraEpost_Result</scope><name>Bildefil</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_bruker_fra_epost___result_1a31f268437685aaa93997b40a17ab6e73" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentBrukerFraEpost_Result</scope><name>Bildepakke</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_bruker_fra_epost___result_1aef3e8fb9d0ebd10cdfef2fb487356579" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentBrukerFraEpost_Result</scope><name>Bilderedusert</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_bruker_fra_epost___result_1a5adfc20eb8f5775e1f74db19db407bef" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentBrukerFraEpost_Result</scope><name>Bildevedlegg</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_bruker_fra_epost___result_1a73a7db3c5b299de493f41e4c68fe9b6e" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentBrukerFraEpost_Result</scope><name>BrukerID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_bruker_fra_epost___result_1aff1257a4db4e5bdb10bfd21ad95349c9" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentBrukerFraEpost_Result</scope><name>Epost</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_bruker_fra_epost___result_1a6e2399d822fc30ff26ca7c6541bd9b5c" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentBrukerFraEpost_Result</scope><name>EpostKundeansvarlig</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_bruker_fra_epost___result_1a07ba7e9f4b4d7bdad3a1ad151cb58bcf" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentBrukerFraEpost_Result</scope><name>Etternavn</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_bruker_fra_epost___result_1a164baa5c8e60c733eaa2eb281f84d9ac" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentBrukerFraEpost_Result</scope><name>FinnPartnerID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_bruker_fra_epost___result_1a25226bbfedecf2551a6b071a3eb12c43" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentBrukerFraEpost_Result</scope><name>Fornavn</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_bruker_fra_epost___result_1a8d8b2b0ce3c0b63e794dbde3923d9dc7" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentBrukerFraEpost_Result</scope><name>FotoKunde</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_bruker_fra_epost___result_1a5e38a68892b78d5f1c43b3d32cc63436" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentBrukerFraEpost_Result</scope><name>Gruppe</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_bruker_fra_epost___result_1a505eaa482c70858eca4d326809e0d750" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentBrukerFraEpost_Result</scope><name>Initialer</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_bruker_fra_epost___result_1a3288a09e2e2791a5d983fb7822b90134" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentBrukerFraEpost_Result</scope><name>Katalog</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_bruker_fra_epost___result_1a1af52cb8b9998dad310b2e0fb062c302" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentBrukerFraEpost_Result</scope><name>Kortnavn</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_bruker_fra_epost___result_1a5b5bb4870d05bffa156ad1cd25d7b4f8" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentBrukerFraEpost_Result</scope><name>KundeID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_bruker_fra_epost___result_1a63db55fb392a7b46f20be1b74bb91d17" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentBrukerFraEpost_Result</scope><name>LangID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_bruker_fra_epost___result_1a519119d81771f9c4f8d931421b2cefe7" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentBrukerFraEpost_Result</scope><name>Leverandør</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_bruker_fra_epost___result_1ab5b59220d21ea3b95f49de660d69c057" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentBrukerFraEpost_Result</scope><name>Logo</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_bruker_fra_epost___result_1a140f5c184a9c37e2542dc70cc8532904" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentBrukerFraEpost_Result</scope><name>Logonavn</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_bruker_fra_epost___result_1ac9fd727069d8947fbc795871c0683f4e" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentBrukerFraEpost_Result</scope><name>MeglersystemBrukernavn</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_bruker_fra_epost___result_1a5aceb9dc62a9cbe8c2ffddc54b9183b9" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentBrukerFraEpost_Result</scope><name>MeglersystemID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_bruker_fra_epost___result_1af5fb375aeb9ad88f549491eebae33f3a" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentBrukerFraEpost_Result</scope><name>MeglersystemKontorID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_bruker_fra_epost___result_1abbe72c30028df0caf6f58b1819dc4988" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentBrukerFraEpost_Result</scope><name>MeglersystemPassord</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_bruker_fra_epost___result_1a9ecb98493d0a6e3377c3fe2023589e69" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentBrukerFraEpost_Result</scope><name>Mobil</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_bruker_fra_epost___result_1ae7c156a4232cef2a1790126be3cbf238" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentBrukerFraEpost_Result</scope><name>Nyhetsskriv</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_bruker_fra_epost___result_1a4db37772714476d3c7a6dd8947320bd6" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentBrukerFraEpost_Result</scope><name>OrdrenrSuffix</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_bruker_fra_epost___result_1a3237caa029f7d97d408aade5f57a00fd" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentBrukerFraEpost_Result</scope><name>PanoramaIkon</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_bruker_fra_epost___result_1a90ad951bfa0796e80a92898940aac251" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentBrukerFraEpost_Result</scope><name>PartnerAntall</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_bruker_fra_epost___result_1a36b9c425713146471323561b775f8fd1" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentBrukerFraEpost_Result</scope><name>PartnerID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_bruker_fra_epost___result_1a6fa24fd6d5f72b438a78045f5b003db8" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentBrukerFraEpost_Result</scope><name>PartnerID1</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_bruker_fra_epost___result_1aa2dfac0d03c03ddddaf156f0914de2de" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentBrukerFraEpost_Result</scope><name>Partnernavn</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_bruker_fra_epost___result_1a71617747ca6d27bd1f4dbdde331378a2" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentBrukerFraEpost_Result</scope><name>Passord</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_bruker_fra_epost___result_1a28814d00f4766dc3d6154d0ec84fefde" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentBrukerFraEpost_Result</scope><name>PDFGodkjenning</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_bruker_fra_epost___result_1af302b3aaaef15ca08f7d50b1785ae4e2" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentBrukerFraEpost_Result</scope><name>RolleID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_bruker_fra_epost___result_1ab6dbf82701b778bea777834ccd8990ea" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentBrukerFraEpost_Result</scope><name>Sortering</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_bruker_fra_epost___result_1ae78709f7a930b2225d57b9fbe97e9c47" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentBrukerFraEpost_Result</scope><name>StedID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_bruker_fra_epost___result_1a04290e5efff3c54d6def289a83c0cf78" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentBrukerFraEpost_Result</scope><name>Telefon</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_bruker_fra_epost___result_1a677ee284ffc3fc8991c122aeb0498de8" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentBrukerFraEpost_Result</scope><name>Tittel</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_bruker_fra_epost___result_1ad37b6e2b671d27b01de29286ae5dab28" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentBrukerFraEpost_Result</scope><name>UseEditor</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_bruker_fra_epost___result_1a706958c3847486a71437e71cfc620e58" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentBrukerFraEpost_Result</scope><name>UseTextEdit</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

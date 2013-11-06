@@ -1,0 +1,181 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_xml_documentation_provider" kind="class" prot="public">
+    <compoundname>Webassistenten_ads_api::Areas::HelpPage::XmlDocumentationProvider</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_xml_documentation_provider_1afad90f467565b7b367d4db3e7a8650f7" prot="private" static="no" mutable="no">
+        <type>XPathNavigator</type>
+        <definition>XPathNavigator Webassistenten_ads_api.Areas.HelpPage.XmlDocumentationProvider._documentNavigator</definition>
+        <argsstring></argsstring>
+        <name>_documentNavigator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/XmlDocumentationProvider.cs" line="16" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/XmlDocumentationProvider.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_xml_documentation_provider_1ae121f6d5cf25fc49aed6ee1ee0de1f31" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string Webassistenten_ads_api.Areas.HelpPage.XmlDocumentationProvider.MethodExpression</definition>
+        <argsstring></argsstring>
+        <name>MethodExpression</name>
+        <initializer>&quot;/doc/members/member[@name=&apos;M:{0}&apos;]&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/XmlDocumentationProvider.cs" line="17" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/XmlDocumentationProvider.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_xml_documentation_provider_1ab35f5a501a17256b0d8a52b1017864b5" prot="private" static="no" mutable="no">
+        <type>const string</type>
+        <definition>const string Webassistenten_ads_api.Areas.HelpPage.XmlDocumentationProvider.ParameterExpression</definition>
+        <argsstring></argsstring>
+        <name>ParameterExpression</name>
+        <initializer>&quot;param[@name=&apos;{0}&apos;]&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/XmlDocumentationProvider.cs" line="18" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/XmlDocumentationProvider.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_xml_documentation_provider_1a5996b8e22706702aaa787df6ef839a98" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Webassistenten_ads_api.Areas.HelpPage.XmlDocumentationProvider.XmlDocumentationProvider</definition>
+        <argsstring>(string documentPath)</argsstring>
+        <name>XmlDocumentationProvider</name>
+        <param>
+          <type>string</type>
+          <declname>documentPath</declname>
+        </param>
+        <briefdescription>
+<para>Initializes a new instance of the <ref refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_xml_documentation_provider" kindref="compound">XmlDocumentationProvider</ref> class. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>documentPath</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The physical path to XML document.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/XmlDocumentationProvider.cs" line="25" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/XmlDocumentationProvider.cs" bodystart="24" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_xml_documentation_provider_1a6883ef31c6ca03c257cd7456305da123" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>string</type>
+        <definition>virtual string Webassistenten_ads_api.Areas.HelpPage.XmlDocumentationProvider.GetDocumentation</definition>
+        <argsstring>(HttpActionDescriptor actionDescriptor)</argsstring>
+        <name>GetDocumentation</name>
+        <param>
+          <type>HttpActionDescriptor</type>
+          <declname>actionDescriptor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/XmlDocumentationProvider.cs" line="35" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/XmlDocumentationProvider.cs" bodystart="34" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_xml_documentation_provider_1a41f3da28885e81ec6cea58b8608bbaf8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>string</type>
+        <definition>virtual string Webassistenten_ads_api.Areas.HelpPage.XmlDocumentationProvider.GetDocumentation</definition>
+        <argsstring>(HttpParameterDescriptor parameterDescriptor)</argsstring>
+        <name>GetDocumentation</name>
+        <param>
+          <type>HttpParameterDescriptor</type>
+          <declname>parameterDescriptor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/XmlDocumentationProvider.cs" line="50" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/XmlDocumentationProvider.cs" bodystart="49" bodyend="67"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_xml_documentation_provider_1a746f9bfce28008f5031df6bbe0514128" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>XPathNavigator</type>
+        <definition>XPathNavigator Webassistenten_ads_api.Areas.HelpPage.XmlDocumentationProvider.GetMethodNode</definition>
+        <argsstring>(HttpActionDescriptor actionDescriptor)</argsstring>
+        <name>GetMethodNode</name>
+        <param>
+          <type>HttpActionDescriptor</type>
+          <declname>actionDescriptor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/XmlDocumentationProvider.cs" line="70" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/XmlDocumentationProvider.cs" bodystart="69" bodyend="79"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_xml_documentation_provider_1a44f12365ca38f0c16dac68c809b9fa49" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string Webassistenten_ads_api.Areas.HelpPage.XmlDocumentationProvider.GetMemberName</definition>
+        <argsstring>(MethodInfo method)</argsstring>
+        <name>GetMemberName</name>
+        <param>
+          <type>MethodInfo</type>
+          <declname>method</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/XmlDocumentationProvider.cs" line="82" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/XmlDocumentationProvider.cs" bodystart="81" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_xml_documentation_provider_1aa800ee90e32641c61abf739f017b0ade" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>static string Webassistenten_ads_api.Areas.HelpPage.XmlDocumentationProvider.GetTypeName</definition>
+        <argsstring>(Type type)</argsstring>
+        <name>GetTypeName</name>
+        <param>
+          <type>Type</type>
+          <declname>type</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/XmlDocumentationProvider.cs" line="95" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/XmlDocumentationProvider.cs" bodystart="94" bodyend="110"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A custom IDocumentationProvider that reads the API documentation from an XML documentation file. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/XmlDocumentationProvider.cs" line="15" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/XmlDocumentationProvider.cs" bodystart="14" bodyend="111"/>
+    <listofallmembers>
+      <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_xml_documentation_provider_1afad90f467565b7b367d4db3e7a8650f7" prot="private" virt="non-virtual"><scope>Webassistenten_ads_api::Areas::HelpPage::XmlDocumentationProvider</scope><name>_documentNavigator</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_xml_documentation_provider_1a6883ef31c6ca03c257cd7456305da123" prot="public" virt="virtual"><scope>Webassistenten_ads_api::Areas::HelpPage::XmlDocumentationProvider</scope><name>GetDocumentation</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_xml_documentation_provider_1a41f3da28885e81ec6cea58b8608bbaf8" prot="public" virt="virtual"><scope>Webassistenten_ads_api::Areas::HelpPage::XmlDocumentationProvider</scope><name>GetDocumentation</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_xml_documentation_provider_1a44f12365ca38f0c16dac68c809b9fa49" prot="private" virt="non-virtual"><scope>Webassistenten_ads_api::Areas::HelpPage::XmlDocumentationProvider</scope><name>GetMemberName</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_xml_documentation_provider_1a746f9bfce28008f5031df6bbe0514128" prot="private" virt="non-virtual"><scope>Webassistenten_ads_api::Areas::HelpPage::XmlDocumentationProvider</scope><name>GetMethodNode</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_xml_documentation_provider_1aa800ee90e32641c61abf739f017b0ade" prot="private" virt="non-virtual"><scope>Webassistenten_ads_api::Areas::HelpPage::XmlDocumentationProvider</scope><name>GetTypeName</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_xml_documentation_provider_1ae121f6d5cf25fc49aed6ee1ee0de1f31" prot="private" virt="non-virtual"><scope>Webassistenten_ads_api::Areas::HelpPage::XmlDocumentationProvider</scope><name>MethodExpression</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_xml_documentation_provider_1ab35f5a501a17256b0d8a52b1017864b5" prot="private" virt="non-virtual"><scope>Webassistenten_ads_api::Areas::HelpPage::XmlDocumentationProvider</scope><name>ParameterExpression</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_xml_documentation_provider_1a5996b8e22706702aaa787df6ef839a98" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Areas::HelpPage::XmlDocumentationProvider</scope><name>XmlDocumentationProvider</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

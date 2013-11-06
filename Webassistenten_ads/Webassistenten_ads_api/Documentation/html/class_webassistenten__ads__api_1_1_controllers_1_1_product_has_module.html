@@ -28,8 +28,9 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Webassistenten WebAPI
+   &#160;<span id="projectnumber">1.0</span>
    </div>
-   <div id="projectbrief">API for Real-Estate Ad orders</div>
+   <div id="projectbrief">Automatic ad import system for Adresseavisen</div>
   </td>
  </tr>
  </tbody>
@@ -45,6 +46,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="namespaces.html"><span>Packages</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+      <li><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -91,7 +93,7 @@ $(document).ready(function(){initNavTree('class_webassistenten__ads__api_1_1_con
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Properties</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -113,13 +115,13 @@ $(document).ready(function(){initNavTree('class_webassistenten__ads__api_1_1_con
 <tr class="heading"><td colspan="2"><h2><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a7b1de9efdef69d92b3ace93e6159a13b"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7b1de9efdef69d92b3ace93e6159a13b"></a>
-IEnumerable&lt; ProduktHarModul &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>GetProduktHarModuls</b> ()</td></tr>
+IEnumerable&lt; <a class="el" href="class_webassistenten__ads__api_1_1_produkt_har_modul.html">ProduktHarModul</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>GetProduktHarModuls</b> ()</td></tr>
 <tr class="memitem:ab204007a696dd97b46212115ae55c087"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab204007a696dd97b46212115ae55c087"></a>
-ProduktHarModul&#160;</td><td class="memItemRight" valign="bottom"><b>GetProduktHarModul</b> (byte id)</td></tr>
+<a class="el" href="class_webassistenten__ads__api_1_1_produkt_har_modul.html">ProduktHarModul</a>&#160;</td><td class="memItemRight" valign="bottom"><b>GetProduktHarModul</b> (byte id)</td></tr>
 <tr class="memitem:a985167290ae32d1fddd853e17f3d4c3d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a985167290ae32d1fddd853e17f3d4c3d"></a>
-HttpResponseMessage&#160;</td><td class="memItemRight" valign="bottom"><b>PutProduktHarModul</b> (byte id, ProduktHarModul produktharmodul)</td></tr>
+HttpResponseMessage&#160;</td><td class="memItemRight" valign="bottom"><b>PutProduktHarModul</b> (byte id, <a class="el" href="class_webassistenten__ads__api_1_1_produkt_har_modul.html">ProduktHarModul</a> produktharmodul)</td></tr>
 <tr class="memitem:aa5ea34ac0f4b86ecd4f75df16dd677e9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa5ea34ac0f4b86ecd4f75df16dd677e9"></a>
-HttpResponseMessage&#160;</td><td class="memItemRight" valign="bottom"><b>PostProduktHarModul</b> (ProduktHarModul produktharmodul)</td></tr>
+HttpResponseMessage&#160;</td><td class="memItemRight" valign="bottom"><b>PostProduktHarModul</b> (<a class="el" href="class_webassistenten__ads__api_1_1_produkt_har_modul.html">ProduktHarModul</a> produktharmodul)</td></tr>
 <tr class="memitem:ad7cf66a5c9a292bf8ca75820b3218100"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad7cf66a5c9a292bf8ca75820b3218100"></a>
 HttpResponseMessage&#160;</td><td class="memItemRight" valign="bottom"><b>DeleteProduktHarModul</b> (byte id)</td></tr>
 </table><table class="memberdecls">
@@ -128,8 +130,11 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:afdb4f4360d83a0b72c8868370fbb671c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afdb4f4360d83a0b72c8868370fbb671c"></a>
 override void&#160;</td><td class="memItemRight" valign="bottom"><b>Dispose</b> (bool disposing)</td></tr>
 </table>
-<hr/>The documentation for this class was generated from the following file:<ul>
-<li>Controllers/ProductHasModule.cs</li>
+<a name="details" id="details"></a><h2>Detailed Description</h2>
+<div class="textblock">
+<p>Definition at line <a class="el" href="_product_has_module_8cs_source.html#l00014">14</a> of file <a class="el" href="_product_has_module_8cs_source.html">ProductHasModule.cs</a>.</p>
+</div><hr/>The documentation for this class was generated from the following file:<ul>
+<li>Controllers/<a class="el" href="_product_has_module_8cs_source.html">ProductHasModule.cs</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -137,7 +142,7 @@ override void&#160;</td><td class="memItemRight" valign="bottom"><b>Dispose</b> 
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_webassistenten__ads__api.html">Webassistenten_ads_api</a></li><li class="navelem"><a class="el" href="namespace_webassistenten__ads__api_1_1_controllers.html">Controllers</a></li><li class="navelem"><a class="el" href="class_webassistenten__ads__api_1_1_controllers_1_1_product_has_module.html">ProductHasModule</a></li>
-    <li class="footer">Generated on Wed Oct 30 2013 12:25:11 for Webassistenten WebAPI by
+    <li class="footer">Generated on Wed Nov 6 2013 11:16:15 for Webassistenten WebAPI by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

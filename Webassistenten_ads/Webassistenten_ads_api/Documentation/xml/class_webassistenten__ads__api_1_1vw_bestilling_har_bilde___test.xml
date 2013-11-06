@@ -1,0 +1,253 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="class_webassistenten__ads__api_1_1vw_bestilling_har_bilde___test" kind="class" prot="public">
+    <compoundname>Webassistenten_ads_api::vwBestillingHarBilde_Test</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_bestilling_har_bilde___test_1a913f5f02166b1964fe3c5871d2b08dd7" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>long</type>
+        <definition>long Webassistenten_ads_api.vwBestillingHarBilde_Test.BestillingHarBildeId</definition>
+        <argsstring></argsstring>
+        <name>BestillingHarBildeId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBestillingHarBilde_Test.cs" line="17" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBestillingHarBilde_Test.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_bestilling_har_bilde___test_1a3d932639560edf9cddb89bf46d84cabc" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>long</type>
+        <definition>long Webassistenten_ads_api.vwBestillingHarBilde_Test.ProspektID</definition>
+        <argsstring></argsstring>
+        <name>ProspektID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBestillingHarBilde_Test.cs" line="18" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBestillingHarBilde_Test.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_bestilling_har_bilde___test_1a1f9470995f72ace296113fea5679e676" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>System.DateTime</type>
+        <definition>System.DateTime Webassistenten_ads_api.vwBestillingHarBilde_Test.DatoBest</definition>
+        <argsstring></argsstring>
+        <name>DatoBest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBestillingHarBilde_Test.cs" line="19" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBestillingHarBilde_Test.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_bestilling_har_bilde___test_1a3893ae08659dcf198f17323eb55179d9" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Webassistenten_ads_api.vwBestillingHarBilde_Test.ProduktID</definition>
+        <argsstring></argsstring>
+        <name>ProduktID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBestillingHarBilde_Test.cs" line="20" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBestillingHarBilde_Test.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_bestilling_har_bilde___test_1a4fce68df39e60420c09a957e1b656ea4" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>long</type>
+        <definition>long Webassistenten_ads_api.vwBestillingHarBilde_Test.BildeID</definition>
+        <argsstring></argsstring>
+        <name>BildeID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBestillingHarBilde_Test.cs" line="21" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBestillingHarBilde_Test.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_bestilling_har_bilde___test_1a236f1de331221bb8b670ca8f70ddbc5c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.vwBestillingHarBilde_Test.SourceFile</definition>
+        <argsstring></argsstring>
+        <name>SourceFile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBestillingHarBilde_Test.cs" line="22" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBestillingHarBilde_Test.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_bestilling_har_bilde___test_1a8add84704acdfe17395cb6e900bb69a1" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.vwBestillingHarBilde_Test.DestFile</definition>
+        <argsstring></argsstring>
+        <name>DestFile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBestillingHarBilde_Test.cs" line="23" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBestillingHarBilde_Test.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_bestilling_har_bilde___test_1ad3d74a41fa2bd1d7320f39a7cdf88d62" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.vwBestillingHarBilde_Test.Label</definition>
+        <argsstring></argsstring>
+        <name>Label</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBestillingHarBilde_Test.cs" line="24" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBestillingHarBilde_Test.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_bestilling_har_bilde___test_1a1b7cf95f904b8b468c093a05ed7cda34" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; bool &gt;</type>
+        <definition>Nullable&lt;bool&gt; Webassistenten_ads_api.vwBestillingHarBilde_Test.Dirty</definition>
+        <argsstring></argsstring>
+        <name>Dirty</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBestillingHarBilde_Test.cs" line="25" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBestillingHarBilde_Test.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_bestilling_har_bilde___test_1a4a15983375231ee8276cbb1c786520b9" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; decimal &gt;</type>
+        <definition>Nullable&lt;decimal&gt; Webassistenten_ads_api.vwBestillingHarBilde_Test.CropX</definition>
+        <argsstring></argsstring>
+        <name>CropX</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBestillingHarBilde_Test.cs" line="26" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBestillingHarBilde_Test.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_bestilling_har_bilde___test_1aff3ccfb140e2700f85fade984874f4eb" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; decimal &gt;</type>
+        <definition>Nullable&lt;decimal&gt; Webassistenten_ads_api.vwBestillingHarBilde_Test.CropY</definition>
+        <argsstring></argsstring>
+        <name>CropY</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBestillingHarBilde_Test.cs" line="27" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBestillingHarBilde_Test.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_bestilling_har_bilde___test_1a698b62615b6da962eba75c5fa216f92e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; decimal &gt;</type>
+        <definition>Nullable&lt;decimal&gt; Webassistenten_ads_api.vwBestillingHarBilde_Test.CropW</definition>
+        <argsstring></argsstring>
+        <name>CropW</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBestillingHarBilde_Test.cs" line="28" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBestillingHarBilde_Test.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_bestilling_har_bilde___test_1a6beb1c5f5203728627efcecdf3e32d3c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; decimal &gt;</type>
+        <definition>Nullable&lt;decimal&gt; Webassistenten_ads_api.vwBestillingHarBilde_Test.CropH</definition>
+        <argsstring></argsstring>
+        <name>CropH</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBestillingHarBilde_Test.cs" line="29" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBestillingHarBilde_Test.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_bestilling_har_bilde___test_1a12bc6a4b0f6bb5b43a629fcbbe63c824" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; decimal &gt;</type>
+        <definition>Nullable&lt;decimal&gt; Webassistenten_ads_api.vwBestillingHarBilde_Test.Rotate</definition>
+        <argsstring></argsstring>
+        <name>Rotate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBestillingHarBilde_Test.cs" line="30" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBestillingHarBilde_Test.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_bestilling_har_bilde___test_1a7d790a43aa41a2121736e678f09afdac" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; decimal &gt;</type>
+        <definition>Nullable&lt;decimal&gt; Webassistenten_ads_api.vwBestillingHarBilde_Test.Scale</definition>
+        <argsstring></argsstring>
+        <name>Scale</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBestillingHarBilde_Test.cs" line="31" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBestillingHarBilde_Test.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_bestilling_har_bilde___test_1ae2cc57f836c7e7631817aadaf04882e3" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; decimal &gt;</type>
+        <definition>Nullable&lt;decimal&gt; Webassistenten_ads_api.vwBestillingHarBilde_Test.PositionX</definition>
+        <argsstring></argsstring>
+        <name>PositionX</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBestillingHarBilde_Test.cs" line="32" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBestillingHarBilde_Test.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_bestilling_har_bilde___test_1adc63fc498645e783610b7d3c47611502" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; decimal &gt;</type>
+        <definition>Nullable&lt;decimal&gt; Webassistenten_ads_api.vwBestillingHarBilde_Test.PositionY</definition>
+        <argsstring></argsstring>
+        <name>PositionY</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBestillingHarBilde_Test.cs" line="33" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBestillingHarBilde_Test.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBestillingHarBilde_Test.cs" line="16" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBestillingHarBilde_Test.cs" bodystart="15" bodyend="34"/>
+    <listofallmembers>
+      <member refid="class_webassistenten__ads__api_1_1vw_bestilling_har_bilde___test_1a913f5f02166b1964fe3c5871d2b08dd7" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwBestillingHarBilde_Test</scope><name>BestillingHarBildeId</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_bestilling_har_bilde___test_1a4fce68df39e60420c09a957e1b656ea4" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwBestillingHarBilde_Test</scope><name>BildeID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_bestilling_har_bilde___test_1a6beb1c5f5203728627efcecdf3e32d3c" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwBestillingHarBilde_Test</scope><name>CropH</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_bestilling_har_bilde___test_1a698b62615b6da962eba75c5fa216f92e" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwBestillingHarBilde_Test</scope><name>CropW</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_bestilling_har_bilde___test_1a4a15983375231ee8276cbb1c786520b9" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwBestillingHarBilde_Test</scope><name>CropX</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_bestilling_har_bilde___test_1aff3ccfb140e2700f85fade984874f4eb" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwBestillingHarBilde_Test</scope><name>CropY</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_bestilling_har_bilde___test_1a1f9470995f72ace296113fea5679e676" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwBestillingHarBilde_Test</scope><name>DatoBest</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_bestilling_har_bilde___test_1a8add84704acdfe17395cb6e900bb69a1" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwBestillingHarBilde_Test</scope><name>DestFile</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_bestilling_har_bilde___test_1a1b7cf95f904b8b468c093a05ed7cda34" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwBestillingHarBilde_Test</scope><name>Dirty</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_bestilling_har_bilde___test_1ad3d74a41fa2bd1d7320f39a7cdf88d62" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwBestillingHarBilde_Test</scope><name>Label</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_bestilling_har_bilde___test_1ae2cc57f836c7e7631817aadaf04882e3" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwBestillingHarBilde_Test</scope><name>PositionX</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_bestilling_har_bilde___test_1adc63fc498645e783610b7d3c47611502" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwBestillingHarBilde_Test</scope><name>PositionY</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_bestilling_har_bilde___test_1a3893ae08659dcf198f17323eb55179d9" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwBestillingHarBilde_Test</scope><name>ProduktID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_bestilling_har_bilde___test_1a3d932639560edf9cddb89bf46d84cabc" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwBestillingHarBilde_Test</scope><name>ProspektID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_bestilling_har_bilde___test_1a12bc6a4b0f6bb5b43a629fcbbe63c824" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwBestillingHarBilde_Test</scope><name>Rotate</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_bestilling_har_bilde___test_1a7d790a43aa41a2121736e678f09afdac" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwBestillingHarBilde_Test</scope><name>Scale</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_bestilling_har_bilde___test_1a236f1de331221bb8b670ca8f70ddbc5c" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwBestillingHarBilde_Test</scope><name>SourceFile</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

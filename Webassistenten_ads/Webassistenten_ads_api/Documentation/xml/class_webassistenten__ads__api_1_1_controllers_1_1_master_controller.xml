@@ -1,0 +1,614 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="class_webassistenten__ads__api_1_1_controllers_1_1_master_controller" kind="class" prot="public">
+    <compoundname>Webassistenten_ads_api::Controllers::MasterController</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_webassistenten__ads__api_1_1_controllers_1_1_master_controller_1a66950918a55b8856b20ae24ac00b5d25" prot="private" static="no" mutable="no">
+        <type><ref refid="class_webassistenten__ads__api_1_1_bolig_entities1" kindref="compound">BoligEntities1</ref></type>
+        <definition>BoligEntities1 Webassistenten_ads_api.Controllers.MasterController.db</definition>
+        <argsstring></argsstring>
+        <name>db</name>
+        <initializer> new <ref refid="class_webassistenten__ads__api_1_1_bolig_entities1" kindref="compound">BoligEntities1</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/MasterController.cs" line="23" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/MasterController.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_webassistenten__ads__api_1_1_controllers_1_1_master_controller_1a6725b9bb4f2be16c460fd6107496a720" prot="public" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.Controllers.MasterController.folder</definition>
+        <argsstring></argsstring>
+        <name>folder</name>
+        <initializer>&quot;~/hdTest/&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/MasterController.cs" line="37" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/MasterController.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_controllers_1_1_master_controller_1af561920a5d908b6c42b20d68a375698c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult Webassistenten_ads_api.Controllers.MasterController.Index</definition>
+        <argsstring>()</argsstring>
+        <name>Index</name>
+        <briefdescription>
+<para>Index method for login/identifying </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>IndexView</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/MasterController.cs" line="45" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/MasterController.cs" bodystart="44" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_controllers_1_1_master_controller_1ad7e32dcf28242b966b3eff8fe4efcee6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult Webassistenten_ads_api.Controllers.MasterController.Upload</definition>
+        <argsstring>(int ProductId, Realtor ResponsibleRealtor, string Area, int Type, int Price, string Location, string Headline, Address Address, int ZipCode, string ZipArea, DateTime BookingDate, DateTime?OpenHouseDate, DateTime?ConstructionYear, int FinnCode=0, int ContractNr=0, float P_rom=0, float Boa=0, float Bta=0, float Bra=0, int Costs=0, int PurchaseCosts=0, int CommonCosts=0, int AmountSharedDebt=0, int CommonExpenses=0, int PropertyArea=0, string PropertyType=&quot;&quot;, int Floor=0, int Bedrooms=0, int Rooms=0, string OpenHouseText=&quot;&quot;, string RealEstAgentName=&quot;&quot;, string RealEstAgentTitle=&quot;&quot;, int RealEstAgentMobile=0, int RealEstAgentPhone=0, string RealEstAgentEmail=&quot;&quot;, string AdText=&quot;&quot;)</argsstring>
+        <name>Upload</name>
+        <param>
+          <type>int</type>
+          <declname>ProductId</declname>
+        </param>
+        <param>
+          <type><ref refid="class_webassistenten__ads__api_1_1_models_1_1_realtor" kindref="compound">Realtor</ref></type>
+          <declname>ResponsibleRealtor</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>Area</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>Type</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>Price</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>Location</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>Headline</declname>
+        </param>
+        <param>
+          <type><ref refid="class_webassistenten__ads__api_1_1_models_1_1_address" kindref="compound">Address</ref></type>
+          <declname>Address</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ZipCode</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>ZipArea</declname>
+        </param>
+        <param>
+          <type>DateTime</type>
+          <declname>BookingDate</declname>
+        </param>
+        <param>
+          <type>DateTime?</type>
+          <declname>OpenHouseDate</declname>
+        </param>
+        <param>
+          <type>DateTime?</type>
+          <declname>ConstructionYear</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>FinnCode</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ContractNr</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>P_rom</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>Boa</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>Bta</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>Bra</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>Costs</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>PurchaseCosts</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>CommonCosts</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>AmountSharedDebt</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>CommonExpenses</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>PropertyArea</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>PropertyType</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>Floor</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>Bedrooms</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>Rooms</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>OpenHouseText</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>RealEstAgentName</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>RealEstAgentTitle</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>RealEstAgentMobile</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>RealEstAgentPhone</declname>
+          <defval>0</defval>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>RealEstAgentEmail</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>AdText</declname>
+          <defval>&quot;&quot;</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ProductId</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ResponsibleRealtor</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Area</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Type</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Price</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Location</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Headline</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Address</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ZipCode</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ZipArea</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>BookingDate</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>OpenHouseDate</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ConstructionYear</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>FinnCode</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>ContractNr</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>P_rom</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Boa</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Bta</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Bra</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Costs</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>PurchaseCosts</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>CommonCosts</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>AmountSharedDebt</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>CommonExpenses</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>PropertyArea</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername><ref refid="class_webassistenten__ads__api_1_1_property_type" kindref="compound">PropertyType</ref></parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Floor</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Bedrooms</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>Rooms</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>OpenHouseText</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>RealEstAgentName</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>RealEstAgentTitle</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>RealEstAgentMobile</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>RealEstAgentPhone</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>RealEstAgentEmail</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>AdText</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>Redirects</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/MasterController.cs" line="100" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/MasterController.cs" bodystart="90" bodyend="149"/>
+      </memberdef>
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_controllers_1_1_master_controller_1a9b09d23e1af5283e9aaaf9c0ff9e7fc2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult Webassistenten_ads_api.Controllers.MasterController.AddNewAd</definition>
+        <argsstring>(int ProductId)</argsstring>
+        <name>AddNewAd</name>
+        <param>
+          <type>int</type>
+          <declname>ProductId</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>ProductId</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>View</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/MasterController.cs" line="157" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/MasterController.cs" bodystart="156" bodyend="163"/>
+      </memberdef>
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_controllers_1_1_master_controller_1ae26170e0fdffc817eb7d9950dec70589" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult Webassistenten_ads_api.Controllers.MasterController.ChooseModule</definition>
+        <argsstring>(string email, int id)</argsstring>
+        <name>ChooseModule</name>
+        <param>
+          <type>string</type>
+          <declname>email</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>email</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/MasterController.cs" line="173" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/MasterController.cs" bodystart="172" bodyend="178"/>
+      </memberdef>
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_controllers_1_1_master_controller_1a668432ac872507b4a7ffe36c38bc806e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult Webassistenten_ads_api.Controllers.MasterController.Fail</definition>
+        <argsstring>()</argsstring>
+        <name>Fail</name>
+        <briefdescription>
+<para>something missing or wrong with the datainput </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para>view</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/MasterController.cs" line="186" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/MasterController.cs" bodystart="185" bodyend="188"/>
+      </memberdef>
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_controllers_1_1_master_controller_1affcc79060a652c756b0ac103ee919d80" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ActionResult</type>
+        <definition>ActionResult Webassistenten_ads_api.Controllers.MasterController.Success</definition>
+        <argsstring>()</argsstring>
+        <name>Success</name>
+        <briefdescription>
+<para>everything went right with inserting data/file </para>        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="return"><para></para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/MasterController.cs" line="194" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/MasterController.cs" bodystart="193" bodyend="196"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_controllers_1_1_master_controller_1a637b2b2458463e5d56a222c40e0770d5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Webassistenten_ads_api.Controllers.MasterController.IsValidMail</definition>
+        <argsstring>(string emailaddress)</argsstring>
+        <name>IsValidMail</name>
+        <param>
+          <type>string</type>
+          <declname>emailaddress</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/MasterController.cs" line="200" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/MasterController.cs" bodystart="199" bodyend="212"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/MasterController.cs" line="21" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/MasterController.cs" bodystart="20" bodyend="231"/>
+    <listofallmembers>
+      <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_master_controller_1a9b09d23e1af5283e9aaaf9c0ff9e7fc2" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Controllers::MasterController</scope><name>AddNewAd</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_master_controller_1ae26170e0fdffc817eb7d9950dec70589" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Controllers::MasterController</scope><name>ChooseModule</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_master_controller_1a66950918a55b8856b20ae24ac00b5d25" prot="private" virt="non-virtual"><scope>Webassistenten_ads_api::Controllers::MasterController</scope><name>db</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_master_controller_1a668432ac872507b4a7ffe36c38bc806e" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Controllers::MasterController</scope><name>Fail</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_master_controller_1a6725b9bb4f2be16c460fd6107496a720" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Controllers::MasterController</scope><name>folder</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_master_controller_1af561920a5d908b6c42b20d68a375698c" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Controllers::MasterController</scope><name>Index</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_master_controller_1a637b2b2458463e5d56a222c40e0770d5" prot="private" virt="non-virtual"><scope>Webassistenten_ads_api::Controllers::MasterController</scope><name>IsValidMail</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_master_controller_1affcc79060a652c756b0ac103ee919d80" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Controllers::MasterController</scope><name>Success</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_master_controller_1ad7e32dcf28242b966b3eff8fe4efcee6" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Controllers::MasterController</scope><name>Upload</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="interface_webassistenten__ads__api_1_1_models_1_1_ad_info" kind="interface" prot="public">
+    <compoundname>Webassistenten_ads_api::Models::AdInfo</compoundname>
+    <derivedcompoundref refid="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info" prot="public" virt="non-virtual">Webassistenten_ads_api.Models.RealEstateAdInfo</derivedcompoundref>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="7">
+        <label>Webassistenten_ads_api.Models.AdInfo</label>
+        <link refid="interface_webassistenten__ads__api_1_1_models_1_1_ad_info"/>
+      </node>
+      <node id="8">
+        <label>Webassistenten_ads_api.Models.RealEstateAdInfo</label>
+        <link refid="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info"/>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/AdInfo.cs" line="10" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/AdInfo.cs" bodystart="9" bodyend="11"/>
+    <listofallmembers>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

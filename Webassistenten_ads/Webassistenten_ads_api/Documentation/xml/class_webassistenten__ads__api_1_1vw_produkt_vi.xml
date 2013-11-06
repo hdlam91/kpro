@@ -1,0 +1,239 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="class_webassistenten__ads__api_1_1vw_produkt_vi" kind="class" prot="public">
+    <compoundname>Webassistenten_ads_api::vwProduktVi</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_produkt_vi_1a571f60b99b0a9527db5b14679eec5d10" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>byte</type>
+        <definition>byte Webassistenten_ads_api.vwProduktVi.ProduktID</definition>
+        <argsstring></argsstring>
+        <name>ProduktID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwProduktVi.cs" line="17" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwProduktVi.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_produkt_vi_1a09a5226920e4a0a7a4a305f5a98637d4" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.vwProduktVi.Produktnavn</definition>
+        <argsstring></argsstring>
+        <name>Produktnavn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwProduktVi.cs" line="18" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwProduktVi.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_produkt_vi_1a9e916b2ec3ca79c46b0ee0da89a412b1" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.vwProduktVi.ProduktnavnAdmin</definition>
+        <argsstring></argsstring>
+        <name>ProduktnavnAdmin</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwProduktVi.cs" line="19" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwProduktVi.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_produkt_vi_1ac77c45a2c32802759a4c06af0af4a4f5" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.vwProduktVi.Kommentar</definition>
+        <argsstring></argsstring>
+        <name>Kommentar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwProduktVi.cs" line="20" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwProduktVi.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_produkt_vi_1a159603f8db6fbe656016d784625c2fd7" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.vwProduktVi.DagerUtgivelse</definition>
+        <argsstring></argsstring>
+        <name>DagerUtgivelse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwProduktVi.cs" line="21" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwProduktVi.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_produkt_vi_1a22506d3c1daa68c6fc1bd4fc23c680b3" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>byte</type>
+        <definition>byte Webassistenten_ads_api.vwProduktVi.ModulerPrSide</definition>
+        <argsstring></argsstring>
+        <name>ModulerPrSide</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwProduktVi.cs" line="22" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwProduktVi.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_produkt_vi_1a8612fa7824cd2a07e5926102992580cd" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Webassistenten_ads_api.vwProduktVi.Aktiv</definition>
+        <argsstring></argsstring>
+        <name>Aktiv</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwProduktVi.cs" line="23" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwProduktVi.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_produkt_vi_1a21fde642321b129ee99fc64f541e3849" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Webassistenten_ads_api.vwProduktVi.AktivInDesign</definition>
+        <argsstring></argsstring>
+        <name>AktivInDesign</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwProduktVi.cs" line="24" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwProduktVi.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_produkt_vi_1a283f4f377bd0cc8fd02b100160ab4ea9" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Webassistenten_ads_api.vwProduktVi.Paraplyannonse</definition>
+        <argsstring></argsstring>
+        <name>Paraplyannonse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwProduktVi.cs" line="25" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwProduktVi.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_produkt_vi_1a110ff9d6692a27bd93f8d635d3d7c1c6" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; byte &gt;</type>
+        <definition>Nullable&lt;byte&gt; Webassistenten_ads_api.vwProduktVi.ModulStr</definition>
+        <argsstring></argsstring>
+        <name>ModulStr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwProduktVi.cs" line="26" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwProduktVi.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_produkt_vi_1a986205e3c90cbd719cee56a06c07f534" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.vwProduktVi.ALDAanntype</definition>
+        <argsstring></argsstring>
+        <name>ALDAanntype</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwProduktVi.cs" line="27" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwProduktVi.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_produkt_vi_1aedddb7ba3dac4bac83434f04a5ee79b4" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; short &gt;</type>
+        <definition>Nullable&lt;short&gt; Webassistenten_ads_api.vwProduktVi.LåsStart</definition>
+        <argsstring></argsstring>
+        <name>LåsStart</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwProduktVi.cs" line="28" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwProduktVi.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_produkt_vi_1a941864e0f6f8f83434ca25bc6d305d6e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; short &gt;</type>
+        <definition>Nullable&lt;short&gt; Webassistenten_ads_api.vwProduktVi.LåsSlutt</definition>
+        <argsstring></argsstring>
+        <name>LåsSlutt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwProduktVi.cs" line="29" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwProduktVi.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_produkt_vi_1a0710d338eaf68a6c505983021327fe30" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; short &gt;</type>
+        <definition>Nullable&lt;short&gt; Webassistenten_ads_api.vwProduktVi.BookingFristStart</definition>
+        <argsstring></argsstring>
+        <name>BookingFristStart</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwProduktVi.cs" line="30" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwProduktVi.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_produkt_vi_1a87a28862147ac71dd298a49a8409a2fe" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; short &gt;</type>
+        <definition>Nullable&lt;short&gt; Webassistenten_ads_api.vwProduktVi.BookingFristSlutt</definition>
+        <argsstring></argsstring>
+        <name>BookingFristSlutt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwProduktVi.cs" line="31" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwProduktVi.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_produkt_vi_1a9910ebe6863c6edf33161bd3438f69ca" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.vwProduktVi.EpostKundeansvarlig</definition>
+        <argsstring></argsstring>
+        <name>EpostKundeansvarlig</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwProduktVi.cs" line="32" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwProduktVi.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwProduktVi.cs" line="16" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwProduktVi.cs" bodystart="15" bodyend="33"/>
+    <listofallmembers>
+      <member refid="class_webassistenten__ads__api_1_1vw_produkt_vi_1a8612fa7824cd2a07e5926102992580cd" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwProduktVi</scope><name>Aktiv</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_produkt_vi_1a21fde642321b129ee99fc64f541e3849" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwProduktVi</scope><name>AktivInDesign</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_produkt_vi_1a986205e3c90cbd719cee56a06c07f534" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwProduktVi</scope><name>ALDAanntype</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_produkt_vi_1a87a28862147ac71dd298a49a8409a2fe" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwProduktVi</scope><name>BookingFristSlutt</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_produkt_vi_1a0710d338eaf68a6c505983021327fe30" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwProduktVi</scope><name>BookingFristStart</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_produkt_vi_1a159603f8db6fbe656016d784625c2fd7" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwProduktVi</scope><name>DagerUtgivelse</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_produkt_vi_1a9910ebe6863c6edf33161bd3438f69ca" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwProduktVi</scope><name>EpostKundeansvarlig</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_produkt_vi_1ac77c45a2c32802759a4c06af0af4a4f5" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwProduktVi</scope><name>Kommentar</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_produkt_vi_1a941864e0f6f8f83434ca25bc6d305d6e" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwProduktVi</scope><name>LåsSlutt</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_produkt_vi_1aedddb7ba3dac4bac83434f04a5ee79b4" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwProduktVi</scope><name>LåsStart</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_produkt_vi_1a22506d3c1daa68c6fc1bd4fc23c680b3" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwProduktVi</scope><name>ModulerPrSide</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_produkt_vi_1a110ff9d6692a27bd93f8d635d3d7c1c6" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwProduktVi</scope><name>ModulStr</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_produkt_vi_1a283f4f377bd0cc8fd02b100160ab4ea9" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwProduktVi</scope><name>Paraplyannonse</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_produkt_vi_1a571f60b99b0a9527db5b14679eec5d10" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwProduktVi</scope><name>ProduktID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_produkt_vi_1a09a5226920e4a0a7a4a305f5a98637d4" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwProduktVi</scope><name>Produktnavn</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_produkt_vi_1a9e916b2ec3ca79c46b0ee0da89a412b1" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwProduktVi</scope><name>ProduktnavnAdmin</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="class_webassistenten__ads__api_1_1vw_bilde_logg" kind="class" prot="public">
+    <compoundname>Webassistenten_ads_api::vwBildeLogg</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_bilde_logg_1a96ef2a30e9bfda8b015e0bbfe81c8df8" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>long</type>
+        <definition>long Webassistenten_ads_api.vwBildeLogg.BildeLoggID</definition>
+        <argsstring></argsstring>
+        <name>BildeLoggID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBildeLogg.cs" line="17" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBildeLogg.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_bilde_logg_1a6fc853df5531b96ee9ee50a6cf331b87" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>long</type>
+        <definition>long Webassistenten_ads_api.vwBildeLogg.ProspektID</definition>
+        <argsstring></argsstring>
+        <name>ProspektID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBildeLogg.cs" line="18" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBildeLogg.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_bilde_logg_1a9240c2631389c04775eaeac272d3dfe6" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.vwBildeLogg.Bildenavn</definition>
+        <argsstring></argsstring>
+        <name>Bildenavn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBildeLogg.cs" line="19" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBildeLogg.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_bilde_logg_1a49380c526cca0a899b337efc84c61a74" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.vwBildeLogg.BildenavnKopi</definition>
+        <argsstring></argsstring>
+        <name>BildenavnKopi</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBildeLogg.cs" line="20" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBildeLogg.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_bilde_logg_1a0f43a75afcf14e97989247fd5bff9e04" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.vwBildeLogg.Operasjon</definition>
+        <argsstring></argsstring>
+        <name>Operasjon</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBildeLogg.cs" line="21" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBildeLogg.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_bilde_logg_1a662ed8b597e168902e6a42efefe40bf2" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; System.DateTime &gt;</type>
+        <definition>Nullable&lt;System.DateTime&gt; Webassistenten_ads_api.vwBildeLogg.DatoReg</definition>
+        <argsstring></argsstring>
+        <name>DatoReg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBildeLogg.cs" line="22" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBildeLogg.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBildeLogg.cs" line="16" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwBildeLogg.cs" bodystart="15" bodyend="23"/>
+    <listofallmembers>
+      <member refid="class_webassistenten__ads__api_1_1vw_bilde_logg_1a96ef2a30e9bfda8b015e0bbfe81c8df8" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwBildeLogg</scope><name>BildeLoggID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_bilde_logg_1a9240c2631389c04775eaeac272d3dfe6" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwBildeLogg</scope><name>Bildenavn</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_bilde_logg_1a49380c526cca0a899b337efc84c61a74" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwBildeLogg</scope><name>BildenavnKopi</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_bilde_logg_1a662ed8b597e168902e6a42efefe40bf2" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwBildeLogg</scope><name>DatoReg</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_bilde_logg_1a0f43a75afcf14e97989247fd5bff9e04" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwBildeLogg</scope><name>Operasjon</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_bilde_logg_1a6fc853df5531b96ee9ee50a6cf331b87" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwBildeLogg</scope><name>ProspektID</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

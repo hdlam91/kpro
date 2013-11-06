@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="class_webassistenten__ads__api_1_1sp___hent_firma_bruker_har_produkt___result" kind="class" prot="public">
+    <compoundname>Webassistenten_ads_api::sp_HentFirmaBrukerHarProdukt_Result</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_firma_bruker_har_produkt___result_1a2dbc5ab94f55d507befb7f9adb77cf94" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>byte</type>
+        <definition>byte Webassistenten_ads_api.sp_HentFirmaBrukerHarProdukt_Result.ProduktID</definition>
+        <argsstring></argsstring>
+        <name>ProduktID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentFirmaBrukerHarProdukt_Result.cs" line="16" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentFirmaBrukerHarProdukt_Result.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_firma_bruker_har_produkt___result_1a31ad9d2fa3756586051a870f6392a702" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_HentFirmaBrukerHarProdukt_Result.Produktnavn</definition>
+        <argsstring></argsstring>
+        <name>Produktnavn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentFirmaBrukerHarProdukt_Result.cs" line="17" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentFirmaBrukerHarProdukt_Result.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_firma_bruker_har_produkt___result_1ac52a79e946f2eeefa8f7eec6f348be99" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.sp_HentFirmaBrukerHarProdukt_Result.DagerUtgivelse</definition>
+        <argsstring></argsstring>
+        <name>DagerUtgivelse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentFirmaBrukerHarProdukt_Result.cs" line="18" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentFirmaBrukerHarProdukt_Result.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_firma_bruker_har_produkt___result_1a554d346f2a8afc86d2b175be83d6a0e3" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>byte</type>
+        <definition>byte Webassistenten_ads_api.sp_HentFirmaBrukerHarProdukt_Result.ModulerPrSide</definition>
+        <argsstring></argsstring>
+        <name>ModulerPrSide</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentFirmaBrukerHarProdukt_Result.cs" line="19" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentFirmaBrukerHarProdukt_Result.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1sp___hent_firma_bruker_har_produkt___result_1a6fa5dc3a459507e5f13a096c628b5413" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool Webassistenten_ads_api.sp_HentFirmaBrukerHarProdukt_Result.Aktiv</definition>
+        <argsstring></argsstring>
+        <name>Aktiv</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentFirmaBrukerHarProdukt_Result.cs" line="20" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentFirmaBrukerHarProdukt_Result.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentFirmaBrukerHarProdukt_Result.cs" line="15" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/sp_HentFirmaBrukerHarProdukt_Result.cs" bodystart="14" bodyend="21"/>
+    <listofallmembers>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_firma_bruker_har_produkt___result_1a6fa5dc3a459507e5f13a096c628b5413" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentFirmaBrukerHarProdukt_Result</scope><name>Aktiv</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_firma_bruker_har_produkt___result_1ac52a79e946f2eeefa8f7eec6f348be99" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentFirmaBrukerHarProdukt_Result</scope><name>DagerUtgivelse</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_firma_bruker_har_produkt___result_1a554d346f2a8afc86d2b175be83d6a0e3" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentFirmaBrukerHarProdukt_Result</scope><name>ModulerPrSide</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_firma_bruker_har_produkt___result_1a2dbc5ab94f55d507befb7f9adb77cf94" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentFirmaBrukerHarProdukt_Result</scope><name>ProduktID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1sp___hent_firma_bruker_har_produkt___result_1a31ad9d2fa3756586051a870f6392a702" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::sp_HentFirmaBrukerHarProdukt_Result</scope><name>Produktnavn</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,27 @@
+var class_webassistenten__ads__api_1_1sp___hent_partner___result =
+[
+    [ "Bildepakke", "class_webassistenten__ads__api_1_1sp___hent_partner___result.html#a1a2f5f40e3477911917e034cfcc3715d", null ],
+    [ "Bilderedusert", "class_webassistenten__ads__api_1_1sp___hent_partner___result.html#a6a6cfa5c3f700ff69ad740b1368406e6", null ],
+    [ "Bildevedlegg", "class_webassistenten__ads__api_1_1sp___hent_partner___result.html#ac11ee78b64c520f6ebddc7df9de25833", null ],
+    [ "EpostKundeansvarlig", "class_webassistenten__ads__api_1_1sp___hent_partner___result.html#aecea5d169fede952cf747166ecc9d298", null ],
+    [ "FinnPartnerID", "class_webassistenten__ads__api_1_1sp___hent_partner___result.html#ae31bd407e4c30723a807aad9fef3e12a", null ],
+    [ "FotoKunde", "class_webassistenten__ads__api_1_1sp___hent_partner___result.html#a54af581a410d8e02ea90fe74ccf73df1", null ],
+    [ "Katalog", "class_webassistenten__ads__api_1_1sp___hent_partner___result.html#a2d7fe544ca0e1f046a3257d7abb43080", null ],
+    [ "Kortnavn", "class_webassistenten__ads__api_1_1sp___hent_partner___result.html#a21bc2b46b4931458ab9af1c71b71a995", null ],
+    [ "KundeID", "class_webassistenten__ads__api_1_1sp___hent_partner___result.html#a7a0cc424f89239075e033d0e1ffc9d23", null ],
+    [ "Logo", "class_webassistenten__ads__api_1_1sp___hent_partner___result.html#a0b69957ed5716cab5e520297254ac8f4", null ],
+    [ "Logonavn", "class_webassistenten__ads__api_1_1sp___hent_partner___result.html#abf991873ec56a87f5362588d58d54e31", null ],
+    [ "MeglersystemBrukernavn", "class_webassistenten__ads__api_1_1sp___hent_partner___result.html#aa88d44d0c277d8ce380f305af45e3462", null ],
+    [ "MeglersystemID", "class_webassistenten__ads__api_1_1sp___hent_partner___result.html#aa8a0c7f6380d953ebda07145bcfaefa8", null ],
+    [ "MeglersystemKontorID", "class_webassistenten__ads__api_1_1sp___hent_partner___result.html#ae7c5f17693c8c5aa0f3dda27612ad838", null ],
+    [ "MeglersystemPassord", "class_webassistenten__ads__api_1_1sp___hent_partner___result.html#a1f306f1a5b0efa439c7617439656f157", null ],
+    [ "OrdrenrSuffix", "class_webassistenten__ads__api_1_1sp___hent_partner___result.html#a72e280382134bf3324a90a6a73125802", null ],
+    [ "PanoramaIkon", "class_webassistenten__ads__api_1_1sp___hent_partner___result.html#adbc76b452e94da6387eeed534ad8828d", null ],
+    [ "PartnerAntall", "class_webassistenten__ads__api_1_1sp___hent_partner___result.html#a954cc46343fe196c11b5d401c58342f9", null ],
+    [ "PartnerID", "class_webassistenten__ads__api_1_1sp___hent_partner___result.html#aa42dca2d7143e79d7d8733fdaf6b6d31", null ],
+    [ "Partnernavn", "class_webassistenten__ads__api_1_1sp___hent_partner___result.html#ab87254a056011352a431eee5e030f9ae", null ],
+    [ "PDFGodkjenning", "class_webassistenten__ads__api_1_1sp___hent_partner___result.html#a309bbaaf60305e314975998540b5e46f", null ],
+    [ "StedID", "class_webassistenten__ads__api_1_1sp___hent_partner___result.html#afa99162a997dba42ca9376d7fc05b4a2", null ],
+    [ "UseEditor", "class_webassistenten__ads__api_1_1sp___hent_partner___result.html#a8d0d77d7284193891e3c884edd3af4a7", null ],
+    [ "UseTextEdit", "class_webassistenten__ads__api_1_1sp___hent_partner___result.html#ab46c60fdbc4e0798f0d2483d6ecdd9d9", null ]
+];

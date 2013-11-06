@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="class_webassistenten__ads__api_1_1_kommune" kind="class" prot="public">
+    <compoundname>Webassistenten_ads_api::Kommune</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_kommune_1acac0e74e34dca0e292d661a688de4366" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>short</type>
+        <definition>short Webassistenten_ads_api.Kommune.Kommunenr</definition>
+        <argsstring></argsstring>
+        <name>Kommunenr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Kommune.cs" line="17" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Kommune.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_kommune_1a0cc98765d6241800222dd0013c768db9" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.Kommune.Kommunenavn</definition>
+        <argsstring></argsstring>
+        <name>Kommunenavn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Kommune.cs" line="18" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Kommune.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_kommune_1a89d835580b23714a6c837cafde1833bd" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; bool &gt;</type>
+        <definition>Nullable&lt;bool&gt; Webassistenten_ads_api.Kommune.Aktiv</definition>
+        <argsstring></argsstring>
+        <name>Aktiv</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Kommune.cs" line="19" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Kommune.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Kommune.cs" line="16" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Kommune.cs" bodystart="15" bodyend="20"/>
+    <listofallmembers>
+      <member refid="class_webassistenten__ads__api_1_1_kommune_1a89d835580b23714a6c837cafde1833bd" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Kommune</scope><name>Aktiv</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_kommune_1a0cc98765d6241800222dd0013c768db9" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Kommune</scope><name>Kommunenavn</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_kommune_1acac0e74e34dca0e292d661a688de4366" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Kommune</scope><name>Kommunenr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

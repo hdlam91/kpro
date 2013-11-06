@@ -1,0 +1,253 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="class_webassistenten__ads__api_1_1vw_prospekt_har_bestilling" kind="class" prot="public">
+    <compoundname>Webassistenten_ads_api::vwProspektHarBestilling</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_prospekt_har_bestilling_1aca67f0a520011059d4a9713160bfddf8" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>long</type>
+        <definition>long Webassistenten_ads_api.vwProspektHarBestilling.ProspektID</definition>
+        <argsstring></argsstring>
+        <name>ProspektID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwProspektHarBestilling.cs" line="17" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwProspektHarBestilling.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_prospekt_har_bestilling_1ab961a72f3b559e75be4137645da40a58" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>System.DateTime</type>
+        <definition>System.DateTime Webassistenten_ads_api.vwProspektHarBestilling.DatoBest</definition>
+        <argsstring></argsstring>
+        <name>DatoBest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwProspektHarBestilling.cs" line="18" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwProspektHarBestilling.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_prospekt_har_bestilling_1a6f4a248b4372264fbb62ebe988d60b8f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>byte</type>
+        <definition>byte Webassistenten_ads_api.vwProspektHarBestilling.ProduktID</definition>
+        <argsstring></argsstring>
+        <name>ProduktID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwProspektHarBestilling.cs" line="19" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwProspektHarBestilling.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_prospekt_har_bestilling_1a46b341cc897736d20adc1d3d5c854737" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.vwProspektHarBestilling.Ordrenr</definition>
+        <argsstring></argsstring>
+        <name>Ordrenr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwProspektHarBestilling.cs" line="20" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwProspektHarBestilling.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_prospekt_har_bestilling_1a8a4b96145c5f183cdfa709ae414d7702" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; byte &gt;</type>
+        <definition>Nullable&lt;byte&gt; Webassistenten_ads_api.vwProspektHarBestilling.Ordrestatus</definition>
+        <argsstring></argsstring>
+        <name>Ordrestatus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwProspektHarBestilling.cs" line="21" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwProspektHarBestilling.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_prospekt_har_bestilling_1a98ef9ef51d95310b95eadf89a0d2a3f6" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Webassistenten_ads_api.vwProspektHarBestilling.ModulID</definition>
+        <argsstring></argsstring>
+        <name>ModulID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwProspektHarBestilling.cs" line="22" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwProspektHarBestilling.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_prospekt_har_bestilling_1ad5c245d4b371c2c51ef61af8b45ff335" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.vwProspektHarBestilling.Filnavn</definition>
+        <argsstring></argsstring>
+        <name>Filnavn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwProspektHarBestilling.cs" line="23" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwProspektHarBestilling.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_prospekt_har_bestilling_1af85bcd7663308b615a263d7c9cdd3326" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.vwProspektHarBestilling.FilnavnProd</definition>
+        <argsstring></argsstring>
+        <name>FilnavnProd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwProspektHarBestilling.cs" line="24" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwProspektHarBestilling.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_prospekt_har_bestilling_1ad7a2c42dc086c0136545942db3333f6e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; bool &gt;</type>
+        <definition>Nullable&lt;bool&gt; Webassistenten_ads_api.vwProspektHarBestilling.Nyhet</definition>
+        <argsstring></argsstring>
+        <name>Nyhet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwProspektHarBestilling.cs" line="25" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwProspektHarBestilling.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_prospekt_har_bestilling_1ab0f546a8e32506871fef571a1bb43adc" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; byte &gt;</type>
+        <definition>Nullable&lt;byte&gt; Webassistenten_ads_api.vwProspektHarBestilling.Prisfaktor</definition>
+        <argsstring></argsstring>
+        <name>Prisfaktor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwProspektHarBestilling.cs" line="26" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwProspektHarBestilling.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_prospekt_har_bestilling_1a71853d345b0af3ff926283a23d09158c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; System.DateTime &gt;</type>
+        <definition>Nullable&lt;System.DateTime&gt; Webassistenten_ads_api.vwProspektHarBestilling.DatoReg</definition>
+        <argsstring></argsstring>
+        <name>DatoReg</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwProspektHarBestilling.cs" line="27" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwProspektHarBestilling.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_prospekt_har_bestilling_1a49455738f8207efee690127ae0868993" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; System.DateTime &gt;</type>
+        <definition>Nullable&lt;System.DateTime&gt; Webassistenten_ads_api.vwProspektHarBestilling.DatoEndret</definition>
+        <argsstring></argsstring>
+        <name>DatoEndret</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwProspektHarBestilling.cs" line="28" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwProspektHarBestilling.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_prospekt_har_bestilling_1a4a3a2c50dec1d505a3b5484a082d9c3b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; System.DateTime &gt;</type>
+        <definition>Nullable&lt;System.DateTime&gt; Webassistenten_ads_api.vwProspektHarBestilling.DatoGenPdf</definition>
+        <argsstring></argsstring>
+        <name>DatoGenPdf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwProspektHarBestilling.cs" line="29" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwProspektHarBestilling.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_prospekt_har_bestilling_1a26c4b5925d7bf7dbf49e4927b80a8fe5" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; bool &gt;</type>
+        <definition>Nullable&lt;bool&gt; Webassistenten_ads_api.vwProspektHarBestilling.ErGodkjentAvMegler</definition>
+        <argsstring></argsstring>
+        <name>ErGodkjentAvMegler</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwProspektHarBestilling.cs" line="30" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwProspektHarBestilling.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_prospekt_har_bestilling_1a5527e5ef94386e4ebca0ed01837fcd30" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; bool &gt;</type>
+        <definition>Nullable&lt;bool&gt; Webassistenten_ads_api.vwProspektHarBestilling.GenTilProd</definition>
+        <argsstring></argsstring>
+        <name>GenTilProd</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwProspektHarBestilling.cs" line="31" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwProspektHarBestilling.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_prospekt_har_bestilling_1af267455cf8f904c3a6a30e951b7dbdca" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; bool &gt;</type>
+        <definition>Nullable&lt;bool&gt; Webassistenten_ads_api.vwProspektHarBestilling.PaaminnelseSendt</definition>
+        <argsstring></argsstring>
+        <name>PaaminnelseSendt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwProspektHarBestilling.cs" line="32" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwProspektHarBestilling.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1vw_prospekt_har_bestilling_1a7b4c31b787569e2cb0397a9289af1638" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Nullable&lt; int &gt;</type>
+        <definition>Nullable&lt;int&gt; Webassistenten_ads_api.vwProspektHarBestilling.GodkjentAvBrukerID</definition>
+        <argsstring></argsstring>
+        <name>GodkjentAvBrukerID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwProspektHarBestilling.cs" line="33" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwProspektHarBestilling.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwProspektHarBestilling.cs" line="16" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/vwProspektHarBestilling.cs" bodystart="15" bodyend="34"/>
+    <listofallmembers>
+      <member refid="class_webassistenten__ads__api_1_1vw_prospekt_har_bestilling_1ab961a72f3b559e75be4137645da40a58" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwProspektHarBestilling</scope><name>DatoBest</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_prospekt_har_bestilling_1a49455738f8207efee690127ae0868993" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwProspektHarBestilling</scope><name>DatoEndret</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_prospekt_har_bestilling_1a4a3a2c50dec1d505a3b5484a082d9c3b" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwProspektHarBestilling</scope><name>DatoGenPdf</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_prospekt_har_bestilling_1a71853d345b0af3ff926283a23d09158c" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwProspektHarBestilling</scope><name>DatoReg</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_prospekt_har_bestilling_1a26c4b5925d7bf7dbf49e4927b80a8fe5" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwProspektHarBestilling</scope><name>ErGodkjentAvMegler</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_prospekt_har_bestilling_1ad5c245d4b371c2c51ef61af8b45ff335" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwProspektHarBestilling</scope><name>Filnavn</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_prospekt_har_bestilling_1af85bcd7663308b615a263d7c9cdd3326" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwProspektHarBestilling</scope><name>FilnavnProd</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_prospekt_har_bestilling_1a5527e5ef94386e4ebca0ed01837fcd30" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwProspektHarBestilling</scope><name>GenTilProd</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_prospekt_har_bestilling_1a7b4c31b787569e2cb0397a9289af1638" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwProspektHarBestilling</scope><name>GodkjentAvBrukerID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_prospekt_har_bestilling_1a98ef9ef51d95310b95eadf89a0d2a3f6" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwProspektHarBestilling</scope><name>ModulID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_prospekt_har_bestilling_1ad7a2c42dc086c0136545942db3333f6e" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwProspektHarBestilling</scope><name>Nyhet</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_prospekt_har_bestilling_1a46b341cc897736d20adc1d3d5c854737" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwProspektHarBestilling</scope><name>Ordrenr</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_prospekt_har_bestilling_1a8a4b96145c5f183cdfa709ae414d7702" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwProspektHarBestilling</scope><name>Ordrestatus</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_prospekt_har_bestilling_1af267455cf8f904c3a6a30e951b7dbdca" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwProspektHarBestilling</scope><name>PaaminnelseSendt</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_prospekt_har_bestilling_1ab0f546a8e32506871fef571a1bb43adc" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwProspektHarBestilling</scope><name>Prisfaktor</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_prospekt_har_bestilling_1a6f4a248b4372264fbb62ebe988d60b8f" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwProspektHarBestilling</scope><name>ProduktID</name></member>
+      <member refid="class_webassistenten__ads__api_1_1vw_prospekt_har_bestilling_1aca67f0a520011059d4a9713160bfddf8" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::vwProspektHarBestilling</scope><name>ProspektID</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

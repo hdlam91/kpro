@@ -28,8 +28,9 @@
  <tr style="height: 56px;">
   <td style="padding-left: 0.5em;">
    <div id="projectname">Webassistenten WebAPI
+   &#160;<span id="projectnumber">1.0</span>
    </div>
-   <div id="projectbrief">API for Real-Estate Ad orders</div>
+   <div id="projectbrief">Automatic ad import system for Adresseavisen</div>
   </td>
  </tr>
  </tbody>
@@ -45,6 +46,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="namespaces.html"><span>Packages</span></a></li>
       <li class="current"><a href="annotated.html"><span>Classes</span></a></li>
+      <li><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -91,7 +93,7 @@ $(document).ready(function(){initNavTree('class_webassistenten__ads__api_1_1_con
      onmouseover="return searchBox.OnSearchSelectShow()"
      onmouseout="return searchBox.OnSearchSelectHide()"
      onkeydown="return searchBox.OnSearchSelectKey(event)">
-<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a></div>
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>All</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Classes</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Namespaces</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Functions</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(4)"><span class="SelectionMark">&#160;</span>Enumerations</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(5)"><span class="SelectionMark">&#160;</span>Properties</a></div>
 
 <!-- iframe showing the search results (closed by default) -->
 <div id="MSearchResultsWindow">
@@ -114,13 +116,13 @@ $(document).ready(function(){initNavTree('class_webassistenten__ads__api_1_1_con
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a13628be52e806912c4bf69ed19a9d496"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a13628be52e806912c4bf69ed19a9d496"></a>
 IEnumerable<br class="typebreak"/>
-&lt; ProspektHarBestilling &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>GetProspektHarBestillings</b> ()</td></tr>
+&lt; <a class="el" href="class_webassistenten__ads__api_1_1_prospekt_har_bestilling.html">ProspektHarBestilling</a> &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>GetProspektHarBestillings</b> ()</td></tr>
 <tr class="memitem:a8b76a85cee3bea946f27952f41297a80"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8b76a85cee3bea946f27952f41297a80"></a>
-ProspektHarBestilling&#160;</td><td class="memItemRight" valign="bottom"><b>GetProspektHarBestilling</b> (long id)</td></tr>
+<a class="el" href="class_webassistenten__ads__api_1_1_prospekt_har_bestilling.html">ProspektHarBestilling</a>&#160;</td><td class="memItemRight" valign="bottom"><b>GetProspektHarBestilling</b> (long id)</td></tr>
 <tr class="memitem:a890c5fc6722df7c2122aaa31701ed372"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a890c5fc6722df7c2122aaa31701ed372"></a>
-HttpResponseMessage&#160;</td><td class="memItemRight" valign="bottom"><b>PutProspektHarBestilling</b> (long id, ProspektHarBestilling prospektharbestilling)</td></tr>
+HttpResponseMessage&#160;</td><td class="memItemRight" valign="bottom"><b>PutProspektHarBestilling</b> (long id, <a class="el" href="class_webassistenten__ads__api_1_1_prospekt_har_bestilling.html">ProspektHarBestilling</a> prospektharbestilling)</td></tr>
 <tr class="memitem:a1f561828824f87b908e23798931f01e4"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1f561828824f87b908e23798931f01e4"></a>
-HttpResponseMessage&#160;</td><td class="memItemRight" valign="bottom"><b>PostProspektHarBestilling</b> (ProspektHarBestilling prospektharbestilling)</td></tr>
+HttpResponseMessage&#160;</td><td class="memItemRight" valign="bottom"><b>PostProspektHarBestilling</b> (<a class="el" href="class_webassistenten__ads__api_1_1_prospekt_har_bestilling.html">ProspektHarBestilling</a> prospektharbestilling)</td></tr>
 <tr class="memitem:a5ecbad49609700fc0e44cce2017e6d36"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5ecbad49609700fc0e44cce2017e6d36"></a>
 HttpResponseMessage&#160;</td><td class="memItemRight" valign="bottom"><b>DeleteProspektHarBestilling</b> (long id)</td></tr>
 </table><table class="memberdecls">
@@ -129,8 +131,11 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:a6a39e7e96382b3b0b1ae712ccb0ce388"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6a39e7e96382b3b0b1ae712ccb0ce388"></a>
 override void&#160;</td><td class="memItemRight" valign="bottom"><b>Dispose</b> (bool disposing)</td></tr>
 </table>
-<hr/>The documentation for this class was generated from the following file:<ul>
-<li>Controllers/ProspectHasOrder.cs</li>
+<a name="details" id="details"></a><h2>Detailed Description</h2>
+<div class="textblock">
+<p>Definition at line <a class="el" href="_prospect_has_order_8cs_source.html#l00014">14</a> of file <a class="el" href="_prospect_has_order_8cs_source.html">ProspectHasOrder.cs</a>.</p>
+</div><hr/>The documentation for this class was generated from the following file:<ul>
+<li>Controllers/<a class="el" href="_prospect_has_order_8cs_source.html">ProspectHasOrder.cs</a></li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -138,7 +143,7 @@ override void&#160;</td><td class="memItemRight" valign="bottom"><b>Dispose</b> 
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_webassistenten__ads__api.html">Webassistenten_ads_api</a></li><li class="navelem"><a class="el" href="namespace_webassistenten__ads__api_1_1_controllers.html">Controllers</a></li><li class="navelem"><a class="el" href="class_webassistenten__ads__api_1_1_controllers_1_1_prospect_has_order.html">ProspectHasOrder</a></li>
-    <li class="footer">Generated on Wed Oct 30 2013 12:25:11 for Webassistenten WebAPI by
+    <li class="footer">Generated on Wed Nov 6 2013 11:16:15 for Webassistenten WebAPI by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>
