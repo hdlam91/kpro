@@ -136,8 +136,8 @@ namespace Webassistenten_ads_api.Controllers
 
                 
                 db.ProspektHarBestillings.Add(prospektHarBestilling);
-                db.Prospekts.Add(prospekt);
-                db.SaveChanges();
+                //db.Prospekts.Add(prospekt);
+                //db.SaveChanges();
 
                 return RedirectToAction("Success");
 
@@ -172,14 +172,14 @@ namespace Webassistenten_ads_api.Controllers
         public ActionResult ChooseModule(string email, int id)
         {
             DataModel dm = new DataModel();
-            if (IsValidMail(email))
-            {
-                dm.checkMail(email);
-            }
-            else
-            {
+            //if (IsValidMail(email))
+            //{
+            //    dm.checkMail(email);
+            //}
+            //else
+            //{
                 dm.checkId(id);
-            }
+            //}
             return View(dm);
         }
 
