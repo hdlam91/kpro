@@ -7,6 +7,7 @@ using System.Web.Http;
 
 namespace Webassistenten_ads_api.Models
 {
+    [System.Runtime.Serialization.KnownType(typeof(Modul))]
     public class DataModel
     {
         public int productId { get; private set; }
@@ -37,8 +38,7 @@ namespace Webassistenten_ads_api.Models
         }
         public IEnumerable<ProduktUtgivelse> GetDate()
         {
-            MethodsToImplement mti = new MethodsToImplement();
-            return mti.GetNextFivePublishables((byte)productId);
+            return DatabaseConnection.GetNextFivePublishables((byte)productId);
             //    foreach (ProduktUtgivelse p in pd)
             //    {
             //        System.Diagnostics.Debug.WriteLine(p.DatoUtgivelse);
@@ -48,18 +48,20 @@ namespace Webassistenten_ads_api.Models
 
         public IEnumerable<Produkt> GetProducts(byte partnerID)
         {
-            MethodsToImplement mti = new MethodsToImplement();
-            return mti.GetProducts(partnerID);
+            return DatabaseConnection.GetProducts(partnerID);
         }
-
 
         public IEnumerable<Modul> GetProductModules()
         {
-            return new MethodsToImplement().GetProductModules((byte)productId);
+            return DatabaseConnection.GetProductModules((byte)productId).AsEnumerable();
 
         }
 
+        public Array GetProductModulesArray()
+        {
+            return DatabaseConnection.GetProductModules((byte)productId).ToArray();
 
+        }
         
 
         //    System.Diagnostics.Debug.WriteLine("get meth");

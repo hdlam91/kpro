@@ -87,8 +87,8 @@ namespace Webassistenten_ads_api.Controllers
         /// <param name="AdText"></param>
         /// <returns>Redirects</returns>
         [System.Web.Mvc.HttpPost]
-        public ActionResult Upload(int ProductId, Realtor ResponsibleRealtor, string Area,int Type, 
-            int Price, string Location,string Headline, Address Address, int ZipCode, 
+        public ActionResult Upload(int ProductId, string ResponsibleRealtor, string Area,int Type, 
+            int Price, string Location,string Headline, string Address, int ZipCode, 
             string ZipArea, DateTime BookingDate,
             /*Non-mandatory fields below:*/ DateTime? OpenHouseDate, DateTime? ConstructionYear,
             int FinnCode = 0, int ContractNr = 0,float P_rom = 0, float Boa = 0, float Bta = 0,
