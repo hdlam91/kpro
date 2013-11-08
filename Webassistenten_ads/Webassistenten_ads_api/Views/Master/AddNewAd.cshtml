@@ -7,7 +7,7 @@
 @{
     
     IEnumerable <Webassistenten_ads_api.ProduktUtgivelse> pu = Model.GetDate();
-    IEnumerable<Webassistenten_ads_api.Modul> mod = Model.GetProductModules();
+    IEnumerable<Webassistenten_ads_api.Modul> mod = (IEnumerable<Webassistenten_ads_api.Modul>)Model.GetProductModules();
 
 }
 

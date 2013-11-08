@@ -169,7 +169,7 @@ namespace Webassistenten_ads_api.Controllers
         /// <param name="id"></param>
         /// <returns>ChooseModuleView</returns>
         [System.Web.Mvc.HttpPost]
-        public ActionResult ChooseModule(string email, int id)
+        public ActionResult ChooseProduct(string email, int id)
         {
             DataModel dm = new DataModel();
             //if (IsValidMail(email))

@@ -4,6 +4,7 @@ using System.Linq;
 
 namespace Webassistenten_ads_api
 {
+    [System.Runtime.Serialization.KnownType(typeof(Modul))]
 	public static class DatabaseConnection
 	{
 		
@@ -31,6 +32,18 @@ namespace Webassistenten_ads_api
         public static IEnumerable<Modul> GetProductModules(byte prodId)
         {
             BoligEntities1 db = new BoligEntities1();
+            IEnumerable<Modul> result = (from prodmodul in db.ProduktHarModuls
+                         where prodmodul.ProduktID == prodId
+                         select prodmodul.Modul).ToList();
+
+
+            return result;
+        }
+
+
+        public static IEnumerable<Modul> GetProductModules(byte prodId, BoligEntities1 db)
+        {
+            //BoligEntities1 db = new BoligEntities1();
             var result = from prodmodul in db.ProduktHarModuls
                          where prodmodul.ProduktID == prodId
                          select prodmodul.Modul;
@@ -38,6 +51,7 @@ namespace Webassistenten_ads_api
 
             return result;
         }
+
 
 		/// <summary>
 		/// Gets the next five publishable dates for the given product id.

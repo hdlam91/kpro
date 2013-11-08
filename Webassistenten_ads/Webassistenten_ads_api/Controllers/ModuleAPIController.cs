@@ -5,6 +5,8 @@ using System.Net;
 using System.Net.Http;
 using System.Runtime.Serialization;
 using System.Web.Http;
+using System.Web;
+
 using Webassistenten_ads_api.Models;
 
 namespace Webassistenten_ads_api.Controllers
@@ -42,39 +44,71 @@ namespace Webassistenten_ads_api.Controllers
             
 
         }
-       
 
 
+        //template if we want to go back to the old method or try new stuff.
         //[HttpGet]
         //[ActionName("Modules")]
-        //public IEnumerable<Modul> Modules(byte id)
+        //public List<Modul> Modules(byte id)
         //{
         //    System.Diagnostics.Debug.WriteLine("Routing complete");
-        //    IEnumerable<Modul> mod = DatabaseConnection.GetProductModules(id);//.AsEnumerable();
-        //    foreach (Modul modit in mod)
-        //    {
-        //        System.Diagnostics.Debug.WriteLine(modit.ModulID);
-        //    }
+        //    List<Modul> mod = DatabaseConnection.GetProductModules(id).ToList() ;//.AsEnumerable();
+            
         //    return mod;
         //}
+
+        //does not work
+        //[HttpGet]
+        //[ActionName("Modules")]
+        //public HttpResponseMessage Modules(byte id)
+        //{
+        //    System.Diagnostics.Debug.WriteLine("Routing complete");
+        //    IEnumerable<Modul> mod = DatabaseConnection.GetProductModules(id).AsEnumerable();
+        //    //List<Modul> returnObject = new List<Modul>() ;
+            
+        //    //foreach (Modul modit in mod)
+        //    //{
+        //    //    System.Diagnostics.Debug.WriteLine(modit.ModulID);
+        //    //}
+            
+
+
+        //    return ControllerContext.Request.CreateResponse(HttpStatusCode.OK, new {mod});
+
+        //}
+
 
         [HttpGet]
         [ActionName("Modules")]
         public HttpResponseMessage Modules(byte id)
         {
-            System.Diagnostics.Debug.WriteLine("Routing complete");
-            IEnumerable<Modul> mod = DatabaseConnection.GetProductModules(id);//.AsEnumerable();
-            List<Modul> newMod = new List<Modul>();
+            //id = produktID, somekind of authentication has to be done here.
+            IEnumerable<Modul> mod = DatabaseConnection.GetProductModules(id);
+            List<ProduktUtgivelse> dt = DatabaseConnection.GetNextFivePublishables(id).ToList();
+            var modulId = new List<int>();
+            var modulNavn = new List<string>();
+            var dimensjoner = new List<string>();
+            var datoTilgjengelig = new List<string>();
+
+
             foreach (Modul modit in mod)
             {
-                newMod.Add(modit);
+                modulId.Add(modit.ModulID);
+                modulNavn.Add(modit.Modulnavn);
+                dimensjoner.Add(modit.Bredde + "x" + modit.Høyde);
+                
 
             }
+            foreach(ProduktUtgivelse puit in dt)
+            {
+                datoTilgjengelig.Add(puit.DatoUtgivelse.Year + "-" + puit.DatoUtgivelse.Month + "-" + puit.DatoUtgivelse.Day);
+            }
 
-            return Request.CreateResponse(HttpStatusCode.OK, newMod);
+
+            return ControllerContext.Request
+        .CreateResponse(HttpStatusCode.OK, new { modulId, modulNavn, dimensjoner, datoTilgjengelig });
+
         }
-
-        
 
 
 

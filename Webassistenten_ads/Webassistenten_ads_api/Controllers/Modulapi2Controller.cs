@@ -11,20 +11,17 @@ using System.Web.Http;
 
 namespace Webassistenten_ads_api.Controllers
 {
-
-
-    //AUTO generated stuff so we can see how things should work.
-    public class Default1Controller : ApiController
+    public class Modulapi2Controller : ApiController
     {
         private BoligEntities1 db = new BoligEntities1();
 
-        // GET api/Default1
+        // GET api/Modulapi2
         public IEnumerable<Modul> GetModuls()
         {
             return db.Moduls.AsEnumerable();
         }
 
-        // GET api/Default1/5
+        // GET api/Modulapi2/5
         public Modul GetModul(int id)
         {
             Modul modul = db.Moduls.Find(id);
@@ -36,7 +33,7 @@ namespace Webassistenten_ads_api.Controllers
             return modul;
         }
 
-        // PUT api/Default1/5
+        // PUT api/Modulapi2/5
         public HttpResponseMessage PutModul(int id, Modul modul)
         {
             if (!ModelState.IsValid)
@@ -63,7 +60,7 @@ namespace Webassistenten_ads_api.Controllers
             return Request.CreateResponse(HttpStatusCode.OK);
         }
 
-        // POST api/Default1
+        // POST api/Modulapi2
         public HttpResponseMessage PostModul(Modul modul)
         {
             if (ModelState.IsValid)
@@ -81,7 +78,7 @@ namespace Webassistenten_ads_api.Controllers
             }
         }
 
-        // DELETE api/Default1/5
+        // DELETE api/Modulapi2/5
         public HttpResponseMessage DeleteModul(int id)
         {
             Modul modul = db.Moduls.Find(id);

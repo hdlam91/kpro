@@ -39,11 +39,6 @@ namespace Webassistenten_ads_api.Models
         public IEnumerable<ProduktUtgivelse> GetDate()
         {
             return DatabaseConnection.GetNextFivePublishables((byte)productId);
-            //    foreach (ProduktUtgivelse p in pd)
-            //    {
-            //        System.Diagnostics.Debug.WriteLine(p.DatoUtgivelse);
-            //    }
-
         }
 
         public IEnumerable<Produkt> GetProducts(byte partnerID)
@@ -53,7 +48,7 @@ namespace Webassistenten_ads_api.Models
 
         public IEnumerable<Modul> GetProductModules()
         {
-            return DatabaseConnection.GetProductModules((byte)productId).AsEnumerable();
+            return (IEnumerable<Modul>)DatabaseConnection.GetProductModules((byte)productId).AsEnumerable();
 
         }
 
