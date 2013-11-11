@@ -101,7 +101,7 @@ namespace Webassistenten_ads_api.Controllers
             }
             foreach(ProduktUtgivelse puit in dt)
             {
-                datoTilgjengelig.Add(puit.DatoUtgivelse.Year + "-" + puit.DatoUtgivelse.Month + "-" + puit.DatoUtgivelse.Day);
+                datoTilgjengelig.Add(puit.DatoUtgivelse.Day + "." + puit.DatoUtgivelse.Month + "." + puit.DatoUtgivelse.Year);
             }
 
 

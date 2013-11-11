@@ -205,7 +205,7 @@ namespace Webassistenten_ads_api.Controllers
         private bool IsValidMail(string emailaddress)
         {
             if (emailaddress == "")
-                return false;
+                return true;
             try
             {
                 System.Net.Mail.MailAddress m = new System.Net.Mail.MailAddress(emailaddress);
