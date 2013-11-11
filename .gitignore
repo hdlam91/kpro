@@ -120,6 +120,8 @@ report/*.xml
 *.gz
 *.toc
 *.fdb_latexmk
+*.lof
+*.lot
 
 documentation/weekly_report/*.log
 documentation/weekly_report/*.pdf
