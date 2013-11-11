@@ -30,16 +30,16 @@ namespace Webassistenten_ads_api.Controllers
             DateTime BookingDate;
             try
             {
-                //ProductId = int.Parse(System.Web.HttpContext.Current.Request.Params["ProductId"]);
-                //ResponsibleRealtor = checkString(System.Web.HttpContext.Current.Request.Params["ResponsibleRealtor"]);
-                //Area = checkString(System.Web.HttpContext.Current.Request.Params["Area"]);
-                //Type = int.Parse(System.Web.HttpContext.Current.Request.Params["Type"]);
-                //Price = int.Parse(System.Web.HttpContext.Current.Request.Params["Price"]);
-                //Location = checkString(System.Web.HttpContext.Current.Request.Params["Location"]);
-                //Headline = checkString(System.Web.HttpContext.Current.Request.Params["Headline"]);
-                //Address = checkString(System.Web.HttpContext.Current.Request.Params["Address"]);
-                //ZipCode = int.Parse(System.Web.HttpContext.Current.Request.Params["ZipCode"]);
-                //ZipArea = checkString(System.Web.HttpContext.Current.Request.Params["ZipArea"]);
+                ProductId = int.Parse(System.Web.HttpContext.Current.Request.Params["ProductId"]);
+                ResponsibleRealtor = checkString(System.Web.HttpContext.Current.Request.Params["ResponsibleRealtor"]);
+                Area = checkString(System.Web.HttpContext.Current.Request.Params["Area"]);
+                Type = int.Parse(System.Web.HttpContext.Current.Request.Params["Type"]);
+                Price = int.Parse(System.Web.HttpContext.Current.Request.Params["Price"]);
+                Location = checkString(System.Web.HttpContext.Current.Request.Params["Location"]);
+                Headline = checkString(System.Web.HttpContext.Current.Request.Params["Headline"]);
+                Address = checkString(System.Web.HttpContext.Current.Request.Params["Address"]);
+                ZipCode = int.Parse(System.Web.HttpContext.Current.Request.Params["ZipCode"]);
+                ZipArea = checkString(System.Web.HttpContext.Current.Request.Params["ZipArea"]);
                 BookingDate = DateTime.ParseExact(System.Web.HttpContext.Current.Request.Params["BookingDate"], "dd.mm.yyyy", new CultureInfo("nb-NO"), DateTimeStyles.None);// 01.06.2009 04:37:
             }
             catch (FormatException a)

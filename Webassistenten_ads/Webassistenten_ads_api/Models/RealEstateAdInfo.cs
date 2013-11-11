@@ -7,8 +7,12 @@ using System.ComponentModel.DataAnnotations;
 namespace Webassistenten_ads_api.Models
 {
 	[Serializable]
-    public class RealEstateAdInfo : AdInfo
+    public class RealEstateAdInfo
     {
+        public RealEstateAdInfo()
+        {
+
+        }
 
 		/// <summary>
 		/// Initializes a new instance of the <see cref="Webassistenten_ads_api.Models.RealEstateAdInfo"/> class.
@@ -43,7 +47,7 @@ namespace Webassistenten_ads_api.Models
 		/// <param name="realEstAgentMobile">Real estate agent mobile.</param>
 		/// <param name="realEstAgentPhone">Real estate agent phone.</param>
 		public RealEstateAdInfo(int realtorId, int prodId, string responsibleRealtor, int type, int price, int zipCode, 
-		                        string zipArea, string location, string headLine, string adress, DateTime bookingDate,
+		                        string zipArea, string location, string headLine, string adress,// DateTime bookingDate,
 		                        //Mandatories end, optionals start
 		                        int? finnCode = null, int? contractNr = null, float? prom = null, float? boa = null, float? bta = null, float? bra = null,
 		                        int? cost = null, int? purchaseCost = null, int? commonCost = null, int? amountSharedDebt  = null, int? commonExpenses = null,
@@ -82,81 +86,81 @@ namespace Webassistenten_ads_api.Models
 
         // Mandatory fields:
 
-        public int RealtorId {get; private set; }
+        public int RealtorId {get;  set; }
 
-        public int ProductId { get; private set; }
+        public int ProductId { get;  set; }
 
-        public String ResponsibleRealtor { get; private set; }
+        public String ResponsibleRealtor { get;  set; }
 
-        public string Area { get; private set; }
+        public string Area { get;  set; }
 
-        public int Type { get; private set; }
+        public int Type { get;  set; }
 
-        public int Price { get; private set; }
+        public int Price { get;  set; }
 
-        public string Location { get; private set; }
+        public string Location { get;  set; }
 
-        public string Headline { get; private set; }
+        public string Headline { get;  set; }
 
-        public string Adress { get; private set; }
+        public string Adress { get;  set; }
 
-        public int ZipCode { get; private set; }
+        public int ZipCode { get;  set; }
 
-        public string ZipArea { get; private set; }
+        public string ZipArea { get;  set; }
 
-        public DateTime BookingDate { get; private set; }
+        public DateTime BookingDate { get;  set; }
 
         // Non-mandatory fields below:
 
-        public int? FinnCode { get; private set; }
+        public int? FinnCode { get;  set; }
 
-        public int? ContractNr { get; private set;}
+        public int? ContractNr { get;  set;}
 
-        public float? PRom { get; private set; }	// TODO: Translate acronyms to English 
+        public float? PRom { get;  set; }	// TODO: Translate acronyms to English 
 
-        public float? Boa { get; private set; }
+        public float? Boa { get;  set; }
 
-        public float? Bta { get; private set; }
+        public float? Bta { get;  set; }
 
-        public float? Bra { get; private set; }
+        public float? Bra { get;  set; }
 
-        public int? Costs { get; private set; }
+        public int? Costs { get;  set; }
 
-        public int? PurchaseCosts { get; private set; }
+        public int? PurchaseCosts { get;  set; }
 
-        public int? CommonCosts { get; private set; }
+        public int? CommonCosts { get;  set; }
 
-        public int? AmountSharedDebt { get; private set; }
+        public int? AmountSharedDebt { get;  set; }
 
-        public int? CommonExpenses { get; private set; }
+        public int? CommonExpenses { get;  set; }
 
-        public int? PropertyArea { get; private set; }
+        public int? PropertyArea { get;  set; }
 
-        public int? PropertyType { get; private set; }
+        public int? PropertyType { get;  set; }
 
-        public DateTime? ConstructionYear { get; private set; }
+        public DateTime? ConstructionYear { get;  set; }
 
-        public int? Floor { get; private set; }
+        public int? Floor { get;  set; }
 
-        public int? Bedrooms { get; private set; }
+        public int? Bedrooms { get;  set; }
 
-        public int? Rooms { get; private set; }
+        public int? Rooms { get;  set; }
 
-        public DateTime? OpenHouseDate { get; private set; }	// Visningdato
+        public DateTime? OpenHouseDate { get;  set; }	// Visningdato
 
-        public String OpenHouseText { get; private set; }	// TODO: Consider better representation than String
+        public String OpenHouseText { get;  set; }	// TODO: Consider better representation than String
 
-        public String RealEstAgentName { get; private set; }
+        public String RealEstAgentName { get;  set; }
 
-        public String RealEstAgentTitle { get; private set; }
+        public String RealEstAgentTitle { get;  set; }
 
-        public int? RealEstAgentMobile { get; private set; }
+        public int? RealEstAgentMobile { get;  set; }
 
-        public int? RealEstAgentPhone { get; private set; }
+        public int? RealEstAgentPhone { get;  set; }
 
-        public String RealEstAgentEmail { get; private set; }
+        public String RealEstAgentEmail { get;  set; }
 
-        public String AdText { get; private set; }	// Is this the best representation for the text?
+        public String AdText { get;  set; }	// Is this the best representation for the text?
 
 
 
