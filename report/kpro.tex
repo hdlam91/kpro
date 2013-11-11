@@ -69,12 +69,12 @@ basicstyle=\ttfamily
 %stuff to refer/cite
 
 \usepackage[sort]{natbib}
-
  
 %%% END Article customizations
  
 %%% The "real" document content comes below...
- 
+\pagenumbering{roman}
+
 \title{\normalsize Customer driven project, TDT4290 \\ \LARGE \textbf{Automatic Import of Completed Ads} \normalsize \\Adresseavisen AS}
 \author{Audun Skjervold \\ Erlend Løkken Sigholt \\ Hong-Dang Lam \\ Truls Hamborg}
 %\date{} % Activate to display a given date or no date (if empty),
@@ -82,14 +82,18 @@ basicstyle=\ttfamily
  
 \begin{document}
 \maketitle 
-\newpage
-\tableofcontents
+\thispagestyle{empty}
 \newpage
 
 %Abstract and preface
 \include{chapters/abstract/abstract}
 \include{chapters/preface/preface}
 %introduction
+
+\tableofcontents
+\newpage
+
+ \pagenumbering{arabic}
 \include{chapters/introduction/introduction}
 
 \section{Project Management}
