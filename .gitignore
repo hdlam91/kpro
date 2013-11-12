@@ -127,3 +127,5 @@ documentation/weekly_report/*.log
 documentation/weekly_report/*.pdf
 documentation/weekly_report/*.xml
 
+# LaTeX editor files
+*.txsprofile
