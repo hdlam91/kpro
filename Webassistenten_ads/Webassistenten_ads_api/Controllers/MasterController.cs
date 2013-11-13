@@ -47,7 +47,7 @@ namespace Webassistenten_ads_api.Controllers
         }
 
         /// <summary>
-        /// 
+        /// Accepts a HttpPost with an ad pdf, and the information that belongs to it.
         /// </summary>
         /// <param name="ProductId"></param>
         /// <param name="ResponsibleRealtor"></param>
@@ -193,7 +193,7 @@ namespace Webassistenten_ads_api.Controllers
             return View();
         }
         /// <summary>
-        /// everything went right with inserting data/file
+        /// Everything went right with inserting data/file
         /// </summary>
         /// <returns>SuccessView</returns>
         public ActionResult Success()
@@ -201,7 +201,7 @@ namespace Webassistenten_ads_api.Controllers
             return View();
         }
 
-        //checks the that a mail is legal
+        //Checks the that a mail is legal
         private bool IsValidMail(string emailaddress)
         {
             if (emailaddress == "")

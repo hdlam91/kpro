@@ -4,17 +4,26 @@ using System.Linq;
 
 namespace Webassistenten_ads_api
 {
+	/// <summary>
+	/// Webassistenten authorization class.
+	/// This class is intended as a simple placeholder for a more complex future authentication
+	/// </summary>
 	public class WebAssistentAuth : Authentication
 	{
-		public int authId;
-		public bool valid;
+		public int AuthId { get; set; };
+		public bool IsValid { get; set; };
 
 		public WebAssistentAuth ()
 		{
-			valid = false;
-			authId = 0;
+			IsValid = false;
+			AuthId = 0;
 		}
 
+		/// <summary>
+		/// Method for authenticating via an email adress.
+		/// </summary>
+		/// <returns>Authentication.</returns>
+		/// <param name="email">Email.</param>
 		public Authentication EmailAuthenticate(string email) 
 		{
 			BoligEntities1 db = new BoligEntities1 ();
@@ -30,8 +39,8 @@ namespace Webassistenten_ads_api
             }
 			if (bruker != null)
 			{
-				authId = bruker.PartnerID;
-				valid = true;
+				AuthId = bruker.PartnerID;
+				IsValid = true;
 				return this;
 			}
 			else
@@ -39,7 +48,12 @@ namespace Webassistenten_ads_api
 				return this;
 			}
 		}
-		
+
+		/// <summary>
+		/// Method for authenticating via User ID.
+		/// </summary>
+		/// <returns>Authentication.</returns>
+		/// <param name="userId">User identifier.</param>
 		public Authentication IdAuthenticate(int userId)
 		{
 			BoligEntities1 db = new BoligEntities1 ();
@@ -55,8 +69,8 @@ namespace Webassistenten_ads_api
             }
 			if (bruker != null)
 			{
-				authId = bruker.PartnerID;
-				valid = true;
+				AuthId = bruker.PartnerID;
+				IsValid = true;
 				return this;
 			}
 			else

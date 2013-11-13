@@ -9,10 +9,18 @@ using System.Web.Http;
 
 namespace Webassistenten_ads_api.Controllers
 {
+	/// <summary>
+	/// Upload API controller.
+	/// </summary>
     public class UploadAPIController : ApiController
     {
         public static string folder = "~/hdTest/";
 
+		//TODO: Describe required parameters
+		/// <summary>
+		/// Accepts a pdf file with an ad, along with the required and optional parameters for ads.
+		/// Parameters go in the request uri, to be further described.
+		/// </summary>
         [HttpPost]
         public HttpResponseMessage Upload()
         {

@@ -2,6 +2,11 @@ using System;
 
 namespace Webassistenten_ads_api
 {
+	/// <summary>
+	/// Authentication.
+	/// Implement this interface for any self-made authentication in order to fit in with existing API code.
+	/// Only for further development of API.
+	/// </summary>
 	public interface Authentication
 	{
 		
