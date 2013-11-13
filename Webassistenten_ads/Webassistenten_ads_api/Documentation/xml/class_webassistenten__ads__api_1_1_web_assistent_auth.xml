@@ -3,32 +3,32 @@
   <compounddef id="class_webassistenten__ads__api_1_1_web_assistent_auth" kind="class" prot="public">
     <compoundname>Webassistenten_ads_api::WebAssistentAuth</compoundname>
     <basecompoundref refid="interface_webassistenten__ads__api_1_1_authentication" prot="public" virt="non-virtual">Webassistenten_ads_api.Authentication</basecompoundref>
-      <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="class_webassistenten__ads__api_1_1_web_assistent_auth_1ae7bb7736ba0ab9680800735bb5edd541" prot="public" static="no" mutable="no">
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_web_assistent_auth_1a634849e8fe3c28ea6218ce11c4289913" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
         <type>int</type>
-        <definition>int Webassistenten_ads_api.WebAssistentAuth.authId</definition>
+        <definition>int Webassistenten_ads_api.WebAssistentAuth.AuthId</definition>
         <argsstring></argsstring>
-        <name>authId</name>
+        <name>AuthId</name>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/WebAssistentAuth.cs" line="9" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/WebAssistentAuth.cs" bodystart="9" bodyend="-1"/>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/WebAssistentAuth.cs" line="13" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/WebAssistentAuth.cs" bodystart="13" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="class_webassistenten__ads__api_1_1_web_assistent_auth_1ae8bed4ed8926836fb53eea4b4848ec1d" prot="public" static="no" mutable="no">
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_web_assistent_auth_1a25d00e3f3c7e224e17c18a2ce9d506df" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
         <type>bool</type>
-        <definition>bool Webassistenten_ads_api.WebAssistentAuth.valid</definition>
+        <definition>bool Webassistenten_ads_api.WebAssistentAuth.IsValid</definition>
         <argsstring></argsstring>
-        <name>valid</name>
+        <name>IsValid</name>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/WebAssistentAuth.cs" line="10" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/WebAssistentAuth.cs" bodystart="10" bodyend="-1"/>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/WebAssistentAuth.cs" line="14" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/WebAssistentAuth.cs" bodystart="14" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -43,7 +43,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/WebAssistentAuth.cs" line="13" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/WebAssistentAuth.cs" bodystart="12" bodyend="16"/>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/WebAssistentAuth.cs" line="17" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/WebAssistentAuth.cs" bodystart="16" bodyend="20"/>
       </memberdef>
       <memberdef kind="function" id="class_webassistenten__ads__api_1_1_web_assistent_auth_1af2ec90cd6c7217168f0d16e402328147" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="interface_webassistenten__ads__api_1_1_authentication" kindref="compound">Authentication</ref></type>
@@ -70,7 +70,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/WebAssistentAuth.cs" line="19" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/WebAssistentAuth.cs" bodystart="18" bodyend="41"/>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/WebAssistentAuth.cs" line="28" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/WebAssistentAuth.cs" bodystart="27" bodyend="50"/>
       </memberdef>
       <memberdef kind="function" id="class_webassistenten__ads__api_1_1_web_assistent_auth_1a1adc13e53fb821628765c7c5654e9cf3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="interface_webassistenten__ads__api_1_1_authentication" kindref="compound">Authentication</ref></type>
@@ -97,43 +97,43 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/WebAssistentAuth.cs" line="44" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/WebAssistentAuth.cs" bodystart="43" bodyend="66"/>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/WebAssistentAuth.cs" line="58" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/WebAssistentAuth.cs" bodystart="57" bodyend="80"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
-    </briefdescription>
+<para>Webassistenten authorization class. This class is intended as a simple placeholder for a more complex future authentication </para>    </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="614">
+      <node id="588">
         <label>Authentication</label>
         <link refid="interface_webassistenten__ads__api_1_1_authentication"/>
       </node>
-      <node id="613">
+      <node id="587">
         <label>Webassistenten_ads_api.WebAssistentAuth</label>
         <link refid="class_webassistenten__ads__api_1_1_web_assistent_auth"/>
-        <childnode refid="614" relation="public-inheritance">
+        <childnode refid="588" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="616">
+      <node id="590">
         <label>Authentication</label>
         <link refid="interface_webassistenten__ads__api_1_1_authentication"/>
       </node>
-      <node id="615">
+      <node id="589">
         <label>Webassistenten_ads_api.WebAssistentAuth</label>
         <link refid="class_webassistenten__ads__api_1_1_web_assistent_auth"/>
-        <childnode refid="616" relation="public-inheritance">
+        <childnode refid="590" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/WebAssistentAuth.cs" line="8" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/WebAssistentAuth.cs" bodystart="7" bodyend="68"/>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/WebAssistentAuth.cs" line="12" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/WebAssistentAuth.cs" bodystart="11" bodyend="82"/>
     <listofallmembers>
-      <member refid="class_webassistenten__ads__api_1_1_web_assistent_auth_1ae7bb7736ba0ab9680800735bb5edd541" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::WebAssistentAuth</scope><name>authId</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_web_assistent_auth_1a634849e8fe3c28ea6218ce11c4289913" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::WebAssistentAuth</scope><name>AuthId</name></member>
       <member refid="class_webassistenten__ads__api_1_1_web_assistent_auth_1af2ec90cd6c7217168f0d16e402328147" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::WebAssistentAuth</scope><name>EmailAuthenticate</name></member>
       <member refid="class_webassistenten__ads__api_1_1_web_assistent_auth_1a1adc13e53fb821628765c7c5654e9cf3" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::WebAssistentAuth</scope><name>IdAuthenticate</name></member>
-      <member refid="class_webassistenten__ads__api_1_1_web_assistent_auth_1ae8bed4ed8926836fb53eea4b4848ec1d" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::WebAssistentAuth</scope><name>valid</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_web_assistent_auth_1a25d00e3f3c7e224e17c18a2ce9d506df" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::WebAssistentAuth</scope><name>IsValid</name></member>
       <member refid="class_webassistenten__ads__api_1_1_web_assistent_auth_1a116cd972c58dd4df4a17bb9b08f4a8a5" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::WebAssistentAuth</scope><name>WebAssistentAuth</name></member>
     </listofallmembers>
   </compounddef>

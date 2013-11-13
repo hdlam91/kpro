@@ -22,7 +22,7 @@
     <innerclass refid="class_webassistenten__ads__api_1_1_boligtype_sok" prot="public">Webassistenten_ads_api::BoligtypeSok</innerclass>
     <innerclass refid="class_webassistenten__ads__api_1_1_bruker" prot="public">Webassistenten_ads_api::Bruker</innerclass>
     <innerclass refid="class_webassistenten__ads__api_1_1_brukerlogg" prot="public">Webassistenten_ads_api::Brukerlogg</innerclass>
-    <innerclass refid="class_webassistenten__ads__api_1_1_methods_to_implement" prot="public">Webassistenten_ads_api::MethodsToImplement</innerclass>
+    <innerclass refid="class_webassistenten__ads__api_1_1_database_connection" prot="public">Webassistenten_ads_api::DatabaseConnection</innerclass>
     <innerclass refid="class_webassistenten__ads__api_1_1_web_assistent_auth" prot="public">Webassistenten_ads_api::WebAssistentAuth</innerclass>
     <innerclass refid="class_webassistenten__ads__api_1_1dt__getpropertiesbyid___result" prot="public">Webassistenten_ads_api::dt_getpropertiesbyid_Result</innerclass>
     <innerclass refid="class_webassistenten__ads__api_1_1dt__getpropertiesbyid__u___result" prot="public">Webassistenten_ads_api::dt_getpropertiesbyid_u_Result</innerclass>
@@ -56,7 +56,6 @@
     <innerclass refid="class_webassistenten__ads__api_1_1_leverandor_har_partner" prot="public">Webassistenten_ads_api::LeverandorHarPartner</innerclass>
     <innerclass refid="class_webassistenten__ads__api_1_1_lock" prot="public">Webassistenten_ads_api::Lock</innerclass>
     <innerclass refid="class_webassistenten__ads__api_1_1_meglersystem" prot="public">Webassistenten_ads_api::Meglersystem</innerclass>
-    <innerclass refid="class_webassistenten__ads__api_1_1_property_type" prot="public">Webassistenten_ads_api::PropertyType</innerclass>
     <innerclass refid="class_webassistenten__ads__api_1_1_modul" prot="public">Webassistenten_ads_api::Modul</innerclass>
     <innerclass refid="class_webassistenten__ads__api_1_1_modul_ressur" prot="public">Webassistenten_ads_api::ModulRessur</innerclass>
     <innerclass refid="class_webassistenten__ads__api_1_1_modul_standard" prot="public">Webassistenten_ads_api::ModulStandard</innerclass>

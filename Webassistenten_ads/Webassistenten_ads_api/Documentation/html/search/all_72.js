@@ -1,10 +1,7 @@
 var searchData=
 [
-  ['realestateadhandlerlogic',['RealEstateAdHandlerLogic',['../class_webassistenten__ads__api_1_1_controllers_1_1_real_estate_ad_handler_logic.html',1,'Webassistenten_ads_api::Controllers']]],
   ['realestateadinfo',['RealEstateAdInfo',['../class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info.html',1,'Webassistenten_ads_api::Models']]],
-  ['realestateadinfo',['RealEstateAdInfo',['../class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info.html#a93c72a6ea0c5c6c21184d4c448476b45',1,'Webassistenten_ads_api::Models::RealEstateAdInfo']]],
-  ['realtor',['Realtor',['../class_webassistenten__ads__api_1_1_models_1_1_realtor.html',1,'Webassistenten_ads_api::Models']]],
-  ['realtor',['Realtor',['../class_webassistenten__ads__api_1_1_models_1_1_realtor.html#afb6676b0c421ee1b5cf8fc647c0060b8',1,'Webassistenten_ads_api::Models::Realtor']]],
+  ['realestateadinfo',['RealEstateAdInfo',['../class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info.html#aa479e945c6075e9f7fbe49dc591c86a7',1,'Webassistenten_ads_api::Models::RealEstateAdInfo']]],
   ['resolvetype',['ResolveType',['../class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_sample_generator.html#af684af28a356d264bc33d57e52d8dc7e',1,'Webassistenten_ads_api::Areas::HelpPage::HelpPageSampleGenerator']]],
   ['rolle',['Rolle',['../class_webassistenten__ads__api_1_1_rolle.html',1,'Webassistenten_ads_api']]],
   ['routeconfig',['RouteConfig',['../class_webassistenten__ads__api_1_1_route_config.html',1,'Webassistenten_ads_api']]]

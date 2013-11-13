@@ -14,7 +14,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/DataModel.cs" line="12" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/DataModel.cs" bodystart="12" bodyend="-1"/>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/DataModel.cs" line="13" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/DataModel.cs" bodystart="13" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-attrib">
@@ -29,7 +29,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/DataModel.cs" line="13" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/DataModel.cs" bodystart="13" bodyend="-1"/>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/DataModel.cs" line="14" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/DataModel.cs" bodystart="14" bodyend="-1"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="public-func">
@@ -48,7 +48,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/DataModel.cs" line="15" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/DataModel.cs" bodystart="14" bodyend="17"/>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/DataModel.cs" line="16" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/DataModel.cs" bodystart="15" bodyend="18"/>
       </memberdef>
       <memberdef kind="function" id="class_webassistenten__ads__api_1_1_models_1_1_data_model_1a59ab13c01e43a16d7222f034fbedd441" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
@@ -61,7 +61,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/DataModel.cs" line="20" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/DataModel.cs" bodystart="19" bodyend="22"/>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/DataModel.cs" line="21" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/DataModel.cs" bodystart="20" bodyend="23"/>
       </memberdef>
       <memberdef kind="function" id="class_webassistenten__ads__api_1_1_models_1_1_data_model_1ab942695780cdacd071a6d2b161945f95" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -78,7 +78,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/DataModel.cs" line="25" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/DataModel.cs" bodystart="24" bodyend="27"/>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/DataModel.cs" line="26" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/DataModel.cs" bodystart="25" bodyend="28"/>
       </memberdef>
       <memberdef kind="function" id="class_webassistenten__ads__api_1_1_models_1_1_data_model_1ae6069efe446a89987109950cea3bde3a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -95,7 +95,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/DataModel.cs" line="30" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/DataModel.cs" bodystart="29" bodyend="32"/>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/DataModel.cs" line="31" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/DataModel.cs" bodystart="30" bodyend="33"/>
       </memberdef>
       <memberdef kind="function" id="class_webassistenten__ads__api_1_1_models_1_1_data_model_1a341265330abcf96c635ae6a079eea69d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>byte</type>
@@ -108,7 +108,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/DataModel.cs" line="35" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/DataModel.cs" bodystart="34" bodyend="37"/>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/DataModel.cs" line="36" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/DataModel.cs" bodystart="35" bodyend="38"/>
       </memberdef>
       <memberdef kind="function" id="class_webassistenten__ads__api_1_1_models_1_1_data_model_1af68cfb90c5612aaf8e2c4d4d7a364f9a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>IEnumerable&lt; <ref refid="class_webassistenten__ads__api_1_1_produkt_utgivelse" kindref="compound">ProduktUtgivelse</ref> &gt;</type>
@@ -121,7 +121,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/DataModel.cs" line="39" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/DataModel.cs" bodystart="38" bodyend="47"/>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/DataModel.cs" line="40" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/DataModel.cs" bodystart="39" bodyend="42"/>
       </memberdef>
       <memberdef kind="function" id="class_webassistenten__ads__api_1_1_models_1_1_data_model_1a80942334c063f97fdeb866347fe6475a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>IEnumerable&lt; <ref refid="class_webassistenten__ads__api_1_1_produkt" kindref="compound">Produkt</ref> &gt;</type>
@@ -138,7 +138,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/DataModel.cs" line="50" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/DataModel.cs" bodystart="49" bodyend="53"/>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/DataModel.cs" line="45" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/DataModel.cs" bodystart="44" bodyend="47"/>
       </memberdef>
       <memberdef kind="function" id="class_webassistenten__ads__api_1_1_models_1_1_data_model_1a50065f197dbd2f7fdd8e7593a9c1922e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>IEnumerable&lt; <ref refid="class_webassistenten__ads__api_1_1_modul" kindref="compound">Modul</ref> &gt;</type>
@@ -151,14 +151,27 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/DataModel.cs" line="57" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/DataModel.cs" bodystart="56" bodyend="60"/>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/DataModel.cs" line="50" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/DataModel.cs" bodystart="49" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_models_1_1_data_model_1a1ff0fba9a17c86085ff1af8316bfaeb9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Array</type>
+        <definition>Array Webassistenten_ads_api.Models.DataModel.GetProductModulesArray</definition>
+        <argsstring>()</argsstring>
+        <name>GetProductModulesArray</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/DataModel.cs" line="56" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/DataModel.cs" bodystart="55" bodyend="59"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/DataModel.cs" line="11" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/DataModel.cs" bodystart="10" bodyend="69"/>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/DataModel.cs" line="12" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/DataModel.cs" bodystart="11" bodyend="66"/>
     <listofallmembers>
       <member refid="class_webassistenten__ads__api_1_1_models_1_1_data_model_1aa06c422b15671d9d16964c524c3b776c" prot="private" virt="non-virtual"><scope>Webassistenten_ads_api::Models::DataModel</scope><name>auth</name></member>
       <member refid="class_webassistenten__ads__api_1_1_models_1_1_data_model_1ae6069efe446a89987109950cea3bde3a" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Models::DataModel</scope><name>checkId</name></member>
@@ -168,6 +181,7 @@
       <member refid="class_webassistenten__ads__api_1_1_models_1_1_data_model_1af68cfb90c5612aaf8e2c4d4d7a364f9a" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Models::DataModel</scope><name>GetDate</name></member>
       <member refid="class_webassistenten__ads__api_1_1_models_1_1_data_model_1a341265330abcf96c635ae6a079eea69d" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Models::DataModel</scope><name>getId</name></member>
       <member refid="class_webassistenten__ads__api_1_1_models_1_1_data_model_1a50065f197dbd2f7fdd8e7593a9c1922e" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Models::DataModel</scope><name>GetProductModules</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_models_1_1_data_model_1a1ff0fba9a17c86085ff1af8316bfaeb9" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Models::DataModel</scope><name>GetProductModulesArray</name></member>
       <member refid="class_webassistenten__ads__api_1_1_models_1_1_data_model_1a80942334c063f97fdeb866347fe6475a" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Models::DataModel</scope><name>GetProducts</name></member>
       <member refid="class_webassistenten__ads__api_1_1_models_1_1_data_model_1a57fa65a4afa9a6f50a83a9bdd37baa3c" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Models::DataModel</scope><name>productId</name></member>
     </listofallmembers>

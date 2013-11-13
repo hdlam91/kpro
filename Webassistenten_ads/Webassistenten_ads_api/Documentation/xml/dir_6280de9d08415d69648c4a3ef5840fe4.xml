@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
   <compounddef id="dir_6280de9d08415d69648c4a3ef5840fe4" kind="dir">
-    <compoundname>Areas/HelpPage/Controllers/</compoundname>
+    <compoundname>/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/Controllers/</compoundname>
     <innerfile refid="_help_controller_8cs">HelpController.cs</innerfile>
     <briefdescription>
     </briefdescription>

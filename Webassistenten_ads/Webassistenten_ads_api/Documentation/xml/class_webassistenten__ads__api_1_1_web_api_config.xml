@@ -18,14 +18,14 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/App_Start/WebApiConfig.cs" line="11" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/App_Start/WebApiConfig.cs" bodystart="10" bodyend="26"/>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/App_Start/WebApiConfig.cs" line="11" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/App_Start/WebApiConfig.cs" bodystart="10" bodyend="30"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/App_Start/WebApiConfig.cs" line="9" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/App_Start/WebApiConfig.cs" bodystart="8" bodyend="27"/>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/App_Start/WebApiConfig.cs" line="9" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/App_Start/WebApiConfig.cs" bodystart="8" bodyend="31"/>
     <listofallmembers>
       <member refid="class_webassistenten__ads__api_1_1_web_api_config_1aa62df7fe35228c3b086866821e669eb3" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::WebApiConfig</scope><name>Register</name></member>
     </listofallmembers>

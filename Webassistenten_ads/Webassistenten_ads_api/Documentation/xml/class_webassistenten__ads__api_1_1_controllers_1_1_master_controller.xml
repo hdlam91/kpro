@@ -49,17 +49,17 @@
         </inbodydescription>
         <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/MasterController.cs" line="45" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/MasterController.cs" bodystart="44" bodyend="47"/>
       </memberdef>
-      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_controllers_1_1_master_controller_1ad7e32dcf28242b966b3eff8fe4efcee6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_controllers_1_1_master_controller_1a463676025e1d96658aa84d25fd386367" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>ActionResult</type>
         <definition>ActionResult Webassistenten_ads_api.Controllers.MasterController.Upload</definition>
-        <argsstring>(int ProductId, Realtor ResponsibleRealtor, string Area, int Type, int Price, string Location, string Headline, Address Address, int ZipCode, string ZipArea, DateTime BookingDate, DateTime?OpenHouseDate, DateTime?ConstructionYear, int FinnCode=0, int ContractNr=0, float P_rom=0, float Boa=0, float Bta=0, float Bra=0, int Costs=0, int PurchaseCosts=0, int CommonCosts=0, int AmountSharedDebt=0, int CommonExpenses=0, int PropertyArea=0, string PropertyType=&quot;&quot;, int Floor=0, int Bedrooms=0, int Rooms=0, string OpenHouseText=&quot;&quot;, string RealEstAgentName=&quot;&quot;, string RealEstAgentTitle=&quot;&quot;, int RealEstAgentMobile=0, int RealEstAgentPhone=0, string RealEstAgentEmail=&quot;&quot;, string AdText=&quot;&quot;)</argsstring>
+        <argsstring>(int ProductId, string ResponsibleRealtor, string Area, int Type, int Price, string Location, string Headline, string Address, int ZipCode, string ZipArea, DateTime BookingDate, DateTime?OpenHouseDate, DateTime?ConstructionYear, int FinnCode=0, int ContractNr=0, float P_rom=0, float Boa=0, float Bta=0, float Bra=0, int Costs=0, int PurchaseCosts=0, int CommonCosts=0, int AmountSharedDebt=0, int CommonExpenses=0, int PropertyArea=0, string PropertyType=&quot;&quot;, int Floor=0, int Bedrooms=0, int Rooms=0, string OpenHouseText=&quot;&quot;, string RealEstAgentName=&quot;&quot;, string RealEstAgentTitle=&quot;&quot;, int RealEstAgentMobile=0, int RealEstAgentPhone=0, string RealEstAgentEmail=&quot;&quot;, string AdText=&quot;&quot;)</argsstring>
         <name>Upload</name>
         <param>
           <type>int</type>
           <declname>ProductId</declname>
         </param>
         <param>
-          <type><ref refid="class_webassistenten__ads__api_1_1_models_1_1_realtor" kindref="compound">Realtor</ref></type>
+          <type>string</type>
           <declname>ResponsibleRealtor</declname>
         </param>
         <param>
@@ -83,7 +83,7 @@
           <declname>Headline</declname>
         </param>
         <param>
-          <type><ref refid="class_webassistenten__ads__api_1_1_models_1_1_address" kindref="compound">Address</ref></type>
+          <type>string</type>
           <declname>Address</declname>
         </param>
         <param>
@@ -222,7 +222,7 @@
           <defval>&quot;&quot;</defval>
         </param>
         <briefdescription>
-        </briefdescription>
+<para>Accepts a HttpPost with an ad pdf, and the information that belongs to it. </para>        </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
@@ -401,7 +401,7 @@
 </parameteritem>
 <parameteritem>
 <parameternamelist>
-<parametername><ref refid="class_webassistenten__ads__api_1_1_property_type" kindref="compound">PropertyType</ref></parametername>
+<parametername>PropertyType</parametername>
 </parameternamelist>
 <parameterdescription>
 </parameterdescription>
@@ -493,7 +493,7 @@
           <declname>ProductId</declname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para>Passes the datamodel to the view. </para>        </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
@@ -503,17 +503,17 @@
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para>View</para></simplesect>
+<simplesect kind="return"><para>AddNewAdView</para></simplesect>
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
         <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/MasterController.cs" line="157" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/MasterController.cs" bodystart="156" bodyend="163"/>
       </memberdef>
-      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_controllers_1_1_master_controller_1ae26170e0fdffc817eb7d9950dec70589" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_controllers_1_1_master_controller_1a7e4e874d0921855fd54bd1e2f002e909" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>ActionResult</type>
-        <definition>ActionResult Webassistenten_ads_api.Controllers.MasterController.ChooseModule</definition>
+        <definition>ActionResult Webassistenten_ads_api.Controllers.MasterController.ChooseProduct</definition>
         <argsstring>(string email, int id)</argsstring>
-        <name>ChooseModule</name>
+        <name>ChooseProduct</name>
         <param>
           <type>string</type>
           <declname>email</declname>
@@ -523,7 +523,7 @@
           <declname>id</declname>
         </param>
         <briefdescription>
-        </briefdescription>
+<para>Shows the correct modules for this given partnerID </para>        </briefdescription>
         <detaileddescription>
 <para><parameterlist kind="param"><parameteritem>
 <parameternamelist>
@@ -540,11 +540,11 @@
 </parameterdescription>
 </parameteritem>
 </parameterlist>
-<simplesect kind="return"><para></para></simplesect>
+<simplesect kind="return"><para>ChooseModuleView</para></simplesect>
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/MasterController.cs" line="173" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/MasterController.cs" bodystart="172" bodyend="178"/>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/MasterController.cs" line="173" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/MasterController.cs" bodystart="172" bodyend="184"/>
       </memberdef>
       <memberdef kind="function" id="class_webassistenten__ads__api_1_1_controllers_1_1_master_controller_1a668432ac872507b4a7ffe36c38bc806e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>ActionResult</type>
@@ -552,13 +552,13 @@
         <argsstring>()</argsstring>
         <name>Fail</name>
         <briefdescription>
-<para>something missing or wrong with the datainput </para>        </briefdescription>
+<para>Something missing or wrong with the datainput </para>        </briefdescription>
         <detaileddescription>
-<para><simplesect kind="return"><para>view</para></simplesect>
+<para><simplesect kind="return"><para>FailView</para></simplesect>
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/MasterController.cs" line="186" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/MasterController.cs" bodystart="185" bodyend="188"/>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/MasterController.cs" line="192" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/MasterController.cs" bodystart="191" bodyend="194"/>
       </memberdef>
       <memberdef kind="function" id="class_webassistenten__ads__api_1_1_controllers_1_1_master_controller_1affcc79060a652c756b0ac103ee919d80" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>ActionResult</type>
@@ -566,13 +566,13 @@
         <argsstring>()</argsstring>
         <name>Success</name>
         <briefdescription>
-<para>everything went right with inserting data/file </para>        </briefdescription>
+<para>Everything went right with inserting data/file </para>        </briefdescription>
         <detaileddescription>
-<para><simplesect kind="return"><para></para></simplesect>
+<para><simplesect kind="return"><para>SuccessView</para></simplesect>
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/MasterController.cs" line="194" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/MasterController.cs" bodystart="193" bodyend="196"/>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/MasterController.cs" line="200" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/MasterController.cs" bodystart="199" bodyend="202"/>
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-func">
@@ -591,24 +591,24 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/MasterController.cs" line="200" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/MasterController.cs" bodystart="199" bodyend="212"/>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/MasterController.cs" line="206" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/MasterController.cs" bodystart="205" bodyend="218"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/MasterController.cs" line="21" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/MasterController.cs" bodystart="20" bodyend="231"/>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/MasterController.cs" line="21" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/MasterController.cs" bodystart="20" bodyend="237"/>
     <listofallmembers>
       <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_master_controller_1a9b09d23e1af5283e9aaaf9c0ff9e7fc2" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Controllers::MasterController</scope><name>AddNewAd</name></member>
-      <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_master_controller_1ae26170e0fdffc817eb7d9950dec70589" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Controllers::MasterController</scope><name>ChooseModule</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_master_controller_1a7e4e874d0921855fd54bd1e2f002e909" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Controllers::MasterController</scope><name>ChooseProduct</name></member>
       <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_master_controller_1a66950918a55b8856b20ae24ac00b5d25" prot="private" virt="non-virtual"><scope>Webassistenten_ads_api::Controllers::MasterController</scope><name>db</name></member>
       <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_master_controller_1a668432ac872507b4a7ffe36c38bc806e" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Controllers::MasterController</scope><name>Fail</name></member>
       <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_master_controller_1a6725b9bb4f2be16c460fd6107496a720" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Controllers::MasterController</scope><name>folder</name></member>
       <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_master_controller_1af561920a5d908b6c42b20d68a375698c" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Controllers::MasterController</scope><name>Index</name></member>
       <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_master_controller_1a637b2b2458463e5d56a222c40e0770d5" prot="private" virt="non-virtual"><scope>Webassistenten_ads_api::Controllers::MasterController</scope><name>IsValidMail</name></member>
       <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_master_controller_1affcc79060a652c756b0ac103ee919d80" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Controllers::MasterController</scope><name>Success</name></member>
-      <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_master_controller_1ad7e32dcf28242b966b3eff8fe4efcee6" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Controllers::MasterController</scope><name>Upload</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_master_controller_1a463676025e1d96658aa84d25fd386367" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Controllers::MasterController</scope><name>Upload</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

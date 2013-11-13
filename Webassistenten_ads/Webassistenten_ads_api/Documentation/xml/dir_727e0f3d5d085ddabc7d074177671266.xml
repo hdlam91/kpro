@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
   <compounddef id="dir_727e0f3d5d085ddabc7d074177671266" kind="dir">
-    <compoundname>Interfaces/</compoundname>
+    <compoundname>/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Interfaces/</compoundname>
     <innerfile refid="_authentication_8cs">Authentication.cs</innerfile>
     <briefdescription>
     </briefdescription>

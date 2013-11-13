@@ -1,22 +1,5 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.1.2">
-  <compound refid="class_webassistenten__ads__api_1_1_models_1_1_address" kind="class"><name>Webassistenten_ads_api::Models::Address</name>
-    <member refid="class_webassistenten__ads__api_1_1_models_1_1_address_1a758766a57e6b44bb744014732d1ea487" kind="property"><name>Streetname</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_models_1_1_address_1a05de2f8d1a25db9654352214754d2cdb" kind="property"><name>HouseNumber</name></member>
-  </compound>
-  <compound refid="interface_webassistenten__ads__api_1_1_controllers_1_1_ad_handler_logic" kind="interface"><name>Webassistenten_ads_api::Controllers::AdHandlerLogic</name>
-  </compound>
-  <compound refid="class_webassistenten__ads__api_1_1_controllers_1_1_ad_has_order" kind="class"><name>Webassistenten_ads_api::Controllers::AdHasOrder</name>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_ad_has_order_1aa230cc3a03be5ca587a66ddc7e3e29d6" kind="variable"><name>db</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_ad_has_order_1a9b40141ebbe820cc7a7d99bb4350ee6d" kind="function"><name>GetAnnonseHarBestillings</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_ad_has_order_1ae5fdf83a7741bbdb40b87eb2a08850b7" kind="function"><name>GetAnnonseHarBestilling</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_ad_has_order_1a22cedb60a97fc4f7d0667c4f7b06e26e" kind="function"><name>PutAnnonseHarBestilling</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_ad_has_order_1a9b4241cd482467ef2731c38f3600a438" kind="function"><name>PostAnnonseHarBestilling</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_ad_has_order_1a231cc3837a3772891137c953b66b59b4" kind="function"><name>DeleteAnnonseHarBestilling</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_ad_has_order_1aff4120bddd58336757d7e5e7595e7fb2" kind="function"><name>Dispose</name></member>
-  </compound>
-  <compound refid="interface_webassistenten__ads__api_1_1_models_1_1_ad_info" kind="interface"><name>Webassistenten_ads_api::Models::AdInfo</name>
-  </compound>
   <compound refid="class_webassistenten__ads__api_1_1_annonse" kind="class"><name>Webassistenten_ads_api::Annonse</name>
     <member refid="class_webassistenten__ads__api_1_1_annonse_1a8dd4b011d7efc156e3728df4cba1aab9" kind="property"><name>AnnonseID</name></member>
     <member refid="class_webassistenten__ads__api_1_1_annonse_1a750e734148a7757ebc193d02b6bb06f4" kind="property"><name>PartnerID</name></member>
@@ -673,15 +656,11 @@
   <compound refid="class_webassistenten__ads__api_1_1_bundle_config" kind="class"><name>Webassistenten_ads_api::BundleConfig</name>
     <member refid="class_webassistenten__ads__api_1_1_bundle_config_1a0e94d7e11627f6f7abbd582a97f49de8" kind="function"><name>RegisterBundles</name></member>
   </compound>
-  <compound refid="class_webassistenten__ads__api_1_1_controllers_1_1_database_logic" kind="class"><name>Webassistenten_ads_api::Controllers::DatabaseLogic</name>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_database_logic_1a3af759da94177e51e482158326eebc7a" kind="function"><name>Index</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_database_logic_1a7ca11ce9605fbf1218adaeeaa8ad209d" kind="function"><name>Details</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_database_logic_1a6907eacefabcea1cbcbff690a0b2dda7" kind="function"><name>Create</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_database_logic_1ac38993d2684cab80e5b19a4bddc4fb4a" kind="function"><name>Create</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_database_logic_1ac1b908293e981533e138f2417f74e698" kind="function"><name>Edit</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_database_logic_1abb3bdc966c47a0a692f749c09c609143" kind="function"><name>Edit</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_database_logic_1a9c31f868c0c136033e1afa9cb1f5cf95" kind="function"><name>Delete</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_database_logic_1a8df334cfbbbfcc2ac5cccb2dd2b56497" kind="function"><name>Delete</name></member>
+  <compound refid="class_webassistenten__ads__api_1_1_database_connection" kind="class"><name>Webassistenten_ads_api::DatabaseConnection</name>
+    <member refid="class_webassistenten__ads__api_1_1_database_connection_1a590df41fae580361107eb530b56763e7" kind="function"><name>GetProducts</name></member>
+    <member refid="class_webassistenten__ads__api_1_1_database_connection_1a38791de81fc51cadcad56d3d81bd4c16" kind="function"><name>GetProductModules</name></member>
+    <member refid="class_webassistenten__ads__api_1_1_database_connection_1a1bb38c212c84fd6e2ee827035446fc4d" kind="function"><name>GetProductModules</name></member>
+    <member refid="class_webassistenten__ads__api_1_1_database_connection_1a3296de6629c868727e19d5dc3c36d036" kind="function"><name>GetNextFivePublishables</name></member>
   </compound>
   <compound refid="class_webassistenten__ads__api_1_1_models_1_1_data_model" kind="class"><name>Webassistenten_ads_api::Models::DataModel</name>
     <member refid="class_webassistenten__ads__api_1_1_models_1_1_data_model_1a57fa65a4afa9a6f50a83a9bdd37baa3c" kind="property"><name>productId</name></member>
@@ -694,6 +673,16 @@
     <member refid="class_webassistenten__ads__api_1_1_models_1_1_data_model_1af68cfb90c5612aaf8e2c4d4d7a364f9a" kind="function"><name>GetDate</name></member>
     <member refid="class_webassistenten__ads__api_1_1_models_1_1_data_model_1a80942334c063f97fdeb866347fe6475a" kind="function"><name>GetProducts</name></member>
     <member refid="class_webassistenten__ads__api_1_1_models_1_1_data_model_1a50065f197dbd2f7fdd8e7593a9c1922e" kind="function"><name>GetProductModules</name></member>
+    <member refid="class_webassistenten__ads__api_1_1_models_1_1_data_model_1a1ff0fba9a17c86085ff1af8316bfaeb9" kind="function"><name>GetProductModulesArray</name></member>
+  </compound>
+  <compound refid="class_webassistenten__ads__api_1_1_controllers_1_1_default1_controller" kind="class"><name>Webassistenten_ads_api::Controllers::Default1Controller</name>
+    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_default1_controller_1acdd5ca21c0c1a7ab869f1863b8171f56" kind="variable"><name>db</name></member>
+    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_default1_controller_1a46a4951d6f5f8015faa9f96f32e8319c" kind="function"><name>GetModuls</name></member>
+    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_default1_controller_1a28bf33a5f35d5fe3caa39f385d1bcdfb" kind="function"><name>GetModul</name></member>
+    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_default1_controller_1ac79785a72c9e6dad3ac82d9f66c20dce" kind="function"><name>PutModul</name></member>
+    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_default1_controller_1a2ec1448d9c9029b1a27a948a90259697" kind="function"><name>PostModul</name></member>
+    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_default1_controller_1afa31d480aa8ae0136b8896c8ca3d6f97" kind="function"><name>DeleteModul</name></member>
+    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_default1_controller_1aff9c418156a53f71efe5038b0b6b5a40" kind="function"><name>Dispose</name></member>
   </compound>
   <compound refid="class_webassistenten__ads__api_1_1dt__getpropertiesbyid___result" kind="class"><name>Webassistenten_ads_api::dt_getpropertiesbyid_Result</name>
     <member refid="class_webassistenten__ads__api_1_1dt__getpropertiesbyid___result_1a617cbda316824035acd35b70cf64cf84" kind="property"><name>property</name></member>
@@ -731,13 +720,6 @@
     <member refid="class_webassistenten__ads__api_1_1_endringslogg_1aa8531426fbf74034ae37034928234d47" kind="property"><name>VerdiGml</name></member>
     <member refid="class_webassistenten__ads__api_1_1_endringslogg_1a7ad64fa0a31cf27337fbe56c4cd30ec6" kind="property"><name>VerdiNy</name></member>
     <member refid="class_webassistenten__ads__api_1_1_endringslogg_1ac23db4c72eaa51e79dc66f50ae72953c" kind="property"><name>Endret</name></member>
-  </compound>
-  <compound refid="class_webassistenten__ads__api_1_1_controllers_1_1_file_handler" kind="class"><name>Webassistenten_ads_api::Controllers::FileHandler</name>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_file_handler_1a169b7c718ffccdca6bbfd433b9f0605c" kind="function"><name>Get</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_file_handler_1a3ea0d2c071d3aa6d6104ace01dc01fbd" kind="function"><name>Get</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_file_handler_1ac8a19e80e559d8b0ad2210c732915b5e" kind="function"><name>Post</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_file_handler_1a845e7759166933c6a4f2efa781507ec9" kind="function"><name>Put</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_file_handler_1ab75eb92ee5282e9e9b6cdd99fffc524f" kind="function"><name>Delete</name></member>
   </compound>
   <compound refid="class_webassistenten__ads__api_1_1_filter_config" kind="class"><name>Webassistenten_ads_api::FilterConfig</name>
     <member refid="class_webassistenten__ads__api_1_1_filter_config_1aa674fb5d7f33ceea1a105693d23f8d74" kind="function"><name>RegisterGlobalFilters</name></member>
@@ -1043,13 +1025,19 @@
     <member refid="class_webassistenten__ads__api_1_1_lock_1a37bd667bb26cfda0a6a46795cd6c1376" kind="property"><name>PartnerID</name></member>
     <member refid="class_webassistenten__ads__api_1_1_lock_1a5890f62a76b1cdab4899ef4ae49f054b" kind="property"><name>Lock1</name></member>
   </compound>
+  <compound refid="class_webassistenten__ads__api_1_1_controllers_1_1_master_a_p_i_controller" kind="class"><name>Webassistenten_ads_api::Controllers::MasterAPIController</name>
+    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_master_a_p_i_controller_1aaf3e18a7e2d301fc822842fc97e1deb9" kind="variable"><name>folder</name></member>
+    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_master_a_p_i_controller_1a18d14f37c93013ba9b922c7f7c4de0c9" kind="function"><name>Upload</name></member>
+    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_master_a_p_i_controller_1a674ce125fa7cb331065f70bdddc13568" kind="function"><name>checkString</name></member>
+    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_master_a_p_i_controller_1ada7dd83fee49a4e3c93fd1ca5d9acc34" kind="function"><name>checkMail</name></member>
+  </compound>
   <compound refid="class_webassistenten__ads__api_1_1_controllers_1_1_master_controller" kind="class"><name>Webassistenten_ads_api::Controllers::MasterController</name>
     <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_master_controller_1a66950918a55b8856b20ae24ac00b5d25" kind="variable"><name>db</name></member>
     <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_master_controller_1a6725b9bb4f2be16c460fd6107496a720" kind="variable"><name>folder</name></member>
     <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_master_controller_1af561920a5d908b6c42b20d68a375698c" kind="function"><name>Index</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_master_controller_1ad7e32dcf28242b966b3eff8fe4efcee6" kind="function"><name>Upload</name></member>
+    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_master_controller_1a463676025e1d96658aa84d25fd386367" kind="function"><name>Upload</name></member>
     <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_master_controller_1a9b09d23e1af5283e9aaaf9c0ff9e7fc2" kind="function"><name>AddNewAd</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_master_controller_1ae26170e0fdffc817eb7d9950dec70589" kind="function"><name>ChooseModule</name></member>
+    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_master_controller_1a7e4e874d0921855fd54bd1e2f002e909" kind="function"><name>ChooseProduct</name></member>
     <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_master_controller_1a668432ac872507b4a7ffe36c38bc806e" kind="function"><name>Fail</name></member>
     <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_master_controller_1affcc79060a652c756b0ac103ee919d80" kind="function"><name>Success</name></member>
     <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_master_controller_1a637b2b2458463e5d56a222c40e0770d5" kind="function"><name>IsValidMail</name></member>
@@ -1058,12 +1046,6 @@
     <member refid="class_webassistenten__ads__api_1_1_meglersystem_1a23652cb9da47b759cab4c3ea008bc3a0" kind="property"><name>MeglersystemID</name></member>
     <member refid="class_webassistenten__ads__api_1_1_meglersystem_1ab2ece935616acf212967733e162ce634" kind="property"><name>MeglersystemNavn</name></member>
     <member refid="class_webassistenten__ads__api_1_1_meglersystem_1a8b14a2a664ce79868c7f41550ff8b5f6" kind="property"><name>Firmanavn</name></member>
-  </compound>
-  <compound refid="class_webassistenten__ads__api_1_1_methods_to_implement" kind="class"><name>Webassistenten_ads_api::MethodsToImplement</name>
-    <member refid="class_webassistenten__ads__api_1_1_methods_to_implement_1a4753d16ff9d0a20e977879c9eba037a4" kind="function"><name>MethodsToImplement</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_methods_to_implement_1a1586674e233f25f3a789d3cc4b997b4b" kind="function"><name>GetProducts</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_methods_to_implement_1a6e5b4370ba505204dad0403d094b6b41" kind="function"><name>GetProductModules</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_methods_to_implement_1ad04aaeb011a8f13544c43a54b1c95655" kind="function"><name>GetNextFivePublishables</name></member>
   </compound>
   <compound refid="class_webassistenten__ads__api_1_1_modul" kind="class"><name>Webassistenten_ads_api::Modul</name>
     <member refid="class_webassistenten__ads__api_1_1_modul_1a66dd2ee29867043071a01b13d3f574b0" kind="property"><name>ModulID</name></member>
@@ -1081,14 +1063,18 @@
     <member refid="class_webassistenten__ads__api_1_1_modul_1ad85916132ec51d74519e97b10fc06d6b" kind="property"><name>XmlTags</name></member>
     <member refid="class_webassistenten__ads__api_1_1_modul_1a2151d290a09ce214b9fc12d668a7b9ef" kind="function"><name>Modul</name></member>
   </compound>
-  <compound refid="class_webassistenten__ads__api_1_1_controllers_1_1_module" kind="class"><name>Webassistenten_ads_api::Controllers::Module</name>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_module_1afca240154e074d6b3539bf55c28f378e" kind="variable"><name>db</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_module_1a31064b657a23133e2643d9e5908b459d" kind="function"><name>GetModuls</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_module_1aa36433f69fdd300be5442af8498a2781" kind="function"><name>GetModul</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_module_1a6f2d8fc7b639a3bcbc2b756f0c92aa1f" kind="function"><name>PutModul</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_module_1a7b439fd69fc31ba3114305e526d37b5e" kind="function"><name>PostModul</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_module_1a9689f1c2b2a5e12fe4c733133dec0ffc" kind="function"><name>DeleteModul</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_module_1a4368fb404e365e0f37b743d38eb646ed" kind="function"><name>Dispose</name></member>
+  <compound refid="class_webassistenten__ads__api_1_1_controllers_1_1_modulapi2_controller" kind="class"><name>Webassistenten_ads_api::Controllers::Modulapi2Controller</name>
+    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_modulapi2_controller_1a1c2e196a8d5450f7f9d9358f959d582e" kind="variable"><name>db</name></member>
+    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_modulapi2_controller_1ab979382f1e3e1e5ba98500ccb6ddaf6a" kind="function"><name>GetModuls</name></member>
+    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_modulapi2_controller_1acd6f7c9bc5f54af1f7c863f3b87a3eca" kind="function"><name>GetModul</name></member>
+    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_modulapi2_controller_1a11278a93aa8115a5deb780a6fb949c43" kind="function"><name>PutModul</name></member>
+    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_modulapi2_controller_1ad4de1f7fb2fab6fccec733cebbcb9d10" kind="function"><name>PostModul</name></member>
+    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_modulapi2_controller_1a5d293dff8fbefa85326b5cbd4440dd81" kind="function"><name>DeleteModul</name></member>
+    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_modulapi2_controller_1a9adeb44f8749c96ea3ab2ca0ab4e5117" kind="function"><name>Dispose</name></member>
+  </compound>
+  <compound refid="class_webassistenten__ads__api_1_1_controllers_1_1_module_a_p_i_controller" kind="class"><name>Webassistenten_ads_api::Controllers::ModuleAPIController</name>
+    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_module_a_p_i_controller_1abc1e44f5ee0e94dd357633273c4711bb" kind="function"><name>PostAuth</name></member>
+    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_module_a_p_i_controller_1addfbcd377a9eb29274f700239bff51d8" kind="function"><name>Modules</name></member>
   </compound>
   <compound refid="class_webassistenten__ads__api_1_1_modul_ressur" kind="class"><name>Webassistenten_ads_api::ModulRessur</name>
     <member refid="class_webassistenten__ads__api_1_1_modul_ressur_1ab94484997f4fecb3a2284b18f1376766" kind="property"><name>RessursID</name></member>
@@ -1245,46 +1231,13 @@
     <member refid="class_webassistenten__ads__api_1_1_partner_har_tjeneste_type_1a31fea11465d667d750f05a9a93d5e909" kind="property"><name>Aktiv</name></member>
     <member refid="class_webassistenten__ads__api_1_1_partner_har_tjeneste_type_1a83a3005935902cf44959f0bf1f917f03" kind="property"><name>Sortering</name></member>
   </compound>
-  <compound refid="class_webassistenten__ads__api_1_1_controllers_1_1_partner_has_product" kind="class"><name>Webassistenten_ads_api::Controllers::PartnerHasProduct</name>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_partner_has_product_1a88978af183a9f17d4f7cd567505c0634" kind="variable"><name>db</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_partner_has_product_1a5c4f67e20843fe1799b4984455b76306" kind="function"><name>GetPartnerHarProdukts</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_partner_has_product_1aa7d50d3d9fae1f8796c8a0871f208d8e" kind="function"><name>GetPartnerHarProdukt</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_partner_has_product_1a6e5d4baa56d876bd7c6a89b2339e592e" kind="function"><name>PutPartnerHarProdukt</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_partner_has_product_1ab3f6415f813b7848d251e4218397658a" kind="function"><name>PostPartnerHarProdukt</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_partner_has_product_1a3c16247287ac45ad099bffa57fcf8944" kind="function"><name>DeletePartnerHarProdukt</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_partner_has_product_1a2f3f5aa28e23b5a556d7cb938ef0924f" kind="function"><name>Dispose</name></member>
-  </compound>
   <compound refid="class_webassistenten__ads__api_1_1_postnr" kind="class"><name>Webassistenten_ads_api::Postnr</name>
     <member refid="class_webassistenten__ads__api_1_1_postnr_1ae67af453843fc6291a656c47e567c73a" kind="property"><name>Postnr1</name></member>
     <member refid="class_webassistenten__ads__api_1_1_postnr_1a6286aeac455d7500aa56b7b3489d40e2" kind="property"><name>Poststed</name></member>
     <member refid="class_webassistenten__ads__api_1_1_postnr_1a9c8cd0b4b39d207fa00acb3c9e889e99" kind="property"><name>InndelingID</name></member>
   </compound>
-  <compound refid="class_webassistenten__ads__api_1_1_controllers_1_1_product" kind="class"><name>Webassistenten_ads_api::Controllers::Product</name>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_product_1a333f5aa88553deaa35d7a56cb12efcfe" kind="variable"><name>db</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_product_1a4a3d0a4c9bf3c277241b77d8e143e00c" kind="function"><name>GetProdukts</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_product_1a418e69b1fe1320972a40230103ca9823" kind="function"><name>GetProdukt</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_product_1a2586f7e28aeecc941b918aca26822590" kind="function"><name>PutProdukt</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_product_1a6dabbd18ba576d1fe36da2a806d0aba7" kind="function"><name>PostProdukt</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_product_1a785d305567f6dec961ee09ea18d40d43" kind="function"><name>DeleteProdukt</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_product_1a601aded2b7fde1e36c8a1ff92234172e" kind="function"><name>Dispose</name></member>
-  </compound>
-  <compound refid="class_webassistenten__ads__api_1_1_controllers_1_1_product_has_ad" kind="class"><name>Webassistenten_ads_api::Controllers::ProductHasAd</name>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_product_has_ad_1ac46eba0437f48a44102d5e897afbb6fb" kind="variable"><name>db</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_product_has_ad_1af0056f5b92b8b2d7489c035653b7e450" kind="function"><name>GetProduktHarAnnonses</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_product_has_ad_1a3be9cc436f27f481d5c8f12bd19cac45" kind="function"><name>GetProduktHarAnnonse</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_product_has_ad_1a383c6cd8242848a14ef3ae425446e986" kind="function"><name>PutProduktHarAnnonse</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_product_has_ad_1a404783d5437e6f28858000a1cd430df4" kind="function"><name>PostProduktHarAnnonse</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_product_has_ad_1a22458236de1dc1456e9aa901c72cd71c" kind="function"><name>DeleteProduktHarAnnonse</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_product_has_ad_1ae6ff9e509c1c9cd9daf85f3c7c67bcc4" kind="function"><name>Dispose</name></member>
-  </compound>
-  <compound refid="class_webassistenten__ads__api_1_1_controllers_1_1_product_has_module" kind="class"><name>Webassistenten_ads_api::Controllers::ProductHasModule</name>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_product_has_module_1a837eec67824946beeed815284e296af0" kind="variable"><name>db</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_product_has_module_1a7b1de9efdef69d92b3ace93e6159a13b" kind="function"><name>GetProduktHarModuls</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_product_has_module_1ab204007a696dd97b46212115ae55c087" kind="function"><name>GetProduktHarModul</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_product_has_module_1a985167290ae32d1fddd853e17f3d4c3d" kind="function"><name>PutProduktHarModul</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_product_has_module_1aa5ea34ac0f4b86ecd4f75df16dd677e9" kind="function"><name>PostProduktHarModul</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_product_has_module_1ad7cf66a5c9a292bf8ca75820b3218100" kind="function"><name>DeleteProduktHarModul</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_product_has_module_1afdb4f4360d83a0b72c8868370fbb671c" kind="function"><name>Dispose</name></member>
+  <compound refid="class_webassistenten__ads__api_1_1_controllers_1_1_product_a_p_i_controller" kind="class"><name>Webassistenten_ads_api::Controllers::ProductAPIController</name>
+    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_product_a_p_i_controller_1ad7447c51395cce04622557f4f098fbfb" kind="function"><name>Products</name></member>
   </compound>
   <compound refid="class_webassistenten__ads__api_1_1_produkt" kind="class"><name>Webassistenten_ads_api::Produkt</name>
     <member refid="class_webassistenten__ads__api_1_1_produkt_1af4ab740601915dc355d8245ce88a8812" kind="property"><name>ProduktID</name></member>
@@ -1356,28 +1309,6 @@
     <member refid="class_webassistenten__ads__api_1_1_produkt_utgivelse_1a83dddeb0343054a688173fb99ab9d164" kind="property"><name>BookingFristSlutt</name></member>
     <member refid="class_webassistenten__ads__api_1_1_produkt_utgivelse_1a8ecbf020506c995a9470ab0abdc344b6" kind="property"><name>AntallSider</name></member>
     <member refid="class_webassistenten__ads__api_1_1_produkt_utgivelse_1af74b4e3e5455a36d376b8b2b06d95577" kind="property"><name>Dokument</name></member>
-  </compound>
-  <compound refid="class_webassistenten__ads__api_1_1_property_type" kind="class"><name>Webassistenten_ads_api::PropertyType</name>
-    <member refid="class_webassistenten__ads__api_1_1_property_type_1a5d4c479dd308f92703ed21f443f13467" kind="property"><name>Id</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_property_type_1a9eb8b17abb118af3b8f206160690ac21" kind="function"><name>PropertyType</name></member>
-  </compound>
-  <compound refid="class_webassistenten__ads__api_1_1_controllers_1_1_prospect" kind="class"><name>Webassistenten_ads_api::Controllers::Prospect</name>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_prospect_1abcc037f0676b452a807c22a45f9e4869" kind="variable"><name>db</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_prospect_1ab160e6466c050f15fc640a8d952dc041" kind="function"><name>GetProspekts</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_prospect_1a6302d7c116d07c77bb55a52683947309" kind="function"><name>GetProspekt</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_prospect_1a8a4d5c91044b0667ce5e3a78b45835d4" kind="function"><name>PutProspekt</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_prospect_1a9d18d3ed0cbdc25ddc4b90e1b9f9f2e2" kind="function"><name>PostProspekt</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_prospect_1a513b3f76135d512d4db72af302b4f4bc" kind="function"><name>DeleteProspekt</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_prospect_1a263eee5f5fbf09e1962e38f6412923e1" kind="function"><name>Dispose</name></member>
-  </compound>
-  <compound refid="class_webassistenten__ads__api_1_1_controllers_1_1_prospect_has_order" kind="class"><name>Webassistenten_ads_api::Controllers::ProspectHasOrder</name>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_prospect_has_order_1a00ccb226e017d8c905ad117d3732b955" kind="variable"><name>db</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_prospect_has_order_1a13628be52e806912c4bf69ed19a9d496" kind="function"><name>GetProspektHarBestillings</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_prospect_has_order_1a8b76a85cee3bea946f27952f41297a80" kind="function"><name>GetProspektHarBestilling</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_prospect_has_order_1a890c5fc6722df7c2122aaa31701ed372" kind="function"><name>PutProspektHarBestilling</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_prospect_has_order_1a1f561828824f87b908e23798931f01e4" kind="function"><name>PostProspektHarBestilling</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_prospect_has_order_1a5ecbad49609700fc0e44cce2017e6d36" kind="function"><name>DeleteProspektHarBestilling</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_prospect_has_order_1a6a39e7e96382b3b0b1ae712ccb0ce388" kind="function"><name>Dispose</name></member>
   </compound>
   <compound refid="class_webassistenten__ads__api_1_1_prospekt" kind="class"><name>Webassistenten_ads_api::Prospekt</name>
     <member refid="class_webassistenten__ads__api_1_1_prospekt_1a1b161b46a1af2439a5669970a09e472c" kind="property"><name>ProspektID</name></member>
@@ -1534,27 +1465,22 @@
     <member refid="class_webassistenten__ads__api_1_1_prospekt_har_utgivelse_1a34ff0bcbcb8f245571b77297acf89b47" kind="property"><name>Ordrenr</name></member>
     <member refid="class_webassistenten__ads__api_1_1_prospekt_har_utgivelse_1ad2cddecfc577bd11ea3fadc58cf07382" kind="property"><name>Ordrestatus</name></member>
   </compound>
-  <compound refid="class_webassistenten__ads__api_1_1_controllers_1_1_real_estate_ad_handler_logic" kind="class"><name>Webassistenten_ads_api::Controllers::RealEstateAdHandlerLogic</name>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_real_estate_ad_handler_logic_1a57f6118360fd58ede0dc74b90422eac9" kind="function"><name>RequiredInfoSet</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_real_estate_ad_handler_logic_1a7cfb2d4b365e385fe2466718740a5a43" kind="function"><name>ValidZipCode</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_real_estate_ad_handler_logic_1a4b6f5fee884113bf128d622ff3a820fc" kind="function"><name>RequiredProspektInfoSet</name></member>
-  </compound>
   <compound refid="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info" kind="class"><name>Webassistenten_ads_api::Models::RealEstateAdInfo</name>
     <member refid="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1a54f3fcc168ae7bdd7990db928ec27df2" kind="property"><name>RealtorId</name></member>
     <member refid="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1a428562efb3f126d76682459e7cabd0fb" kind="property"><name>ProductId</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1ac96f741ced56634356dccb49bdfb67f7" kind="property"><name>ResponsibleRealtor</name></member>
+    <member refid="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1a11886ffdad7ddedb27f4ed487e22087b" kind="property"><name>ResponsibleRealtor</name></member>
     <member refid="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1a5edddf6c42af8b9ab209d8b1856fe882" kind="property"><name>Area</name></member>
     <member refid="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1aa1c3b4918cdc01ee402e34e0a1ef5f7e" kind="property"><name>Type</name></member>
     <member refid="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1aa172f3eed7c93003bf2db0a07e6e4b94" kind="property"><name>Price</name></member>
     <member refid="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1ae05117a713b725050f19aa54cc941652" kind="property"><name>Location</name></member>
     <member refid="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1aeee7370ba6f1756ed5bf1d22ee11a052" kind="property"><name>Headline</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1a3c6d78ea51e63460c4bd4d051bbe8aaa" kind="property"><name>Address</name></member>
+    <member refid="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1acdf308f3589aea49817b3daa591551bd" kind="property"><name>Adress</name></member>
     <member refid="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1adcedad71793b51b2e9e16a0b2698d7fb" kind="property"><name>ZipCode</name></member>
     <member refid="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1a5166cfe22e346184570cf25e790ec7b2" kind="property"><name>ZipArea</name></member>
     <member refid="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1acc5d16669d9cd1606f7cf93d9d1ad820" kind="property"><name>BookingDate</name></member>
     <member refid="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1a4d53b4e307d39954daa698dc5d7f1023" kind="property"><name>FinnCode</name></member>
     <member refid="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1ab70075f5b9d6839865492939a5692230" kind="property"><name>ContractNr</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1a7e636161da5c6a08d72b38c486671e32" kind="property"><name>P_rom</name></member>
+    <member refid="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1a028b01ee613004619364a601d673b2d3" kind="property"><name>PRom</name></member>
     <member refid="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1a42404fa002a54dbe4c7a9c9c7ca5187b" kind="property"><name>Boa</name></member>
     <member refid="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1a90d82511ded1a80f65fb0728e38ee162" kind="property"><name>Bta</name></member>
     <member refid="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1aeb5f7aa1ee02bb009d248e721714a137" kind="property"><name>Bra</name></member>
@@ -1564,7 +1490,7 @@
     <member refid="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1a35d098f3fc7e702cfd9e9c3c75f9f124" kind="property"><name>AmountSharedDebt</name></member>
     <member refid="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1a5f6eb27743949fc0798d9b6a28298deb" kind="property"><name>CommonExpenses</name></member>
     <member refid="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1a4f67685646d90cf3d95556ce57bd101d" kind="property"><name>PropertyArea</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1a7f4b7cd98cf08fb50f6c249197d7683f" kind="property"><name>PropertyType</name></member>
+    <member refid="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1a93ee92385a8c8172c22a0bad6ecf1175" kind="property"><name>PropertyType</name></member>
     <member refid="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1aa5efaf2ef6417a031a257cc8c30946e4" kind="property"><name>ConstructionYear</name></member>
     <member refid="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1a0c21b78be11817cdf72c463ad9ab1644" kind="property"><name>Floor</name></member>
     <member refid="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1acdabbf5fbd90b14d8f037928374be1cf" kind="property"><name>Bedrooms</name></member>
@@ -1575,14 +1501,10 @@
     <member refid="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1a27a9141ee8e73243715ae4f3306dd536" kind="property"><name>RealEstAgentTitle</name></member>
     <member refid="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1a95b4a29c37d0662f1531e4d0765bbdc1" kind="property"><name>RealEstAgentMobile</name></member>
     <member refid="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1a5c8f7f0d3e99fdc36b107e5d33cf56ac" kind="property"><name>RealEstAgentPhone</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1a01d5e3f9ea7bfe35fecdf68a44998f14" kind="property"><name>RealEstAgentEmail</name></member>
+    <member refid="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1aaf7732ca30bbc6b20cc69dfaebb9b69a" kind="property"><name>RealEstAgentEmail</name></member>
     <member refid="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1a46f48fcc496e5aca035877829321d699" kind="property"><name>AdText</name></member>
     <member refid="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1a93c72a6ea0c5c6c21184d4c448476b45" kind="function"><name>RealEstateAdInfo</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1a4cefd142978bfd5ff7cc1a91a02ea38b" kind="function"><name>RealEstateAdInfo</name></member>
-  </compound>
-  <compound refid="class_webassistenten__ads__api_1_1_models_1_1_realtor" kind="class"><name>Webassistenten_ads_api::Models::Realtor</name>
-    <member refid="class_webassistenten__ads__api_1_1_models_1_1_realtor_1ae831f8cb907a48bb03aeeb6f85ddaa7c" kind="property"><name>Id</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_models_1_1_realtor_1afb6676b0c421ee1b5cf8fc647c0060b8" kind="function"><name>Realtor</name></member>
+    <member refid="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info_1aa479e945c6075e9f7fbe49dc591c86a7" kind="function"><name>RealEstateAdInfo</name></member>
   </compound>
   <compound refid="class_webassistenten__ads__api_1_1_rolle" kind="class"><name>Webassistenten_ads_api::Rolle</name>
     <member refid="class_webassistenten__ads__api_1_1_rolle_1a719e2673aeb24c265bd5cddfb7b98cd9" kind="property"><name>RolleID</name></member>
@@ -4829,6 +4751,12 @@
     <member refid="class_webassistenten__ads__api_1_1_tilleggstjeneste_1a9fd620a5a2b2e099c1a051daf0c990e9" kind="property"><name>TjenesteTypenavnFork</name></member>
     <member refid="class_webassistenten__ads__api_1_1_tilleggstjeneste_1a15ef487fa88b70f4f9eecf5366048ff9" kind="property"><name>Pris</name></member>
   </compound>
+  <compound refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_a_p_i_controller" kind="class"><name>Webassistenten_ads_api::Controllers::UploadAPIController</name>
+    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_a_p_i_controller_1a913cdee53bc4f5209085bd093f582c27" kind="variable"><name>folder</name></member>
+    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_a_p_i_controller_1ab9e4ed983dfd750e6520e9beeabd6911" kind="function"><name>Upload</name></member>
+    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_a_p_i_controller_1a048e6ede1b3b5bfb105073fa3b75d8f3" kind="function"><name>checkString</name></member>
+    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_a_p_i_controller_1a6b03c0068d83af63b4d31cb93a8f86de" kind="function"><name>checkMail</name></member>
+  </compound>
   <compound refid="class_webassistenten__ads__api_1_1_utgivelse" kind="class"><name>Webassistenten_ads_api::Utgivelse</name>
     <member refid="class_webassistenten__ads__api_1_1_utgivelse_1af9d10dd7c8f5b026271ecd0e336dd26e" kind="property"><name>Ukenr</name></member>
     <member refid="class_webassistenten__ads__api_1_1_utgivelse_1a92f7c9f160aec79469d1570d019b580f" kind="property"><name>År</name></member>
@@ -5472,8 +5400,8 @@
     <member refid="class_webassistenten__ads__api_1_1_web_api_config_1aa62df7fe35228c3b086866821e669eb3" kind="function"><name>Register</name></member>
   </compound>
   <compound refid="class_webassistenten__ads__api_1_1_web_assistent_auth" kind="class"><name>Webassistenten_ads_api::WebAssistentAuth</name>
-    <member refid="class_webassistenten__ads__api_1_1_web_assistent_auth_1ae7bb7736ba0ab9680800735bb5edd541" kind="variable"><name>authId</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_web_assistent_auth_1ae8bed4ed8926836fb53eea4b4848ec1d" kind="variable"><name>valid</name></member>
+    <member refid="class_webassistenten__ads__api_1_1_web_assistent_auth_1a634849e8fe3c28ea6218ce11c4289913" kind="property"><name>AuthId</name></member>
+    <member refid="class_webassistenten__ads__api_1_1_web_assistent_auth_1a25d00e3f3c7e224e17c18a2ce9d506df" kind="property"><name>IsValid</name></member>
     <member refid="class_webassistenten__ads__api_1_1_web_assistent_auth_1a116cd972c58dd4df4a17bb9b08f4a8a5" kind="function"><name>WebAssistentAuth</name></member>
     <member refid="class_webassistenten__ads__api_1_1_web_assistent_auth_1af2ec90cd6c7217168f0d16e402328147" kind="function"><name>EmailAuthenticate</name></member>
     <member refid="class_webassistenten__ads__api_1_1_web_assistent_auth_1a1adc13e53fb821628765c7c5654e9cf3" kind="function"><name>IdAuthenticate</name></member>
@@ -5552,9 +5480,9 @@
   </compound>
   <compound refid="namespace_system_1_1_runtime_1_1_interop_services" kind="namespace"><name>System::Runtime::InteropServices</name>
   </compound>
-  <compound refid="namespace_system_1_1_text" kind="namespace"><name>System::Text</name>
+  <compound refid="namespace_system_1_1_runtime_1_1_serialization" kind="namespace"><name>System::Runtime::Serialization</name>
   </compound>
-  <compound refid="namespace_system_1_1_threading_1_1_tasks" kind="namespace"><name>System::Threading::Tasks</name>
+  <compound refid="namespace_system_1_1_text" kind="namespace"><name>System::Text</name>
   </compound>
   <compound refid="namespace_system_1_1_web" kind="namespace"><name>System::Web</name>
   </compound>
@@ -5661,35 +5589,23 @@
   </compound>
   <compound refid="_brukerlogg_8cs" kind="file"><name>Brukerlogg.cs</name>
   </compound>
-  <compound refid="_ad_handler_logic_8cs" kind="file"><name>AdHandlerLogic.cs</name>
+  <compound refid="_database_connection_8cs" kind="file"><name>DatabaseConnection.cs</name>
   </compound>
-  <compound refid="_ad_has_order_8cs" kind="file"><name>AdHasOrder.cs</name>
-  </compound>
-  <compound refid="_database_logic_8cs" kind="file"><name>DatabaseLogic.cs</name>
-  </compound>
-  <compound refid="_file_handler_8cs" kind="file"><name>FileHandler.cs</name>
+  <compound refid="_default1_controller_8cs" kind="file"><name>Default1Controller.cs</name>
   </compound>
   <compound refid="_home_controller_8cs" kind="file"><name>HomeController.cs</name>
   </compound>
+  <compound refid="_master_a_p_i_controller_8cs" kind="file"><name>MasterAPIController.cs</name>
+  </compound>
   <compound refid="_master_controller_8cs" kind="file"><name>MasterController.cs</name>
   </compound>
-  <compound refid="_methods_to_implement_8cs" kind="file"><name>MethodsToImplement.cs</name>
+  <compound refid="_modulapi2_controller_8cs" kind="file"><name>Modulapi2Controller.cs</name>
   </compound>
-  <compound refid="_module_8cs" kind="file"><name>Module.cs</name>
+  <compound refid="_module_a_p_i_controller_8cs" kind="file"><name>ModuleAPIController.cs</name>
   </compound>
-  <compound refid="_partner_has_product_8cs" kind="file"><name>PartnerHasProduct.cs</name>
+  <compound refid="_product_a_p_i_controller_8cs" kind="file"><name>ProductAPIController.cs</name>
   </compound>
-  <compound refid="_product_8cs" kind="file"><name>Product.cs</name>
-  </compound>
-  <compound refid="_product_has_ad_8cs" kind="file"><name>ProductHasAd.cs</name>
-  </compound>
-  <compound refid="_product_has_module_8cs" kind="file"><name>ProductHasModule.cs</name>
-  </compound>
-  <compound refid="_prospect_8cs" kind="file"><name>Prospect.cs</name>
-  </compound>
-  <compound refid="_prospect_has_order_8cs" kind="file"><name>ProspectHasOrder.cs</name>
-  </compound>
-  <compound refid="_real_estate_ad_handler_logic_8cs" kind="file"><name>RealEstateAdHandlerLogic.cs</name>
+  <compound refid="_upload_a_p_i_controller_8cs" kind="file"><name>UploadAPIController.cs</name>
   </compound>
   <compound refid="_values_controller_8cs" kind="file"><name>ValuesController.cs</name>
   </compound>
@@ -5765,17 +5681,9 @@
   </compound>
   <compound refid="_meglersystem_8cs" kind="file"><name>Meglersystem.cs</name>
   </compound>
-  <compound refid="_address_8cs" kind="file"><name>Address.cs</name>
-  </compound>
-  <compound refid="_ad_info_8cs" kind="file"><name>AdInfo.cs</name>
-  </compound>
   <compound refid="_data_model_8cs" kind="file"><name>DataModel.cs</name>
   </compound>
-  <compound refid="_property_type_8cs" kind="file"><name>PropertyType.cs</name>
-  </compound>
   <compound refid="_real_estate_ad_info_8cs" kind="file"><name>RealEstateAdInfo.cs</name>
-  </compound>
-  <compound refid="_realtor_8cs" kind="file"><name>Realtor.cs</name>
   </compound>
   <compound refid="_modul_8cs" kind="file"><name>Modul.cs</name>
   </compound>
@@ -6213,28 +6121,28 @@
   </compound>
   <compound refid="_xml_tag_8cs" kind="file"><name>XmlTag.cs</name>
   </compound>
-  <compound refid="dir_a3dd883d757bec5648f4c1441ee775e3" kind="dir"><name>Areas/HelpPage/App_Start/</name>
+  <compound refid="dir_a3dd883d757bec5648f4c1441ee775e3" kind="dir"><name>/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/App_Start/</name>
   </compound>
-  <compound refid="dir_01703c8a61d2c77a6cd32b34f696e849" kind="dir"><name>App_Start/</name>
+  <compound refid="dir_01703c8a61d2c77a6cd32b34f696e849" kind="dir"><name>/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/App_Start/</name>
   </compound>
-  <compound refid="dir_55af2469e37fd8d950761685eeffbbf4" kind="dir"><name>Areas/</name>
+  <compound refid="dir_55af2469e37fd8d950761685eeffbbf4" kind="dir"><name>/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/</name>
   </compound>
-  <compound refid="dir_f719760cd82fe9e637544737e39bde8d" kind="dir"><name>Controllers/</name>
+  <compound refid="dir_f719760cd82fe9e637544737e39bde8d" kind="dir"><name>/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/</name>
   </compound>
-  <compound refid="dir_6280de9d08415d69648c4a3ef5840fe4" kind="dir"><name>Areas/HelpPage/Controllers/</name>
+  <compound refid="dir_6280de9d08415d69648c4a3ef5840fe4" kind="dir"><name>/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/Controllers/</name>
   </compound>
-  <compound refid="dir_eb418c336a527ba2b90b3931e03a7bfc" kind="dir"><name>Areas/HelpPage/</name>
+  <compound refid="dir_eb418c336a527ba2b90b3931e03a7bfc" kind="dir"><name>/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/</name>
   </compound>
-  <compound refid="dir_727e0f3d5d085ddabc7d074177671266" kind="dir"><name>Interfaces/</name>
+  <compound refid="dir_727e0f3d5d085ddabc7d074177671266" kind="dir"><name>/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Interfaces/</name>
   </compound>
-  <compound refid="dir_f15062ca702f98796597a6280717318a" kind="dir"><name>Models/</name>
+  <compound refid="dir_f15062ca702f98796597a6280717318a" kind="dir"><name>/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/</name>
   </compound>
-  <compound refid="dir_7bea60cf5b3994f365c66ac2a69e3013" kind="dir"><name>Areas/HelpPage/Models/</name>
+  <compound refid="dir_7bea60cf5b3994f365c66ac2a69e3013" kind="dir"><name>/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/Models/</name>
   </compound>
-  <compound refid="dir_e21ca847109231af5692decd25f845f9" kind="dir"><name>Properties/</name>
+  <compound refid="dir_e21ca847109231af5692decd25f845f9" kind="dir"><name>/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Properties/</name>
   </compound>
-  <compound refid="dir_e7b63398ab04631f6500a582fdb3062d" kind="dir"><name>Repository/</name>
+  <compound refid="dir_e7b63398ab04631f6500a582fdb3062d" kind="dir"><name>/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Repository/</name>
   </compound>
-  <compound refid="dir_d20d637125a4419fc121e879ef71649a" kind="dir"><name>Areas/HelpPage/SampleGeneration/</name>
+  <compound refid="dir_d20d637125a4419fc121e879ef71649a" kind="dir"><name>/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/SampleGeneration/</name>
   </compound>
 </doxygenindex>

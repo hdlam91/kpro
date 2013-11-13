@@ -29,7 +29,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Interfaces/Authentication.cs" line="13"/>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Interfaces/Authentication.cs" line="18"/>
       </memberdef>
       <memberdef kind="function" id="interface_webassistenten__ads__api_1_1_authentication_1a8074b5551cdcf2db6c7e96f317f654f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type><ref refid="interface_webassistenten__ads__api_1_1_authentication" kindref="compound">Authentication</ref></type>
@@ -56,26 +56,26 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Interfaces/Authentication.cs" line="20"/>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Interfaces/Authentication.cs" line="25"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
-    </briefdescription>
+<para><ref refid="interface_webassistenten__ads__api_1_1_authentication" kindref="compound">Authentication</ref>. Implement this interface for any self-made authentication in order to fit in with existing API code. Only for further development of API. </para>    </briefdescription>
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="22">
+      <node id="12">
         <label>Webassistenten_ads_api.Authentication</label>
         <link refid="interface_webassistenten__ads__api_1_1_authentication"/>
       </node>
-      <node id="23">
+      <node id="13">
         <label>Webassistenten_ads_api.WebAssistentAuth</label>
         <link refid="class_webassistenten__ads__api_1_1_web_assistent_auth"/>
-        <childnode refid="22" relation="public-inheritance">
+        <childnode refid="12" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
-    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Interfaces/Authentication.cs" line="6" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Interfaces/Authentication.cs" bodystart="5" bodyend="22"/>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Interfaces/Authentication.cs" line="11" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Interfaces/Authentication.cs" bodystart="10" bodyend="27"/>
     <listofallmembers>
       <member refid="interface_webassistenten__ads__api_1_1_authentication_1afc3433077bb1f666f160efcbc3c5dc60" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Authentication</scope><name>EmailAuthenticate</name></member>
       <member refid="interface_webassistenten__ads__api_1_1_authentication_1a8074b5551cdcf2db6c7e96f317f654f9" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Authentication</scope><name>IdAuthenticate</name></member>

@@ -1,22 +1,16 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
   <compounddef id="dir_f719760cd82fe9e637544737e39bde8d" kind="dir">
-    <compoundname>Controllers/</compoundname>
-    <innerfile refid="_ad_handler_logic_8cs">AdHandlerLogic.cs</innerfile>
-    <innerfile refid="_ad_has_order_8cs">AdHasOrder.cs</innerfile>
-    <innerfile refid="_database_logic_8cs">DatabaseLogic.cs</innerfile>
-    <innerfile refid="_file_handler_8cs">FileHandler.cs</innerfile>
+    <compoundname>/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/</compoundname>
+    <innerfile refid="_database_connection_8cs">DatabaseConnection.cs</innerfile>
+    <innerfile refid="_default1_controller_8cs">Default1Controller.cs</innerfile>
     <innerfile refid="_home_controller_8cs">HomeController.cs</innerfile>
+    <innerfile refid="_master_a_p_i_controller_8cs">MasterAPIController.cs</innerfile>
     <innerfile refid="_master_controller_8cs">MasterController.cs</innerfile>
-    <innerfile refid="_methods_to_implement_8cs">MethodsToImplement.cs</innerfile>
-    <innerfile refid="_module_8cs">Module.cs</innerfile>
-    <innerfile refid="_partner_has_product_8cs">PartnerHasProduct.cs</innerfile>
-    <innerfile refid="_product_8cs">Product.cs</innerfile>
-    <innerfile refid="_product_has_ad_8cs">ProductHasAd.cs</innerfile>
-    <innerfile refid="_product_has_module_8cs">ProductHasModule.cs</innerfile>
-    <innerfile refid="_prospect_8cs">Prospect.cs</innerfile>
-    <innerfile refid="_prospect_has_order_8cs">ProspectHasOrder.cs</innerfile>
-    <innerfile refid="_real_estate_ad_handler_logic_8cs">RealEstateAdHandlerLogic.cs</innerfile>
+    <innerfile refid="_modulapi2_controller_8cs">Modulapi2Controller.cs</innerfile>
+    <innerfile refid="_module_a_p_i_controller_8cs">ModuleAPIController.cs</innerfile>
+    <innerfile refid="_product_a_p_i_controller_8cs">ProductAPIController.cs</innerfile>
+    <innerfile refid="_upload_a_p_i_controller_8cs">UploadAPIController.cs</innerfile>
     <innerfile refid="_values_controller_8cs">ValuesController.cs</innerfile>
     <innerfile refid="_view_controller_8cs">ViewController.cs</innerfile>
     <innerfile refid="_web_assistent_auth_8cs">WebAssistentAuth.cs</innerfile>

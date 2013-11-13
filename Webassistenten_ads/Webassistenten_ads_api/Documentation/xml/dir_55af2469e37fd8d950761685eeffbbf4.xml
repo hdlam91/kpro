@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='UTF-8' standalone='no'?>
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
   <compounddef id="dir_55af2469e37fd8d950761685eeffbbf4" kind="dir">
-    <compoundname>Areas/</compoundname>
-    <innerdir refid="dir_eb418c336a527ba2b90b3931e03a7bfc">Areas/HelpPage/</innerdir>
+    <compoundname>/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/</compoundname>
+    <innerdir refid="dir_eb418c336a527ba2b90b3931e03a7bfc">/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/</innerdir>
     <briefdescription>
     </briefdescription>
     <detaileddescription>

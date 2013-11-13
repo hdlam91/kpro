@@ -2,26 +2,20 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
   <compounddef id="namespace_webassistenten__ads__api_1_1_controllers" kind="namespace">
     <compoundname>Webassistenten_ads_api::Controllers</compoundname>
-    <innerclass refid="interface_webassistenten__ads__api_1_1_controllers_1_1_ad_handler_logic" prot="public">Webassistenten_ads_api::Controllers::AdHandlerLogic</innerclass>
-    <innerclass refid="class_webassistenten__ads__api_1_1_controllers_1_1_ad_has_order" prot="public">Webassistenten_ads_api::Controllers::AdHasOrder</innerclass>
-    <innerclass refid="class_webassistenten__ads__api_1_1_controllers_1_1_database_logic" prot="public">Webassistenten_ads_api::Controllers::DatabaseLogic</innerclass>
-    <innerclass refid="class_webassistenten__ads__api_1_1_controllers_1_1_file_handler" prot="public">Webassistenten_ads_api::Controllers::FileHandler</innerclass>
+    <innerclass refid="class_webassistenten__ads__api_1_1_controllers_1_1_default1_controller" prot="public">Webassistenten_ads_api::Controllers::Default1Controller</innerclass>
     <innerclass refid="class_webassistenten__ads__api_1_1_controllers_1_1_home_controller" prot="public">Webassistenten_ads_api::Controllers::HomeController</innerclass>
+    <innerclass refid="class_webassistenten__ads__api_1_1_controllers_1_1_master_a_p_i_controller" prot="public">Webassistenten_ads_api::Controllers::MasterAPIController</innerclass>
     <innerclass refid="class_webassistenten__ads__api_1_1_controllers_1_1_master_controller" prot="public">Webassistenten_ads_api::Controllers::MasterController</innerclass>
-    <innerclass refid="class_webassistenten__ads__api_1_1_controllers_1_1_module" prot="public">Webassistenten_ads_api::Controllers::Module</innerclass>
-    <innerclass refid="class_webassistenten__ads__api_1_1_controllers_1_1_partner_has_product" prot="public">Webassistenten_ads_api::Controllers::PartnerHasProduct</innerclass>
-    <innerclass refid="class_webassistenten__ads__api_1_1_controllers_1_1_product" prot="public">Webassistenten_ads_api::Controllers::Product</innerclass>
-    <innerclass refid="class_webassistenten__ads__api_1_1_controllers_1_1_product_has_ad" prot="public">Webassistenten_ads_api::Controllers::ProductHasAd</innerclass>
-    <innerclass refid="class_webassistenten__ads__api_1_1_controllers_1_1_product_has_module" prot="public">Webassistenten_ads_api::Controllers::ProductHasModule</innerclass>
-    <innerclass refid="class_webassistenten__ads__api_1_1_controllers_1_1_prospect" prot="public">Webassistenten_ads_api::Controllers::Prospect</innerclass>
-    <innerclass refid="class_webassistenten__ads__api_1_1_controllers_1_1_prospect_has_order" prot="public">Webassistenten_ads_api::Controllers::ProspectHasOrder</innerclass>
-    <innerclass refid="class_webassistenten__ads__api_1_1_controllers_1_1_real_estate_ad_handler_logic" prot="public">Webassistenten_ads_api::Controllers::RealEstateAdHandlerLogic</innerclass>
+    <innerclass refid="class_webassistenten__ads__api_1_1_controllers_1_1_modulapi2_controller" prot="public">Webassistenten_ads_api::Controllers::Modulapi2Controller</innerclass>
+    <innerclass refid="class_webassistenten__ads__api_1_1_controllers_1_1_module_a_p_i_controller" prot="public">Webassistenten_ads_api::Controllers::ModuleAPIController</innerclass>
+    <innerclass refid="class_webassistenten__ads__api_1_1_controllers_1_1_product_a_p_i_controller" prot="public">Webassistenten_ads_api::Controllers::ProductAPIController</innerclass>
+    <innerclass refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_a_p_i_controller" prot="public">Webassistenten_ads_api::Controllers::UploadAPIController</innerclass>
     <innerclass refid="class_webassistenten__ads__api_1_1_controllers_1_1_values_controller" prot="public">Webassistenten_ads_api::Controllers::ValuesController</innerclass>
     <innerclass refid="class_webassistenten__ads__api_1_1_controllers_1_1_view_controller" prot="public">Webassistenten_ads_api::Controllers::ViewController</innerclass>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/AdHandlerLogic.cs" line="8"/>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/Default1Controller.cs" line="13"/>
   </compounddef>
 </doxygen>
