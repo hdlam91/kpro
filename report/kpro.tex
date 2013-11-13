@@ -103,24 +103,23 @@ basicstyle=\ttfamily
 \include{chapters/introduction/introduction}
 
 \section{Project Management}
-\subsection{Terms and Resources}
-\subsection{Project Organization}
-\subsection{Roles}
+\include{chapters/project_management/terms_and_resources}
+% TODO: What sould we do with project orgnization vs roles. As for now commented out project organization
+% \subsection{Project Organization}
 \include{chapters/project_management/roles}
-\subsection{Time schedule}
-\subsection{Overall project plan}
-\subsection{Risk Analysis}
+\include{chapters/project_management/time schedule}
+\include{chapters/project_management/overall_project_plan}
+% TODO: Commented out this line - we have internal and external risks in risk factors subchapter. \subsection{Risk Analysis}
 \include{chapters/issues/issues}
-%Risks
 \include{chapters/project_management/risk_factors}
-\subsection{Procedures for Quality Assurance}
+\include{chapters/project_management/qa}
 
+% Prestudy chapter
 \input{chapters/preliminary_studies/prestudy}
 
 %Requirements Specification
 \include{chapters/requirements/requirements}
 \include{chapters/requirements/user_stories}
-
 
 %Architecture
 \include{chapters/architecture/architecture}
@@ -131,15 +130,10 @@ basicstyle=\ttfamily
 \include{chapters/sprints/sprint3}
 \include{chapters/sprints/sprint4}
 
-
 %\subsection{Tests}
 \include{chapters/testing/testplan}
-\section{Evaluation}
-
-
-\section{Conclusion and future work}
-
-
+\include{chapters/evaluation/evaluation}
+\include{chapters/conclusion/conclusion}
 
 \bibliographystyle{plain}
 \nocite{methodology}
@@ -149,7 +143,6 @@ basicstyle=\ttfamily
 \appendix
 
 \include{chapters/appendices/database}
-\section{Evaluation}
 
 
 \end{document}
