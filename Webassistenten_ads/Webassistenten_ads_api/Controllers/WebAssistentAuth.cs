@@ -10,8 +10,8 @@ namespace Webassistenten_ads_api
 	/// </summary>
 	public class WebAssistentAuth : Authentication
 	{
-		public int AuthId { get; set; };
-		public bool IsValid { get; set; };
+		public int AuthId { get; set; }
+		public bool IsValid { get; set; }
 
 		public WebAssistentAuth ()
 		{
