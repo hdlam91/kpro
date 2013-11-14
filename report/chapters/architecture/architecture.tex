@@ -1,5 +1,5 @@
 \section{Architecture}
-
+\label{Architecture}
 \subsection{Stakeholders}
 
 \subsubsection{Customer}
@@ -55,6 +55,8 @@ There is no need for us to supply a process view, because we do not have access 
 \end{figure}
 
 
+
+
 \subsubsection{Physical view}
 \begin{figure}[H]
 \centering
@@ -99,6 +101,7 @@ MVC due to the technology and pipe \&  filter to filter the data and due to the 
 \subsubsection{Readability}
 \begin{itemize}
 \item We will follow the clean coding principle and use camelCase coding. Refer to \ref{Templates and Standards section} Templates and Standards section on page \pageref{Templates and Standards section}
+\end{itemize}
 
 \subsection{Changes to the architecture}
 When we started to implement the system we quickly found out that the we had architectural drift because the architecture we designed in the start didn't fit well into the web api framework. After we got an overview of the system we had change the architecture to a MVC pattern. 
@@ -109,15 +112,13 @@ When we started to implement the system we quickly found out that the we had arc
 \label{fig:info_flow}
 \end{figure}
 We tried to follow this MVC pattern when we implemented the system, however we quickly found out that the getView-Controller was not necessary.
-
+\begin{center}
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.8\textwidth]{images/architecture_final01.png}
-\caption{The final architecture\\6 calls the upload method with files and data\\
-7 is the upload method redirecting either to a FailView or a SuccessView
-}
+\caption{The final architecture}
+\caption*{6 calls the upload method with files and data\\
+7 is the upload method redirecting either to a FailView or a SuccessView}
 \label{fig:architecture}
 \end{figure}
-
-
-\end{itemize}
+\end{center}
