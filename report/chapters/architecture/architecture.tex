@@ -14,26 +14,25 @@ The course staff wants a clear and well-documented architecture that is easy to 
 
 
 \subsection{Quality Attributes}
-The customer was very specific when it came to what they wanted. % Were they, though? Rewrite/elaborate
+The customer was very specific when it came to what they wanted. %TODO: Were they, though? Rewrite/elaborate
 
 \subsubsection{Modifiability}
 While we were the create the solution for real estate ads specifically, the solution will be used for other ads as well. Therefore we need to make it modifiable so that other developers later on can further develop using our solution as a base.
 
 \subsubsection{Performance}
-We wanted the system to function with a satisfactory performance, even though the customer did not set any specific requirements for performance. For this reason, we decided to merely strive to achieve this goal by writing as efficient code as we could manage, making necessary changes to keep performance at a reasonable level. %Is this too vague?
+We wanted the system to function with a satisfactory performance, even though the customer did not set any specific requirements for performance. For this reason, we decided to merely strive to achieve this goal by writing as efficient code as we could manage, making necessary changes to keep performance at a reasonable level. %TODO: Is this too vague?
 
 \subsubsection{Availability}
-The system should be available for the users when they need it. Therefore we needed to minimize the possible points of failure and the probability of these failing. % Too vague?
+The system should be available for the users when they need it. Therefore we needed to minimize the possible points of failure and the probability of these failing. %TODO: Too vague?
 
 \subsubsection{Interoperability}
 Our solution was only a part of the larger Webassistenten solution, and needed to inter-operate with already-existing order system. To achieve this goal, we used the same technology as requested by the customer, including Web API, MSSQL and so on.
 
 \subsubsection{Readability}
 The customer wants us to write readable code. The customer wants us to write interfaces and using polymorphism so other developers can develop it further by developing plug-ins for the system. Readability is therefore important for easier further development of this system.
-%Whoever wrote this should probably rewrite it.
+
 
 \subsection{Views}
-
 
 \subsubsection{Process view}
 There is no need for us to supply a process view, because we do not have access to their server. We are only supposed to write the code for their system, without taking into account how the processes inter-operate.
