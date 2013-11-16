@@ -87,12 +87,12 @@ namespace Webassistenten_ads_api.Controllers
         /// <param name="AdText"></param>
         /// <returns>Redirects</returns>
         [System.Web.Mvc.HttpPost]
-        public ActionResult Upload(int ProductId, string ResponsibleRealtor, string Area,int Type, 
+        public ActionResult Upload(int ProductId, int ModuleId, string ResponsibleRealtor, string Area,int Type, 
             int Price, string Location,string Headline, string Address, int ZipCode, 
             string ZipArea, DateTime BookingDate,
             /*Non-mandatory fields below:*/ DateTime? OpenHouseDate, DateTime? ConstructionYear,
-            int FinnCode = 0, int ContractNr = 0,float P_rom = 0, float Boa = 0, float Bta = 0,
-            float Bra = 0, int Costs = 0, int PurchaseCosts = 0, int CommonCosts = 0, int AmountSharedDebt = 0,
+            string FinnCode = "", string ContractNr = "",long P_rom = 0, long Boa = 0, long Bta = 0,
+            long Bra = 0, int Costs = 0, int PurchaseCosts = 0, int CommonCosts = 0, int AmountSharedDebt = 0,
             int CommonExpenses = 0, int PropertyArea = 0, string PropertyType = "",
             int Floor = 0, int Bedrooms = 0, int Rooms = 0, string OpenHouseText = "",
             string RealEstAgentName ="", string RealEstAgentTitle = "", int RealEstAgentMobile = 0, int RealEstAgentPhone = 0,
@@ -127,18 +127,46 @@ namespace Webassistenten_ads_api.Controllers
                 System.Diagnostics.Debug.WriteLine(path);
                 file.SaveAs(path);
                 //the file uploaded was in fact a pdf and everything is ok! Now let's do some db stuff
-                ProspektHarBestilling prospektHarBestilling = new ProspektHarBestilling();
-                Prospekt prospekt = new Prospekt();
-                prospektHarBestilling.Filnavn = path;
-                prospektHarBestilling.DatoBest = BookingDate;
-                prospekt.DatoReg = DateTime.Now;
-                
+                BoligEntities1 db = new BoligEntities1();
+                Prospekt p = new Prospekt();
+                ProspektHarBestilling phb = new ProspektHarBestilling();
 
-                
-                db.ProspektHarBestillings.Add(prospektHarBestilling);
-                //db.Prospekts.Add(prospekt);
-                //db.SaveChanges();
+                p.Omraade = Area;
 
+                p.FinnKode = FinnCode;
+                p.Oppdragsnr = ContractNr;
+                p.PROM = P_rom;
+                p.BOA = Boa;
+                p.BTA = Bta;
+                p.BRUA = Bra; //antas at BRA skal være brua?
+                p.Omkostninger = Costs;
+                p.Kjopsomkostninger = PurchaseCosts;
+                p.FellesInnskudd = AmountSharedDebt;//felleskostnad, finnes ikke i db.
+                p.Fellesgjeld = AmountSharedDebt;
+                p.Fellesutgifter = CommonExpenses;//WHAAAT?
+                p.Tomteareal = PropertyArea;
+                p.Tomtetype = PropertyType;
+                p.Byggeaar = ConstructionYear.ToString();
+                p.Etasje = (byte)Floor;
+                p.Soverom = (short)Bedrooms;
+                p.Rom = (short)Rooms;
+                p.VisningFra = OpenHouseDate;
+                p.Visning = OpenHouseText;
+                p.Megler = ResponsibleRealtor;
+                p.MeglerTittel = RealEstAgentTitle;
+                p.MeglerTlfMobil = RealEstAgentMobile.ToString();
+                p.MeglerTlf = RealEstAgentPhone.ToString();
+                p.MeglerEmail = RealEstAgentEmail;
+                p.Annonsetekst = AdText;
+
+
+                db.Prospekts.Add(p);
+                db.SaveChanges();//this ensures that we get a prospektId to be used in prospektharbestilling
+                phb.ProspektID = p.ProspektID;
+                phb.DatoBest = BookingDate;
+                phb.Filnavn = filePath;
+                phb.ProduktID = (byte)ProductId;
+                phb.ModulID = ModuleId;
                 return RedirectToAction("Success");
 
             }

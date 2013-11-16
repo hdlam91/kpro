@@ -7,6 +7,7 @@ using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 
+
 namespace Webassistenten_ads_api.Controllers
 {
 	/// <summary>
@@ -22,10 +23,11 @@ namespace Webassistenten_ads_api.Controllers
 		/// Parameters go in the request uri, to be further described.
 		/// </summary>
         [HttpPost]
-        public HttpResponseMessage Upload()
+        public HttpResponseMessage Upload(UploadParameters up)
         {
             //initialize
             int ProductId;
+            int ModuleId;
             string ResponsibleRealtor;
             string Area;
             int Type;
@@ -39,6 +41,7 @@ namespace Webassistenten_ads_api.Controllers
             try
             {
                 ProductId = int.Parse(System.Web.HttpContext.Current.Request.Params["ProductId"]);
+                ModuleId = int.Parse(System.Web.HttpContext.Current.Request.Params["ModuleId"]);
                 ResponsibleRealtor = checkString(System.Web.HttpContext.Current.Request.Params["ResponsibleRealtor"]);
                 Area = checkString(System.Web.HttpContext.Current.Request.Params["Area"]);
                 Type = int.Parse(System.Web.HttpContext.Current.Request.Params["Type"]);
@@ -59,10 +62,10 @@ namespace Webassistenten_ads_api.Controllers
                 return Request.CreateResponse(HttpStatusCode.BadRequest, "please fill in the required fields, one of them was empty       " + e);
             }
 
-            
+
             ///*Non-mandatoryfieldsbelow:*/;
-             
-            
+
+
             DateTime? OpenHouseDate = null;
             DateTime? ConstructionYear = null;
             if (!string.IsNullOrEmpty((System.Web.HttpContext.Current.Request.Params["OpenHouseDate"])))
@@ -80,7 +83,7 @@ namespace Webassistenten_ads_api.Controllers
             {
                 try
                 {
-                    ConstructionYear = DateTime.ParseExact(System.Web.HttpContext.Current.Request.Params["ConstructionYear"], "yyyy", new CultureInfo("nb-NO"), DateTimeStyles.None);                    
+                    ConstructionYear = DateTime.ParseExact(System.Web.HttpContext.Current.Request.Params["ConstructionYear"], "yyyy", new CultureInfo("nb-NO"), DateTimeStyles.None);
                 }
                 catch (Exception e)
                 {
@@ -88,18 +91,16 @@ namespace Webassistenten_ads_api.Controllers
                 }
             }
 
-            int FinnCode;
-            int.TryParse(System.Web.HttpContext.Current.Request.Params["FinnCode"], out FinnCode);
-            int ContractNr;
-            int.TryParse(System.Web.HttpContext.Current.Request.Params["ContractNr"], out ContractNr);
-            float P_rom; 
-            float.TryParse(System.Web.HttpContext.Current.Request.Params["P_rom"], out P_rom);
-            float Boa;
-            float.TryParse(System.Web.HttpContext.Current.Request.Params["Boa"], out Boa);
-            float Bta;
-            float.TryParse(System.Web.HttpContext.Current.Request.Params["Bta"], out Bta);
-            float Bra;
-            float.TryParse(System.Web.HttpContext.Current.Request.Params["Bra"], out Bra);
+            string FinnCode =System.Web.HttpContext.Current.Request.Params["FinnCode"];
+            string ContractNr = System.Web.HttpContext.Current.Request.Params["ContractNr"];
+            long P_rom;
+            long.TryParse(System.Web.HttpContext.Current.Request.Params["P_rom"], out P_rom);
+            long Boa;
+            long.TryParse(System.Web.HttpContext.Current.Request.Params["Boa"], out Boa);
+            long Bta;
+            long.TryParse(System.Web.HttpContext.Current.Request.Params["Bta"], out Bta);
+            long Bra;
+            long.TryParse(System.Web.HttpContext.Current.Request.Params["Bra"], out Bra);
             int Costs;
             int.TryParse(System.Web.HttpContext.Current.Request.Params["Costs"], out Costs);
             int PurchaseCosts;
@@ -109,7 +110,7 @@ namespace Webassistenten_ads_api.Controllers
             int AmountSharedDebt;
             int.TryParse(System.Web.HttpContext.Current.Request.Params["AmountSharedDebt"], out AmountSharedDebt);
             int CommonExpenses;
-            int.TryParse(System.Web.HttpContext.Current.Request.Params["CommonExpenses"],out CommonExpenses);
+            int.TryParse(System.Web.HttpContext.Current.Request.Params["CommonExpenses"], out CommonExpenses);
             int PropertyArea;
             int.TryParse(System.Web.HttpContext.Current.Request.Params["PropertyArea"], out PropertyArea);
             string PropertyType = System.Web.HttpContext.Current.Request.Params["PropertyType"];
@@ -124,9 +125,9 @@ namespace Webassistenten_ads_api.Controllers
             string RealEstAgentTitle = System.Web.HttpContext.Current.Request.Params["RealEstAgentTitle"];
             int RealEstAgentMobile;
             int.TryParse(System.Web.HttpContext.Current.Request.Params["RealEstAgentMobile"], out RealEstAgentMobile);
-            int RealEstAgentPhone; 
+            int RealEstAgentPhone;
             int.TryParse(System.Web.HttpContext.Current.Request.Params["RealEstAgentPhone"], out RealEstAgentPhone);
-            
+
             string RealEstAgentEmail;
             if (checkMail(System.Web.HttpContext.Current.Request.Params["RealEstAgentEmail"]))
             {
@@ -138,10 +139,12 @@ namespace Webassistenten_ads_api.Controllers
             }
 
             string AdText = System.Web.HttpContext.Current.Request.Params["AdText"];
- 
+            
+            
+            
+            
 
-
-            System.Diagnostics.Debug.Write(FinnCode.ToString());
+            //System.Diagnostics.Debug.Write("something"+up.Adress);
             HttpResponseMessage result = null;
             var httpRequest = System.Web.HttpContext.Current.Request;
             if (!Request.Content.IsMimeMultipartContent("form-data"))
@@ -168,6 +171,49 @@ namespace Webassistenten_ads_api.Controllers
                     }
                     else
                     {
+                        //Db stuff
+                        BoligEntities1 db = new BoligEntities1();
+                        Prospekt p = new Prospekt();
+                        ProspektHarBestilling phb = new ProspektHarBestilling();
+
+                        p.Omraade = Area;
+
+                        p.FinnKode = FinnCode;
+                        p.Oppdragsnr = ContractNr;
+                        p.PROM = P_rom;
+                        p.BOA = Boa;
+                        p.BTA = Bta;
+                        p.BRUA = Bra; //antas at BRA skal være brua?
+                        p.Omkostninger = Costs;
+                        p.Kjopsomkostninger = PurchaseCosts;
+                        p.FellesInnskudd = AmountSharedDebt;//felleskostnad, finnes ikke i db.
+                        p.Fellesgjeld = AmountSharedDebt; 
+                        p.Fellesutgifter = CommonExpenses;//WHAAAT?
+                        p.Tomteareal = PropertyArea;
+                        p.Tomtetype = PropertyType;
+                        p.Byggeaar = ConstructionYear.ToString();
+                        p.Etasje = (byte)Floor;
+                        p.Soverom = (short)Bedrooms;
+                        p.Rom = (short)Rooms;
+                        p.VisningFra = OpenHouseDate;
+                        p.Visning = OpenHouseText;
+                        p.Megler = ResponsibleRealtor;
+                        p.MeglerTittel = RealEstAgentTitle;
+                        p.MeglerTlfMobil = RealEstAgentMobile.ToString();
+                        p.MeglerTlf = RealEstAgentPhone.ToString();
+                        p.MeglerEmail = RealEstAgentEmail;
+                        p.Annonsetekst = AdText;
+
+                        
+                        db.Prospekts.Add(p);
+                        db.SaveChanges();//this ensures that we get a prospektId to be used in prospektharbestilling
+                        phb.ProspektID = p.ProspektID;
+                        phb.DatoBest = BookingDate;
+                        phb.Filnavn = filePath;
+                        phb.ProduktID = (byte)ProductId;
+                        phb.ModulID = ModuleId;
+
+                        //end of db stuff
                         result = Request.CreateResponse(HttpStatusCode.Created, "upload went went well");
                     }
                 }
@@ -176,6 +222,9 @@ namespace Webassistenten_ads_api.Controllers
                     result = Request.CreateResponse(HttpStatusCode.BadRequest, "a file could not be found");
                 }
             }
+            
+
+            
             return result;
         }
 
@@ -223,11 +272,15 @@ namespace Webassistenten_ads_api.Controllers
 
         }
     }
-
+   
 	public class UploadParameters
 	{
 		// Mandatory fields:
-		
+        //public UploadParameters()
+        //{
+        //    System.Diagnostics.Debug.WriteLine("test");
+        //}
+        
 		public int RealtorId {get;  set; }
 		
 		public int ProductId { get;  set; }
