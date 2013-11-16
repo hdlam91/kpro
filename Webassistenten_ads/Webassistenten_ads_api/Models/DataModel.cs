@@ -34,7 +34,7 @@ namespace Webassistenten_ads_api.Models
 
         public byte getId()
         {
-            return (byte)auth.authId;
+            return (byte)auth.AuthId;
         }
         public IEnumerable<ProduktUtgivelse> GetDate()
         {
