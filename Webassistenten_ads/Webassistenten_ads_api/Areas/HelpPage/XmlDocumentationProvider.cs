@@ -17,6 +17,30 @@ namespace Webassistenten_ads_api.Areas.HelpPage
         private const string MethodExpression = "/doc/members/member[@name='M:{0}']";
         private const string ParameterExpression = "param[@name='{0}']";
 
+		//////////////////////// Added code starts here ////////////////////////////////////
+
+		public interface IResponseDocumentationProvider
+		{
+			string GetResponseDocumentation(HttpActionDescriptor actionDescriptor);
+		}
+
+		public virtual string GetResponseDocumentation(HttpActionDescriptor actionDescriptor)
+		{
+			XPathNavigator methodNode = GetMethodNode(actionDescriptor);
+			if (methodNode != null)
+			{
+				XPathNavigator returnsNode = methodNode.SelectSingleNode("returns");
+				if (returnsNode != null)
+				{
+					return returnsNode.Value.Trim();
+				}
+			}
+			
+			return null;
+		}
+
+		//////////////////////// Added code ends here ////////////////////////////////////
+
         /// <summary>
         /// Initializes a new instance of the <see cref="XmlDocumentationProvider"/> class.
         /// </summary>
@@ -31,6 +55,11 @@ namespace Webassistenten_ads_api.Areas.HelpPage
             _documentNavigator = xpath.CreateNavigator();
         }
 
+		/// <summary>
+		/// Gets the documentation.
+		/// </summary>
+		/// <returns>The documentation.</returns>
+		/// <param name="actionDescriptor">Action descriptor.</param>
         public virtual string GetDocumentation(HttpActionDescriptor actionDescriptor)
         {
             XPathNavigator methodNode = GetMethodNode(actionDescriptor);
