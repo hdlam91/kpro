@@ -39,5 +39,13 @@ namespace Webassistenten_ads_api.Areas.HelpPage.Models
         /// Gets the error messages associated with this model.
         /// </summary>
         public Collection<string> ErrorMessages { get; private set; }
+
+		//////////////////////// Added code starts here ////////////////////////////////////
+
+		/// <summary>
+		/// Gets or sets the response documentation.
+		/// </summary>
+		/// <value>The response documentation.</value>
+		public string ResponseDocumentation { get; set; }
     }
 }

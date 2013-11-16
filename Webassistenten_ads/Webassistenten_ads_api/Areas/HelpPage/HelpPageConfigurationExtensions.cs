@@ -213,6 +213,14 @@ namespace Webassistenten_ads_api.Areas.HelpPage
             HelpPageApiModel apiModel = new HelpPageApiModel();
             apiModel.ApiDescription = apiDescription;
 
+			// Added code block
+			IResponseDocumentationProvider responseDocProvider = config.Services.GetDocumentationProvider() as IResponseDocumentationProvider;
+			if (responseDocProvider != null)
+			{
+				apiModel.ResponseDocumentation = responseDocProvider.GetResponseDocumentation(apiDescription.ActionDescriptor);
+			}
+			// Added code end
+
             try
             {
                 foreach (var item in sampleGenerator.GetSampleRequests(apiDescription))
@@ -243,5 +251,9 @@ namespace Webassistenten_ads_api.Areas.HelpPage
                 apiModel.ErrorMessages.Add(invalidSample.ErrorMessage);
             }
         }
+
+		//////////////////////// Added code starts here ////////////////////////////////////
+
+
     }
 }

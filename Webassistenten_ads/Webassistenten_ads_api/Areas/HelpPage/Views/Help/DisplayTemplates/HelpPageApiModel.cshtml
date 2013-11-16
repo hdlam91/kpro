@@ -40,4 +40,15 @@
         <h3>Response body formats</h3>
         @Html.DisplayFor(apiModel => apiModel.SampleResponses, "Samples")
     }
+    
+    @if (hasResponseSamples)
+	{      
+    <h2>Response Information</h2> 
+    if (!String.IsNullOrEmpty(Model.ResponseDocumentation))
+    {
+        <p>@Model.ResponseDocumentation</p>
+    }
+    <h3>Response body formats</h3>
+    @Html.DisplayFor(apiModel => apiModel.SampleResponses, "Samples", new { sampleClass = "response" })
+	}
 </div>
