@@ -2,6 +2,13 @@
  
 \usepackage[utf8]{inputenc}
  
+\usepackage{titlesec}
+\setcounter{secnumdepth}{4}
+
+\titleformat{\paragraph}
+{\normalfont\normalsize\bfseries}{\theparagraph}{1em}{}
+\titlespacing*{\paragraph}
+{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
  
 \usepackage{geometry} % to change the page dimensions
 \geometry{a4paper} % or letterpaper (US) or a5paper or....
@@ -81,6 +88,9 @@ basicstyle=\ttfamily
 \author{Audun Skjervold \\ Erlend Løkken Sigholt \\ Hong-Dang Lam \\ Truls Hamborg}
 %\date{} % Activate to display a given date or no date (if empty),
          % otherwise the current date is printed 
+
+
+
  
 \begin{document}
 \maketitle 
@@ -88,6 +98,7 @@ basicstyle=\ttfamily
 \newpage
 
 %Abstract and preface
+\part*{Intro}
 \include{chapters/abstract/abstract}
 \include{chapters/preface/preface}
 %introduction
@@ -137,8 +148,9 @@ basicstyle=\ttfamily
 \bibliographystyle{plain}
 \nocite{methodology}
 \bibliography{chapters/references/references.bib} 
- 
- 
+
+\newpage
+\part{Appendices}
 \appendix 
 \include{chapters/appendices/database}
 \include{chapters/appendices/template}
