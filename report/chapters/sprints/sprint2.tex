@@ -29,6 +29,7 @@ At the sprint plan meeting, we planned the following for this sprint:
 
 \subsection{Development}
 At the end of the first sprint, we received a database dump from the customer. The majority of sprint 2 development was centered around setting up a connection to this database through Entity Framework.
+We managed to set up an instance of MSSQL server and restore the database dump we got from the customer and then connected the project in Visual Studio 2012 with the database server instance. This connection to the database via EF created a model of every single table in the database, which now let us generate controllers for the tables we needed.
 
 Near the end of sprint 2, we realized that we had created the wrong type of project. We had missed the fact that the solution was supposed to use Web API, and had created an MVC project. Some time was therefore spent creating a new Web API project, and porting the code from the previous project into the new one.
 

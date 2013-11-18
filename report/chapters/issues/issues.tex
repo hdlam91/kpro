@@ -27,4 +27,9 @@ NTNU gurutjeneste offers free MSDNAA account which we can use to download Micros
 \subsubsection{MSSQL}
 DB
 
+\subsubsection{Naming conventions}
+A table in the database was named "System" which collided with the namespace "System" in C\#, this was due to the EF generating a System.cs file which was used instead of the actual System namespace whenever there was a \begin{verbatim}using System;\end{verbatim}
+statement in our code.
+
+
 
