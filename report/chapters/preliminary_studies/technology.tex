@@ -11,7 +11,7 @@ This operating system was used by one group member on a laptop, when working on-
 
 \subsubsection{OS X}
 OS X\footnote{http://en.wikipedia.org/wiki/OS\_X}
- is the main operating system for the Macs developed by Apple. It is based on the Mach kernel and as Ubuntu Linux it provides good support for many development tools, except Windows development. One of our group members is running OS X. He used OS x for writing documentation and rebooted to Windows when writing code. 
+ is the main operating system for the Macs developed by Apple. It is based on the Mach kernel and as Ubuntu Linux it provides good support for many development tools, except Windows development. One of our group members is running OS X. He used OS X for writing documentation and rebooted to Windows when writing code. 
 
 \subsubsection{Visual Studio 2012}
 Visual Studio is Microsofts IDE for development for their platforms. This is the main IDE we developed the framework on, seeing as it has very good integration with C\# and .NET platforms, which we were required to use. We decided to use the ultimate version because this version provides everything we might need.
@@ -27,7 +27,7 @@ This is an open source IDE for development with Mono, available for OS X and mos
 \subsubsection{Doxygen}
 Doxygen is a documentation generator that generates software reference documentation directly from source file comments and tags. It supports multiple programming languages, and outputs documentation in several formats, including, but not limited to: HTML, {LaTeX},and man pages.
 
-We used Doxygen in our project to generate the API documentation requested by the customer. It was chosen due to easy setup and configuration, support for C\#s XML-comments and tags, as well as multi-platform support (Windows, Linux and Mac OSX).
+We used Doxygen in our project to generate the API documentation requested by the customer. It was chosen due to easy setup and configuration, support for C\#s XML-comments and tags, as well as multi-platform support (Windows, Linux and Mac OS X).
 
 \subsubsection{\LaTeX}
 We quickly chose \LaTeX \ for our typesetting, due to it being the de-facto standard for academic typesetting, with good support for both code snippets, tables, references and bibliography.
@@ -42,11 +42,20 @@ Both the source code and the entirety of the report source files were stored on 
 To communicate with GitHub, we used various tools. Some of us used the built in terminal with git installed, and some of us used GitBash. Git for windows was also used on rare occasion.
 
 \subsubsection{Trello}\label{Trello}
-To support our agile process and sprints, we used Trello for planning and control of workflow. It is an online Kanban Board tool, where we can create work packages and issues, while tracking who does what, and tracking backlog, finished modules, and work in progress.
+To support our agile process and sprints, we used Trello for planning and control of work flow. It is an online Scrum Board tool, where we can create work packages and issues, while tracking who does what, and tracking backlog, finished modules, and work in progress.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{images/Trello.png}
+\caption{Example Trello Board}
+\label{fig:Trello}
+\end{figure}
+
+The above figure shows an example Trello board. You create cards (tasks) and lists to contain and separate those cards into categories, such as \emph{Backlog}, \emph{ToDo}, \emph{In Progress}, \emph{Testing} and \emph{Completed}. The tasks can be assigned to the members of the board, and there are handy functions available such as adding check lists to cards to keep track of sub-tasks.
 
 \subsubsection{Web API}
-%TODO
-ASP.NET Web API is a framework for building web APIs on top of the .NET Framework, it lets you create calls from the browser to the methods in the 
+
+ASP.NET Web API is a framework for building web APIs on top of the .NET Framework, it lets you create calls from the browser to the methods in the code, this can be done via parameters or via JSON. The web API framework returns a JSON-format of the given item, table or whatever was requested.
 
 \subsubsection{Dropbox}
 \href{http://www.dropbox.com}{Dropbox} is a syncing service that let you choose a local folder on your machine that will be synced to the cloud. Dropbox lets you share folders and files inside a shared Dropbox folder.
@@ -59,7 +68,7 @@ We used Dropbox for sharing and synchronizing internal documents that usually we
 Google Drive was used for simultaneous collaboration on documents, where the content was up for discussion, or it was advantageous to see what the others where writing, as well as for dynamic internal documents like work logs.
 
 \subsubsection{Microsoft SQL server}
-The customer uses Microsoft SQL server as their database, and we received a backup dump of their database. %TODO
+The customer uses Microsoft SQL server as their database, and we received a backup dump of their database. MSSQL is a relational database management system developed by Microsoft. The first version of MSSQL was released back in 1989 - a 16 bit version for OS/2 \footnote{http://en.wikipedia.org/wiki/OS/2}. The latest version of MSSQL is MSSQL version 11 (called MSSQL Server 2012 - codename Delali). There will be a new version coming out in 2014 - MSSQL Server 2014 (version 12).
 
 \subsubsection{Entity Framework}
 The customer's preference was that we utilized Microsoft's entity framework to connect to the database. The entity framework is an object-relational mapper that enables .NET developers to access the database without writing the typical data-access code that developers typically need to write. EF lets the developer work with domain specific object and properties without worrying about the underlying database table.
@@ -75,6 +84,7 @@ TeXstudio, a fork of Texmaker, is better described as an integrated development 
 \item Easy navigation between included files
 \item Compilation of main document directly from included files
 \item View included images through hover
+\item Keyboard shortcuts for often used functions
 \end{itemize}
 
 Gummi is a free, open-source, lightweight working environment for \LaTeX \ which is available in the repositories of most widely used Linux distributions, and for Windows as well. It provides live preview of the document without manual compilation, support for multiple compilers, bibliography management, and SyncTeX support. It also provides easy insertion of tables and images.

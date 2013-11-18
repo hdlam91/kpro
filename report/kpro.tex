@@ -2,6 +2,13 @@
  
 \usepackage[utf8]{inputenc}
  
+\usepackage{titlesec}
+\setcounter{secnumdepth}{4}
+
+\titleformat{\paragraph}
+{\normalfont\normalsize\bfseries}{\theparagraph}{1em}{}
+\titlespacing*{\paragraph}
+{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
  
 \usepackage{geometry} % to change the page dimensions
 \geometry{a4paper} % or letterpaper (US) or a5paper or....
@@ -77,13 +84,26 @@ basicstyle=\ttfamily
 %%% The "real" document content comes below...
 \pagenumbering{roman}
 
-\title{\normalsize Customer driven project, TDT4290 \\ \LARGE \textbf{Automatic Import of Completed Ads} \normalsize \\Adresseavisen AS}
-\author{Audun Skjervold \\ Erlend Løkken Sigholt \\ Hong-Dang Lam \\ Truls Hamborg}
+\title{\normalsize TDT4290 Customer Driven Project \\ \LARGE \textbf{Automatic Import of Completed Ads} \normalsize \\Adresseavisen AS}
+\author{\Large \textbf{Group 15} \normalsize\\Audun Skjervold \\ Erlend Løkken Sigholt \\ Hong-Dang Lam \\ Truls Hamborg}
 %\date{} % Activate to display a given date or no date (if empty),
          % otherwise the current date is printed 
+
+
+
  
 \begin{document}
-\maketitle 
+\maketitle \hspace{-0.5cm}
+\includegraphics[width=7cm]{images/ntnulogo} \hspace{0.5cm}
+\includegraphics[width=7cm]{images/adressalogo1}\\\hrule
+\includegraphics[width=17cm]{images/idilogo}\\\hrule
+
+\begin{center}
+\textbf{Supervisor:} Meng Zhu\\
+\textbf{Customer Representatives:} Asle Dragsten Liebech \\
+Jostein Danielsen\\
+Hans Kristian Moen\\
+\end{center}
 \thispagestyle{empty}
 \newpage
 
@@ -109,7 +129,6 @@ basicstyle=\ttfamily
 \include{chapters/project_management/roles}
 \input{chapters/project_management/time_schedule}
 \include{chapters/project_management/overall_project_plan}
-
 \include{chapters/issues/issues}
 \include{chapters/project_management/risk_factors}
 \include{chapters/project_management/qa}
@@ -138,11 +157,13 @@ basicstyle=\ttfamily
 \bibliographystyle{plain}
 \nocite{methodology}
 \bibliography{chapters/references/references.bib} 
- 
- 
+
+\newpage
+\part{Appendices}
 \appendix 
 \include{chapters/appendices/database}
 \include{chapters/appendices/template}
+\include{chapters/appendices/dictionary}
 
 
 \end{document}
