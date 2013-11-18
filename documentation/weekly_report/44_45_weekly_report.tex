@@ -1,0 +1,153 @@
+\documentclass[12pt, a4paper]{article} 
+ 
+\usepackage[utf8]{inputenc}
+ 
+ 
+\usepackage{geometry} % to change the page dimensions
+\geometry{a4paper} % or letterpaper (US) or a5paper or....
+ 
+\usepackage{graphicx} % support the \includegraphics command and options
+ 
+\usepackage{booktabs} % for much better looking tables
+\usepackage{array} % for better arrays (eg matrices) in maths
+\usepackage{paralist} % very flexible & customisable lists (eg. enumerate/itemize, etc.)
+\usepackage{verbatim} % adds environment for commenting out blocks of text & for better verbatim
+\usepackage{subfig} % make it possible to include more than one captioned figure/table in a single float
+% These packages are all incorporated in the memoir class to one degree or another...
+ 
+ 
+ 
+\usepackage{amsmath, amssymb}% for mathematical symbols
+\usepackage[colorlinks=true,linkcolor=black]{hyperref} % for hyperreferences with black color
+\usepackage[T1]{fontenc} % Uncomment for norwegian document
+%\usepackage[norsk]{babel} %
+ 
+%%% HEADERS & FOOTERS
+\usepackage{fancyhdr} % This should be set AFTER setting up the page geometry
+\pagestyle{fancy} % options: empty , plain , fancy
+\renewcommand{\headrulewidth}{0pt} % customise the layout...
+\lhead{}\chead{}\rhead{}
+\lfoot{}\cfoot{\thepage}\rfoot{}
+ 
+%%% SECTION TITLE APPEARANCE
+\usepackage{sectsty}
+\allsectionsfont{\sffamily\mdseries\upshape} % (See the fntguide.pdf for font help)
+% (This matches ConTeXt defaults)
+ 
+%%% ToC (table of contents) APPEARANCE
+\usepackage[nottoc,notlof,notlot]{tocbibind} % Put the bibliography in the ToC
+\usepackage[titles,subfigure]{tocloft} % Alter the style of the Table of Contents
+\renewcommand{\cftsecfont}{\rmfamily\mdseries\upshape}
+\renewcommand{\cftsecpagefont}{\rmfamily\mdseries\upshape} % No bold!
+ 
+ 
+ 
+%%% END Article customizations
+ 
+%%% The "real" document content comes below...
+ 
+\title{Weekly Status Report}
+\author{Audun Skjervold \\ Erlend Løkken Sigholt \\ Truls Hamborg \\ Hong-Dang Lam}
+%\date{} % Activate to display a given date or no date (if empty),
+         % otherwise the current date is printed 
+ 
+\begin{document}
+\maketitle
+\newpage
+%\begin{abstract}
+
+%\end{abstract}
+ 
+\newpage
+\hrule
+%\subsection*{Preface}
+%Insert Preface here
+\newpage
+%\tableofcontents
+%\newpage
+
+\begin{center}
+Weekly status report, week 44, 45 and 46.
+  \begin{tabular}{| l  c |}
+    \hline
+    Project & \\ \hline
+    \textbf{Project name:} & Customer Driven Project - Group 15 \\
+    \textbf{Customer:} & Adresseavisen. \\ \hline
+     & \\
+     \textbf{Participants} & \\ \hline
+     Audun Skjervold & Truls Hamborg \\
+     Erlend Løkken Sigholt & Hong-Dang Lam \\
+    \hline
+  \end{tabular}
+  \end{center}
+
+
+
+
+\section{Summary}
+In this weeks we have focused on the implementation of the product. First to have all functionallity which the customer wants and then rewrite the impmementation from an MVC application to an web API application. 
+\section{Work done this period}
+
+\begin{itemize}
+  \item Implement all functionallity
+  \item Move application from MVC to web API. 
+  \item Authentication of the application according to the customer
+  \item Documentation of the code according to the customer
+  \item Writing as much as possible on the report
+\end{itemize}
+
+
+\subsection{Status of documents}
+Report has been updated as mentioned above. 
+\subsection{Meetings}
+These are the meetings we have planned (disregarding internal meetings):\\
+\begin{itemize}
+\item 2013.11.06: Customer meeting
+\item 2013.11.13: Acceptance meeting with customer
+\end{itemize}
+  \begin{tabular}{| l | l | r | r |}
+    \hline
+    \textbf{Week} & \textbf{Activity} & \textbf{Estimated} & \textbf{Actual}\\ \hline
+    \textbf{44-46} & Development & 150 & 118 \\ \hline
+     & Documentation & 120 & 49 \\ \hline
+     & Management & 30 & 10 \\ \hline
+     \textbf{Total }&  & 300 & 177 \\
+    \hline
+  \end{tabular}
+
+\section{Problems and issues}
+We have had some technical problems with getting web API to work. We have tried to work all the hours we planned, but due to other obligations and project we were unabled to log as many hours as we wanted. 
+
+\section{Planning for the following period}
+We are mainly going to focus on report writing the following days before the final presentation. 
+\subsection{Meetings}
+\begin{itemize}
+\item Advisor meeting on Monday 18th of November
+\item Final presenation and demonstration on Thursday 21th of November. 
+\end{itemize}
+\newpage
+\section{Meeting agenda}
+\begin{itemize}
+\item \textbf{Time:} 12:00-13:00 (or 12pm to 13pm).
+\item \textbf{Place:} ITV157\\
+\item \textbf{Attendees:} Group 15 - Hong-Dang Lam, Erlend Løkken Sigholt, Audun
+Skjervold, Meng Zhu \\ \textbf{Advisor:} Meng Zhu
+\item \textbf{Agenda:} 
+	\begin{itemize}
+	\item Approval of agenda
+	\item Approval of minutes from previous advisor meeting
+	\item Comments to the minutes from the customer meeting 6th of November
+	\item Approval of the status report
+		\begin{itemize}
+		\item Summary
+		\item Work done this period
+		\item Problems
+		\item Planning of work for the next period
+		\item Other
+	\end{itemize}
+	\item Review/approval of attached phase documents
+	\end{itemize}
+\end{itemize}
+
+
+\end{document}
