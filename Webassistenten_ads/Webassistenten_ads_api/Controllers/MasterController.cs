@@ -164,7 +164,7 @@ namespace Webassistenten_ads_api.Controllers
                 db.SaveChanges();//this ensures that we get a prospektId to be used in prospektharbestilling
                 phb.ProspektID = p.ProspektID;
                 phb.DatoBest = BookingDate;
-                phb.Filnavn = filePath;
+                phb.Filnavn = path;
                 phb.ProduktID = (byte)ProductId;
                 phb.ModulID = ModuleId;
                 return RedirectToAction("Success");

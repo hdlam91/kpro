@@ -23,7 +23,7 @@ namespace Webassistenten_ads_api.Controllers
 		/// Parameters go in the request uri, to be further described.
 		/// </summary>
         [HttpPost]
-        public HttpResponseMessage Upload(UploadParameters up)
+        public HttpResponseMessage Upload(/*UploadParameters up*/)
         {
             //initialize
             int ProductId;
@@ -160,8 +160,7 @@ namespace Webassistenten_ads_api.Controllers
                     var postedFile = httpRequest.Files[0];
                     var filePath = System.Web.HttpContext.Current.Server.MapPath(folder + postedFile.FileName);
 
-                    postedFile.SaveAs(filePath);
-                    docfiles.Add(filePath);
+                    
 
                     FileInfo fileInfo = new FileInfo(filePath);
 
@@ -171,12 +170,23 @@ namespace Webassistenten_ads_api.Controllers
                     }
                     else
                     {
+                        postedFile.SaveAs(filePath);
+                        docfiles.Add(filePath);
                         //Db stuff
                         BoligEntities1 db = new BoligEntities1();
                         Prospekt p = new Prospekt();
                         ProspektHarBestilling phb = new ProspektHarBestilling();
 
-                        p.Omraade = Area;
+                        
+                        p.Omraade = Location;
+                        p.Postnr = ZipCode.ToString();
+                        p.Poststed = ZipArea;
+                        p.BBOverskrift = Headline;
+                        p.Pris = Price;
+                        p.Adresse = Address;
+                        p.DatoReg = DateTime.Now;
+                        //p.Tomteareal = Area;
+                        //p.Tomtetype = Type;
 
                         p.FinnKode = FinnCode;
                         p.Oppdragsnr = ContractNr;
@@ -211,8 +221,10 @@ namespace Webassistenten_ads_api.Controllers
                         phb.DatoBest = BookingDate;
                         phb.Filnavn = filePath;
                         phb.ProduktID = (byte)ProductId;
-                        phb.ModulID = ModuleId;
 
+                        phb.ModulID = ModuleId;
+                        db.ProspektHarBestillings.Add(phb);
+                        db.SaveChanges();
                         //end of db stuff
                         result = Request.CreateResponse(HttpStatusCode.Created, "upload went went well");
                     }

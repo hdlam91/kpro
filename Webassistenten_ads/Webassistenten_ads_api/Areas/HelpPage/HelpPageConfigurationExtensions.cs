@@ -199,7 +199,7 @@ namespace Webassistenten_ads_api.Areas.HelpPage
                 if (apiDescription != null)
                 {
                     HelpPageSampleGenerator sampleGenerator = config.GetHelpPageSampleGenerator();
-                    model = GenerateApiModel(apiDescription, sampleGenerator);
+                    model = GenerateApiModel(apiDescription, sampleGenerator, config);
                     config.Properties.TryAdd(modelId, model);
                 }
             }
@@ -208,13 +208,13 @@ namespace Webassistenten_ads_api.Areas.HelpPage
         }
 
         [SuppressMessage("Microsoft.Design", "CA1031:DoNotCatchGeneralExceptionTypes", Justification = "The exception is recorded as ErrorMessages.")]
-        private static HelpPageApiModel GenerateApiModel(ApiDescription apiDescription, HelpPageSampleGenerator sampleGenerator)
+        private static HelpPageApiModel GenerateApiModel(ApiDescription apiDescription, HelpPageSampleGenerator sampleGenerator, HttpConfiguration config)
         {
             HelpPageApiModel apiModel = new HelpPageApiModel();
             apiModel.ApiDescription = apiDescription;
 
 			// Added code block
-			IResponseDocumentationProvider responseDocProvider = config.Services.GetDocumentationProvider() as IResponseDocumentationProvider;
+			Webassistenten_ads_api.Areas.HelpPage.XmlDocumentationProvider.IResponseDocumentationProvider responseDocProvider = config.Services.GetDocumentationProvider() as Webassistenten_ads_api.Areas.HelpPage.XmlDocumentationProvider.IResponseDocumentationProvider;
 			if (responseDocProvider != null)
 			{
 				apiModel.ResponseDocumentation = responseDocProvider.GetResponseDocumentation(apiDescription.ActionDescriptor);

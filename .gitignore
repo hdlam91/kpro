@@ -120,6 +120,8 @@ report/*.pdf
 report/*.xml
 *.gz
 *.toc
+*.lot
+*.lof
 
 documentation/weekly_report/*.log
 documentation/weekly_report/*.pdf
