@@ -15,8 +15,9 @@ From our Work Breakdown Structure:
 \subsection{Revised Plan}
 At the sprint plan meeting, we planned the following for this sprint:
 \begin{itemize}
-	\item Stuff
+	\item None
 \end{itemize}
+We had originally planned to be fixing and polishing the finished product, but due to the issues we encountered many of the original planned tasks were pushed to Sprint 3. Sprint 3 thus became a "finish everything that needs to be finished"-Sprint.
 
 \subsection{Development}
 We created the master controller which communicated with the database through the entity framework, it also took care of passing models to the view(s) and handle user request. This master controller was a MVC-type controller which is mostly used as a prototype and for us to test that the data we submit actually reach the system.
@@ -27,13 +28,13 @@ After creating and finishing the master controller, the final architecture was m
 The first Friday of this sprint we attended a technical writing course organized by the course staff, where we received pointers on writing our report. These included both general tips as well as concrete improvements for our report specifically.
 
 \subsection{Backlog}
-Originally we planned to finish the product in Sprint 3, however the we had a lot of issues/problems in both Sprint 1 and 2 so we couldn't start implementing code before Sprint 3. However when the problems were sorted out.
-%What we planned for the sprint that we either did not complete, get time to start, or that was simply pushed back.
+Originally we planned to finish the product in Sprint 3, however the we had a lot of issues/problems in both Sprint 1 and 2 so we couldn't start implementing code before Sprint 3. However when the problems were sorted out we actually got down to implementing and communicate with the database. We created a MVC controller of the assignment so we were able to test database connection - insert/select and various other SQL commands via the EF. This MVC controller let us check how the implementation works and gave us a better overview of the framework we were using. However the assignment was to create a Web API controller, so we had to convert it.
+
 
 \subsection{Customer Meeting}
-%<Add important notes from the customer meeting here, as well as new conclusions made>
 We decided to not have a customer meeting for sprint 3 due to our customer Asle not being physically available. Asle was on a 3 weeks vacation in Spain for this period, and we didn't feel the necessity to go to the trouble of setting up a video conference.
-However we felt that we had control of the implementation or knew how to fix the issues we stumbled upon.
+However we felt that we had control of the implementation or knew how to fix the issues we stumbled upon. We didn't have much to show either, because we were in the middle of implementing the MVC controller.
 
 \subsection{Retrospective}
-How we feel about the sprint.
+Sprint 3 was a good Sprint for us, we felt that we actually was able to understand the framework and that we actually progressed forward. We was able to communicate with the database, modify rows inside tables, insert data into tables etc.
+We also figured out how to serve view (.cshtml) files as webpages through the IIS express by launching the project via VS, and how these views were connected to the controllers. This was enough for us to be able to invoke methods in our controllers, which was heavily used for testing that our written code worked as expected.
