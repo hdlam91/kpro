@@ -20,8 +20,22 @@ namespace Webassistenten_ads_api.Controllers
 		//TODO: Describe required parameters
 		/// <summary>
 		/// Accepts a pdf file with an ad, along with the required and optional parameters for ads.
-		/// Parameters go in the request uri, to be further described.
+		/// Parameters go in the HTTP-Request URI.
+		/// Could potentially accept parameters in object form in the future, but does not do that at the
+		/// moment due to issues in Web API.
 		/// </summary>
+		/// <param name="ProductId">Required</param>
+		/// <param name="ModuleId">Required</param>
+		/// <param name="ResponsibleRealtor">Required</param>
+		/// <param name="Area">Required</param>
+		/// <param name="Type">Required</param>
+		/// <param name="Price">Required</param>
+		/// <param name="Location">Required</param>
+		/// <param name="Headline">Required</param>
+		/// <param name="Address">Required</param>
+		/// <param name="ZipCode">Required</param>
+		/// <param name="ZipArea">Required</param>
+		/// <param name="BookingDate">Required</param>
         [HttpPost]
         public HttpResponseMessage Upload(/*UploadParameters up*/)
         {
@@ -59,7 +73,7 @@ namespace Webassistenten_ads_api.Controllers
             }
             catch (Exception e)
             {
-                return Request.CreateResponse(HttpStatusCode.BadRequest, "please fill in the required fields, one of them was empty       " + e);
+                return Request.CreateResponse(HttpStatusCode.BadRequest, "Please fill in the required fields, one of them was empty       " + e);
             }
 
 
