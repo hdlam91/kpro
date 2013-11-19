@@ -23,7 +23,7 @@
     
     <label for="ProductId">ProductID: @Model.productId</label>
     <input type="hidden" name="ProductId" value="@Model.productId">
-     <select name="Modul">
+     <select name="ModuleId">
     @foreach (Webassistenten_ads_api.Modul modIterator in mod)
     {
         string @correctFormat = @modIterator.Modulnavn + "-" + @modIterator.Bredde + "x" + @modIterator.Høyde;
