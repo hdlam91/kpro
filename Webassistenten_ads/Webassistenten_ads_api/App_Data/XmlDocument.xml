@@ -511,14 +511,12 @@
             Upload API controller.
             </summary>
         </member>
-        <member name="M:Webassistenten_ads_api.Controllers.UploadAPIController.Upload">
+        <member name="M:Webassistenten_ads_api.Controllers.UploadAPIController.Upload(Webassistenten_ads_api.Controllers.UploadParameters)">
             <summary>
-            Accepts a pdf file with an ad, along with the required and optional parameters for ads.
-            Parameters go in the HTTP-Request URI.
-            Could potentially accept parameters in object form in the future, but does not do that at the
-            moment due to issues in Web API.
-            </summary>
-            <param name="ProductId">Required</param>
+            <para>Accepts a pdf file with an ad, along with the required and optional parameters for ads.</para>
+            <para>Parameters go in the HTTP-Post Request (MIME-Multipart).</para>
+            <para>Could potentially accept parameters in object form in the future, but does not do that at the moment due to binding issues in Web API.<br/></para>
+            <param name="ProductId"><br>ProductId Required</br></param>
             <param name="ModuleId">Required</param>
             <param name="ResponsibleRealtor">Required</param>
             <param name="Area">Required</param>
@@ -530,6 +528,14 @@
             <param name="ZipCode">Required</param>
             <param name="ZipArea">Required</param>
             <param name="BookingDate">Required</param>
+            </summary>
+        </member>
+        <member name="T:Webassistenten_ads_api.Controllers.UploadParameters">
+            <summary>
+            This class contains all the parameters needed for the Upload method.
+            It's to be used as input for that method if the method can be 
+            properly configured to accept a class as parameter WITH values intact.
+            </summary>
         </member>
         <member name="T:Webassistenten_ads_api.WebAssistentAuth">
             <summary>

@@ -22,8 +22,8 @@ namespace Webassistenten_ads_api.Controllers
 		/// <summary>
 		/// <para>Accepts a pdf file with an ad, along with the required and optional parameters for ads.</para>
 		/// <para>Parameters go in the HTTP-Post Request (MIME-Multipart).</para>
-		/// <para>Could potentially accept parameters in object form in the future, but does not do that at the moment due to binding issues in Web API.</para>
-		/// <param name="ProductId">Required</param>
+		/// <para>Could potentially accept parameters in object form in the future, but does not do that at the moment due to binding issues in Web API.<br/></para>
+        /// <param name="ProductId"><br>ProductId Required</br></param>
 		/// <param name="ModuleId">Required</param>
 		/// <param name="ResponsibleRealtor">Required</param>
 		/// <param name="Area">Required</param>
@@ -49,7 +49,7 @@ namespace Webassistenten_ads_api.Controllers
             int Price;
             string Location;
             string Headline;
-            string Adress;
+            string Address;
             int ZipCode;
             string ZipArea;
             DateTime BookingDate;
@@ -63,7 +63,7 @@ namespace Webassistenten_ads_api.Controllers
                 Price = int.Parse(System.Web.HttpContext.Current.Request.Params["Price"]);
                 Location = checkString(System.Web.HttpContext.Current.Request.Params["Location"]);
                 Headline = checkString(System.Web.HttpContext.Current.Request.Params["Headline"]);
-                Adress = checkString(System.Web.HttpContext.Current.Request.Params["Adress"]);
+                Address = checkString(System.Web.HttpContext.Current.Request.Params["Address"]);
                 ZipCode = int.Parse(System.Web.HttpContext.Current.Request.Params["ZipCode"]);
                 ZipArea = checkString(System.Web.HttpContext.Current.Request.Params["ZipArea"]);
                 BookingDate = DateTime.ParseExact(System.Web.HttpContext.Current.Request.Params["BookingDate"], "dd.mm.yyyy", new CultureInfo("nb-NO"), DateTimeStyles.None);// 01.06.2009 04:37:
@@ -189,7 +189,7 @@ namespace Webassistenten_ads_api.Controllers
                         docfiles.Add(filePath);
 
                         //Db submission logic
-                        using (BoligEntities1 db = new BoligEntities1() {
+                        using (BoligEntities1 db = new BoligEntities1()) {
                         	
 							Prospekt p = new Prospekt();
                         	ProspektHarBestilling phb = new ProspektHarBestilling();
