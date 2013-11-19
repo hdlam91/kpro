@@ -6,6 +6,7 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using System.ComponentModel.DataAnnotations;
 
 
 namespace Webassistenten_ads_api.Controllers
@@ -19,11 +20,9 @@ namespace Webassistenten_ads_api.Controllers
 
 		//TODO: Describe required parameters
 		/// <summary>
-		/// Accepts a pdf file with an ad, along with the required and optional parameters for ads.
-		/// Parameters go in the HTTP-Request URI.
-		/// Could potentially accept parameters in object form in the future, but does not do that at the
-		/// moment due to issues in Web API.
-		/// </summary>
+		/// <para>Accepts a pdf file with an ad, along with the required and optional parameters for ads.</para>
+		/// <para>Parameters go in the HTTP-Post Request (MIME-Multipart).</para>
+		/// <para>Could potentially accept parameters in object form in the future, but does not do that at the moment due to binding issues in Web API.</para>
 		/// <param name="ProductId">Required</param>
 		/// <param name="ModuleId">Required</param>
 		/// <param name="ResponsibleRealtor">Required</param>
@@ -36,6 +35,8 @@ namespace Webassistenten_ads_api.Controllers
 		/// <param name="ZipCode">Required</param>
 		/// <param name="ZipArea">Required</param>
 		/// <param name="BookingDate">Required</param>
+		/// </summary>
+
         [HttpPost]
         public HttpResponseMessage Upload(/*UploadParameters up*/)
         {
@@ -48,7 +49,7 @@ namespace Webassistenten_ads_api.Controllers
             int Price;
             string Location;
             string Headline;
-            string Address;
+            string Adress;
             int ZipCode;
             string ZipArea;
             DateTime BookingDate;
@@ -62,7 +63,7 @@ namespace Webassistenten_ads_api.Controllers
                 Price = int.Parse(System.Web.HttpContext.Current.Request.Params["Price"]);
                 Location = checkString(System.Web.HttpContext.Current.Request.Params["Location"]);
                 Headline = checkString(System.Web.HttpContext.Current.Request.Params["Headline"]);
-                Address = checkString(System.Web.HttpContext.Current.Request.Params["Address"]);
+                Adress = checkString(System.Web.HttpContext.Current.Request.Params["Adress"]);
                 ZipCode = int.Parse(System.Web.HttpContext.Current.Request.Params["ZipCode"]);
                 ZipArea = checkString(System.Web.HttpContext.Current.Request.Params["ZipArea"]);
                 BookingDate = DateTime.ParseExact(System.Web.HttpContext.Current.Request.Params["BookingDate"], "dd.mm.yyyy", new CultureInfo("nb-NO"), DateTimeStyles.None);// 01.06.2009 04:37:
@@ -77,7 +78,7 @@ namespace Webassistenten_ads_api.Controllers
             }
 
 
-            ///*Non-mandatoryfieldsbelow:*/;
+            ///*Non-mandatory fields below:*/;
 
 
             DateTime? OpenHouseDate = null;
@@ -90,7 +91,7 @@ namespace Webassistenten_ads_api.Controllers
                 }
                 catch (Exception e)
                 {
-                    Request.CreateResponse(HttpStatusCode.BadRequest, "OpenHouse date needs to be in the format dd.mm.yyyy" + e);
+                    return Request.CreateResponse(HttpStatusCode.BadRequest, "OpenHouse date needs to be in the format dd.mm.yyyy" + e);
                 }
             }
             if (!string.IsNullOrEmpty((System.Web.HttpContext.Current.Request.Params["ConstructionYear"])))
@@ -101,7 +102,7 @@ namespace Webassistenten_ads_api.Controllers
                 }
                 catch (Exception e)
                 {
-                    Request.CreateResponse(HttpStatusCode.BadRequest, "OpenHouse date needs to be in the format yyyy" + e);
+                    return Request.CreateResponse(HttpStatusCode.BadRequest, "OpenHouse date needs to be in the format yyyy" + e);
                 }
             }
 
@@ -163,7 +164,7 @@ namespace Webassistenten_ads_api.Controllers
             var httpRequest = System.Web.HttpContext.Current.Request;
             if (!Request.Content.IsMimeMultipartContent("form-data"))
             {
-                result = Request.CreateResponse(HttpStatusCode.UnsupportedMediaType, "something went wrong, mediatype not supported");
+                result = Request.CreateResponse(HttpStatusCode.UnsupportedMediaType, "Something went wrong, mediatype not supported");
             }
             else
             {
@@ -180,72 +181,74 @@ namespace Webassistenten_ads_api.Controllers
 
                     if (fileInfo.Extension != ".pdf")
                     {
-                        result = Request.CreateResponse(HttpStatusCode.BadRequest, "upload a pdf file!");
+                        result = Request.CreateResponse(HttpStatusCode.BadRequest, "Only .pdf files are accepted!");
                     }
                     else
                     {
                         postedFile.SaveAs(filePath);
                         docfiles.Add(filePath);
-                        //Db stuff
-                        BoligEntities1 db = new BoligEntities1();
-                        Prospekt p = new Prospekt();
-                        ProspektHarBestilling phb = new ProspektHarBestilling();
 
-                        
-                        p.Omraade = Location;
-                        p.Postnr = ZipCode.ToString();
-                        p.Poststed = ZipArea;
-                        p.BBOverskrift = Headline;
-                        p.Pris = Price;
-                        p.Adresse = Address;
-                        p.DatoReg = DateTime.Now;
-                        //p.Tomteareal = Area;
-                        //p.Tomtetype = Type;
+                        //Db submission logic
+                        using (BoligEntities1 db = new BoligEntities1() {
+                        	
+							Prospekt p = new Prospekt();
+                        	ProspektHarBestilling phb = new ProspektHarBestilling();
+							                        
+                        	p.Omraade = Location;
+                        	p.Postnr = ZipCode.ToString();
+                        	p.Poststed = ZipArea;
+                        	p.BBOverskrift = Headline;
+                        	p.Pris = Price;
+                        	p.Adresse = Address;
+                        	p.DatoReg = DateTime.Now;
+                        	//p.Tomteareal = Area;
+                        	//p.Tomtetype = Type;
 
-                        p.FinnKode = FinnCode;
-                        p.Oppdragsnr = ContractNr;
-                        p.PROM = P_rom;
-                        p.BOA = Boa;
-                        p.BTA = Bta;
-                        p.BRUA = Bra; //antas at BRA skal være brua?
-                        p.Omkostninger = Costs;
-                        p.Kjopsomkostninger = PurchaseCosts;
-                        p.FellesInnskudd = AmountSharedDebt;//felleskostnad, finnes ikke i db.
-                        p.Fellesgjeld = AmountSharedDebt; 
-                        p.Fellesutgifter = CommonExpenses;//WHAAAT?
-                        p.Tomteareal = PropertyArea;
-                        p.Tomtetype = PropertyType;
-                        p.Byggeaar = ConstructionYear.ToString();
-                        p.Etasje = (byte)Floor;
-                        p.Soverom = (short)Bedrooms;
-                        p.Rom = (short)Rooms;
-                        p.VisningFra = OpenHouseDate;
-                        p.Visning = OpenHouseText;
-                        p.Megler = ResponsibleRealtor;
-                        p.MeglerTittel = RealEstAgentTitle;
-                        p.MeglerTlfMobil = RealEstAgentMobile.ToString();
-                        p.MeglerTlf = RealEstAgentPhone.ToString();
-                        p.MeglerEmail = RealEstAgentEmail;
-                        p.Annonsetekst = AdText;
+                        	p.FinnKode = FinnCode;
+                        	p.Oppdragsnr = ContractNr;
+	                        p.PROM = P_rom;
+	                        p.BOA = Boa;
+	                        p.BTA = Bta;
+	                        p.BRUA = Bra; //antas at BRA skal være brua?
+	                        p.Omkostninger = Costs;
+	                        p.Kjopsomkostninger = PurchaseCosts;
+	                        p.FellesInnskudd = AmountSharedDebt;//felleskostnad, finnes ikke i db.
+	                        p.Fellesgjeld = AmountSharedDebt; 
+	                        p.Fellesutgifter = CommonExpenses;//WHAAAT?
+	                        p.Tomteareal = PropertyArea;
+	                        p.Tomtetype = PropertyType;
+	                        p.Byggeaar = ConstructionYear.ToString();
+	                        p.Etasje = (byte)Floor;
+	                        p.Soverom = (short)Bedrooms;
+	                        p.Rom = (short)Rooms;
+	                        p.VisningFra = OpenHouseDate;
+	                        p.Visning = OpenHouseText;
+	                        p.Megler = ResponsibleRealtor;
+	                        p.MeglerTittel = RealEstAgentTitle;
+	                        p.MeglerTlfMobil = RealEstAgentMobile.ToString();
+	                        p.MeglerTlf = RealEstAgentPhone.ToString();
+	                        p.MeglerEmail = RealEstAgentEmail;
+	                        p.Annonsetekst = AdText;
 
-                        
-                        db.Prospekts.Add(p);
-                        db.SaveChanges();//this ensures that we get a prospektId to be used in prospektharbestilling
-                        phb.ProspektID = p.ProspektID;
-                        phb.DatoBest = BookingDate;
-                        phb.Filnavn = filePath;
-                        phb.ProduktID = (byte)ProductId;
+	                        
+	                        db.Prospekts.Add(p);
+	                        db.SaveChanges();//this ensures that we get a prospektId to be used in prospektharbestilling
+	                        phb.ProspektID = p.ProspektID;
+	                        phb.DatoBest = BookingDate;
+	                        phb.Filnavn = filePath;
+	                        phb.ProduktID = (byte)ProductId;
 
-                        phb.ModulID = ModuleId;
-                        db.ProspektHarBestillings.Add(phb);
-                        db.SaveChanges();
-                        //end of db stuff
-                        result = Request.CreateResponse(HttpStatusCode.Created, "upload went went well");
+	                        phb.ModulID = ModuleId;
+	                        db.ProspektHarBestillings.Add(phb);
+                        	db.SaveChanges();
+                        	//End of db logic
+                        	result = Request.CreateResponse(HttpStatusCode.Created, "Upload was successful!");
+						}
                     }
                 }
                 else
                 {
-                    result = Request.CreateResponse(HttpStatusCode.BadRequest, "a file could not be found");
+                    result = Request.CreateResponse(HttpStatusCode.BadRequest, "No file could be found!");
                 }
             }
             
@@ -298,37 +301,51 @@ namespace Webassistenten_ads_api.Controllers
 
         }
     }
-   
+   	
+	/// <summary>
+	/// This class contains all the parameters needed for the Upload method.
+	/// It's to be used as input for that method if the method can be 
+	/// properly configured to accept a class as parameter WITH values intact.
+	/// </summary>
 	public class UploadParameters
 	{
-		// Mandatory fields:
-        //public UploadParameters()
-        //{
-        //    System.Diagnostics.Debug.WriteLine("test");
-        //}
-        
-		public int RealtorId {get;  set; }
-		
+        [Required]
 		public int ProductId { get;  set; }
 		
-		public String ResponsibleRealtor { get;  set; }
+		[Required]
+		public int ModuleId { get;  set; } 
+
+		[Required]
+		public int RealtorId {get;  set; }
+				
+		[Required]
+		public string ResponsibleRealtor { get;  set; }
 		
+		[Required]
 		public string Area { get;  set; }
 		
+		[Required]
 		public int Type { get;  set; }
 		
+		[Required]
 		public int Price { get;  set; }
 		
+		[Required]
 		public string Location { get;  set; }
 		
+		[Required]
 		public string Headline { get;  set; }
 		
+		[Required]
 		public string Adress { get;  set; }
 		
+		[Required]
 		public int ZipCode { get;  set; }
 		
+		[Required]
 		public string ZipArea { get;  set; }
 		
+		[Required]
 		public DateTime BookingDate { get;  set; }
 		
 		// Non-mandatory fields below:
@@ -337,7 +354,7 @@ namespace Webassistenten_ads_api.Controllers
 		
 		public int? ContractNr { get;  set;}
 		
-		public float? PRom { get;  set; }	// TODO: Translate acronyms to English 
+		public float? P_Rom { get;  set; }
 		
 		public float? Boa { get;  set; }
 		
