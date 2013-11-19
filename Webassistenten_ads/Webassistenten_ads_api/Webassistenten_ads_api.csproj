@@ -215,17 +215,12 @@
     <Compile Include="Brukerlogg.cs">
       <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
-    <Compile Include="Controllers\Default1Controller.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\MasterAPIController.cs" />
     <Compile Include="Controllers\MasterController.cs" />
     <Compile Include="Controllers\DatabaseConnection.cs" />
-    <Compile Include="Controllers\Modulapi2Controller.cs" />
     <Compile Include="Controllers\ModuleAPIController.cs" />
     <Compile Include="Controllers\ProductAPIController.cs" />
     <Compile Include="Controllers\UploadAPIController.cs" />
-    <Compile Include="Controllers\ValuesController.cs" />
-    <Compile Include="Controllers\ViewController.cs" />
     <Compile Include="Controllers\WebAssistentAuth.cs" />
     <Compile Include="dtproperty.cs">
       <DependentUpon>Entity2.tt</DependentUpon>

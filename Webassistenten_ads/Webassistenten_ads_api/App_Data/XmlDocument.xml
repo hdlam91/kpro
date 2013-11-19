@@ -419,42 +419,43 @@
             <summary>
             Accepts a HttpPost with an ad pdf, and the information that belongs to it.
             </summary>
-            <param name="ProductId"></param>
-            <param name="ResponsibleRealtor"></param>
-            <param name="Area"></param>
-            <param name="Type"></param>
-            <param name="Price"></param>
-            <param name="Location"></param>
-            <param name="Headline"></param>
-            <param name="Address"></param>
-            <param name="ZipCode"></param>
-            <param name="ZipArea"></param>
-            <param name="BookingDate"></param>
-            <param name="OpenHouseDate"></param>
-            <param name="ConstructionYear"></param>
-            <param name="FinnCode"></param>
-            <param name="ContractNr"></param>
-            <param name="P_rom"></param>
-            <param name="Boa"></param>
-            <param name="Bta"></param>
-            <param name="Bra"></param>
-            <param name="Costs"></param>
-            <param name="PurchaseCosts"></param>
-            <param name="CommonCosts"></param>
-            <param name="AmountSharedDebt"></param>
-            <param name="CommonExpenses"></param>
-            <param name="PropertyArea"></param>
-            <param name="PropertyType"></param>
-            <param name="Floor"></param>
-            <param name="Bedrooms"></param>
-            <param name="Rooms"></param>
-            <param name="OpenHouseText"></param>
-            <param name="RealEstAgentName"></param>
-            <param name="RealEstAgentTitle"></param>
-            <param name="RealEstAgentMobile"></param>
-            <param name="RealEstAgentPhone"></param>
-            <param name="RealEstAgentEmail"></param>
-            <param name="AdText"></param>
+            <param name="ProductId">Required</param>
+            <param name="ModuleId">Required</param>
+            <param name="ResponsibleRealtor">Required</param>
+            <param name="Area">Required</param>
+            <param name="Type">Required</param>
+            <param name="Price">Required</param>
+            <param name="Location">Required</param>
+            <param name="Headline">Required</param>
+            <param name="Address">Required</param>
+            <param name="ZipCode">Required</param>
+            <param name="ZipArea">Required</param>
+            <param name="BookingDate">Required</param>
+            <param name="OpenHouseDate">Optional</param>
+            <param name="ConstructionYear">Optional</param>
+            <param name="FinnCode">Optional</param>
+            <param name="ContractNr">Optional</param>
+            <param name="P_rom">Optional</param>
+            <param name="Boa">Optional</param>
+            <param name="Bta">Optional</param>
+            <param name="Bra">Optional</param>
+            <param name="Costs">Optional</param>
+            <param name="PurchaseCosts">Optional</param>
+            <param name="CommonCosts">Optional</param>
+            <param name="AmountSharedDebt">Optional</param>
+            <param name="CommonExpenses">Optional</param>
+            <param name="PropertyArea">Optional</param>
+            <param name="PropertyType">Optional</param>
+            <param name="Floor">Optional</param>
+            <param name="Bedrooms">Optional</param>
+            <param name="Rooms">Optional</param>
+            <param name="OpenHouseText">Optional</param>
+            <param name="RealEstAgentName">Optional</param>
+            <param name="RealEstAgentTitle">Optional</param>
+            <param name="RealEstAgentMobile">Optional</param>
+            <param name="RealEstAgentPhone">Optional</param>
+            <param name="RealEstAgentEmail">Optional</param>
+            <param name="AdText">Optional</param>
             <returns>Redirects</returns>
         </member>
         <member name="M:Webassistenten_ads_api.Controllers.MasterController.AddNewAd(System.Int32)">
@@ -513,8 +514,22 @@
         <member name="M:Webassistenten_ads_api.Controllers.UploadAPIController.Upload">
             <summary>
             Accepts a pdf file with an ad, along with the required and optional parameters for ads.
-            Parameters go in the request uri, to be further described.
+            Parameters go in the HTTP-Request URI.
+            Could potentially accept parameters in object form in the future, but does not do that at the
+            moment due to issues in Web API.
             </summary>
+            <param name="ProductId">Required</param>
+            <param name="ModuleId">Required</param>
+            <param name="ResponsibleRealtor">Required</param>
+            <param name="Area">Required</param>
+            <param name="Type">Required</param>
+            <param name="Price">Required</param>
+            <param name="Location">Required</param>
+            <param name="Headline">Required</param>
+            <param name="Address">Required</param>
+            <param name="ZipCode">Required</param>
+            <param name="ZipArea">Required</param>
+            <param name="BookingDate">Required</param>
         </member>
         <member name="T:Webassistenten_ads_api.WebAssistentAuth">
             <summary>

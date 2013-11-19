@@ -20,19 +20,7 @@ namespace Webassistenten_ads_api.Controllers
     public class MasterController : Controller
     {
 
-        private BoligEntities1 db = new BoligEntities1();
-               //..... DO this for every table.
-        //AnnonseHarBestilling annonseharbestilling = new AnnonseHarBestilling();
-        //Modul modul = new Modul();
-        //Produkt produkt = new Produkt();
-        //ProduktHarAnnonse produktHarAnnonse = new ProduktHarAnnonse();
-        //ProduktHarModul productHarModul = new ProduktHarModul();
-        //Prospekt prospekt;// = new Prospekt();
-        //ProspektHarBestilling prospektharbestilling = new ProspektHarBestilling();
-        ////info into this model, which we can use to put into the tables later on.
-        //RealEstateAdInfo model = new RealEstateAdInfo();
-
-        //
+        
         // GET: /Master/
         public static string folder = "~/hdTest/"; // this has to be changed to something according 
 
@@ -49,42 +37,43 @@ namespace Webassistenten_ads_api.Controllers
         /// <summary>
         /// Accepts a HttpPost with an ad pdf, and the information that belongs to it.
         /// </summary>
-        /// <param name="ProductId"></param>
-        /// <param name="ResponsibleRealtor"></param>
-        /// <param name="Area"></param>
-        /// <param name="Type"></param>
-        /// <param name="Price"></param>
-        /// <param name="Location"></param>
-        /// <param name="Headline"></param>
-        /// <param name="Address"></param>
-        /// <param name="ZipCode"></param>
-        /// <param name="ZipArea"></param>
-        /// <param name="BookingDate"></param>
-        /// <param name="OpenHouseDate"></param>
-        /// <param name="ConstructionYear"></param>
-        /// <param name="FinnCode"></param>
-        /// <param name="ContractNr"></param>
-        /// <param name="P_rom"></param>
-        /// <param name="Boa"></param>
-        /// <param name="Bta"></param>
-        /// <param name="Bra"></param>
-        /// <param name="Costs"></param>
-        /// <param name="PurchaseCosts"></param>
-        /// <param name="CommonCosts"></param>
-        /// <param name="AmountSharedDebt"></param>
-        /// <param name="CommonExpenses"></param>
-        /// <param name="PropertyArea"></param>
-        /// <param name="PropertyType"></param>
-        /// <param name="Floor"></param>
-        /// <param name="Bedrooms"></param>
-        /// <param name="Rooms"></param>
-        /// <param name="OpenHouseText"></param>
-        /// <param name="RealEstAgentName"></param>
-        /// <param name="RealEstAgentTitle"></param>
-        /// <param name="RealEstAgentMobile"></param>
-        /// <param name="RealEstAgentPhone"></param>
-        /// <param name="RealEstAgentEmail"></param>
-        /// <param name="AdText"></param>
+        /// <param name="ProductId">Required</param>
+        /// <param name="ModuleId">Required</param>
+        /// <param name="ResponsibleRealtor">Required</param>
+        /// <param name="Area">Required</param>
+        /// <param name="Type">Required</param>
+        /// <param name="Price">Required</param>
+        /// <param name="Location">Required</param>
+        /// <param name="Headline">Required</param>
+        /// <param name="Address">Required</param>
+        /// <param name="ZipCode">Required</param>
+        /// <param name="ZipArea">Required</param>
+        /// <param name="BookingDate">Required</param>
+        /// <param name="OpenHouseDate">Optional</param>
+        /// <param name="ConstructionYear">Optional</param>
+        /// <param name="FinnCode">Optional</param>
+        /// <param name="ContractNr">Optional</param>
+        /// <param name="P_rom">Optional</param>
+        /// <param name="Boa">Optional</param>
+        /// <param name="Bta">Optional</param>
+        /// <param name="Bra">Optional</param>
+        /// <param name="Costs">Optional</param>
+        /// <param name="PurchaseCosts">Optional</param>
+        /// <param name="CommonCosts">Optional</param>
+        /// <param name="AmountSharedDebt">Optional</param>
+        /// <param name="CommonExpenses">Optional</param>
+        /// <param name="PropertyArea">Optional</param>
+        /// <param name="PropertyType">Optional</param>
+        /// <param name="Floor">Optional</param>
+        /// <param name="Bedrooms">Optional</param>
+        /// <param name="Rooms">Optional</param>
+        /// <param name="OpenHouseText">Optional</param>
+        /// <param name="RealEstAgentName">Optional</param>
+        /// <param name="RealEstAgentTitle">Optional</param>
+        /// <param name="RealEstAgentMobile">Optional</param>
+        /// <param name="RealEstAgentPhone">Optional</param>
+        /// <param name="RealEstAgentEmail">Optional</param>
+        /// <param name="AdText">Optional</param>
         /// <returns>Redirects</returns>
         [System.Web.Mvc.HttpPost]
         public ActionResult Upload(int ProductId, int ModuleId, string ResponsibleRealtor, string Area,int Type, 
@@ -124,14 +113,22 @@ namespace Webassistenten_ads_api.Controllers
 
                 if (fileInfo.Extension != ".pdf")
                     return RedirectToAction("Fail");
-                System.Diagnostics.Debug.WriteLine(path);
                 file.SaveAs(path);
                 //the file uploaded was in fact a pdf and everything is ok! Now let's do some db stuff
                 BoligEntities1 db = new BoligEntities1();
                 Prospekt p = new Prospekt();
                 ProspektHarBestilling phb = new ProspektHarBestilling();
 
-                p.Omraade = Area;
+
+                p.Omraade = Location;
+                p.Postnr = ZipCode.ToString();
+                p.Poststed = ZipArea;
+                p.BBOverskrift = Headline;
+                p.Pris = Price;
+                p.Adresse = Address;
+                p.DatoReg = DateTime.Now;
+                //p.Tomteareal = Area;
+                //p.Tomtetype = Type;
 
                 p.FinnKode = FinnCode;
                 p.Oppdragsnr = ContractNr;
@@ -166,7 +163,10 @@ namespace Webassistenten_ads_api.Controllers
                 phb.DatoBest = BookingDate;
                 phb.Filnavn = path;
                 phb.ProduktID = (byte)ProductId;
+
                 phb.ModulID = ModuleId;
+                db.ProspektHarBestillings.Add(phb);
+                db.SaveChanges();
                 return RedirectToAction("Success");
 
             }
@@ -232,8 +232,8 @@ namespace Webassistenten_ads_api.Controllers
         //Checks the that a mail is legal
         private bool IsValidMail(string emailaddress)
         {
-            if (emailaddress == "")
-                return true;
+            if (string.IsNullOrEmpty(emailaddress))
+                return false;
             try
             {
                 System.Net.Mail.MailAddress m = new System.Net.Mail.MailAddress(emailaddress);
