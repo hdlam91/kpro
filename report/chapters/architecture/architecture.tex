@@ -108,17 +108,40 @@ When we started to implement the system we quickly found out that the we had arc
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.8\textwidth]{images/architecture03_revised1.png}
-\caption{New diagram showing the information flow}
+\caption{Temporary process view}
 \label{fig:info_flow}
 \end{figure}
 We tried to follow this MVC pattern when we implemented the system, however we quickly found out that the getView-Controller was not necessary.
 \begin{center}
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.8\textwidth]{images/architecture_final01.png}
-\caption{The final architecture}
+\includegraphics[width=0.9\textwidth]{images/architecture_final01.png}
+\caption{Process View of final Architecture}
 \caption*{6 calls the upload method with files and data\\
 7 is the upload method redirecting either to a FailView or a SuccessView}
-\label{fig:architecture}
+\label{fig:process_view}
 \end{figure}
 \end{center}
+
+\begin{center}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.9\textwidth]{images/architecture_final02.png}
+\caption{Logical View of final Architecture of MVC}
+\caption*{This is the logical view of the MVC architecture.}
+\label{fig:logical_view1}
+\end{figure}
+\end{center}
+
+
+\begin{center}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.9\textwidth]{images/architecture_finalwebapi01.png}
+\caption{Logical View of final Architecture of Web API}
+%\caption*{This is the logical view of thearchitecture.}
+\label{fig:process_view_webapi}
+\end{figure}
+\end{center}
+
+
