@@ -11,7 +11,7 @@ The unmodified waterfall model is shown in the following figure.
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=1.0\textwidth]{images/Waterfall-model.png}
+\includegraphics[width=0.9\textwidth]{images/Waterfall-model.png}
 \caption{Unmodified Waterfall Model \cite{waterfallModel}}
 \label{fig:Waterfall_model}
 \end{figure}
@@ -26,7 +26,7 @@ The following figure depicts the typical flow in agile methods.
 
 \begin{figure}[H]
 \centering
-\includegraphics[width=0.9\textwidth]{images/agile-methods.png}
+\includegraphics[width=0.8\textwidth]{images/agile-methods.png}
 \caption{Agile Methods \cite{agileModel}}
 \label{fig:agile_model}
 \end{figure}
@@ -68,7 +68,7 @@ Advantages of agile methods such as scrum include the following:
 		\label{fig:scrum_board}
 		\end{figure}
 		
-		\item The approach is highly supported by online tools - e.g. Trello for the scrum board - that let both parties (the team and the customer) stay up-to-date on the planning and prioritization of tasks during implementation.
+		\item The approach is highly supported by online tools - e.g. Trello for the scrum board - that let both parties (the team and the customer) stay up-to-date on the planning and prioritizing of tasks during implementation.
 	\end{itemize}
 While the next point generally is an advantage of agile development over a sequential process, it does contain some risks for a small project such as ours, as explained below.
 	\begin{itemize}
@@ -85,9 +85,22 @@ There is another important point when using an agile method, which can be the de
 
 From our analysis of the two methods, we concluded that neither were a perfect fit for every part of our project. We felt that our inexperience with projects such as this one made it too difficult to complete the entire project through an agile process, but we felt too unsure about the scope of the project to plan everything ahead and do a straight sequential process. We did, however, wish to plan an outline for the project, create a general architectural overview and gather the most important requirements before we started implementation.
 
-This led us to a decision of employing the waterfall method, or at least something similar, for the complete process, with a relatively long period of planning before starting implementation.
+This led us to a decision of employing the waterfall method (or at least something similar) for the overarching process, with a relatively long period of planning before starting implementation.
 
 The customer suggested using an agile approach for implementation because it is the same as they use. Using the same method as the customer might be beneficial to the project, as it improves communication and work flow. We decided to complete the implementation phase as an agile process, divided into two-week sprints, each consisting of a sprint planning meeting, then several days of implementation, with semi-daily stand-up meetings, and ending in a sprint review meeting and a functioning prototype.
 
-\subsection{In Practice}
+\newpage % It's so close anyway, and maybe we'll get the next subsubsection to take two pages?
+\subsubsection{In Practice}
 While we planned to utilize a combination of the two methods as described above, we ended up with something a little different in practice.
+
+The product proved to not be trivial to implement in agile fashion, because it could not easily be divided into small parts or tasks. Because of this, we ended up with very much a top-down approach, having to spend a lot of time on the big things before we could do the little things. This led to a sequential type of process also during implementation, as opposed to the agile iterative process we wanted to employ.
+
+While the process didn't go quite as we had planned, we did manage to employ some parts of scrum. We didn't have official stand-up meetings, but the way we started each day of development by letting each other know how things were going and what we'd been working on was indeed very reminiscent of this aspect of agile development.
+
+We also kept a scrum board updated during each sprint to keep track of the smaller tasks we were able to separate out from the rest, as well as the larger parts that needed to be completed, such as figuring out the data flow and creating the structure needed to satisfy this.
+
+The most important aspects of agility that we utilized in our process were the sprint planning meetings and end-of-sprint feedback sessions. We ended each sprint with a customer meeting - as one should when working agile - to both figure out if we were on the right track and what we had produced so far was satisfactory, and to ascertain whether there would be changes in the requirements. The planning meetings allowed us to more loosely plan the project because we were only focusing on a relatively short period of time when making those plans.
+
+Each customer meeting was followed by an internal sprint review session. These sessions consisted of discussing both what we learned in the customer meeting and otherwise during the sprint - such as the fact that we had been overly optimistic in our planning of Sprint 1.
+
+While we didn't produce functioning prototypes for each sprint, the iterations still served a purpose. The repeated process of planning, implementing and then reviewing the previous period let us continuously improve, making better estimates of how much we'd be able to do in a single sprint. The frequent contact with the customer let us know when we were on track and figure out crucial changes in time. Had we not kept the customer as involved, we might not have been able to finish the product with as high quality and degree of customer satisfaction.
