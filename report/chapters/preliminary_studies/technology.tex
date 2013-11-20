@@ -77,6 +77,17 @@ The customer uses Microsoft SQL server as their database, and we received a back
 \subsection{Entity Framework}
 The customer's preference was that we utilized Microsoft's entity framework to connect to the database. The entity framework is an object-relational mapper that enables .NET developers to access the database without writing the typical data-access code that developers typically need to write. EF lets the developer work with domain specific object and properties without worrying about the underlying database table.
 
+\subsection{Microsoft ASP.NET Web API}
+Web API is a framework for building request-reply web services from Microsoft. The customer requested that we make use of this framework to ensure smooth integration in their systems. It will be covered in detail in appropriate sections later in this report. 
+
+\subsection{Server}
+To run the Web API framework there's IIS Express that comes with visual studio 2012. The express version is meant to be used for developing purposes, when deploying the product a full version of IIS should be used.
+
+\subsection{Database}
+We had a lot of problems with the database, the customer said he'd put up a database server for us to use. However this turned out to be difficult to achieve due to the security/confidentiality issues on their server. We had to try to set up the database server ourself on our local machine, this proved to be rather difficult due to Microsoft tools not giving enough information, and thereby not installing the necessary tools. Some of us communicated via SMS and phone services.
+
+The customer uses an MSSQL server and they provided an 11 GiB .bak file which we could use to restore the database.
+
 \section{Extra Tools}
 \subsection{\LaTeX \ Editors}%TODO: Possibly reduce info detail in this section
 We have used several editors for our \LaTeX \ documents. Some members have used TeXstudio, others have used TeXworks, while others again have used Gummi.
