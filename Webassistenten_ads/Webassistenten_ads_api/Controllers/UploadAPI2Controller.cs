@@ -109,15 +109,30 @@ namespace Webassistenten_ads_api.Controllers
 
 			string AdText = up.AdText;
             
+			#if DEBUG
+				System.Diagnostics.Debug.Print("MultipartContent: " + Request.ContentType + "\n");
+			#endif
             
             
             HttpResponseMessage result = null;
             var httpRequest = System.Web.HttpContext.Current.Request;
-            if (!Request.Content.IsMimeMultipartContent("application/xml"))
-            {
-                result = Request.CreateResponse(HttpStatusCode.UnsupportedMediaType, "MultipartContent must be of type UploadParameters!");
-            }
-            else
+//            if (!Request.Content.IsMimeMultipartContent("UploadParameters"))
+//            {
+//                result = Request.CreateResponse(HttpStatusCode.UnsupportedMediaType, "The mediatype is not supported!");
+//            }
+//            else
+			//Use above or below
+			if (!Request.Content.IsMimeMultipartContent())
+			{
+				result = Request.CreateResponse(HttpStatusCode.UnsupportedMediaType, "The requests content type is not valid!");
+			}
+			else
+			//or below
+//			if (!Request.Content.IsMimeMultipartContent("xml"))
+//			{
+//				result = Request.CreateResponse(HttpStatusCode.UnsupportedMediaType, "The mediatype is not supported!");
+//			}
+//			else
             {
                 if (httpRequest.Files.Count == 1)
                 {
