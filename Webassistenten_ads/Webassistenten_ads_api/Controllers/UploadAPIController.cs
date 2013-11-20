@@ -339,15 +339,15 @@ namespace Webassistenten_ads_api.Controllers
 		[Required(ErrorMessage = "Address is required.")]
 		public string Address { get;  set; }
 
-		[DataMember]
+		[DataMember(IsRequired=true)]
 		[Required(ErrorMessage = "ZipCode is required.")]
 		public int ZipCode { get;  set; }
 
-		[DataMember]
+		[DataMember(IsRequired=true)]
 		[Required(ErrorMessage = "ZipArea is required.")]
 		public string ZipArea { get;  set; }
 
-		[DataMember]
+		[DataMember(IsRequired=true)]
 		[Required(ErrorMessage = "Booking Date is required.")]
 		public DateTime BookingDate { get;  set; }
 		
