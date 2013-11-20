@@ -1,44 +1,81 @@
 \section{Requirements}
+This chapter presentes the requirements specifications of the project with function requirements, non-functional requirements as well as user stories. The goal with this chapter is to present the products functions and behavior. 
 
-\Large Key \\
-\normalsize A = Availability\\
-I = Interoperability\\
-M = Modifiability\\
-T = Technology requirement\\
-F = Other functional requirement\\
+ \normalsize
+
+\begin{table}[H]
+\begin{center}
+\begin{tabular}{|p{1.5cm}|p{6cm}|}
+	\hline
+	\textbf{Key} & \textbf{Requirement type} \\
+	\hline
+	F & Functional\\
+	\hline
+	M & Modifiability\\
+	\hline
+	P & Performance\\
+	\hline
+	A & Availability\\
+	\hline
+	I & Interoperability\\
+	\hline
+	R & Readability\\
+	
+	\hline
+\end{tabular}
+\end{center}
+\caption{Requrement abbreviation}
+\end{table}
+
 
 \subsection{Functional requirements}
+The purpose of function reqiurements is to split up and define the functions of a system. 
+
  \normalsize
+
 \begin{table}[H]
-\begin{tabular}{| l | l | l | l |}
+\begin{tabular}{|p{1.5cm}|p{8cm}|p{2cm}|p{3cm}|}
 	\hline
-	ID & Requirements & Priority & Complexity\\
+	\textbf{ID} & \textbf{Requirements} & \textbf{Priority} & \textbf{Complexity}\\
+	\hline F1 & Recieve PDF-files over the Internet by ASP.NET Web API & H & M \\
 	\hline
-	F1 & Receive PDF-files and store them in an appropriate folder & H & L \\
+	F2 & Save PDF-files to a location which is easy to modify later & H & L \\
 	\hline
-	F2 & Insert the data accompanying a submitted ad into the database & H & M \\
+	F3 & Recieve data supplied with the ad over the Internet by ASP.NET Web API & H & M \\
 	\hline
-	I1 & Create an order in the internal order system for a submitted ad & H & M \\
+	F4 & Save the data supplied with the ad into an existing for real estate ads & H & H \\
+	\hline
+	F5 & Create an order in the internal order system for a submitted ad & H & M \\
 	\hline
 	
 \end{tabular}
 \caption{Functional requirements}
 \end{table}
 
-\subsection{Non-functional requirements} \normalsize
+\subsection{Non-functional requirements} 
+The purpose of non-functional reqiurements is to describe qualities of how the operations of a system can be jugded. 
+
+\normalsize
 \begin{table}[H]
-\begin{tabular}{| l | l | l | l |}
+\begin{tabular}{|p{1.5cm}|p{8cm}|p{2cm}|p{3cm}|}
 	\hline
-	ID & Requirements & Priority & Complexity\\
+	\textbf{ID} & \textbf{Requirements} & \textbf{Priority} & \textbf{Complexity}\\
 	\hline
-	M1 & The software must support easy addition of other types of ads & H & L \\
+	M1 & Support easy addition of other types of ads & H & M \\
 	\hline
-	S1 & The product should provide a high degree of stability, & M& M \\ 
-	&  so the customer can meet their availability demands & & \\
-	& when our product is integrated into their systems & &\\
+	P1 & Function with a satisfactory performance. & M & M \\
 	\hline
-	T1 & The software must be developed on the .NET platform & H & L \\
+	A1 & Provide a high degree of stability, so the customer can meet their availability demands when our product is integrated into their systems & M & M\\
 	\hline
+	I1 & Be able to communicate with the existing system Webassistenten & H & M \\
+	\hline
+	I2 & The software must be developed using modern .NET technologies & H & L \\
+	\hline
+	R1 & The code must be easy to read and understand & H & L \\ 
+	\hline
+	R2 & The code and product must be accompanied by documentation of functionality & H & L \\
+	\hline
+	
 	
 \end{tabular}
 \caption{Non-functional requirements}
