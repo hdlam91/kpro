@@ -114,11 +114,10 @@ This package consists of the writing of the various parts of this final report. 
 \end{longtable}
 
 \subsubsection{Implementation - Webassistenten}
+The sub-packages in this package are the parts of implementation related to the interoperability of our product with the customer's already existing system \\ \emph{Webassistenten}. The total number of hours in the package is 30, or 3 person days per assigned person.
 \begin{longtable}{|p{0.7cm}|p{3cm}|p{1.8cm}|p{2.5cm}|p{2cm}|p{2.8cm}|}
 \hline
 \# & Sub-package & \# persons & Hours/person & Total \# of hours & Person-days(ca 5h)/persons assigned\\ 
-\hline
-8 &  &  &  &  & 3\\ 
 \hline
 8.1 & Enable display of available products (no GUI is to be implemented) & 2 & 5 & 10 & 1\\ 
 \hline
@@ -129,11 +128,10 @@ This package consists of the writing of the various parts of this final report. 
 \end{longtable}
 
 \subsubsection{Implementation - import-system service}
+This package contains the sub-packages that are the parts of implementation related to importing files and data, and placing the data into the database. The total number of hours in the package is 60, or 6 person days per assigned person.
 \begin{longtable}{|p{0.7cm}|p{3cm}|p{1.8cm}|p{2.5cm}|p{2cm}|p{2.8cm}|}
 \hline
 \# & Sub-package & \# persons & Hours/person & Total \# of hours & Person-days(ca 5h)/persons assigned\\ 
-\hline
-9 &  &  &  &  & 6\\ 
 \hline
 9.1 & Receiving pdf-file and save in correct folder & 2 & 5 & 10 & 1\\ 
 \hline
@@ -146,11 +144,10 @@ This package consists of the writing of the various parts of this final report. 
 \end{longtable}
 
 \subsubsection{Implementation - Misc.}
+This package contains the rest of the sub-packages related to implementation. The total number of hours in the package is 208, or 17.4 person days per assigned person.
 \begin{longtable}{|p{0.7cm}|p{3cm}|p{1.8cm}|p{2.5cm}|p{2cm}|p{2.8cm}|}
 \hline
 \# & Sub-package & \# persons & Hours/person & Total \# of hours & Person-days(ca 5h)/persons assigned\\ 
-\hline
-10 &  &  &  &  & 17.4\\ 
 \hline
 10.1 & Database communication interface (Entity Framework) & 2 & 10 & 20 & 2\\ 
 \hline
@@ -167,11 +164,10 @@ This package consists of the writing of the various parts of this final report. 
 \end{longtable}
 
 \subsubsection{Setup and Maintenance of Development Tools and Resources}
+Because of the sheer number of various development tools and versions of those tools we had to install and use, we created a package for the installation and maintenance of these tools. The total number of hours in this package is 80, or 4 person days per person.
 \begin{longtable}{|p{0.7cm}|p{3cm}|p{1.8cm}|p{2.5cm}|p{2cm}|p{2.8cm}|}
 \hline
 \# & Sub-package & \# persons & Hours/person & Total \# of hours & Person-days(ca 5h)/persons assigned\\ 
-\hline
-11 &  &  &  &  & 4\\ 
 \hline
 11.1 & Database Setup & 4 & 10 & 40 & 2\\ 
 \hline
@@ -181,21 +177,22 @@ This package consists of the writing of the various parts of this final report. 
 \hline
 \end{longtable}
 
-\subsubsection{Total}
-\begin{longtable}{|p{2cm}|p{3cm}|p{3cm}|}
+\subsubsection{Totals}
+The total time in in all our packages are listed in the following table.
+\begin{longtable}{|p{2cm}|p{3cm}|p{3cm}|p{4.5cm}|}
 \hline
-\# persons & Hours/person & Total \# of hours\\ 
+\# persons & Hours per person & Total \# of hours & Person days per person\\ 
 \hline
-4 & 279.5 & 1118\\ 
+4 & 279.5 & 1118 & 55.9\\ 
  \hline
 \end{longtable}
 
 \subsection{Gantt}
-\begin{table}
+\begin{table}[H]
 \centering
-\begin{tabular}{|c|l|c|}
+\begin{tabular}{|c|p{8cm}|c|}
 \hline
-\# & WBS Package: & Size (Whole days)\\ 
+\textbf{\#} & \textbf{WBS Package} & \textbf{Size (Whole days)}\\ 
 \hline
 1 & Pre-study & 9\\ 
 \hline
@@ -221,22 +218,22 @@ This package consists of the writing of the various parts of this final report. 
 \hline
  &  & \\ 
 \hline
-Total: &  & 71\\ 
+\textbf{Total:} &  & \textbf{71}\\ 
 \hline\end{tabular}
-\label{table:table}
-\caption{\small{test}} 
+\label{table:WBSdays}
+\caption{\small{Size of WBS Packages in Whole Days}} 
 \end{table}
 
 \hspace{-5cm}
-\begin{table}
+\begin{table}[H]
 \centering
-\begin{tabular}{|c|c|c|c|}
+\begin{tabular}{|p{6cm}|c|c|c|}
 \hline
-Gantt package name & Size (Whole days) & Start & Finish\\ 
+\textbf{Gantt package name} & \textbf{Size (Whole days)} & \textbf{Start} & \textbf{Finish}\\ 
 \hline
 Pre-study (Includes requirements) & 9 & 21.08 & 30.08\\ 
 \hline
- & 1 & 30.08 & 6.09\\ 
+Requirements & 1 & 30.08 & 6.09\\ 
 \hline
 General project management and documentation & 9 & 21.08 & 21.11\\ 
 \hline
@@ -256,12 +253,12 @@ Sprint 4 (8, 9, 10, 4.2 and 4.3) & 10 & 28.1 & 8.11\\
 \hline
 Setup and Maintenance of Development Tools and Resources & 4 & 21.08 & \\ 
 \hline
-\hline\end{tabular}
-\label{table2}
-\caption{\small{}} 
+\end{tabular}
+\label{GanttPackages}
+\caption{\small{Gantt Packages and Time Frames}} 
 \end{table}
 
-
-
-
+\begin{figure}[H]
 \includegraphics[width=1\textwidth]{images/gantt02.png}
+\caption{Gantt Chart}
+\end{figure}
