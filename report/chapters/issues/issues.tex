@@ -32,11 +32,17 @@ The installation of MSSQL did not go as smoothly as we had hoped for, we tried t
 %TODO
 
 \subsubsection{Naming conventions}
-A table in the database was named "System" which collided with the namespace "System" in C\#, this was due to the EF generating a System.cs file which was used instead of the actual System namespace whenever there was a \begin{verbatim}using System;\end{verbatim}
+A table in the database was named "System" which collided with the namespace "System" in C\#, this was due to the EF generating a System.cs file which was used instead of the actual System namespace whenever there was a 
+\begin{lstlisting}
+using System;
+\end{lstlisting}
 statement in our code.
 
 
 \subsubsection{Disk Space}
 %TODO
+Because all of the members in our group have SSD there were limited disk space.
+
+
 \subsubsection{File transfering}
 Because the database backup dump was 10.8GiB it was not plausible to download the file via adressa's server. The customer brought a copy of the file for us on an extern USB HDD, we got a copy of the file on one of our machine but we had trouble transferring to another machine without an external HDD. USB memory sticks wasn't viable because they are usually less than 10GiB and FAT32 format which has a maximum file limit of 4GiB. 
