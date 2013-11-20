@@ -8,7 +8,7 @@ using System.Net.Http;
 using System.Web.Http;
 using System.ComponentModel.DataAnnotations;
 using System.Runtime.Serialization;
-
+using Webassistenten_ads_api.Repository;
 
 namespace Webassistenten_ads_api.Controllers
 {
@@ -17,7 +17,7 @@ namespace Webassistenten_ads_api.Controllers
 	/// </summary>
     public class UploadAPIController : ApiController
     {
-        public static string folder = "~/hdTest/";
+        public static string folder =  Constants.FOLDER;
 
 		//TODO: Describe required parameters
 		/// <summary>
