@@ -63,13 +63,13 @@ namespace Webassistenten_ads_api.Controllers
 			System.Diagnostics.Debug.Print("RealEstAgentMobile: " + up.RealEstAgentMobile + "\n");
 #endif
 
-			DateTime? OpenHouseDate;
+			DateTime? OpenHouseDate = null;
 			if (up.OpenHouseDate != default(System.DateTime)) 
 			{
 				OpenHouseDate = (up.OpenHouseDate);
 			}
 
-			DateTime? ConstructionYear;
+			DateTime? ConstructionYear = null;
 			if (up.ConstructionYear != default(System.DateTime))
 			{
 				ConstructionYear = up.ConstructionYear;
@@ -113,7 +113,7 @@ namespace Webassistenten_ads_api.Controllers
             
             HttpResponseMessage result = null;
             var httpRequest = System.Web.HttpContext.Current.Request;
-            if (!Request.Content.IsMimeMultipartContent("UploadParameters"))
+            if (!Request.Content.IsMimeMultipartContent("application/xml"))
             {
                 result = Request.CreateResponse(HttpStatusCode.UnsupportedMediaType, "MultipartContent must be of type UploadParameters!");
             }
