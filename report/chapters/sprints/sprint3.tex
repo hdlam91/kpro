@@ -20,12 +20,14 @@ At the sprint plan meeting, we planned the following for this sprint:
 We had originally planned to be fixing and polishing the finished product, but due to the issues we encountered many of the original planned tasks were pushed to Sprint 3. Sprint 3 thus became a "finish everything that needs to be finished"-Sprint.
 
 \subsection{Development}
-We created the master controller which communicated with the database through the entity framework, it also took care of passing models to the view(s) and handle user request. This master controller was a MVC-type controller which is mostly used as a prototype and for us to test that the data we submit actually reach the system.
+We created the master controller which communicated with the database through the entity framework, it also took care of passing models to the view(s) and handle user request. This master controller was a MVC-type controller which is mostly used as a prototype and for us to test that the data we submit actually reached the system.
 
 \subsection{Other Work}
-After creating and finishing the master controller, the final architecture was made.
+After creating and finishing the master controller, the final architecture was made to reflect the implementation of the system. We had architectural erosion due to the framework working differently from what we expected.
 
 The first Friday of this sprint we attended a technical writing course organized by the course staff, where we received pointers on writing our report. These included both general tips as well as concrete improvements for our report specifically.
+
+We started to create the documentation for the customer in Doxygen by XML commenting our code (this was done by adding three slashes "///" in front of all the methods). Doxygen read the implemented code and created the documentation document in HTML. 
 
 \subsection{Backlog}
 Originally we planned to finish the product in Sprint 3, however the we had a lot of issues/problems in both Sprint 1 and 2 so we couldn't start implementing code before Sprint 3. However when the problems were sorted out we actually got down to implementing and communicate with the database. We created a MVC controller of the assignment so we were able to test database connection - insert/select and various other SQL commands via the EF. This MVC controller let us check how the implementation works and gave us a better overview of the framework we were using. However the assignment was to create a Web API controller, so we had to convert it.
