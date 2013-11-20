@@ -7,8 +7,8 @@ The time frame for Sprint 2 was week 40 and 41. We started the sprint on Septemb
 From our Work Breakdown Structure, we had the following tasks planned for this sprint:
 \begin{itemize}
 	\item Receiving pdf-file and save in correct folder
-	\item Putting accompanying data in Webassistenten database (table “prospekt”)
 	\item Checking accompanying data for required fields
+	\item Putting accompanying data in the Webassistenten database (table “prospekt”)
 	\item Placing an order in the internal order system
 \end{itemize}
 
@@ -29,8 +29,8 @@ At the sprint plan meeting, we planned the following for this sprint:
 
 \subsection{Development}
 At the end of the first sprint, we received a database dump from the customer. The majority of sprint 2 development was centered around setting up the database so we could use it in our project. Refer to Appendix \ref{dbSetup}: Database setup on page \pageref{dbSetup}.
-%setting up a connection to this database through Entity Framework.
-We managed to set up an instance of MSSQL server and restore the database dump we got from the customer and then connected the project in Visual Studio 2012 with the database server instance. This connection to the database via EF created a model of every single table in the database, which now let us generate controllers for the tables we needed.
+
+We managed to set up an instance of MSSQL server and restore the database dump we received from the customer. We then connected the project in Visual Studio 2012 with the database server instance. This connection to the database via EF created a model of every single table in the database, which then let us generate controllers for the tables we needed.
 
 Near the end of sprint 2, we realized that we had created the wrong type of project. We had missed the fact that the solution was supposed to use Web API, and had created an MVC project. Some time was therefore spent creating a new Web API project, and porting the code from the previous project into the new one.
 
@@ -38,19 +38,23 @@ Near the end of sprint 2, we realized that we had created the wrong type of proj
 The deadline for the mid term delivery of the report was originally October 14th, but was at one point in time moved to October 8th. This date coincided with the middle of sprint 2, so a relatively big part of the sprint was spent preparing the report for this delivery. When the deadline was moved back to its original date, more time was spent on improving the report.
 
 \subsection{Backlog}
-%What we planned for the sprint that we either did not complete, get time to start, or that was simply pushed back.
 Of the tasks planned at the beginning of the sprint, the following remained in our backlog at the end of the sprint:
 \begin{itemize}
 	\item Modify start page
 	\item Implement saving of pdf-files
 \end{itemize}
-We were able to complete some of the planned tasks in Sprint 2. The tasks in Sprint 1 was postponed to later Sprint due to the fact that we weren't able to communicate with the database server yet due to our lack of technological knowledge.
+We were able to complete some of the planned tasks in Sprint 2. The tasks in Sprint 1 were postponed to later Sprints due to the fact that we weren't able to communicate with the database server yet due to our lack of familiarity with the technology.
 
 \subsection{Customer Meeting}
-This customer meeting took place on Friday 11 October 2013. We showed the customer what we had done - setting up the database and generate the controllers for the appropriate classes and tables. There was also a few things we were confused about in the database structure - mostly which table to put the data and which tables to get the necessary data from.
-Due to the issues we had, the customer was told that picture upload was not possible due to time constraint - this was not an issue according to the customer because it wasn't part of the original plan/assignment.
-The customer was impressed how far we've gotten with the project so far, and told us that he was going on vacation in Spain for 3 weeks. There was still a possibility to contact him via mail and customer meetings could be arranged via Skype in this period. 
+This customer meeting took place on Friday 11 October 2013. We showed the customer what we had done since last time - setting up the database and generate the controllers for the appropriate classes and tables.
 
+There were also a few things we were confused about in the database structure. This was mainly which table to put the data into and which tables to get the necessary data from.
+
+Due to the issues we had, the customer was told that picture upload was not possible due to time constraint. This was not an issue according to the customer because it wasn't part of the original plan/assignment. The customer was impressed with how far we had come with the project so far.
+
+At the end of the meeting, we were given notice that he was going on vacation for 3 weeks. There was still a possibility to contact him via mail and customer meetings could be arranged via Skype in this period.
 
 \subsection{Retrospective}
-We had a lot of trouble setting up the database and connect it to our project via EF. However when we finally did and was able to generate controllers for the classes we had trouble with naming convention due to one of the database table. When we deleted the system class which was generated in EF, the problems went away and we could finally launch the project in IIS Express and view it through a web browser. This was a good start for us, because we felt that we finally could have some visual feedback when we ran the code - which was not an error message. It gave us an overview of the project and how the controllers, views, models and Web API works together.  %need more stuff here.
+We had a lot of trouble setting up the database and connect it to our project via EF this Sprint. When we finally did get it set-up and were able to generate controllers for the classes, we had trouble with naming conventions due to one of the database tables. When we deleted the \emph{System} class that was generated from EF, the problems went away and we could finally launch the project with IIS Express and view it through a web browser.
+
+This was a good start for us, because we felt that we finally could have some visual feedback when we ran the code - other than an error message. It gave us an overview of the project and how the controllers, views, models and Web API work together.
