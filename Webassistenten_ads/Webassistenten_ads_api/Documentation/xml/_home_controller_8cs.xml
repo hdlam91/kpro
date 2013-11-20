@@ -15,7 +15,7 @@
 <codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Web;</highlight></codeline>
 <codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Web.Mvc;</highlight></codeline>
 <codeline lineno="6"><highlight class="normal"></highlight></codeline>
-<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Webassistenten_ads_api.Controllers</highlight></codeline>
+<codeline lineno="7" refid="namespace_webassistenten__ads__api_1_1_controllers" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">Webassistenten_ads_api.Controllers</highlight></codeline>
 <codeline lineno="8"><highlight class="normal">{</highlight></codeline>
 <codeline lineno="9" refid="class_webassistenten__ads__api_1_1_controllers_1_1_home_controller" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_webassistenten__ads__api_1_1_controllers_1_1_home_controller" kindref="compound">HomeController</ref><sp/>:<sp/>Controller</highlight></codeline>
 <codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>

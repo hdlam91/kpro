@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['valuescontroller',['ValuesController',['../class_webassistenten__ads__api_1_1_controllers_1_1_values_controller.html',1,'Webassistenten_ads_api::Controllers']]],
-  ['viewcontroller',['ViewController',['../class_webassistenten__ads__api_1_1_controllers_1_1_view_controller.html',1,'Webassistenten_ads_api::Controllers']]],
   ['vw_5fmeglersystemid',['vw_MeglersystemID',['../class_webassistenten__ads__api_1_1vw___meglersystem_i_d.html',1,'Webassistenten_ads_api']]],
   ['vw_5fpartnerharleverandor_5fsettings',['vw_PartnerHarLeverandor_Settings',['../class_webassistenten__ads__api_1_1vw___partner_har_leverandor___settings.html',1,'Webassistenten_ads_api']]],
   ['vwavdeling',['vwAvdeling',['../class_webassistenten__ads__api_1_1vw_avdeling.html',1,'Webassistenten_ads_api']]],

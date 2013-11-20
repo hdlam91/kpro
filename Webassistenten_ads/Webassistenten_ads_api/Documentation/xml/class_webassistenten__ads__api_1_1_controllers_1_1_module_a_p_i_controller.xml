@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="class_webassistenten__ads__api_1_1_controllers_1_1_module_a_p_i_controller" kind="class" prot="public">
+    <compoundname>Webassistenten_ads_api::Controllers::ModuleAPIController</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_controllers_1_1_module_a_p_i_controller_1addfbcd377a9eb29274f700239bff51d8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>HttpResponseMessage</type>
+        <definition>HttpResponseMessage Webassistenten_ads_api.Controllers.ModuleAPIController.Modules</definition>
+        <argsstring>(byte id)</argsstring>
+        <name>Modules</name>
+        <param>
+          <type>byte</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+<para>This method will retrieve the available modules for a selected product. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>id</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Product Identifier.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>A HttpResponseMessage with a status code, and the modules for the specified Product ID.<linebreak/>
+ The Modules are in the form {id, name, dimensions, date available}.</para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/ModuleAPIController.cs" line="27" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/ModuleAPIController.cs" bodystart="26" bodyend="54"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/ModuleAPIController.cs" line="16" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/ModuleAPIController.cs" bodystart="15" bodyend="55"/>
+    <listofallmembers>
+      <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_module_a_p_i_controller_1addfbcd377a9eb29274f700239bff51d8" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Controllers::ModuleAPIController</scope><name>Modules</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

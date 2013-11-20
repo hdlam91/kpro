@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="class_webassistenten__ads__api_1_1_controllers_1_1_modulapi2_controller" kind="class" prot="public">
+    <compoundname>Webassistenten_ads_api::Controllers::Modulapi2Controller</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_webassistenten__ads__api_1_1_controllers_1_1_modulapi2_controller_1a1c2e196a8d5450f7f9d9358f959d582e" prot="private" static="no" mutable="no">
+        <type><ref refid="class_webassistenten__ads__api_1_1_bolig_entities1" kindref="compound">BoligEntities1</ref></type>
+        <definition>BoligEntities1 Webassistenten_ads_api.Controllers.Modulapi2Controller.db</definition>
+        <argsstring></argsstring>
+        <name>db</name>
+        <initializer> new <ref refid="class_webassistenten__ads__api_1_1_bolig_entities1" kindref="compound">BoligEntities1</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/Modulapi2Controller.cs" line="16" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/Modulapi2Controller.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_controllers_1_1_modulapi2_controller_1ab979382f1e3e1e5ba98500ccb6ddaf6a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerable&lt; <ref refid="class_webassistenten__ads__api_1_1_modul" kindref="compound">Modul</ref> &gt;</type>
+        <definition>IEnumerable&lt;Modul&gt; Webassistenten_ads_api.Controllers.Modulapi2Controller.GetModuls</definition>
+        <argsstring>()</argsstring>
+        <name>GetModuls</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/Modulapi2Controller.cs" line="20" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/Modulapi2Controller.cs" bodystart="19" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_controllers_1_1_modulapi2_controller_1acd6f7c9bc5f54af1f7c863f3b87a3eca" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_webassistenten__ads__api_1_1_modul" kindref="compound">Modul</ref></type>
+        <definition>Modul Webassistenten_ads_api.Controllers.Modulapi2Controller.GetModul</definition>
+        <argsstring>(int id)</argsstring>
+        <name>GetModul</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/Modulapi2Controller.cs" line="26" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/Modulapi2Controller.cs" bodystart="25" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_controllers_1_1_modulapi2_controller_1a11278a93aa8115a5deb780a6fb949c43" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>HttpResponseMessage</type>
+        <definition>HttpResponseMessage Webassistenten_ads_api.Controllers.Modulapi2Controller.PutModul</definition>
+        <argsstring>(int id, Modul modul)</argsstring>
+        <name>PutModul</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type><ref refid="class_webassistenten__ads__api_1_1_modul" kindref="compound">Modul</ref></type>
+          <declname>modul</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/Modulapi2Controller.cs" line="38" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/Modulapi2Controller.cs" bodystart="37" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_controllers_1_1_modulapi2_controller_1ad4de1f7fb2fab6fccec733cebbcb9d10" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>HttpResponseMessage</type>
+        <definition>HttpResponseMessage Webassistenten_ads_api.Controllers.Modulapi2Controller.PostModul</definition>
+        <argsstring>(Modul modul)</argsstring>
+        <name>PostModul</name>
+        <param>
+          <type><ref refid="class_webassistenten__ads__api_1_1_modul" kindref="compound">Modul</ref></type>
+          <declname>modul</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/Modulapi2Controller.cs" line="65" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/Modulapi2Controller.cs" bodystart="64" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_controllers_1_1_modulapi2_controller_1a5d293dff8fbefa85326b5cbd4440dd81" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>HttpResponseMessage</type>
+        <definition>HttpResponseMessage Webassistenten_ads_api.Controllers.Modulapi2Controller.DeleteModul</definition>
+        <argsstring>(int id)</argsstring>
+        <name>DeleteModul</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/Modulapi2Controller.cs" line="83" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/Modulapi2Controller.cs" bodystart="82" bodyend="102"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_controllers_1_1_modulapi2_controller_1a9adeb44f8749c96ea3ab2ca0ab4e5117" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Webassistenten_ads_api.Controllers.Modulapi2Controller.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/Modulapi2Controller.cs" line="105" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/Modulapi2Controller.cs" bodystart="104" bodyend="108"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/Modulapi2Controller.cs" line="15" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/Modulapi2Controller.cs" bodystart="14" bodyend="109"/>
+    <listofallmembers>
+      <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_modulapi2_controller_1a1c2e196a8d5450f7f9d9358f959d582e" prot="private" virt="non-virtual"><scope>Webassistenten_ads_api::Controllers::Modulapi2Controller</scope><name>db</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_modulapi2_controller_1a5d293dff8fbefa85326b5cbd4440dd81" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Controllers::Modulapi2Controller</scope><name>DeleteModul</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_modulapi2_controller_1a9adeb44f8749c96ea3ab2ca0ab4e5117" prot="protected" virt="non-virtual"><scope>Webassistenten_ads_api::Controllers::Modulapi2Controller</scope><name>Dispose</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_modulapi2_controller_1acd6f7c9bc5f54af1f7c863f3b87a3eca" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Controllers::Modulapi2Controller</scope><name>GetModul</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_modulapi2_controller_1ab979382f1e3e1e5ba98500ccb6ddaf6a" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Controllers::Modulapi2Controller</scope><name>GetModuls</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_modulapi2_controller_1ad4de1f7fb2fab6fccec733cebbcb9d10" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Controllers::Modulapi2Controller</scope><name>PostModul</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_modulapi2_controller_1a11278a93aa8115a5deb780a6fb949c43" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Controllers::Modulapi2Controller</scope><name>PutModul</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

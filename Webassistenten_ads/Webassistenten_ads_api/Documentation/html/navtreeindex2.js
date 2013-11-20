@@ -1,7 +1,5 @@
 var NAVTREEINDEX2 =
 {
-"class_webassistenten__ads__api_1_1_bolig_entities1.html#a7d30e31cc131783fb346eeff50dca2a2":[1,0,0,29,437],
-"class_webassistenten__ads__api_1_1_bolig_entities1.html#a7d4b8538987c660da03cf2c5f898157f":[1,0,0,29,474],
 "class_webassistenten__ads__api_1_1_bolig_entities1.html#a7d8c54f615e49cba7d994050d54e83ad":[1,0,0,29,84],
 "class_webassistenten__ads__api_1_1_bolig_entities1.html#a7daba0f0457840054fcb320071e6d0ec":[1,0,0,29,270],
 "class_webassistenten__ads__api_1_1_bolig_entities1.html#a7dee1f7c4b1a18045d8a45542d709239":[1,0,0,29,265],
@@ -249,5 +247,7 @@ var NAVTREEINDEX2 =
 "class_webassistenten__ads__api_1_1_bolig_entities1.html#afa996465eef52fbf28dc7519f72cbba4":[1,0,0,29,91],
 "class_webassistenten__ads__api_1_1_bolig_entities1.html#afaefe65ea467ac157db0db282d9ccee2":[1,0,0,29,188],
 "class_webassistenten__ads__api_1_1_bolig_entities1.html#afbb8bffc89e3d0e17145b4694ec18737":[1,0,0,29,86],
-"class_webassistenten__ads__api_1_1_bolig_entities1.html#afbfe1cc392c93f89bbd0326f64392bad":[1,0,0,29,245]
+"class_webassistenten__ads__api_1_1_bolig_entities1.html#afbfe1cc392c93f89bbd0326f64392bad":[1,0,0,29,245],
+"class_webassistenten__ads__api_1_1_bolig_entities1.html#afc62776961b9aa838180552e5158f731":[1,0,0,29,150],
+"class_webassistenten__ads__api_1_1_bolig_entities1.html#afd2cadaea6007c485c04796027d34015":[1,0,0,29,377]
 };

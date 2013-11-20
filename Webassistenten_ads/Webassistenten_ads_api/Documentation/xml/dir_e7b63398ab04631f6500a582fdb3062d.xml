@@ -2,7 +2,8 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
   <compounddef id="dir_e7b63398ab04631f6500a582fdb3062d" kind="dir">
     <compoundname>/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Repository/</compoundname>
-    <innerfile refid="_get_dates_query_8cs">GetDatesQuery.cs</innerfile>
+    <innerfile refid="_constants_8cs">Constants.cs</innerfile>
+    <innerfile refid="_database_connection_8cs">DatabaseConnection.cs</innerfile>
     <briefdescription>
     </briefdescription>
     <detaileddescription>

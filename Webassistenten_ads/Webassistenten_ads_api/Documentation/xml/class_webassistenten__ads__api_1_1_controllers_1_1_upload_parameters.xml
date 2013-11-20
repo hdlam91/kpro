@@ -1,0 +1,547 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters" kind="class" prot="public">
+    <compoundname>Webassistenten_ads_api::Controllers::UploadParameters</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1a1fff8828691009f95dceb54dea3f6d9b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Webassistenten_ads_api.Controllers.UploadParameters.ProductId</definition>
+        <argsstring></argsstring>
+        <name>ProductId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/UploadAPI2Controller.cs" line="263" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/UploadAPI2Controller.cs" bodystart="263" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1a5bb34fc7bb1f281c41b1aeb4f8a79ad3" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Webassistenten_ads_api.Controllers.UploadParameters.ModuleId</definition>
+        <argsstring></argsstring>
+        <name>ModuleId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/UploadAPI2Controller.cs" line="267" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/UploadAPI2Controller.cs" bodystart="267" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1a82073300d11296b5ff02ef7b55055014" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Webassistenten_ads_api.Controllers.UploadParameters.RealtorId</definition>
+        <argsstring></argsstring>
+        <name>RealtorId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/UploadAPI2Controller.cs" line="271" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/UploadAPI2Controller.cs" bodystart="271" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1a80298590db2f0f5c7ad7d73ae50db326" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.Controllers.UploadParameters.ResponsibleRealtor</definition>
+        <argsstring></argsstring>
+        <name>ResponsibleRealtor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/UploadAPI2Controller.cs" line="275" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/UploadAPI2Controller.cs" bodystart="275" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1a8c124fc43358b9b32cedccc498dd59d7" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.Controllers.UploadParameters.Area</definition>
+        <argsstring></argsstring>
+        <name>Area</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/UploadAPI2Controller.cs" line="279" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/UploadAPI2Controller.cs" bodystart="279" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1a99ab7d6f9cd80bab4f88b93a71881ba7" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Webassistenten_ads_api.Controllers.UploadParameters.Type</definition>
+        <argsstring></argsstring>
+        <name>Type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/UploadAPI2Controller.cs" line="283" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/UploadAPI2Controller.cs" bodystart="283" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1a69a8a2f24d487793b00c5da7e3396012" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Webassistenten_ads_api.Controllers.UploadParameters.Price</definition>
+        <argsstring></argsstring>
+        <name>Price</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/UploadAPI2Controller.cs" line="287" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/UploadAPI2Controller.cs" bodystart="287" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1a8cd1a399a7bb96dd9d88f796955b0ecc" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.Controllers.UploadParameters.Location</definition>
+        <argsstring></argsstring>
+        <name>Location</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/UploadAPI2Controller.cs" line="291" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/UploadAPI2Controller.cs" bodystart="291" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1abf94d0237631abba826e986a769b454f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.Controllers.UploadParameters.Headline</definition>
+        <argsstring></argsstring>
+        <name>Headline</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/UploadAPI2Controller.cs" line="295" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/UploadAPI2Controller.cs" bodystart="295" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1af4a7168b8294ff5915f82e6c6da274a9" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.Controllers.UploadParameters.Address</definition>
+        <argsstring></argsstring>
+        <name>Address</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/UploadAPI2Controller.cs" line="299" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/UploadAPI2Controller.cs" bodystart="299" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1a84f14bbc7ec5e6d17e7e616a4d1915be" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Webassistenten_ads_api.Controllers.UploadParameters.ZipCode</definition>
+        <argsstring></argsstring>
+        <name>ZipCode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/UploadAPI2Controller.cs" line="303" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/UploadAPI2Controller.cs" bodystart="303" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1af4576ec7b88cbc3940011f6aab4637e4" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.Controllers.UploadParameters.ZipArea</definition>
+        <argsstring></argsstring>
+        <name>ZipArea</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/UploadAPI2Controller.cs" line="307" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/UploadAPI2Controller.cs" bodystart="307" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1a87058ffb44ab07a91e3ca71fa621f271" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>DateTime</type>
+        <definition>DateTime Webassistenten_ads_api.Controllers.UploadParameters.BookingDate</definition>
+        <argsstring></argsstring>
+        <name>BookingDate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/UploadAPI2Controller.cs" line="311" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/UploadAPI2Controller.cs" bodystart="311" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1a477d621f2c4cfba6a6e4de31e0c7481d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.Controllers.UploadParameters.FinnCode</definition>
+        <argsstring></argsstring>
+        <name>FinnCode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/UploadAPI2Controller.cs" line="316" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/UploadAPI2Controller.cs" bodystart="316" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1aad52feb11750b5df960a43f4fe995839" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.Controllers.UploadParameters.ContractNr</definition>
+        <argsstring></argsstring>
+        <name>ContractNr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/UploadAPI2Controller.cs" line="319" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/UploadAPI2Controller.cs" bodystart="319" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1a2c4a79a1f1a71914d3757a4ae9505df2" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>long</type>
+        <definition>long Webassistenten_ads_api.Controllers.UploadParameters.P_Rom</definition>
+        <argsstring></argsstring>
+        <name>P_Rom</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/UploadAPI2Controller.cs" line="322" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/UploadAPI2Controller.cs" bodystart="322" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1af5d435fc16b2632d571d120e4727a6ca" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>long</type>
+        <definition>long Webassistenten_ads_api.Controllers.UploadParameters.Boa</definition>
+        <argsstring></argsstring>
+        <name>Boa</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/UploadAPI2Controller.cs" line="325" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/UploadAPI2Controller.cs" bodystart="325" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1ab6108cb3477304c393ffb2133fc82d88" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>long</type>
+        <definition>long Webassistenten_ads_api.Controllers.UploadParameters.Bta</definition>
+        <argsstring></argsstring>
+        <name>Bta</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/UploadAPI2Controller.cs" line="328" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/UploadAPI2Controller.cs" bodystart="328" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1afc92bc3364385a67d767265d5442a8b9" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>long</type>
+        <definition>long Webassistenten_ads_api.Controllers.UploadParameters.Bra</definition>
+        <argsstring></argsstring>
+        <name>Bra</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/UploadAPI2Controller.cs" line="331" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/UploadAPI2Controller.cs" bodystart="331" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1ad0cbdcea332d878494982833837ea26b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Webassistenten_ads_api.Controllers.UploadParameters.Costs</definition>
+        <argsstring></argsstring>
+        <name>Costs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/UploadAPI2Controller.cs" line="334" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/UploadAPI2Controller.cs" bodystart="334" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1a3ed420ba94233e1293effe9a83bb9d66" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Webassistenten_ads_api.Controllers.UploadParameters.PurchaseCosts</definition>
+        <argsstring></argsstring>
+        <name>PurchaseCosts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/UploadAPI2Controller.cs" line="337" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/UploadAPI2Controller.cs" bodystart="337" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1a01d43c16ac93368703e2f7bff4105d76" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Webassistenten_ads_api.Controllers.UploadParameters.CommonCosts</definition>
+        <argsstring></argsstring>
+        <name>CommonCosts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/UploadAPI2Controller.cs" line="340" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/UploadAPI2Controller.cs" bodystart="340" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1a10c42135c59b8d3f426b97a25c05d2c1" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Webassistenten_ads_api.Controllers.UploadParameters.AmountSharedDebt</definition>
+        <argsstring></argsstring>
+        <name>AmountSharedDebt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/UploadAPI2Controller.cs" line="343" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/UploadAPI2Controller.cs" bodystart="343" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1ac607a9792a1ca479e69c993103748b56" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Webassistenten_ads_api.Controllers.UploadParameters.CommonExpenses</definition>
+        <argsstring></argsstring>
+        <name>CommonExpenses</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/UploadAPI2Controller.cs" line="346" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/UploadAPI2Controller.cs" bodystart="346" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1a5ff3f361d0c0283acec8a66b8bfda525" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Webassistenten_ads_api.Controllers.UploadParameters.PropertyArea</definition>
+        <argsstring></argsstring>
+        <name>PropertyArea</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/UploadAPI2Controller.cs" line="349" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/UploadAPI2Controller.cs" bodystart="349" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1a2ffe2f7ee86357dfdd1d76d13b5e49e9" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Webassistenten_ads_api.Controllers.UploadParameters.PropertyType</definition>
+        <argsstring></argsstring>
+        <name>PropertyType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/UploadAPI2Controller.cs" line="352" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/UploadAPI2Controller.cs" bodystart="352" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1acbdb2164f155c34c1221ab11bcdc4482" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>DateTime</type>
+        <definition>DateTime Webassistenten_ads_api.Controllers.UploadParameters.ConstructionYear</definition>
+        <argsstring></argsstring>
+        <name>ConstructionYear</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/UploadAPI2Controller.cs" line="355" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/UploadAPI2Controller.cs" bodystart="355" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1addd1dceeda96171b4d68b8ee1aee5a48" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Webassistenten_ads_api.Controllers.UploadParameters.Floor</definition>
+        <argsstring></argsstring>
+        <name>Floor</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/UploadAPI2Controller.cs" line="358" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/UploadAPI2Controller.cs" bodystart="358" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1a282c122d405d517c4ea29125bcf1b05d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Webassistenten_ads_api.Controllers.UploadParameters.Bedrooms</definition>
+        <argsstring></argsstring>
+        <name>Bedrooms</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/UploadAPI2Controller.cs" line="361" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/UploadAPI2Controller.cs" bodystart="361" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1a443f6583fd6cf8a0d9dc7f6e27baaa81" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Webassistenten_ads_api.Controllers.UploadParameters.Rooms</definition>
+        <argsstring></argsstring>
+        <name>Rooms</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/UploadAPI2Controller.cs" line="364" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/UploadAPI2Controller.cs" bodystart="364" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1a8ef1b2833a3960e68a4c5414cf4c5d85" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>DateTime</type>
+        <definition>DateTime Webassistenten_ads_api.Controllers.UploadParameters.OpenHouseDate</definition>
+        <argsstring></argsstring>
+        <name>OpenHouseDate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/UploadAPI2Controller.cs" line="367" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/UploadAPI2Controller.cs" bodystart="367" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1a33ece58aa4abfd16f0260ec100d98792" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.Controllers.UploadParameters.OpenHouseText</definition>
+        <argsstring></argsstring>
+        <name>OpenHouseText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/UploadAPI2Controller.cs" line="370" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/UploadAPI2Controller.cs" bodystart="370" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1ae0971c539459b881efe6345ee1a39aa7" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.Controllers.UploadParameters.RealEstAgentName</definition>
+        <argsstring></argsstring>
+        <name>RealEstAgentName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/UploadAPI2Controller.cs" line="373" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/UploadAPI2Controller.cs" bodystart="373" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1ad9b4b052a4962c23dcad15477bc39060" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.Controllers.UploadParameters.RealEstAgentTitle</definition>
+        <argsstring></argsstring>
+        <name>RealEstAgentTitle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/UploadAPI2Controller.cs" line="376" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/UploadAPI2Controller.cs" bodystart="376" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1ace8370f23998d22b0c1419e93cd6be2a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Webassistenten_ads_api.Controllers.UploadParameters.RealEstAgentMobile</definition>
+        <argsstring></argsstring>
+        <name>RealEstAgentMobile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/UploadAPI2Controller.cs" line="379" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/UploadAPI2Controller.cs" bodystart="379" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1a3e74cefbf8dea9ba1a68513c97e054f0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Webassistenten_ads_api.Controllers.UploadParameters.RealEstAgentPhone</definition>
+        <argsstring></argsstring>
+        <name>RealEstAgentPhone</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/UploadAPI2Controller.cs" line="382" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/UploadAPI2Controller.cs" bodystart="382" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1acfc2d443afb720e6210193fd41cb26d3" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.Controllers.UploadParameters.RealEstAgentEmail</definition>
+        <argsstring></argsstring>
+        <name>RealEstAgentEmail</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/UploadAPI2Controller.cs" line="385" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/UploadAPI2Controller.cs" bodystart="385" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1ab85b5dcfd007555cf55262853f94bfbb" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.Controllers.UploadParameters.AdText</definition>
+        <argsstring></argsstring>
+        <name>AdText</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/UploadAPI2Controller.cs" line="388" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/UploadAPI2Controller.cs" bodystart="388" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>This class contains all the parameters needed for the Upload method. Its purpose is input for that method. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/UploadAPI2Controller.cs" line="259" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/UploadAPI2Controller.cs" bodystart="258" bodyend="389"/>
+    <listofallmembers>
+      <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1af4a7168b8294ff5915f82e6c6da274a9" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Controllers::UploadParameters</scope><name>Address</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1ab85b5dcfd007555cf55262853f94bfbb" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Controllers::UploadParameters</scope><name>AdText</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1a10c42135c59b8d3f426b97a25c05d2c1" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Controllers::UploadParameters</scope><name>AmountSharedDebt</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1a8c124fc43358b9b32cedccc498dd59d7" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Controllers::UploadParameters</scope><name>Area</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1a282c122d405d517c4ea29125bcf1b05d" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Controllers::UploadParameters</scope><name>Bedrooms</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1af5d435fc16b2632d571d120e4727a6ca" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Controllers::UploadParameters</scope><name>Boa</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1a87058ffb44ab07a91e3ca71fa621f271" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Controllers::UploadParameters</scope><name>BookingDate</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1afc92bc3364385a67d767265d5442a8b9" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Controllers::UploadParameters</scope><name>Bra</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1ab6108cb3477304c393ffb2133fc82d88" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Controllers::UploadParameters</scope><name>Bta</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1a01d43c16ac93368703e2f7bff4105d76" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Controllers::UploadParameters</scope><name>CommonCosts</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1ac607a9792a1ca479e69c993103748b56" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Controllers::UploadParameters</scope><name>CommonExpenses</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1acbdb2164f155c34c1221ab11bcdc4482" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Controllers::UploadParameters</scope><name>ConstructionYear</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1aad52feb11750b5df960a43f4fe995839" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Controllers::UploadParameters</scope><name>ContractNr</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1ad0cbdcea332d878494982833837ea26b" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Controllers::UploadParameters</scope><name>Costs</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1a477d621f2c4cfba6a6e4de31e0c7481d" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Controllers::UploadParameters</scope><name>FinnCode</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1addd1dceeda96171b4d68b8ee1aee5a48" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Controllers::UploadParameters</scope><name>Floor</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1abf94d0237631abba826e986a769b454f" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Controllers::UploadParameters</scope><name>Headline</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1a8cd1a399a7bb96dd9d88f796955b0ecc" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Controllers::UploadParameters</scope><name>Location</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1a5bb34fc7bb1f281c41b1aeb4f8a79ad3" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Controllers::UploadParameters</scope><name>ModuleId</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1a8ef1b2833a3960e68a4c5414cf4c5d85" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Controllers::UploadParameters</scope><name>OpenHouseDate</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1a33ece58aa4abfd16f0260ec100d98792" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Controllers::UploadParameters</scope><name>OpenHouseText</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1a2c4a79a1f1a71914d3757a4ae9505df2" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Controllers::UploadParameters</scope><name>P_Rom</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1a69a8a2f24d487793b00c5da7e3396012" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Controllers::UploadParameters</scope><name>Price</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1a1fff8828691009f95dceb54dea3f6d9b" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Controllers::UploadParameters</scope><name>ProductId</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1a5ff3f361d0c0283acec8a66b8bfda525" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Controllers::UploadParameters</scope><name>PropertyArea</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1a2ffe2f7ee86357dfdd1d76d13b5e49e9" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Controllers::UploadParameters</scope><name>PropertyType</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1a3ed420ba94233e1293effe9a83bb9d66" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Controllers::UploadParameters</scope><name>PurchaseCosts</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1acfc2d443afb720e6210193fd41cb26d3" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Controllers::UploadParameters</scope><name>RealEstAgentEmail</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1ace8370f23998d22b0c1419e93cd6be2a" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Controllers::UploadParameters</scope><name>RealEstAgentMobile</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1ae0971c539459b881efe6345ee1a39aa7" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Controllers::UploadParameters</scope><name>RealEstAgentName</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1a3e74cefbf8dea9ba1a68513c97e054f0" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Controllers::UploadParameters</scope><name>RealEstAgentPhone</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1ad9b4b052a4962c23dcad15477bc39060" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Controllers::UploadParameters</scope><name>RealEstAgentTitle</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1a82073300d11296b5ff02ef7b55055014" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Controllers::UploadParameters</scope><name>RealtorId</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1a80298590db2f0f5c7ad7d73ae50db326" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Controllers::UploadParameters</scope><name>ResponsibleRealtor</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1a443f6583fd6cf8a0d9dc7f6e27baaa81" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Controllers::UploadParameters</scope><name>Rooms</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1a99ab7d6f9cd80bab4f88b93a71881ba7" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Controllers::UploadParameters</scope><name>Type</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1af4576ec7b88cbc3940011f6aab4637e4" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Controllers::UploadParameters</scope><name>ZipArea</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1a84f14bbc7ec5e6d17e7e616a4d1915be" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Controllers::UploadParameters</scope><name>ZipCode</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

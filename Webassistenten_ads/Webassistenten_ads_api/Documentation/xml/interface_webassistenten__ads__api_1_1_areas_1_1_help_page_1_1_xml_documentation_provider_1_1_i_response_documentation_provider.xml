@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="interface_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_xml_documentation_provider_1_1_i_response_documentation_provider" kind="interface" prot="public">
+    <compoundname>Webassistenten_ads_api::Areas::HelpPage::XmlDocumentationProvider::IResponseDocumentationProvider</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_xml_documentation_provider_1_1_i_response_documentation_provider_1a8a54076f5172af2ed48fb8f14b4e4623" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.Areas.HelpPage.XmlDocumentationProvider.IResponseDocumentationProvider.GetResponseDocumentation</definition>
+        <argsstring>(HttpActionDescriptor actionDescriptor)</argsstring>
+        <name>GetResponseDocumentation</name>
+        <param>
+          <type>HttpActionDescriptor</type>
+          <declname>actionDescriptor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/XmlDocumentationProvider.cs" line="24"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/XmlDocumentationProvider.cs" line="23" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/XmlDocumentationProvider.cs" bodystart="22" bodyend="25"/>
+    <listofallmembers>
+      <member refid="interface_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_xml_documentation_provider_1_1_i_response_documentation_provider_1a8a54076f5172af2ed48fb8f14b4e4623" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Areas::HelpPage::XmlDocumentationProvider::IResponseDocumentationProvider</scope><name>GetResponseDocumentation</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

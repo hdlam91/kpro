@@ -171,7 +171,7 @@
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/DataModel.cs" line="12" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/DataModel.cs" bodystart="11" bodyend="66"/>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/DataModel.cs" line="12" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Models/DataModel.cs" bodystart="11" bodyend="60"/>
     <listofallmembers>
       <member refid="class_webassistenten__ads__api_1_1_models_1_1_data_model_1aa06c422b15671d9d16964c524c3b776c" prot="private" virt="non-virtual"><scope>Webassistenten_ads_api::Models::DataModel</scope><name>auth</name></member>
       <member refid="class_webassistenten__ads__api_1_1_models_1_1_data_model_1ae6069efe446a89987109950cea3bde3a" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Models::DataModel</scope><name>checkId</name></member>

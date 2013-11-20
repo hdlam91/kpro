@@ -34,7 +34,7 @@
 <codeline lineno="22"><highlight class="normal"></highlight></codeline>
 <codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>json<sp/>=<sp/>config.Formatters.JsonFormatter;</highlight></codeline>
 <codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>json.SerializerSettings.PreserveReferencesHandling<sp/>=<sp/>Newtonsoft.Json.PreserveReferencesHandling.Objects;</highlight></codeline>
-<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>config.Formatters.Remove(config.Formatters.XmlFormatter);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//config.Formatters.Remove(config.Formatters.XmlFormatter);</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="26"><highlight class="normal"></highlight></codeline>
 <codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>To<sp/>disable<sp/>tracing<sp/>in<sp/>your<sp/>application,<sp/>please<sp/>comment<sp/>out<sp/>or<sp/>remove<sp/>the<sp/>following<sp/>line<sp/>of<sp/>code</highlight><highlight class="normal"></highlight></codeline>
 <codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//<sp/>For<sp/>more<sp/>information,<sp/>refer<sp/>to:<sp/>http://www.asp.net/web-api</highlight><highlight class="normal"></highlight></codeline>

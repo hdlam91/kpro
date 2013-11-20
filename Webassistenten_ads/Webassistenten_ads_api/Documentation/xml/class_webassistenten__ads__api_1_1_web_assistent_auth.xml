@@ -97,7 +97,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/WebAssistentAuth.cs" line="58" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/WebAssistentAuth.cs" bodystart="57" bodyend="80"/>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/WebAssistentAuth.cs" line="58" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/WebAssistentAuth.cs" bodystart="57" bodyend="79"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -105,30 +105,30 @@
     <detaileddescription>
     </detaileddescription>
     <inheritancegraph>
-      <node id="588">
+      <node id="584">
         <label>Authentication</label>
         <link refid="interface_webassistenten__ads__api_1_1_authentication"/>
       </node>
-      <node id="587">
+      <node id="583">
         <label>Webassistenten_ads_api.WebAssistentAuth</label>
         <link refid="class_webassistenten__ads__api_1_1_web_assistent_auth"/>
-        <childnode refid="588" relation="public-inheritance">
+        <childnode refid="584" relation="public-inheritance">
         </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
-      <node id="590">
+      <node id="586">
         <label>Authentication</label>
         <link refid="interface_webassistenten__ads__api_1_1_authentication"/>
       </node>
-      <node id="589">
+      <node id="585">
         <label>Webassistenten_ads_api.WebAssistentAuth</label>
         <link refid="class_webassistenten__ads__api_1_1_web_assistent_auth"/>
-        <childnode refid="590" relation="public-inheritance">
+        <childnode refid="586" relation="public-inheritance">
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/WebAssistentAuth.cs" line="12" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/WebAssistentAuth.cs" bodystart="11" bodyend="82"/>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/WebAssistentAuth.cs" line="12" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/WebAssistentAuth.cs" bodystart="11" bodyend="81"/>
     <listofallmembers>
       <member refid="class_webassistenten__ads__api_1_1_web_assistent_auth_1a634849e8fe3c28ea6218ce11c4289913" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::WebAssistentAuth</scope><name>AuthId</name></member>
       <member refid="class_webassistenten__ads__api_1_1_web_assistent_auth_1af2ec90cd6c7217168f0d16e402328147" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::WebAssistentAuth</scope><name>EmailAuthenticate</name></member>

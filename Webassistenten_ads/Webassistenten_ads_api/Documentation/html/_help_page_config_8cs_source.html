@@ -116,7 +116,8 @@ $(document).ready(function(){initNavTree('_help_page_config_8cs_source.html','')
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;    {</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;        <span class="keyword">public</span> <span class="keyword">static</span> <span class="keywordtype">void</span> Register(HttpConfiguration config)</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;        {</div>
-<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;            <span class="comment">//config.SetDocumentationProvider(new XmlDocumentationProvider(HttpContext.Current.Server.MapPath(&quot;~/App_Data/XmlDocument.xml&quot;)));</span></div>
+<div class="line"><a name="l00018"></a><span class="lineno">   18</span>&#160;            <span class="comment">// Uncomment the following to use the documentation from XML documentation file.</span></div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;            config.SetDocumentationProvider(<span class="keyword">new</span> XmlDocumentationProvider(HttpContext.Current.Server.MapPath(<span class="stringliteral">&quot;~/App_Data/XmlDocument.xml&quot;</span>)));</div>
 <div class="line"><a name="l00020"></a><span class="lineno">   20</span>&#160;</div>
 <div class="line"><a name="l00024"></a><span class="lineno">   24</span>&#160;            <span class="comment">//config.SetSampleObjects(new Dictionary&lt;Type, object&gt;</span></div>
 <div class="line"><a name="l00025"></a><span class="lineno">   25</span>&#160;            <span class="comment">//{</span></div>
@@ -124,7 +125,9 @@ $(document).ready(function(){initNavTree('_help_page_config_8cs_source.html','')
 <div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;            <span class="comment">//    {typeof(IEnumerable&lt;string&gt;), new string[]{&quot;sample 1&quot;, &quot;sample 2&quot;}}</span></div>
 <div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;            <span class="comment">//});</span></div>
 <div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;</div>
-<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;            <span class="comment">//config.SetSampleForType(&quot;[0]=foo&amp;[1]=bar&quot;, new MediaTypeHeaderValue(&quot;application/x-www-form-urlencoded&quot;), typeof(IEnumerable&lt;string&gt;));</span></div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;            <span class="comment">// Uncomment the following to use &quot;[0]=foo&amp;[1]=bar&quot; directly as the sample for all actions that support form URL encoded format</span></div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;            <span class="comment">// and have IEnumerable&lt;string&gt; as the body parameter or return type.</span></div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;            config.SetSampleForType(<span class="stringliteral">&quot;[0]=foo&amp;[1]=bar&quot;</span>, <span class="keyword">new</span> MediaTypeHeaderValue(<span class="stringliteral">&quot;application/x-www-form-urlencoded&quot;</span>), typeof(IEnumerable&lt;string&gt;));</div>
 <div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;</div>
 <div class="line"><a name="l00036"></a><span class="lineno">   36</span>&#160;            <span class="comment">//config.SetSampleRequest(&quot;1234&quot;, new MediaTypeHeaderValue(&quot;text/plain&quot;), &quot;Values&quot;, &quot;Put&quot;);</span></div>
 <div class="line"><a name="l00037"></a><span class="lineno">   37</span>&#160;</div>
@@ -142,7 +145,7 @@ $(document).ready(function(){initNavTree('_help_page_config_8cs_source.html','')
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_55af2469e37fd8d950761685eeffbbf4.html">Areas</a></li><li class="navelem"><a class="el" href="dir_eb418c336a527ba2b90b3931e03a7bfc.html">HelpPage</a></li><li class="navelem"><a class="el" href="dir_a3dd883d757bec5648f4c1441ee775e3.html">App_Start</a></li><li class="navelem"><b>HelpPageConfig.cs</b></li>
-    <li class="footer">Generated on Wed Nov 13 2013 10:56:24 for Webassistenten WebAPI by
+    <li class="footer">Generated on Thu Nov 21 2013 00:06:10 for Webassistenten WebAPI by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

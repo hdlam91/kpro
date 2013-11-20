@@ -116,8 +116,8 @@ $(document).ready(function(){initNavTree('class_webassistenten__ads__api_1_1_con
 Public Member Functions</h2></td></tr>
 <tr class="memitem:af561920a5d908b6c42b20d68a375698c"><td class="memItemLeft" align="right" valign="top">ActionResult&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_webassistenten__ads__api_1_1_controllers_1_1_master_controller.html#af561920a5d908b6c42b20d68a375698c">Index</a> ()</td></tr>
 <tr class="memdesc:af561920a5d908b6c42b20d68a375698c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Index method for login/identifying  <a href="#af561920a5d908b6c42b20d68a375698c"></a><br/></td></tr>
-<tr class="memitem:a463676025e1d96658aa84d25fd386367"><td class="memItemLeft" align="right" valign="top">ActionResult&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_webassistenten__ads__api_1_1_controllers_1_1_master_controller.html#a463676025e1d96658aa84d25fd386367">Upload</a> (int ProductId, string ResponsibleRealtor, string Area, int Type, int Price, string Location, string Headline, string Address, int ZipCode, string ZipArea, DateTime BookingDate, DateTime?OpenHouseDate, DateTime?ConstructionYear, int FinnCode=0, int ContractNr=0, float P_rom=0, float Boa=0, float Bta=0, float Bra=0, int Costs=0, int PurchaseCosts=0, int CommonCosts=0, int AmountSharedDebt=0, int CommonExpenses=0, int PropertyArea=0, string PropertyType=&quot;&quot;, int Floor=0, int Bedrooms=0, int Rooms=0, string OpenHouseText=&quot;&quot;, string RealEstAgentName=&quot;&quot;, string RealEstAgentTitle=&quot;&quot;, int RealEstAgentMobile=0, int RealEstAgentPhone=0, string RealEstAgentEmail=&quot;&quot;, string AdText=&quot;&quot;)</td></tr>
-<tr class="memdesc:a463676025e1d96658aa84d25fd386367"><td class="mdescLeft">&#160;</td><td class="mdescRight">Accepts a HttpPost with an ad pdf, and the information that belongs to it.  <a href="#a463676025e1d96658aa84d25fd386367"></a><br/></td></tr>
+<tr class="memitem:a801735e7551b28b7731d3eeb7b0afe20"><td class="memItemLeft" align="right" valign="top">ActionResult&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_webassistenten__ads__api_1_1_controllers_1_1_master_controller.html#a801735e7551b28b7731d3eeb7b0afe20">Upload</a> (int ProductId, int ModuleId, string ResponsibleRealtor, string Area, int Type, int Price, string Location, string Headline, string Address, int ZipCode, string ZipArea, DateTime BookingDate, DateTime?OpenHouseDate, DateTime?ConstructionYear, string FinnCode=&quot;&quot;, string ContractNr=&quot;&quot;, long P_rom=0, long Boa=0, long Bta=0, long Bra=0, int Costs=0, int PurchaseCosts=0, int CommonCosts=0, int AmountSharedDebt=0, int CommonExpenses=0, int PropertyArea=0, string PropertyType=&quot;&quot;, int Floor=0, int Bedrooms=0, int Rooms=0, string OpenHouseText=&quot;&quot;, string RealEstAgentName=&quot;&quot;, string RealEstAgentTitle=&quot;&quot;, int RealEstAgentMobile=0, int RealEstAgentPhone=0, string RealEstAgentEmail=&quot;&quot;, string AdText=&quot;&quot;)</td></tr>
+<tr class="memdesc:a801735e7551b28b7731d3eeb7b0afe20"><td class="mdescLeft">&#160;</td><td class="mdescRight">Accepts a HttpPost with an ad pdf, and the information that belongs to it.  <a href="#a801735e7551b28b7731d3eeb7b0afe20"></a><br/></td></tr>
 <tr class="memitem:a9b09d23e1af5283e9aaaf9c0ff9e7fc2"><td class="memItemLeft" align="right" valign="top">ActionResult&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_webassistenten__ads__api_1_1_controllers_1_1_master_controller.html#a9b09d23e1af5283e9aaaf9c0ff9e7fc2">AddNewAd</a> (int ProductId)</td></tr>
 <tr class="memdesc:a9b09d23e1af5283e9aaaf9c0ff9e7fc2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Passes the datamodel to the view.  <a href="#a9b09d23e1af5283e9aaaf9c0ff9e7fc2"></a><br/></td></tr>
 <tr class="memitem:a7e4e874d0921855fd54bd1e2f002e909"><td class="memItemLeft" align="right" valign="top">ActionResult&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_webassistenten__ads__api_1_1_controllers_1_1_master_controller.html#a7e4e874d0921855fd54bd1e2f002e909">ChooseProduct</a> (string email, int id)</td></tr>
@@ -130,7 +130,7 @@ Public Member Functions</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
 <tr class="memitem:a6725b9bb4f2be16c460fd6107496a720"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6725b9bb4f2be16c460fd6107496a720"></a>
-static string&#160;</td><td class="memItemRight" valign="bottom"><b>folder</b> = &quot;~/hdTest/&quot;</td></tr>
+static string&#160;</td><td class="memItemRight" valign="bottom"><b>folder</b> = Constants.FOLDER</td></tr>
 </table>
 <a name="details" id="details"></a><h2>Detailed Description</h2>
 <div class="textblock">
@@ -159,7 +159,7 @@ static string&#160;</td><td class="memItemRight" valign="bottom"><b>folder</b> =
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>AddNewAdView</dd></dl>
 
-<p>Definition at line <a class="el" href="_master_controller_8cs_source.html#l00156">156</a> of file <a class="el" href="_master_controller_8cs_source.html">MasterController.cs</a>.</p>
+<p>Definition at line <a class="el" href="_master_controller_8cs_source.html#l00184">184</a> of file <a class="el" href="_master_controller_8cs_source.html">MasterController.cs</a>.</p>
 
 </div>
 </div>
@@ -197,7 +197,7 @@ static string&#160;</td><td class="memItemRight" valign="bottom"><b>folder</b> =
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>ChooseModuleView</dd></dl>
 
-<p>Definition at line <a class="el" href="_master_controller_8cs_source.html#l00172">172</a> of file <a class="el" href="_master_controller_8cs_source.html">MasterController.cs</a>.</p>
+<p>Definition at line <a class="el" href="_master_controller_8cs_source.html#l00200">200</a> of file <a class="el" href="_master_controller_8cs_source.html">MasterController.cs</a>.</p>
 
 </div>
 </div>
@@ -217,7 +217,7 @@ static string&#160;</td><td class="memItemRight" valign="bottom"><b>folder</b> =
 <p>Something missing or wrong with the datainput </p>
 <dl class="section return"><dt>Returns</dt><dd>FailView</dd></dl>
 
-<p>Definition at line <a class="el" href="_master_controller_8cs_source.html#l00191">191</a> of file <a class="el" href="_master_controller_8cs_source.html">MasterController.cs</a>.</p>
+<p>Definition at line <a class="el" href="_master_controller_8cs_source.html#l00219">219</a> of file <a class="el" href="_master_controller_8cs_source.html">MasterController.cs</a>.</p>
 
 </div>
 </div>
@@ -237,7 +237,7 @@ static string&#160;</td><td class="memItemRight" valign="bottom"><b>folder</b> =
 <p>Index method for login/identifying </p>
 <dl class="section return"><dt>Returns</dt><dd>IndexView</dd></dl>
 
-<p>Definition at line <a class="el" href="_master_controller_8cs_source.html#l00044">44</a> of file <a class="el" href="_master_controller_8cs_source.html">MasterController.cs</a>.</p>
+<p>Definition at line <a class="el" href="_master_controller_8cs_source.html#l00032">32</a> of file <a class="el" href="_master_controller_8cs_source.html">MasterController.cs</a>.</p>
 
 </div>
 </div>
@@ -257,11 +257,11 @@ static string&#160;</td><td class="memItemRight" valign="bottom"><b>folder</b> =
 <p>Everything went right with inserting data/file </p>
 <dl class="section return"><dt>Returns</dt><dd>SuccessView</dd></dl>
 
-<p>Definition at line <a class="el" href="_master_controller_8cs_source.html#l00199">199</a> of file <a class="el" href="_master_controller_8cs_source.html">MasterController.cs</a>.</p>
+<p>Definition at line <a class="el" href="_master_controller_8cs_source.html#l00227">227</a> of file <a class="el" href="_master_controller_8cs_source.html">MasterController.cs</a>.</p>
 
 </div>
 </div>
-<a class="anchor" id="a463676025e1d96658aa84d25fd386367"></a>
+<a class="anchor" id="a801735e7551b28b7731d3eeb7b0afe20"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -270,6 +270,12 @@ static string&#160;</td><td class="memItemRight" valign="bottom"><b>folder</b> =
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>ProductId</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>ModuleId</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -346,37 +352,37 @@ static string&#160;</td><td class="memItemRight" valign="bottom"><b>folder</b> =
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>FinnCode</em> = <code>0</code>, </td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>FinnCode</em> = <code>&quot;&quot;</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>ContractNr</em> = <code>0</code>, </td>
+          <td class="paramtype">string&#160;</td>
+          <td class="paramname"><em>ContractNr</em> = <code>&quot;&quot;</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">float&#160;</td>
+          <td class="paramtype">long&#160;</td>
           <td class="paramname"><em>P_rom</em> = <code>0</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">float&#160;</td>
+          <td class="paramtype">long&#160;</td>
           <td class="paramname"><em>Boa</em> = <code>0</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">float&#160;</td>
+          <td class="paramtype">long&#160;</td>
           <td class="paramname"><em>Bta</em> = <code>0</code>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">float&#160;</td>
+          <td class="paramtype">long&#160;</td>
           <td class="paramname"><em>Bra</em> = <code>0</code>, </td>
         </tr>
         <tr>
@@ -492,48 +498,49 @@ static string&#160;</td><td class="memItemRight" valign="bottom"><b>folder</b> =
 <p>Accepts a HttpPost with an ad pdf, and the information that belongs to it. </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">ProductId</td><td></td></tr>
-    <tr><td class="paramname">ResponsibleRealtor</td><td></td></tr>
-    <tr><td class="paramname">Area</td><td></td></tr>
-    <tr><td class="paramname">Type</td><td></td></tr>
-    <tr><td class="paramname">Price</td><td></td></tr>
-    <tr><td class="paramname">Location</td><td></td></tr>
-    <tr><td class="paramname">Headline</td><td></td></tr>
-    <tr><td class="paramname">Address</td><td></td></tr>
-    <tr><td class="paramname">ZipCode</td><td></td></tr>
-    <tr><td class="paramname">ZipArea</td><td></td></tr>
-    <tr><td class="paramname">BookingDate</td><td></td></tr>
-    <tr><td class="paramname">OpenHouseDate</td><td></td></tr>
-    <tr><td class="paramname">ConstructionYear</td><td></td></tr>
-    <tr><td class="paramname">FinnCode</td><td></td></tr>
-    <tr><td class="paramname">ContractNr</td><td></td></tr>
-    <tr><td class="paramname">P_rom</td><td></td></tr>
-    <tr><td class="paramname">Boa</td><td></td></tr>
-    <tr><td class="paramname">Bta</td><td></td></tr>
-    <tr><td class="paramname">Bra</td><td></td></tr>
-    <tr><td class="paramname">Costs</td><td></td></tr>
-    <tr><td class="paramname">PurchaseCosts</td><td></td></tr>
-    <tr><td class="paramname">CommonCosts</td><td></td></tr>
-    <tr><td class="paramname">AmountSharedDebt</td><td></td></tr>
-    <tr><td class="paramname">CommonExpenses</td><td></td></tr>
-    <tr><td class="paramname">PropertyArea</td><td></td></tr>
-    <tr><td class="paramname">PropertyType</td><td></td></tr>
-    <tr><td class="paramname">Floor</td><td></td></tr>
-    <tr><td class="paramname">Bedrooms</td><td></td></tr>
-    <tr><td class="paramname">Rooms</td><td></td></tr>
-    <tr><td class="paramname">OpenHouseText</td><td></td></tr>
-    <tr><td class="paramname">RealEstAgentName</td><td></td></tr>
-    <tr><td class="paramname">RealEstAgentTitle</td><td></td></tr>
-    <tr><td class="paramname">RealEstAgentMobile</td><td></td></tr>
-    <tr><td class="paramname">RealEstAgentPhone</td><td></td></tr>
-    <tr><td class="paramname">RealEstAgentEmail</td><td></td></tr>
-    <tr><td class="paramname">AdText</td><td></td></tr>
+    <tr><td class="paramname">ProductId</td><td>Required</td></tr>
+    <tr><td class="paramname">ModuleId</td><td>Required</td></tr>
+    <tr><td class="paramname">ResponsibleRealtor</td><td>Required</td></tr>
+    <tr><td class="paramname">Area</td><td>Required</td></tr>
+    <tr><td class="paramname">Type</td><td>Required</td></tr>
+    <tr><td class="paramname">Price</td><td>Required</td></tr>
+    <tr><td class="paramname">Location</td><td>Required</td></tr>
+    <tr><td class="paramname">Headline</td><td>Required</td></tr>
+    <tr><td class="paramname">Address</td><td>Required</td></tr>
+    <tr><td class="paramname">ZipCode</td><td>Required</td></tr>
+    <tr><td class="paramname">ZipArea</td><td>Required</td></tr>
+    <tr><td class="paramname">BookingDate</td><td>Required</td></tr>
+    <tr><td class="paramname">OpenHouseDate</td><td>Optional</td></tr>
+    <tr><td class="paramname">ConstructionYear</td><td>Optional</td></tr>
+    <tr><td class="paramname">FinnCode</td><td>Optional</td></tr>
+    <tr><td class="paramname">ContractNr</td><td>Optional</td></tr>
+    <tr><td class="paramname">P_rom</td><td>Optional</td></tr>
+    <tr><td class="paramname">Boa</td><td>Optional</td></tr>
+    <tr><td class="paramname">Bta</td><td>Optional</td></tr>
+    <tr><td class="paramname">Bra</td><td>Optional</td></tr>
+    <tr><td class="paramname">Costs</td><td>Optional</td></tr>
+    <tr><td class="paramname">PurchaseCosts</td><td>Optional</td></tr>
+    <tr><td class="paramname">CommonCosts</td><td>Optional</td></tr>
+    <tr><td class="paramname">AmountSharedDebt</td><td>Optional</td></tr>
+    <tr><td class="paramname">CommonExpenses</td><td>Optional</td></tr>
+    <tr><td class="paramname">PropertyArea</td><td>Optional</td></tr>
+    <tr><td class="paramname">PropertyType</td><td>Optional</td></tr>
+    <tr><td class="paramname">Floor</td><td>Optional</td></tr>
+    <tr><td class="paramname">Bedrooms</td><td>Optional</td></tr>
+    <tr><td class="paramname">Rooms</td><td>Optional</td></tr>
+    <tr><td class="paramname">OpenHouseText</td><td>Optional</td></tr>
+    <tr><td class="paramname">RealEstAgentName</td><td>Optional</td></tr>
+    <tr><td class="paramname">RealEstAgentTitle</td><td>Optional</td></tr>
+    <tr><td class="paramname">RealEstAgentMobile</td><td>Optional</td></tr>
+    <tr><td class="paramname">RealEstAgentPhone</td><td>Optional</td></tr>
+    <tr><td class="paramname">RealEstAgentEmail</td><td>Optional</td></tr>
+    <tr><td class="paramname">AdText</td><td>Optional</td></tr>
   </table>
   </dd>
 </dl>
 <dl class="section return"><dt>Returns</dt><dd>Redirects</dd></dl>
 
-<p>Definition at line <a class="el" href="_master_controller_8cs_source.html#l00090">90</a> of file <a class="el" href="_master_controller_8cs_source.html">MasterController.cs</a>.</p>
+<p>Definition at line <a class="el" href="_master_controller_8cs_source.html#l00079">79</a> of file <a class="el" href="_master_controller_8cs_source.html">MasterController.cs</a>.</p>
 
 </div>
 </div>
@@ -546,7 +553,7 @@ static string&#160;</td><td class="memItemRight" valign="bottom"><b>folder</b> =
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_webassistenten__ads__api.html">Webassistenten_ads_api</a></li><li class="navelem"><a class="el" href="namespace_webassistenten__ads__api_1_1_controllers.html">Controllers</a></li><li class="navelem"><a class="el" href="class_webassistenten__ads__api_1_1_controllers_1_1_master_controller.html">MasterController</a></li>
-    <li class="footer">Generated on Wed Nov 13 2013 10:56:25 for Webassistenten WebAPI by
+    <li class="footer">Generated on Thu Nov 21 2013 00:06:11 for Webassistenten WebAPI by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

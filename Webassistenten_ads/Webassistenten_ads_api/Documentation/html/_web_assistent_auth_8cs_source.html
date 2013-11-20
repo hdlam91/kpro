@@ -112,8 +112,8 @@ $(document).ready(function(){initNavTree('_web_assistent_auth_8cs_source.html','
 <div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;{</div>
 <div class="line"><a name="l00011"></a><span class="lineno"><a class="code" href="class_webassistenten__ads__api_1_1_web_assistent_auth.html">   11</a></span>&#160;        <span class="keyword">public</span> <span class="keyword">class </span><a class="code" href="class_webassistenten__ads__api_1_1_web_assistent_auth.html" title="Webassistenten authorization class. This class is intended as a simple placeholder for a more complex...">WebAssistentAuth</a> : <a class="code" href="interface_webassistenten__ads__api_1_1_authentication.html" title="Authentication. Implement this interface for any self-made authentication in order to fit in with exi...">Authentication</a></div>
 <div class="line"><a name="l00012"></a><span class="lineno">   12</span>&#160;        {</div>
-<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;                <span class="keyword">public</span> <span class="keywordtype">int</span> AuthId { <span class="keyword">get</span>; <span class="keyword">set</span>; };</div>
-<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;                <span class="keyword">public</span> <span class="keywordtype">bool</span> IsValid { <span class="keyword">get</span>; <span class="keyword">set</span>; };</div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;                <span class="keyword">public</span> <span class="keywordtype">int</span> AuthId { <span class="keyword">get</span>; <span class="keyword">set</span>; }</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160;                <span class="keyword">public</span> <span class="keywordtype">bool</span> IsValid { <span class="keyword">get</span>; <span class="keyword">set</span>; }</div>
 <div class="line"><a name="l00015"></a><span class="lineno">   15</span>&#160;</div>
 <div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;                <span class="keyword">public</span> <a class="code" href="class_webassistenten__ads__api_1_1_web_assistent_auth.html" title="Webassistenten authorization class. This class is intended as a simple placeholder for a more complex...">WebAssistentAuth</a> ()</div>
 <div class="line"><a name="l00017"></a><span class="lineno">   17</span>&#160;                {</div>
@@ -148,39 +148,38 @@ $(document).ready(function(){initNavTree('_web_assistent_auth_8cs_source.html','
 <div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;</div>
 <div class="line"><a name="l00057"></a><span class="lineno"><a class="code" href="class_webassistenten__ads__api_1_1_web_assistent_auth.html#a1adc13e53fb821628765c7c5654e9cf3">   57</a></span>&#160;                <span class="keyword">public</span> <a class="code" href="interface_webassistenten__ads__api_1_1_authentication.html" title="Authentication. Implement this interface for any self-made authentication in order to fit in with exi...">Authentication</a> <a class="code" href="class_webassistenten__ads__api_1_1_web_assistent_auth.html#a1adc13e53fb821628765c7c5654e9cf3" title="Method for authenticating via User ID. ">IdAuthenticate</a>(<span class="keywordtype">int</span> userId)</div>
 <div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;                {</div>
-<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;                        <a class="code" href="class_webassistenten__ads__api_1_1_bolig_entities1.html">BoligEntities1</a> db = <span class="keyword">new</span> <a class="code" href="class_webassistenten__ads__api_1_1_bolig_entities1.html">BoligEntities1</a> ();</div>
-<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;            <a class="code" href="class_webassistenten__ads__api_1_1_bruker.html">Bruker</a> bruker = null;</div>
-<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;            <span class="keywordflow">try</span></div>
-<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;            {</div>
-<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;                        bruker = (from b in db.Brukers</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;                        <a class="code" href="class_webassistenten__ads__api_1_1_bruker.html">Bruker</a> bruker = null;</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160;                        <span class="keyword">using</span> (<a class="code" href="class_webassistenten__ads__api_1_1_bolig_entities1.html">BoligEntities1</a> db = <span class="keyword">new</span> <a class="code" href="class_webassistenten__ads__api_1_1_bolig_entities1.html">BoligEntities1</a> ()) {</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;                                <span class="keywordflow">try</span> </div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;                                {</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;                                        bruker = (from b in db.Brukers</div>
 <div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;                                                        where b.BrukerID == userId</div>
-<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;                                                        select b).First();</div>
-<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;            }</div>
-<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;            <span class="keywordflow">catch</span> (Exception e)</div>
-<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;            {</div>
-<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;            }</div>
-<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;                        <span class="keywordflow">if</span> (bruker != null)</div>
-<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;                        {</div>
-<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;                                AuthId = bruker.PartnerID;</div>
-<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;                                IsValid = <span class="keyword">true</span>;</div>
-<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;                                <span class="keywordflow">return</span> <span class="keyword">this</span>;</div>
-<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;                        }</div>
-<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;                        <span class="keywordflow">else</span></div>
-<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;                        {</div>
-<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;                                <span class="keywordflow">return</span> <span class="keyword">this</span>;</div>
-<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;                        }</div>
-<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;                }</div>
-<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;</div>
-<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;        }</div>
-<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;}</div>
-<div class="line"><a name="l00084"></a><span class="lineno">   84</span>&#160;</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;                                                        select b).First ();</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;                                } <span class="keywordflow">catch</span> (Exception e) {</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;                                }</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;                        }</div>
+<div class="line"><a name="l00069"></a><span class="lineno">   69</span>&#160;                        <span class="keywordflow">if</span> (bruker != null)</div>
+<div class="line"><a name="l00070"></a><span class="lineno">   70</span>&#160;                        {</div>
+<div class="line"><a name="l00071"></a><span class="lineno">   71</span>&#160;                                AuthId = bruker.PartnerID;</div>
+<div class="line"><a name="l00072"></a><span class="lineno">   72</span>&#160;                                IsValid = <span class="keyword">true</span>;</div>
+<div class="line"><a name="l00073"></a><span class="lineno">   73</span>&#160;                                <span class="keywordflow">return</span> <span class="keyword">this</span>;</div>
+<div class="line"><a name="l00074"></a><span class="lineno">   74</span>&#160;                        }</div>
+<div class="line"><a name="l00075"></a><span class="lineno">   75</span>&#160;                        <span class="keywordflow">else</span></div>
+<div class="line"><a name="l00076"></a><span class="lineno">   76</span>&#160;                        {</div>
+<div class="line"><a name="l00077"></a><span class="lineno">   77</span>&#160;                                <span class="keywordflow">return</span> <span class="keyword">this</span>;</div>
+<div class="line"><a name="l00078"></a><span class="lineno">   78</span>&#160;                        }</div>
+<div class="line"><a name="l00079"></a><span class="lineno">   79</span>&#160;                }</div>
+<div class="line"><a name="l00080"></a><span class="lineno">   80</span>&#160;</div>
+<div class="line"><a name="l00081"></a><span class="lineno">   81</span>&#160;        }</div>
+<div class="line"><a name="l00082"></a><span class="lineno">   82</span>&#160;}</div>
+<div class="line"><a name="l00083"></a><span class="lineno">   83</span>&#160;</div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_f719760cd82fe9e637544737e39bde8d.html">Controllers</a></li><li class="navelem"><b>WebAssistentAuth.cs</b></li>
-    <li class="footer">Generated on Wed Nov 13 2013 10:56:24 for Webassistenten WebAPI by
+    <li class="footer">Generated on Thu Nov 21 2013 00:06:10 for Webassistenten WebAPI by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

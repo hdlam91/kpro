@@ -802,10 +802,10 @@
       </memberdef>
       </sectiondef>
       <sectiondef kind="private-static-func">
-      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_configuration_extensions_1a730c767dad59cfa66033eea11a13844d" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_configuration_extensions_1a113d51bd35371384fae9df6a769a965a" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type><ref refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_models_1_1_help_page_api_model" kindref="compound">HelpPageApiModel</ref></type>
         <definition>static HelpPageApiModel Webassistenten_ads_api.Areas.HelpPage.HelpPageConfigurationExtensions.GenerateApiModel</definition>
-        <argsstring>(ApiDescription apiDescription, HelpPageSampleGenerator sampleGenerator)</argsstring>
+        <argsstring>(ApiDescription apiDescription, HelpPageSampleGenerator sampleGenerator, HttpConfiguration config)</argsstring>
         <name>GenerateApiModel</name>
         <param>
           <type>ApiDescription</type>
@@ -815,13 +815,17 @@
           <type><ref refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_sample_generator" kindref="compound">HelpPageSampleGenerator</ref></type>
           <declname>sampleGenerator</declname>
         </param>
+        <param>
+          <type>HttpConfiguration</type>
+          <declname>config</declname>
+        </param>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/HelpPageConfigurationExtensions.cs" line="212" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/HelpPageConfigurationExtensions.cs" bodystart="211" bodyend="236"/>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/HelpPageConfigurationExtensions.cs" line="212" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/HelpPageConfigurationExtensions.cs" bodystart="211" bodyend="244"/>
       </memberdef>
       <memberdef kind="function" id="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_configuration_extensions_1a34203c1601d7e32a9580d7a74ac53967" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type>void</type>
@@ -842,17 +846,17 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/HelpPageConfigurationExtensions.cs" line="239" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/HelpPageConfigurationExtensions.cs" bodystart="238" bodyend="245"/>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/HelpPageConfigurationExtensions.cs" line="247" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/HelpPageConfigurationExtensions.cs" bodystart="246" bodyend="253"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/HelpPageConfigurationExtensions.cs" line="15" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/HelpPageConfigurationExtensions.cs" bodystart="14" bodyend="246"/>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/HelpPageConfigurationExtensions.cs" line="15" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/HelpPageConfigurationExtensions.cs" bodystart="14" bodyend="258"/>
     <listofallmembers>
       <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_configuration_extensions_1a17932c3b8b3430d721942ebd00699620" prot="private" virt="non-virtual"><scope>Webassistenten_ads_api::Areas::HelpPage::HelpPageConfigurationExtensions</scope><name>ApiModelPrefix</name></member>
-      <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_configuration_extensions_1a730c767dad59cfa66033eea11a13844d" prot="private" virt="non-virtual"><scope>Webassistenten_ads_api::Areas::HelpPage::HelpPageConfigurationExtensions</scope><name>GenerateApiModel</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_configuration_extensions_1a113d51bd35371384fae9df6a769a965a" prot="private" virt="non-virtual"><scope>Webassistenten_ads_api::Areas::HelpPage::HelpPageConfigurationExtensions</scope><name>GenerateApiModel</name></member>
       <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_configuration_extensions_1a127baf3e83f6fae8ef250911601e62a4" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Areas::HelpPage::HelpPageConfigurationExtensions</scope><name>GetHelpPageApiModel</name></member>
       <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_configuration_extensions_1a895ea61ed274371697d0063f3c6ebc89" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Areas::HelpPage::HelpPageConfigurationExtensions</scope><name>GetHelpPageSampleGenerator</name></member>
       <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_configuration_extensions_1a34203c1601d7e32a9580d7a74ac53967" prot="private" virt="non-virtual"><scope>Webassistenten_ads_api::Areas::HelpPage::HelpPageConfigurationExtensions</scope><name>LogInvalidSampleAsError</name></member>

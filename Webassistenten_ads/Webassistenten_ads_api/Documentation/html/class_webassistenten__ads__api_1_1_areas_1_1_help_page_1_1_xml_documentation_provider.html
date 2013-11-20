@@ -104,6 +104,7 @@ $(document).ready(function(){initNavTree('class_webassistenten__ads__api_1_1_are
 
 <div class="header">
   <div class="summary">
+<a href="#nested-classes">Classes</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_xml_documentation_provider-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -114,12 +115,18 @@ $(document).ready(function(){initNavTree('class_webassistenten__ads__api_1_1_are
 <p>A custom IDocumentationProvider that reads the API documentation from an XML documentation file.  
  <a href="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_xml_documentation_provider.html#details">More...</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">interface &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="interface_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_xml_documentation_provider_1_1_i_response_documentation_provider.html">IResponseDocumentationProvider</a></td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a8be651ff51b30672f1c27ff5a2d4507e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a8be651ff51b30672f1c27ff5a2d4507e"></a>
+virtual string&#160;</td><td class="memItemRight" valign="bottom"><b>GetResponseDocumentation</b> (HttpActionDescriptor actionDescriptor)</td></tr>
 <tr class="memitem:a5996b8e22706702aaa787df6ef839a98"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_xml_documentation_provider.html#a5996b8e22706702aaa787df6ef839a98">XmlDocumentationProvider</a> (string documentPath)</td></tr>
 <tr class="memdesc:a5996b8e22706702aaa787df6ef839a98"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes a new instance of the <a class="el" href="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_xml_documentation_provider.html" title="A custom IDocumentationProvider that reads the API documentation from an XML documentation file...">XmlDocumentationProvider</a> class.  <a href="#a5996b8e22706702aaa787df6ef839a98"></a><br/></td></tr>
-<tr class="memitem:a6883ef31c6ca03c257cd7456305da123"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6883ef31c6ca03c257cd7456305da123"></a>
-virtual string&#160;</td><td class="memItemRight" valign="bottom"><b>GetDocumentation</b> (HttpActionDescriptor actionDescriptor)</td></tr>
+<tr class="memitem:a6883ef31c6ca03c257cd7456305da123"><td class="memItemLeft" align="right" valign="top">virtual string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_xml_documentation_provider.html#a6883ef31c6ca03c257cd7456305da123">GetDocumentation</a> (HttpActionDescriptor actionDescriptor)</td></tr>
+<tr class="memdesc:a6883ef31c6ca03c257cd7456305da123"><td class="mdescLeft">&#160;</td><td class="mdescRight">Gets the documentation.  <a href="#a6883ef31c6ca03c257cd7456305da123"></a><br/></td></tr>
 <tr class="memitem:a41f3da28885e81ec6cea58b8608bbaf8"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a41f3da28885e81ec6cea58b8608bbaf8"></a>
 virtual string&#160;</td><td class="memItemRight" valign="bottom"><b>GetDocumentation</b> (HttpParameterDescriptor parameterDescriptor)</td></tr>
 </table>
@@ -150,7 +157,43 @@ virtual string&#160;</td><td class="memItemRight" valign="bottom"><b>GetDocument
   </dd>
 </dl>
 
-<p>Definition at line <a class="el" href="_xml_documentation_provider_8cs_source.html#l00024">24</a> of file <a class="el" href="_xml_documentation_provider_8cs_source.html">XmlDocumentationProvider.cs</a>.</p>
+<p>Definition at line <a class="el" href="_xml_documentation_provider_8cs_source.html#l00048">48</a> of file <a class="el" href="_xml_documentation_provider_8cs_source.html">XmlDocumentationProvider.cs</a>.</p>
+
+</div>
+</div>
+<h2>Member Function Documentation</h2>
+<a class="anchor" id="a6883ef31c6ca03c257cd7456305da123"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual string Webassistenten_ads_api.Areas.HelpPage.XmlDocumentationProvider.GetDocumentation </td>
+          <td>(</td>
+          <td class="paramtype">HttpActionDescriptor&#160;</td>
+          <td class="paramname"><em>actionDescriptor</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">virtual</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Gets the documentation. </p>
+<dl class="section return"><dt>Returns</dt><dd>The documentation.</dd></dl>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">actionDescriptor</td><td>Action descriptor.</td></tr>
+  </table>
+  </dd>
+</dl>
+
+<p>Definition at line <a class="el" href="_xml_documentation_provider_8cs_source.html#l00063">63</a> of file <a class="el" href="_xml_documentation_provider_8cs_source.html">XmlDocumentationProvider.cs</a>.</p>
 
 </div>
 </div>
@@ -163,7 +206,7 @@ virtual string&#160;</td><td class="memItemRight" valign="bottom"><b>GetDocument
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="namespace_webassistenten__ads__api.html">Webassistenten_ads_api</a></li><li class="navelem"><a class="el" href="namespace_webassistenten__ads__api_1_1_areas.html">Areas</a></li><li class="navelem"><a class="el" href="namespace_webassistenten__ads__api_1_1_areas_1_1_help_page.html">HelpPage</a></li><li class="navelem"><a class="el" href="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_xml_documentation_provider.html">XmlDocumentationProvider</a></li>
-    <li class="footer">Generated on Wed Nov 13 2013 10:56:25 for Webassistenten WebAPI by
+    <li class="footer">Generated on Thu Nov 21 2013 00:06:11 for Webassistenten WebAPI by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.1.2 </li>
   </ul>

@@ -12,6 +12,7 @@ var searchData=
   ['partnerhartjenestetype',['PartnerHarTjenesteType',['../class_webassistenten__ads__api_1_1_partner_har_tjeneste_type.html',1,'Webassistenten_ads_api']]],
   ['postnr',['Postnr',['../class_webassistenten__ads__api_1_1_postnr.html',1,'Webassistenten_ads_api']]],
   ['productapicontroller',['ProductAPIController',['../class_webassistenten__ads__api_1_1_controllers_1_1_product_a_p_i_controller.html',1,'Webassistenten_ads_api::Controllers']]],
+  ['products',['Products',['../class_webassistenten__ads__api_1_1_controllers_1_1_product_a_p_i_controller.html#ad7447c51395cce04622557f4f098fbfb',1,'Webassistenten_ads_api::Controllers::ProductAPIController']]],
   ['produkt',['Produkt',['../class_webassistenten__ads__api_1_1_produkt.html',1,'Webassistenten_ads_api']]],
   ['produktharannonse',['ProduktHarAnnonse',['../class_webassistenten__ads__api_1_1_produkt_har_annonse.html',1,'Webassistenten_ads_api']]],
   ['produktharmodul',['ProduktHarModul',['../class_webassistenten__ads__api_1_1_produkt_har_modul.html',1,'Webassistenten_ads_api']]],

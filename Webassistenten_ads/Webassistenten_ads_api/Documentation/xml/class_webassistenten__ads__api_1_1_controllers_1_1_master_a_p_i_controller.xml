@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
+  <compounddef id="class_webassistenten__ads__api_1_1_controllers_1_1_master_a_p_i_controller" kind="class" prot="public">
+    <compoundname>Webassistenten_ads_api::Controllers::MasterAPIController</compoundname>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_webassistenten__ads__api_1_1_controllers_1_1_master_a_p_i_controller_1aaf3e18a7e2d301fc822842fc97e1deb9" prot="public" static="yes" mutable="no">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.Controllers.MasterAPIController.folder</definition>
+        <argsstring></argsstring>
+        <name>folder</name>
+        <initializer>&quot;~/hdTest/&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/MasterAPIController.cs" line="15" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/MasterAPIController.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_controllers_1_1_master_a_p_i_controller_1a18d14f37c93013ba9b922c7f7c4de0c9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>HttpResponseMessage</type>
+        <definition>HttpResponseMessage Webassistenten_ads_api.Controllers.MasterAPIController.Upload</definition>
+        <argsstring>([FromBody] RealEstateAdInfo value)</argsstring>
+        <name>Upload</name>
+        <param>
+          <attributes>[FromBody]</attributes>
+          <type><ref refid="class_webassistenten__ads__api_1_1_models_1_1_real_estate_ad_info" kindref="compound">RealEstateAdInfo</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/MasterAPIController.cs" line="19" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/MasterAPIController.cs" bodystart="18" bodyend="58"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_controllers_1_1_master_a_p_i_controller_1a674ce125fa7cb331065f70bdddc13568" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string Webassistenten_ads_api.Controllers.MasterAPIController.checkString</definition>
+        <argsstring>(string input)</argsstring>
+        <name>checkString</name>
+        <param>
+          <type>string</type>
+          <declname>input</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/MasterAPIController.cs" line="77" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/MasterAPIController.cs" bodystart="76" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="class_webassistenten__ads__api_1_1_controllers_1_1_master_a_p_i_controller_1ada7dd83fee49a4e3c93fd1ca5d9acc34" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Boolean</type>
+        <definition>Boolean Webassistenten_ads_api.Controllers.MasterAPIController.checkMail</definition>
+        <argsstring>(string input)</argsstring>
+        <name>checkMail</name>
+        <param>
+          <type>string</type>
+          <declname>input</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/MasterAPIController.cs" line="87" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/MasterAPIController.cs" bodystart="86" bodyend="102"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/MasterAPIController.cs" line="14" bodyfile="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/MasterAPIController.cs" bodystart="13" bodyend="103"/>
+    <listofallmembers>
+      <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_master_a_p_i_controller_1ada7dd83fee49a4e3c93fd1ca5d9acc34" prot="private" virt="non-virtual"><scope>Webassistenten_ads_api::Controllers::MasterAPIController</scope><name>checkMail</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_master_a_p_i_controller_1a674ce125fa7cb331065f70bdddc13568" prot="private" virt="non-virtual"><scope>Webassistenten_ads_api::Controllers::MasterAPIController</scope><name>checkString</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_master_a_p_i_controller_1aaf3e18a7e2d301fc822842fc97e1deb9" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Controllers::MasterAPIController</scope><name>folder</name></member>
+      <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_master_a_p_i_controller_1a18d14f37c93013ba9b922c7f7c4de0c9" prot="public" virt="non-virtual"><scope>Webassistenten_ads_api::Controllers::MasterAPIController</scope><name>Upload</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

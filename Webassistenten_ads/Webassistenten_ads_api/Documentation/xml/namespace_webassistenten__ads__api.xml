@@ -22,7 +22,6 @@
     <innerclass refid="class_webassistenten__ads__api_1_1_boligtype_sok" prot="public">Webassistenten_ads_api::BoligtypeSok</innerclass>
     <innerclass refid="class_webassistenten__ads__api_1_1_bruker" prot="public">Webassistenten_ads_api::Bruker</innerclass>
     <innerclass refid="class_webassistenten__ads__api_1_1_brukerlogg" prot="public">Webassistenten_ads_api::Brukerlogg</innerclass>
-    <innerclass refid="class_webassistenten__ads__api_1_1_database_connection" prot="public">Webassistenten_ads_api::DatabaseConnection</innerclass>
     <innerclass refid="class_webassistenten__ads__api_1_1_web_assistent_auth" prot="public">Webassistenten_ads_api::WebAssistentAuth</innerclass>
     <innerclass refid="class_webassistenten__ads__api_1_1dt__getpropertiesbyid___result" prot="public">Webassistenten_ads_api::dt_getpropertiesbyid_Result</innerclass>
     <innerclass refid="class_webassistenten__ads__api_1_1dt__getpropertiesbyid__u___result" prot="public">Webassistenten_ads_api::dt_getpropertiesbyid_u_Result</innerclass>
@@ -81,6 +80,7 @@
     <innerclass refid="class_webassistenten__ads__api_1_1_prospekt" prot="public">Webassistenten_ads_api::Prospekt</innerclass>
     <innerclass refid="class_webassistenten__ads__api_1_1_prospekt_har_bestilling" prot="public">Webassistenten_ads_api::ProspektHarBestilling</innerclass>
     <innerclass refid="class_webassistenten__ads__api_1_1_prospekt_har_utgivelse" prot="public">Webassistenten_ads_api::ProspektHarUtgivelse</innerclass>
+    <innerclass refid="class_webassistenten__ads__api_1_1_database_connection" prot="public">Webassistenten_ads_api::DatabaseConnection</innerclass>
     <innerclass refid="class_webassistenten__ads__api_1_1_rolle" prot="public">Webassistenten_ads_api::Rolle</innerclass>
     <innerclass refid="class_webassistenten__ads__api_1_1sp___d_i_p_hent_bruker_fra_epost___result" prot="public">Webassistenten_ads_api::sp_DIPHentBrukerFraEpost_Result</innerclass>
     <innerclass refid="class_webassistenten__ads__api_1_1sp___f_i_n_n_t_r_a_n_s___hent_fotooppdrag_partner___result" prot="public">Webassistenten_ads_api::sp_FINNTRANS_HentFotooppdragPartner_Result</innerclass>

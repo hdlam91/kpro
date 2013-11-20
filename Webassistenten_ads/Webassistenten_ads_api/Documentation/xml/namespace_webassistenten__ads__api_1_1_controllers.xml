@@ -2,20 +2,17 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.1.2">
   <compounddef id="namespace_webassistenten__ads__api_1_1_controllers" kind="namespace">
     <compoundname>Webassistenten_ads_api::Controllers</compoundname>
-    <innerclass refid="class_webassistenten__ads__api_1_1_controllers_1_1_default1_controller" prot="public">Webassistenten_ads_api::Controllers::Default1Controller</innerclass>
     <innerclass refid="class_webassistenten__ads__api_1_1_controllers_1_1_home_controller" prot="public">Webassistenten_ads_api::Controllers::HomeController</innerclass>
-    <innerclass refid="class_webassistenten__ads__api_1_1_controllers_1_1_master_a_p_i_controller" prot="public">Webassistenten_ads_api::Controllers::MasterAPIController</innerclass>
     <innerclass refid="class_webassistenten__ads__api_1_1_controllers_1_1_master_controller" prot="public">Webassistenten_ads_api::Controllers::MasterController</innerclass>
-    <innerclass refid="class_webassistenten__ads__api_1_1_controllers_1_1_modulapi2_controller" prot="public">Webassistenten_ads_api::Controllers::Modulapi2Controller</innerclass>
     <innerclass refid="class_webassistenten__ads__api_1_1_controllers_1_1_module_a_p_i_controller" prot="public">Webassistenten_ads_api::Controllers::ModuleAPIController</innerclass>
     <innerclass refid="class_webassistenten__ads__api_1_1_controllers_1_1_product_a_p_i_controller" prot="public">Webassistenten_ads_api::Controllers::ProductAPIController</innerclass>
+    <innerclass refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_a_p_i2_controller" prot="public">Webassistenten_ads_api::Controllers::UploadAPI2Controller</innerclass>
+    <innerclass refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters" prot="public">Webassistenten_ads_api::Controllers::UploadParameters</innerclass>
     <innerclass refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_a_p_i_controller" prot="public">Webassistenten_ads_api::Controllers::UploadAPIController</innerclass>
-    <innerclass refid="class_webassistenten__ads__api_1_1_controllers_1_1_values_controller" prot="public">Webassistenten_ads_api::Controllers::ValuesController</innerclass>
-    <innerclass refid="class_webassistenten__ads__api_1_1_controllers_1_1_view_controller" prot="public">Webassistenten_ads_api::Controllers::ViewController</innerclass>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
     </detaileddescription>
-    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/Default1Controller.cs" line="13"/>
+    <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Controllers/HomeController.cs" line="8"/>
   </compounddef>
 </doxygen>

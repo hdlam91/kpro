@@ -32,8 +32,11 @@
 <codeline lineno="36" refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_models_1_1_help_page_api_model_1aec57544a15f361533b9b2ee96754e2b3" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>IDictionary&lt;MediaTypeHeaderValue,<sp/>object&gt;<sp/>SampleResponses<sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
 <codeline lineno="37"><highlight class="normal"></highlight></codeline>
 <codeline lineno="41" refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_models_1_1_help_page_api_model_1ad9680fea32acf0072b3d3a49515f680d" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>Collection&lt;string&gt;<sp/>ErrorMessages<sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
-<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
-<codeline lineno="43"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"></codeline>
+<codeline lineno="49" refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_models_1_1_help_page_api_model_1af6104aaf9a5d41887490e2a6573dc647" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/>ResponseDocumentation<sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="51"><highlight class="normal">}</highlight></codeline>
     </programlisting>
     <location file="/home/erlend/kpro/Webassistenten_ads/Webassistenten_ads_api/Areas/HelpPage/Models/HelpPageApiModel.cs"/>
   </compounddef>

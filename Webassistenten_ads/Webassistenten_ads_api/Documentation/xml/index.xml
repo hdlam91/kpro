@@ -656,6 +656,9 @@
   <compound refid="class_webassistenten__ads__api_1_1_bundle_config" kind="class"><name>Webassistenten_ads_api::BundleConfig</name>
     <member refid="class_webassistenten__ads__api_1_1_bundle_config_1a0e94d7e11627f6f7abbd582a97f49de8" kind="function"><name>RegisterBundles</name></member>
   </compound>
+  <compound refid="class_webassistenten__ads__api_1_1_repository_1_1_constants" kind="class"><name>Webassistenten_ads_api::Repository::Constants</name>
+    <member refid="class_webassistenten__ads__api_1_1_repository_1_1_constants_1a04f894fa196d59dc0b8c9360ed013853" kind="variable"><name>FOLDER</name></member>
+  </compound>
   <compound refid="class_webassistenten__ads__api_1_1_database_connection" kind="class"><name>Webassistenten_ads_api::DatabaseConnection</name>
     <member refid="class_webassistenten__ads__api_1_1_database_connection_1a590df41fae580361107eb530b56763e7" kind="function"><name>GetProducts</name></member>
     <member refid="class_webassistenten__ads__api_1_1_database_connection_1a38791de81fc51cadcad56d3d81bd4c16" kind="function"><name>GetProductModules</name></member>
@@ -674,15 +677,6 @@
     <member refid="class_webassistenten__ads__api_1_1_models_1_1_data_model_1a80942334c063f97fdeb866347fe6475a" kind="function"><name>GetProducts</name></member>
     <member refid="class_webassistenten__ads__api_1_1_models_1_1_data_model_1a50065f197dbd2f7fdd8e7593a9c1922e" kind="function"><name>GetProductModules</name></member>
     <member refid="class_webassistenten__ads__api_1_1_models_1_1_data_model_1a1ff0fba9a17c86085ff1af8316bfaeb9" kind="function"><name>GetProductModulesArray</name></member>
-  </compound>
-  <compound refid="class_webassistenten__ads__api_1_1_controllers_1_1_default1_controller" kind="class"><name>Webassistenten_ads_api::Controllers::Default1Controller</name>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_default1_controller_1acdd5ca21c0c1a7ab869f1863b8171f56" kind="variable"><name>db</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_default1_controller_1a46a4951d6f5f8015faa9f96f32e8319c" kind="function"><name>GetModuls</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_default1_controller_1a28bf33a5f35d5fe3caa39f385d1bcdfb" kind="function"><name>GetModul</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_default1_controller_1ac79785a72c9e6dad3ac82d9f66c20dce" kind="function"><name>PutModul</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_default1_controller_1a2ec1448d9c9029b1a27a948a90259697" kind="function"><name>PostModul</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_default1_controller_1afa31d480aa8ae0136b8896c8ca3d6f97" kind="function"><name>DeleteModul</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_default1_controller_1aff9c418156a53f71efe5038b0b6b5a40" kind="function"><name>Dispose</name></member>
   </compound>
   <compound refid="class_webassistenten__ads__api_1_1dt__getpropertiesbyid___result" kind="class"><name>Webassistenten_ads_api::dt_getpropertiesbyid_Result</name>
     <member refid="class_webassistenten__ads__api_1_1dt__getpropertiesbyid___result_1a617cbda316824035acd35b70cf64cf84" kind="property"><name>property</name></member>
@@ -869,8 +863,6 @@
     <member refid="class_webassistenten__ads__api_1_1_foto_type_1acce1ef220d97863b7e783a2672991ddc" kind="property"><name>Fotooppdrags</name></member>
     <member refid="class_webassistenten__ads__api_1_1_foto_type_1a7dcd95bd2f9c5922b6f078382acc80cc" kind="function"><name>FotoType</name></member>
   </compound>
-  <compound refid="class_webassistenten__ads__api_1_1_repository_1_1_get_dates_query" kind="class"><name>Webassistenten_ads_api::Repository::GetDatesQuery</name>
-  </compound>
   <compound refid="class_webassistenten__ads__api_1_1_gjestebok" kind="class"><name>Webassistenten_ads_api::Gjestebok</name>
     <member refid="class_webassistenten__ads__api_1_1_gjestebok_1a92029446a202c9b3170406abb9cab188" kind="property"><name>ID</name></member>
     <member refid="class_webassistenten__ads__api_1_1_gjestebok_1a7e3065d0944d65029a528aa2b7bd10c2" kind="property"><name>Dato</name></member>
@@ -891,6 +883,7 @@
     <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_models_1_1_help_page_api_model_1adcef8975742dd9fc0295b15ceafc07b6" kind="property"><name>SampleRequests</name></member>
     <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_models_1_1_help_page_api_model_1aec57544a15f361533b9b2ee96754e2b3" kind="property"><name>SampleResponses</name></member>
     <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_models_1_1_help_page_api_model_1ad9680fea32acf0072b3d3a49515f680d" kind="property"><name>ErrorMessages</name></member>
+    <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_models_1_1_help_page_api_model_1af6104aaf9a5d41887490e2a6573dc647" kind="property"><name>ResponseDocumentation</name></member>
     <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_models_1_1_help_page_api_model_1a70b0f351f2c89a16319748bb4fb26a2f" kind="function"><name>HelpPageApiModel</name></member>
   </compound>
   <compound refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_area_registration" kind="class"><name>Webassistenten_ads_api::Areas::HelpPage::HelpPageAreaRegistration</name>
@@ -916,7 +909,7 @@
     <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_configuration_extensions_1a895ea61ed274371697d0063f3c6ebc89" kind="function"><name>GetHelpPageSampleGenerator</name></member>
     <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_configuration_extensions_1a9f93c179c345235639edd6d3857c285f" kind="function"><name>SetHelpPageSampleGenerator</name></member>
     <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_configuration_extensions_1a127baf3e83f6fae8ef250911601e62a4" kind="function"><name>GetHelpPageApiModel</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_configuration_extensions_1a730c767dad59cfa66033eea11a13844d" kind="function"><name>GenerateApiModel</name></member>
+    <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_configuration_extensions_1a113d51bd35371384fae9df6a769a965a" kind="function"><name>GenerateApiModel</name></member>
     <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_configuration_extensions_1a34203c1601d7e32a9580d7a74ac53967" kind="function"><name>LogInvalidSampleAsError</name></member>
   </compound>
   <compound refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_help_page_sample_generator" kind="class"><name>Webassistenten_ads_api::Areas::HelpPage::HelpPageSampleGenerator</name>
@@ -986,6 +979,9 @@
     <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_invalid_sample_1a059ad47e8804b572c68b07c23124a576" kind="function"><name>GetHashCode</name></member>
     <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_invalid_sample_1aa43cad665bfcfa6520f4366b4b9d3b59" kind="function"><name>ToString</name></member>
   </compound>
+  <compound refid="interface_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_xml_documentation_provider_1_1_i_response_documentation_provider" kind="interface"><name>Webassistenten_ads_api::Areas::HelpPage::XmlDocumentationProvider::IResponseDocumentationProvider</name>
+    <member refid="interface_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_xml_documentation_provider_1_1_i_response_documentation_provider_1a8a54076f5172af2ed48fb8f14b4e4623" kind="function"><name>GetResponseDocumentation</name></member>
+  </compound>
   <compound refid="class_webassistenten__ads__api_1_1_kommune" kind="class"><name>Webassistenten_ads_api::Kommune</name>
     <member refid="class_webassistenten__ads__api_1_1_kommune_1acac0e74e34dca0e292d661a688de4366" kind="property"><name>Kommunenr</name></member>
     <member refid="class_webassistenten__ads__api_1_1_kommune_1a0cc98765d6241800222dd0013c768db9" kind="property"><name>Kommunenavn</name></member>
@@ -1025,17 +1021,10 @@
     <member refid="class_webassistenten__ads__api_1_1_lock_1a37bd667bb26cfda0a6a46795cd6c1376" kind="property"><name>PartnerID</name></member>
     <member refid="class_webassistenten__ads__api_1_1_lock_1a5890f62a76b1cdab4899ef4ae49f054b" kind="property"><name>Lock1</name></member>
   </compound>
-  <compound refid="class_webassistenten__ads__api_1_1_controllers_1_1_master_a_p_i_controller" kind="class"><name>Webassistenten_ads_api::Controllers::MasterAPIController</name>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_master_a_p_i_controller_1aaf3e18a7e2d301fc822842fc97e1deb9" kind="variable"><name>folder</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_master_a_p_i_controller_1a18d14f37c93013ba9b922c7f7c4de0c9" kind="function"><name>Upload</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_master_a_p_i_controller_1a674ce125fa7cb331065f70bdddc13568" kind="function"><name>checkString</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_master_a_p_i_controller_1ada7dd83fee49a4e3c93fd1ca5d9acc34" kind="function"><name>checkMail</name></member>
-  </compound>
   <compound refid="class_webassistenten__ads__api_1_1_controllers_1_1_master_controller" kind="class"><name>Webassistenten_ads_api::Controllers::MasterController</name>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_master_controller_1a66950918a55b8856b20ae24ac00b5d25" kind="variable"><name>db</name></member>
     <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_master_controller_1a6725b9bb4f2be16c460fd6107496a720" kind="variable"><name>folder</name></member>
     <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_master_controller_1af561920a5d908b6c42b20d68a375698c" kind="function"><name>Index</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_master_controller_1a463676025e1d96658aa84d25fd386367" kind="function"><name>Upload</name></member>
+    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_master_controller_1a801735e7551b28b7731d3eeb7b0afe20" kind="function"><name>Upload</name></member>
     <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_master_controller_1a9b09d23e1af5283e9aaaf9c0ff9e7fc2" kind="function"><name>AddNewAd</name></member>
     <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_master_controller_1a7e4e874d0921855fd54bd1e2f002e909" kind="function"><name>ChooseProduct</name></member>
     <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_master_controller_1a668432ac872507b4a7ffe36c38bc806e" kind="function"><name>Fail</name></member>
@@ -1063,17 +1052,7 @@
     <member refid="class_webassistenten__ads__api_1_1_modul_1ad85916132ec51d74519e97b10fc06d6b" kind="property"><name>XmlTags</name></member>
     <member refid="class_webassistenten__ads__api_1_1_modul_1a2151d290a09ce214b9fc12d668a7b9ef" kind="function"><name>Modul</name></member>
   </compound>
-  <compound refid="class_webassistenten__ads__api_1_1_controllers_1_1_modulapi2_controller" kind="class"><name>Webassistenten_ads_api::Controllers::Modulapi2Controller</name>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_modulapi2_controller_1a1c2e196a8d5450f7f9d9358f959d582e" kind="variable"><name>db</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_modulapi2_controller_1ab979382f1e3e1e5ba98500ccb6ddaf6a" kind="function"><name>GetModuls</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_modulapi2_controller_1acd6f7c9bc5f54af1f7c863f3b87a3eca" kind="function"><name>GetModul</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_modulapi2_controller_1a11278a93aa8115a5deb780a6fb949c43" kind="function"><name>PutModul</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_modulapi2_controller_1ad4de1f7fb2fab6fccec733cebbcb9d10" kind="function"><name>PostModul</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_modulapi2_controller_1a5d293dff8fbefa85326b5cbd4440dd81" kind="function"><name>DeleteModul</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_modulapi2_controller_1a9adeb44f8749c96ea3ab2ca0ab4e5117" kind="function"><name>Dispose</name></member>
-  </compound>
   <compound refid="class_webassistenten__ads__api_1_1_controllers_1_1_module_a_p_i_controller" kind="class"><name>Webassistenten_ads_api::Controllers::ModuleAPIController</name>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_module_a_p_i_controller_1abc1e44f5ee0e94dd357633273c4711bb" kind="function"><name>PostAuth</name></member>
     <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_module_a_p_i_controller_1addfbcd377a9eb29274f700239bff51d8" kind="function"><name>Modules</name></member>
   </compound>
   <compound refid="class_webassistenten__ads__api_1_1_modul_ressur" kind="class"><name>Webassistenten_ads_api::ModulRessur</name>
@@ -4751,11 +4730,57 @@
     <member refid="class_webassistenten__ads__api_1_1_tilleggstjeneste_1a9fd620a5a2b2e099c1a051daf0c990e9" kind="property"><name>TjenesteTypenavnFork</name></member>
     <member refid="class_webassistenten__ads__api_1_1_tilleggstjeneste_1a15ef487fa88b70f4f9eecf5366048ff9" kind="property"><name>Pris</name></member>
   </compound>
+  <compound refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_a_p_i2_controller" kind="class"><name>Webassistenten_ads_api::Controllers::UploadAPI2Controller</name>
+    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_a_p_i2_controller_1adcdf43876b641cd20e6b724dea538280" kind="variable"><name>folder</name></member>
+    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_a_p_i2_controller_1ab736f28f7937fb36980867bf34862d19" kind="function"><name>Upload</name></member>
+    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_a_p_i2_controller_1a19d030cfefc576cc906a57628cd7843f" kind="function"><name>checkString</name></member>
+    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_a_p_i2_controller_1a28f64fcf3db63bf2fb36cddbc95c42b6" kind="function"><name>checkMail</name></member>
+  </compound>
   <compound refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_a_p_i_controller" kind="class"><name>Webassistenten_ads_api::Controllers::UploadAPIController</name>
     <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_a_p_i_controller_1a913cdee53bc4f5209085bd093f582c27" kind="variable"><name>folder</name></member>
     <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_a_p_i_controller_1ab9e4ed983dfd750e6520e9beeabd6911" kind="function"><name>Upload</name></member>
     <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_a_p_i_controller_1a048e6ede1b3b5bfb105073fa3b75d8f3" kind="function"><name>checkString</name></member>
     <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_a_p_i_controller_1a6b03c0068d83af63b4d31cb93a8f86de" kind="function"><name>checkMail</name></member>
+  </compound>
+  <compound refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters" kind="class"><name>Webassistenten_ads_api::Controllers::UploadParameters</name>
+    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1a1fff8828691009f95dceb54dea3f6d9b" kind="property"><name>ProductId</name></member>
+    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1a5bb34fc7bb1f281c41b1aeb4f8a79ad3" kind="property"><name>ModuleId</name></member>
+    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1a82073300d11296b5ff02ef7b55055014" kind="property"><name>RealtorId</name></member>
+    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1a80298590db2f0f5c7ad7d73ae50db326" kind="property"><name>ResponsibleRealtor</name></member>
+    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1a8c124fc43358b9b32cedccc498dd59d7" kind="property"><name>Area</name></member>
+    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1a99ab7d6f9cd80bab4f88b93a71881ba7" kind="property"><name>Type</name></member>
+    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1a69a8a2f24d487793b00c5da7e3396012" kind="property"><name>Price</name></member>
+    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1a8cd1a399a7bb96dd9d88f796955b0ecc" kind="property"><name>Location</name></member>
+    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1abf94d0237631abba826e986a769b454f" kind="property"><name>Headline</name></member>
+    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1af4a7168b8294ff5915f82e6c6da274a9" kind="property"><name>Address</name></member>
+    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1a84f14bbc7ec5e6d17e7e616a4d1915be" kind="property"><name>ZipCode</name></member>
+    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1af4576ec7b88cbc3940011f6aab4637e4" kind="property"><name>ZipArea</name></member>
+    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1a87058ffb44ab07a91e3ca71fa621f271" kind="property"><name>BookingDate</name></member>
+    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1a477d621f2c4cfba6a6e4de31e0c7481d" kind="property"><name>FinnCode</name></member>
+    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1aad52feb11750b5df960a43f4fe995839" kind="property"><name>ContractNr</name></member>
+    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1a2c4a79a1f1a71914d3757a4ae9505df2" kind="property"><name>P_Rom</name></member>
+    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1af5d435fc16b2632d571d120e4727a6ca" kind="property"><name>Boa</name></member>
+    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1ab6108cb3477304c393ffb2133fc82d88" kind="property"><name>Bta</name></member>
+    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1afc92bc3364385a67d767265d5442a8b9" kind="property"><name>Bra</name></member>
+    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1ad0cbdcea332d878494982833837ea26b" kind="property"><name>Costs</name></member>
+    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1a3ed420ba94233e1293effe9a83bb9d66" kind="property"><name>PurchaseCosts</name></member>
+    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1a01d43c16ac93368703e2f7bff4105d76" kind="property"><name>CommonCosts</name></member>
+    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1a10c42135c59b8d3f426b97a25c05d2c1" kind="property"><name>AmountSharedDebt</name></member>
+    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1ac607a9792a1ca479e69c993103748b56" kind="property"><name>CommonExpenses</name></member>
+    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1a5ff3f361d0c0283acec8a66b8bfda525" kind="property"><name>PropertyArea</name></member>
+    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1a2ffe2f7ee86357dfdd1d76d13b5e49e9" kind="property"><name>PropertyType</name></member>
+    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1acbdb2164f155c34c1221ab11bcdc4482" kind="property"><name>ConstructionYear</name></member>
+    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1addd1dceeda96171b4d68b8ee1aee5a48" kind="property"><name>Floor</name></member>
+    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1a282c122d405d517c4ea29125bcf1b05d" kind="property"><name>Bedrooms</name></member>
+    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1a443f6583fd6cf8a0d9dc7f6e27baaa81" kind="property"><name>Rooms</name></member>
+    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1a8ef1b2833a3960e68a4c5414cf4c5d85" kind="property"><name>OpenHouseDate</name></member>
+    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1a33ece58aa4abfd16f0260ec100d98792" kind="property"><name>OpenHouseText</name></member>
+    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1ae0971c539459b881efe6345ee1a39aa7" kind="property"><name>RealEstAgentName</name></member>
+    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1ad9b4b052a4962c23dcad15477bc39060" kind="property"><name>RealEstAgentTitle</name></member>
+    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1ace8370f23998d22b0c1419e93cd6be2a" kind="property"><name>RealEstAgentMobile</name></member>
+    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1a3e74cefbf8dea9ba1a68513c97e054f0" kind="property"><name>RealEstAgentPhone</name></member>
+    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1acfc2d443afb720e6210193fd41cb26d3" kind="property"><name>RealEstAgentEmail</name></member>
+    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_upload_parameters_1ab85b5dcfd007555cf55262853f94bfbb" kind="property"><name>AdText</name></member>
   </compound>
   <compound refid="class_webassistenten__ads__api_1_1_utgivelse" kind="class"><name>Webassistenten_ads_api::Utgivelse</name>
     <member refid="class_webassistenten__ads__api_1_1_utgivelse_1af9d10dd7c8f5b026271ecd0e336dd26e" kind="property"><name>Ukenr</name></member>
@@ -4763,16 +4788,6 @@
     <member refid="class_webassistenten__ads__api_1_1_utgivelse_1a0de1e0914744dd34a93864bc770f1fec" kind="property"><name>DatoUtgivelse</name></member>
     <member refid="class_webassistenten__ads__api_1_1_utgivelse_1aa256361c0e6ae835080c2d14378ee719" kind="property"><name>Aktiv</name></member>
     <member refid="class_webassistenten__ads__api_1_1_utgivelse_1a688fea5f6483ee9e6f8c8f5b5e65fdbf" kind="property"><name>Frist</name></member>
-  </compound>
-  <compound refid="class_webassistenten__ads__api_1_1_controllers_1_1_values_controller" kind="class"><name>Webassistenten_ads_api::Controllers::ValuesController</name>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_values_controller_1a99352899673f6b2f2f7e56cda5cf44d6" kind="function"><name>Get</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_values_controller_1a7171b81b5381a9cc8b5e9e64ffa19197" kind="function"><name>Get</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_values_controller_1a42f45c00d58afe1e3086023d126f07ef" kind="function"><name>Post</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_values_controller_1a1b2d31f3d8b1eff87e946d73b8b039c0" kind="function"><name>Put</name></member>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_values_controller_1a3b46a689a8c178ab53f1a11b43fd2f5f" kind="function"><name>Delete</name></member>
-  </compound>
-  <compound refid="class_webassistenten__ads__api_1_1_controllers_1_1_view_controller" kind="class"><name>Webassistenten_ads_api::Controllers::ViewController</name>
-    <member refid="class_webassistenten__ads__api_1_1_controllers_1_1_view_controller_1aaa683572a2a6dd020d9f08639c11e133" kind="function"><name>Index</name></member>
   </compound>
   <compound refid="class_webassistenten__ads__api_1_1vw___meglersystem_i_d" kind="class"><name>Webassistenten_ads_api::vw_MeglersystemID</name>
     <member refid="class_webassistenten__ads__api_1_1vw___meglersystem_i_d_1aba42a140116ad24334dcee92465bc8c0" kind="property"><name>Partnernavn</name></member>
@@ -5410,6 +5425,7 @@
     <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_xml_documentation_provider_1afad90f467565b7b367d4db3e7a8650f7" kind="variable"><name>_documentNavigator</name></member>
     <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_xml_documentation_provider_1ae121f6d5cf25fc49aed6ee1ee0de1f31" kind="variable"><name>MethodExpression</name></member>
     <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_xml_documentation_provider_1ab35f5a501a17256b0d8a52b1017864b5" kind="variable"><name>ParameterExpression</name></member>
+    <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_xml_documentation_provider_1a8be651ff51b30672f1c27ff5a2d4507e" kind="function"><name>GetResponseDocumentation</name></member>
     <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_xml_documentation_provider_1a5996b8e22706702aaa787df6ef839a98" kind="function"><name>XmlDocumentationProvider</name></member>
     <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_xml_documentation_provider_1a6883ef31c6ca03c257cd7456305da123" kind="function"><name>GetDocumentation</name></member>
     <member refid="class_webassistenten__ads__api_1_1_areas_1_1_help_page_1_1_xml_documentation_provider_1a41f3da28885e81ec6cea58b8608bbaf8" kind="function"><name>GetDocumentation</name></member>
@@ -5589,27 +5605,17 @@
   </compound>
   <compound refid="_brukerlogg_8cs" kind="file"><name>Brukerlogg.cs</name>
   </compound>
-  <compound refid="_database_connection_8cs" kind="file"><name>DatabaseConnection.cs</name>
-  </compound>
-  <compound refid="_default1_controller_8cs" kind="file"><name>Default1Controller.cs</name>
-  </compound>
   <compound refid="_home_controller_8cs" kind="file"><name>HomeController.cs</name>
   </compound>
-  <compound refid="_master_a_p_i_controller_8cs" kind="file"><name>MasterAPIController.cs</name>
-  </compound>
   <compound refid="_master_controller_8cs" kind="file"><name>MasterController.cs</name>
-  </compound>
-  <compound refid="_modulapi2_controller_8cs" kind="file"><name>Modulapi2Controller.cs</name>
   </compound>
   <compound refid="_module_a_p_i_controller_8cs" kind="file"><name>ModuleAPIController.cs</name>
   </compound>
   <compound refid="_product_a_p_i_controller_8cs" kind="file"><name>ProductAPIController.cs</name>
   </compound>
+  <compound refid="_upload_a_p_i2_controller_8cs" kind="file"><name>UploadAPI2Controller.cs</name>
+  </compound>
   <compound refid="_upload_a_p_i_controller_8cs" kind="file"><name>UploadAPIController.cs</name>
-  </compound>
-  <compound refid="_values_controller_8cs" kind="file"><name>ValuesController.cs</name>
-  </compound>
-  <compound refid="_view_controller_8cs" kind="file"><name>ViewController.cs</name>
   </compound>
   <compound refid="_web_assistent_auth_8cs" kind="file"><name>WebAssistentAuth.cs</name>
   </compound>
@@ -5737,7 +5743,9 @@
   </compound>
   <compound refid="_prospekt_har_utgivelse_8cs" kind="file"><name>ProspektHarUtgivelse.cs</name>
   </compound>
-  <compound refid="_get_dates_query_8cs" kind="file"><name>GetDatesQuery.cs</name>
+  <compound refid="_constants_8cs" kind="file"><name>Constants.cs</name>
+  </compound>
+  <compound refid="_database_connection_8cs" kind="file"><name>DatabaseConnection.cs</name>
   </compound>
   <compound refid="_rolle_8cs" kind="file"><name>Rolle.cs</name>
   </compound>
