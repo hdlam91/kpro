@@ -26,7 +26,7 @@ namespace Webassistenten_ads_api.Controllers
 		/// Could potentially accept parameters in object form in the future, but does not do that at the moment due to binding issues in Web API.<br/>
 		/// </summary>
         [HttpPost]
-        public HttpResponseMessage Upload(/*[FromBody]UploadParameters up*/)
+        public HttpResponseMessage Upload([FromBody]UploadParameters up)
         {
             //initialize
             int ProductId;
@@ -303,8 +303,8 @@ namespace Webassistenten_ads_api.Controllers
 		[Required(ErrorMessage = "Product ID is required.")]
 		public int ProductId { get;  set; }
 
-		[DataMember(ErrorMessage = "Module ID is required.")]
-		[Required]
+		[DataMember]
+        [Required(ErrorMessage = "Module ID is required.")]
 		public int ModuleId { get;  set; } 
 
 		[DataMember]

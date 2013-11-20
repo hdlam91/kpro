@@ -513,21 +513,9 @@
         </member>
         <member name="M:Webassistenten_ads_api.Controllers.UploadAPIController.Upload(Webassistenten_ads_api.Controllers.UploadParameters)">
             <summary>
-            <para>Accepts a pdf file with an ad, along with the required and optional parameters for ads.</para>
-            <para>Parameters go in the HTTP-Post Request (MIME-Multipart).</para>
-            <para>Could potentially accept parameters in object form in the future, but does not do that at the moment due to binding issues in Web API.<br/></para>
-            <param name="ProductId"><br>ProductId Required</br></param>
-            <param name="ModuleId">Required</param>
-            <param name="ResponsibleRealtor">Required</param>
-            <param name="Area">Required</param>
-            <param name="Type">Required</param>
-            <param name="Price">Required</param>
-            <param name="Location">Required</param>
-            <param name="Headline">Required</param>
-            <param name="Address">Required</param>
-            <param name="ZipCode">Required</param>
-            <param name="ZipArea">Required</param>
-            <param name="BookingDate">Required</param>
+            Accepts a pdf file with an ad, along with the required and optional parameters for ads.<br/>
+            Parameters go in the HTTP-Post Request (MIME-Multipart).<br/>
+            Could potentially accept parameters in object form in the future, but does not do that at the moment due to binding issues in Web API.<br/>
             </summary>
         </member>
         <member name="T:Webassistenten_ads_api.Controllers.UploadParameters">
