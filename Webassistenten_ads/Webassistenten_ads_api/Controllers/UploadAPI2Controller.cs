@@ -110,7 +110,7 @@ namespace Webassistenten_ads_api.Controllers
 			string AdText = up.AdText;
             
 			#if DEBUG
-				System.Diagnostics.Debug.Print("MultipartContent: " + Request.ContentType + "\n");
+				System.Diagnostics.Debug.Print("MultipartContent: " + Request.Content.ToString() + "\n");
 			#endif
             
             
@@ -122,11 +122,11 @@ namespace Webassistenten_ads_api.Controllers
 //            }
 //            else
 			//Use above or below
-			if (!Request.Content.IsMimeMultipartContent())
-			{
-				result = Request.CreateResponse(HttpStatusCode.UnsupportedMediaType, "The requests content type is not valid!");
-			}
-			else
+            //if (!Request.Content.IsMimeMultipartContent())
+            //{
+            //    result = Request.CreateResponse(HttpStatusCode.UnsupportedMediaType, "The requests content type is not valid!");
+            //}
+            //else
 			//or below
 //			if (!Request.Content.IsMimeMultipartContent("xml"))
 //			{
