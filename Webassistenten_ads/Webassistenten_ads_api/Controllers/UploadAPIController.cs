@@ -13,7 +13,7 @@ using Webassistenten_ads_api.Repository;
 namespace Webassistenten_ads_api.Controllers
 {
 	/// <summary>
-	/// Upload API controller.
+	/// Upload API controller, which will take an ad in pdf-form and its associated data.
 	/// </summary>
     public class UploadAPIController : ApiController
     {
@@ -22,8 +22,8 @@ namespace Webassistenten_ads_api.Controllers
 		//TODO: Describe required parameters
 		/// <summary>
 		/// Accepts a pdf file with an ad, along with the required and optional parameters for ads.<br/>
-		/// Parameters go in the HTTP-Post Request (MIME-Multipart).<br/>
-		/// Could potentially accept parameters in object form in the future, but does not do that at the moment due to binding issues in Web API.<br/>
+		/// Parameters go in the HTTP-Post Request (MIME-Multipart form-data).<br/>
+		/// Accepts the same parameters as UploadAPIController2, but this one actually works.
 		/// </summary>
         [HttpPost]
         public HttpResponseMessage Upload(/*[FromBody]UploadParameters up*/)
@@ -202,7 +202,7 @@ namespace Webassistenten_ads_api.Controllers
 	                        p.Kjopsomkostninger = PurchaseCosts;
 	                        p.FellesInnskudd = AmountSharedDebt;//felleskostnad, finnes ikke i db.
 	                        p.Fellesgjeld = AmountSharedDebt; 
-	                        p.Fellesutgifter = CommonExpenses;//WHAAAT?
+	                        p.Fellesutgifter = CommonExpenses;
 	                        p.Tomteareal = PropertyArea;
 	                        p.Tomtetype = PropertyType;
 	                        p.Byggeaar = ConstructionYear.ToString();

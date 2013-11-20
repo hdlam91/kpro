@@ -13,13 +13,14 @@ using System.Runtime.Serialization;
 namespace Webassistenten_ads_api.Controllers
 {
 	/// <summary>
-	/// Upload API controller.
+	/// Upload API controller, which is currently not working.
 	/// </summary>
     public class UploadAPI2Controller : ApiController
     {
         public static string folder = "~/hdTest/";
 
 		/// <summary>
+		/// NOTE! Doesn't currently work!
 		/// Accepts a pdf file with an ad, along with the required and optional parameters for ads in an UploadParameters object.
 		/// </summary>
 		/// <returns>An HttpResponseMessage with a status code, and message.</returns>
@@ -116,23 +117,19 @@ namespace Webassistenten_ads_api.Controllers
             
             HttpResponseMessage result = null;
             var httpRequest = System.Web.HttpContext.Current.Request;
+
 //            if (!Request.Content.IsMimeMultipartContent("UploadParameters"))
 //            {
 //                result = Request.CreateResponse(HttpStatusCode.UnsupportedMediaType, "The mediatype is not supported!");
 //            }
 //            else
 			//Use above or below
-            //if (!Request.Content.IsMimeMultipartContent())
-            //{
-            //    result = Request.CreateResponse(HttpStatusCode.UnsupportedMediaType, "The requests content type is not valid!");
-            //}
-            //else
+            if (!Request.Content.IsMimeMultipartContent("form-data"))
+            {
+                result = Request.CreateResponse(HttpStatusCode.UnsupportedMediaType, "The requests content type is not valid!");
+            }
+            else
 			//or below
-//			if (!Request.Content.IsMimeMultipartContent("xml"))
-//			{
-//				result = Request.CreateResponse(HttpStatusCode.UnsupportedMediaType, "The mediatype is not supported!");
-//			}
-//			else
             {
                 if (httpRequest.Files.Count == 1)
                 {
@@ -180,7 +177,7 @@ namespace Webassistenten_ads_api.Controllers
 	                        p.Kjopsomkostninger = PurchaseCosts;
 	                        p.FellesInnskudd = AmountSharedDebt;//felleskostnad, finnes ikke i db.
 	                        p.Fellesgjeld = AmountSharedDebt; 
-	                        p.Fellesutgifter = CommonExpenses;//WHAAAT?
+	                        p.Fellesutgifter = CommonExpenses;
 	                        p.Tomteareal = PropertyArea;
 	                        p.Tomtetype = PropertyType;
 	                        p.Byggeaar = ConstructionYear.ToString();
