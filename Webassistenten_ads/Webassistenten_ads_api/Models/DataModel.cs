@@ -57,12 +57,6 @@ namespace Webassistenten_ads_api.Models
             return DatabaseConnection.GetProductModules((byte)productId).ToArray();
 
         }
-        
-
-        //    System.Diagnostics.Debug.WriteLine("get meth");
-
-        //    //putToDb();        
-        //    return View();
     }
     
 }

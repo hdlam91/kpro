@@ -25,7 +25,6 @@ namespace Webassistenten_ads_api.Controllers
 		/// Parameters go in the HTTP-Post Request (MIME-Multipart).<br/>
 		/// Could potentially accept parameters in object form in the future, but does not do that at the moment due to binding issues in Web API.<br/>
 		/// </summary>
-
         [HttpPost]
         public HttpResponseMessage Upload(/*[FromBody]UploadParameters up*/)
         {

@@ -14,72 +14,15 @@ namespace Webassistenten_ads_api.Controllers
     
     public class ModuleAPIController : ApiController
     {
-        [HttpPost]
-        [ActionName("Auth")]
-        public HttpResponseMessage PostAuth([FromBody] int id)
-        {
-            id = 1;
-            System.Diagnostics.Debug.WriteLine("id: \t "+id);
-
-            var response = new HttpResponseMessage(HttpStatusCode.Created){
-                
-                Content = null//new StringContent(id.ToString()+"hello!")
-                
-            };
-            if (id != 0)
-            {
-                response.Headers.Location =
-                new Uri(Url.Link("DefaultApi", new { action = "Modules", id = id }));
-                System.Diagnostics.Debug.WriteLine("if executed");
-                
-
-                return response;
-            }
-            else
-            {
-                System.Diagnostics.Debug.WriteLine("else executed");
-                return Request.CreateResponse(HttpStatusCode.BadRequest);
-            }
-               
-            
-
-        }
-
-
-        //template if we want to go back to the old method or try new stuff.
-        //[HttpGet]
-        //[ActionName("Modules")]
-        //public List<Modul> Modules(byte id)
-        //{
-        //    System.Diagnostics.Debug.WriteLine("Routing complete");
-        //    List<Modul> mod = DatabaseConnection.GetProductModules(id).ToList() ;//.AsEnumerable();
-            
-        //    return mod;
-        //}
-
-        //does not work
-        //[HttpGet]
-        //[ActionName("Modules")]
-        //public HttpResponseMessage Modules(byte id)
-        //{
-        //    System.Diagnostics.Debug.WriteLine("Routing complete");
-        //    IEnumerable<Modul> mod = DatabaseConnection.GetProductModules(id).AsEnumerable();
-        //    //List<Modul> returnObject = new List<Modul>() ;
-            
-        //    //foreach (Modul modit in mod)
-        //    //{
-        //    //    System.Diagnostics.Debug.WriteLine(modit.ModulID);
-        //    //}
-            
-
-
-        //    return ControllerContext.Request.CreateResponse(HttpStatusCode.OK, new {mod});
-
-        //}
-
 
         [HttpGet]
         [ActionName("Modules")]
+		/// <summary>
+		/// This method will retrieve the available modules for a selected product.
+		/// </summary>
+		/// <param name="id">Product Identifier.</param>
+		/// <returns>A HttpResponseMessage with a status code, and the modules for the specified Product ID.<br/>
+		/// The Modules are in the form {id, name, dimensions, date available}.</returns>
         public HttpResponseMessage Modules(byte id)
         {
             //id = produktID, somekind of authentication has to be done here.
@@ -108,12 +51,6 @@ namespace Webassistenten_ads_api.Controllers
             return ControllerContext.Request
         .CreateResponse(HttpStatusCode.OK, new { modulId, modulNavn, dimensjoner, datoTilgjengelig });
 
-        }
-
-
-
-        
-       
-        
+        }  
     }
 }

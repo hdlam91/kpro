@@ -56,17 +56,16 @@ namespace Webassistenten_ads_api
 		/// <param name="userId">User identifier.</param>
 		public Authentication IdAuthenticate(int userId)
 		{
-			BoligEntities1 db = new BoligEntities1 ();
-            Bruker bruker = null;
-            try
-            {
-			bruker = (from b in db.Brukers
+			Bruker bruker = null;
+			using (BoligEntities1 db = new BoligEntities1 ()) {
+				try 
+				{
+					bruker = (from b in db.Brukers
 							where b.BrukerID == userId
-							select b).First();
-            }
-            catch (Exception e)
-            {
-            }
+							select b).First ();
+				} catch (Exception e) {
+				}
+			}
 			if (bruker != null)
 			{
 				AuthId = bruker.PartnerID;

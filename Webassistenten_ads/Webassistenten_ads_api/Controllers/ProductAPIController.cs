@@ -10,13 +10,15 @@ namespace Webassistenten_ads_api.Controllers
     public class ProductAPIController : ApiController
     {
 
-        //FERDIG?
         [HttpGet]
         [ActionName("Products")]
+		/// <summary>
+		/// This method will retrieve all the available products for a given Partner ID.
+		/// </summary>
+		/// <param name="id">Identifier.</param>
+		/// <returns>A HttpResponseMessage with a Status Code, and a list of products in the form {id, name}.</returns>
         public HttpResponseMessage Products(byte id)
         {
-            //id = partnerid, need some kind of auth here.
-            //System.Diagnostics.Debug.WriteLine("products");
             IEnumerable<Produkt> prods = DatabaseConnection.GetProducts(id);
             List<int> produktID = new List<int>();
             List<string> produktNavn = new List<string>();
