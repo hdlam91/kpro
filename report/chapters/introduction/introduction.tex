@@ -17,45 +17,74 @@ Adresseavisen currently uses a system where ads to be featured on their website 
 Adresseavisen now has the need for a system which can automate and simplify the process of receiving these ads into the system, with the purpose of eventually replacing the old system.
 
 \subsection{Problem Description}
-Webassistenten will take a completed ad in the form of a pdf file and save it to the appropiate folder. These folders will have the ID of the customer so that Adressa can easily identify which pdf belongs to which customer.
+Our plug-in to Webassistenten will take a completed ad in the form of a pdf file and save it to the appropiate folder. These folders will have the ID of the customer so that Adressa can easily identify which pdf belongs to which customer.
 
 Webassistenten will require certain data along with the pdf, such as date to publish, module type (what kind of format it should be printed as in the newspaper) and which newspaper it will be printed in (known as product). In the case of real estate ads, the required data also includes locations, zip code, zip area, address, responsible realtor, phone number of aforementioned realtor, email etc. These data will be saved into a database internally in their system. 
 
 \subsection{Existing Technology}
-There exist none of similar technology that we are familiar with. The existing most similar technology that Adressa uses today in webassistenten is a little bit different than the product we're developing for them. The webassistenten solution takes the same data as we're required to, but they don't take a .pdf file as input - they take pictures and generates a pdf based on that. The already existing alternative that webassistenten uses isn't as automatic as they would like it to be, and the real estate agents might not get the perfect designed ad in the pdf when webassistenten auto generates it for them.
+There currently exists no technology equivalent to ours that we are aware of. The technology that Adressa uses today in Webassistenten is different from the product we're developing for them in that the current solution doesn't accept a pdf as input. Instead it takes in pictures in addition to the accompanying data, and generates a pdf based on this input.
+
+The already existing alternative that Webassistenten utilizes isn't as automated as they would like it to be, and the real estate agents might not get the perfectly designed ad in the pdf through this auto-generation.
 %<Already existing technology that the customer could have used rather than employing us to develop new software. This is where we will write that we found no such technology and how we found that information.> %TODO
 
 \subsection{Stakeholders}
 \subsubsection{Customer}
-Customer: Adresseavisen AS\\
-\\
-Customer representatives:\\
-Asle Dragsten Liebech - \href{mailto://asle.dragsten.liebech@adresseavisen.no}{asle.dragsten.liebech@adresseavisen.no}\\
-Jostein Danielsen - \href{mailto://josetein.danielsen@adresseavisen.no}{jostein.danielsen@adresseavisen.no}\\
-\\
+Customer: Adresseavisen AS
+
+\begin{table}[H]
+\begin{tabular}{|l|l|}
+\hline
+\textbf{Name} & \textbf{E-mail} \\
+\hline
+Asle Dragsten Liebech & \href{mailto://asle.dragsten.liebech@adresseavisen.no}{asle.dragsten.liebech@adresseavisen.no}\\
+Jostein Danielsen & \href{mailto://jostein.danielsen@adresseavisen.no}{jostein.danielsen@adresseavisen.no}\\
+\hline
+\end{tabular}
+\caption{Customer Representatives}
+\end{table}
+
 The customer is, along with our group, the most important stakeholder of our project. The project supplies the customer with a product that hopefully will improve their business, as well as saving them money they would otherwise have had to spend developing the product themselves.
 
 It is important for the customer that we have a successful project resulting in a good product because delivering a poor product would require unnecessary work on their end.
 \subsubsection{Group Members}
-Group Members:\\
-Audun Skjervold - \href{mailto://audunskj@stud.ntnu.no}{audunskj@stud.ntnu.no}\\
-Erlend Løkken Sigholt - \href{mailto://erlendsi@stud.ntnu.no}{erlendsi@stud.ntnu.no}\\
-Hong-Dang Lam - \href{mailto://hongdang@stud.ntnu.no}{hongdang@stud.ntnu.no}\\
-Truls Hamborg - \href{mailto://trulsbjo@stud.ntnu.no}{trulsbjo@stud.ntnu.no}\\
-\\
+\begin{table}[H]
+\begin{tabular}{|p{5cm}|p{6cm}|}
+\hline
+\textbf{Name} & \textbf{E-mail} \\
+\hline
+Audun Skjervold & \href{mailto://audunskj@stud.ntnu.no}{audunskj@stud.ntnu.no}\\
+Erlend Løkken Sigholt & \href{mailto://erlendsi@stud.ntnu.no}{erlendsi@stud.ntnu.no}\\
+Hong-Dang Lam & \href{mailto://hongdang@stud.ntnu.no}{hongdang@stud.ntnu.no}\\
+Truls Hamborg & \href{mailto://trulsbjo@stud.ntnu.no}{trulsbjo@stud.ntnu.no}\\
+\hline
+\end{tabular}
+\caption{Group Members}
+\end{table}
+
 The members of our group are the other most important stakeholders of the project. This is mainly because the course gives course credit equivalent to two regular courses, making it more important to achieve a good grade.
+
 \subsubsection{Course Staff}
-Group Supervisor:\\
-Meng Zhu - \href{mailto://zhumeng@idi.ntnu.no}{zhumeng@idi.ntnu.no}\\
-\\
+\begin{table}[H]
+\begin{tabular}{|p{4cm}|p{4cm}|p{5cm}|}
+\hline
+\textbf{Name} & \textbf{Role} & \textbf{E-mail} \\
+\hline
+Meng Zhu & Group Supervisor & \href{mailto://zhumeng@idi.ntnu.no}{zhumeng@idi.ntnu.no}\\
+\hline
+Reidar Conradi & Course Responsible & \href{mailto://conradi@idi.ntnu.no}{conradi@idi.ntnu.no}\\
+\hline
+\end{tabular}
+\caption{Course Staff}
+\end{table}
+
 The course staff are the final stakeholders. The staff wants satisfied customers, and they want the students who participate in the course to achieve good results. To accomplish this, we need to deliver a well written report with good documentation of the project. We also need to keep our supervisor satisfied throughout the project, supplying him with good under-way documentation.
 
 \subsection{Measure of Project Effects}
-The completed ads produced through our product will not be distinguishable from completed ads produced without it. For this reason, we will not see any effects of this project.
+The completed ads produced through our product will in theory not be distinguishable from completed ads produced without it, although the design might differ from the auto-generated versions that would otherwise have been made. For this reason, we do not expect to see any effects of this project.
 
-We do however hope that Adressa and their customers will see effects in the form of time and money saved. We also believe that the real estate agents to a larger extent will find the submitted ads being accepted in the format they want them to be.
+We do however hope that Adressa and their customers will see effects in the form of time and money saved. We also believe that the real estate agents to a larger extent will find the submitted ads being accepted in the format and design they want them to be.
 
 \subsection{Duration}
 The introduction to the course started on Wednesday 21.08.2013 when we all met in S6 for information and were introduced to the customer and the project.
-The project presentation is three months past the course start, on 21.11.2013.
-The final delivery is due on 22.11.2013 where we will have a short 45 minute presentation where we introduce the product and our experience with this course.
+The project dead-line is three months after the course start, on 21.11.2013.
+The final delivery is due on 22.11.2013 at which point we will have a short 45 minute presentation where we introduce the product and our experience with this course.
