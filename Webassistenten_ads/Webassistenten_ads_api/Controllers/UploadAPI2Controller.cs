@@ -21,138 +21,93 @@ namespace Webassistenten_ads_api.Controllers
 
 		//TODO: Describe required parameters
 		/// <summary>
-		/// Accepts a pdf file with an ad, along with the required and optional parameters for ads.<br/>
-		/// Parameters go in the HTTP-Post Request (MIME-Multipart).<br/>
-		/// Could potentially accept parameters in object form in the future, but does not do that at the moment due to binding issues in Web API.<br/>
+		/// Accepts a pdf file with an ad, along with the required and optional parameters for ads in an UploadParameters object.
 		/// </summary>
+		/// <returns>An HttpResponseMessage with a status code, and message.</returns>
         [HttpPost]
         public HttpResponseMessage Upload([FromBody]UploadParameters up)
         {
-            //initialize
-            int ProductId;
-            int ModuleId;
-            string ResponsibleRealtor;
-            string Area;
-            int Type;
-            int Price;
-            string Location;
-            string Headline;
-            string Address;
-            int ZipCode;
-            string ZipArea;
-            DateTime BookingDate;
-            try
-            {
-                ProductId = int.Parse(System.Web.HttpContext.Current.Request.Params["ProductId"]);
-                ModuleId = int.Parse(System.Web.HttpContext.Current.Request.Params["ModuleId"]);
-                ResponsibleRealtor = checkString(System.Web.HttpContext.Current.Request.Params["ResponsibleRealtor"]);
-                Area = checkString(System.Web.HttpContext.Current.Request.Params["Area"]);
-                Type = int.Parse(System.Web.HttpContext.Current.Request.Params["Type"]);
-                Price = int.Parse(System.Web.HttpContext.Current.Request.Params["Price"]);
-                Location = checkString(System.Web.HttpContext.Current.Request.Params["Location"]);
-                Headline = checkString(System.Web.HttpContext.Current.Request.Params["Headline"]);
-                Address = checkString(System.Web.HttpContext.Current.Request.Params["Address"]);
-                ZipCode = int.Parse(System.Web.HttpContext.Current.Request.Params["ZipCode"]);
-                ZipArea = checkString(System.Web.HttpContext.Current.Request.Params["ZipArea"]);
-                BookingDate = DateTime.ParseExact(System.Web.HttpContext.Current.Request.Params["BookingDate"], "dd.mm.yyyy", new CultureInfo("nb-NO"), DateTimeStyles.None);// 01.06.2009 04:37:
-            }
-            catch (FormatException a)
-            {
-                return Request.CreateResponse(HttpStatusCode.BadRequest, "BookingDate needs to be in the format dd.mm.yyyy" + a);
-            }
-            catch (Exception e)
-            {
-                return Request.CreateResponse(HttpStatusCode.BadRequest, "Please fill in the required fields, one of them was empty       " + e);
-            }
 
+#if DEBUG
+			System.Diagnostics.Debug.Print("ProductID: " + up.ProductId + "\n");
+			System.Diagnostics.Debug.Print("ModuleID: " + up.ModuleId + "\n");
+			System.Diagnostics.Debug.Print("ResponsibleRealtor: " + up.ResponsibleRealtor + "\n");
+			System.Diagnostics.Debug.Print("Area: " + up.Area + "\n");
+			System.Diagnostics.Debug.Print("Type: " + up.Type + "\n");
+			System.Diagnostics.Debug.Print("Price: " + up.Price + "\n");
+			System.Diagnostics.Debug.Print("Location: " + up.Location + "\n");
+			System.Diagnostics.Debug.Print("Headline: " + up.Headline + "\n");
+			System.Diagnostics.Debug.Print("Address: " + up.Address + "\n");
+			System.Diagnostics.Debug.Print("ZipCode: " + up.ZipCode + "\n");
+			System.Diagnostics.Debug.Print("ZipArea: " + up.ZipArea + "\n");
+			System.Diagnostics.Debug.Print("BookingDate: " + up.BookingDate + "\n");
+#endif
+
+            //initialize
+			int ProductId = up.ProductId;
+            int ModuleId = up.ModuleId;
+			string ResponsibleRealtor = up.ResponsibleRealtor;
+            string Area = up.Area;
+            int Type = up.Type;
+            int Price = up.Price;
+            string Location = up.Location;
+            string Headline = up.Headline;
+            string Address = up.Address;
+            int ZipCode = up.ZipCode;
+            string ZipArea = up.ZipArea;
+            DateTime BookingDate = up.BookingDate;
 
             ///*Non-mandatory fields below:*/;
 
+#if DEBUG
+			System.Diagnostics.Debug.Print("OpenHouseDate: " + up.OpenHouseDate + "\n");
+			System.Diagnostics.Debug.Print("RealEstAgentMobile: " + up.RealEstAgentMobile + "\n");
+#endif
 
-            DateTime? OpenHouseDate = null;
-            DateTime? ConstructionYear = null;
-            if (!string.IsNullOrEmpty((System.Web.HttpContext.Current.Request.Params["OpenHouseDate"])))
-            {
-                try
-                {
-                    OpenHouseDate = DateTime.ParseExact(System.Web.HttpContext.Current.Request.Params["OpenHouseDate"], "dd.mm.yyyy", new CultureInfo("nb-NO"), DateTimeStyles.None);
-                }
-                catch (Exception e)
-                {
-                    return Request.CreateResponse(HttpStatusCode.BadRequest, "OpenHouse date needs to be in the format dd.mm.yyyy" + e);
-                }
-            }
-            if (!string.IsNullOrEmpty((System.Web.HttpContext.Current.Request.Params["ConstructionYear"])))
-            {
-                try
-                {
-                    ConstructionYear = DateTime.ParseExact(System.Web.HttpContext.Current.Request.Params["ConstructionYear"], "yyyy", new CultureInfo("nb-NO"), DateTimeStyles.None);
-                }
-                catch (Exception e)
-                {
-                    return Request.CreateResponse(HttpStatusCode.BadRequest, "OpenHouse date needs to be in the format yyyy" + e);
-                }
-            }
+            DateTime? OpenHouseDate = (up.OpenHouseDate == default(System.DateTime) ? up.OpenHouseDate : null);
+			DateTime? ConstructionYear = (up.ConstructionYear == default(System.DateTime) ? up.ConstructionYear : null);
 
-            string FinnCode =System.Web.HttpContext.Current.Request.Params["FinnCode"];
-            string ContractNr = System.Web.HttpContext.Current.Request.Params["ContractNr"];
-            long P_rom;
-            long.TryParse(System.Web.HttpContext.Current.Request.Params["P_rom"], out P_rom);
-            long Boa;
-            long.TryParse(System.Web.HttpContext.Current.Request.Params["Boa"], out Boa);
-            long Bta;
-            long.TryParse(System.Web.HttpContext.Current.Request.Params["Bta"], out Bta);
-            long Bra;
-            long.TryParse(System.Web.HttpContext.Current.Request.Params["Bra"], out Bra);
-            int Costs;
-            int.TryParse(System.Web.HttpContext.Current.Request.Params["Costs"], out Costs);
-            int PurchaseCosts;
-            int.TryParse(System.Web.HttpContext.Current.Request.Params["PurchaseCosts"], out PurchaseCosts);
-            int CommonCosts;
-            int.TryParse(System.Web.HttpContext.Current.Request.Params["CommonCosts"], out CommonCosts);
-            int AmountSharedDebt;
-            int.TryParse(System.Web.HttpContext.Current.Request.Params["AmountSharedDebt"], out AmountSharedDebt);
-            int CommonExpenses;
-            int.TryParse(System.Web.HttpContext.Current.Request.Params["CommonExpenses"], out CommonExpenses);
-            int PropertyArea;
-            int.TryParse(System.Web.HttpContext.Current.Request.Params["PropertyArea"], out PropertyArea);
-            string PropertyType = System.Web.HttpContext.Current.Request.Params["PropertyType"];
-            int Floor;
-            int.TryParse(System.Web.HttpContext.Current.Request.Params["Floor"], out Floor);
-            int Bedrooms;
-            int.TryParse(System.Web.HttpContext.Current.Request.Params["Bedrooms"], out Bedrooms);
-            int Rooms;
-            int.TryParse(System.Web.HttpContext.Current.Request.Params["Rooms"], out Rooms);
-            string OpenHouseText = System.Web.HttpContext.Current.Request.Params["OpenHouseText"];
-            string RealEstAgentName = System.Web.HttpContext.Current.Request.Params["RealEstAgentName"];
-            string RealEstAgentTitle = System.Web.HttpContext.Current.Request.Params["RealEstAgentTitle"];
-            int RealEstAgentMobile;
-            int.TryParse(System.Web.HttpContext.Current.Request.Params["RealEstAgentMobile"], out RealEstAgentMobile);
-            int RealEstAgentPhone;
-            int.TryParse(System.Web.HttpContext.Current.Request.Params["RealEstAgentPhone"], out RealEstAgentPhone);
+            string FinnCode = up.FinnCode;
+			string ContractNr = up.ContractNr;
+			long P_rom = up.P_Rom;
+			long Boa = up.Boa;
+			long Bta = up.Bta;
+			long Bra = up.Bra;
+			int Costs = up.Costs;
+			int PurchaseCosts = up.PurchaseCosts;
+			int CommonCosts = up.CommonCosts;
+			int AmountSharedDebt = up.AmountSharedDebt;
+			int CommonExpenses = up.CommonExpenses;
+			int PropertyArea = up.PropertyArea;
+			string PropertyType = up.PropertyType;
+			int Floor = up.Floor;
+			int Bedrooms = up.Bedrooms;
+			int Rooms = up.Rooms;
+			string OpenHouseText = up.OpenHouseText;
+			string RealEstAgentName = up.RealEstAgentName;
+			string RealEstAgentTitle = up.RealEstAgentTitle;
+			int RealEstAgentMobile = up.RealEstAgentMobile;
+			int RealEstAgentPhone = up.RealEstAgentPhone;
 
-            string RealEstAgentEmail;
-            if (checkMail(System.Web.HttpContext.Current.Request.Params["RealEstAgentEmail"]))
+			string RealEstAgentEmail;
+            if (checkMail(up.RealEstAgentEmail))
             {
-                RealEstAgentEmail = System.Web.HttpContext.Current.Request.Params["RealEstAgentEmail"];
+                RealEstAgentEmail = up.RealEstAgentEmail;
             }
             else
             {
                 return Request.CreateResponse(HttpStatusCode.BadRequest, "Email is not valid.");
             }
 
-            string AdText = System.Web.HttpContext.Current.Request.Params["AdText"];
+			string AdText = up.AdText;
             
             
             
-            
-
-            //System.Diagnostics.Debug.Write("something"+up.Adress);
             HttpResponseMessage result = null;
             var httpRequest = System.Web.HttpContext.Current.Request;
-            if (!Request.Content.IsMimeMultipartContent("form-data"))
+            if (!Request.Content.IsMimeMultipartContent("UploadParameters"))
             {
-                result = Request.CreateResponse(HttpStatusCode.UnsupportedMediaType, "Something went wrong, mediatype not supported");
+                result = Request.CreateResponse(HttpStatusCode.UnsupportedMediaType, "MultipartContent must be of type UploadParameters!");
             }
             else
             {
@@ -189,8 +144,8 @@ namespace Webassistenten_ads_api.Controllers
                         	p.Pris = Price;
                         	p.Adresse = Address;
                         	p.DatoReg = DateTime.Now;
-                        	//p.Tomteareal = Area;
-                        	//p.Tomtetype = Type;
+                        	p.Omraade = Area;
+							p.BoligtypeID = Type;
 
                         	p.FinnKode = FinnCode;
                         	p.Oppdragsnr = ContractNr;
@@ -245,22 +200,6 @@ namespace Webassistenten_ads_api.Controllers
             return result;
         }
 
-        //[HttpGet]
-        //public HttpResponseMessage GetUpload(int ProductId, string ResponsibleRealtor, string Area, int Type,
-        //    int Price, string Location, string Headline, string Address, int ZipCode,
-        //    string ZipArea, DateTime BookingDate,
-        //    /*Non-mandatory fields below:*/ DateTime? OpenHouseDate, DateTime? ConstructionYear,
-        //    int FinnCode = 0, int ContractNr = 0, float? P_rom = 0, float? Boa = 0, float? Bta = 0,
-        //    float? Bra = 0, int Costs = 0, int PurchaseCosts = 0, int CommonCosts = 0, int AmountSharedDebt = 0,
-        //    int CommonExpenses = 0, int PropertyArea = 0, string PropertyType = "",
-        //    int Floor = 0, int Bedrooms = 0, int Rooms = 0, string OpenHouseText = "",
-        //    string RealEstAgentName = "", string RealEstAgentTitle = "", int RealEstAgentMobile = 0, int RealEstAgentPhone = 0,
-        //    string RealEstAgentEmail = "", string AdText = "")
-        //{
-        //    System.Diagnostics.Debug.WriteLine(ProductId + "," + Address);
-        //    return Request.CreateResponse(HttpStatusCode.OK);
-        //}
-
         private string checkString(string input) 
         {
             if (string.IsNullOrEmpty(input))
@@ -299,6 +238,7 @@ namespace Webassistenten_ads_api.Controllers
 	[Serializable]
 	public class UploadParameters
 	{
+
 		[DataMember(IsRequired=true)]
 		[Required(ErrorMessage = "Product ID is required.")]
 		public int ProductId { get;  set; }
