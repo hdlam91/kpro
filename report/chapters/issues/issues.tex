@@ -12,8 +12,8 @@ gacutil /u Microsoft.VisualStudio.CSharp.Services.Language.Interop
 \subsubsection{GitHub DDoS}
 On October 14, the day of the midterm delivery, GitHub experienced a DDoS attack. This resulted in some of the files we were working on for the report becoming locked mid-commit and mid-pull, and preventing us from performing a new git pull. This also prevented some of us from compiling, due to a previous commit containing errors having been pulled.
 
-\subsubsection{Windows on Mac}
-Mac is not Windows. %TODO Truls
+%\subsubsection{Windows on Mac}
+%Mac is not Windows. %TODO Truls
 
 \subsubsection{SDM}
 NTNU gurutjeneste offers free MSDNAA account which we can use to download Microsoft software from MSDN software center (Microsoft developer network). To download software from MSDN we had to use Secure Download Manager (from now on referred to as SDM), by opening the .SDX file obtained from the MSDN webpage. The download went find however the unpacking of the files gave us an unknown error without further information.
@@ -27,9 +27,16 @@ NTNU gurutjeneste offers free MSDNAA account which we can use to download Micros
 \subsubsection{MSSQL}
 The installation of MSSQL did not go as smoothly as we had hoped for, we tried to install the MSSQL Management Studio Express first, but this did not install a server instance of the database so we couldn't restore the backup dump we got from the customer. When we had installed a server instance there was problem finding the database dump file - the database dump file needs to be in the correct folders or else the management studio software won't be able to see it. The backup dump was also too big for an express version.
 
+\subsubsection{Web API}
+\label{subsubsec:webapiissues}
+%TODO
+
 \subsubsection{Naming conventions}
 A table in the database was named "System" which collided with the namespace "System" in C\#, this was due to the EF generating a System.cs file which was used instead of the actual System namespace whenever there was a \begin{verbatim}using System;\end{verbatim}
 statement in our code.
 
 
-
+\subsubsection{Disk Space}
+%TODO
+\subsubsection{File transfering}
+Because the database backup dump was 10.8GiB it was not plausible to download the file via adressa's server. The customer brought a copy of the file for us on an extern USB HDD, we got a copy of the file on one of our machine but we had trouble transferring to another machine without an external HDD. USB memory sticks wasn't viable because they are usually less than 10GiB and FAT32 format which has a maximum file limit of 4GiB. 
