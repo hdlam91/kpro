@@ -14,7 +14,7 @@ The course staff wants a clear and well-documented architecture that is easy to 
 
 
 \subsection{Quality Attributes}
-The customer was very specific when it came to what they wanted. %TODO: Were they, though? Rewrite/elaborate
+The customer was very specific when it came to what they wanted when it came down to the product, they didn't specify any quality attributes but we could deduce the most common ones which we felt needed to be a part of the Quality attributes in our implementation, the following was deduced: Modifiability, Performance, Availability, Interoperability and Readability. 
 
 \subsubsection{Modifiability}
 While we were the create the solution for real estate ads specifically, the solution will be used for other ads as well. Therefore we need to make it modifiable so that other developers later on can further develop using our solution as a base.
@@ -33,19 +33,22 @@ The customer wanted us to write readable code. They requested that we used polym
 
 
 \subsection{Views}
-
+Views are a way to display the implementation of a system by showing separate points of view associated with the various stakeholder concerns. We've tried to follow the 4+1 architectural view \footnote{\href{http://en.wikipedia.org/wiki/4+1_Architectural_View_Model}{http://en.wikipedia.org/wiki/4+1\_architectural\_view\_model}}
 \subsubsection{Process view}
-There is no need for us to supply a process view, because we do not have access to their server. We are only supposed to write the code for their system, without taking into account how the processes inter-operate.
+When we started out by designing the architecture we didn't know how the information flow was supposed to be and thereby didn't make a process view for the system. We also did not know how the internal system of Adressa works and how the processes in their system inter-operate. However we did create a new architecture to reflect on the changes we made during the project. 
+
 \subsubsection{Logical view}
+The logical view concerns the functionality the system provides by displaying it as a high level structure that shows how the components interact with each other. The logical view is usually a class diagram or sequence diagram. We've decided to use a class diagram because it's easier to see how the classes interact with each other and implement. Our logical view is based on the pattern Pipe and filter\footnote{\href{http://en.wikipedia.org/wiki/Pipeline_(software)}{http://en.wikipedia.org/wiki/Pipeline\_(software)}} due to the requirement of modifiability.
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.8\textwidth]{images/architecture00.png}
 \caption{Logical view}
 \label{fig:logical_view}
 \end{figure}
-\newpage
+
 
 \subsubsection{Scenario view}
+This view is also known as a use case view, which basically shows an example of an imagined and expected use of the system. The main purpose of this view is to show how the objects (in this case a client or a person) interacts with the processes and system.
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.8\textwidth]{images/architecture01.png}
@@ -57,16 +60,17 @@ There is no need for us to supply a process view, because we do not have access 
 
 
 \subsubsection{Physical view}
+The physical view shows how the physical components interacts with each other.
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.8\textwidth]{images/architecture02.png}
 \caption{Physical view}
-\caption*{we implement the red arrows}
+\caption*{We are to implement the red arrows}
 \label{fig:physical_view}
 \end{figure}
 \newpage
 \subsection{Class diagram}
-From these views, we made this class diagram.
+From these views, we made this class diagram as a first draft of how we felt the system should be. However this later turned out to not fit into how the framework is supposed to be, and we had to change the architecture.
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.8\textwidth]{diagrams/class_diagram.png}
@@ -74,8 +78,10 @@ From these views, we made this class diagram.
 \label{fig:class_diagram}
 \end{figure}
 \subsection{Patterns}
-MVC due to the technology and pipe \&  filter to filter the data and due to the modifiability requirement.
+Due to the project being a MVC.NET and Web API application we decided to use MVC pattern because the project might have this pattern built in already, we also wanted a pipe \& filter to filter the data and to satisfy the modifiability requirement.
+
 \subsection{Tactics}
+Architectural tactics are common strategies used to achieve the quality attributes required. These tactics should be kept in the back of ones head when developing this product.
 \subsubsection{Modifiability}
 \begin{itemize}
 \item Increase semantic cohesion
@@ -100,11 +106,11 @@ MVC due to the technology and pipe \&  filter to filter the data and due to the 
 
 \subsubsection{Readability}
 \begin{itemize}
-\item We will follow the clean coding principle and use camelCase coding. Refer to \ref{Templates and Standards section} Templates and Standards section on page \pageref{Templates and Standards section}
+\item We will follow the clean coding principle and use camelCase coding and structure the code logically. The naming of classes and files should also be clear. Refer to \ref{Templates and Standards section} Templates and Standards section on page \pageref{Templates and Standards section}.
 \end{itemize}
 
 \subsection{Changes to the architecture}
-When we started to implement the system we quickly found out that the we had architectural drift because the architecture we designed in the start didn't fit well into the web api framework. After we got an overview of the system we had change the architecture to a MVC pattern. 
+When we started to implement the system we quickly found out that the we had architectural erosion because the architecture we designed in the start didn't fit well into the web api framework. After we got an overview of the system we had change the architecture to a MVC pattern. 
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.8\textwidth]{images/architecture03_revised1.png}
