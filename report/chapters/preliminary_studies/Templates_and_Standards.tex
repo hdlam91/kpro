@@ -1,5 +1,5 @@
 
-\subsection{Templates}
+\section{Templates}
 \label{Templates and Standards section}
 We have created the following templates for documents used in the process:
 
@@ -11,7 +11,7 @@ We have created the following templates for documents used in the process:
 \end{itemize}
 We have established several standards for the project, as seen in the rest of this section.
 
-\subsection{Documents}
+\section{Documents}
 For internal documents we have established the naming standard:
 
 MM\_DD\_<Description>\_<Version if applicable>
@@ -20,13 +20,13 @@ This is to ensure documents are properly sorted, and that they are easily identi
 
 
 
-\subsection{Coding}
+\section{Coding}
 We will be using C\# as a programming language, and will consequently be following the C\# coding standards, as outlined by Microsoft. \cite{cCoding}
 %TODO html
 \\\\
 The guidelines are summarized in the following section.\\
 
-\subsubsection{Documentation}
+\subsection{Documentation}
 All public classes, methods, and preferably properties/fields shall be documented with comments which will enable generation of documentation. Example:
 \begin{lstlisting}
 /// <summary>
@@ -47,7 +47,7 @@ public class ExampleClass
 }
 \end{lstlisting}
 
-\subsubsection{Naming and variables}
+\subsection{Naming and variables}
 Use CamelCase for classes, method names and properties.
 Example:
 \begin{lstlisting}
@@ -66,7 +66,7 @@ int exampleVariable = 1;
 int stringExample = "This is an example";
 \end{lstlisting}
 
-\subsubsection{Comments and layout}
+\subsection{Comments and layout}
 Blocks shall start and end with curly brackets on their own line.
 
 Comments shall have a space between the double slashes and the actual comment. Continuation lines shall be indented. All comments shall start with a capital letter, and end with a period.
@@ -100,7 +100,7 @@ void Foo()
 }
 \end{lstlisting}
 
-\subsubsection{Variables, types, and declaration}
+\subsection{Variables, types, and declaration}
 Implicitly typed local variables can be used when the right hand side clearly indicates type, or it's not important.
 
 Use in-line instantiation with constructors when possible, instead of instantiation and assignment.
@@ -145,7 +145,7 @@ for(int i = 0; i < 1000; i++)
 \end{lstlisting}
 
 
-\subsubsection{Try-catch, exceptions and using}
+\subsection{Try-catch, exceptions and using}
 Exception handling shall be done by try-catch statements.
 Code shall not unexpectedly throw exceptions; only when something unrecoverable has happened.
 
@@ -169,10 +169,10 @@ using (Socket socket = new Socket();)
 }
 \end{lstlisting}
 
-\subsection{Static Members}
+\section{Static Members}
 Static members shall always be called by class name, and never accessed in a derived class when defined in a base class.
 
-\subsubsection{Clean Coding}\label{cleanCoding}
+\subsection{Clean Coding}\label{cleanCoding}
 We have also endeavored to follow the ten Clean Coding principles, as outlined by one extra pixel's post. \cite{cleanCoding}
 The ten principles are as following:
 \begin{enumerate}
@@ -190,6 +190,6 @@ The ten principles are as following:
 
 \end{enumerate}
 
-\subsection{APIs}
-\subsubsection{ASP .NET Web API}
+\section{APIs}
+\subsection{ASP .NET Web API}
 One of the agreed upon requirements for the project was that we conform to ASP .NET Web API. This to make it easier to interact with our framework from other systems (both existing and future ones). An introduction to using this API can be found at Asp.net\footnote{\href{http://www.asp.net/web-api}{http://www.asp.net/web-api}} or at Microsoft's webpage\footnote{\href{http://msdn.microsoft.com/en-us/library/hh833994(v=vs.108).aspx}{http://msdn.microsoft.com/en-us/library/hh833994(v=vs.108).aspx}}.
