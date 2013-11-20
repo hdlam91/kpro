@@ -84,29 +84,11 @@ basicstyle=\ttfamily
 %%% The "real" document content comes below...
 \pagenumbering{roman}
 
-\title{\normalsize TDT4290 Customer Driven Project \\ \LARGE \textbf{Automatic Import of Completed Ads} \normalsize \\Adresseavisen AS}
-\author{\Large \textbf{Group 15} \normalsize\\Audun Skjervold \\ Erlend Løkken Sigholt \\ Hong-Dang Lam \\ Truls Hamborg}
-%\date{} % Activate to display a given date or no date (if empty),
-         % otherwise the current date is printed 
-
-
 
  
 \begin{document}
-\maketitle \hspace{-0.5cm}
-\begin{center}
-\includegraphics[width=7cm]{images/ntnulogo}\\ 
-\end{center}
-\includegraphics[width=17cm]{images/idilogo}\\\hrule
 
-\begin{center}
-\textbf{Supervisor}\\ Meng Zhu\\
-\textbf{Customer Representatives}\\ Asle Dragsten Liebech \\
-Jostein Danielsen\\
-Hans Kristian Ormberg\\
-\end{center}
-\thispagestyle{empty}
-\newpage
+\include{frontpage}
 
 %Abstract and preface
 \include{chapters/abstract/abstract}
@@ -122,8 +104,8 @@ Hans Kristian Ormberg\\
 \listoftables
 \newpage
 
-\part{Project Introduction}
 \pagenumbering{arabic}
+\part{Project Introduction}
 \include{chapters/introduction/introduction}
 
 % Project Management chapter
@@ -173,6 +155,7 @@ Hans Kristian Ormberg\\
 \include{chapters/appendices/database}
 \include{chapters/appendices/template}
 \include{chapters/appendices/dictionary}
-
+%product removes page numbers and HAS to be put as the last file.
+\include{chapters/appendices/product}
 
 \end{document}
