@@ -218,7 +218,8 @@
     <Compile Include="Controllers\UploadAPI2Controller.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\MasterController.cs" />
-    <Compile Include="Controllers\DatabaseConnection.cs" />
+    <Compile Include="Repository\Constants.cs" />
+    <Compile Include="Repository\DatabaseConnection.cs" />
     <Compile Include="Controllers\ModuleAPIController.cs" />
     <Compile Include="Controllers\ProductAPIController.cs" />
     <Compile Include="Controllers\UploadAPIController.cs" />
@@ -1120,7 +1121,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Repository\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />

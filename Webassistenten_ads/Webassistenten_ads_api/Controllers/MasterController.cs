@@ -11,7 +11,7 @@ using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 using System.ComponentModel.DataAnnotations;
-
+using Webassistenten_ads_api.Repository;
 using System.IO;
 
 
@@ -22,7 +22,7 @@ namespace Webassistenten_ads_api.Controllers
 
         
         // GET: /Master/
-        public static string folder = "~/hdTest/"; // this has to be changed to something according 
+        public static string folder = Constants.FOLDER;
 
         /// <summary>
         /// Index method for login/identifying
