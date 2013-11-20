@@ -1,15 +1,15 @@
-\section{Testing}
+\chapter{Testing}
 
 This chapter will describe the methods used for testing the requirements, the reasoning behind their choice, the testing methodology, and the results of the testing.
 
-\subsection{Testplan}
+\section{Testplan}
 
 Due to the nature of the technology we used in the product, we judged TDD or Unit Testing to be unsuitable for our project. The reasoning behind this
 is that our unfamiliarity with WebAPI, as well as the products limited modularity \ref{subsec:webapiimpl} on page \pageref{subsec:webapiimpl}, meant that it would be hard to write good Unit Tests that tested functionality and errors sufficiently. Instead we focused on writing clean, readable code, with subsequent high level testing of entire modules at once.\\
 The test plan consisted of testing module functionality, and when modules functioned according to specifications, testing the system as a whole with all currently
 implemented modules.
 
-\subsection{Testing Methodology}
+\section{Testing Methodology}
 
 As discussed in the previous section, TDD and Unit Testing was deemed unsuitable for our project, and as a result we settled on a practical testing of each module
 followed by integration testing of modules once they completed individual tests. All of the tests of modules and higher levels were done by the person that completed it
@@ -19,14 +19,14 @@ specification, as appropriate.
 The main testing sequence consisted of first testing of method logic in the IDE itself for each method once completed, by examining the state and output during runtime.
 The next part consisted of testing a each module as they were completed, and the final part was the overall system test for each phase of the product implementation.
 
-\subsection{Testing}
+\section{Testing}
 
 The testing consisted of two main phases, with two sub-phases to each main phase. The first phase consisted of testing the data objects, method logic, EF connection,
 EF saving and by extension database saving.
 The second phase consisted of testing the WebAPI implementation, its function, errors, and the modified auto-generated API-documentation. It also finished with the
 complete system level test, where the system was tested in its entirety.
 
-\subsubsection{Functionality and MVC}
+\subsection{Functionality and MVC}
 
 The functionality tests consisted of state examination during runtime, with breakpoints in the execution, set by Visual Studio, supported by console printouts
 during debug runs of the code. Once all the logic for a module fulfilled its required functionality the module was tested with simple MVC views for browsers, 
@@ -35,7 +35,7 @@ which were made for testing and minimal examples of API use.
 Once all the modules completed testing, the system level test for the MVC-phase was run, where our MVC testing-views reperesented a minimal working product for
 the project specifications.
 
-\subsubsection{WebAPI and Finalization}
+\subsection{WebAPI and Finalization}
 
 In the testing of our Micrsoft Web API implementation for the project, we were limited to testing of functionality for each individual API method, and
 some simulated testing of possible use by Adresseavisens end users for the product (software developers working for real estate agents).
@@ -46,11 +46,11 @@ the Developer Tools in Google Chrome, and examining the replies.
 We simulated the proper sequence of data requests and submission by testing methods in proper order, and submitting the appropriate data from the last method reply
 to the next request.
 
-\subsection{Test Results}
+\section{Test Results}
 
 In this section we will discuss the results of the completed tests, successes, failures, their implications, and how we handled the results. 
 
-\subsubsection{Functionality- and MVC-Results}
+\subsection{Functionality- and MVC-Results}
 
 Functionality tests started in Sprint 2, where they were mostly completed. They were wholly completed in the start of Sprint 3, where all of the required
 functionality and modules were tested. All modules worked according to specification, and we started testing all modules together in an ASP.NET MVC project
@@ -59,7 +59,7 @@ as was required by specification.
 The MVC-testing gave a good overview of the interaction between the various modules, something which was very useful in the implementation of Web API for the project,
 because as an API it wouldn't allow for the same level of comprehensive sequence testing for the entire ad order process.
 
-\subsubsection{WebAPI-Results and Finalization}
+\subsection{WebAPI-Results and Finalization}
 
 Web API testing was conducted during Sprint 4, and finished during the same. The first Web API test results were merely a confirmation of the functionality tests from the previous phase, since the method functionality was the same, just used in a slightly different context. Unsuprisingly the results were satisfactory, and consistent with the previous results.
 After that came the Web API implementation testing, where quite a few tests failed. For reasons undetermined (though not for lack of trying), the refence implementation of Web API
@@ -67,7 +67,7 @@ methods failed to function as advertised. Interplay between Entity Framework, We
 workarounds and tests, until required functionality was achieved.
 
 
-\subsubsection{Implications of Test Results}
+\subsection{Implications of Test Results}
 
 The failure of our reference implementation of Web API methods forced us to use a non-standard, and less transparent implementation to achieve the desired functionality,
 something which placed greater importance on both our integrated and detached API documentation. This added some extra work with the documentation outside of what we expected,

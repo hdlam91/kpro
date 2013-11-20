@@ -1,31 +1,37 @@
-\section{Evaluation}
+\chapter{Evaluation}
 In this chapter we will evaluate the whole project and our process during the project to see how what we felt was done correctly and what was not. This chapter will also take a look at our group dynamic and check how we handled issues and risks.
 
-\subsection{The process}
+\section{The process}
 
 
-\subsection{Quality assurance}
-\subsubsection{External communication}
+\section{Quality assurance}
+\subsection{External communication}
 This sub chapter is mainly about communication outside of our group.
-\paragraph{Communication with the Customer}
+\subsubsection{Communication with the Customer}
 The customer was always available via e-mail and whenever we needed him urgently we could call him via mobile phone - which we found via the assignment text. The customer answered pretty fast (usually with minutes), but there was once when he was in Spain when he didn't answer for a couple of days. We thought that he didn't have internet connection available, however it soon turned out to be our mail ended up in his spam folder.\\
 Asle is a computer scientist himself which was beneficial for us because he could give precise answer instead of vague answers that beats around the bush. Our customer Asle was also a student at NTNU a few years back, this turned out to be quite beneficial for us because he was familiar with the university and its processes - which means that we didn't have to waste time explaining where the meeting took place etc. \\
 In the customer meeting in Sprint 1 we got an demonstration of the database structure and the other customer representative Hans Ormberg suggested that picture upload to the database was also a good idea to implement, Asle agreed with this. We on the other hand kept this in the backlog and would implement it if we had the time to do so, which we didn't. We told Asle that we had to drop the picture upload implementation due to time constraints and he understood the situation - and was cool with it, because this was not a requirement in the original assignment.
 
-\paragraph{Advisor}
-Our advisor is Meng Zhu was in the beginning not very responsive via mail, it took a couple of days before we got a response from him. We mentioned it to him in a supervisor meeting that we wanted a mail response in 24 hours and we got that, all the mails that needed a response was responded in less than 24 hours after we sent the mail. Most of our communication with Meng was through the supervisor meetings where he went through our weekly report and minutes from the previous meeting. He also asked us if there were any unresolved issues we need help with to fix. 
+\subsubsection{Supervisor}
+Our supervisor is Meng Zhu was in the beginning not very responsive via mail, it took a couple of days before we got a response from him. We mentioned it to him in a supervisor meeting that we wanted a mail response in 24 hours and we got that, all the mails that needed a response was responded in less than 24 hours after we sent the mail. Most of our communication with Meng was through the supervisor meetings where he went through our weekly report and minutes from the previous meeting. He also asked us if there were any unresolved issues we need help with to fix. 
 
 Meng was also concerned with how our report would turn out, and asked us if we could make a draft layout of the final report so he could double check that we had included all the chapters and sections we needed for a well written complete. If we needed resources to fulfill a chapter in our report Meng would gladly lend us a his system development book if we needed it. 
 
-\subsubsection{Internal communication}
+When we had the first meeting with our supervisor we got a template that we should use for the weekly reports. This template saved us time whenever we created a weekly report for the supervisor meeting, and it made it easier for to be more efficient on the meeting so we could focus on the assignment.
+
+\subsection{Internal communication}
 We had no ground rules in our group, we only followed common group sense - where we would notice the other group members if we were late. We didn't have issues with people being 2 hours late, because we knew that they might have other subject that might need more prioritizing at that time. Deliveries in other subject might lead to sleepless nights, thus doing customer driven project 8:00-10:00 in the morning was not feasible. We did however call or contact the oversleeping person if he didn't appear in time of a meeting to remind him that the meeting would take place in 30 min or so.
 We didn't punish any late arrivals due to all of us being late in turn, this worked fine for us.\\
 There were no issues in our internal group, we usually agreed on everything.
 
-\subsection{Implementation}
-Our implementation followed the the clean code principle and template written on \ref{cCoding} Templates and Standards on page \pageref{cCoding}. This ensured that the code followed the standard and was readable for other developers. All the methods we implemented had XML Style Comment for documentation purposes. \\
+
+\section{Implementation}
+Our implementation followed the clean code principle and template written on \ref{Templates and Standards section} Templates and Standards on page \pageref{Templates and Standards section}. This ensured that the code followed the standard and was readable for other developers. All the methods we implemented had XML Style Comment for documentation purposes. \\
 We would hope the implementation of our code had went more smoothly than "error message per third line of written code", but when we finally got a somewhat of a grasp on C\# and Web API things started to go a little more smoothly.\\
 Due to our version control system Git and GitHub we could easily experiment with the code without ruining the project, because Git let us revert the changes made. Even if we wrote on the same file we had no big Git conflict that needed a lot of rework to fix the merge, it was usually just removing the "<<<<<HEAD" section that Git added.
 
 \subsection{Testing}
 We had no specific test plan. The implementation of our code needed a pdf accompanied by a lot of data. These data had to be checked against the database and we had to make sure that all the data was in the correct format both to the database and the input data (we had to make sure to give appropriate error message). The testing was done while developing, and we usually got a lot of error messages, but when the code ran we could easily check if the result was expected or not by sending data to the IIS express server via a web form we created locally for testing.
+
+\section{Group dynamics}
+Our group had issues with people being late, but because we all were late now and then it was not a problem that irritated any of us. The group was also fortunate that all the group members are from the same class (Computer Science forth grade), so everyone knew each other before we started working. The whole group had also been together before this project on a class trip to Japan where we got to know each other better outside of school, this helped immensely on the group dynamic. We therefore felt that the group dynamic course didn't give us as much as we had hoped for. The group dynamic course however did give us insight of our group and helped us defining roles and responsibility amongst us.

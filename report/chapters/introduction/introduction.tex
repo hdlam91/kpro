@@ -1,37 +1,37 @@
-\section{Introduction}
+\chapter{Introduction}
 This chapter gives a brief introduction to our project, including the customer, purpose, background, problem description, existing technology, stakeholders and Measure of Project Effects, duration. 
 \newpage
 
-\subsection{Project name - Automatic Import of Completed Ads}
+\section{Project name - Automatic Import of Completed Ads}
 The project is named \em Automated Import of Completed Ads\em \ by the \\
 customer; \em Adressavisen AS.\em \ The team is to create a framework for automatic import of real estate ads into Adresseavisen's internal database and order system.
-\subsection{Customer - Adresseavisen AS}
+\section{Customer - Adresseavisen AS}
 Adresseavisen is a regional newspaper in Trondheim, Norway and the surrounding area. It publishes it's newspaper in Trøndelag and Nordmøre on a daily basis except on Sundays. It is an independent, conservative newspaper with a daily circulation of approximately 85000 NOK. 
 Stocks in Adresseavisen are traded on the Oslo Stock Exchange.\\
 \\
 "In addition to the main newspaper, Adresseavisen owns several smaller local newspapers in the Trøndelag region. They also own and operate a local radio station, Radio-Adressa, and a local TV station, TV-Adressa (prior to 30 January 2006: TVTrøndelag). They also have a stake in the national radio channel Kanal 24. In addition, the newspaper owns the local newspapers Fosna-Folket, Hitra-Frøya, Levanger-Avisa, Sør-Trøndelag, Trønderbladet and Verdalingen." \cite{adressaWiki}
 
-\subsection{Project Purpose}
+\section{Project Purpose}
 The purpose of this project is to create a framework for automated import of complete ads in the form of pdf-files. The pdf-files will be accompanied by data, which shall be added to the database and used to create an order in Adresseavisens internal order system for ads. This framework will also be able to provide customers with certain information that is to be supplied when they wish to have an ad featured in Adresseavisen, such as available dates and ad-packages.
 
-\subsection{Project Background}
+\section{Project Background}
 Adresseavisen currently uses a system where ads to be featured on their website or published in newspapers are created in their internal order system, with the use of one of very many templates. This is very complex and an increasing amount of customers use their own fully completed ads, in the form of pdf-files.
 
 Adresseavisen now has the need for a system which can automate and simplify the process of receiving these ads into the system, with the purpose of eventually replacing the old system.
 
-\subsection{Problem Description}
+\section{Problem Description}
 Our plug-in to Webassistenten will take a completed ad in the form of a pdf file and save it to the appropiate folder. These folders will have the ID of the customer so that Adressa can easily identify which pdf belongs to which customer.
 
 Webassistenten will require certain data along with the pdf, such as date to publish, module type (what kind of format it should be printed as in the newspaper) and which newspaper it will be printed in (known as product). In the case of real estate ads, the required data also includes locations, zip code, zip area, address, responsible realtor, phone number of aforementioned realtor, email etc. These data will be saved into a database internally in their system. 
 
-\subsection{Existing Technology}
+\section{Existing Technology}
 There currently exists no technology equivalent to ours that we are aware of. The technology that Adressa uses today in Webassistenten is different from the product we're developing for them in that the current solution doesn't accept a pdf as input. Instead it takes in pictures in addition to the accompanying data, and generates a pdf based on this input.
 
 The already existing alternative that Webassistenten utilizes isn't as automated as they would like it to be, and the real estate agents might not get the perfectly designed ad in the pdf through this auto-generation.
 %<Already existing technology that the customer could have used rather than employing us to develop new software. This is where we will write that we found no such technology and how we found that information.> %TODO
 
-\subsection{Stakeholders}
-\subsubsection{Customer}
+\section{Stakeholders}
+\subsection{Customer}
 Customer: Adresseavisen AS
 
 \begin{table}[H]
@@ -49,7 +49,7 @@ Jostein Danielsen & \href{mailto://jostein.danielsen@adresseavisen.no}{jostein.d
 The customer is, along with our group, the most important stakeholder of our project. The project supplies the customer with a product that hopefully will improve their business, as well as saving them money they would otherwise have had to spend developing the product themselves.
 
 It is important for the customer that we have a successful project resulting in a good product because delivering a poor product would require unnecessary work on their end.
-\subsubsection{Group Members}
+\subsection{Group Members}
 \begin{table}[H]
 \begin{tabular}{|p{5cm}|p{6cm}|}
 \hline
@@ -66,7 +66,7 @@ Truls Hamborg & \href{mailto://trulsbjo@stud.ntnu.no}{trulsbjo@stud.ntnu.no}\\
 
 The members of our group are the other most important stakeholders of the project. This is mainly because the course gives course credit equivalent to two regular courses, making it more important to achieve a good grade.
 
-\subsubsection{Course Staff}
+\subsection{Course Staff}
 \begin{table}[H]
 \begin{tabular}{|p{4cm}|p{4cm}|p{5cm}|}
 \hline
@@ -82,12 +82,12 @@ Reidar Conradi & Course Responsible & \href{mailto://conradi@idi.ntnu.no}{conrad
 
 The course staff are the final stakeholders. The staff wants satisfied customers, and they want the students who participate in the course to achieve good results. To accomplish this, we need to deliver a well written report with good documentation of the project. We also need to keep our supervisor satisfied throughout the project, supplying him with good under-way documentation.
 
-\subsection{Measure of Project Effects}
+\section{Measure of Project Effects}
 The completed ads produced through our product will in theory not be distinguishable from completed ads produced without it, although the design might differ from the auto-generated versions that would otherwise have been made. For this reason, we do not expect to see any effects of this project.
 
 We do however hope that Adressa and their customers will see effects in the form of time and money saved. We also believe that the real estate agents to a larger extent will find the submitted ads being accepted in the format and design they want them to be.
 
-\subsection{Duration}
+\section{Duration}
 The introduction to the course started on Wednesday 21.08.2013 when we all met in S6 for information and were introduced to the customer and the project.
 
 The final delivery is three months after the course start, on 21.11.2013, at which point we will have a short 45 minute presentation where we introduce the product and our experience with this course.

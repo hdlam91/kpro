@@ -1,13 +1,13 @@
-\documentclass[12pt, a4paper]{article} 
+\documentclass[12pt, a4paper]{report} 
  
 \usepackage[utf8]{inputenc}
  
 \usepackage{titlesec}
 \setcounter{secnumdepth}{4}
 
-\titleformat{\paragraph}
+\titleformat{\subsubsection}
 {\normalfont\normalsize\bfseries}{\theparagraph}{1em}{}
-\titlespacing*{\paragraph}
+\titlespacing*{\subsubsection}
 {0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
 
 \usepackage{geometry} % to change the page dimensions
@@ -130,7 +130,7 @@ Hans Kristian Ormberg\\
 \include{chapters/project_management/terms_and_resources}
 \include{chapters/project_management/roles}
 \input{chapters/project_management/time_schedule}
-\include{chapters/project_management/overall_project_plan}
+%\include{chapters/project_management/overall_project_plan}
 \include{chapters/issues/issues}
 \include{chapters/project_management/risk_factors}
 \include{chapters/project_management/qa}
@@ -156,7 +156,7 @@ Hans Kristian Ormberg\\
 %TODO: Find final placement for implementation chapter
 \include{chapters/technology_implementations/web_app_implementations}
 
-%\subsection{Tests}
+%\section{Tests}
 \include{chapters/testing/testplan}
 
 \part{Evaluation and Conclusion}
