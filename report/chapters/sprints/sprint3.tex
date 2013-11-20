@@ -1,39 +1,39 @@
-\section{Sprint 3}
+\chapter{Sprint 3}
 
-\subsection{Time Frame}
+\section{Time Frame}
 The time frame for Sprint 3 was week 42 and 43. We started the sprint on October 14th with a weekly supervisor meeting, followed by a sprint plan meeting. We finished the sprint on October 25th with a sprint review meeting.
 
-\subsection{Original Plan}
+\section{Original Plan}
 From our Work Breakdown Structure, we had the following tasks planned for this sprint:
 \begin{itemize}
 	\item Bugfixing
 	\item Testing
 \end{itemize}
 
-\subsection{Revised Plan}
+\section{Revised Plan}
 This sprint we had originally planned to be fixing and polishing the finished product. Due to the issues we had encountered in previous sprints, many of the originally planned tasks were pushed to Sprint 3. Sprint 3 thus became a "finish everything that needs to be finished"-Sprint.
 
-\subsection{Development}
+\section{Development}
 We started development in this sprint by creating the master controller which communicated with the database through the entity framework. It also took care of passing models to the view(s) and handle user requests. This master controller was a MVC-type controller which is mostly used as a prototype and for us to test that the data we submit actually reached the system.
 
-\subsection{Other Work}
+\section{Other Work}
 After creating and finishing the master controller, the final architecture was made to reflect the implementation of the system. We had architectural erosion due to the framework working differently from what we expected.
 
 The first Friday of this sprint we attended a technical writing course organized by the course staff, where we received pointers on writing our report. These included both general tips as well as concrete improvements for our report specifically.
 
 We started to create the documentation for the customer in Doxygen by XML commenting our code (this was done by adding three slashes "///" in front of all the methods). Doxygen read the implemented code and created the documentation document in HTML. 
 
-\subsection{Backlog}
+\section{Backlog}
 Originally we planned to finish the product in Sprint 3. However, we had a lot of issues/problems in both Sprint 1 and 2 so we couldn't start implementing most of the code before Sprint 3.
 
 When the problems were sorted out, we actually got down to implementing and communicate with the database. We created a MVC controller of the assignment so we were able to test database connection, through insert/select and various other SQL commands via the EF. This MVC controller let us check how the implementation works and gave us a better overview of the framework we were using. However the assignment was to create a Web API controller, so we had to convert it.
 
-\subsection{Customer Meeting}
+\section{Customer Meeting}
 We decided to not have a customer meeting for sprint 3 due to our customer representative, Asle, not being physically available. Asle was on a 3 week vacation this period, and we didn't feel it was necessary to go to the trouble of setting up a video conference.
 
 However, we felt that we were in control of the implementation or knew how to fix the issues we had stumbled upon. We didn't have much new to show either, because we were in the middle of implementing the MVC controller.
 
-\subsection{Retrospective}
+\section{Retrospective}
 Sprint 3 was a good Sprint for us, we felt that we finally were able to understand the framework and that we actually were progressing forward. We were able to communicate with the database, modify rows inside tables, insert data into tables etc.
 
 We also figured out how to serve Razor's view files (.cshtml) as web pages through IIS Express by launching the project via VS, and how these views were connected to the controllers. This was enough for us to be able to invoke methods in our controllers, which was heavily used for testing that our written code worked as expected.
