@@ -411,11 +411,12 @@
         </member>
         <member name="T:Webassistenten_ads_api.Controllers.UploadAPI2Controller">
             <summary>
-            Upload API controller.
+            Upload API controller, which is currently not working.
             </summary>
         </member>
         <member name="M:Webassistenten_ads_api.Controllers.UploadAPI2Controller.Upload(Webassistenten_ads_api.Controllers.UploadParameters)">
             <summary>
+            NOTE! Doesn't currently work!
             Accepts a pdf file with an ad, along with the required and optional parameters for ads in an UploadParameters object.
             </summary>
             <returns>An HttpResponseMessage with a status code, and message.</returns>
@@ -525,14 +526,14 @@
         </member>
         <member name="T:Webassistenten_ads_api.Controllers.UploadAPIController">
             <summary>
-            Upload API controller.
+            Upload API controller, which will take an ad in pdf-form and its associated data.
             </summary>
         </member>
         <member name="M:Webassistenten_ads_api.Controllers.UploadAPIController.Upload">
             <summary>
             Accepts a pdf file with an ad, along with the required and optional parameters for ads.<br/>
-            Parameters go in the HTTP-Post Request (MIME-Multipart).<br/>
-            Could potentially accept parameters in object form in the future, but does not do that at the moment due to binding issues in Web API.<br/>
+            Parameters go in the HTTP-Post Request (MIME-Multipart form-data).<br/>
+            Accepts the same parameters as UploadAPIController2, but this one actually works.
             </summary>
         </member>
         <member name="T:Webassistenten_ads_api.WebAssistentAuth">
