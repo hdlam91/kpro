@@ -1,26 +1,25 @@
 \section{Introduction}
 \subsection{Project name - Automatic Import of Completed Ads}
-The project is named \em Automated Importing of Completed Ads\em \ by the \\
-customer; \em Adressavisen AS.\em \ The team is to create a framework for automatic import of real estate ads
-into Adresseavisens internal database and order system.
+The project is named \em Automated Import of Completed Ads\em \ by the \\
+customer; \em Adressavisen AS.\em \ The team is to create a framework for automatic import of real estate ads into Adresseavisen's internal database and order system.
 \subsection{Customer - Adresseavisen AS}
-Adresseavisen is a regional newspaper in Trondheim, Norway. It publishes it's newspaper in Trøndelag and Nordmøre on a daily basis except for Sundays. It is an independent, conservative newspaper with a daily circulation of approximately 85000 NOK. 
+Adresseavisen is a regional newspaper in Trondheim, Norway and the surrounding area. It publishes it's newspaper in Trøndelag and Nordmøre on a daily basis except on Sundays. It is an independent, conservative newspaper with a daily circulation of approximately 85000 NOK. 
 Stocks in Adresseavisen are traded on the Oslo Stock Exchange.\\
 \\
 "In addition to the main newspaper, Adresseavisen owns several smaller local newspapers in the Trøndelag region. They also own and operate a local radio station, Radio-Adressa, and a local TV station, TV-Adressa (prior to 30 January 2006: TVTrøndelag). They also have a stake in the national radio channel Kanal 24. In addition, the newspaper owns the local newspapers Fosna-Folket, Hitra-Frøya, Levanger-Avisa, Sør-Trøndelag, Trønderbladet and Verdalingen." \cite{adressaWiki}
 
 \subsection{Project Purpose}
-The purpose of this project is to create a framework for automated import of complete ads in the form of pdf-files. The pdf-files will be accompanied by data, which shall be added to the database, and used to create an order in Adresseavisens internal order system for ads. This framework will also be able to provide customers with certain information that is to be supplied when they wish to have an ad featured in Adresseavisen, such as available dates and ad-packages.
+The purpose of this project is to create a framework for automated import of complete ads in the form of pdf-files. The pdf-files will be accompanied by data, which shall be added to the database and used to create an order in Adresseavisens internal order system for ads. This framework will also be able to provide customers with certain information that is to be supplied when they wish to have an ad featured in Adresseavisen, such as available dates and ad-packages.
 
-\subsection{Project background}
-Adresseavisen currently uses a system where ads to be featured on website or published in newspapers are created in their internal order system, with the use of one of very many templates. This is very complex and an increasing amount of customers uses their own fully completed ads, in the form of pdf-files.
+\subsection{Project Background}
+Adresseavisen currently uses a system where ads to be featured on their website or published in newspapers are created in their internal order system, with the use of one of very many templates. This is very complex and an increasing amount of customers use their own fully completed ads, in the form of pdf-files.
 
 Adresseavisen now has the need for a system which can automate and simplify the process of receiving these ads into the system, with the purpose of eventually replacing the old system.
 
 \subsection{Problem Description}
 Webassistenten will take a completed ad in the form of a pdf file and save it to the appropiate folder. These folders will have the ID of the customer so that Adressa can easily identify which pdf belongs to which customer.
 
-Webassistenten will require certain data along with the pdf, such as date to publish, module (what kind of format it should be printed as in the newspaper), which newspaper1 it will be printed on (known as product), locations, zip code, zip area, address, responsible Realtor, phone number of Realtor, email etc.  These data will be saved into a database internally in their system. 
+Webassistenten will require certain data along with the pdf, such as date to publish, module type (what kind of format it should be printed as in the newspaper) and which newspaper it will be printed in (known as product). In the case of real estate ads, the required data also includes locations, zip code, zip area, address, responsible realtor, phone number of aforementioned realtor, email etc. These data will be saved into a database internally in their system. 
 
 \subsection{Existing Technology}
 There exist none of similar technology that we are familiar with. The existing most similar technology that Adressa uses today in webassistenten is a little bit different than the product we're developing for them. The webassistenten solution takes the same data as we're required to, but they don't take a .pdf file as input - they take pictures and generates a pdf based on that. The already existing alternative that webassistenten uses isn't as automatic as they would like it to be, and the real estate agents might not get the perfect designed ad in the pdf when webassistenten auto generates it for them.
