@@ -215,6 +215,7 @@
     <Compile Include="Brukerlogg.cs">
       <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
+    <Compile Include="Controllers\UploadAPI2Controller.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\MasterController.cs" />
     <Compile Include="Controllers\DatabaseConnection.cs" />
@@ -406,7 +407,6 @@
     <Compile Include="ProspektHarUtgivelse.cs">
       <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
-    <Compile Include="Repository\GetDatesQuery.cs" />
     <Compile Include="Rolle.cs">
       <DependentUpon>Entity2.tt</DependentUpon>
     </Compile>
@@ -1120,6 +1120,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Repository\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
