@@ -63,8 +63,17 @@ namespace Webassistenten_ads_api.Controllers
 			System.Diagnostics.Debug.Print("RealEstAgentMobile: " + up.RealEstAgentMobile + "\n");
 #endif
 
-            DateTime? OpenHouseDate = (up.OpenHouseDate);
-			DateTime? ConstructionYear = (up.ConstructionYear);// == default(System.DateTime) ? up.ConstructionYear : null);
+			DateTime? OpenHouseDate;
+			if (up.OpenHouseDate != default(System.DateTime)) 
+			{
+				OpenHouseDate = (up.OpenHouseDate);
+			}
+
+			DateTime? ConstructionYear;
+			if (up.ConstructionYear != default(System.DateTime))
+			{
+				ConstructionYear = up.ConstructionYear;
+			}
 
             string FinnCode = up.FinnCode;
 			string ContractNr = up.ContractNr;
@@ -346,13 +355,13 @@ namespace Webassistenten_ads_api.Controllers
 		public DateTime OpenHouseDate { get;  set; }	// Visningdato
 
 		[DataMember]
-		public String OpenHouseText { get;  set; }
+		public string OpenHouseText { get;  set; }
 
 		[DataMember]
-		public String RealEstAgentName { get;  set; }
+		public string RealEstAgentName { get;  set; }
 
 		[DataMember]
-		public String RealEstAgentTitle { get;  set; }
+		public string RealEstAgentTitle { get;  set; }
 
 		[DataMember]
 		public int RealEstAgentMobile { get;  set; }
@@ -361,9 +370,9 @@ namespace Webassistenten_ads_api.Controllers
 		public int RealEstAgentPhone { get;  set; }
 
 		[DataMember]
-		public String RealEstAgentEmail { get;  set; }
+		public string RealEstAgentEmail { get;  set; }
 
 		[DataMember]
-		public String AdText { get;  set; }
+		public string AdText { get;  set; }
 	}
 }
