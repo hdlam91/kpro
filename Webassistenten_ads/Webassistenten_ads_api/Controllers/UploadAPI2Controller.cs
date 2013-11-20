@@ -19,7 +19,6 @@ namespace Webassistenten_ads_api.Controllers
     {
         public static string folder = "~/hdTest/";
 
-		//TODO: Describe required parameters
 		/// <summary>
 		/// Accepts a pdf file with an ad, along with the required and optional parameters for ads in an UploadParameters object.
 		/// </summary>
@@ -231,8 +230,7 @@ namespace Webassistenten_ads_api.Controllers
    	
 	/// <summary>
 	/// This class contains all the parameters needed for the Upload method.
-	/// It's to be used as input for that method if the method can be 
-	/// properly configured to accept a class as parameter WITH values intact.
+	/// Its purpose is input for that method.
 	/// </summary>
 	[DataContract]
 	[Serializable]
