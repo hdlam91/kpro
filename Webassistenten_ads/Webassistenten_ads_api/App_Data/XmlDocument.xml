@@ -409,6 +409,24 @@
             <returns>The documentation.</returns>
             <param name="actionDescriptor">Action descriptor.</param>
         </member>
+        <member name="T:Webassistenten_ads_api.Controllers.UploadAPI2Controller">
+            <summary>
+            Upload API controller.
+            </summary>
+        </member>
+        <member name="M:Webassistenten_ads_api.Controllers.UploadAPI2Controller.Upload(Webassistenten_ads_api.Controllers.UploadParameters)">
+            <summary>
+            Accepts a pdf file with an ad, along with the required and optional parameters for ads in an UploadParameters object.
+            </summary>
+            <returns>An HttpResponseMessage with a status code, and message.</returns>
+        </member>
+        <member name="T:Webassistenten_ads_api.Controllers.UploadParameters">
+            <summary>
+            This class contains all the parameters needed for the Upload method.
+            It's to be used as input for that method if the method can be 
+            properly configured to accept a class as parameter WITH values intact.
+            </summary>
+        </member>
         <member name="M:Webassistenten_ads_api.Controllers.MasterController.Index">
             <summary>
             Index method for login/identifying
@@ -511,18 +529,11 @@
             Upload API controller.
             </summary>
         </member>
-        <member name="M:Webassistenten_ads_api.Controllers.UploadAPIController.Upload(Webassistenten_ads_api.Controllers.UploadParameters)">
+        <member name="M:Webassistenten_ads_api.Controllers.UploadAPIController.Upload">
             <summary>
             Accepts a pdf file with an ad, along with the required and optional parameters for ads.<br/>
             Parameters go in the HTTP-Post Request (MIME-Multipart).<br/>
             Could potentially accept parameters in object form in the future, but does not do that at the moment due to binding issues in Web API.<br/>
-            </summary>
-        </member>
-        <member name="T:Webassistenten_ads_api.Controllers.UploadParameters">
-            <summary>
-            This class contains all the parameters needed for the Upload method.
-            It's to be used as input for that method if the method can be 
-            properly configured to accept a class as parameter WITH values intact.
             </summary>
         </member>
         <member name="T:Webassistenten_ads_api.WebAssistentAuth">

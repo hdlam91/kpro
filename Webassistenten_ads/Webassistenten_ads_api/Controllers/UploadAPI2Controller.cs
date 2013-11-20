@@ -64,8 +64,8 @@ namespace Webassistenten_ads_api.Controllers
 			System.Diagnostics.Debug.Print("RealEstAgentMobile: " + up.RealEstAgentMobile + "\n");
 #endif
 
-            DateTime? OpenHouseDate = (up.OpenHouseDate == default(System.DateTime) ? up.OpenHouseDate : null);
-			DateTime? ConstructionYear = (up.ConstructionYear == default(System.DateTime) ? up.ConstructionYear : null);
+            DateTime? OpenHouseDate = (up.OpenHouseDate);
+			DateTime? ConstructionYear = (up.ConstructionYear);// == default(System.DateTime) ? up.ConstructionYear : null);
 
             string FinnCode = up.FinnCode;
 			string ContractNr = up.ContractNr;
@@ -79,7 +79,7 @@ namespace Webassistenten_ads_api.Controllers
 			int AmountSharedDebt = up.AmountSharedDebt;
 			int CommonExpenses = up.CommonExpenses;
 			int PropertyArea = up.PropertyArea;
-			string PropertyType = up.PropertyType;
+			string PropertyType = up.PropertyType.ToString();
 			int Floor = up.Floor;
 			int Bedrooms = up.Bedrooms;
 			int Rooms = up.Rooms;
@@ -145,7 +145,7 @@ namespace Webassistenten_ads_api.Controllers
                         	p.Adresse = Address;
                         	p.DatoReg = DateTime.Now;
                         	p.Omraade = Area;
-							p.BoligtypeID = Type;
+							p.BoligtypeID = (byte)Type;
 
                         	p.FinnKode = FinnCode;
                         	p.Oppdragsnr = ContractNr;
@@ -294,22 +294,22 @@ namespace Webassistenten_ads_api.Controllers
 		// Non-mandatory fields below:
 
 		[DataMember]
-		public int FinnCode { get;  set; }
+		public string FinnCode { get;  set; }
 
 		[DataMember]
-		public int ContractNr { get;  set; }
+		public string ContractNr { get;  set; }
 
 		[DataMember]
-		public float P_Rom { get;  set; }
+		public long P_Rom { get;  set; }
 
 		[DataMember]
-		public float Boa { get;  set; }
+		public long Boa { get;  set; }
 
 		[DataMember]
-		public float Bta { get;  set; }
+		public long Bta { get;  set; }
 
 		[DataMember]
-		public float Bra { get;  set; }
+		public long Bra { get;  set; }
 
 		[DataMember]
 		public int Costs { get;  set; }
