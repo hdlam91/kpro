@@ -4,23 +4,17 @@
 The time frame for Sprint 3 was week 42 and 43. We started the sprint on October 14th with a weekly supervisor meeting, followed by a sprint plan meeting. We finished the sprint on October 25th with a sprint review meeting.
 
 \subsection{Original Plan}
-From our Work Breakdown Structure:
+From our Work Breakdown Structure, we had the following tasks planned for this sprint:
 \begin{itemize}
-	\item Database communication interface
-	\item Version control system
 	\item Bugfixing
 	\item Testing
 \end{itemize}
 
 \subsection{Revised Plan}
-At the sprint plan meeting, we planned the following for this sprint:
-\begin{itemize}
-	\item None
-\end{itemize}
-We had originally planned to be fixing and polishing the finished product, but due to the issues we encountered many of the original planned tasks were pushed to Sprint 3. Sprint 3 thus became a "finish everything that needs to be finished"-Sprint.
+This sprint we had originally planned to be fixing and polishing the finished product. Due to the issues we had encountered in previous sprints, many of the originally planned tasks were pushed to Sprint 3. Sprint 3 thus became a "finish everything that needs to be finished"-Sprint.
 
 \subsection{Development}
-We created the master controller which communicated with the database through the entity framework, it also took care of passing models to the view(s) and handle user request. This master controller was a MVC-type controller which is mostly used as a prototype and for us to test that the data we submit actually reached the system.
+We started development in this sprint by creating the master controller which communicated with the database through the entity framework. It also took care of passing models to the view(s) and handle user requests. This master controller was a MVC-type controller which is mostly used as a prototype and for us to test that the data we submit actually reached the system.
 
 \subsection{Other Work}
 After creating and finishing the master controller, the final architecture was made to reflect the implementation of the system. We had architectural erosion due to the framework working differently from what we expected.
@@ -34,9 +28,11 @@ Originally we planned to finish the product in Sprint 3, however the we had a lo
 
 
 \subsection{Customer Meeting}
-We decided to not have a customer meeting for sprint 3 due to our customer Asle not being physically available. Asle was on a 3 weeks vacation in Spain for this period, and we didn't feel the necessity to go to the trouble of setting up a video conference.
-However we felt that we had control of the implementation or knew how to fix the issues we stumbled upon. We didn't have much to show either, because we were in the middle of implementing the MVC controller.
+We decided to not have a customer meeting for sprint 3 due to our customer representative, Asle, not being physically available. Asle was on a 3 week vacation this period, and we didn't feel it was necessary to go to the trouble of setting up a video conference.
+
+However, we felt that we were in control of the implementation or knew how to fix the issues we had stumbled upon. We didn't have much new to show either, because we were in the middle of implementing the MVC controller.
 
 \subsection{Retrospective}
-Sprint 3 was a good Sprint for us, we felt that we actually was able to understand the framework and that we actually progressed forward. We was able to communicate with the database, modify rows inside tables, insert data into tables etc.
-We also figured out how to serve view (.cshtml) files as webpages through the IIS express by launching the project via VS, and how these views were connected to the controllers. This was enough for us to be able to invoke methods in our controllers, which was heavily used for testing that our written code worked as expected.
+Sprint 3 was a good Sprint for us, we felt that we finally were able to understand the framework and that we actually were progressing forward. We were able to communicate with the database, modify rows inside tables, insert data into tables etc.
+
+We also figured out how to serve Razor's view files (.cshtml) as web pages through IIS Express by launching the project via VS, and how these views were connected to the controllers. This was enough for us to be able to invoke methods in our controllers, which was heavily used for testing that our written code worked as expected.
