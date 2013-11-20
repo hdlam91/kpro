@@ -299,43 +299,43 @@ namespace Webassistenten_ads_api.Controllers
 	[Serializable]
 	public class UploadParameters
 	{
-		[DataMember]
+		[DataMember(IsRequired=true)]
 		[Required(ErrorMessage = "Product ID is required.")]
 		public int ProductId { get;  set; }
 
-		[DataMember]
+		[DataMember(IsRequired=true)]
         [Required(ErrorMessage = "Module ID is required.")]
 		public int ModuleId { get;  set; } 
 
-		[DataMember]
+		[DataMember(IsRequired=true)]
 		[Required(ErrorMessage = "Realtor ID is required.")]
 		public int RealtorId {get;  set; }
 
-		[DataMember]
+		[DataMember(IsRequired=true)]
 		[Required(ErrorMessage = "Responsible Realtor is required.")]
 		public string ResponsibleRealtor { get;  set; }
 
-		[DataMember]
+		[DataMember(IsRequired=true)]
 		[Required(ErrorMessage = "Area is required.")]
 		public string Area { get;  set; }
 
-		[DataMember]
+		[DataMember(IsRequired=true)]
 		[Required(ErrorMessage = "Type is required.")]
 		public int Type { get;  set; }
 
-		[DataMember]
+		[DataMember(IsRequired=true)]
 		[Required(ErrorMessage = "Price is required.")]
 		public int Price { get;  set; }
 
-		[DataMember]
+		[DataMember(IsRequired=true)]
 		[Required(ErrorMessage = "Location is required.")]
 		public string Location { get;  set; }
 
-		[DataMember]
+		[DataMember(IsRequired=true)]
 		[Required(ErrorMessage = "Headline is required.")]
 		public string Headline { get;  set; }
 
-		[DataMember]
+		[DataMember(IsRequired=true)]
 		[Required(ErrorMessage = "Address is required.")]
 		public string Address { get;  set; }
 
