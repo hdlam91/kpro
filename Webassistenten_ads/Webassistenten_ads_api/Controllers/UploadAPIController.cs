@@ -7,6 +7,7 @@ using System.Net;
 using System.Net.Http;
 using System.Web.Http;
 using System.ComponentModel.DataAnnotations;
+using System.Runtime.Serialization;
 
 
 namespace Webassistenten_ads_api.Controllers
@@ -20,25 +21,13 @@ namespace Webassistenten_ads_api.Controllers
 
 		//TODO: Describe required parameters
 		/// <summary>
-		/// <para>Accepts a pdf file with an ad, along with the required and optional parameters for ads.</para>
-		/// <para>Parameters go in the HTTP-Post Request (MIME-Multipart).</para>
-		/// <para>Could potentially accept parameters in object form in the future, but does not do that at the moment due to binding issues in Web API.<br/></para>
-        /// <param name="ProductId"><br>ProductId Required</br></param>
-		/// <param name="ModuleId">Required</param>
-		/// <param name="ResponsibleRealtor">Required</param>
-		/// <param name="Area">Required</param>
-		/// <param name="Type">Required</param>
-		/// <param name="Price">Required</param>
-		/// <param name="Location">Required</param>
-		/// <param name="Headline">Required</param>
-		/// <param name="Address">Required</param>
-		/// <param name="ZipCode">Required</param>
-		/// <param name="ZipArea">Required</param>
-		/// <param name="BookingDate">Required</param>
+		/// Accepts a pdf file with an ad, along with the required and optional parameters for ads.<br/>
+		/// Parameters go in the HTTP-Post Request (MIME-Multipart).<br/>
+		/// Could potentially accept parameters in object form in the future, but does not do that at the moment due to binding issues in Web API.<br/>
 		/// </summary>
 
         [HttpPost]
-        public HttpResponseMessage Upload(/*UploadParameters up*/)
+        public HttpResponseMessage Upload(/*[FromBody]UploadParameters up*/)
         {
             //initialize
             int ProductId;
@@ -150,7 +139,7 @@ namespace Webassistenten_ads_api.Controllers
             }
             else
             {
-                return Request.CreateResponse(HttpStatusCode.BadRequest, "email is not valid.");
+                return Request.CreateResponse(HttpStatusCode.BadRequest, "Email is not valid.");
             }
 
             string AdText = System.Web.HttpContext.Current.Request.Params["AdText"];
@@ -307,97 +296,137 @@ namespace Webassistenten_ads_api.Controllers
 	/// It's to be used as input for that method if the method can be 
 	/// properly configured to accept a class as parameter WITH values intact.
 	/// </summary>
+	[DataContract]
+	[Serializable]
 	public class UploadParameters
 	{
-        [Required]
+		[DataMember]
+		[Required(ErrorMessage = "Product ID is required.")]
 		public int ProductId { get;  set; }
-		
+
+		[DataMember(ErrorMessage = "Module ID is required.")]
 		[Required]
 		public int ModuleId { get;  set; } 
 
-		[Required]
+		[DataMember]
+		[Required(ErrorMessage = "Realtor ID is required.")]
 		public int RealtorId {get;  set; }
-				
-		[Required]
+
+		[DataMember]
+		[Required(ErrorMessage = "Responsible Realtor is required.")]
 		public string ResponsibleRealtor { get;  set; }
-		
-		[Required]
+
+		[DataMember]
+		[Required(ErrorMessage = "Area is required.")]
 		public string Area { get;  set; }
-		
-		[Required]
+
+		[DataMember]
+		[Required(ErrorMessage = "Type is required.")]
 		public int Type { get;  set; }
-		
-		[Required]
+
+		[DataMember]
+		[Required(ErrorMessage = "Price is required.")]
 		public int Price { get;  set; }
-		
-		[Required]
+
+		[DataMember]
+		[Required(ErrorMessage = "Location is required.")]
 		public string Location { get;  set; }
-		
-		[Required]
+
+		[DataMember]
+		[Required(ErrorMessage = "Headline is required.")]
 		public string Headline { get;  set; }
-		
-		[Required]
-		public string Adress { get;  set; }
-		
-		[Required]
+
+		[DataMember]
+		[Required(ErrorMessage = "Address is required.")]
+		public string Address { get;  set; }
+
+		[DataMember]
+		[Required(ErrorMessage = "ZipCode is required.")]
 		public int ZipCode { get;  set; }
-		
-		[Required]
+
+		[DataMember]
+		[Required(ErrorMessage = "ZipArea is required.")]
 		public string ZipArea { get;  set; }
-		
-		[Required]
+
+		[DataMember]
+		[Required(ErrorMessage = "Booking Date is required.")]
 		public DateTime BookingDate { get;  set; }
 		
 		// Non-mandatory fields below:
-		
-		public int? FinnCode { get;  set; }
-		
-		public int? ContractNr { get;  set;}
-		
-		public float? P_Rom { get;  set; }
-		
-		public float? Boa { get;  set; }
-		
-		public float? Bta { get;  set; }
-		
-		public float? Bra { get;  set; }
-		
-		public int? Costs { get;  set; }
-		
-		public int? PurchaseCosts { get;  set; }
-		
-		public int? CommonCosts { get;  set; }
-		
-		public int? AmountSharedDebt { get;  set; }
-		
-		public int? CommonExpenses { get;  set; }
-		
-		public int? PropertyArea { get;  set; }
-		
-		public int? PropertyType { get;  set; }
-		
-		public DateTime? ConstructionYear { get;  set; }
-		
-		public int? Floor { get;  set; }
-		
-		public int? Bedrooms { get;  set; }
-		
-		public int? Rooms { get;  set; }
-		
-		public DateTime? OpenHouseDate { get;  set; }	// Visningdato
-		
-		public String OpenHouseText { get;  set; }	// TODO: Consider better representation than String
-		
+
+		[DataMember]
+		public int FinnCode { get;  set; }
+
+		[DataMember]
+		public int ContractNr { get;  set; }
+
+		[DataMember]
+		public float P_Rom { get;  set; }
+
+		[DataMember]
+		public float Boa { get;  set; }
+
+		[DataMember]
+		public float Bta { get;  set; }
+
+		[DataMember]
+		public float Bra { get;  set; }
+
+		[DataMember]
+		public int Costs { get;  set; }
+
+		[DataMember]
+		public int PurchaseCosts { get;  set; }
+
+		[DataMember]
+		public int CommonCosts { get;  set; }
+
+		[DataMember]
+		public int AmountSharedDebt { get;  set; }
+
+		[DataMember]
+		public int CommonExpenses { get;  set; }
+
+		[DataMember]
+		public int PropertyArea { get;  set; }
+
+		[DataMember]
+		public int PropertyType { get;  set; }
+
+		[DataMember]
+		public DateTime ConstructionYear { get;  set; }
+
+		[DataMember]
+		public int Floor { get;  set; }
+
+		[DataMember]
+		public int Bedrooms { get;  set; }
+
+		[DataMember]
+		public int Rooms { get;  set; }
+
+		[DataMember]
+		public DateTime OpenHouseDate { get;  set; }	// Visningdato
+
+		[DataMember]
+		public String OpenHouseText { get;  set; }
+
+		[DataMember]
 		public String RealEstAgentName { get;  set; }
-		
+
+		[DataMember]
 		public String RealEstAgentTitle { get;  set; }
-		
-		public int? RealEstAgentMobile { get;  set; }
-		
-		public int? RealEstAgentPhone { get;  set; }
-		
+
+		[DataMember]
+		public int RealEstAgentMobile { get;  set; }
+
+		[DataMember]
+		public int RealEstAgentPhone { get;  set; }
+
+		[DataMember]
 		public String RealEstAgentEmail { get;  set; }
-		
-		public String AdText { get;  set; }	// Is this the best representation for the text?
+
+		[DataMember]
+		public String AdText { get;  set; }
 	}
 }
