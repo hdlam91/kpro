@@ -115,58 +115,60 @@ namespace Webassistenten_ads_api.Controllers
                     return RedirectToAction("Fail");
                 file.SaveAs(path);
                 //the file uploaded was in fact a pdf and everything is ok! Now let's do some db stuff
-                BoligEntities1 db = new BoligEntities1();
-                Prospekt p = new Prospekt();
-                ProspektHarBestilling phb = new ProspektHarBestilling();
+                using (BoligEntities1 db = new BoligEntities1())
+                {
+
+                    Prospekt p = new Prospekt();
+                    ProspektHarBestilling phb = new ProspektHarBestilling();
+
+                    p.Omraade = Location;
+                    p.Postnr = ZipCode.ToString();
+                    p.Poststed = ZipArea;
+                    p.BBOverskrift = Headline;
+                    p.Pris = Price;
+                    p.Adresse = Address;
+                    p.DatoReg = DateTime.Now;
+                    p.Omraade = Area;
+                    p.BoligtypeID = (byte)Type;
+
+                    p.FinnKode = FinnCode;
+                    p.Oppdragsnr = ContractNr;
+                    p.PROM = P_rom;
+                    p.BOA = Boa;
+                    p.BTA = Bta;
+                    p.BRUA = Bra; //antas at BRA skal være brua?
+                    p.Omkostninger = Costs;
+                    p.Kjopsomkostninger = PurchaseCosts;
+                    p.FellesInnskudd = AmountSharedDebt;//felleskostnad, finnes ikke i db.
+                    p.Fellesgjeld = AmountSharedDebt;
+                    p.Fellesutgifter = CommonExpenses;
+                    p.Tomteareal = PropertyArea;
+                    p.Tomtetype = PropertyType;
+                    p.Byggeaar = ConstructionYear.ToString();
+                    p.Etasje = (byte)Floor;
+                    p.Soverom = (short)Bedrooms;
+                    p.Rom = (short)Rooms;
+                    p.VisningFra = OpenHouseDate;
+                    p.Visning = OpenHouseText;
+                    p.Megler = ResponsibleRealtor;
+                    p.MeglerTittel = RealEstAgentTitle;
+                    p.MeglerTlfMobil = RealEstAgentMobile.ToString();
+                    p.MeglerTlf = RealEstAgentPhone.ToString();
+                    p.MeglerEmail = RealEstAgentEmail;
+                    p.Annonsetekst = AdText;
 
 
-                p.Omraade = Location;
-                p.Postnr = ZipCode.ToString();
-                p.Poststed = ZipArea;
-                p.BBOverskrift = Headline;
-                p.Pris = Price;
-                p.Adresse = Address;
-                p.DatoReg = DateTime.Now;
-                //p.Tomteareal = Area;
-                //p.Tomtetype = Type;
+                    db.Prospekts.Add(p);
+                    db.SaveChanges();//this ensures that we get a prospektId to be used in prospektharbestilling
+                    phb.ProspektID = p.ProspektID;
+                    phb.DatoBest = BookingDate;
+                    phb.Filnavn = path;
+                    phb.ProduktID = (byte)ProductId;
 
-                p.FinnKode = FinnCode;
-                p.Oppdragsnr = ContractNr;
-                p.PROM = P_rom;
-                p.BOA = Boa;
-                p.BTA = Bta;
-                p.BRUA = Bra; //antas at BRA skal være brua?
-                p.Omkostninger = Costs;
-                p.Kjopsomkostninger = PurchaseCosts;
-                p.FellesInnskudd = AmountSharedDebt;//felleskostnad, finnes ikke i db.
-                p.Fellesgjeld = AmountSharedDebt;
-                p.Fellesutgifter = CommonExpenses;//WHAAAT?
-                p.Tomteareal = PropertyArea;
-                p.Tomtetype = PropertyType;
-                p.Byggeaar = ConstructionYear.ToString();
-                p.Etasje = (byte)Floor;
-                p.Soverom = (short)Bedrooms;
-                p.Rom = (short)Rooms;
-                p.VisningFra = OpenHouseDate;
-                p.Visning = OpenHouseText;
-                p.Megler = ResponsibleRealtor;
-                p.MeglerTittel = RealEstAgentTitle;
-                p.MeglerTlfMobil = RealEstAgentMobile.ToString();
-                p.MeglerTlf = RealEstAgentPhone.ToString();
-                p.MeglerEmail = RealEstAgentEmail;
-                p.Annonsetekst = AdText;
-
-
-                db.Prospekts.Add(p);
-                db.SaveChanges();//this ensures that we get a prospektId to be used in prospektharbestilling
-                phb.ProspektID = p.ProspektID;
-                phb.DatoBest = BookingDate;
-                phb.Filnavn = path;
-                phb.ProduktID = (byte)ProductId;
-
-                phb.ModulID = ModuleId;
-                db.ProspektHarBestillings.Add(phb);
-                db.SaveChanges();
+                    phb.ModulID = ModuleId;
+                    db.ProspektHarBestillings.Add(phb);
+                    db.SaveChanges();
+                }
                 return RedirectToAction("Success");
 
             }

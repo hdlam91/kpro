@@ -41,6 +41,7 @@ namespace Webassistenten_ads_api.Controllers
             int ZipCode;
             string ZipArea;
             DateTime BookingDate;
+            int PartnerId;
             try
             {
                 ProductId = int.Parse(System.Web.HttpContext.Current.Request.Params["ProductId"]);
@@ -54,6 +55,7 @@ namespace Webassistenten_ads_api.Controllers
                 Address = checkString(System.Web.HttpContext.Current.Request.Params["Address"]);
                 ZipCode = int.Parse(System.Web.HttpContext.Current.Request.Params["ZipCode"]);
                 ZipArea = checkString(System.Web.HttpContext.Current.Request.Params["ZipArea"]);
+                PartnerId = int.Parse(System.Web.HttpContext.Current.Request.Params["PartnerId"]);
                 BookingDate = DateTime.ParseExact(System.Web.HttpContext.Current.Request.Params["BookingDate"], "dd.mm.yyyy", new CultureInfo("nb-NO"), DateTimeStyles.None);// 01.06.2009 04:37:
             }
             catch (FormatException a)
@@ -181,7 +183,9 @@ namespace Webassistenten_ads_api.Controllers
                         	
 							Prospekt p = new Prospekt();
                         	ProspektHarBestilling phb = new ProspektHarBestilling();
-							                        
+
+                            p.PartnerID = (byte)PartnerId;
+                            p.StatusID = 0;
                         	p.Omraade = Location;
                         	p.Postnr = ZipCode.ToString();
                         	p.Poststed = ZipArea;
@@ -189,8 +193,8 @@ namespace Webassistenten_ads_api.Controllers
                         	p.Pris = Price;
                         	p.Adresse = Address;
                         	p.DatoReg = DateTime.Now;
-                        	//p.Tomteareal = Area;
-                        	//p.Tomtetype = Type;
+                        	p.Omraade = Area;
+                            p.BoligtypeID = (byte)Type;
 
                         	p.FinnKode = FinnCode;
                         	p.Oppdragsnr = ContractNr;
