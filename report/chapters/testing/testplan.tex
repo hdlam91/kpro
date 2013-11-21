@@ -6,7 +6,8 @@ This chapter will describe the methods used for testing the requirements, the re
 \section{Testplan}
 
 Due to the nature of the technology we used in the product, we judged TDD or Unit Testing to be unsuitable for our project. The reasoning behind this
-is that our unfamiliarity with WebAPI, as well as the products limited modularity \ref{subsec:webapiimpl} on page \pageref{subsec:webapiimpl}, meant that it would be hard to write good Unit Tests that tested functionality and errors sufficiently. Instead we focused on writing clean, readable code, with subsequent high level testing of entire modules at once.\\
+is that our unfamiliarity with WebAPI, as well as the products limited modularity (see \ref{subsec:webapiimpl} on page \pageref{subsec:webapiimpl}), meant that it would be hard to write good Unit Tests that tested functionality and errors sufficiently. Instead we focused on writing clean, readable code, with subsequent high level testing of entire modules at once.
+
 The test plan consisted of testing module functionality, and when modules functioned according to specifications, testing the system as a whole with all currently
 implemented modules.
 
@@ -16,7 +17,7 @@ As discussed in the previous section, TDD and Unit Testing was deemed unsuitable
 followed by integration testing of modules once they completed individual tests. All of the tests of modules and higher levels were done by the person that completed it
 in cooperation with another team member, for independent oversight and checking. Tests were done manually, following the specifications for each module or the overall system
 specification, as appropriate.
-\\
+
 The main testing sequence consisted of first testing of method logic in the IDE itself for each method once completed, by examining the state and output during runtime.
 The next part consisted of testing a each module as they were completed, and the final part was the overall system test for each phase of the product implementation.
 
