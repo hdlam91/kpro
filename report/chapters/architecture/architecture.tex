@@ -17,7 +17,7 @@ The course staff wants a clear and well-documented architecture that is easy to 
 
 
 \section{Quality Attributes}
-The customer was very specific when it came to what they wanted when it came down to the product, they didn't specify any quality attributes but we could deduce the most common ones which we felt needed to be a part of the Quality attributes in our implementation, the following was deduced: Modifiability, Performance, Availability, Interoperability and Readability. 
+The customer was very specific when it came to what they wanted when it came to the product. They didn't specify any quality attributes but we could deduce the most common ones that we felt needed to be a part of the Quality attributes of our implementation. The following were deduced: Modifiability, Performance, Availability, Interoperability and Readability. 
 
 \subsection{Modifiability}
 While we were the create the solution for real estate ads specifically, the solution will be used for other ads as well. Therefore we need to make it modifiable so that other developers later on can further develop using our solution as a base.
@@ -36,38 +36,38 @@ The customer wanted us to write readable code. They requested that we used polym
 
 
 \section{Views}
-Views are a way to display the implementation of a system by showing separate points of view associated with the various stakeholder concerns. We've tried to follow the 4+1 architectural view \footnote{\href{http://en.wikipedia.org/wiki/4+1_Architectural_View_Model}{http://en.wikipedia.org/wiki/4+1\_architectural\_view\_model}}
-\subsection{Process view}
-When we started out by designing the architecture we didn't know how the information flow was supposed to be and thereby didn't make a process view for the system. We also did not know how the internal system of Adressa works and how the processes in their system inter-operate. However we did create a new architecture to reflect on the changes we made during the project. 
+Views are a way to display the implementation of a system by showing separate points of view associated with the various stakeholder concerns. We've tried to follow the \emph{4+1 architectural views} model.\footnote{\href{http://en.wikipedia.org/wiki/4+1_Architectural_View_Model}{http://en.wikipedia.org/wiki/4+1\_architectural\_view\_model}}
+\subsection{Process View}
+When we started out by designing the architecture, we didn't know how the information flow was supposed to be, and therefore didn't create a process view for the system. We also did not know how the internal system of Adressa works and how the processes in their system inter-operate. However we did create a new architecture to reflect on the changes we made during the project. 
 
-\subsection{Logical view}
+\subsection{Logical View}
 The logical view concerns the functionality the system provides by displaying it as a high level structure that shows how the components interact with each other. The logical view is usually a class diagram or sequence diagram. We've decided to use a class diagram because it's easier to see how the classes interact with each other and implement. Our logical view is based on the pattern Pipe and filter\footnote{\href{http://en.wikipedia.org/wiki/Pipeline_(software)}{http://en.wikipedia.org/wiki/Pipeline\_(software)}} due to the requirement of modifiability.
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.8\textwidth]{images/architecture00.png}
-\caption{Logical view}
+\caption{Logical View}
 \label{fig:logical_view}
 \end{figure}
 
 
-\subsection{Scenario view}
+\subsection{Scenario View}
 This view is also known as a use case view, which basically shows an example of an imagined and expected use of the system. The main purpose of this view is to show how the objects (in this case a client or a person) interacts with the processes and system.
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.8\textwidth]{images/architecture01.png}
-\caption{Scenario view}
+\caption{Scenario View}
 \label{fig:scenario_view}
 \end{figure}
 
 
 
 
-\subsection{Physical view}
+\subsection{Physical View}
 The physical view shows how the physical components interacts with each other.
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.8\textwidth]{images/architecture02.png}
-\caption{Physical view}
+\caption{Physical View}
 \caption*{We are to implement the bold arrows}
 \label{fig:physical_view}
 \end{figure}
@@ -81,7 +81,7 @@ From these views, we made this class diagram as a first draft of how we felt the
 \label{fig:class_diagram}
 \end{figure}
 \section{Patterns}
-Due to the project being a MVC.NET and Web API application we decided to use MVC pattern because the project might have this pattern built in already, we also wanted a pipe \& filter to filter the data and to satisfy the modifiability requirement.
+Due to the project being a MVC.NET and Web API application we decided to use MVC pattern because the project might have this pattern built in already. We also wanted to use Pipe \& Filter to filter the data and to satisfy the modifiability requirement.
 
 \section{Tactics}
 Architectural tactics are common strategies used to achieve the quality attributes required. These tactics should be kept in the back of ones head when developing this product.
@@ -113,7 +113,7 @@ Architectural tactics are common strategies used to achieve the quality attribut
 \end{itemize}
 
 \section{Changes to the architecture}
-When we started to implement the system we quickly found out that the we had architectural erosion because the architecture we designed in the start didn't fit well into the web api framework. After we got an overview of the system we had change the architecture to a MVC pattern. 
+When we started to implement the system we quickly found out that the we had architectural erosion because the architecture we designed in the start didn't fit well into the Web API framework. After we got an overview of the system we had to change the architecture to a MVC pattern. 
 \begin{figure}[H]
 \centering
 \includegraphics[width=0.8\textwidth]{images/architecture03_revised1.png}
