@@ -24,10 +24,10 @@ with this technology, so we postponed the implementation until late in the devel
 of failure during this implementation.
 
 Web API turned out to be a bit lacking in modularity, so it limited our ability to implement the non-functional requirement of modifiability. There were few meaningful ways to implement
-polymorphy and interfaces in the code; most possibilities were redundant or trivial when knowledge of Web APIs design and purpose i taken into account. That is to say that any meaningful
+polymorphism and interfaces in the code; most possibilities were redundant or trivial when knowledge of Web APIs design and purpose is taken into account. That is to say that any meaningful
 modifications will have to be done to Web API itself, and not to the product. The product does fullfill criteria for modifiability as such, when the use of Web API is taken into account;
 however that was not a consequence of any design or effort on our part, merely a by-product of following the functional requirement of Web API implementation and use.
 
 Our implementation mostly follows the specifications for Web API, except for one method which does not follow best practice due to issues with Web APIs automatic argument parsing and model binding.
 As a result, that method implementation and the function it fulfills is slightly fragile, and harder to maintain. It was however neccessary in order to achieve the desired function at all, and still
-keep the much more important attribute of outward simplicity and ease of testing. Any other solution would most likely have sacrificed the atomicity of the function, which would have complicated testing a great deal, and introduced new sources for bugs. Further discussion on that can be found in the issues section\ref{subsubsec:webapiissues}.
+keep the much more important attribute of outward simplicity and ease of testing. Any other solution would most likely have sacrificed the atomicity of the function, which would have complicated testing a great deal, and introduced new sources for bugs. Further discussion on that can be found in the issues section \ref{subsubsec:webapiissues} on page \pageref{subsubsec:webapiissues}.
